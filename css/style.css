@@ -23,6 +23,7 @@
   .header-title {
     font-size: 70px;
     text-align: center;
+    font-family: 'Times New Roman', Times, serif;
   }
 
   footer {
@@ -30,4 +31,7 @@
     padding: 3px;
     background-color: rgb(233, 173, 152);
     color: white;
+  }
+  a {
+    text-decoration: none;
   }
