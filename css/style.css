@@ -6,3 +6,84 @@
  *    for example: General styles, Navigation styles, Hero styles, Footer etc.
  * 
  */
+
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: #333;
+    font-family: 'Lato', sans-serif;
+    color: #333;
+    line-height: 1.6;
+    text-align: center;
+
+}
+
+
+h1 {
+    color: #ffffff;
+    font-size: 4rem;
+    text-align: center;
+}
+
+h2 {
+    color: #ffffff;
+    text-align: center;
+    margin: 2rem 0;
+}
+
+p {
+    color: #fff;
+    margin: 0 20rem;
+    line-height: 1.6;
+    text-align: center;
+}
+
+p,
+.welcome {
+    margin-bottom: 2rem;
+}
+
+i {
+    color: gold;
+}
+
+
+img {
+    width: 300px;
+    height: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 8px;
+}
+
+hr {
+    margin-bottom: 3rem;
+    ;
+}
+
+a {
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+    text-decoration: none;
+    margin-bottom: 2rem;
+
+}
+
+a:hover {
+    color: gold;
+}
+
+footer {
+    background-color: black;
+
+}
