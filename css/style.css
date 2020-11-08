@@ -15,7 +15,6 @@
   }
   body {
     font-family: Arial, Helvetica, sans-serif;
-    background: rgb(211, 190, 206);
   }
   .header {
     text-align: center;
@@ -24,6 +23,30 @@
     font-size: 70px;
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
+  }
+  main {
+    
+  }
+
+  .article:nth-child(1){
+    color: rgb(75, 37, 45);
+    border: 2px solid chartreuse;
+    padding: 20px;
+    background: coral;
+  }
+
+  .article:nth-child(2){
+    color: rgb(232, 243, 243);
+    border: 2px solid chartreuse;
+    padding: 20px;
+    background: rgb(101, 91, 194);
+  }
+
+  .article:nth-child(3){
+    color: rgb(232, 243, 243);
+    border: 2px solid chartreuse;
+    padding: 20px;
+    background: rgb(66, 156, 89);
   }
 
   footer {
