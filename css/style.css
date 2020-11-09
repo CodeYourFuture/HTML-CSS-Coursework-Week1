@@ -6,3 +6,10 @@
  *    for example: General styles, Navigation styles, Hero styles, Footer etc.
  * 
  */
+
+
+ /* General Styling */
+body{
+  font-family: 'Raleway', sans-serif;
+  background-color: #fce7d2;
+}
