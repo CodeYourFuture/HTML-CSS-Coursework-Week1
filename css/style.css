@@ -6,8 +6,14 @@
  *    for example: General styles, Navigation styles, Hero styles, Footer etc.
  * 
  */
+header{
+    background-color: cyan;
+}
 
- body {
+nav{
+    background-color: yellow;
+}
+body {
 background-color: brown;
 
  }
@@ -15,3 +21,9 @@ background-color: brown;
  article {
  background-color: whitesmoke ;
  }
+section {
+    background-color: pink;
+}
+footer{
+    background-color: green;
+}
