@@ -40,6 +40,32 @@ h2 {
     margin: 2rem 0;
 }
 
+nav ul {
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    margin: 1rem;
+
+
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    margin: 0 2rem;
+    cursor: pointer;
+}
+
+nav ul li a:hover {
+    color: gold;
+    border-bottom: 3px solid gold;
+
+
+
+}
+
 p {
     color: #fff;
     margin: 0 10rem;
