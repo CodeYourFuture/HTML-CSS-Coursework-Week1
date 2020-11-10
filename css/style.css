@@ -14,7 +14,11 @@ header{
 
 nav{
     background-color: yellow;
+     padding: 0px 20px 0px 20px;
+      margin: 5px 10px 5px 10px;
+       font-family: cursive, noto, Lucida Sans, Arial;
 }
+       
 body {
 background-color: brown;
 
