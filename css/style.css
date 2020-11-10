@@ -6,3 +6,12 @@
  *    for example: General styles, Navigation styles, Hero styles, Footer etc.
  * 
  */
+
+ body {
+background-color: brown;
+
+ }
+
+ article {
+ background-color: whitesmoke ;
+ }
