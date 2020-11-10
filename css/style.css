@@ -6,3 +6,108 @@
  *    for example: General styles, Navigation styles, Hero styles, Footer etc.
  * 
  */
+
+/** General styles */
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+main,
+header,
+footer {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+@media screen and (min-width: 800px) {
+  main {
+    width: 800px;
+    margin: auto;
+  }
+}
+
+figure {
+  max-width: 750px;
+}
+
+img {
+  width: 100%;
+  margin: auto;
+}
+
+article {
+  border: 2px solid #e6e600;
+  border-radius: 25px;
+  padding: 5%;
+  padding-top: 0%;
+  margin: 3%;
+  background-color: #ffffcc;
+}
+
+.links:link {
+  color: #1f004d;
+}
+
+.links:visited {
+  color: #808000;
+}
+
+.links:hover {
+  color: #8533ff;
+}
+/** Navigation styles */
+
+nav {
+  justify-self: stretch;
+  background-color: darkblue;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-size: 120%;
+}
+
+nav li {
+  display: inline-block;
+  margin: 2%;
+}
+
+/** Header styles */
+
+header div:last-child {
+  background-color: #99e6e6;
+}
+
+/** Article styles */
+section article:first-child {
+  font-size: 130%;
+  border: 5px solid #800060;
+}
+
+h3 {
+  padding: 3%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #800060;
+}
+
+figcaption {
+  font-style: italic;
+  font-size: 90%;
+}
+
+/** Footer styles */
+
+footer {
+  background-color: #5cd65c;
+  font-size: small;
+  padding: 1%;
+}
