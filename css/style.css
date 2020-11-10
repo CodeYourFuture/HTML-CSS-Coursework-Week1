@@ -8,6 +8,8 @@
  */
 header{
     background-color: cyan;
+    color: rgb(252, 247, 247);
+    text-size-adjust: 24px;
 }
 
 nav{
