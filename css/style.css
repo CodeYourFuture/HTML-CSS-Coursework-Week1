@@ -9,7 +9,7 @@
 header{
     font-family: 'Bubblegum Sans', cursive;
     background-color: #5a4fcf;
-    background-image: -webkit-linear-gradient( rgb(90,79,207) ,rgb(0,35,102)   );
+    background-image: -webkit-linear-gradient(rgb(0,35,102) ,rgb(90,79,207)  );
     text-size-adjust: 30px;
     text-align: center;
     color: rgb(252, 247, 250);
