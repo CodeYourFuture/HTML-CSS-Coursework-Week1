@@ -45,7 +45,7 @@ margin: 0px, auto;
  }
 
  h2{
-    padding: 0px 20px 0px 20px;  
+    padding: 0px 20px 0px 10px;  
     font-family: 'Bubblegum Sans', cursive;
  }
 
@@ -71,7 +71,7 @@ margin: 0px, auto;
 background-color: #f1e9d2 ; 
  margin-left: 20px ;
  margin-right: 20px;
- padding: 20px 0px 0px 40px;
+ padding: 10px 0px 0px 40px;
 
  }
 
@@ -119,6 +119,7 @@ display: inline-block;
 margin-left: 20px ;
  margin-right: 20px;
 margin-bottom: 30px;
+width: 800px;
 }
 footer{
 
