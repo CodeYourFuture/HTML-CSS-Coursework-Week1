@@ -10,6 +10,7 @@ header{
     background-color: cyan;
     color: rgb(252, 247, 247);
     text-size-adjust: 24px;
+    text-align: center;
     border-radius: 17px;
     box-shadow: 0px 1px 
              5px 2px 
@@ -18,6 +19,7 @@ header{
 
 nav{
     background-color: yellow;
+    text-align: center;
      padding: 0px 20px 0px 20px;
       margin: 5px 10px 5px 10px;
        font-family: cursive, noto, Lucida Sans, Arial;
@@ -30,17 +32,28 @@ a{
 }
        
 body {
-background-color: brown; 
+background-color: #7c0a02; 
 display: block;
 margin: 0px, auto; 
   
  }
+
+ h2{
+    padding: 0px 20px 0px 20px;  
+ }
+
 
  article {
      background-image: url("..\images\bgpaper.jpg");
 background-color: #f1e9d2 ; 
  margin-left: 20px ;
  margin-right: 20px;
+ padding: 20px 0px 0px 40px;
+ }
+
+ article h2 {
+    /* background-color: darkgoldenrod; */
+    padding: 0px 0px 10px 5px; 
  }
  
  .letterV {
@@ -60,6 +73,7 @@ p{
             font-size: 25px; 
             margin-left: 5px ;
             margin-right: 20px;
+            padding-bottom: 20px;
             /*word-wrap: normal ;*/
 }
 /*section {
@@ -67,10 +81,12 @@ p{
 
 }*/
 section {
-/*background-color: blueviolet; */   
-background-image: url("https://imgur.com/a/wsbLNuM");
+ 
+background-color: #f1e9d2 ;
 display: inline-block;
-background-position: top;
+margin-left: 20px ;
+ margin-right: 20px;
+margin-bottom: 30px;
 }
 footer{
 
