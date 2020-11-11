@@ -73,16 +73,9 @@ nav a:hover {
   padding: 120px;
 }
 
-.nav-wrapper{
-    margin-left: 500px;
-    margin-top: -500px;
-    display: flex;
-    text-align: center;
-  }
-
 
 .media{
-  margin-top:-525px;
+  margin-bottom:-600px;
   margin-left: 1250px;
 
 }
@@ -100,24 +93,26 @@ nav a:hover {
 }
 
 
-.story {margin-left:500px;
-margin-top: -500px;
-display: flex;
-text-align: center;
-}
-
-
-.h4
-{
-  margin-top: 500px;
-  text-align: center;
-
-}
-
 .section {
   margin-left: 130px;
  
 
 }
 
- 
+.info {
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 0px;
+  margin-top: -420px;
+  margin-left: 20px;
+  max-width: 950px;
+  text-align:center;
+  
+}
+
+.h4{
+  margin-top: 1100px;
+  text-align: center;
+}
+
+
