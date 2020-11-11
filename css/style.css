@@ -29,9 +29,20 @@ nav{
       margin: 5px 10px 5px 10px;
        font-family: cursive, noto, Lucida Sans, Arial;
 }
+a:link{
+    color: white;
+    font-family:  noto, Lucida Sans, Arial;
+}
+
+a:visited{
+    background-color: brown;
+}
+
+
 
 a{
     text-shadow: none;
+    background-color: darkslateblue;
     padding: 0px 20px 0px 20px;
     margin: 5px 10px 5px 10px;
     border-radius: 17px;
@@ -119,7 +130,7 @@ display: inline-block;
 margin-left: 20px ;
  margin-right: 20px;
 margin-bottom: 30px;
-width: 800px;
+width: fit-content;
 }
 footer{
 
