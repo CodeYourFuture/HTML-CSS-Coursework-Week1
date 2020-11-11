@@ -26,22 +26,19 @@ a{
 }
        
 body {
-/*background-color: brown; */
-background-image: url("https://imgur.com/a/wsbLNuM");
+background-color: brown; 
+
 display: block;
-margin: 0px, auto;
+margin: 0px, auto; 
   
  }
 
  article {
-   
-  background-image: url("images\scroll.jpg");
-  
-  /*background-color: whitesmoke ; */
+
+ background-color: whitesmoke ; 
  margin-left: 20px ;
  margin-right: 20px;
  }
-
  
  .letterV {
     float: left;  
