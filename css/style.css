@@ -6,3 +6,17 @@
  *    for example: General styles, Navigation styles, Hero styles, Footer etc.
  * 
  */
+
+ #header-img {
+width: 90px;
+height: auto;
+float: none;
+padding-top: 2.1em;
+ }
+
+ h1 {
+font-size: 4.5vw;
+text-align: center;
+text-decoration-color: blueviolet;
+ }
+
