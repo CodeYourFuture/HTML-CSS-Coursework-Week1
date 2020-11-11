@@ -10,6 +10,10 @@ header{
     background-color: cyan;
     color: rgb(252, 247, 247);
     text-size-adjust: 24px;
+    border-radius: 17px;
+    box-shadow: 0px 1px 
+             5px 2px 
+         rgba(0,0,0,0.4);
 }
 
 nav{
@@ -27,16 +31,14 @@ a{
        
 body {
 background-color: brown; 
-
 display: block;
 margin: 0px, auto; 
   
  }
 
  article {
-    background-image: url("..\images\bgpaper.jpg");
-
- background-color: #f1e9d2 ; 
+     background-image: url("..\images\bgpaper.jpg");
+background-color: #f1e9d2 ; 
  margin-left: 20px ;
  margin-right: 20px;
  }
