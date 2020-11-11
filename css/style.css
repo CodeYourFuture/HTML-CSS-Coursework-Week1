@@ -53,13 +53,15 @@ margin: 0px, auto;
     border-radius: 17px;
     margin-left: 40px;
     padding-left -10px: ;
-    max-width: 600px;
-    background-image: -webkit-linear-gradient(left, rgba(255,255,255, 0.3) ,rgba(255,255,255,0)   );
+    max-width: 500px;
+    background-image: -webkit-linear-gradient(left, rgba(255,255,255, 0.5) ,rgba(255,255,255,0)   );
   
  }
   
  .quote:hover {
-    background-color: rgb(255,255,255 ); 
+    background-color: rgb(255,255,255 );
+    max-width: fit-content; 
+    font-family: Arial Narrow Bold;
 
  }
 
