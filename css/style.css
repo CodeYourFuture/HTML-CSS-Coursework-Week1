@@ -26,33 +26,53 @@ a{
 }
        
 body {
-background-color: brown;
-
+/*background-color: brown; */
+background-image: url("https://imgur.com/a/wsbLNuM");
+display: block;
+margin: 0px, auto;
+  
  }
 
  article {
- background-color: whitesmoke ;
+   
+  background-image: url("images\scroll.jpg");
+  
+  /*background-color: whitesmoke ; */
  margin-left: 20px ;
  margin-right: 20px;
  }
+
+ 
  .letterV {
     float: left;  
     margin: 5px; 
      background-color: greenyellow;
-     height: 6%;
-     width: 6% ;
+     height: 8%;
+     width: 8% ;
  }
 
+
+
 p{
+    
+
     text-align: justify; 
             font-size: 25px; 
-            margin-left: 15px ;
+            margin-left: 5px ;
             margin-right: 20px;
             word-wrap: normal ;
 }
+/*section {
+    background-color: blue; 
+
+}*/
 section {
-    background-color: pink;
+/*background-color: blueviolet; */   
+background-image: url("https://imgur.com/a/wsbLNuM");
+display: inline-block;
+background-position: top;
 }
 footer{
+
     background-color: green;
 }
