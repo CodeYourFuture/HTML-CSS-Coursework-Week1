@@ -18,6 +18,12 @@ nav{
       margin: 5px 10px 5px 10px;
        font-family: cursive, noto, Lucida Sans, Arial;
 }
+
+a{
+
+    padding: 0px 20px 0px 20px;
+    margin: 5px 10px 5px 10px;
+}
        
 body {
 background-color: brown;
@@ -26,7 +32,23 @@ background-color: brown;
 
  article {
  background-color: whitesmoke ;
+ margin-left: 20px ;
+ margin-right: 20px;
  }
+ .letterV {
+    float: left;  
+    margin: 5px; 
+     background-color: greenyellow;
+     height: 5%;
+     width: 5% ;
+ }
+
+p{
+    text-align: justify; 
+            font-size: 25px; 
+            margin-left: 20px ;
+            margin-right: 20px;
+}
 section {
     background-color: pink;
 }
