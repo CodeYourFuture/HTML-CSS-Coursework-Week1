@@ -72,12 +72,20 @@ background-color: #f1e9d2 ;
     padding: 0px 0px 10px 5px; 
  }
  
- .letterV {
+ .letterV, .letterP, .letterI {
     float: left;  
     margin: 5px; 
      background-color: greenyellow;
-     height: 8%;
-     width: 8% ;
+     height: 6%;
+     width: 6% ;
+ }
+ .letterV:hover, .letterP:hover, .letterI:hover {
+
+    float: left;  
+    margin: 5px; 
+     background-color: greenyellow;
+     height: 15%;
+     width: 15% ;
  }
 
 
@@ -86,7 +94,7 @@ p{
     
 
     text-align: justify; 
-            font-size: 25px; 
+            font-size: 20px; 
             margin-left: 5px ;
             margin-right: 20px;
             padding-bottom: 20px;
