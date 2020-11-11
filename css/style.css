@@ -1,8 +1,123 @@
-/**
- * Add your custom styles below
- * 
- * Remember: 
- * - Be organised, use comments and separate your styles into meaningful chunks
- *    for example: General styles, Navigation styles, Hero styles, Footer etc.
- * 
- */
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+
+section{
+  width: 100%;
+  height: 200vh;
+  color:rgb(12, 12, 12);
+  background:linear-gradient(215deg, #dfe6e9, #fd79a8, #2d3436);
+  background-size: 400%  400%;
+  position: relative;
+  animation: change 15s ease-in-out infinite;
+
+}
+@keyframes change {
+  0%{
+    background-position: 0 50%
+  }   
+  50%{
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0 50%;
+  }
+}
+
+
+.header {
+  top: 0;
+  left: 0;
+  position: fixed;
+  width: 100%;
+  background: black;
+}
+
+nav ul {
+  float: right;
+  margin: 10px;
+  display: flex;
+  padding: 15px 10px;
+  position: relative;
+}
+
+.logo {
+  width: 100px;
+  height: 70px;
+  margin-left: 70px;
+}
+
+.nav-bar a {
+  margin: 0 0 0 100px;
+  color: white;
+  padding: 15px 15px;
+}
+a {
+  text-decoration: none;
+}
+ul {
+  list-style-type: none;
+}
+
+nav a:hover {
+  background: pink;
+  transition: 0.5s;
+}
+
+.main {
+  margin-left: 40px;
+  text-align: center;
+  padding: 120px;
+}
+
+.nav-wrapper{
+    margin-left: 500px;
+    margin-top: -500px;
+    display: flex;
+    text-align: center;
+  }
+
+
+.media{
+  margin-top:-525px;
+  margin-left: 1250px;
+
+}
+
+.fling-minislide {width:100%; height:0px;padding-left:25%; padding-bottom: 70%; overflow:hidden; position:relative; }
+.fling-minislide img{ position:absolute; animation:fling-minislide 20s infinite; opacity:0; width: 50%; height: 50%;}
+
+@keyframes fling-minislide {25%{opacity:1;} 40%{opacity:0;}}
+.fling-minislide img:nth-child(1){animation-delay:0s;}
+.fling-minislide img:nth-child(2){animation-delay:5s;}
+.fling-minislide img:nth-child(3){animation-delay:10s;}
+.fling-minislide img:nth-child(4){animation-delay:15s;}
+.fling-minislide img:nth-child(5){animation-delay:20s;}
+.fling-minislide img:nth-child(6){animation-delay:25s;}
+}
+
+
+.story {margin-left:500px;
+margin-top: -500px;
+display: flex;
+text-align: center;
+}
+
+
+.h4
+{
+  margin-top: 500px;
+  text-align: center;
+
+}
+
+.section {
+  margin-left: 130px;
+ 
+
+}
+
+ 
