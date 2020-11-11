@@ -57,6 +57,11 @@ margin: 0px, auto;
     background-image: -webkit-linear-gradient(left, rgba(255,255,255, 0.3) ,rgba(255,255,255,0)   );
   
  }
+  
+ .quote:hover {
+    background-color: rgb(255,255,255 ); 
+
+ }
 
 
  article {
@@ -65,6 +70,7 @@ background-color: #f1e9d2 ;
  margin-left: 20px ;
  margin-right: 20px;
  padding: 20px 0px 0px 40px;
+
  }
 
  article h2 {
