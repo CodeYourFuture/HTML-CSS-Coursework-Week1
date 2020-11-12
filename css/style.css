@@ -71,7 +71,9 @@ h1 {
    padding-bottom: 2px;
  }
 
- h5 {
+/* css - :first-child Selector */
+
+ h5:first-child {
    color: #1b262c;
    font-family: 'Montserrat', sans-serif;
    font-size: 1.2rem;
@@ -84,9 +86,10 @@ h1 {
    border: dotted #3282b8 6px;
    border-bottom: none;
    width: 16%;
-   margin: 7% auto;
+   margin: 120px auto;
    padding: 0;
  }
+
 /************************** classes ***************************************/
 
 /* header */
