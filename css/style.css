@@ -12,7 +12,7 @@ body{
     background-color: azure;
     border: 20px solid #bdc3c7;
     padding: 20px;
-    max-width: 950px;
+    max-width: 900px;
     width: 80%;
     margin: 20px auto;
 }
@@ -23,7 +23,7 @@ h1, h2, h3 {
 
 .nav{
   position: fixed;
-  right: 15px;
+  right: 10px;
   top: 5px;
   font-size: 20px;
   font-weight: 400;
@@ -47,8 +47,18 @@ h3{
 
 a{
   color: blue;
+  text-decoration: none;
 }
 
+#footer{
+  width: 80%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+div a {
+  
+}
 
  
 /* Pseudo Class Stying */
@@ -73,13 +83,6 @@ article:first-child {
     color: yellow;
     text-decoration: solid;
   }
-
-  /* Removes the hyperlink underline at all times */
-
-a:hover, a:visited, a:link, a:active{
-
-  text-decoration: none;
-}
 
 /* ::after showing where to click */
 article a::after {
