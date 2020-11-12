@@ -29,6 +29,11 @@ footer nav a:hoover{
     color: gold;
 }
 
+footer p {
+    font-size: 80%;
+    color: purple;
+}
+
 .nav-link {
     text-decoration: none;
     color: white;
