@@ -44,13 +44,7 @@ ul li a {
     color: green; 
 }
 
-#pic {
-    margin: 10;
-    height: 400px;
-    
-}
-
-#intro {
+.intro {
     border: orange solid 5px;
     border-radius: 10px;
     margin-top: 80px;
@@ -60,7 +54,7 @@ ul li a {
     background-color: aquamarine;
 }
 
-#skills {
+.skills {
     border: orange solid 5px;
     border-radius: 10px;
     margin-top: 80px;
@@ -70,7 +64,7 @@ ul li a {
     background-color: aquamarine;
 }
 
-#contact {
+.contact {
     border: orange solid 5px;
     border-radius: 10px;
     margin-top: 80px;
@@ -85,7 +79,7 @@ ul li a {
     margin-top: 10px;
 }
 
-#intro :first-child {
+main :first-child {
     background-color: green;
 }
 
