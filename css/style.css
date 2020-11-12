@@ -26,6 +26,12 @@ img{
   height: auto;
 }
 
-main:first-child {
-  color: lime;
+.nav{
+  
+}
+
+/* First child psuedo class */
+
+article:first-child {
+  
 }
