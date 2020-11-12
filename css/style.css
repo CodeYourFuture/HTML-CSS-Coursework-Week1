@@ -66,9 +66,18 @@ article:first-child {
   }
 
   /* Remove the hyperlink underline at all times */
-  
+
 a:hover, a:visited, a:link, a:active{
 
   text-decoration: none;
+}
+
+/* ::after showing where to click */
+article a::after {
+  content: "<--";
+  margin-left: 8px;
+  font-size: 1.3em;
+  color: rgb(214, 12, 12);
+  
 }
 
