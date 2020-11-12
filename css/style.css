@@ -57,6 +57,7 @@ article:first-child {
   color: rgb(24, 49, 24);
   background-color: #e8f0f5;
   padding: 5px;
+  font-style: italic;
 }
 
 /* Line gradient Styling */
