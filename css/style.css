@@ -7,17 +7,178 @@
  * 
  */
 
- img {
-    width: 300px;
-    height: auto;
- }
 
  /************************** tags ***************************************/
+ header {
+   position: relative;
+   margin: 0;
+   padding: 0;
+ }
+ body {
+   background-color: #bbe1fa;
+   text-align: center;
+   margin: 0;
+   padding: 0;
+}
 
-
+footer {
+   background-color: #3282b8;
+   border-top: 1px solid #1b262c;
+   border-bottom: 0;
+   margin-bottom: 0;
+   margin-top: 2%;
+   /* margin-top: 2%; */
+   padding: 0;
+   /* padding-top: 1%; */
+   position: relative;
+}
  
+p {
+   color: #1b262c;
+   font-family: 'Montserrat', sans-serif;
+   font-size: 1rem;
+   font-weight: normal;
+   line-height: 1.5rem;
+}
+
+h1 {
+   color: #1b262c;
+   font-size: 5.625rem;
+   margin: 50px auto 0 auto;
+   font-family: 'Sacramento', cursive;
+   padding-bottom: 10px;
+ }
+
+ h2 {
+   color: #1b262c;
+   font-family: 'Montserrat', sans-serif;
+   font-size: 2.5rem;
+   font-weight: normal;;
+   padding-bottom: 1%;
+ }
+
+ h3, h4 {
+   color: #1b262c;
+   font-family: 'Montserrat', sans-serif;
+   font-size: 2rem;
+   font-weight: bold;
+   padding-bottom: 10px;
+   padding-top: 1%;
+ }
+
+ h4 {
+   font-weight: normal;
+   padding-bottom: 2px;
+ }
+
+ h5 {
+   color: #1b262c;
+   font-family: 'Montserrat', sans-serif;
+   font-size: 1.2rem;
+   font-weight: bold;
+   padding: 0.5% 0 0.5% 0;
+   margin: 0;
+ }
+
+ hr {
+   border: dotted #3282b8 6px;
+   border-bottom: none;
+   width: 16%;
+   margin: 7% auto;
+   padding: 0;
+ }
 /************************** classes ***************************************/
 
+/* header */
+
+ .landscape {
+   margin: 0;
+   width: 100%;
+   height: auto;
+   padding: 0;
+   border-bottom: 1px solid #1b262c;
+ }
+
+/* main */
+/* course section */
+.courses-section{
+   position: relative;
+}
+
+.course-cover {
+   width: 25%;
+   height: auto; 
+   display: inline-block;
+   vertical-align:top;
+   margin: 0% 2% 1% 1%;
+   border: 1px solid #1b262c;
+}
+.courses-section p {
+   width: 25%;
+   display: inline-block;
+   vertical-align: top;
+   margin: 0% 1% 1% 2%;
+}
+
+/* books section */
+.books-section{
+   position: relative;
+}
+
+.book-cover {
+   width: 20%;
+   height: auto;
+   display: inline-block;
+   vertical-align: top;
+   margin: 0% 2% 1% 1%;
+   border: 1px solid #1b262c;
+}
+.books-section p {
+   width: 25%;
+   display: inline-block;
+   vertical-align:top;
+   margin: 0% 1% 1% 2%;
+}
+
+/* youtube channels section */
+
+.youtube-channel-section {
+   position: relative;
+   
+}
+
+.youtube-ch-video {
+   width: 560px;
+   height: 315px;
+   margin: 0% 2% 1% 1%;
+   border: 1px solid #1b262c;
+}
+
+.youtube-channel-section p{
+   width: 25%;
+   height: auto;
+   display: inline-block;
+   vertical-align:top;
+   margin: 0% 1% 1% 2%;
+}
+
+ /* footer */
+
+ .copyright {
+   padding-top: 0;
+   margin-top: 0;
+ }
 
 
+ .email-icon, .linkedin-icon {
+   width: 2%;
+   height: auto;
+   margin-bottom: 0;
+   padding: 0% 1% 0% 1%;
+ }
+ 
+ .copyright {
+    padding: 0;
+    margin-bottom: 0;
+ }
 /************************** ID'es ***************************************/

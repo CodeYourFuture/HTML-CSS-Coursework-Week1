@@ -4,30 +4,34 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <meta name="description" content="Rewview of books and IT courses">
+  <meta name="keywords" content="HTML, CSS, JavaScript, Python">
+  <meta name="author" content="Patryk Nowak">
+
   <title>My Blog</title>
-  <link href="//fonts.googleapis.com/css?family=Roboto:400,500,300" rel="stylesheet" type="text/css" />
+  <!-- <link href="//fonts.googleapis.com/css?family=Roboto:400,500,300" rel="stylesheet" type="text/css" /> -->
   <link rel="stylesheet" href="css/style.css" />
   <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+  <link rel="icon" href="img/favicon.ico">
 </head>
 
 <body>
 
   <header>
-    <img class="landscape" src="img/sarah-doffman-u44HcmdG0Oo-unsplash.jpg"
-      alt="Birmingham picture made by Sarah Doffman">
+
+    <img class="landscape" src="img/alfons-morales-YLSwjSy7stw-unsplash.jpg" alt="Book's shelves by Alfons Morales">
     <!-- clip this picture alittle bite -->
-    <nav> </nav>
-    <img class="my-picture" src="img/0.jpg" alt="Patryk Nowak's picture">
-    <!-- change that for nice picture of book or something related -->
-    <nav> </nav>
+    <!-- <nav> </nav> -->
 
   </header>
 
   <main>
-    <h1>Reviews by begginer Web-Developer</h1>
+    <h1>Reviews by <br> begginer Web-Developer</h1>
     <h2>Books, courses and much more</h2>
 
-    <section>
+    <hr>
+
+    <section class="courses-section">
       <h3>Courses online</h3>
 
       <div>
@@ -85,7 +89,9 @@
 
     </section>
 
-    <section>
+    <hr>
+
+    <section class="books-section">
       <h3>Books</h3>
 
       <div>
@@ -130,7 +136,7 @@
       </div>
 
       <div>
-        <h4>Guttag V. John, Introduction to Computation and Progrramming Using Python with Application to Understanding
+        <h4>Guttag V. John, Introduction to Computation and Progrramming <br> Using Python with Application to Understanding
           Data, London 2017</h4>
         <img class="book-cover" src="img/Guttag V. John, Introduction to Computation and Progrramming.jpg"
           alt="Book's cover of ">
@@ -172,11 +178,13 @@
 
     </section>
 
-    <section>
+    <hr>
+
+    <section class="youtube-channel-section">
       <h3> YouTube Channels</h3>
       <div>
         <h4>Giles McMullen-Klein, Python Programmer</h4>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/HIBY-47bHyw"></iframe>
+        <iframe class="youtube-ch-video"  src="https://www.youtube.com/embed/HIBY-47bHyw"></iframe>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam porttitor sem placerat tellus interdum, a
           egestas dolor fermentum. Nunc pretium finibus iaculis. Curabitur tempor in sem ornare tempus. Phasellus
           sollicitudin ipsum sit amet ligula elementum, at fermentum neque ornare. Integer sodales a risus quis feugiat.
@@ -184,12 +192,13 @@
           non purus. Curabitur pretium vel lectus nec pulvinar. Nam sagittis augue ac bibendum vestibulum. In hac
           habitasse platea dictumst. Curabitur nulla nisi, rutrum id convallis ultrices, placerat gravida odio.
           Vestibulum efficitur ullamcorper rhoncus. Fusce feugiat arcu ut risus venenatis convallis. Sed cursus tempor
-          neque, quis tempus leo hendrerit non. Nulla tellus mi, elementum vitae quam ac, mollis tincidunt ex.</p>
+          neque, quis tempus leo hendrerit non. Nulla tellus mi, elementum vitae quam ac, mollis tincidunt ex.
+        </p>
       </div>
 
       <div>
         <h4>Stefan Mischook</h4>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/tQczIt6HrU8"></iframe>
+        <iframe class="youtube-ch-video"  src="https://www.youtube.com/embed/tQczIt6HrU8"></iframe>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam porttitor sem placerat tellus interdum, a
           egestas dolor fermentum. Nunc pretium finibus iaculis. Curabitur tempor in sem ornare tempus. Phasellus
           sollicitudin ipsum sit amet ligula elementum, at fermentum neque ornare. Integer sodales a risus quis feugiat.
@@ -202,7 +211,7 @@
 
       <div>
         <h4>Tech With Tim</h4>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/JD-age0BPVo"></iframe>
+        <iframe class="youtube-ch-video" src="https://www.youtube.com/embed/JD-age0BPVo"></iframe>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam porttitor sem placerat tellus interdum, a
           egestas dolor fermentum. Nunc pretium finibus iaculis. Curabitur tempor in sem ornare tempus. Phasellus
           sollicitudin ipsum sit amet ligula elementum, at fermentum neque ornare. Integer sodales a risus quis feugiat.
@@ -220,8 +229,9 @@
   <!-- <sidebar></sidebar> -->
 
   <footer>
-    <h2>Get In Touch</h2>
-    <a class="btn" href="mailto:patryk.r.nowak@gmail.com">E-MAIL</a>
+    <h5>Get In Touch</h5>
+    <a class="btn" href="mailto:patryk.r.nowak@gmail.com"><img class="email-icon" src="img/message.png"
+        alt="email-icone from flaticon.com"></a>
     <a class="footer-link" href="https://www.linkedin.com/in/patryknowak1990/">
       <img class="linkedin-icon" src="img/linkedIn.png" alt="linkedIn icone" /></a>
     <p class="copyright">© 2020 Patryk Nowak.</p>
