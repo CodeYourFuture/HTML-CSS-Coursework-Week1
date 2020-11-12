@@ -7,10 +7,11 @@
  * 
  */
 
-@import
-"https://fonts.googleapis.com/css?family=Black+And+White+Picture|Bungee+Shade|Keania+One|Kumar+One|Roboto|ZCOOL+XiaoWei&display=swap";
- 
-header, footer, img{
+@import "https://fonts.googleapis.com/css?family=Black+And+White+Picture|Bungee+Shade|Keania+One|Kumar+One|Roboto|ZCOOL+XiaoWei&display=swap";
+
+header,
+footer,
+img {
     display: flex;
     text-align: center;
     flex-direction: column;
@@ -25,7 +26,7 @@ footer nav {
     background-color: skyblue;
 }
 
-footer nav a:hoover{
+footer nav a:hoover {
     color: gold;
 }
 
@@ -40,13 +41,14 @@ footer p {
     font-weight: bold;
     font-size: 120%;
 }
-  
+
 nav li {
     display: inline-block;
     margin: 1%;
 }
 
-img, iframe {
+img,
+iframe {
     max-width: 600px;
     display: block;
     margin-left: auto;
@@ -55,19 +57,20 @@ img, iframe {
 }
 
 h1 {
-  font-family: 'Black And White Picture', sans-serif;
-  font-size: 50px;
+    font-family: 'Black And White Picture', sans-serif;
+    font-size: 50px;
 }
 
-article, p {
-  font-family: 'ZCOOL XiaoWei', serif;
-  margin: 0px;
-  font-size: 21px;
+article,
+p {
+    font-family: 'ZCOOL XiaoWei', serif;
+    margin: 0px;
+    font-size: 21px;
 }
 
 h2 {
-  font-family: 'Kumar One',;
-  color: red;
+    font-family: 'Kumar One', ;
+    color: red;
 }
 
 section a {
