@@ -6,3 +6,75 @@
  *    for example: General styles, Navigation styles, Hero styles, Footer etc.
  * 
  */
+
+@import
+"https://fonts.googleapis.com/css?family=Black+And+White+Picture|Bungee+Shade|Keania+One|Kumar+One|Roboto|ZCOOL+XiaoWei&display=swap";
+ 
+header, footer, img{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+}
+
+nav {
+    background-color: rgb(22, 187, 110);
+    justify-content: space-between;
+}
+
+footer nav {
+    background-color: skyblue;
+}
+
+footer nav a:hoover{
+    color: gold;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 120%;
+}
+  
+nav li {
+    display: inline-block;
+    margin: 1%;
+}
+
+img, iframe {
+    max-width: 600px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2rem;
+}
+
+h1 {
+  font-family: 'Black And White Picture', sans-serif;
+  font-size: 50px;
+}
+
+article, p {
+  font-family: 'ZCOOL XiaoWei', serif;
+  margin: 0px;
+  font-size: 21px;
+}
+
+h2 {
+  font-family: 'Kumar One',;
+  color: red;
+}
+
+section a {
+    color: royalblue;
+    display: flex;
+    justify-content: center;
+    font-size: 130%;
+    text-decoration: none;
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+}
+
+a:hover {
+    color: orange;
+}
