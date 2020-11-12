@@ -5,6 +5,7 @@ body{
   text-align: justify;
   width: 100%;
   font-size: 18px;
+  background-color: aliceblue;
 }
 
 #main{
@@ -20,13 +21,6 @@ h1, h2, h3 {
   text-align: center;
 }
 
-/* Individual Styling */
-
-img{
-  width: 100%;
-  height: auto;
-}
-
 .nav{
   text-align: right;
   padding-right: 10px;
@@ -34,8 +28,18 @@ img{
   font-weight: 400;
 }
 
-/* First child psuedo class */
 
-article:first-child {
-  
+
+/* Individual Styling */
+
+img{
+  width: 100%;
+  height: auto;
 }
+
+h3{
+  line-height: 0.001rem;
+  margin-bottom: 30px;
+}
+
+
