@@ -73,6 +73,10 @@ h2 {
     color: red;
 }
 
+section article p:first-child{
+    background-color: wheat;
+}
+
 section a {
     color: royalblue;
     display: flex;
