@@ -2,6 +2,11 @@
  /* General Styling */
 body{
   font-family: 'Raleway', sans-serif;
-  background-color: #fce7d2;
+  background-color: azure;
   text-align: center;
+  width: 100%;
+}
+img{
+  width: 100%;
+  height: auto;
 }
