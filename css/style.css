@@ -54,6 +54,14 @@ a{
   text-align: center;
 }
 
+/* Styling Icons in the footer  */
+
+footer div a{
+  margin-left: 10px;
+  font-size: 30px;
+  color: black;
+}
+
 /* Pseudo Class Stying */
 
 article:first-child {
