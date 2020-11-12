@@ -74,7 +74,7 @@ nav ul li a:hover {
 
 
 article :nth-child(3) {
-    color: gold;
+    font-family: monospace;
 }
 
 
@@ -135,7 +135,6 @@ a:hover {
 footer {
     background-color: black;
     height: 18vh;
-
 }
 
 /* media queries */
@@ -143,26 +142,22 @@ footer {
     p {
         Margin: 2rem;
     }
-
 }
 
 @media only screen and (max-width: 768px) {
     p {
         Margin: 2rem;
     }
-
 }
 
 @media only screen and (max-width: 992px) {
     p {
         Margin: 2rem;
     }
-
 }
 
 @media only screen and (max-width: 1200px) {
     p {
         Margin: 2rem;
     }
-
 }
