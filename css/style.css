@@ -173,6 +173,10 @@ h1 {
    margin: 0% 1% 1% 2%;
 }
 
+.youtube-channel-section  a {
+   display: block;
+}
+
  /* footer */
 
  .copyright {
