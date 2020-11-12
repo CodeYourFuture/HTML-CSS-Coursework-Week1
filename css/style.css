@@ -2,7 +2,7 @@
  /* General Styling */
 body{
   font-family: 'Raleway', sans-serif;
-  text-align: center;
+  text-align: justify;
   width: 100%;
 }
 
@@ -10,12 +10,22 @@ body{
     background-color: azure;
     border: 20px solid #bdc3c7;
     padding: 20px;
-    max-width: 700px;
+    max-width: 950px;
     width: 80%;
     margin: 20px auto;
 }
 
+h1, h2, h3 {
+  text-align: center;
+}
+
+/* Individual Styling */
+
 img{
   width: 100%;
   height: auto;
+}
+
+main:first-child {
+  color: lime;
 }
