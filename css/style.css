@@ -22,16 +22,19 @@ h1, h2, h3 {
 }
 
 .nav{
-  text-align: right;
-  padding-right: 10px;
+  position: fixed;
+  right: 15px;
+  top: 5px;
   font-size: 20px;
   font-weight: 400;
 }
 
 
 
+
 /* Individual Styling */
 
+/* Hero images  */
 img{
   width: 100%;
   height: auto;
@@ -40,6 +43,10 @@ img{
 h3{
   line-height: 0.001rem;
   margin-bottom: 30px;
+}
+
+a{
+  color: blue;
 }
 
 
@@ -63,9 +70,10 @@ article:first-child {
   a:hover {
     background-color: rgb(36, 29, 29);
     color: yellow;
+    text-decoration: solid;
   }
 
-  /* Remove the hyperlink underline at all times */
+  /* Removes the hyperlink underline at all times */
 
 a:hover, a:visited, a:link, a:active{
 
