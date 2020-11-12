@@ -116,6 +116,10 @@ h1 {
    margin: 0% 2% 1% 1%;
    border: 1px solid #1b262c;
 }
+.courses-section a {
+   display: block;
+}
+
 .courses-section p {
    width: 25%;
    display: inline-block;
@@ -141,6 +145,10 @@ h1 {
    display: inline-block;
    vertical-align:top;
    margin: 0% 1% 1% 2%;
+}
+
+.books-section a {
+   display: block;
 }
 
 /* youtube channels section */
