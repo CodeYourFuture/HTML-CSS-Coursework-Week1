@@ -6,3 +6,99 @@
  *    for example: General styles, Navigation styles, Hero styles, Footer etc.
  * 
  */
+ body {
+     background-image: url(https://images.unsplash.com/photo-1513151233558-d860c5398176?ixlib=rb-1.2.1&w=1000&q=80);
+ }
+header {
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    padding: 20px;
+    background-color: rgb(245, 232, 119); 
+}
+
+.title {
+    color: red;
+}
+
+nav {
+    background-color: white;
+    height: 50px;
+    text-align: center;
+}
+
+ul li {
+    list-style: none;
+    display: inline-block;
+    line-height: 50px;
+    
+}
+
+ul li a {
+    text-decoration: none;
+    padding: 0 80px;
+    
+}
+
+.first {
+    color: green; 
+}
+
+#pic {
+    margin: 10;
+    height: 400px;
+    
+}
+
+#intro {
+    border: orange solid 5px;
+    border-radius: 10px;
+    margin-top: 80px;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding: 30px;
+    background-color: aquamarine;
+}
+
+#skills {
+    border: orange solid 5px;
+    border-radius: 10px;
+    margin-top: 80px;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding: 30px;
+    background-color: aquamarine;
+}
+
+#contact {
+    border: orange solid 5px;
+    border-radius: 10px;
+    margin-top: 80px;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding: 30px;
+    background-color: aquamarine;
+    text-align: center;
+}
+
+#message {
+    margin-top: 10px;
+}
+
+#intro :first-child {
+    background-color: green;
+}
+
+.footer {
+    padding-top: 30px;
+    text-align: center;
+    font-size: 20px;
+}
+
+a:hover {
+    color: rgb(255, 0, 200);
+}
+
+.legal {
+    color: red;
+}
