@@ -4,6 +4,7 @@ body{
   font-family: 'Raleway', sans-serif;
   text-align: justify;
   width: 100%;
+  font-size: 18px;
 }
 
 #main{
@@ -27,7 +28,10 @@ img{
 }
 
 .nav{
-  
+  text-align: right;
+  padding-right: 10px;
+  font-size: 20px;
+  font-weight: 400;
 }
 
 /* First child psuedo class */
