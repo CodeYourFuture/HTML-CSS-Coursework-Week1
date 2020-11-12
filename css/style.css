@@ -42,4 +42,12 @@ h3{
   margin-bottom: 30px;
 }
 
+/* Pseudo Class Stying */
+
+article:first-child {
+  color: rgb(24, 49, 24);
+  background-color: rgb(228, 245, 245);
+  padding: 5px;
+}
+
 
