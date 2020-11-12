@@ -10,37 +10,77 @@
 * {
     box-sizing: border-box;
   }
-
+ 
   body {
     font-family: Arial;
     padding: 5px;
-    background: #e6f0ee;
+    background: #716a94;
   }
-  
+ 
   .header {
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
+    color: cornsilk;
+    font-size: 30px;
   }
 
+  /* Style the top navigation bar*/ 
+  .nav-bar {
+    width: 100%;
+    font-size: 30px;
+    padding: 5px;
+  }
   
-  .left-side {
+  /* Remove underline on nav-link*/
+  a {
+    text-decoration: none;
+    color: black;
+  }
+  
+  /* Change color on hover */
+  .nav-bar a:hover {
+    background: #5d5583;
+    color: rgba(235, 229, 231, 0.863)
+  }
 
+  /*left column of page*/
+  .left-side {
     float: left;
     width: 75%;
   }
+
+  /*Right column of page*/
   .right-side {
     float: left;
     width: 25%;
-    padding-left: 20%;
-
+    padding-left: 20px;
+    text-align: justify;
   }
 
+  /*style article section*/
   .article {
     background-color: rgb(192, 178, 174);
     padding: 20px;
     margin-top: 20px;
  }
 
+/*use pseudo-class style on first article*/
+ .article:first-child {
+   background-color: rgb(180, 209, 75);
+ }
+
+/*style right column section*/
+ .aside {
+  background-color: rgb(126, 219, 90);
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.aside > h3{
+  text-align: center;
+}
+
+/* clear floats after the columns */
  main:after {
   content: "";
   display: table;
@@ -49,41 +89,17 @@
 
 img {
     max-width: 100%;
-    height: auto;
-  }
-  
- 
- /* .article:nth-child(1){
-    color: rgb(75, 37, 45);
-    border: 2px solid chartreuse;
-    padding: 20px;
-    background: coral;
+    height: 165px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
   }
 
-  .article:nth-child(2){
-    color: rgb(232, 243, 243);
-    border: 2px solid chartreuse;
-    padding: 20px;
-    background: rgb(101, 91, 194);
-  }
-
-  .article:nth-child(3){
-    color: rgb(232, 243, 243);
-    border: 2px solid chartreuse;
-    padding: 20px;
-    background: rgb(66, 156, 89);
-  }
-  */
   footer {
     text-align: center;
-    background-color: rgb(233, 173, 152);
+    background-color: rgb(78, 141, 141);
     color: white;
     padding: 5px;
-    margin-top: 20px;
-    
-   
-  }
-  a {
-    text-decoration: none;
+    margin-top: 20px;  
   }
 
