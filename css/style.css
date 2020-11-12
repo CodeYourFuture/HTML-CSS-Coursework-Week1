@@ -2,10 +2,19 @@
  /* General Styling */
 body{
   font-family: 'Raleway', sans-serif;
-  background-color: azure;
   text-align: center;
   width: 100%;
 }
+
+#main{
+    background-color: azure;
+    border: 20px solid #bdc3c7;
+    padding: 20px;
+    max-width: 700px;
+    width: 80%;
+    margin: 20px auto;
+}
+
 img{
   width: 100%;
   height: auto;
