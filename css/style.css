@@ -11,7 +11,7 @@
 
  }
  body {
-     background-color: aquamarine;
+     background-color: #227cb121;
      padding: 20px;
 
  }
@@ -20,20 +20,31 @@
     text-align: center;
     text-decoration-color: blueviolet;
      }
+ h1 {
+     color: rebeccapurple;
+ }
 
  img {
     max-width: 100%;
-    height: 250px;
+    height: 360px;
     float: none;
-    padding-top: 2.1em;
+    padding-top: 0.1em;
     }
 
- article p:first-child {
-     background-color: blue;
-
+ main {
+     line-height: normal;
+     text-align: center;
+ }
+ 
+ p:first-child{
+     background-color: #00d0ff;
+     font-weight: bolder;
  }
 
- 
+ h3 {
+     color: #0041ffed;
+ }
+
 
  footer{
     padding: 20px;
