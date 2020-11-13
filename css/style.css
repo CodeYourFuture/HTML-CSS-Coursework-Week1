@@ -24,20 +24,22 @@ body{
     background-color: #a9a9a9;
     width:100%;
     margin:0px;
-    padding:10px:
+    padding:0px:
 }
 /******************* Logo *********************/
 .logo{
-    font: 800 28px 'Courier New', Courier, monospace;
+    font: 800 40px 'Courier New', Courier, monospace;
     color: darkred;
     margin: 0px;
-    padding:0px;
+    padding:10px;
+    padding-bottom:0px;
 }
 
 .motto{
-    font: 500 20px 'Courier New',Courier, monospace;
+    font: 600 20px 'Courier New',Courier, monospace;
     margin:0px;
-    padding:0px;
+    padding:10px;
+    padding-top:0px;
 }
 
 /*
