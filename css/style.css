@@ -45,6 +45,7 @@ body {
     justify-content: space-around;
     width: 85%;
     align-items: center;
+    margin-left: 100px;
 
 }
 .introduction-image {
@@ -54,9 +55,17 @@ body {
 
 .introduction > p {
     font-size: large;
-    line-height: 30px;
+    line-height: 35px;
 }
-/*styling using :first-child*/
+/*styling using :first-child to make the first article in the first section stand-out*/
+ section:first-child  article:first-child > p {
+    color:black;
+    font-size: 20px;
+    line-height: 40px;
+    font-style: italic;
+}
+
+
 
 /*health benefits styles */
 .health-benefits {
@@ -73,9 +82,9 @@ body {
     width: 1000px;
 }
 .health-benefits >  p {
+    color: black;
     font-size: large;
-    line-height: 30px;
-
+    line-height: 35px;
 }
 /*Reduced stress and improve mode benefits*/
 .reduce-stress {
@@ -92,6 +101,7 @@ body {
     width: 1000px;
 }
 .reduce-stress > p {
+    color: black;
     font-size: large;
     line-height: 30px;
 }
@@ -123,7 +133,7 @@ body {
 }
 .decoration > p {
     font-size: large;
-    line-height: 30px;
+    line-height: 35px;
 }
 
 /*footer style*/
