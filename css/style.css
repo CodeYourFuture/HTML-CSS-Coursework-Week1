@@ -6,3 +6,96 @@
  *    for example: General styles, Navigation styles, Hero styles, Footer etc.
  * 
  */
+body {
+    background-color: rgb(89, 126, 151);
+    font-family: Roboto, sans-serif;
+}
+/* Header and Navigation Bar */
+.header {
+    width: 100%;
+    height: auto;
+}
+
+h1, h2 {
+    text-align: center;
+    color: rgb(238, 238, 125);
+    font-weight: normal;
+}
+
+.nav-bar {
+    display: inline-block;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    text-decoration: none;
+    list-style: none;
+    background-color: khaki;
+}
+
+.nav-link {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    text-align: center;
+    font-size: 1.25rem;
+    margin-right: 20px;
+}
+
+.nav-link a {
+    text-decoration: none;
+    list-style: none;
+    color: rgb(89, 126, 151);
+}
+
+.nav-link a:hover {
+    color: rgb(175, 71, 40);
+}
+
+/* Articles Section */
+.articles h1, .articles h2 {
+    color: rgb(231, 210, 241);
+    font-size: 1.25rem;
+}
+
+.articles:first-child {
+    color: rgb(231, 210, 241);
+    background-color: navy;
+}
+
+.articles a {
+    color: mediumspringgreen;
+    font-size: 1.25rem;
+}
+
+h3, h4, h5, h6 {
+    color: rgb(231, 210, 241);
+    font-size: 1.25rem;
+    text-align: center;
+    font-weight: normal;
+}
+
+h3 {
+    background-color: rgb(89, 126, 151);
+}
+
+.article-2 {
+    background-color: rgb(89, 126, 151);
+}
+
+.article-3 {
+    background-color:  rgb(89, 126, 151); ;
+}
+/* Footer */
+.footer {
+    background-color: rgb(75, 68, 112);
+}
+
+.footer li {
+    list-style: none;
+    font-size: 1.25rem;
+    color: linen;
+    display: inline-block;
+    justify-content: space-between;
+    width: 100%;
+    text-align: center;
+}
