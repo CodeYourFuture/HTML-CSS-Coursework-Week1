@@ -37,6 +37,10 @@ h2 {
 p {
   font-weight: 300;
 }
+
+a {
+  text-decoration: none;
+}
 /*
 /****************** HEADER ********************
 */
@@ -78,7 +82,7 @@ p {
 .content-header {
   text-align: center;
   margin: auto;
-  margin-bottom: 50px;
+  margin-bottom: 20px;
 }
 
 /***************** ARTICLES *******************/
@@ -92,7 +96,7 @@ p {
 .article:first-child {
   border: 1px solid #8b0000;
   background-color: #7fffd4;
-  padding: 20px;
+  padding: 5px 20px;
 }
 
 .article h2 {
@@ -101,6 +105,18 @@ p {
 .article p {
   line-height: 24px;
   text-align: justify;
+}
+
+.article p:first-of-type:first-line {
+  text-indent: 15px;
+}
+
+article .link {
+  font-weight: 500;
+  background-color: #add8e6;
+  color: #8b0000;
+  padding: 0px 5px;
+  border-style: outset;
 }
 
 /************** Content Images ****************/
