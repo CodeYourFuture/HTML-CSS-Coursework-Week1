@@ -1,11 +1,3 @@
-/**
- * Add your custom styles below
- * 
- * Remember: 
- * - Be organised, use comments and separate your styles into meaningful chunks
- *    for example: General styles, Navigation styles, Hero styles, Footer etc.
- * 
- */
 header {
   position: fixed;
   top: 0;
@@ -13,6 +5,10 @@ header {
   width: 100%;
   height: 50px;
   padding: 10px;
+  background-color: white;
+}
+
+p:first-child {
   background-color: white;
 }
 
