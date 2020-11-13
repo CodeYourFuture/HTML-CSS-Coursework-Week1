@@ -4,42 +4,44 @@
 /***************** GENERAL ********************
 */
 
-*, *:before, *:after{
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
 }
 
-body{
-    width:80%;
-    margin:auto;
-    border:1px solid #c5bebe;
-    padding:0px 10px;
+body {
+  width: 80%;
+  margin: auto;
+  border: 1px solid #e9e3e3;
+  padding: 0px;
 }
 
 /*
 /****************** HEADER ********************
 */
-.site-header{
-    background-color: #a9a9a9;
-    width:100%;
-    margin:0px;
-    padding:0px:
+.site-header {
+  background-color: #a9a9a9;
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
 }
 /******************* Logo *********************/
-.logo{
-    font: 800 40px 'Courier New', Courier, monospace;
-    color: darkred;
-    margin: 0px;
-    padding:10px;
-    padding-bottom:0px;
+.logo {
+  font: 800 40px "Courier New", Courier, monospace;
+  color: darkred;
+  margin: 0px;
+  padding: 10px;
+  padding-bottom: 0px;
 }
 
-.motto{
-    font: 600 20px 'Courier New',Courier, monospace;
-    margin:0px;
-    padding:10px;
-    padding-top:0px;
+.motto {
+  font: 600 20px "Courier New", Courier, monospace;
+  margin: 0px;
+  padding: 10px;
+  padding-top: 0px;
 }
 
 /*
