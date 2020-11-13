@@ -1,8 +1,123 @@
-/**
- * Add your custom styles below
- * 
- * Remember: 
- * - Be organised, use comments and separate your styles into meaningful chunks
- *    for example: General styles, Navigation styles, Hero styles, Footer etc.
- * 
- */
+body {
+  padding: 100px 200px 200px 200px;
+}
+header {
+  background-color: rgba(9, 61, 109, 0.253);
+  margin-bottom: 10px;
+}
+.logo {
+  text-align: center;
+  display: block;
+  margin-bottom: 20px;
+  background-color: rgb(243, 241, 241);
+}
+.logo p {
+  color: rgb(44, 12, 224);
+  font-size: 20px;
+  font-family: cursive;
+}
+.logo img {
+  width: 200px;
+  height: 150px;
+  text-align: center;
+  border-radius: 20px;
+}
+.navbar {
+  /*color: green;*/
+  display: flex;
+  justify-content: space-between;
+}
+li {
+  font-family: "Times New Roman", Times, serif;
+  float: left;
+}
+ul {
+  list-style-type: none;
+}
+li a {
+  display: inline-block;
+  text-decoration: none;
+  color: rgb(121, 12, 184);
+  padding: 10px;
+}
+a:hover {
+  background-color: navy;
+}
+/*.main_aside{
+  min-height:350px;
+  min-width:500px;
+  margin-bottom:10px;
+  background-color: rgb(132, 241, 227);
+}*/
+.aside ul {
+  list-style-type: disc;
+}
+.aside li {
+  padding: 20px;
+}
+aside {
+  width: 295px;
+  min-height: 250px;
+  background-color: rgb(132, 241, 227);
+  display: inline-block;
+  padding: 10px;
+  vertical-align: top;
+  margin-bottom: 10px;
+  color: rgb(29, 27, 27);
+}
+main {
+  width: 593px;
+  min-height: 250px;
+  background-color: rgb(175, 235, 235);
+  display: inline-block;
+  margin-bottom: 10px;
+  vertical-align: top;
+  padding: 10px;
+}
+/*.article{
+  background-color: peachpuff;
+  margin-bottom:10px;
+}*/
+article {
+  width: 268px;
+  min-height: 150px;
+  background-color: rgb(132, 241, 227);
+  display: inline-block;
+  padding: 20px;
+  /*margin-top:10px;*/
+  margin-bottom: 10px;
+  vertical-align: top;
+}
+article li {
+  padding: 33px;
+  list-style-type: disc;
+}
+article img {
+  width: 100px;
+  height: 100px;
+  float: right;
+  display: inline;
+}
+article:first-child {
+  background-color: palegreen;
+  color: rgb(231, 14, 14);
+}
+/*article{
+width: 308px;
+  height: 150px;
+  background-color: rgb(121, 202, 207);
+  display:inline-block;
+}
+article{
+width: 308px;
+  height: 150px;
+  background-color: rgb(121, 202, 207);
+  display:inline-block;
+}*/
+footer {
+  width: 934px;
+  min-height: 50px;
+  background-color: rgba(9, 61, 109, 0.253);
+  display: flex;
+  padding-left: 20px;
+}
