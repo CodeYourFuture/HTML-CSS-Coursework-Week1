@@ -1,0 +1,146 @@
+body {
+    background-color: #e2dcdc;
+}
+/*nav-bar style*/
+.nav-bar {
+    background-color: rgb(53, 121, 53);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    top: 0px;
+    height: 70px;
+    width: 100%;
+    position: fixed;
+}
+
+.nav-bar > a {
+    color: white;
+    font-size: 25px;
+    text-decoration: none;
+}
+/*title style*/
+ h1 {
+    margin-top: 140px;
+    font-family: Tangerine;
+    text-align: center;
+    font-weight: 500;
+    font-size: 60px;
+   
+}
+/*main-content style*/
+.page-content {
+    display:flex;
+    flex-direction:column;
+    justify-content: space-around;
+    width: 90%;
+    align-items: center;
+    margin-left: 100px;
+    margin-right: 20px;
+}
+/*introduction  styles */
+.introduction {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 85%;
+    align-items: center;
+
+}
+.introduction-image {
+    height: 500px;
+    width: 1000px;
+}
+
+.introduction > p {
+    font-size: large;
+    line-height: 30px;
+}
+/*styling using :first-child*/
+
+/*health benefits styles */
+.health-benefits {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 85%;
+    margin-left:100px;
+}
+.health-benefits-image {
+    height: 500px;
+    width: 1000px;
+}
+.health-benefits >  p {
+    font-size: large;
+    line-height: 30px;
+
+}
+/*Reduced stress and improve mode benefits*/
+.reduce-stress {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 85%;
+    margin-left: 100px;
+
+}
+.reduce-stress-image {
+    height: 500px;
+    width: 1000px;
+}
+.reduce-stress > p {
+    font-size: large;
+    line-height: 30px;
+}
+.reduce-stress ul {
+    list-style: none;
+}
+.reduce-stress > li {
+    margin-left: 0px;
+}
+
+/*decoration benefits */
+.decoration {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 85%;
+    margin-left: 100px;
+}
+.grid-box {
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    column-gap: 15px;
+}
+.decoration-image {
+    width: 300px;
+    height: 300px;
+    border: 5px solid rgb(250, 248, 248);
+}
+.decoration > p {
+    font-size: large;
+    line-height: 30px;
+}
+
+/*footer style*/
+#footer {
+    background-color: rgb(55, 105, 55);
+    height: 50px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 0px;
+}
+
+#footer > div {
+
+    font-size: 20px;
+    color: white;
+
+}
