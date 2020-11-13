@@ -6,45 +6,32 @@
  *    for example: General styles, Navigation styles, Hero styles, Footer etc.
  * 
  */
- body {
-     background-image: url(https://images.unsplash.com/photo-1513151233558-d860c5398176?ixlib=rb-1.2.1&w=1000&q=80);
+body {
+     background-image: url(https://static2.bigstockphoto.com/9/4/7/large1500/74982664.jpg);
  }
+ 
 header {
     margin-left: 0;
     margin-right: 0;
     margin-top: 0;
     padding: 20px;
-    background-color: rgb(245, 232, 119); 
+    background-color: rgb(219, 214, 170); 
 }
 
-.title {
+h1 {
     color: red;
-}
-
-nav {
-    background-color: white;
-    height: 50px;
     text-align: center;
 }
 
-ul li {
-    list-style: none;
-    display: inline-block;
-    line-height: 50px;
-    
+h1:hover {
+    color: green;
 }
 
-ul li a {
-    text-decoration: none;
-    padding: 0 80px;
-    
-}
-
-.first {
+.description {
     color: green; 
 }
 
-.intro {
+article {
     border: orange solid 5px;
     border-radius: 10px;
     margin-top: 80px;
@@ -52,47 +39,52 @@ ul li a {
     margin-right: 100px;
     padding: 30px;
     background-color: aquamarine;
+    line-height: 30px;
 }
 
-.skills {
-    border: orange solid 5px;
-    border-radius: 10px;
-    margin-top: 80px;
-    margin-left: 100px;
-    margin-right: 100px;
-    padding: 30px;
-    background-color: aquamarine;
+article:first-child {
+    background-color: rgb(199, 98, 98);
 }
 
-.contact {
-    border: orange solid 5px;
-    border-radius: 10px;
-    margin-top: 80px;
-    margin-left: 100px;
-    margin-right: 100px;
-    padding: 30px;
-    background-color: aquamarine;
+h2 {
+    background-color: orange;
+    margin-right: 30%;
+    margin-left: 30%;
+    border-radius: 50%;
     text-align: center;
 }
 
-#message {
-    margin-top: 10px;
-}
-
-main :first-child {
-    background-color: green;
-}
 
 .footer {
-    padding-top: 30px;
+    margin-top: 30px;
+    height: 80px;
     text-align: center;
-    font-size: 20px;
+    font-size: 15px;
+    background-color: rgb(66, 64, 64);
+}
+
+.footer a {
+    padding: 0 20px;
+    text-decoration: none;
+    color: orange;
 }
 
 a:hover {
     color: rgb(255, 0, 200);
 }
 
+.fa {
+    padding: 20px;
+    font-size: 50px;
+    width: 10px;
+    height: 20px;
+    text-align: center;
+    background-color: rgb(73, 38, 230);
+    color: orange;
+    border-radius: 50%;
+}
+
 .legal {
-    color: red;
+    color: rgb(179, 170, 170);
+    font-size: 13px;
 }
