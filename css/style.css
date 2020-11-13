@@ -13,11 +13,12 @@
 }
 
 body {
-  font-family: "Courier New", Courier, monospace;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   width: 80%;
   margin: auto;
   border: 1px solid #e9e3e3;
   padding: 0px;
+  background-color: #fcf8f8;
 }
 
 figure {
@@ -34,7 +35,7 @@ h2 {
 }
 
 p {
-  font-weight: 200;
+  font-weight: 300;
 }
 /*
 /****************** HEADER ********************
@@ -43,13 +44,15 @@ p {
   background-color: #a9a9a9;
   width: 100%;
   margin: 0px;
-  padding: 0px;
+  padding: 15px 0px 10px;
+  border-bottom: 1px solid #8b0000;
+  border-bottom-width: 2px;
 }
 /******************* Logo *********************/
 .logo {
   font-size: 40px;
   font-weight: 800;
-  color: darkred;
+  color: #8b0000;
   margin: 0px;
   padding: 10px;
   padding-bottom: 0px;
@@ -69,24 +72,48 @@ p {
 .content {
   padding: 20px;
   padding-right: 40px;
+  background-color: snow;
 }
 
-.content article {
-  margin: 0px 0px 50px;
-}
 .content-header {
   text-align: center;
   margin: auto;
   margin-bottom: 50px;
 }
+
 /***************** ARTICLES *******************/
 
 /************** Article Content ***************/
+
+.article {
+  margin: 0px 0px 50px;
+}
+
+.article:first-child {
+  border: 1px solid #8b0000;
+  background-color: #7fffd4;
+  padding: 20px;
+}
+
+.article h2 {
+  color: #8b0000;
+}
+.article p {
+  line-height: 24px;
+  text-align: justify;
+}
 
 /************** Content Images ****************/
 .content-image {
   width: 600px;
   height: 400px;
+}
+
+.image-description {
+  font-size: 14px;
+  width: 600px;
+  font-weight: 200;
+  color: #8b0000;
 }
 /*
 /****************** FOOTER ********************
