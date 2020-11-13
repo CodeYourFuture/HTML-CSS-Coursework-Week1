@@ -12,11 +12,11 @@ London Class 7 - Chris Owen - HTML/CSS - Week 1
 
 # Your Details
 
-- Your Name:
-- Your City:
-- Your Slack Name:
+- Your Name: Nirmeet Kaur Baweja
+- Your City: West Midlands
+- Your Slack Name: Nirmeet Kaur Baweja
 
 # Homework Details
 
-- Module:
-- Week:
+- Module: HTML/CSS
+- Week: Week 1
