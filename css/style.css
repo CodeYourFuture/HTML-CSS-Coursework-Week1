@@ -39,18 +39,30 @@ font-weight: lighter;
 margin-top: 100px;
 }
 
-.container{
-    
-    max-width: 100%;
-    background-image: url(https://cdn.home-designing.com/wp-content/uploads/2017/01/indoor-plants-Xerosicyos-danguyi.jpg);
-    height: 600px;
-    background-repeat: no-repeat;
-    background-size: cover;
+.container {
+height: 200px;
+width: 100%;
+
+
 }
+
 img {
-    }
-    .container > p {
-        font-size: 20px;
-        float: right;
- }
+    height: 400px;
+    width: 500px;
+    float: left;
+    margin: 15px 12px 3px 0px; border: 1px solid #ffffff;
+    overflow: auto;
+} 
+p {
+
+line-height: 25px;
+line-break: normal;
+font-size: 20px;
+}
+   
+.reason-1 h2  {
+    margin-top: 300px;
+
+}
+
     
