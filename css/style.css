@@ -13,12 +13,29 @@
 }
 
 body {
+  font-family: "Courier New", Courier, monospace;
   width: 80%;
   margin: auto;
   border: 1px solid #e9e3e3;
   padding: 0px;
 }
 
+figure {
+  margin: 20px 0px 30px 0px;
+  padding: 0px;
+}
+
+h1 {
+  font-weight: 700;
+}
+
+h2 {
+  font-weight: 600;
+}
+
+p {
+  font-weight: 200;
+}
 /*
 /****************** HEADER ********************
 */
@@ -30,7 +47,8 @@ body {
 }
 /******************* Logo *********************/
 .logo {
-  font: 800 40px "Courier New", Courier, monospace;
+  font-size: 40px;
+  font-weight: 800;
   color: darkred;
   margin: 0px;
   padding: 10px;
@@ -38,7 +56,8 @@ body {
 }
 
 .motto {
-  font: 600 20px "Courier New", Courier, monospace;
+  font-size: 20px;
+  font-weight: 600;
   margin: 0px;
   padding: 10px;
   padding-top: 0px;
@@ -47,13 +66,28 @@ body {
 /*
 /******************* MAIN *********************
 */
+.content {
+  padding: 20px;
+  padding-right: 40px;
+}
 
+.content article {
+  margin: 0px 0px 50px;
+}
+.content-header {
+  text-align: center;
+  margin: auto;
+  margin-bottom: 50px;
+}
 /***************** ARTICLES *******************/
 
 /************** Article Content ***************/
 
 /************** Content Images ****************/
-
+.content-image {
+  width: 600px;
+  height: 400px;
+}
 /*
 /****************** FOOTER ********************
 */
