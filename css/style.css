@@ -5,4 +5,157 @@
  * - Be organised, use comments and separate your styles into meaningful chunks
  *    for example: General styles, Navigation styles, Hero styles, Footer etc.
  * 
- */
+*/
+
+/* color palette suggestion 
+    purple : #240747
+    red : #eb2632
+    peach : #f0ab8d
+    beige : #f6e4ad
+*/
+
+/* Contains the styles applied to whole HTML document */
+html {
+  font: 1rem/1.56 ubuntu,Verdana,Arial,sans-serif;
+}
+
+/* Contains the styles applied to the body of the document */
+body {
+
+}
+
+/* Contains styles applied to the main content of the document */
+main {
+  display : flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color : #f05748;
+  /* flex: row; */
+  /* margin : auto auto auto 5%; */
+}
+
+/* Contains styles applied to the main content of the document */
+.mainArticles {
+  width : 60%;
+  /* margin : auto auto auto 5%; */
+}
+
+/* Contains the styling applied to the side bar of the page */
+.sideBar {
+  width : 40%;
+}
+
+.mainArticles, .sideBar {
+  margin : 1%;
+  background-color : #f2f4f6;
+}
+
+/* Specify maximum width for objects so that they do not overflow the container */
+image, object, video, embed {
+  max-width : 100%;
+}
+
+/* Contains styles applied to the header of the page - 
+  which comprises of the main heading, paragraph and image */
+header {
+  position : relative;
+  background-color: white;
+}
+
+header img {
+  width : 100%;
+  opacity: 80%;
+}
+
+.headerText h1 {
+  text-align : center;
+  position : absolute;
+  top : 15%;
+  left : 60%;
+  transform : translate(-75%, -50%);
+  color : black;
+}
+
+.headerText p {
+  text-align : center;
+  position : absolute;
+  top : 37%;
+  left : 60%;
+  transform : translate(-75%, -50%);
+  color : black;
+}
+
+article {
+  margin : 2rem;
+  padding : 2rem;
+}
+
+article p {
+  margin-bottom : 2rem;
+}
+
+.mainArticles article:first-of-type {
+  background-color: #c0c6ce;
+}
+
+.mainArticles article:first-of-type:hover {
+  font-size : 102%;
+  color : white;
+  background-color : #125394;
+}
+
+.videoWrapper {
+  position : relative;
+  height : 0;
+  padding-bottom : 56.25%; /* 16:9 */
+}
+
+.videoWrapper iframe {
+  position : absolute;
+  top : 0;
+  left : 0;
+  width : 100%;
+  height : 100%;
+}
+
+.signUp {
+  width : 60%;
+  margin : 10% auto;
+  padding : 2rem;
+  background-color:  #125394;
+  border-radius: 10%;
+  color : #f3f3f3;
+  text-align : center;
+}
+
+.signUp .emailField {
+  min-height : 30px;
+  min-width : 40px;
+}
+
+button {
+  min-width : 58px;
+  min-height : 48px;
+  margin : 1rem;
+  padding : 1rem;
+  border-radius : 10%;
+  background-color: #de8d3c;
+  font-size : 1.25rem;
+}
+
+.signUp :last-child {
+  color : #749cc1;
+}
+
+a {
+  color : #f05748;
+  text-decoration : none; /* Remove underline from links */
+}
+
+a:visited {
+  color : #de8d3c;
+}
+
+footer {
+  text-align : center;
+}
