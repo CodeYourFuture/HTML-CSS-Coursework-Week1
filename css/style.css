@@ -134,3 +134,18 @@ article .link {
 /*
 /****************** FOOTER ********************
 */
+.footer {
+  display: block;
+  font-weight: 300;
+  background-color: #000;
+  color: #eee;
+  padding: 5px;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
