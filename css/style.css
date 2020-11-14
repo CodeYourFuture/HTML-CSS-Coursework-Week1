@@ -10,7 +10,7 @@
 
 /* universal to all elements */
 
-* {
+body {
     background-color: honeydew;
     color: #581845;
 }
@@ -45,12 +45,9 @@ a:active {
 
 /* first article styling */
 
-article:first-child,
-.why h2,
-.why p,
-.why a:link {
-    background-color: #581845;
-    color: wheat;
+article:first-child {
+    background-color: #d1d8cf;
+    color: rgb(70, 47, 6);
 }
 
 
