@@ -6,3 +6,82 @@
  *    for example: General styles, Navigation styles, Hero styles, Footer etc.
  * 
  */
+
+
+/* universal to all elements */
+
+* {
+    background-color: honeydew;
+    color: #581845;
+}
+
+
+/* link styling */
+
+a:link {
+    color: seagreen;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:visited {
+    color: saddlebrown;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover {
+    color: darkred;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+
+/* first article styling */
+
+article:first-child,
+.why h2,
+.why p,
+.why a:link {
+    background-color: #581845;
+    color: wheat;
+}
+
+
+/* footer style */
+
+footer>ul {
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    margin-top: 0px;
+}
+
+footer>ul>li {
+    padding: 0 15px;
+}
+
+footer>span {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: -10px;
+    padding: 0 10px;
+}
+
+footer a {
+    text-decoration: none;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem;
+    /* Footer height */
+}

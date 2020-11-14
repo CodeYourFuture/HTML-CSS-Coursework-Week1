@@ -10,6 +10,7 @@ All coursework is graded using the Marking Guide found on the Syllabus.
 
 http://syllabus.codeyourfuture.io/guides/marking-guide
 
+
 If you have any questions on these guidelines - please ask.
 
 ## Coding Standards
