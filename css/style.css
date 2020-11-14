@@ -1,8 +1,104 @@
-/**
- * Add your custom styles below
- * 
- * Remember: 
- * - Be organised, use comments and separate your styles into meaningful chunks
- *    for example: General styles, Navigation styles, Hero styles, Footer etc.
- * 
- */
+body {
+    background-image: url("https://images.unsplash.com/photo-1549921613-8db30562bad1?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 150px;
+  }
+  
+   #header h1{
+    display: block;
+    text-align: center;
+    color: brown;
+    font-family: "Segoe Script";
+    
+  }
+  
+  .header {
+    font-family: "Lucida Handwriting";
+    font-size: 20px;
+    text-align: center;
+    margin-top: -30px;
+  }
+  
+  /* Add a black background color to the top navigation */
+   #topnav {
+    display: block;
+    overflow: hidden;
+    background-color: rgb(160, 192, 129);
+  
+    }
+  
+    img :first-of-type {
+      vertical-align: bottom;
+      display: inline;
+    
+    }
+    li a {
+      display: inline-block;
+      text-decoration: none;
+      color: gold;
+      padding: 10px;
+    }
+  
+    ul {
+      list-style-type: none;
+    }
+  
+    li {
+        float:left;
+      
+      }
+  
+  article:first-child {
+      background-color: rgb(167, 155, 140);
+  }
+  
+  article{
+    display: inline-block;
+    width: 250px;
+    min-height: auto; 
+    vertical-align: top;
+    padding: 20px;
+  }
+  
+  .article{
+    display: inline-block;
+    width:900px;
+    min-height: 250px ;
+    
+  }
+  
+  main{
+    display: inline-block;
+    width: 400px;
+    min-height: 250px ;
+    vertical-align: top;
+  }
+  
+  aside{
+    display: inline-block;
+    width:300px;
+    min-height: 250px ;
+    vertical-align: top;
+  
+  }
+  
+  .main{
+    display: inline-block;
+    width:800px;
+    min-height: 250px ;
+    vertical-align: top;
+    
+  }
+  
+  
+  a:visited {
+    color: rgb(196, 25, 25);
+  }
+  
+  .footer{
+  
+      background-color: red;
+      color: white;
+      text-align: center;
+    }
