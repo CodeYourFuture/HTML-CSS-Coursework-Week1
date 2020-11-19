@@ -92,7 +92,7 @@ background-color: #f1e9d2 ;
 
  }
 
- article h2 {
+ article h2 section {
     /* background-color: darkgoldenrod; */
     padding: 0px 0px 10px 5px; 
  }
@@ -144,6 +144,7 @@ width: fit-content;
      margin: 20px;
     background-color: #f1e9d2;
     display: block;
+    padding-bottom: 30px;
 }
 
   .address {
@@ -160,4 +161,5 @@ width: fit-content;
 
 .bottombar {
 text-align: center;
+padding-bottom: 15px;
 }
