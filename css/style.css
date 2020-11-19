@@ -155,11 +155,19 @@ width: fit-content;
 
 .social{
     padding: 20px;
-   
+    text-align: center;
 
 }
 
+.fblink , .insta , .twitter , .linkedin {
+    text-align: center;
+    padding-right: 30px;   
+   }
 .bottombar {
 text-align: center;
-padding-bottom: 15px;
+padding-bottom: 5px;
+}
+
+.copyright , .privacy , .terms    {
+    padding-right: 30px; 
 }
