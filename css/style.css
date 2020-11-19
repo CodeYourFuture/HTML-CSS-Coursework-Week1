@@ -29,19 +29,21 @@ nav{
       margin: 5px 10px 5px 10px;
        font-family: cursive, noto, Lucida Sans, Arial;
 }
-a:link{
-    color: white;
-    font-family:  noto, Lucida Sans, Arial;
+.navlink:link{
+    color: rgb(238, 75, 75);
+  
 }
 
-a:visited{
-    background-color: brown;
+.navlink:visited{
+    background-color: rgb(93, 41, 179);
 }
 
 
 
-a{
+.navlink {
+     color: white;
     text-shadow: none;
+    font-family: 'bubblegum'  noto, Lucida Sans, Arial;
     background-color: darkslateblue;
     padding: 0px 20px 0px 20px;
     margin: 5px 10px 5px 10px;
