@@ -134,7 +134,25 @@ margin-left: 20px ;
 margin-bottom: 30px;
 width: fit-content;
 }
-footer{
 
-    background-color: green;
+
+.container {
+     margin: 20px;
+    background-color: #f1e9d2;
+    display: block;
+}
+
+  .address {
+    padding: 20px;
+    font-size: 22px;
+
+}
+
+.social{
+    padding: 20px;
+   
+
+}
+.bottombar {
+text-align: center;
 }
