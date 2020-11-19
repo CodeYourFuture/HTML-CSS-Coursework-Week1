@@ -28,9 +28,10 @@ nav{
      padding: 0px 20px 0px 20px;
       margin: 5px 10px 5px 10px;
        font-family: cursive, noto, Lucida Sans, Arial;
-       display: flex;
-       align-items: center;
 }
+
+
+
 .navlink:link{
     color: rgb(238, 75, 75);
   
