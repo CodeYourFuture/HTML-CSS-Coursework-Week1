@@ -6,3 +6,52 @@
  *    for example: General styles, Navigation styles, Hero styles, Footer etc.
  * 
  */
+header{
+    padding: 20px;
+    text-align: center;
+    background: chartreuse;
+    font-size: 20px;
+    color: darkblue;
+}
+body {
+    background-color:rosybrown;
+}
+h2 {
+    color: darkslategray;
+    font-family:  Courier;
+    font-size: 300%;
+    border: 2px;
+    padding: 30px;
+
+}
+p {
+    color: forestgreen;
+    font-family: sans-serif;
+    font-size: 160%;
+}
+ul{
+    list-style: none;
+    margin: 6px;
+    padding: 0%;
+}
+a:link{
+    background-color: yellow;
+}
+a:hover{
+    background-color: violet;
+}
+footer{
+    text-align: center;
+    padding: 3px;
+    background-color: hotpink;
+    color: ivory;
+}
+article :first-child{ 
+    color: royalblue;
+    font-style: italic;
+    background: salmon;
+}
+
+    
+    
+    
