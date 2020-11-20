@@ -95,10 +95,18 @@ body {
   a:visited {
     color: rgb(196, 25, 25);
   }
+
+  img{
+    display:flex;
+    justify-content:center;
+    padding: 5em; 
+    color: black
+  }
   
   .footer{
   
-      background-color: red;
+      background-color: rgb(211, 172, 172);
       color: white;
       text-align: center;
+      width: 1000px;
     }
