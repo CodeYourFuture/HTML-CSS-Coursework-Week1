@@ -83,7 +83,7 @@ margin: 0px, auto;
  }
 
 
- article , section {
+ article  {
      
 background-color: #f1e9d2 ; 
  margin-left: 20px ;
@@ -92,7 +92,9 @@ background-color: #f1e9d2 ;
   margin-bottom: 20px;
  }
 
-  
+ 
+
+ 
  
  .letterV, .letterP, .letterI {
     float: left;  
@@ -125,7 +127,14 @@ p{
             /*word-wrap: normal ;*/
 }
 
-
+article:first-child {
+    font-family: 'bubblegum sans', Arial, sans-serif;
+    }
+    
+    article:first-child:hover {
+        font-family: 'Times New Roman', Times, serif;
+        }
+            
 
 
 .container {
