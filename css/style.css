@@ -46,7 +46,7 @@ nav{
 .navlink {
      color: white;
     text-shadow: none;
-    font-family: 'bubblegum'  noto, Lucida Sans, Arial;
+    font-family: 'Bubblegum Sans',  noto, Lucida Sans, Arial;
     background-color: darkslateblue;
     padding: 0px 20px 0px 20px;
     margin: 5px 10px 5px 10px;
@@ -83,16 +83,16 @@ margin: 0px, auto;
  }
 
 
- article {
-     background-image: url("..\images\bgpaper.jpg");
+ article , section {
+     
 background-color: #f1e9d2 ; 
  margin-left: 20px ;
  margin-right: 20px;
  padding: 10px 0px 0px 40px;
-
+  margin-bottom: 30px;
  }
 
- article h2 section {
+  h2  {
     /* background-color: darkgoldenrod; */
     padding: 0px 0px 10px 5px; 
  }
@@ -125,19 +125,8 @@ p{
             padding-bottom: 20px;
             /*word-wrap: normal ;*/
 }
-/*section {
-    background-color: blue; 
 
-}*/
-section {
- 
-background-color: #f1e9d2 ;
-display: inline-block;
-margin-left: 20px ;
- margin-right: 20px;
-margin-bottom: 30px;
-width: fit-content;
-}
+
 
 
 .container {
@@ -149,7 +138,10 @@ width: fit-content;
 
   .address {
     padding: 20px;
-    font-size: 22px;
+    font-size: 20px;
+   text-align: center;
+   font-family: Arial;
+   
 
 }
 
