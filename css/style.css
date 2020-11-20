@@ -61,7 +61,7 @@ margin: 0px, auto;
   
  }
 
- h2{
+ h2 , h3 {
     padding: 0px 20px 0px 10px;  
     font-family: 'Bubblegum Sans', cursive;
  }
@@ -92,10 +92,7 @@ background-color: #f1e9d2 ;
   margin-bottom: 20px;
  }
 
-  h2  {
-    /* background-color: darkgoldenrod; */
-    padding: 0px 0px 10px 5px; 
- }
+  
  
  .letterV, .letterP, .letterI {
     float: left;  
@@ -113,7 +110,9 @@ background-color: #f1e9d2 ;
      width: 15% ;
  }
 
-
+.padding {
+    padding-bottom: 30px;
+}
 
 p{
     
