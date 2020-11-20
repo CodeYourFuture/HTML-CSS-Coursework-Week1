@@ -15,7 +15,7 @@ header{
     color: rgb(252, 247, 250);
     text-shadow: 3px 1px 0px 
         rgba(0,0,0,0.4); 
-      padding-top: 20px;
+    padding-top: 20px;
     border-radius: 17px;
     box-shadow: 0px 1px 
              5px 2px 
@@ -25,15 +25,15 @@ header{
 nav{
     background-color:rgba(255,255,255, 0.2);
      text-align: center;
-     padding: 0px 20px 0px 20px;
-      margin: 5px 10px 5px 10px;
-       font-family: cursive, noto, Lucida Sans, Arial;
+      padding: 0px 20px 0px 20px;
+       margin: 5px 10px 5px 10px;
+        font-family: cursive, noto, Lucida Sans, Arial;
 }
 
 
 
 .navlink:link{
-    color: rgb(238, 75, 75);
+    color: rgb(216, 148, 45);
   
 }
 
@@ -41,16 +41,16 @@ nav{
     background-color: rgb(93, 41, 179);
 }
 
-
+/* Colour of the links unclicked*/
 
 .navlink {
-     color: white;
-    text-shadow: none;
-    font-family: 'Bubblegum Sans',  noto, Lucida Sans, Arial;
-    background-color: darkslateblue;
-    padding: 0px 20px 0px 20px;
-    margin: 5px 10px 5px 10px;
-    border-radius: 17px;
+    color: white;
+     text-shadow: none;
+      font-family: 'Bubblegum Sans',  noto, Lucida Sans, Arial;
+       background-color: darkslateblue;
+        padding: 0px 20px 0px 20px;
+         margin: 5px 10px 5px 10px;
+          border-radius: 17px;
   
 }
        
@@ -88,7 +88,7 @@ margin: 0px, auto;
 background-color: #f1e9d2 ; 
  margin-left: 20px ;
  margin-right: 20px;
- padding: 10px 0px 0px 40px;
+ padding: 10px 0px 50px 40px;
   margin-bottom: 20px;
  }
 
@@ -112,9 +112,7 @@ background-color: #f1e9d2 ;
      width: 15% ;
  }
 
-.padding {
-    padding-bottom: 30px;
-}
+
 
 p{
     
@@ -126,11 +124,13 @@ p{
             padding-bottom: 20px;
             /*word-wrap: normal ;*/
 }
+            /*  first child  to change font on article one*/
+
 
 article:first-child {
     font-family: 'bubblegum sans', Arial, sans-serif;
     }
-    
+    /* on hover to change text back*/
     article:first-child:hover {
         font-family: 'Times New Roman', Times, serif;
         }
@@ -144,30 +144,29 @@ article:first-child {
     padding-bottom: 30px;
 }
 
-  .address {
-    padding: 20px;
-    font-size: 20px;
-   text-align: center;
-   font-family: Arial;
-   
-
-}
+  
 
 .social{
     padding: 20px;
-    text-align: center;
+     text-align: center;
 
 }
 
 .fblink , .insta , .twitter , .linkedin {
     text-align: center;
-    padding-right: 30px;   
+     padding-right: 30px;   
    }
 .bottombar {
 text-align: center;
-padding-bottom: 5px;
+
 }
 
 .copyright , .privacy , .terms    {
     padding-right: 30px; 
 }
+ address{
+     text-align: center;
+      font-size: 20px; 
+       padding-top: 20px;
+        font-family: cursive, noto, Lucida Sans, Arial ;
+ }
