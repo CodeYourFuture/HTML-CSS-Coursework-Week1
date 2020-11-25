@@ -1,0 +1,151 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  
+}
+
+#header {
+  position: static;
+  top: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+    align-items: center;
+  background: grey;
+}
+
+#header-img {
+  width: 100px;
+  height: auto;
+  padding-left: 30px;
+  
+}
+
+body {
+  background-color: #D3D3D3;
+  text-align: center;
+  font-style: oblique;
+} 
+
+h1{
+  font-size: 1.7em;
+  color: black;
+  align-items: left;
+font-style: oblique;  
+ 
+}
+
+#nav-bar {
+  width: 25%;
+  height: 60px;
+  margin-right: 20px;
+  
+}
+#nav-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style-type: none;
+}
+
+.nav-link {
+  text-decoration: none;
+  font-size: 17px;
+  color: black;
+  padding: 0px;
+  cursor: pointer;
+     
+}
+ 
+  #header {
+    flex-direction: column;
+  }
+  
+  #form {
+  margin-top: 0px;
+}
+
+#email {
+  height: 2.1em;
+  width: 17em;
+  border-radius: 1.4em;
+  padding-left: 0.6em;
+  
+}
+
+article:first-child {
+  background-color: rgb(211, 179, 179);
+
+}
+#submit {
+  height: 3em;
+  width: 7em;
+  border-radius: 1em;
+  cursor: pointer;
+  background-color: yellow;
+}
+  
+  #features-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#Features {
+  background-color: darkgrey;
+  width: 80%;
+  border-radius: 4em;
+}
+
+#Features,
+#CounsellingNews,
+#WorkWithUs   {
+  margin-top: 0px;
+  padding: 55px;
+  font-size: 19px;
+  }
+
+#video-container {
+  overflow: hidden;
+    position: static;
+}
+
+#video {
+  border-width:5px;  
+  border-style:inset;
+  left: 0;
+  top: 0;   
+}
+
+btn {
+  height: 3em;
+  width: 6em;
+  border-radius: 1.5em;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+  footer {
+  width: 100%;
+  background: grey;
+  padding: 0.3em; 
+}
+
+footer a {
+  color: black;
+  text-decoration: none;
+font-size: 18px; 
+  
+}
+
+footer p {
+  color: #D3D3D3;
+  font-size: 16px;
+  
+}
