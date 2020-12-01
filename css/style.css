@@ -7,7 +7,7 @@
  * 
  */
 
-header {
+header { 
     position: fixed;
     background-color: slategrey;
     top: 0px;
@@ -24,7 +24,7 @@ h1 {
     font-family: monospace;
 }
 
-h2 {
+h2 { /*for some reason this does not show up? styled it anyway*/
     text-align: center;
     font-family: cursive;
 }
@@ -48,10 +48,10 @@ h2 {
 a:hover {
     background: none;
     color: pink;
-    border: none;
+    border: none; /*tried to remove the border that goes around the link but sometimes it shows up*/
 }
 p:first-child {
-    margin: 500px 30px 50px 30px;
+    margin: 500px 30px 50px 30px; /*attempted to remove the text (like the heading) from behind the nav bar*/
 }
 p {
     background-color: rgb(134, 84, 84);
@@ -63,7 +63,7 @@ h3 {
     font-family: 'Lucida Grande';
 }
 
-footer {
+footer { 
     font-family: cursive;
     width: 100%;
     text-align: center;
