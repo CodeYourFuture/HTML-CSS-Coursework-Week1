@@ -6,3 +6,34 @@
  *    for example: General styles, Navigation styles, Hero styles, Footer etc.
  * 
  */
+html,body{
+    margin: 0;
+    padding: 0;
+    font-size: 1rem;
+    max-width: 100%;
+    flex-wrap: wrap;
+}
+/* --- Navigation styles --- */
+.nav_link ul{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    font-size: 1.5rem;
+}
+.nav_link li{
+    padding: 2.5rem;
+    text-decoration-line: none;
+}
+.nav_link a{
+    text-decoration-line: none;
+    color: orange;
+}
+/* header section intro */
+main{
+    max-width: 80%;
+    margin: auto;
+    line-height: 1.4rem;
+}
+.header_intro > header{
+    text-align: center;
+}
