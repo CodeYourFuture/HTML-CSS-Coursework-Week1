@@ -6,10 +6,43 @@ body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
+p {
+    color: #475d5b;
+}
+
+
+/************* HEADER **************/
+
+
+/************* MAIN **************/
+
+.container {
+    -webkit-box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0, 0, 0, 0);
+    box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0, 0, 0, 0);
+    padding: 20px 50px;
+    max-width: 500px;
+    margin: auto;
+}
+
+article {
+    margin: 80px 0;
+}
+
 article:first-child {
-    background-color: antiquewhite;
+    background-color: #fef6e4;
+    border: 1px solid #666962;
+    border-radius: 5px;
     padding: 10px;
 }
+
+.link-rmore {
+    color: #00473e;
+}
+
+article a:hover {}
+
+
+/************* FOOTER **************/
 
 
 /**
