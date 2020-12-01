@@ -19,6 +19,7 @@ header {
     background-image: url(/assest/pic-nuts-logo.jpg);
     background-repeat: no-repeat;
     background-size: contain;
+    overflow: hidden;
 }
 
 
