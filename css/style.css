@@ -1,3 +1,17 @@
+body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    line-height: 1.2;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+article:first-child {
+    background-color: antiquewhite;
+    padding: 10px;
+}
+
+
 /**
  * Add your custom styles below
  * 
