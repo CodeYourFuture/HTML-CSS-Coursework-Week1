@@ -5,5 +5,127 @@
  * - Be organised, use comments and separate your styles into meaningful chunks
  *    for example: General styles, Navigation styles, Hero styles, Footer etc.
  * 
- */
+ *//*Read More & Read Less dropdown button*/
  
+ /* background color lightgrey */
+ html, 
+ body {
+   min-width: 100px;
+   color: #121516;
+   background-color:lightgray;
+   font-family: "Open Sans", Arial, sans-serif;
+   line-height: 1.5;
+ }
+ #more {
+   display: none;
+  }
+ /* Flat earth Log Gif */
+ .logo{
+
+  margin-top: 10px;
+  align-content: center;
+	height: 256px;
+	padding: 5px 20px;
+  display:flex;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+	max-width: 100%;
+
+}
+
+/* Nav bar left sided */
+ #navbar {
+  position: fixed;
+  min-width: 290px;
+  top: 1px;
+  left: 2px;
+  width: 100px;
+  height: 100%;
+  border-right: 7px solid;
+  border-color: rgba( 0, 0, 0, 0.797 );
+	border-bottom-right-radius:10%;
+
+	
+}
+/* headers all blue*/
+header{
+	color: #340bee;
+	margin: 20px;
+	text-align: start;
+	font-size: 1.8em;
+	font-weight: thin;
+	font-family:fantasy
+	
+ }
+ /* main doc style */
+#main-doc-header{
+	text-align: center;
+	margin: 10px;
+	
+	
+}
+/* nav bar style */
+#navbar a {
+  display: block;
+  padding: 10px;
+  color: floralwhite;
+  text-decoration: inherit;
+  cursor: alias;
+	width: 150px;
+  height: 40px;
+  background:rgba(55, 59, 59, 0.797);
+	
+  transition: width 2s;
+	border-radius: 15px;
+	margin-left: -5px;
+	
+}
+/* nav bar hover effect */
+#navbar a:hover {
+  width: 200px;
+}
+/* main doc poation */
+#main-doc {
+  position: absolute;
+  margin-left: 310px;
+  padding: 15px;
+  margin-bottom: 100px;
+	box-shadow: 15px;
+}
+section article {
+	border: 1px solid;
+	padding: 15px;
+  color: rgba(46, 43, 56, 0.797);
+  margin: 20px;
+  font-size: .98em;
+	box-shadow: #221515 10px 5px 5px;
+	border-bottom-right-radius:19%;
+	border-bottom-left-radius:10%;
+	
+}
+@media only screen and (max-width: 815px) {
+  /* For mobile phones: */
+  #navbar ul {
+    border: 2px solid;
+    height: 2010px;
+  }
+}
+/* Navrbar log-image */
+.logo-image{
+  margin-top: 180px;
+  max-width: 287px;
+  border-radius: 5px;
+}
+/* read more button */
+#myBtn{
+  color: #121516;
+  margin-left: 600px;
+  background-color: rgb(236, 229, 229);
+}
+/* read more button hover */
+#myBtn:hover{
+  color: rgb(221, 19, 19);
+  padding: 2px;
+  background-color: #340bee;
+}
