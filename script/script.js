@@ -6,12 +6,11 @@ function myFunction() {
 
   if (dots.style.display === "none") {
     dots.style.display = "inline";
-    btnText.innerHTML = "Read more";
+    btnText.innerHTML = "Read more"; 
     moreText.style.display = "none";
-  } 
-  else {
+  } else {
     dots.style.display = "none";
-    btnText.innerHTML = "Read less";
+    btnText.innerHTML = "Read less"; 
     moreText.style.display = "inline";
   }
 }

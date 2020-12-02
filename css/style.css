@@ -12,9 +12,10 @@
  body {
    min-width: 100px;
    color: #121516;
-   background-color:lightgray;
-   font-family: "Open Sans", Arial, sans-serif;
+   background-color:rgb(169, 170, 177);
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
    line-height: 1.5;
+   
  }
  #more {
    display: none;
@@ -27,7 +28,7 @@
 	height: 256px;
 	padding: 5px 20px;
   display:flex;
-  margin-left: auto;
+  margin-left: 410px;
   margin-right: auto;
   width: 50%;
 	max-width: 100%;
@@ -43,19 +44,19 @@
   width: 100px;
   height: 100%;
   border-right: 7px solid;
-  border-color: rgba( 0, 0, 0, 0.797 );
-	border-bottom-right-radius:10%;
+  border-color: rgba(15, 15, 15, 0.797);
+	border-bottom-right-radius:5%;
 
 	
 }
 /* headers all blue*/
 header{
-	color: #340bee;
+	color: #323255;
 	margin: 20px;
 	text-align: start;
-	font-size: 1.8em;
+	font-size: 1.9em;
 	font-weight: thin;
-	font-family:fantasy
+	/* font-family:fantasy; */
 	
  }
  /* main doc style */
@@ -67,23 +68,24 @@ header{
 }
 /* nav bar style */
 #navbar a {
+  margin: 35px;
   display: block;
   padding: 10px;
-  color: floralwhite;
+  color: rgb(13, 13, 14);
   text-decoration: inherit;
   cursor: alias;
 	width: 150px;
   height: 40px;
-  background:rgba(55, 59, 59, 0.797);
-	
-  transition: width 2s;
+  background:rgba(120, 121, 139, 0.797);
+	transition: width 1s;
 	border-radius: 15px;
-	margin-left: -5px;
+	margin-left: -10px;
 	
 }
 /* nav bar hover effect */
 #navbar a:hover {
-  width: 200px;
+  width: 220px;
+  color: red;
 }
 /* main doc poation */
 #main-doc {
@@ -96,26 +98,26 @@ header{
 section article {
 	border: 1px solid;
 	padding: 15px;
-  color: rgba(46, 43, 56, 0.797);
+  color: rgba(8, 8, 8, 0.797);
   margin: 20px;
   font-size: .98em;
-	box-shadow: #221515 10px 5px 5px;
-	border-bottom-right-radius:19%;
-	border-bottom-left-radius:10%;
+	box-shadow: #342f4d 10px 5px 5px;
+	border-bottom-right-radius:10%;
+	border-bottom-left-radius:5%;
 	
 }
 @media only screen and (max-width: 815px) {
   /* For mobile phones: */
   #navbar ul {
     border: 2px solid;
-    height: 2010px;
+    height: 2020px;
   }
 }
 /* Navrbar log-image */
 .logo-image{
-  margin-top: 180px;
-  max-width: 287px;
-  border-radius: 5px;
+  margin-top: 95px;
+  max-width: 289px;
+  border-radius: 150px;
 }
 /* read more button */
 #myBtn{
@@ -128,4 +130,15 @@ section article {
   color: rgb(221, 19, 19);
   padding: 2px;
   background-color: #340bee;
+  
 }
+/* .video{ */
+
+#video{
+  margin-left: 160px; 
+  border-radius: 10px;
+}
+
+
+
+
