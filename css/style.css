@@ -6,6 +6,13 @@ main {
     margin-left: 5%;
 }
 
+.article:first-child {
+    text-transform: uppercase;
+    font-weight: bolder;
+    color: rgb(36, 241, 18);
+    background-color: blue;
+}
+
 header {
     background-color: #211a1d;
   color: #ffffff;
@@ -28,11 +35,10 @@ header ul {
     margin-right: 10px;
   }
 
-  
 
 
 
-  footer {
+footer {
     background-color: #211a1d;
     color: #ffffff;
     width: 100%;
