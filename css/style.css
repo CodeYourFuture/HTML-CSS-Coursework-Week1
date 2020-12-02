@@ -29,11 +29,25 @@ html,body{
     color: orange;
 }
 /* header section intro */
-main{
+.maincontainer{
     max-width: 80%;
     margin: auto;
     line-height: 1.4rem;
 }
-.header_intro > header{
+.maincontainer p{
+    text-align: justify;
+}
+.headerintro > header{
     text-align: center;
+    font-size: 1.4em;
+    text-decoration-line: underline;
+}
+/* article section of the page */
+.articleBlog header{
+    text-decoration-line: underline;
+}
+/* first and second article section */
+.first_articleBlog img , .second_articleBlog img{
+    width: 100%;
+    max-height: 500px;
 }
