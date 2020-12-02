@@ -9,3 +9,18 @@ header {
   padding: 20px;
 }
 
+nav {
+    display: inline-block;
+    width: 100%;
+}  
+
+header ul {
+    margin: 20px 0 0 0;
+    padding: 0;
+  }
+  
+  header ul li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
