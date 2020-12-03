@@ -12,7 +12,7 @@
  body {
    min-width: 100px;
    color: #121516;
-   background-color:rgb(169, 170, 177);
+   background-color:rgb(177, 182, 221);
    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
    line-height: 1.5;
    
@@ -85,7 +85,7 @@ header{
 /* nav bar hover effect */
 #navbar a:hover {
   width: 220px;
-  color: red;
+  color: rgb(0, 38, 255);
 }
 /* main doc poation */
 #main-doc {
@@ -113,11 +113,29 @@ section article {
     height: 2020px;
   }
 }
-/* Navrbar log-image */
+/*left  Navrbar log-image */
 .logo-image{
   margin-top: 95px;
   max-width: 289px;
   border-radius: 150px;
+  
+}
+/* left Navbar image logo rotate */
+.logo-image {
+  animation: rotation 2s infinite linear;
+  
+}
+.logo-image {
+  animation: rotation 8s infinite linear;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
 }
 /* read more button */
 #myBtn{
@@ -135,8 +153,9 @@ section article {
 /* .video{ */
 
 #video{
-  margin-left: 160px; 
+  margin-left: -5px; 
   border-radius: 10px;
+  width: 100%;
 }
 
 
