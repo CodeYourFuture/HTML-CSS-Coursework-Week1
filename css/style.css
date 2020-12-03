@@ -11,7 +11,7 @@ header {
     position: fixed;
     background-color: slategrey;
     top: 0px;
-    min-height: 3px;
+    min-height: 30px;
     padding: 10px;
     margin: 0px;
     justify-content: space-around;
@@ -50,8 +50,9 @@ a:hover {
     color: pink;
     border: none; /*tried to remove the border that goes around the link but sometimes it shows up*/
 }
-p:first-child {
+#startingOut:first-child {
     margin: 500px 30px 50px 30px; /*attempted to remove the text (like the heading) from behind the nav bar*/
+    background-color: rgba(139, 31, 16, 0.212);
 }
 p {
     background-color: rgb(134, 84, 84);
@@ -60,7 +61,8 @@ p {
 
 }
 h3 {
-    font-family: 'Lucida Grande';
+    font-family: Georgia, Times, 'Times New Roman';
+    
 }
 
 footer { 
