@@ -5,9 +5,9 @@
  * - Be organised, use comments and separate your styles into meaningful chunks
  *    for example: General styles, Navigation styles, Hero styles, Footer etc.
  * 
- *//*Read More & Read Less dropdown button*/
+ *
  
- /* background color lightgrey */
+ /* background color light Grey-blue */
  html, 
  body {
    min-width: 100px;
@@ -17,9 +17,7 @@
    line-height: 1.5;
    
  }
- #more {
-   display: none;
-  }
+ 
  /* Flat earth Log Gif */
  .logo{
 
@@ -113,7 +111,7 @@ section article {
     height: 2020px;
   }
 }
-/*left  Navrbar log-image */
+/*left  Navrbar logo-image */
 .logo-image{
   margin-top: 95px;
   max-width: 289px;
@@ -137,27 +135,63 @@ section article {
     transform: rotate(359deg);
   }
 }
-/* read more button */
-#myBtn{
+/*Read More & Read Less dropdown button*/
+ #more {
+   display: none;
+  }
+  /* read more button-1 */
+#btn1{
   color: #121516;
   margin-left: 600px;
   background-color: rgb(236, 229, 229);
 }
-/* read more button hover */
-#myBtn:hover{
+/* button-1 read more button hover */
+#btn1:hover{
   color: rgb(221, 19, 19);
   padding: 2px;
   background-color: #340bee;
   
 }
-/* .video{ */
-
-#video{
-  margin-left: -5px; 
-  border-radius: 10px;
-  width: 100%;
+/* read more button-2 */
+#btn2{
+  color: #121516;
+  margin-left: 600px;
+  background-color: rgb(236, 229, 229);
+}
+/* button-2 read more button hover */
+#btn2:hover{
+  color: rgb(221, 19, 19);
+  padding: 2px;
+  background-color: #340bee;
+  
+}
+ /* read more button-3 */
+#btn3{
+  color: #121516;
+  margin-left: 600px;
+  background-color: rgb(236, 229, 229);
+}
+/* button-3 read more button hover */
+#btn3:hover{
+  color: rgb(221, 19, 19);
+  padding: 2px;
+  background-color: #340bee;
+  
 }
 
 
+/* .video{ */
+
+#video{
+ 
+  margin-left: 60px; 
+  border-radius: 10px;
+  width: 100%;
+}
+/* footer */
+.end{
+  position: inherit;
+  text-align: center;
+}
 
 
