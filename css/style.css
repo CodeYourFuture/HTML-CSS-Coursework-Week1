@@ -24,7 +24,7 @@ h1 {
     font-family: monospace;
 }
 
-h2 { /*for some reason this does not show up? styled it anyway*/
+h2 { 
     text-align: center;
     font-family: cursive;
 }
@@ -48,10 +48,10 @@ h2 { /*for some reason this does not show up? styled it anyway*/
 a:hover {
     background: none;
     color: pink;
-    border: none; /*tried to remove the border that goes around the link but sometimes it shows up*/
+    border: none; 
 }
 #startingOut:first-child {
-    margin: 500px 30px 50px 30px; /*attempted to remove the text (like the heading) from behind the nav bar*/
+    margin: 500px 30px 50px 30px; 
     background-color: rgba(139, 31, 16, 0.212);
 }
 p {
