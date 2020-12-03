@@ -1,69 +1,64 @@
 body {
-    box-sizing: border-box;
-    margin: 0;
     padding: 0;
-    text-align: center;
+    margin: 0;
     line-height: 1.2;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-p {
-    color: #475d5b;
-}
-
-img {
-    max-width: 100%;
-}
-
-
-/************* HEADER **************/
-
-header {
-    margin: 0;
-    padding: 0;
-    background-image: url(/assest/pic-nuts-logo.jpg);
-    background-repeat: no-repeat;
-    background-size: contain;
-    overflow: hidden;
-}
-
-
-/************* MAIN **************/
-
-.container {
-    -webkit-box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0, 0, 0, 0);
-    box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0, 0, 0, 0);
-    padding: 20px 50px;
-    max-width: 500px;
-    margin: auto;
+header,
+main,
+footer {
+    box-sizing: border-box;
+    width: 100%;
 }
 
 article {
-    margin: 50px 0;
+    margin: 12px 0;
+    border: 1px solid #000000;
+}
+
+img,
+video {
+    width: 100%;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 25px auto;
+    width: 70%;
+}
+
+.box {
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+}
+
+.red {
+    background-color: #8b0000;
+}
+
+.art1 {
+    background-color: #00008b;
 }
 
 article:first-child {
     background-color: #fef6e4;
     border: 1px solid #666962;
+    -webkit-box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0, 0, 0, 0);
+    box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0, 0, 0, 0);
     border-radius: 5px;
     padding: 10px;
 }
 
-.link-rmore {
-    color: #00473e;
+.art2 {
+    background-color: #94d7f1;
 }
 
-article a:hover {}
+.art3 {
+    background-color: #414e70;
+}
 
-
-/************* FOOTER **************/
-
-
-/**
- * Add your custom styles below
- * 
- * Remember: 
- * - Be organised, use comments and separate your styles into meaningful chunks
- *    for example: General styles, Navigation styles, Hero styles, Footer etc.
- * 
- */
+.green {
+    background-color: #085813
+}
