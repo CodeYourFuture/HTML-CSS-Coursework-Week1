@@ -6,3 +6,233 @@
  *    for example: General styles, Navigation styles, Hero styles, Footer etc.
  * 
  */
+ @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+
+ body {
+	width: 100%;
+	height: 100%;
+    margin: 0pt 40pt 0pt 0pt;
+    background-image: linear-gradient(270deg, rgba(255, 255, 255, 0.9), rgb(242, 208, 157));
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+ .header_img{
+     width: 18vw;
+     height: 9vw;
+     margin: 0px 0px 0px 10px;
+ }
+
+ .hero_img{
+     background-image: linear-gradient(rgba(0,0,0, 0.7), rgba(0, 0, 0, 0.7)), url(/img/Cappuccino2.jpg);
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+     height: 53vw;
+     margin: -20px 0px 0px 0px;
+ }
+
+ header{
+     display: inline-block;
+     width: 100%;
+     border-top: 3px solid #87321C;
+     border-bottom: 3px solid #87321C;
+     margin: 30px 0px 0px 0px;
+ }
+
+ nav{
+     float: right;
+     margin: -07vw 5vw 0px 0px;
+ }
+
+ .img1{
+     width: 40vw;
+     height: 65vw;
+     padding: 2vw;
+     border-radius: 18%;
+ }
+
+ .nav_link{
+     color:#87321C;
+     font-size: 3.7vw;
+     text-decoration: none;
+     margin: 0px 20px 0px 20px;
+     font-family: 'great Vibes', sans-serif;
+     font-weight: 800;
+ }
+
+ .nav_link:hover{
+     color: #615949;
+     text-shadow: .1em -.1em silver; 
+     transition: 0.4s;
+ }
+
+ h1{
+     color: white;
+     font-size: 6vw;
+     padding: 12vw 0vw 0vw 5vw;
+ }
+
+ span{
+     color:#F2D09D;
+     font-size: 10vw;
+ }
+
+ h2{
+     font-size: 4vw;
+     text-align: center;
+     padding: 1vw 0px 2vw 0vw;
+ }
+
+ p{
+     font-size: 2.5vw;
+     text-align: center;
+ }
+
+ article{
+     padding: 2vw 4vw 0px 4vw;
+     border-top: 1px solid black;
+     border-bottom: 1px solid black;
+ }
+
+ section{
+     margin: 5vw 0vw 0vw 0vw;
+     padding: 0px 40px 0px 40px;
+ }
+
+ .section1{
+     display:flex;
+ }
+
+ .section2{
+    display:flex;
+}
+
+h3{
+    color: #F2D09D;
+    font-size: 2vw;
+    margin-top: 5.5vw;
+}
+
+.media_group{
+    display: flex;
+}
+
+.media_logo{
+    width: 3.4vw;
+    height: 3.4vw;
+    margin-right: 1.1vw;
+    margin-top: 5vw;
+}
+
+.media_logo:hover{
+    box-shadow: 0.0em 0.1em 0.9em silver;
+    transition: 0.5s;
+}
+
+form{
+    width: 25vw;
+    height: 10vw;
+    margin: 0vw 7vw 0vw 7vw;
+    padding-left: 7vw;
+    padding-top: 3vw;
+    border-right: 4px solid #F2D09D;
+    border-left: 4px solid #F2D09D;
+}
+
+.button{
+    color: #F2D09D;
+    background-color: #87321C;
+    width: 15vw;
+    height: 3.5vw;
+    margin-left: 1.8vw;
+    margin-top: 1.2vw;
+    border-radius: 20px;
+    border: 2px solid #F2D09D;
+}
+
+.button:hover{
+    box-shadow: 0.0em 0.1em 0.9em silver;
+    transition: 0.5s;
+}
+
+.email{
+    background-color: #87321C;
+    width: 17.5vw;
+    height: 3.3vw;
+    text-align:center;
+    border-radius: 20px;
+    border: 2px solid #F2D09D;
+}
+
+footer{
+    background-color: #87321C;
+    padding: 4vw 0vw 0vw 6vw;
+    margin: 20px 0px 0px 0px;
+    display: flex;
+}
+
+.section1 :first-child{
+    text-shadow: 0.1em 0.1em 0.2em #87321C;
+    border-top: 4px solid #87321C;
+    border-bottom: 4px solid #87321C;
+}
+
+/* -----------------@media----------------------- */
+
+@media (min-width: 320px) and (max-width: 760px){
+    footer{
+        margin: 30px 0px 0px 0px;
+        flex-direction: column;
+        height: 100%;
+    }
+
+    .section1{
+        flex-direction: column;
+    }
+
+    .section2{
+        flex-direction: column;
+    }
+
+    .img1{
+        text-align: center;
+        width: 100%;
+        height: 100%;
+    }
+
+    .media_logo{
+        width: 40px;
+        height: 40px;
+        margin: 0px 28px 0px 0px;
+    }
+
+    .media_group{
+        display: flex;
+        justify-content: center;
+    }
+
+    form{
+        justify-content: center;
+        margin: 6vw 0vw 0vw 20vw;
+        padding: 0vw 16vw 0vw 4vw; 
+    }
+
+    h3{
+        text-align: center;
+        font-size: 6vw;
+        margin: 15vw 0vw 5vw 0vw;
+    }
+
+    .button{
+        width: 21vw;
+        height: 8vw;
+        margin: 2vw 0vw 0vw 8vw;
+    }
+
+    .email{
+        width: 36vw;
+        height: 9vw;
+        padding: 0vw 0vw 0vw 0vw;
+    }
+}
