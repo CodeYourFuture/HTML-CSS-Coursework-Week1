@@ -1,4 +1,5 @@
 body {
+    background-color: #fef6e4;
     padding: 0;
     margin: 0;
     line-height: 1.2;
@@ -13,7 +14,7 @@ footer {
 
 article {
     margin: 12px 0;
-    border: 1px solid #000000;
+    background-color: whitesmoke;
 }
 
 img,
@@ -23,6 +24,10 @@ video {
 
 p {
     padding: 50px;
+}
+
+header {
+    background-color: whitesmoke;
 }
 
 .container {
@@ -38,19 +43,11 @@ p {
 }
 
 article:first-child {
-    background-color: #fef6e4;
+    background-color: #6d3f048c;
     border: 1px solid #666962;
-    -webkit-box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0, 0, 0, 0);
-    box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0, 0, 0, 0);
     border-radius: 5px;
-}
-
-.art2 {
-    background-color: #94d7f1;
-}
-
-.art3 {
-    background-color: #414e70;
+    -webkit-box-shadow: 2px 5px 16px 0px #0B325E, 5px 5px 15px 5px rgba(0, 0, 0, 0);
+    box-shadow: 2px 5px 16px 0px #0B325E, 5px 5px 15px 5px rgba(0, 0, 0, 0);
 }
 
 footer {
