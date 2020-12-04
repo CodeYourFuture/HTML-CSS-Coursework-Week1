@@ -54,11 +54,16 @@ header-name {
   /*padding: 0;
   
   border: 2px solid;
+}*/
+
+p:first-child {
+    color: blue;
 }
 
+p h2:first-child {
+        color: blue;
 article :first-child {
     text-decoration: underline;
 }
-    p:first-child: {
-        color: blue;
+    
     }
