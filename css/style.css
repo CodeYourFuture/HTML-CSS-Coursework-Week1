@@ -45,6 +45,14 @@ header-name {
   border: 2px solid;
 }
 
+ p:first-child {
+    color:  blue;
+  }
+
+  article:first-child {
+      border: 2px solid blue;
+  }
+
 #header-img {
   width: 70%;
   /*float: right;*/
@@ -58,11 +66,3 @@ header-name {
 }*/
 
   
-  
-  h3:first-child p{
-    text-decoration: underline;
-  }
-
-ul li: :first-child {
-    border: 2px solid blue;
-}
