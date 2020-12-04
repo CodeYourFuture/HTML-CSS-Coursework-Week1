@@ -16,6 +16,7 @@
   /* Header/Blog Title */
   .header {
     padding: 30px;
+    width: 100%;
     font-size: 40px;
     text-align: center;
     background: #1fb59c;
