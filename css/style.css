@@ -6,3 +6,34 @@
  *    for example: General styles, Navigation styles, Hero styles, Footer etc.
  * 
  */
+  body {
+      background-color: rgb(112, 212, 245);
+  }
+
+ h1 { 
+     margin-right: initial;
+     padding-top: 0rem;
+     background-color: rgb(245, 252, 251);
+     color: black;
+     font-family: helvetica;
+     font-style: italic;
+ }
+ p {
+    font-family: helvetica; 
+    font-style: italic;  
+ }
+ 
+ .article {
+background-color: rgb(32, 204, 195);
+font-family: helvetica;
+}
+
+.article:hover{
+    color: rgb(255, 255, 255);
+}
+footer {
+    padding: 1em;
+    background-attachment: fixed;
+    font-style: oblique;
+}
+
