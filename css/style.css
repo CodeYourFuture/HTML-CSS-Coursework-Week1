@@ -10,7 +10,7 @@
  body {
     font-family: Arial;
     padding: 20px;
-    background: #73a8fa;
+    background:#062063;
   }
   
   /* Header/Blog Title */
@@ -18,8 +18,23 @@
     padding: 30px;
     font-size: 40px;
     text-align: center;
-    background: #0787ad;
+    background: #1fb59c;
   }
+/* First Image of Batman */
+  div.First-img{
+    width: 1500px;
+    height: 500px;
+    background-color:#06161f;
+    overflow:hidden;
+  };
+
+  /* Second Image of Trio */
+  .Second-img{
+    width: 150px;
+    height: 50px;
+    background-color:#06161f;
+    overflow:hidden;
+  };
   
   /* Create two unequal columns that floats next to each other */
   /* Left column */
@@ -38,7 +53,7 @@
   /* Fake image */
   .fakeimg {
     background-color: #aaa;
-    width: 100%;
+    width: 80%;
     padding: 20px;
   }
   
