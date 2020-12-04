@@ -6,48 +6,77 @@
  *    for example: General styles, Navigation styles, Hero styles, Footer etc.
  * 
  */
-html,body{
-    margin: 0;
-    padding: 0;
-    font-size: 1rem;
-    max-width: 100%;
-    flex-wrap: wrap;
-}
-/* --- Navigation styles --- */
-.nav_link ul{
-    display: flex;
-    list-style: none;
-    justify-content: center;
-    font-size: 1.5rem;
-}
-.nav_link li{
-    padding: 2.5rem;
-    text-decoration-line: none;
-}
-.nav_link a{
-    text-decoration-line: none;
-    color: orange;
-}
-/* header section intro */
-.maincontainer{
-    max-width: 80%;
-    margin: auto;
-    line-height: 1.4rem;
-}
-.maincontainer p{
-    text-align: justify;
-}
-.headerintro > header{
-    text-align: center;
-    font-size: 1.4em;
-    text-decoration-line: underline;
-}
-/* article section of the page */
-.articleBlog header{
-    text-decoration-line: underline;
-}
-/* first and second article section */
-.first_articleBlog img , .second_articleBlog img{
-    width: 100%;
-    max-height: 500px;
-}
+ html,
+ body {
+   margin: 0;
+   padding: 0;
+   font-size: 1em;
+   line-height: 1.2rem;
+ }
+ /* --- Navigation styles --- */
+ .nav_link ul {
+   display: flex;
+   list-style: none;
+   justify-content: center;
+   font-size: 1.5em;
+ }
+ .nav_link li {
+   padding: 2.5rem;
+   text-decoration-line: none;
+ }
+ .nav_link a {
+   text-decoration-line: none;
+   color: orange;
+ }
+ .nav_link a:first-child {
+   border: 2px solid orangered;
+ }
+ /* header section intro */
+ .maincontainer {
+   max-width: 80%;
+   margin: auto;
+   line-height: 1.4rem;
+ }
+ .maincontainer p {
+   text-align: justify;
+ }
+ .headerintro > header {
+   text-align: center;
+   font-size: 1.4rem;
+   text-decoration-line: underline;
+ }
+ .articleBlog h1 {
+   font-size: 1.8rem;
+ }
+ /* article section of the page */
+ .articleBlog header {
+   text-decoration-line: underline;
+ }
+ /* first and second article section */
+ .first_articleBlog img,
+ .second_articleBlog img {
+   width: 100%;
+   max-height: 500px;
+ }
+ /* footer of the article */
+ .footersection {
+   background: black;
+   color: white;
+   padding: 1px;
+   margin-left: -9px;
+ }
+ .footersection p {
+   text-align: center;
+   color: white;
+ }
+ .footersection a {
+   color: white;
+   text-decoration-line: none;
+ }
+ /* responsiveness */
+ @media screen and (max-width: 400px) {
+   .headerintro h1 {
+     line-height: 2.2rem;
+   }
+ }
+ 
