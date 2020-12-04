@@ -186,6 +186,16 @@ h6{
     text-align: center;
     margin-top: 2vw;
 }
+.update{
+    margin: 0px 0px 0px 270px;
+    color: grey;
+}
+.update:hover{
+    color: royalblue;
+}
+.update:active{
+    color: hotpink;
+}
 @media (min-width: 360px) and (max-width: 760px){
     .side-articles{
         flex-direction: column;
@@ -214,10 +224,9 @@ h6{
     .contact-group{
         padding: 0vw 0vw 0vw 0vw;
     }
-    .About-us-group{
-
-    }
-    .media-group{
-
+    .update{
+        font-size: 3vw;
+        margin-left: 43vw;
+        margin-bottom: 20vw;
     }
 }
