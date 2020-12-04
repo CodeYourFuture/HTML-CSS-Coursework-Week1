@@ -93,6 +93,7 @@ header{
   margin-bottom: 100px;
 	box-shadow: 15px;
 }
+/* main article section */
 section article {
 	border: 1px solid;
 	padding: 15px;
@@ -103,6 +104,12 @@ section article {
 	border-bottom-right-radius:10%;
 	border-bottom-left-radius:5%;
 	
+}
+/* :first-child` pseudo-class  article-1 */
+.globe :first-child{
+  padding: 2%;
+  background-color: rgb(142, 161, 161);
+
 }
 @media only screen and (max-width: 815px) {
   /* For mobile phones: */
