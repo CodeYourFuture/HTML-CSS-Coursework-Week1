@@ -45,6 +45,10 @@ video {
     width: 100%;
 }
 
+i {
+    font-size: 12px;
+}
+
 p {
     font-family: 'Josefin Sans', sans-serif;
     padding: 20px;
