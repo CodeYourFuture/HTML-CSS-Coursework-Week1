@@ -109,6 +109,17 @@ footer {
     padding: 20px 0;
 }
 
+.social-media {
+    display: flex;
+    align-items: center;
+    padding-top: 20px;
+    justify-content: center;
+}
+
+.social-media i {
+    padding-right: 10px;
+}
+
 @media screen and (max-width: 580px) {
     .container {
         width: 100%;
