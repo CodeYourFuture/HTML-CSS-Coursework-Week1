@@ -55,3 +55,10 @@ header-name {
   
   border: 2px solid;
 }
+
+article :first-child {
+    text-decoration: underline;
+}
+    p:first-child: {
+        color: blue;
+    }
