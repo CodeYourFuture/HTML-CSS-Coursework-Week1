@@ -84,8 +84,18 @@ article:first-child {
 }
 
 article a {
+    background-color: #6d3f04;
     cursor: pointer;
+    padding: 10px 50px;
     margin-bottom: 20px;
+    border: none;
+    color: whitesmoke;
+    font-family: 'Inconsolata', sans-serif;
+    text-decoration: none;
+}
+
+article a:hover {
+    font-size: large;
 }
 
 footer {
@@ -96,6 +106,7 @@ footer {
     background: linear-gradient(to bottom, #b29f94, #603813);
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     color: whitesmoke;
+    padding: 20px 0;
 }
 
 @media screen and (max-width: 580px) {
