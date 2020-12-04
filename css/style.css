@@ -135,44 +135,50 @@ section article {
     transform: rotate(359deg);
   }
 }
-/*Read More & Read Less dropdown button*/
- #more {
+/*Read More & Read Less dropdown button display*/
+ #more-1 {
    display: none;
   }
+#more-2 {
+    display: none;
+   }
+#more-3 {
+    display: none;
+   }
   /* read more button-1 */
-#btn1{
+#btn-1{
   color: #121516;
   margin-left: 600px;
   background-color: rgb(236, 229, 229);
 }
 /* button-1 read more button hover */
-#btn1:hover{
+#btn-1:hover{
   color: rgb(221, 19, 19);
   padding: 2px;
   background-color: #340bee;
   
 }
 /* read more button-2 */
-#btn2{
+#btn-2{
   color: #121516;
   margin-left: 600px;
   background-color: rgb(236, 229, 229);
 }
 /* button-2 read more button hover */
-#btn2:hover{
+#btn-2:hover{
   color: rgb(221, 19, 19);
   padding: 2px;
   background-color: #340bee;
   
 }
  /* read more button-3 */
-#btn3{
+#btn-3{
   color: #121516;
   margin-left: 600px;
   background-color: rgb(236, 229, 229);
 }
 /* button-3 read more button hover */
-#btn3:hover{
+#btn-3:hover{
   color: rgb(221, 19, 19);
   padding: 2px;
   background-color: #340bee;
@@ -184,12 +190,14 @@ section article {
 
 #video{
  
-  margin-left: 60px; 
+  margin-left: 80px; 
   border-radius: 10px;
-  width: 100%;
+  width: 90%;
 }
 /* footer */
 .end{
+  
+  
   position: inherit;
   text-align: center;
 }
