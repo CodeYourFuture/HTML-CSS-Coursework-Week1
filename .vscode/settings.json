@@ -1,0 +1,14 @@
+{
+    "liveServer.settings.useWebExt": true,
+    "liveServer.settings.useBrowserPreview": true,
+    "workbench.preferredDarkColorTheme": "Monokai Dimmed",
+    "editor.wordWrap": "on",
+    "editor.tabCompletion": "on",
+    "editor.fontSize": 16,
+    "workbench.colorTheme": "Polychrome Dark",
+    "workbench.preferredLightColorTheme": "Visual Studio Dark",
+    "debug.console.fontSize": 16,
+    "terminal.integrated.fontSize": 16,
+    "liveServer.settings.fullReload": true,
+    "liveServer.settings.CustomBrowser": "chrome"
+}
