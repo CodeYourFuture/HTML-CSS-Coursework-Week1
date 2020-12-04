@@ -1,26 +1,27 @@
 @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Overpass:wght@300&display=swap');
 body{
-    background-color: #D8E1EC;   
+    background-color: #D8E1EC;  
     width: 100%;
     height: 100%;
-    margin: 0px 0px 0px 0px;   
+    margin: 0vw;   
 }
+
 .header-img{
     width: 100px;
-    margin: 0px 600px 0px 0px;
 }
 
 header{
     background-color: #2B2D42;
-    display: flex;
-    margin: 0px 0px -70px 0px;
+    display: inline-block;
+    width: 100%;
 }
 nav{
-    padding: 30px 0px 0px 0px;
+    float: right;
+    margin-top: -60px;
 }
 a{
-    font-size: 20px;
+    font-size: 1.5vw;
     text-decoration: none;
     margin: 0px 100px 0px 0px;
     color: gray;
@@ -30,26 +31,22 @@ a:hover{
     color: #C8CAE8;
 }
 
-h3{
-    text-align: center;
-    font-family: 'Overpass', serif;
-    color: #3f4c57;
+.hero-img{
+    width: 100%;
+    height: 40vw;
+    background-image: linear-gradient(rgba(39, 39, 43, 0.5), rgba(0, 0, 0, 0.5)), url(/img/Ultimate-Shonen-Jump-Manga.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: -60px;
 }
 
-.hero-img{
-    background-image: linear-gradient(rgba(39, 39, 43, 0.5), rgba(0, 0, 0, 0.5)), url(/img/Ultimate-Shonen-Jump-Manga.jpg);
-    background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
-	width: 100%;
-    height: 400px;
-}
 h1{
-    font-size: 65px;
+    font-size: 5vw;
     font-family: 'Orbitron', serif;
     color: #dadbe4;
     padding-top: 60px;
 }
+
 span{
     color: lightskyblue;
 }
@@ -58,19 +55,91 @@ h2{
     text-align: center;
     color: #2580EB;
     font-family: 'Overpass', serif;
+    font-size: 2.5vw;
 }
+
+h3{
+    font-size: 3vw; 
+    justify-content: center;
+    text-align: center;
+    font-family: 'Overpass', serif;
+    color: #2580eb;
+}
+
 p{
     font-family: 'Overpass', serif;
     color: #404E5C;
+    text-align: center;
 }
 
-.link-trailer{
-    margin: 0px 0px 0px 340px;
-    color: #404E5C;
+.main-p{
+    margin-right: 6vw;
+    margin-left: 6vw;
+    font-size: 2vw;
+    text-shadow: 0.04em 0.01em 0.09em rgb(76, 79, 80) ;
+    color: whitesmoke;
 }
-.link-trailer:hover{
-    color: black;
+
+h4{
+    text-align: center;
+    color: #2580EB;
+    font-family: 'Overpass', serif;
+    font-size: 2.5vw;
 }
-.link-trailer:active{
-    color: palevioletred;
+
+h5{
+    font-size: 25px; 
+    text-align: center;
+    font-family: 'Overpass', serif;
+    color: #3f4c57;
 }
+
+.image1{
+    display: block;
+    width: 70vw;
+    height: 34vw;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.main-article :first-child{
+    display: flex;
+    
+}
+
+.main-article{
+    background-image: linear-gradient(rgba(235, 235, 240, 0.5), rgba(95, 189, 247, 0.5));
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.image2{
+    width: 500px;
+    height: 400px;
+    margin-right: 2vw;
+}
+
+article{
+    border: 2px solid black;
+    flex-direction: column;
+}
+
+.side-articles{
+    display: flex;
+    padding: 2vw 8vw 2vw 0vw;
+    border-bottom: 1px solid gray;
+    margin-right: 10vw;
+    margin-left: 1vw;
+}
+
+.footer{
+    left: 0;
+    bottom: 0;
+    width: 100%;  
+    background-color: #222222;
+    color: white;
+    text-align: center;
+    margin-top: -1vw;
+    padding-top: 5vw ;
+    padding-bottom: 5vw;
+  }
