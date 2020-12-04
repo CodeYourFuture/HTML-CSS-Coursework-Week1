@@ -9,8 +9,9 @@
  
  body {
     font-family: Arial;
-    padding: 20px;
+    padding: 30px;
     background:#062063;
+    align-content:center;
   }
   
   /* Header/Blog Title */
@@ -30,9 +31,10 @@
   };
 
    /* First child to stand out */
-   p:first-child {
+  .p:first-child {
     font-family:Helvetica;
     font-size: 1.5em;
+    color: blue;
   }
   
   /* Create two unequal columns that floats next to each other */
