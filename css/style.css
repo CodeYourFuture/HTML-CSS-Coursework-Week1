@@ -6,16 +6,18 @@
  *    for example: General styles, Navigation styles, Hero styles, Footer etc.
  * 
  */
-
+ /*body styling*/
  body{
   background-color:	#DB7093;
   }
+
   h1{
   
    text-align: center;
    font-size: 42px;
    
   }
+   /*nav  styling*/
   .topnav{
     background-color: 	#FFB6C1;
   overflow: hidden
@@ -34,7 +36,7 @@
     background-color: 	#ff6699;
     color: #fff;
   }
-
+ /*img styling*/
   img{
     padding: 5px;
     margin-top: 3px;
@@ -47,7 +49,7 @@
       margin-right: auto;
       width: 50%;
      }
-     
+      /* h2 styling for the articles  */
      h2{
     
     background-color: 	#FFB6C1;
@@ -56,6 +58,7 @@
     border-width: 1px;
       text-align: center;
      }
+      /*article styling */
     
      article{
       display:block;
@@ -97,4 +100,16 @@
       background-color: transparent;
       text-decoration: underline;
     }
-     
+     /* Footer Styling */
+footer {
+  background-color:	#FFB6C1;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}
+
