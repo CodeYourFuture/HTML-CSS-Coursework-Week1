@@ -67,6 +67,13 @@
     text-align: center;
     background:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcStSnPRVO-1jgv6q1arqdu45x6cGA_Is0u5nA&usqp=CAU)
   }
+  .img5{
+        color: dodgerblue;  
+        padding: 30px;
+        font-size: 40px;
+        text-align: center;
+        background:url(https://thelazytrader.com/wp-content/uploads/2018/06/How-to-trade-usdzar-2-1.jpg)
+  }
   
   /* Add a card effect for articles */
   .card {
