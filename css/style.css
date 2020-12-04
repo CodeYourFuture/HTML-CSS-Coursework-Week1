@@ -6,3 +6,104 @@
  *    for example: General styles, Navigation styles, Hero styles, Footer etc.
  * 
  */
+
+/*Header*/
+header{
+    padding-bottom: 0;
+    margin-left: 255px;
+    background-color: rgb(217, 222, 223);
+    border-radius: 15px;
+    text-align: center;
+    font-family:Roboto,'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+/*SideBar*/
+div.sideBar{
+    background-color: rgb(80, 182, 80);
+    height: 100%;
+    width: 250px;
+    position: absolute;
+    top:21px;
+}
+.profilePic{
+    width: 150px;
+    height: 150px;
+    margin-left: 50px;
+    border-radius: 50%;
+}
+.sideBar h2,img + p{
+    font-size: 25px;
+    color: white;
+    text-align: center;
+}
+form input,button{
+    margin-bottom: 5px;
+    margin-left: 10px;
+    height: 25px;
+    border-radius: 5px;
+    font-family: cursive;
+    font-size: 15px;
+    font-weight: 150;
+    color: blue;
+}
+form p{
+    color: rgba(21, 123, 226, 0.63);
+    text-align: center;
+    font-size: 30px;
+}
+
+/*footer*/
+
+footer p{
+    font-weight: 100;
+    font-size: 20px;
+    color: rgb(86, 40, 194);
+}
+.fa{
+    padding: 10px;
+    width:20px;
+    margin-left:15px;
+    color:white;
+    text-decoration: none;
+    text-align: center;
+}
+
+.fa-facebook {
+    background: #3B5998;
+  }
+  
+  
+  .fa-twitter {
+    background: #55ACEE;
+    
+  }
+  .fa-instagram {
+    background: #125688;
+  }
+  .fa-pinterest {
+    background: #cb2027;
+  }
+/*Main*/
+main{
+    margin-left: 250px;
+}
+
+img.articleImg{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+table{
+    margin: 20px;
+}
+.articleTopic{
+    font-size: 20px;
+    font-weight: 100px;
+    font-family: cursive;
+}
+article:first-child{
+    background-color: aliceblue;
+}
+html{
+    height: 100%;
+}
