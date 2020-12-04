@@ -22,19 +22,19 @@
   }
 /* First Image of Batman */
   div.First-img{
-    width: 1500px;
-    height: 500px;
+    width: 100%;
+    height: 300px;
     background-color:#06161f;
     overflow:hidden;
   };
 
-  /* Second Image of Trio */
-  .Second-img{
-    width: 150px;
-    height: 50px;
-    background-color:#06161f;
-    overflow:hidden;
-  };
+   /* First child to stand out */
+   p:first-child {
+    font-family:Helvetica;
+    font-size: 1.5em;
+  }
+  
+
   
   /* Create two unequal columns that floats next to each other */
   /* Left column */
@@ -78,6 +78,7 @@
     background: #ddd;
     margin-top: 20px;
   }
+
   
   /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
   @media screen and (max-width: 800px) {
