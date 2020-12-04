@@ -3,7 +3,7 @@
   }
   
   /* Add a gray background color with some padding */
-  body {
+  body{
     font-family: Arial;
     padding: 20px;
     background: #f1f1f1;
@@ -88,4 +88,7 @@
     text-align: center;
     background: #ddd;
     margin-top: 20px;
+  }
+  .card:first-child{
+      color: red;
   }
