@@ -66,16 +66,16 @@ header{
 }
 /* nav bar style */
 #navbar a {
-  margin: 35px;
+  margin: 15px;
   display: block;
-  padding: 10px;
+  padding: 8px;
   color: rgb(13, 13, 14);
   text-decoration: inherit;
   cursor: alias;
-	width: 150px;
+	width: 200px;
   height: 40px;
   background:rgba(120, 121, 139, 0.797);
-	transition: width 1s;
+	transition: width 2s;
 	border-radius: 15px;
 	margin-left: -10px;
 	
@@ -109,6 +109,9 @@ section article {
 .globe :first-child{
   padding: 2%;
   background-color: rgb(142, 161, 161);
+  border-radius: 10px;
+  border-bottom-right-radius: 85px;
+  font-size: large;
 
 }
 @media only screen and (max-width: 815px) {
@@ -120,7 +123,8 @@ section article {
 }
 /*left  Navrbar logo-image */
 .logo-image{
-  margin-right: 15px;
+  margin-top: 50px;
+  margin-right: 10px;
   max-width: 289px;
   border-radius: 150px;
   
