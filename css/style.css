@@ -75,7 +75,7 @@ header{
 	width: 200px;
   height: 40px;
   background:rgba(120, 121, 139, 0.797);
-	transition: width 2s;
+	transition: width 1s;
 	border-radius: 15px;
 	margin-left: -10px;
 	
