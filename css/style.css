@@ -21,12 +21,12 @@
  /* Flat earth Log Gif */
  .logo{
 
-  margin-top: 10px;
+  margin-top: 20px;
   align-content: center;
 	height: 256px;
 	padding: 5px 20px;
   display:flex;
-  margin-left: 410px;
+  margin-left: 510px;
   margin-right: auto;
   width: 50%;
 	max-width: 100%;
@@ -120,7 +120,7 @@ section article {
 }
 /*left  Navrbar logo-image */
 .logo-image{
-  margin-top: 95px;
+  margin-right: 15px;
   max-width: 289px;
   border-radius: 150px;
   
@@ -155,7 +155,7 @@ section article {
   /* read more button-1 */
 #btn-1{
   color: #121516;
-  margin-left: 600px;
+  margin-left: 900px;
   background-color: rgb(236, 229, 229);
 }
 /* button-1 read more button hover */
@@ -168,7 +168,7 @@ section article {
 /* read more button-2 */
 #btn-2{
   color: #121516;
-  margin-left: 600px;
+  margin-left: 900px;
   background-color: rgb(236, 229, 229);
 }
 /* button-2 read more button hover */
@@ -181,7 +181,7 @@ section article {
  /* read more button-3 */
 #btn-3{
   color: #121516;
-  margin-left: 600px;
+  margin-left: 900px;
   background-color: rgb(236, 229, 229);
 }
 /* button-3 read more button hover */
@@ -204,8 +204,8 @@ section article {
 /* footer */
 .end{
   
-  
-  position: inherit;
+ margin-right: 90px; 
+  /* position: inherit; */
   text-align: center;
 }
 

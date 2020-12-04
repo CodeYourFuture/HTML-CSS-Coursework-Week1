@@ -1,33 +1,38 @@
 // button:Read More & Read Less
 
-// const btn1 = document.getElementById('btn1')
-// const bnt2 = document.getElementById('bnt2')
-// const btn3 = document.getElementById('bnt3')
-// const more__article1 = document.getElementById('more__article1')
-// const more__article2 = document.getElementById('more__article2')
-// const more__article3 = document.getElementById('more__article3')
-function myFunction () {
-  const dots1 = document.getElementById('dot-1')
-  const moreText = document.getElementById('more-1')
-  const btnText = document.getElementById('btn-1')
-
-  if (dots1.style.display === 'none') {
-    dots1.style.display = 'inline'
-    btnText.innerHTML = 'Read more'
-    moreText.style.display = 'none'
+const dots1 = document.getElementById("dot-1");
+const dots2 = document.getElementById("dot-2");
+const dots3 = document.getElementById("dot-3");
+const moreText1 = document.getElementById("more-1");
+const moreText2 = document.getElementById("more-2");
+const moreText3 = document.getElementById("more-3");
+const btnText1 = document.getElementById("btn-1");
+const btnText2 = document.getElementById("btn-2");
+const btnText3 = document.getElementById("btn-3");
+btnText1.addEventListener("click", () => {
+  if (moreText1.style.display === "none") {
+    moreText1.style.display = "block";
+    dots1.style.display = "none";
   } else {
-    dots1.style.display = 'none'
-    btnText.innerHTML = 'Read less'
-    moreText.style.display = 'inline'
+    moreText1.style.display = "none";
+    dots1.style.display = "block";
   }
-}
-// btn3.addEventListener("click", () => {
-//   if (moreInfo__article3.style.display === "none") { //Here I am sure that we just toggling the more info text etc..
-//     moreInfo__article3.style.display = "block";
-//   } else {
-//     moreInfo__article3.style.display = "none";
-//   }
-// });
-// btn1.addEventListener('<Here you place the event you want>', ()=>{
-//   //Here you write the code that you want to run
-// })
+});
+btnText2.addEventListener("click", () => {
+  if (moreText2.style.display === "none") {
+    moreText2.style.display = "block";
+    dots2.style.display = "none";
+  } else {
+    moreText2.style.display = "none";
+    dots2.style.display = "block";
+  }
+});
+btnText3.addEventListener("click", () => {
+  if (moreText3.style.display === "none") {
+    moreText3.style.display = "block";
+    dots3.style.display = "none";
+  } else {
+    moreText3.style.display = "none";
+    dots3.style.display = "block";
+  }
+});
