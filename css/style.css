@@ -108,19 +108,18 @@ h5{
 }
 
 .main-article{
-    background-image: linear-gradient(rgba(235, 235, 240, 0.5), rgba(95, 189, 247, 0.5));
+    background-image: linear-gradient(rgba(251, 251, 255, 0.5), rgba(95, 189, 247, 0.8));
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 .image2{
-    width: 500px;
-    height: 400px;
+    width: 30vw;
+    height: 30vw;
     margin-right: 2vw;
 }
 
 article{
-    border: 2px solid black;
     flex-direction: column;
 }
 
@@ -135,11 +134,90 @@ article{
 .footer{
     left: 0;
     bottom: 0;
-    width: 100%;  
+    width: 100%;
+    height: 17vw;  
     background-color: #222222;
     color: white;
-    text-align: center;
     margin-top: -1vw;
-    padding-top: 5vw ;
-    padding-bottom: 5vw;
+    padding-top: 1vw ;
+    padding-bottom: 0vw;
   }
+  .media-group{
+    display: flex;
+    padding: 0.4vw 0vw 0vw 7vw;
+}
+
+.media-logo{
+    width: 40px;
+    height: 40px;
+    margin-right: -3vw;
+    margin-left: -3vw;
+    margin-top: 2.5vw;
+}
+
+.media-logo:hover{
+    box-shadow: 0.0em 0.1em 0.9em silver;
+    transition: 0.5s;
+}
+
+.media-logo1{
+    margin: 0vw 5vw 0vw 0vw;
+}
+
+.group-footer{
+    display: flex;
+    justify-content: center;
+    padding: 0vw 10vw 0vw 18vw;
+}
+.About-us-group{
+    padding: 0vw 3vw 0vw 0vw;
+}
+.contact-group{
+    border-right: 1px solid white;
+    border-left: 1px solid white;
+    padding: 0vw 6vw 0vw 3vw;
+}
+li{
+    list-style-type: none;
+}
+
+h6{
+    font-size: 3vw;
+    text-align: center;
+    margin-top: 2vw;
+}
+@media (min-width: 360px) and (max-width: 760px){
+    .side-articles{
+        flex-direction: column;
+    }
+    p{
+    text-align: center;
+    }
+    .image2{
+        width: 50vw;
+        height: 50vw;
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .side-articles{
+        padding: 2vw 0vw 2vw 0vw;
+        margin-right: 0vw;
+        margin-left: 0vw;
+    }
+    .footer{
+        height: 60vw;
+    }
+    .group-footer{
+        flex-direction: column;
+    }
+    .contact-group{
+        padding: 0vw 0vw 0vw 0vw;
+    }
+    .About-us-group{
+
+    }
+    .media-group{
+
+    }
+}
