@@ -54,7 +54,7 @@ footer {
     background-color: #085813
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 580px) {
     .container {
         width: 100%;
         padding: 0;
