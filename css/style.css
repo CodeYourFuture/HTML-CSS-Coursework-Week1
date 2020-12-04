@@ -22,6 +22,7 @@ h2 {
   font-size: 30px;
   font-family: sans-serif;
   color: black;
+  text-decoration: underline;
 }
 
 h3 {
@@ -56,14 +57,12 @@ header-name {
   border: 2px solid;
 }*/
 
-p:first-child {
-    color: blue;
-}
-
-p h2:first-child {
-        color: blue;
-article :first-child {
+  
+  
+  h3:first-child p{
     text-decoration: underline;
+  }
+
+ul li: :first-child {
+    border: 2px solid blue;
 }
-    
-    }
