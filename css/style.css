@@ -9,31 +9,42 @@
   body {
       background-color: rgb(112, 212, 245);
   }
-
+img {
+    padding: 4rem;
+}
  h1 { 
-     margin-right: initial;
-     padding-top: 0rem;
-     background-color: rgb(245, 252, 251);
-     color: black;
+     background-color: rgb(84, 230, 208);
+     color: rgb(255, 255, 255);
      font-family: helvetica;
      font-style: italic;
+ }
+ h3 {
+    color: white;
+    font-family: helvetica; 
+    font-style: italic;  
  }
  p {
     font-family: helvetica; 
     font-style: italic;  
- }
+   }
  
  .article {
-background-color: rgb(32, 204, 195);
+background-color: rgb(84, 230, 208);
 font-family: helvetica;
+font-style: italic;
 }
 
 .article:hover{
-    color: rgb(255, 255, 255);
+    color: rgb(255, 254, 254);
+    font-size: 1em;
+}
+.services {
+    color: rgb(255, 7, 7);
 }
 footer {
-    padding: 1em;
+    padding: 2rem;
     background-attachment: fixed;
-    font-style: oblique;
+    font-family: helvetica;
+    font-style: italic;
 }
 
