@@ -7,5 +7,17 @@
  * 
  */
 /* Page Style*/
-html {background-color: lightblue;
+html {background-color: rgb(89, 190, 224);
+}
+h1 {
+    color: rgb(13, 2, 110);
+}
+ header h2{
+    color: rgb(34, 2, 148);
+}
+.main h2{
+    color: rgb(2, 87, 16)
+}
+.main h3{
+    color: rgb(82, 110, 3);
 }
