@@ -9,15 +9,27 @@
 /* Page Style*/
 html {background-color: rgb(89, 190, 224);
 }
+/*Header style*/
 h1 {
     color: rgb(13, 2, 110);
 }
  header h2{
     color: rgb(34, 2, 148);
 }
+/*Content styles*/
 .main h2{
     color: rgb(2, 87, 16)
 }
 .main h3{
     color: rgb(82, 110, 3);
+}
+article:first-of-type {
+    background-color: grey;
+}
+/*link styles*/
+a:visited{
+    color: rgb(138, 42, 4);
+}
+a:hover{
+    color: rgb(2, 82, 13);
 }
