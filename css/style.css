@@ -10,12 +10,14 @@ body {
   font-size: 20px;
   color: black;
   border: 4px solid black;
+  padding: 30px;
 }
 h1 {
   font-size: 40px;
   font-family: sans-serif;
   color: black;
   text-decoration: underline;
+  text-align: center;
 }
 
 h2 {
@@ -30,39 +32,68 @@ h3 {
   font-family: sans-serif;
   color: white;
 }
+
+/*
 /*Header Styling*/
 header {
   border: 2px solid blue;
-  height: 300px;
-  width: 100%;
+  height: 10%;
 }
 
 header-name {
-  width: 30%;
-  height: 300px;
-  left: 0;
-  float: left;
-  border: 2px solid;
+  text-decoration: crimson;
+  text-shadow: darkblue;
+  font-style: oblique;
+  font-size: 40px;
+  font-stretch: expanded;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
- p:first-child {
-    color:  blue;
-  }
+/*Article Styling*/
+/*.first_article {
+  border: 2px solid blue;
+  color: blue;
+}
 
-  article:first-child {
-      border: 2px solid blue;
-  }
+article#sam :first-child {
+  border: 2px solid red;
+  color: blue;
+}
+*/
 
-#header-img {
-  width: 70%;
-  /*float: right;*/
-  position: absolute;
-  right: 0;
-  top: 10;
-  height: 300px;
-  /*padding: 0;
-  
-  border: 2px solid;
-}*/
+.second_article {
+  border: slategrey;
+  border-style: dotted;
+  width: 35%;
+}
 
-  
+.third_article {
+  position: relative;
+  border: slategrey;
+  border-style: dotted;
+  width: 35%;
+  float: right;
+}
+
+/*footer Styling*/
+footer {
+  display: flex;
+  flex-flow: row;
+  flex-direction: row;
+  border-style: ridge;
+  border: 5px solid black;
+}
+
+#header_img_1 {
+  width: 100px;
+  height: 100px;
+}
+
+#header_img_2 {
+  width: 100px;
+  height: 100px;
+}
+
+#header_img_3 {
+  width: 10%;
+}
