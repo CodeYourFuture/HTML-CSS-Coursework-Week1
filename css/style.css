@@ -9,14 +9,26 @@
   body {
       background-color: rgb(112, 212, 245);
   }
-img {
-    padding: 4rem;
+
+  img {
+      float: right;
+  }
+
+button {
+    color: rgb(45, 211, 186);
+    padding: 5px;
+    float: right;
 }
  h1 { 
-     background-color: rgb(45, 211, 186);
-     color: rgb(255, 255, 255);
-     font-family: helvetica;
-     font-style: italic;
+    background-color: rgb(45, 211, 186);
+    color: white;
+    font-family: helvetica;
+    font-style: italic;
+    font-weight: 600;
+ }
+ h2 {
+     color: white;
+     background-color: rgb(45, 211, 186);;
  }
  h3 {
     color: white;
@@ -34,17 +46,27 @@ font-family: helvetica;
 font-style: italic;
 }
 
-.article:hover{
-    color: rgb(255, 254, 254);
+article:first-child {
+    color: yellow;
     font-size: 1em;
 }
-.services {
-    color: rgb(255, 7, 7);
+iframe {
+    width: 750px;
+    height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border-style: solid;
+    border-width: 7px;
+    border-color: white;
 }
 footer {
+    color: rgb(0, 0, 0);
+    background-color:  rgb(45, 211, 186);
     padding: 2rem;
     background-attachment: fixed;
     font-family: helvetica;
     font-style: italic;
+    text-align: justify;
 }
 
