@@ -1,4 +1,4 @@
-// button:Read More & Read Less
+// button:Read More & Read Less.
 
 const dots1 = document.getElementById("dot-1");
 const dots2 = document.getElementById("dot-2");
@@ -36,3 +36,4 @@ btnText3.addEventListener("click", () => {
     dots3.style.display = "block";
   }
 });
+// button -read more .. dropdown more information about the current article.

@@ -121,6 +121,13 @@ section article {
     height: 2020px;
   }
 }
+@media only screen and (min-width: 650px) {
+  /* For mobile phones: */
+  #navbar ul {
+    border: 2px solid;
+    height: 2020px;
+  }
+}
 /*left  Navrbar logo-image */
 .logo-image{
   margin-top: 50px;
