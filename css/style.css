@@ -6,3 +6,76 @@
  *    for example: General styles, Navigation styles, Hero styles, Footer etc.
  * 
  */
+
+.body {
+    background-color: rgb(118, 220, 238);
+}
+
+.img1 {
+    width: 100px;
+    height: 80px;
+    position: fixed;
+    display: block;
+}
+.img2 {
+    width: 1350px;
+}
+.h1 {
+    margin-bottom: 100px;
+    margin-left: 100px;
+    position: fixed;
+    background-color: rgb(6, 185, 161);
+    font-family: fantasy;
+    font-style: oblique;
+    display: block;
+}
+
+.p {
+    margin-top: 56px;
+    margin-left: 100px;
+    position: fixed;
+    background-color: rgb(6, 185, 161);
+    font-family: fantasy;
+    font-style: oblique;
+    display: block;
+}
+.article1 {
+    color: white;
+    text-align: center;
+}
+.article1:first-child {
+    background-color:rgb(6, 185, 161);
+    color: white;
+    font-family: fantasy;
+}
+.article2 {
+    color: white;
+    font-family: fantasy; 
+    text-align: center;
+}
+.article3 {
+    color: white;
+    font-family: fantasy;
+    text-align: center;
+}
+
+.video {
+    background-color: yellow;
+    width: 500px;
+    height: 300px;
+    margin-left: 400px;
+}
+.form-group {
+    font-family: fantasy;
+    text-decoration: double;
+    background-color: rgb(6, 185, 161);
+    color: white;
+}
+.footer {
+    font-family: fantasy;
+    text-align: center;
+    padding: 10px;
+    background-color: rgb(6, 185, 161);
+}
+
+
