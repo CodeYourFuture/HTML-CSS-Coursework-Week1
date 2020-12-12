@@ -124,6 +124,14 @@ footer {
     padding-right: 10px;
 }
 
+
+/************** BOOTSTRAP PAGES **********/
+
+.jumbotron {
+    background-repeat: no-repeat;
+    margin-bottom: 1em;
+}
+
 @media screen and (max-width: 580px) {
     .container {
         width: 100%;
