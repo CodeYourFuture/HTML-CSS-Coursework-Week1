@@ -1,13 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-
+        <title>Form Exercise</title>
     </head>
     <header>
 
     </header>
     <body>
-        
+        <form class="Student-Details" form action = https://putsreq.com/3aJVsa0wHQzIfgexWgcA>
+            <fieldset>
+                <legend>Student Details</legend>
+                <label for="name">Student Name</label>
+                <input type=text id="name" name="name" required></br></br>
+                <label for="yes">Require Assistance</label>
+                <input type="radio" id="yes" name="assistance" value="yes">
+                <label for="no">No</label>
+                <input type="radio" id="no" name="assistance" value="no"></br></br>
+                <label for="email">Email Address</label>
+                <input type="email" id="email" name="email" required>
+            </fieldset></br>
+            <fieldset>
+                <legend>Subject</legend>
+                <label for="subject">Selection of Subject</label>
+                <select name="subject" id="subject">
+                    <option value="html">HTML</option>
+                    <option value="css">CSS</option>
+                    <option value="javascript">JavaScript</option>
+                </select></br></br>
+                <label for="date">Choose Date</label>
+                <input type="date" id="date" name="date"></br></br>
+                <label for="time">Choose Time</label>
+                <input type="time" id="time" name="time"></br></br>
+                <input type="submit" id="submit" name="submit">
+            </fieldset>
+        </form>
     </body>
     <footer>
 
