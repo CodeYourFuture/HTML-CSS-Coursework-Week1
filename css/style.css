@@ -42,7 +42,7 @@
 /* Styling of my article section, where I introduce myself and the reason for my blog */
 article {
     padding: 3.5em;
-    magrgin: 0, auto;
+    margin: 0, auto;
 }
 
 article h2 {
