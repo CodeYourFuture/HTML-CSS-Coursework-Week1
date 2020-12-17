@@ -31,7 +31,8 @@ h2 {
 h3 {
   font-size: 25px;
   font-family: sans-serif;
-  color: white;
+  color: rgb(27, 26, 26);
+  text-decoration: underline;
 }
 
 /*Header Styling*/
@@ -41,7 +42,7 @@ header {
 }
 
 header-name {
-  text-decoration: crimson;
+  
   text-shadow: darkblue;
   font-style: oblique;
   font-size: 40px;
@@ -75,10 +76,9 @@ header-name {
 /*Article Styling*/
 
 article#sam :first-child {
-  border: 2px solid red;
   background-color: blue;
 }
-*/ #article_container {
+/* #article_container {
   width: 100%;
   display: flex;
   flex-direction: row;
@@ -87,10 +87,10 @@ article#sam :first-child {
 }
 
 #second_article {
-  /*width: 60%;*/
+  width: 60%;
   border: slategrey;
   border-style: dotted;
-  text-align: center;
+  text-align: center;*/
 }
 
 .bigger_picture {
@@ -103,18 +103,24 @@ ul {
   text-align: left;
 }
 
-#third_article {
+/*#third_article {
   border: slategrey;
   border-style: dotted;
-  /*width: 30%;*/
+  width: 30%;
   text-align: center;
-}
+}*/
 
 /*footer Styling*/
-footer {
+#contact_container {
+  width: 100%;
   display: flex;
-  flex-flow: row;
-  flex-direction: row;
   border-style: ridge;
   border: 5px solid black;
+  justify-content: center;
+}
+
+.contact-address {
+  padding: 10px;
+  width: 40%;
+  text-align: center;
 }
