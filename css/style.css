@@ -7,75 +7,75 @@
  * 
  */
 
-.body {
-    background-color: rgb(118, 220, 238);
-}
+ body  {
+    background-color: white;
+ }
 
-.img1 {
-    width: 100px;
-    height: 80px;
-    position: fixed;
+.hero-image {
+    background-image: url("/images/Beach-Cleanup.jpeg");
+    height: 657px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+  .hero-text {
+    float: right;
+    font-family: garamond;
+    color: dodgerblue;
+    margin: 190px;
+  }
+  .logo {
+    width: 4rem;
+    height: auto;
+    float: left;
+    padding-bottom: 100px;
+}
+.list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  float: left;
+  width: 150px;
+  background-color: #f1f1f18e;
+}
+li a {
     display: block;
-}
-.img2 {
-    width: 1350px;
-}
-.h1 {
-    margin-bottom: 100px;
-    margin-left: 100px;
-    position: fixed;
-    background-color: rgb(6, 185, 161);
-    font-family: fantasy;
-    font-style: oblique;
-    display: block;
-}
+    margin-left: 5px;
+    padding: 15px;
+  }
+  .article {
+      background-color: dodgerblue;
+      color: white;
+      display: block;
+      text-align: center;
+      font-family: garamond;
+  }
+  .article1:first-child {
+      background-color: green;
+  }
+  .ol {
+      float: left;
+  }
 
-.p {
-    margin-top: 56px;
-    margin-left: 100px;
-    position: fixed;
-    background-color: rgb(6, 185, 161);
-    font-family: fantasy;
-    font-style: oblique;
-    display: block;
-}
-.article1 {
-    color: white;
-    text-align: center;
-}
-.article1:first-child {
-    background-color:rgb(6, 185, 161);
-    color: white;
-    font-family: fantasy;
-}
-.article2 {
-    color: white;
-    font-family: fantasy; 
-    text-align: center;
-}
-.article3 {
-    color: white;
-    font-family: fantasy;
-    text-align: center;
-}
-
-.video {
-    background-color: yellow;
-    width: 500px;
-    height: 300px;
-    margin-left: 400px;
-}
 .form-group {
-    font-family: fantasy;
-    text-decoration: double;
-    background-color: rgb(6, 185, 161);
-    color: white;
+    font-family: garamond;
+    margin: 5px;
 }
-.footer {
-    font-family: fantasy;
+.col-sm-2{
+    font-family: garamond;
+    color: dodgerblue;
+    font-weight: bolder;
+}
+footer {
     text-align: center;
-    padding: 10px;
-    background-color: rgb(6, 185, 161);
+    padding: 3px;
+    background-color: DarkSalmon;
+    color: white;
+    font-family: garamond;
+
+    
 }
 
 
