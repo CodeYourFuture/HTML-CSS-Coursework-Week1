@@ -1,8 +1,14 @@
-/**
- * Add your custom styles below
- * 
- * Remember: 
- * - Be organised, use comments and separate your styles into meaningful chunks
- *    for example: General styles, Navigation styles, Hero styles, Footer etc.
- * 
- */
+body {
+    background-color: rgb(78, 185, 28);
+}
+
+h2 {
+    color: #347596;
+}
+
+h5:first-child {
+    color: #cdd3d6;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 10 px;
+    font-weight: bold;
+}
