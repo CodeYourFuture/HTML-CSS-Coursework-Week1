@@ -81,7 +81,7 @@ a {
 
 nav {
     display: block;
-    width: 90%;
+    
     margin: 0 auto 30px;
 }
 
@@ -95,6 +95,7 @@ nav {
     background: rgba(177, 152, 145, .3);
     border-right: 1px solid #b19891;
     color: #695753;
+    width: 12%;
 }
 
 .one a:hover {
@@ -103,13 +104,16 @@ nav {
 
 .one li {
     display: inline;
+    
 }
 
 .one ul {
     list-style: none;
     margin: 0;
     padding-left: 0;
-    display: block;
+    display: flex;
+    justify-content: space-between;
+    
 }
 
 
