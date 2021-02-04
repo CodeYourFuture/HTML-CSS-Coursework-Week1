@@ -86,7 +86,7 @@ p {
 nav {
     display: block;
 
-    
+
 }
 
 .one ul {
@@ -95,15 +95,8 @@ nav {
 }
 
 .one a {
-    /* padding: 0 auto; */
-    /* background: rgba(177, 152, 145, .3); */
-    border-right: 1px solid #b19891;
+    margin: 1em;
     color: #695753;
-    /* width: 15%; */
-}
-
-.one a:hover {
-    /* background: #b19891; */
 }
 
 .one li {
