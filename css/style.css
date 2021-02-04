@@ -79,6 +79,10 @@ a {
     transition: .25s linear;
 }
 
+p {
+    word-break: break-all;
+}
+
 nav {
     display: block;
 
