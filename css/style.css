@@ -18,7 +18,7 @@
 
 header,
 footer {
-    background-color: khaki;
+    /* background-color: khaki; */
 }
 
 h1 {
@@ -68,10 +68,10 @@ article:first-of-type {
     font-size: 150%;
 }
 
-ul {
+/* ul {
     list-style: none;
     margin: 0 auto;
-}
+} */
 
 a {
     /* text-decoration: none; */
@@ -83,12 +83,12 @@ p {
     word-break: break-all;
 }
 
-nav {
+/* nav {
     display: block;
 
 
-}
-
+} */
+/* 
 .one ul {
     padding: 0.75em 0;
     background: #ECDAD6;
@@ -111,7 +111,7 @@ nav {
     display: flex;
     justify-content: space-between;
 
-}
+} */
 
 
 footer {

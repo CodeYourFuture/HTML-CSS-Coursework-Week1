@@ -24,15 +24,16 @@
   <!-- Remember: Use semantic HTML tags like <header>, <main>, <nav>, <footer>, <section> etc -->
   <header id="laws">
 
-    <h1>Newton's laws of motion</h1>
 
-    <nav class="one">
-      <ul>
-        <li><a href="#laws">Home</a></li>
-        <li><a href="#law-1">Blog</a></li>
-        <li><a href="#law-2">CV</a></li>
-        <li><a href="#law-3">Contact me</a></li>
-        <li><a href="#history">My Projects</a></li>
+
+    <nav class="navbar navbar-dark bg-dark">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active"><a class="nav-link" href="#laws">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="#history">My Projects</a></li>
+        <li class="nav-item"><a class="nav-link" href="#law-1">Blog</a></li>
+        <li class="nav-item"><a class="nav-link" href="#law-2">CV</a></li>
+        <li class="nav-item"><a class="nav-link" href="#law-3">Contact me</a></li>
+
         <li><a href="#links">Links</a></li>
 
       </ul>
@@ -40,10 +41,9 @@
   </header>
 
   <main>
-
-    <article>
-      <img src="https://upload.wikimedia.org/wikipedia/commons/8/83/Sir_Isaac_Newton_%281643-1727%29.jpg"
-        alt="Isaac Newton" height="270px">
+    <h1>My Portfolio</h1>
+    <article class="container">
+      <img src="img/Ava.png" alt="avatar">
       <p>In classical mechanics, Newton's laws of motion are three laws that describe the relationship
         between the motion of an object and the forces acting on it. The first law states that an object
         either remains at rest or continues to move at a constant velocity,
@@ -61,7 +61,7 @@
       </p>
       <hr>
     </article>
-    <article>
+    <article class="container">
       <h2 id="law-1">The First Law</h2>
       <p>The first law states that an object at rest will stay at rest, and an object in motion will
         stay in motion unless acted on by a net external force. Mathematically,
@@ -76,7 +76,7 @@
       <p>Newton's first law is often referred to as the law of inertia.
         Newton's first (and second) laws are valid only in an inertial reference frame.[4]</p>
     </article>
-    <article>
+    <article class="container">
       <hr>
       <h2 id="law-2">The Second Law</h2>
       <p>The second law states that the rate of change of momentum of a body over time is directly
@@ -132,7 +132,7 @@
           equation becomes F = ma.
         </p>
     </article>
-    <article>
+    <article class="container">
       <hr>
       <h2 id="law-3">The Third Law</h2>
       <p>The third law states that all forces between two objects exist in equal magnitude and opposite direction:
@@ -195,7 +195,7 @@
         particles
         carry momentum, and in quantum mechanics.</p>
     </article>
-    <article>
+    <article class="container">
       <hr>
       <h2 id="history">History</h2>
       <p>The ancient Greek philosopher Aristotle had the view that all objects have a natural place in the
@@ -222,7 +222,7 @@
         inertia which Galileo had already described, Newton appropriately gave credit to Galileo.</p>
     </article>
     <hr>
-    <h2 id="links">Links</h2>
+    <h2 id="links" class="container">Links</h2>
     <p>
       <ol>
         <li>Browne, Michael E. (July 1999). Schaum's outline of theory and problems of physics for engineering
