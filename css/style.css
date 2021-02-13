@@ -20,6 +20,17 @@
 .ava {
     /* display: inline-block; */
     height: 20em;
-    margin: 2em;
+    margin: 1em;
     float: right;
+}
+
+
+@media screen and (min-width: 540px) {
+     
+
+}
+
+@media screen and (min-width: 900px) {
+     
+
 }

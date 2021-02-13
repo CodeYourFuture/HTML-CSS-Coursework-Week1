@@ -21,249 +21,274 @@
 
 <body>
   <!-- Add your HTML markup here -->
-  <!-- Remember: Use semantic HTML tags like <header>, <main>, <nav>, <footer>, <section> etc -->
+  <!-- Remember: Use semantic HTML tagss like <header>, <main>, <nav>, <footer>, <section> etc -->
   <header id="laws">
 
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <a class="navbar-brand" href="#">Navbar</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
 
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#projects">My Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#cv">CV</a>
+          </li>
 
-    <nav class="navbar navbar-dark bg-dark">
-      <ul class="navbar-nav mr-auto">
-        <li class="nav-item active"><a class="nav-link" href="#laws">Home</a></li>
-        <li class="nav-item"><a class="nav-link" href="#history">My Projects</a></li>
-        <li class="nav-item"><a class="nav-link" href="#law-1">Blog</a></li>
-        <li class="nav-item"><a class="nav-link" href="#law-2">CV</a></li>
-        <li class="nav-item"><a class="nav-link" href="#law-3">Contact me</a></li>
-        <li class="nav-item"><a class="nav-link" href="#links">Links</a></li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contacts">Contact me</a>
 
-      </ul>
+        </ul>
+
+      </div>
     </nav>
+
+
   </header>
 
   <main>
-    <h1>My Portfolio</h1>
-    <article class="container">
-      <img class="ava" src="img/Ava.png" alt="avatar">
-      <p>In classical mechanics, Newton's laws of motion are three laws that describe the relationship
-        between the motion of an object and the forces acting on it. The first law states that an object
-        either remains at rest or continues to move at a constant velocity,
-        unless it is acted upon by an external force. The second law states that the rate of change
-        f momentum of an object is directly proportional to the force applied, or, for an object with
-        constant mass, that the net force on an object is equal to the mass of that object multiplied
-        by the acceleration. The third law states that when one object exerts a force on a second object,
-        that second object exerts a force that is equal in magnitude and opposite in direction on the first object.
-      </p>
-      <p>
-        The three laws of motion were first compiled by Isaac Newton in his Philosophiæ Naturalis Principia
-        Mathematica (Mathematical Principles of Natural Philosophy), first published in 1687.
-        Newton used them to explain and investigate the motion of many physical objects and systems,
-        which laid the foundation for Newtonian mechanics.
-      </p>
-      <hr>
-    </article>
-    <article class="container">
-      <h2 id="law-1">The First Law</h2>
-      <p>The first law states that an object at rest will stay at rest, and an object in motion will
-        stay in motion unless acted on by a net external force. Mathematically,
-        this is equivalent to saying that if the net force on an object is zero,
-        then the velocity of the object is constant.</p>
-
-      <div class="math"><img
-          src="https://wikimedia.org/api/rest_v1/media/math/render/svg/cf29dd89fdaf777f52adebc3735e4b63d3ef8810">
-      </div>
-
-
-      <p>Newton's first law is often referred to as the law of inertia.
-        Newton's first (and second) laws are valid only in an inertial reference frame.[4]</p>
-    </article>
-    <article class="container">
-      <hr>
-      <h2 id="law-2">The Second Law</h2>
-      <p>The second law states that the rate of change of momentum of a body over time is directly
-        proportional to the force applied, and occurs in the same direction as the applied force.
-
-        <div class="math"><img
-            src="https://wikimedia.org/api/rest_v1/media/math/render/svg/1738cbe14085332f1dc18499c2b47ac496cd09b4">
+    <a id="home">
+      <h1>My Portfolio</h1>
+      <section class="container">
+        <div class="col">
+          <img class="ava" src="img/Ava.png" alt="avatar">
+          <p>In classical mechanics, Newton's laws of motion are three laws that describe the relationship
+            between the motion of an object and the forces acting on it. The first law states that an object
+            either remains at rest or continues to move at a constant velocity,
+            unless it is acted upon by an external force. The second law states that the rate of change
+            f momentum of an object is directly proportional to the force applied, or, for an object with
+            constant mass, that the net force on an object is equal to the mass of that object multiplied
+            by the acceleration. The third law states that when one object exerts a force on a second object,
+            that second object exerts a force that is equal in magnitude and opposite in direction on the first object.
+          </p>
+          <p>
+            The three laws of motion were first compiled by Isaac Newton in his Philosophiæ Naturalis Principia
+            Mathematica (Mathematical Principles of Natural Philosophy), first published in 1687.
+            Newton used them to explain and investigate the motion of many physical objects and systems,
+            which laid the foundation for Newtonian mechanics.
+          </p>
         </div>
+        <hr>
+      </section>
+      <a id="projects">
+        <section class="container">
+          <h2 id="law-1">The First Law</h2>
+          <p>The first law states that an object at rest will stay at rest, and an object in motion will
+            stay in motion unless acted on by a net external force. Mathematically,
+            this is equivalent to saying that if the net force on an object is zero,
+            then the velocity of the object is constant.</p>
+
+          <div class="math"><img
+              src="https://wikimedia.org/api/rest_v1/media/math/render/svg/cf29dd89fdaf777f52adebc3735e4b63d3ef8810">
+          </div>
 
 
-        <h3>Constant Mass</h3>
-        <p>For objects and systems with constant mass,[5][6][7] the second law can be re-stated in terms of an
-          object's
-          acceleration.</p>
+          <p>Newton's first law is often referred to as the law of inertia.
+            Newton's first (and second) laws are valid only in an inertial reference frame.[4]</p>
+        </section>
+        <a id="cv">
+          <section class="container">
+            <hr>
+            <h2 id="law-2">The Second Law</h2>
+            <p>The second law states that the rate of change of momentum of a body over time is directly
+              proportional to the force applied, and occurs in the same direction as the applied force.
+
+              <div class="math"><img
+                  src="https://wikimedia.org/api/rest_v1/media/math/render/svg/1738cbe14085332f1dc18499c2b47ac496cd09b4">
+              </div>
 
 
-        <div class="math"><img
-            src="https://wikimedia.org/api/rest_v1/media/math/render/svg/0ca4b7a15aad6089d7d5efc8c2d7366d72717b83">
-        </div>
-
-        <p>where F is the net force applied, m is the mass of the body, and a is the body's acceleration. Thus, the
-          net
-          force applied to a body produces a proportional acceleration.</p>
-
-        <h3>Variable-mass systems</h3>
-
-        <p>Variable-mass systems, like a rocket burning fuel and ejecting spent gases,
-          are not closed and cannot be directly treated by making mass a function of time in the second law;[6][7]
-          The
-          equation of motion for a body whose mass m varies with time by either ejecting or accreting mass is
-          obtained
-          by
-          applying the second law to the entire, constant-mass system consisting of the body and its ejected or
-          accreted
-          mass;
-          the result is[5]</p>
-
-        <div class="math"><img
-            src="https://wikimedia.org/api/rest_v1/media/math/render/svg/0ca4b7a15aad6089d7d5efc8c2d7366d72717b83">
-        </div>
+              <h3>Constant Mass</h3>
+              <p>For objects and systems with constant mass,[5][6][7] the second law can be re-stated in terms of an
+                object's
+                acceleration.</p>
 
 
-        <p>where u is the exhaust velocity of the escaping or incoming mass relative to the body. From this equation
-          one
-          can derive the equation of motion for a varying mass system, for example, the Tsiolkovsky rocket equation.
-          Under some conventions, the quantity</p>
-        <div class="math"><img
-            src="https://wikimedia.org/api/rest_v1/media/math/render/svg/3f230275cb3238227dff7b60d438b80ae0daa4ab">
-        </div>
-        <p>on the left-hand side, which represents the advection of momentum, is defined as a force (the force exerted
-          on the body by the changing mass, such as rocket
-          exhaust) and is included in the quantity F. Then, by substituting the definition of acceleration, the
-          equation becomes F = ma.
-        </p>
-    </article>
-    <article class="container">
-      <hr>
-      <h2 id="law-3">The Third Law</h2>
-      <p>The third law states that all forces between two objects exist in equal magnitude and opposite direction:
-        if
-        one
-        object A exerts a force FA on a second object B, then B simultaneously exerts a force FB on A, and the two
-        forces
-        are equal in magnitude and opposite in direction: FA = −FB.[8] The third law means that all forces are
-        interactions between different bodies,[9][10] or different regions within one body, and thus that there is
-        no
-        such
-        thing as a force that is not accompanied by an equal and opposite force. In some situations, the magnitude
-        and
-        direction of the forces are determined entirely by one of the two bodies, say Body A; the force exerted by
-        Body
-        A
-        on Body B is called the "action", and the force exerted by Body B on Body A is called the "reaction". This
-        law
-        is
-        sometimes referred to as the action-reaction law, with FA called the "action" and FB the "reaction". In
-        other
-        situations the magnitude and directions of the forces are determined jointly by both bodies and it isn't
-        necessary
-        to identify one force as the "action" and the other as the "reaction". The action and the reaction are
-        simultaneous, and it does not matter which is called the action and which is called reaction; both forces
-        are
-        part
-        of a single interaction, and neither force exists without the other.[8]
+              <div class="math"><img
+                  src="https://wikimedia.org/api/rest_v1/media/math/render/svg/0ca4b7a15aad6089d7d5efc8c2d7366d72717b83">
+              </div>
 
-        The two forces in Newton's third law are of the same type (e.g., if the road exerts a forward frictional
-        force
-        on
-        an accelerating car's tires, then it is also a frictional force that Newton's third law predicts for the
-        tires
-        pushing backward on the road).
+              <p>where F is the net force applied, m is the mass of the body, and a is the body's acceleration. Thus,
+                the
+                net
+                force applied to a body produces a proportional acceleration.</p>
 
-        From a conceptual standpoint, Newton's third law is seen when a person walks: they push against the floor,
-        and
-        the
-        floor pushes against the person. Similarly, the tires of a car push against the road while the road pushes
-        back
-        on
-        the tires—the tires and road simultaneously push against each other. In swimming, a person interacts with
-        the
-        water, pushing the water backward, while the water simultaneously pushes the person forward—both the
-        person
-        and
-        the water push against each other. The reaction forces account for the motion in these examples. These
-        forces
-        depend on friction; a person or car on ice, for example, may be unable to exert the action force to
-        produce
-        the
-        needed reaction force.[11]
+              <h3>Variable-mass systems</h3>
 
-        Newton used the third law to derive the law of conservation of momentum;[12] from a deeper perspective,
-        however,
-        conservation of momentum is the more fundamental idea (derived via Noether's theorem from Galilean
-        invariance),
-        and holds in cases where Newton's third law appears to fail, for instance when force fields as well as
-        particles
-        carry momentum, and in quantum mechanics.</p>
-    </article>
-    <article class="container">
-      <hr>
-      <h2 id="history">History</h2>
-      <p>The ancient Greek philosopher Aristotle had the view that all objects have a natural place in the
-        universe:
-        that
-        heavy objects (such as rocks) wanted to be at rest on the Earth and that light objects like smoke wanted
-        to be
-        at
-        rest in the sky and the stars wanted to remain in the heavens. He thought that a body was in its natural
-        state
-        when it was at rest, and for the body to move in a straight line at a constant speed an external agent was
-        needed
-        continually to propel it, otherwise it would stop moving. Galileo Galilei, however, realised that a force
-        is
-        necessary to change the velocity of a body, i.e., acceleration, but no force is needed to maintain its
-        velocity.
-        In other words, Galileo stated that, in the absence of a force, a moving object will continue moving. (The
-        tendency of objects to resist changes in motion was what Johannes Kepler had called inertia.) This insight
-        was
-        refined by Newton, who made it into his first law, also known as the "law of inertia"—no force means no
-        acceleration, and hence the body will maintain its velocity. As Newton's first law is a restatement of the
-        law
-        of
-        inertia which Galileo had already described, Newton appropriately gave credit to Galileo.</p>
-    </article>
-    <hr>
-    <h2 id="links" class="container">Links</h2>
-    <p>
-      <ol>
-        <li>Browne, Michael E. (July 1999). Schaum's outline of theory and problems of physics for engineering
-          and
-          science (Series: Schaum's Outline Series). McGraw-Hill Companies. p. 58. ISBN 978-0-07-008498-8.</li>
-        <li>the Principia on line at Andrew Motte Translation</li>
-        <li>Andrew Motte translation of Newton's Principia (1687) Axioms or Laws of Motion </li>
-        <li> Thornton, Marion (2004). Classical dynamics of particles and systems (5th ed.). Brooks/Cole. p. 53.
-          ISBN 978-0-534-40896-1.</li>
+              <p>Variable-mass systems, like a rocket burning fuel and ejecting spent gases,
+                are not closed and cannot be directly treated by making mass a function of time in the second law;[6][7]
+                The
+                equation of motion for a body whose mass m varies with time by either ejecting or accreting mass is
+                obtained
+                by
+                applying the second law to the entire, constant-mass system consisting of the body and its ejected or
+                accreted
+                mass;
+                the result is[5]</p>
 
-        <li>Plastino, Angel R.; Muzzio, Juan C. (1992). "On the use and abuse of Newton's second law for
-          variable
-          mass problems". Celestial Mechanics and Dynamical Astronomy. 53 (3): 227–232.
-          Bibcode:1992CeMDA..53..227P.
-          doi:10.1007/BF00052611. ISSN 0923-2958. S2CID 122212239. "We may conclude emphasizing that Newton's
-          second
-          law is valid for constant mass only. When the mass varies due to accretion or ablation, [an alternate
-          equation explicitly accounting for the changing mass] should be used."</li>
-        <li>Halliday; Resnick. Physics. 1. p. 199. ISBN 978-0-471-03710-1. It is important to note that we
-          cannot
-          derive a general expression for Newton's second law for variable mass systems by treating the mass in
-          F =
-          dP/dt = d(M v) as a variable. [...] We can use F = dP/dt to analyze variable mass systems only if we
-          apply
-          it to an entire system of constant mass, having parts among which there is an interchange of mass.
-          [Emphasis as in the original]</li>
-        <li>Kleppner, Daniel; Kolenkow, Robert (1973). An Introduction to Mechanics. McGraw-Hill. pp. 133–134.
-          ISBN
-          978-0-07-035048-9 – via archive.org. Recall that F = dP/dt was established for a system composed of a
-          certain set of particles[. ... I]t is essential to deal with the same set of particles throughout the
-          time
-          interval[. ...] Consequently, the mass of the system can not change during the time of interest.</li>
-        <li>Resnick; Halliday; Krane (1992). Physics, Volume 1 (4th ed.). p. 83.</li>
-        <li>C Hellingman (1992). "Newton's third law revisited". Phys. Educ. 27 (2): 112–115.</li>
-        <li>Resnick & Halliday (1977). Physics (Third ed.). John Wiley & Sons. pp. 78–79. Any single force is
-          only
-          one aspect of a mutual interaction between two bodies.</li>
-        <li>Hewitt (2006), p. 75</li>
-        <li>Newton, Principia, Corollary III to the laws of motion</li>
+              <div class="math"><img
+                  src="https://wikimedia.org/api/rest_v1/media/math/render/svg/0ca4b7a15aad6089d7d5efc8c2d7366d72717b83">
+              </div>
 
-      </ol>
-    </p>
+
+              <p>where u is the exhaust velocity of the escaping or incoming mass relative to the body. From this
+                equation
+                one
+                can derive the equation of motion for a varying mass system, for example, the Tsiolkovsky rocket
+                equation.
+                Under some conventions, the quantity</p>
+              <div class="math"><img
+                  src="https://wikimedia.org/api/rest_v1/media/math/render/svg/3f230275cb3238227dff7b60d438b80ae0daa4ab">
+              </div>
+              <p>on the left-hand side, which represents the advection of momentum, is defined as a force (the force
+                exerted
+                on the body by the changing mass, such as rocket
+                exhaust) and is included in the quantity F. Then, by substituting the definition of acceleration, the
+                equation becomes F = ma.
+              </p>
+          </section>
+          <a id="contacts"></a>
+          <section class="container">
+            <hr>
+            <h2 id="law-3">The Third Law</h2>
+            <p>The third law states that all forces between two objects exist in equal magnitude and opposite direction:
+              if
+              one
+              object A exerts a force FA on a second object B, then B simultaneously exerts a force FB on A, and the two
+              forces
+              are equal in magnitude and opposite in direction: FA = −FB.[8] The third law means that all forces are
+              interactions between different bodies,[9][10] or different regions within one body, and thus that there is
+              no
+              such
+              thing as a force that is not accompanied by an equal and opposite force. In some situations, the magnitude
+              and
+              direction of the forces are determined entirely by one of the two bodies, say Body A; the force exerted by
+              Body
+              A
+              on Body B is called the "action", and the force exerted by Body B on Body A is called the "reaction". This
+              law
+              is
+              sometimes referred to as the action-reaction law, with FA called the "action" and FB the "reaction". In
+              other
+              situations the magnitude and directions of the forces are determined jointly by both bodies and it isn't
+              necessary
+              to identify one force as the "action" and the other as the "reaction". The action and the reaction are
+              simultaneous, and it does not matter which is called the action and which is called reaction; both forces
+              are
+              part
+              of a single interaction, and neither force exists without the other.[8]
+
+              The two forces in Newton's third law are of the same type (e.g., if the road exerts a forward frictional
+              force
+              on
+              an accelerating car's tires, then it is also a frictional force that Newton's third law predicts for the
+              tires
+              pushing backward on the road).
+
+              From a conceptual standpoint, Newton's third law is seen when a person walks: they push against the floor,
+              and
+              the
+              floor pushes against the person. Similarly, the tires of a car push against the road while the road pushes
+              back
+              on
+              the tires—the tires and road simultaneously push against each other. In swimming, a person interacts with
+              the
+              water, pushing the water backward, while the water simultaneously pushes the person forward—both the
+              person
+              and
+              the water push against each other. The reaction forces account for the motion in these examples. These
+              forces
+              depend on friction; a person or car on ice, for example, may be unable to exert the action force to
+              produce
+              the
+              needed reaction force.[11]
+
+              Newton used the third law to derive the law of conservation of momentum;[12] from a deeper perspective,
+              however,
+              conservation of momentum is the more fundamental idea (derived via Noether's theorem from Galilean
+              invariance),
+              and holds in cases where Newton's third law appears to fail, for instance when force fields as well as
+              psections
+              carry momentum, and in quantum mechanics.</p>
+          </section>
+          <section class="container">
+            <hr>
+            <h2 id="history">History</h2>
+            <p>The ancient Greek philosopher Aristotle had the view that all objects have a natural place in the
+              universe:
+              that
+              heavy objects (such as rocks) wanted to be at rest on the Earth and that light objects like smoke wanted
+              to be
+              at
+              rest in the sky and the stars wanted to remain in the heavens. He thought that a body was in its natural
+              state
+              when it was at rest, and for the body to move in a straight line at a constant speed an external agent was
+              needed
+              continually to propel it, otherwise it would stop moving. Galileo Galilei, however, realised that a force
+              is
+              necessary to change the velocity of a body, i.e., acceleration, but no force is needed to maintain its
+              velocity.
+              In other words, Galileo stated that, in the absence of a force, a moving object will continue moving. (The
+              tendency of objects to resist changes in motion was what Johannes Kepler had called inertia.) This insight
+              was
+              refined by Newton, who made it into his first law, also known as the "law of inertia"—no force means no
+              acceleration, and hence the body will maintain its velocity. As Newton's first law is a restatement of the
+              law
+              of
+              inertia which Galileo had already described, Newton appropriately gave credit to Galileo.</p>
+          </section>
+          <hr>
+          <h2 id="links" class="container">Links</h2>
+          <p>
+            <ol>
+              <li>Browne, Michael E. (July 1999). Schaum's outline of theory and problems of physics for engineering
+                and
+                science (Series: Schaum's Outline Series). McGraw-Hill Companies. p. 58. ISBN 978-0-07-008498-8.</li>
+              <li>the Principia on line at Andrew Motte Translation</li>
+              <li>Andrew Motte translation of Newton's Principia (1687) Axioms or Laws of Motion </li>
+              <li> Thornton, Marion (2004). Classical dynamics of psections and systems (5th ed.). Brooks/Cole. p. 53.
+                ISBN 978-0-534-40896-1.</li>
+
+              <li>Plastino, Angel R.; Muzzio, Juan C. (1992). "On the use and abuse of Newton's second law for
+                variable
+                mass problems". Celestial Mechanics and Dynamical Astronomy. 53 (3): 227–232.
+                Bibcode:1992CeMDA..53..227P.
+                doi:10.1007/BF00052611. ISSN 0923-2958. S2CID 122212239. "We may conclude emphasizing that Newton's
+                second
+                law is valid for constant mass only. When the mass varies due to accretion or ablation, [an alternate
+                equation explicitly accounting for the changing mass] should be used."</li>
+              <li>Halliday; Resnick. Physics. 1. p. 199. ISBN 978-0-471-03710-1. It is important to note that we
+                cannot
+                derive a general expression for Newton's second law for variable mass systems by treating the mass in
+                F =
+                dP/dt = d(M v) as a variable. [...] We can use F = dP/dt to analyze variable mass systems only if we
+                apply
+                it to an entire system of constant mass, having parts among which there is an interchange of mass.
+                [Emphasis as in the original]</li>
+              <li>Kleppner, Daniel; Kolenkow, Robert (1973). An Introduction to Mechanics. McGraw-Hill. pp. 133–134.
+                ISBN
+                978-0-07-035048-9 – via archive.org. Recall that F = dP/dt was established for a system composed of a
+                certain set of psections[. ... I]t is essential to deal with the same set of psections throughout the
+                time
+                interval[. ...] Consequently, the mass of the system can not change during the time of interest.</li>
+              <li>Resnick; Halliday; Krane (1992). Physics, Volume 1 (4th ed.). p. 83.</li>
+              <li>C Hellingman (1992). "Newton's third law revisited". Phys. Educ. 27 (2): 112–115.</li>
+              <li>Resnick & Halliday (1977). Physics (Third ed.). John Wiley & Sons. pp. 78–79. Any single force is
+                only
+                one aspect of a mutual interaction between two bodies.</li>
+              <li>Hewitt (2006), p. 75</li>
+              <li>Newton, Principia, Corollary III to the laws of motion</li>
+
+            </ol>
+          </p>
 
 
 
