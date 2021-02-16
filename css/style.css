@@ -26,7 +26,7 @@ body {
     -webkit-font-smoothing: antialiased;
     background-color: rgba(245, 214, 222, 0.7);
     color: rgb(59, 36, 20);
-    font-size: 75%;
+    font-size: 50%;
 
 }
 
@@ -74,6 +74,10 @@ header {
     color: #ffffff;
 }
 
+section {
+
+    margin: 5em;
+}
 
 
 .ava {
@@ -83,11 +87,25 @@ header {
     float: right;
 }
 
+.card {
+    /* width: 100%; */
+    margin-top: 5em;
+    margin-bottom: 5em;
+}
+
 iframe {
     margin: 0 auto;
     text-align: center;
 }
 
-@media screen and (min-width: 540px) {}
+@media screen and (min-width: 540px) {
+    body {
+        font-size: 100%;
+    }
+}
 
-@media screen and (min-width: 900px) {}
+@media screen and (min-width: 900px) {
+    body {
+        font-size: 150%;
+    }
+}

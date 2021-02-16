@@ -29,7 +29,9 @@
   <header>
     <img id="header-img" src="img/banner.png" alt="header-img">
     <nav class="navbar navbar-expand-lg navbar-light">
-      <a class="navbar-brand" href="#"><img id="logo" src="img/logo.png" alt="logo"></a>
+      <!-- <a class="navbar-brand" href="#"><img id="logo" src="img/logo.png" alt="logo"></a> -->
+      <a class="navbar-brand" href="#"><img id="logo" src="img/arroba-at-svgrepo-com.svg" alt="logo"></a>
+      <!-- <a class="navbar-brand" href="#"><img id="logo3" src="img/arroba.svg" alt="logo"></a> -->
       <div>
         <h4>ARTUR NIKITSIN</h4>
         <h6>WEB DEVELOPER</h6>
@@ -66,7 +68,7 @@
 
   <main>
 
-    <section class="banner">
+    <section id="home" class="banner">
       <h1>Hi. I’m Arthur Nikitin </h1>
       <h3>I'm a web developer based in Barcelona. <br>
         I have an experience in creating successful websites. <br>
@@ -82,16 +84,9 @@
 
     </section>
 
-    <h1 id="home">My Portfolio</h1>
-    <section class="container">
-
-
-
-
-
-
-
-      <div class="card" style="width: 100%;">
+    <h1 id="projects">My Projects</h1>
+    <section class="container" class="mx-auto">
+      <div class="card" class="col-sm-6">
         <a href="img/s5.png" target="_blank"><img class="card-img-top" src="img/s5.png" alt="Card image cap"></a>
         <div class="card-body">
           <h5 class="card-title">Website of a regional non-profit organization</h5>
@@ -101,7 +96,7 @@
         </div>
       </div>
 
-      <div class="card" style="width: 100%;">
+      <div class="card" class="col-sm-6">
         <a href="img/s4.png" target="_blank"><img class="card-img-top" src="img/s4.png" alt="Card image cap"></a>
         <div class="card-body">
           <h5 class="card-title">Website of a regional non-profit organization</h5>
@@ -140,34 +135,45 @@
           <a href="img/s1.png" target="_blank" class="btn btn-primary">Open in new tab</a>
         </div>
       </div> -->
-
-
-
-
     </section>
 
     <section id="cv" class="container">
 
-      <h2 id="law-2">Curriculum Vitae</h2>
+      <h2 id="cv">Curriculum Vitae</h2>
       <hr>
       <iframe src="https://drive.google.com/file/d/1Js-yUqYkiO-HCRgys-8cHV0nha1v0zCq/preview" width="640"
         height="640"></iframe>
 
 
     </section>
-    <a id="contacts"></a>
-    <section class="container">
+
+    <section id="contact" class="container">
       <hr>
-      <h2 id="law-3">The Third Law</h2>
+      <h2>Contact me</h2>
+      <form>
+        <div class="form-group">
+          <label for="exampleFormControlInput1">Email address</label>
+          <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+        </div>
+        <div class="form-group">
 
-    </section>
-    <section class="container">
+          <div class="form-group">
+            <label for="exampleFormControlTextarea1">Example textarea</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+          </div>
+      </form>
 
-    </section>
-    <hr>
-    <h2 id="links" class="container">Links</h2>
+      <div>
+        <figure>
+          <p style="text-align: center "><strong>
+              LinkedIn: <a href="https://www.linkedin.com/in/nikitinarthur/">@nikitinarthur</a><br>
+              GitHub: <a href="https://github.com/ArthurNNN ">@ArthurNNN</a><br>
+              Facebook: <a href="https://www.facebook.com/n.arthur.n/ ">@n.arthur.n</a><br>
+            </strong>
+          </p>
 
-
+        </figure>
+      </div>
 
 
   </main>
