@@ -10,17 +10,15 @@
   <meta name="description" content="My personal portfolio">
   <title>Artur Nikitsin Portfolio</title>
   <link href="//fonts.googleapis.com/css?family=Roboto:400,500,300" rel="stylesheet" type="text/css" />
-  <!-- <link href="//fonts.googleapis.com/css?family=Raleway:400,500,300" rel="stylesheet" type="text/css" /> -->
-
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500&display=swap" rel="stylesheet">
-
   <link rel="stylesheet" href="css/style.css" />
-  <link rel="stylesheet" href="css/normalize.css">
+  <!-- <link rel="stylesheet" href="css/normalize.css"> -->
+
   <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
     integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> -->
 
 </head>
 
@@ -28,11 +26,8 @@
   <!-- Add your HTML markup here -->
   <!-- Remember: Use semantic HTML tagss like <header>, <main>, <nav>, <footer>, <section> etc -->
   <header>
-
-    <nav id="navbar-id" class="navbar navbar-expand-lg navbar-light">
-      <!-- <a class="navbar-brand" href="#"><img id="logo" src="img/logo.png" alt="logo"></a> -->
+    <nav id="navbar-id" class="navbar navbar-expand-lg navbar-dark">
       <a class="navbar-brand" href="#"><img id="logo" src="img/arroba-at-svgrepo-com.svg" alt="logo"></a>
-      <!-- <a class="navbar-brand" href="#"><img id="logo3" src="img/arroba.svg" alt="logo"></a> -->
       <div>
         <h4>ARTUR NIKITSIN</h4>
         <h6>WEB DEVELOPER</h6>
@@ -41,13 +36,10 @@
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item active">
-            <a class="nav-link" href="#header-img">Home
-              <!-- <span class="sr-only">(current)</span> -->
-            </a>
+            <a class="nav-link" href="#header-img">Home<span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#projects">My Projects</a>
@@ -55,57 +47,42 @@
           <li class="nav-item">
             <a class="nav-link" href="#cv">CV</a>
           </li>
-
           <li class="nav-item">
             <a class="nav-link" href="#contacts">Contact me</a>
-
         </ul>
-
       </div>
     </nav>
-
-
   </header>
-
-
-
   <main>
-
     <section id="intro">
       <img id="header-img" src="img/banner.png" alt="header-img">
-      <div>
-        <h3>Hi. I’m Arthur Nikitin </h3>
-      </div>
       <div id="intro-text">
-        <h5>I'm a web developer based in Barcelona. <br>
+        <div id=hero>
+          <h1>Hello. <span></span></h1>
+          <h1>I’m Arthur Nikitin <span></span></h1>
+          <h1> <span></span></h1>
+        </div>
+        <p>I'm a web developer based in Barcelona. <br>
           I have an experience in creating successful websites. <br>
           I code beautifully simple things, and I love what I do.<br>
           I worked with NGOs and created bespoke websites to help people go further online.<br>
           I'm quietly confident, naturally curious, and perpetually working on improving my competency.<br>
-          I 'm a team-player</h5>
+          I 'm a team-player</p>
       </div>
-      <!-- <a href="/start" class="banner-btn posts-btn"
-        onclick="ga('send', 'event', 'Mockplus-sign-up1', 'click', 'Mockplus-home', 1);">Get Started for Free</a> -->
     </section>
-
-
-
     <h1>My Projects</h1>
     <hr>
     <section class="container">
-      <div id="projects" class="col"> 
-      <!-- <div class="row"> -->
-        <!-- <div class="card-columns"> -->
+      <div id="projects" class="col">
         <div class="card ">
           <a href="img/s5.png" target="_blank"><img class="card-img-top" src="img/s5.png" alt="Card image cap"></a>
           <div class="card-body">
             <h5 class="card-title">Website of a regional non-profit organization</h5>
             <p class="card-text">Responsive WordPress site with an internet showcase. Used plugins WooCommerce,
               wpDataTables and meeting search plugin</p>
-            <a href="img/s5.png" target="_blank" class="btn btn-danger">Open in new tab</a>
+            <a href="img/s5.png" target="_blank" class="btn btn-danger cta">Open in new tab</a>
           </div>
         </div>
-
         <div class="card ">
           <a href="img/s4.png" target="_blank"><img class="card-img-top" src="img/s4.png" alt="Card image cap"></a>
           <div class="card-body">
@@ -115,7 +92,6 @@
             <a href="img/s4.png" target="_blank" class="btn btn-danger">Open in new tab</a>
           </div>
         </div>
-
         <div class="card ">
           <a href="img/s1.png" target="_blank"><img class="card-img-top" src="img/s1.png" alt="Card image cap"></a>
           <div class="card-body">
@@ -125,7 +101,6 @@
             <a href="img/s1.png" target="_blank" class="btn btn-danger">Open in new tab</a>
           </div>
         </div>
-
         <div class="card ">
           <a href="img/s2.png" target="_blank"><img class="card-img-top" src="img/s2.png" alt="Card image cap"></a>
           <div class="card-body">
@@ -134,32 +109,14 @@
               wpDataTables and meeting search plugin</p>
             <a href="img/s2.png" target="_blank" class="btn btn-danger">Open in new tab</a>
           </div>
-
-      </div>
-
-      <!-- </div> -->
-      <!-- <div class="card" style="width: 100%;">
-        <a href="img/s3.png" target="_blank"><img class="card-img-top" src="img/s3.png" alt="Card image cap"></a>
-        <div class="card-body">
-          <h5 class="card-title">Website of a regional non-profit organization</h5>
-          <p class="card-text">Responsive WordPress site with an internet showcase. Used plugins WooCommerce,
-            wpDataTables and meeting search plugin</p>
-          <a href="img/s1.png" target="_blank" class="btn btn-primary">Open in new tab</a>
         </div>
-      </div> -->
     </section>
-
     <section id="cv" class="container">
-
       <h2>Curriculum Vitae</h2>
       <hr>
       <iframe src="https://drive.google.com/file/d/1Js-yUqYkiO-HCRgys-8cHV0nha1v0zCq/preview" height="640"></iframe>
-
-
     </section>
-
     <section id="contacts" class="container">
-
       <h2>Contact me</h2>
       <hr>
       <form id="form">
@@ -168,34 +125,23 @@
           <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
         </div>
         <div class="form-group">
-
           <div class="form-group">
             <label for="exampleFormControlTextarea1">Example textarea</label>
             <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
           </div>
       </form>
-
       <div class="container">
-
-        <p style="text-align: center "><strong>
+        <p><strong>
             LinkedIn: <a href="https://www.linkedin.com/in/nikitinarthur/">@nikitinarthur</a><br>
             GitHub: <a href="https://github.com/ArthurNNN ">@ArthurNNN</a><br>
             Facebook: <a href="https://www.facebook.com/n.arthur.n/ ">@n.arthur.n</a><br>
           </strong>
         </p>
-
       </div>
-
-
   </main>
-
   <footer>
     <p>Artur Nikitsin (c) 2021</p>
-
   </footer>
-
-  <!-- Optional JavaScript -->
-  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
     integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
   </script>
