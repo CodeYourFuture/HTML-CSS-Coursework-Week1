@@ -24,13 +24,14 @@ body {
 
     font-size: 75% !important;
     -webkit-font-smoothing: antialiased;
-    background-color: rgba(187, 166, 171, 0.7) !important;
-    color: rgb(59, 36, 20);
+    background-color: rgba(196, 195, 195, 0.7) !important;
+    /* color: rgb(59, 36, 20); */
 
 
 }
 
 header {
+
     background-color: rgba(57, 49, 49, 0.7);
     margin-top: 79px;
     color: white;
@@ -61,7 +62,7 @@ header {
     display: none;
 }
 
-#navbar1 {
+#navbar-id {
 
     /* position: absolute; */
     display: flex;
@@ -72,12 +73,12 @@ header {
     background-color: rgba(57, 49, 49, 1);
     left: 0;
     top: 0;
-    /* z-index: 1; */
+    z-index: 1;
 }
 
 header a {
     color: white !important;
-    /* z-index: 2 !important; */
+    z-index: 2 !important;
 }
 
 #intro {
@@ -97,12 +98,12 @@ header a {
 }
 
 a:hover {
-    font-weight: 500;
+    font-weight: 700;
 }
 
 section {
 
-    margin-bottom: 6em !important;
+    margin-bottom: 6em ;
 }
 
 #projects {
@@ -120,16 +121,16 @@ section {
     /* display: inline-block; */
     height: 20em;
     margin: 1em;
-    float: right;
+    /* float: right; */
 }
 
 .card {
     /* width: 100%; */
     /* margin-top: 5em; */
     /* margin-bottom: 5em; */
-    z-index: -1 !important;
+    /* z-index: -1 !important; */
     margin: 3em !important;
-    /* padding: 5em; */
+    padding: 2em;
 }
 
 .card-columns {
