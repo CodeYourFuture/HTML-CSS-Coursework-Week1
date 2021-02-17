@@ -8,13 +8,11 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
   <meta name="description" content="My personal portfolio">
-  <title>Artur Nikitsin Portfolio</title>
+  <title>Arthur Nikitin Portfolio</title>
   <link href="//fonts.googleapis.com/css?family=Roboto:400,500,300" rel="stylesheet" type="text/css" />
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css" />
-  <!-- <link rel="stylesheet" href="css/normalize.css"> -->
-
   <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
     integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
@@ -29,7 +27,8 @@
     <nav id="navbar-id" class="navbar navbar-expand-lg navbar-dark">
       <a class="navbar-brand" href="#"><img id="logo" src="img/arroba-at-svgrepo-com.svg" alt="logo"></a>
       <div>
-        <h4>ARTUR NIKITSIN</h4>
+
+        <h4>ARTHUR NIKITIN</h4>
         <h6>WEB DEVELOPER</h6>
       </div>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
@@ -56,10 +55,13 @@
   <main>
     <section id="intro">
       <img id="header-img" src="img/banner.png" alt="header-img">
+      <div id="ava-back">
+        <img id="ava" src="img/ava-tr-2.png" alt="">
+      </div>
       <div id="intro-text">
         <div id=hero>
-          <h1>Hello. <span></span></h1>
-          <h1>I’m Arthur Nikitin <span></span></h1>
+          <h1>Hello, <span></span></h1>
+          <h1>I’m Arthur!<span></span></h1>
           <h1> <span></span></h1>
         </div>
         <p>I'm a web developer based in Barcelona. <br>
@@ -116,34 +118,111 @@
       <hr>
       <iframe src="https://drive.google.com/file/d/1Js-yUqYkiO-HCRgys-8cHV0nha1v0zCq/preview"></iframe>
     </section>
-    <section id="contacts" class="container">
+
+    <section id="contacts">
+      <svg preserveAspectRatio="none" viewBox="0 0 100 102" height="75" width="100%" version="1.1"
+        xmlns="http://www.w3.org/2000/svg" class="svgcolor-dark">
+        <path d="M0 0 L50 100 L100 0 Z" fill="#d5d4d4" stroke="#d5d4d4"></path>
+      </svg>
       <h2>Contact me</h2>
       <hr>
       <form id="form">
+
+        <div class="form-group">
+          <label for="exampleFormControlInput1">Your name:</label>
+          <input type="name" class="form-control" id="exampleFormControlInput1" placeholder="Name">
+        </div>
         <div class="form-group">
           <label for="exampleFormControlInput1">Your email:</label>
           <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
         </div>
         <div class="form-group">
-          <div class="form-group">
+          <!-- <div class="form-group"> -->
             <label for="exampleFormControlTextarea1">Your message:</label>
-            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-          </div>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="5" placeholder="Message"></textarea>
+          <!-- </div> -->
         </div>
         <button type="submit" class="btn btn-danger">Send</button>
       </form>
-      <div class="container">
-        <p><strong>
-            LinkedIn: <a href="https://www.linkedin.com/in/nikitinarthur/">@nikitinarthur</a><br>
-            GitHub: <a href="https://github.com/ArthurNNN ">@ArthurNNN</a><br>
-            Facebook: <a href="https://www.facebook.com/n.arthur.n/ ">@n.arthur.n</a><br>
-          </strong>
-        </p>
-      </div>
+      
+      
   </main>
-  <footer>
-    <p>Artur Nikitsin (c) 2021</p>
+  <footer> 
+    
+    <!-- <section> -->
+      <div class="container">
+        
+        <h4>LinkedIn: <a href="https://www.linkedin.com/in/nikitinarthur/">@nikitinarthur</a></h4>
+        <h4>GitHub: <a href="https://github.com/ArthurNNN ">@ArthurNNN</a></h4>
+        <h4>Facebook: <a href="https://www.facebook.com/n.arthur.n/ ">@n.arthur.n</a></h4>
+      </div>
+      <hr id="hr-footer">
+      <h5>Arthur Nikitin ©2021</h5>
+    <!-- </section> -->
+  
   </footer>
+
+  <!-- <section id="contact">
+    <svg preserveAspectRatio="none" viewBox="0 0 100 102" height="75" width="100%" version="1.1"
+      xmlns="http://www.w3.org/2000/svg" class="svgcolor-light">
+      <path d="M0 0 L50 100 L100 0 Z" fill="#c4c3c3b3" stroke="#c4c3c3b3"></path>
+    </svg>
+    <div class="container flex">
+      <div class="header waypoint animated slide-in-left" data-animation="slide-in-left">
+        CONTACT
+      </div>
+      <div class="header-bar waypoint animated slide-in-right" data-animation="slide-in-right" data-delay=".25s"
+        style="animation-delay: 0.25s;"></div>
+      <div class="highlight waypoint animated slide-in-right" data-animation="slide-in-right" data-delay=".5s"
+        style="animation-delay: 0.5s;">
+        Have a question or want to work together?
+      </div>
+      <form class="waypoint animated pop-in" data-animation="pop-in" data-delay=".5s" id="contact-form"
+        style="animation-delay: 0.5s;">
+        <input placeholder="Name" type="text" name="name" required="">
+        <input placeholder="Enter email" type="email" name="email" required="">
+        <textarea placeholder="Your Message" type="text" name="message"></textarea>
+        <div id="success">
+          <div>
+            Your message was sent successfully. Thanks!<span id="close" class="mdi mdi-close"></span>
+          </div>
+        </div>
+        <input class="button" type="submit" id="submit" value="SUBMIT">
+      </form>
+    </div>
+  </section>
+
+  <footer>
+    <i class="mdi mdi-chevron-double-up page-link" dest="home"></i>
+
+    <div class="icon-wrap flex row">
+      <a href="https://www.linkedin.com/in/mattwilliams85">
+        <div class="flex icon" id="icon-2">
+          <i class="mdi mdi-linkedin"></i>
+        </div>
+      </a>
+      <a href="https://www.facebook.com/matthew.williams.351">
+        <div class="flex icon" id="icon-3">
+          <i class="mdi mdi-facebook"></i>
+        </div>
+      </a>
+      <a href="https://instagram.com/infinite_edge/">
+        <div class="flex icon" id="icon-4">
+          <i class="mdi mdi-instagram"></i>
+        </div>
+      </a>
+      <a href="http://codepen.io/matthewwilliams/">
+        <div class="flex icon" id="icon-5">
+          <i class="mdi mdi-codepen"></i>
+        </div>
+      </a>
+    </div>
+    <div class="info-box">
+      <div class="footnote">
+        MATTHEW WILLIAMS <span class="highlight">©2015</span>
+      </div>
+    </div>
+  </footer> -->
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
     integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
   </script>
