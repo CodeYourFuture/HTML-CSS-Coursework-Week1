@@ -24,6 +24,14 @@ body {
     background-color: rgba(196, 195, 195, 0.7) !important;
 }
 
+p {
+    font-size: 75% !important;
+}
+
+h1 {
+    font-size: 2.5rem !important;
+}
+
 header {
     background-color: rgba(51, 45, 45, 0.7);
     margin-top: 79px;
@@ -76,7 +84,7 @@ header a {
 
 }
 
-#hero h1{
+#hero h1 {
     display: block;
     width: fit-content;
     font-size: 4rem;
@@ -85,36 +93,44 @@ header a {
     animation: text_reveal .5s ease forwards;
     animation-delay: 1s;
 }
-#hero h1:nth-child(1){
+
+#hero h1:nth-child(1) {
     animation-delay: 1s;
 }
-#hero h1:nth-child(2){
+
+#hero h1:nth-child(2) {
     animation-delay: 2s;
 }
-#hero h1:nth-child(3){
+
+#hero h1:nth-child(3) {
     animation: text_reveal_name .5s ease forwards;
     animation-delay: 3s;
 }
-#hero h1 span{
- position: absolute;
- top: 0;
- left: 0;
- height: 100%;
- width: 0;
- background-color: crimson;
-animation: text_reveal_box 1s ease;
-animation-delay: .3s;
+
+#hero h1 span {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 0;
+    background-color: crimson;
+    animation: text_reveal_box 1s ease;
+    animation-delay: .3s;
 }
-#hero h1:nth-child(1) span{
+
+#hero h1:nth-child(1) span {
     animation-delay: .5s;
 }
-#hero h1:nth-child(2) span{
+
+#hero h1:nth-child(2) span {
     animation-delay: 1.5s;
 }
-#hero h1:nth-child(3) span{
+
+#hero h1:nth-child(3) span {
     animation-delay: 2.5s;
 }
-#hero.cta{
+
+#hero.cta {
     display: inline-block;
     padding: 10px 30px;
     color: white;
@@ -128,34 +144,39 @@ animation-delay: .3s;
     transition: .3s ease;
     transition-property: background-color, color;
 }
-#hero .cta:hover{
+
+#hero .cta:hover {
     color: white;
     background-color: crimson;
 }
 
 /* Keyframes */
-@keyframes text_reveal_box{
-    50%{
+@keyframes text_reveal_box {
+    50% {
         width: 100%;
         left: 0;
-        
+
     }
-    100%{
+
+    100% {
         width: 0;
         left: 100%;
     }
 }
-@keyframes text_reveal{
-    100%{
+
+@keyframes text_reveal {
+    100% {
         color: white;
     }
 }
-@keyframes text_reveal_name{
-    100%{
+
+@keyframes text_reveal_name {
+    100% {
         color: crimson;
         font-weight: 500;
     }
 }
+
 /* End Keyframes */
 
 #intro-text {
@@ -209,6 +230,13 @@ iframe {
     text-align: left !important;
 }
 
+form button {
+    width: 20%;
+    height: 3em;
+    margin-top: 3em;
+    margin-bottom: 5em;
+}
+
 #contacts a {
     color: #dc3545 !important;
 }
@@ -230,6 +258,9 @@ iframe {
         column-count: 1 !important;
     }
 
+    p {
+        font-size: 100% !important;
+    }
 }
 
 @media screen and (min-width: 900px) {
@@ -247,5 +278,9 @@ iframe {
 
     .card-columns {
         column-count: 2 !important;
+    }
+
+    p {
+        font-size: 100% !important;
     }
 }
