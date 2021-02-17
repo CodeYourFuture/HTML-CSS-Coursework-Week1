@@ -187,8 +187,8 @@ section:first-of-type {
 #ava-back {
     /* background-color: white; */
     background-color: rgba(51, 45, 45, 0.7);
-    height: 160px;
-    width: 160px;
+    height: 160px !important;
+    /* width: 160px !important; */
     border-radius: 40%;
     position: relative;
     /* margin: 0 auto; */
@@ -201,7 +201,7 @@ section:first-of-type {
     /* margin: 1em; */
     width: 96px;
     height: 120px;
-    margin: auto;
+    /* margin: auto; */
     position: absolute;
     top: 0;
     left: 0;
@@ -230,7 +230,7 @@ iframe {
 
 .form-group,
 .form-control {
-    width: 50%;
+    width: 75%;
     text-align: left !important;
 }
 
