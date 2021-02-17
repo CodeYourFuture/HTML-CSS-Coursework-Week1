@@ -21,7 +21,7 @@
 body {
     /* font-size: 75% !important; */
     -webkit-font-smoothing: antialiased;
-    background-color: rgba(196, 195, 195, 0.702) !important;
+    background-color: rgba(196, 195, 195, 0.2) !important;
 }
 
 p {
@@ -215,6 +215,7 @@ section:first-of-type {
     margin-bottom: 10% !important;
     /* margin: 2em !important; */
     padding: 2em;
+    background-color: rgba(196, 195, 195, 0.4) !important;
 }
 
 .card-columns {
@@ -281,56 +282,6 @@ body>footer>div {
 body>footer>p {
     margin-top: 3em;
 }
-
-/* .mdi {
-    display: inline-block;
-    font: normal normal normal 24px/1 "Material Icons";
-    font-size: inherit;
-    text-rendering: auto;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    transform: translate(0, 0);
-}
-
-.mdi-chevron-double-up:before {
-    content: "\F13F";
-}
-
-footer .mdi-chevron-double-up {
-    background: #e31b6d;
-    cursor: pointer;
-    font-size: 30pt;
-    height: 50px;
-    left: 0;
-    line-height: 40pt;
-    margin: 0 auto;
-    position: absolute;
-    right: 0;
-    /* top: -25px; 
-    bottom: 0;
-    transition: background 0.5s;
-    width: 47px;
-}*/
-/*
-footer .icon-wrap .icon {
-    background: #262f38;
-    cursor: pointer;
-    font-size: 18pt;
-    height: 55px;
-    margin: 0 15px;
-    overflow: hidden;
-    position: relative;
-    text-align: center;
-    transition: background 0.3s, color 0.3s, box-shadow 0.3s, transform 0.3s;
-    width: 55px;
-}
-
-.flex {
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-} */
 
 @media screen and (min-width: 540px) {
     #logo {
