@@ -10,7 +10,7 @@ body {
   font-family: sans-serif, serif, monospace;
 }
 
-#ab {
+#logo {
   width: 100%;
   height: 200px;
   background: none;
@@ -25,14 +25,14 @@ body {
   float: left;
 }
 
-#ef {
+#facebook-container {
   width: 50%;
   height: 750px;
   background: none;
   float: right;
 }
 
-#gh {
+#instagram-container {
   width: 50%;
   height: 730px;
   background: none;
