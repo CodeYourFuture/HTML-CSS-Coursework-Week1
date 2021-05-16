@@ -18,7 +18,7 @@ body {
   align-items: center;
 }
 
-#cd {
+#twitter-container {
   width: 50%;
   height: 1500px;
   background: none;
@@ -51,7 +51,7 @@ body {
   justify-content: space-around;
 }
 
-.google {
+.twitter {
   width: 95%;
   height: 1470px;
   background: none;
