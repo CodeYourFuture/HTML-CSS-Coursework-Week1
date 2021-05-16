@@ -10,6 +10,23 @@ body {
   font-family: sans-serif, serif, monospace;
 }
 
+.sign-up-nav-bar {
+  display: flex;
+}
+
+.nav-bar-container {
+  display: flex;
+  justify-content: space-around;
+  background-color: silver;
+  font-size: 1em;
+  font-weight:bolder;
+}
+
+.sign-up-nav-bar > li {
+  margin-inline: 2em;
+  display: inline;
+}
+
 #logo {
   width: 100%;
   height: 200px;
