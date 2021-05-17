@@ -13,6 +13,7 @@ body {
   line-height: 2em;
   justify-content: center;
   border: black solid 5px;
+  border-radius: 10px;
   margin: 10px;
   padding: 10px;
 }
@@ -31,15 +32,36 @@ body {
 }
 .start {
   border: black solid 5px;
+  border-radius: 10px;
   padding: 10px;
 }
 .pagesImage {
   float: left;
-  padding-top: 50px;
+  padding-top: 90px;
   padding-right: 20px;
 }
 article {
   border: black solid 5px;
+  border-radius: 10px;
   padding: 10px;
   margin-top: 10px;
+}
+.paras {
+  text-align: justify;
+}
+
+article:first-child {
+  background: rgb(41, 40, 40);
+  font-style: italic;
+  color: rgb(243, 234, 216);
+  border: rgb(243, 60, 60) solid 10px;
+}
+article:first-child a:link {
+  color: rgb(255, 242, 170);
+}
+article:first-child a:visited {
+  color: rgb(243, 200, 253);
+}
+article:first-child a:hover {
+  color: rgb(64, 245, 40);
 }
