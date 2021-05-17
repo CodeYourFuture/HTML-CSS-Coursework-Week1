@@ -6,3 +6,198 @@
  *    for example: General styles, Navigation styles, Hero styles, Footer etc.
  * 
  */
+<<<<<<< Updated upstream
+=======
+/*******************************************/
+ /*---- COLOR SCHEMES for TEXTS AND LINKS---Konika*/
+/*******************************************/
+
+*{box-sizing:border-box;
+  padding: 0;
+  margin:0;
+}
+body{
+    background-color:#e8e1e0 ;
+}
+h1,h2,h3{
+    color:#57394a
+}
+
+a{
+    color:#441831;
+    text-decoration: none;
+}
+img{
+    width:100%;
+}
+/*header section style*/
+#page-title{
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+
+}
+#page-title h1{
+ font-size: 3rem;
+}
+#page-title .page_description{
+font-size: 1.3rem;
+color: #57394a;
+padding-top: 20px;
+padding-bottom: 10px;
+}
+
+#home{
+    margin:0 auto;
+    display:flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: stretch;
+    width: 100%;
+    background-color: #e0c2c0;
+    padding: 10px;
+}
+
+
+#logo{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    opacity: 0.8;
+    border: 2px dotted rgb(224, 156, 28);
+    padding: 0.3rem;
+    align-self: left;
+    
+}
+#navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+}
+#navbar .nav-link{
+    display: block;
+    padding: 0.6em;
+    color:#57394a;
+    box-shadow:5px 5px 5px 0px rgba(0,0,0,0.75) ;
+    margin-right: 30px;
+    border-radius: 15px;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+#navbar .nav-link:hover{
+    background-color: #dbb0a0;
+    color:#57394a;
+}
+
+/*main section starts here*/
+.container{
+    max-width: 1100px;
+    margin:0 auto;
+    overflow: hidden;
+    
+}
+
+/*gallery section styling*/
+
+#gallery{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content:space-around;
+    padding: 10px;
+    margin: 10px;
+    border: 1px dotted rgb(224, 156, 28) ;
+    border-radius: 10px;
+    
+}
+
+.gallery_image{
+    vertical-align:middle;
+    width:33%;
+    padding: 10px; 
+    height: 300px;
+    background-color:#f3e2dc ;
+    margin-bottom: 3px;
+    border-radius: 5px;
+}
+/*article section starts here*/
+#articles {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    max-width: 1100px;
+   
+  }
+  .blog:first-child{
+      font-style: oblique;
+      color:#79400e;
+  }
+  .blog{
+    text-align: justify;
+    margin-bottom: 10px;
+  }
+  .blog h3{
+      font-size:35px ;
+  }
+  .blog p{
+      font-size: 1.2rem;
+      padding-top: 10px;
+      color:#4b3e34
+  }
+  button{
+    padding: 10px;
+    color:#634025;
+    box-shadow:3px 3px 3px 0px rgba(0,0,0,0.75) ;
+    margin-right: 30px;
+    border-radius: 8px;
+    font-size: 1rem;
+    
+  }
+  .read_more{
+      text-align: left;
+      padding-top: 10px;
+      margin: 0 auto;
+  }
+  hr{
+      color: #57394a;
+      height:2px;
+      border-width:0;
+      background-color:gray
+  }
+/*********footer goes here*******/
+footer{
+    margin:0 auto;
+    padding: 20px;
+    overflow: hidden;
+    background-image: linear-gradient(45deg,#f0d4cb,#f6e6e5,#dbb0a0);
+    
+  }
+  #about_us{
+    max-width: 1100px;
+    margin: 0 auto;
+  }
+  footer .about_me{
+   font-size: 40px;
+   font-weight: 700;
+   padding-bottom: 20px;
+  }
+  footer .information{
+      font-size: 1.2rem;
+      color:#4b3e34 ;
+      padding:0px 0 20px;
+  }
+
+  .thank-you{
+    padding: 8px;
+    font-size: 1.1rem;
+    text-align: center;
+    color: #79400e;
+}
+.trademark{
+   text-align: center;
+   padding: 10px;
+   color: #79400e;
+}
+>>>>>>> Stashed changes
