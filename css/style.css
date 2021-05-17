@@ -6,3 +6,73 @@
  *    for example: General styles, Navigation styles, Hero styles, Footer etc.
  * 
  */
+ /*General styles*/
+ @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap');
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: 'Montserrat', sans-serif;
+  line-height: 1.5;
+  padding: 10%;
+}
+/*Header styles*/
+h1 {
+  text-align: center;
+  text-transform: uppercase;
+  margin: 2rem;
+}
+
+
+/*Main styles*/
+.articles article {
+  display: grid;
+  grid-template-columns:1fr 5fr;
+  grid-gap: 1rem;
+  align-items: center;
+  justify-items: center;
+  margin: 2rem;
+  padding: 1rem;
+  box-shadow: 0 0px 10px rgba(0, 0, 0, 0.28);
+  
+}
+.articles img{
+  border-radius: 2rem;
+  grid-column: 1/2;
+  grid-row: 1/4;
+  max-width: 400px;
+}
+.articles a{
+  text-decoration: none;
+  border: none;
+  font-weight: 600;
+  padding: 1rem 2rem;
+  margin: 2rem;
+  border-radius: 8px;
+  background-color: rgb(216, 69, 69);
+  color: #fff;
+ 
+}
+.articles a:hover {
+  background-color: rgba(216, 69, 69, 0.699);
+  transition: 0.3s ease-in-out;
+}
+.articles h2 {
+  
+  text-align: center;
+  margin: 2rem;
+}
+article h3 {
+  font-size: 22px;
+}
+.articles p {
+  padding: 2rem;
+}
+.other_sections {
+  text-align: center;
+  margin: 3rem;
+}
+/*Footer styles*/
+
