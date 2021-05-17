@@ -6,3 +6,69 @@
  *    for example: General styles, Navigation styles, Hero styles, Footer etc.
  * 
  */
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+
+/* Standard page style */
+body {
+  box-sizing: border-box;
+  font-family: Lato, Arial, Helvetica, sans-serif;
+  letter-spacing: 0.3px;
+  line-height: 1.3rem;
+  background-color: rgb(233, 218, 218);
+}
+
+header {
+  text-align: center;
+}
+
+h1 {
+  border: 5px solid lightslategray;
+  text-align: center;
+  padding: 1rem;
+  display: inline-block;
+  border-radius: 0.3rem;
+}
+
+h2 {
+  font-weight: 700;
+  font-size: 1.5rem;
+  margin: 3rem 3rem;
+  text-decoration: wavy;
+}
+
+img {
+  width: 50%;
+  border: 5px solid black;
+  border-radius: 0.5rem;
+  display: block;
+  margin: 3rem auto;
+}
+
+p {
+  margin: 1rem 3rem;
+  font-size: 1.1rem;
+}
+
+a {
+  display: inline-block;
+  margin: 1.5rem 3rem;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: orangered;
+}
+
+footer {
+  border: 4px solid rgb(46, 44, 44);
+  background-color: grey;
+  color: #fff;
+  margin: 2rem 2rem;
+  border-radius: 0.1rem;
+}
+
+footer p {
+  font-size: 0.7rem;
+}
