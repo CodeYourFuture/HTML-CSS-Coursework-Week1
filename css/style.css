@@ -6,3 +6,40 @@
  *    for example: General styles, Navigation styles, Hero styles, Footer etc.
  * 
  */
+body {
+  background: rgb(243, 234, 216);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.1em;
+  line-height: 2em;
+  justify-content: center;
+  border: black solid 5px;
+  margin: 10px;
+  padding: 10px;
+}
+.logo {
+  float: left;
+}
+.title {
+  display: inline-block;
+  margin-top: 40px;
+  margin-left: 20px;
+}
+.paraHeader {
+  margin-top: 50px;
+  text-align: center;
+  padding-right: 5px;
+}
+.start {
+  border: black solid 5px;
+  padding: 10px;
+}
+.pagesImage {
+  float: left;
+  padding-top: 50px;
+  padding-right: 20px;
+}
+article {
+  border: black solid 5px;
+  padding: 10px;
+  margin-top: 10px;
+}
