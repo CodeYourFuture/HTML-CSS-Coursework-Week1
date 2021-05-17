@@ -6,3 +6,34 @@
  *    for example: General styles, Navigation styles, Hero styles, Footer etc.
  * 
  */
+/*******************************************/
+ /*---- COLOR SCHEMES for TEXTS AND LINKS---Konika*/
+/*******************************************/
+
+
+
+
+
+
+
+/*gallery section styling*/
+#gallery{
+    display: flex;
+    flex-direction: row;
+}
+.row{
+    display : flex;
+    flex-wrap:wrap;
+    padding:5px;
+}
+.column{
+    flex:33%;
+    max-width: 33%;
+    padding: 0 4px;
+}
+
+.gallery_image{
+    margin-top:10px;
+    vertical-align:middle;
+    width:100%
+}
