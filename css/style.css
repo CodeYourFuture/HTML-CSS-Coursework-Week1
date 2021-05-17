@@ -49,7 +49,15 @@ article {
 .paras {
   text-align: justify;
 }
-
+a:link {
+  color: rgb(168, 6, 6);
+}
+a:hover {
+  color: rgb(226, 17, 157);
+}
+a:visited {
+  color: rgb(4, 73, 201);
+}
 article:first-child {
   background: rgb(41, 40, 40);
   font-style: italic;
@@ -64,4 +72,11 @@ article:first-child a:visited {
 }
 article:first-child a:hover {
   color: rgb(64, 245, 40);
+}
+footer {
+  display: flex;
+  justify-content: flex-end;
+}
+.copyRight {
+  padding-right: 40px;
 }
