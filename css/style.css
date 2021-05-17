@@ -24,9 +24,15 @@ h1 {
   text-transform: uppercase;
   margin: 2rem;
 }
+header {
+  padding: 5rem;
+}
 
 
 /*Main styles*/
+main {
+  background-color: rgba(128, 91, 91, 0.015);
+}
 .articles article {
   display: grid;
   grid-template-columns:1fr 5fr;
@@ -64,9 +70,7 @@ h1 {
   text-align: center;
   margin: 2rem;
 }
-article h3 {
-  font-size: 22px;
-}
+
 .articles p {
   padding: 2rem;
 }
@@ -74,5 +78,24 @@ article h3 {
   text-align: center;
   margin: 3rem;
 }
+article:first-child{
+ background-color: rgba(109, 19, 19, 0.336);
+ color: #fff;
+ font-size: 1.4rem;
+ 
+}
+article:first-child h2 {
+  font-size: 2rem;
+}
+
 /*Footer styles*/
 
+hr {
+  margin: 2rem 0;
+}
+footer {
+  background-color: rgb(59, 15, 15);
+  border-radius: 10px;
+  color: #fff;
+  padding: 5rem 2rem;
+}
