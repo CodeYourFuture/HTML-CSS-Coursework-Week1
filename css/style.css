@@ -6,3 +6,66 @@
  *    for example: General styles, Navigation styles, Hero styles, Footer etc.
  * 
  */
+
+body{
+    background:linear-gradient(to bottom,#c2d4da 0%, #000000 120%);
+}
+header {
+    color:black;
+    font-style:unset;
+    text-align: center;
+    font-size: 30px;
+}
+
+aside{
+    background:linear-gradient(to bottom,#56692a17 0%, #e6db44 150%);
+    width: 25%;
+    padding-left: 25px;
+    margin-left: 15px;
+    margin-top: 15px;
+    float: right;
+    font-style: italic;   
+}
+aside>p{
+    margin: 30px;
+}
+
+article:first-of-type{
+    width: 65%;
+    color: black;
+    margin: 4px;
+    font-size: 120%;
+    font-style: italic;
+  }
+  
+article{
+    width: 65%;
+    color: black;
+    margin: 4px;
+    font-size: 100%;
+    
+}
+h3, h2{
+    color: rgb(216, 185, 108);
+}
+
+footer {
+    text-align: center;
+    font-size:1.4vw;
+    font-weight: 900;
+    color:rgb(216, 185, 108);
+  }
+
+  section{
+    margin: 10px;
+    padding: 5px;
+  }
+
+nav{
+    color:rgb(216, 185, 108);
+    font-size: 22px;
+}
+      
+
+  
+ 
