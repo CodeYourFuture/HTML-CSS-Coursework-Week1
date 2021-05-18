@@ -31,10 +31,10 @@ html {
     
 }
 .logo img {
-max-width: 100%;
-display: block;
-height: 100%;
-}
+    max-width: 100%;
+    display: block;
+    height: 100%;
+    }
 
 li {
     list-style: none;
@@ -54,4 +54,26 @@ nav {
 nav a {
     text-decoration: none;
     color: brown;
+}
+
+body {ß
+    font-size: 16px;
+}
+h3{
+    padding-left: 60px;
+}
+p {
+    text-align:left;
+    font-size: 0.8rem;
+    font-family: Cambria;
+    padding-left: 60px;
+}
+article:first-child {
+    font-family: 'Times New Roman';
+    font-size: 24px;
+    border: 2px solid rgb(73, 71, 71);
+}
+
+h2 {
+    display: flex;
 }
