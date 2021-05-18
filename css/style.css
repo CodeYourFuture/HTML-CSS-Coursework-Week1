@@ -10,7 +10,8 @@
  .header-container {
     
     position: fixed;
-    margin-top: 0;
+    top: 0;
+    left: 0;
     
 }
 header {
@@ -35,7 +36,10 @@ html {
     display: block;
     height: 100%;
     }
-
+h1 {
+    text-align: center;
+    justify-content:left ;
+}
 li {
     list-style: none;
 }
@@ -58,6 +62,8 @@ nav a {
 
 body {ß
     font-size: 16px;
+    margin: 150px 60px 0 100px;
+    margin-top: 150px;
 }
 h3{
     padding-left: 60px;
@@ -69,9 +75,10 @@ p {
     padding-left: 60px;
 }
 article:first-child {
+    background-color: #ffffff;
     font-family: 'Times New Roman';
     font-size: 24px;
-    border: 2px solid rgb(73, 71, 71);
+    border: 2px solid rgb(255, 255, 255;
 }
 
 h2 {
