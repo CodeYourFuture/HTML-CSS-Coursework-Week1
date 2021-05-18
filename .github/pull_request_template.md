@@ -16,21 +16,22 @@ Please complete the details below this message
 
 # Your Details
 
-- Your Name:
-- Your City:
-- Your Slack Name:
+- Your Name: Bimbola lasisi
+- Your City: Manchester
+- Your Slack Name: Bimbola(Bee)
 
 # Homework Details
 
-- Module:
-- Week:
+- Module: css/html project
+- Week: Week 1
 
 # Notes
 
 - What did you find easy?
-
+  Answer:  css 
 - What did you find hard?
-
+ Answer: resizing and adjusting image on blog
 - What do you still not understand?
-
+   Answer: adding  column
 - Any other notes?
+Answer: N/A

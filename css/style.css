@@ -1,6 +1,125 @@
 /**
  * Add your custom styles below
- * 
+ *   <style>
+
+/* Create four equal columns that sits next to each other */
+
+/* General style  */
+ html, body{
+     margin: 0;
+ }
+
+ html{
+     box-sizing: border-box;
+     font-size: 15px;
+ }
+
+ /* 1. header style */
+  .header {
+      width: 100%;
+      background-color: rgb(179, 45, 45);
+      height: 70px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      grid-column: 1fr;
+    
+  }
+   header li{
+    list-style-type: none;
+
+   }
+
+   header li a{
+       text-decoration: none;
+   }
+
+   /* General style  */
+  h1{
+      text-align:center;
+      text-transform: uppercase;
+  }
+
+  h2{
+    text-align:center;
+    text-transform: uppercase;
+    margin-bottom: 0;
+    font-size: 20%;
+}
+
+p{
+    text-align: center;
+    width:100%;
+}
+     /* 2. Nav style */
+
+  .nav ul {
+      list-style: none;
+  }
+
+  .nav ul li{
+      display: inline-block;
+  }
+
+  .nav ul li a {
+      display: block;
+      text-decoration: none;
+      color:black;
+      padding: 10px 15px;
+      font-size: 10px;
+  }
+
+  /* 3. Main style */
+  main {
+    width: 100%;
+    background-color:white;
+
+ }
+ body{
+     font-family: Arial, Helvetica, sans-serif;
+     font-Size:15px;
+     margin: 0 auto;
+     text-align: center;
+     background-color: white;
+     color:black;
+     padding:10px;
+ }
+  /* first child  style -target first element of  the article */
+
+ article:first-child { 
+     background-color: black;
+    color: white;
+ }
+
+  .article-header {
+      display: flex;
+
+  }
+    
+ articles img  {
+      max-width:140px;
+      
+  }
+  
+  section{
+      margin-bottom: 5em;
+      padding: 2.4rem;
+  }
+
+   /* Footer */
+ footer{
+     background-color: black;
+     color: white;
+     grid-column: 1fr 1fr;
+     
+ }
+   footer li{
+       list-style-type: none;
+   }
+   
+ @media screen and (max-width: 600px) {
+   
+  /*
  * Remember: 
  * - Be organised, use comments and separate your styles into meaningful chunks
  *    for example: General styles, Navigation styles, Hero styles, Footer etc.
