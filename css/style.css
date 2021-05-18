@@ -7,7 +7,7 @@
  * 
  */
 body{
-color:olivedrab;
+color:rgb(47, 68, 7);
 background-color:lightgoldenrodyellow;
 font-family:Arial, Helvetica, sans-serif;
 font-style:normal;
@@ -15,42 +15,46 @@ font-size:18px;
 	margin: 0;
 
 }
-header > h1{
+div> h1{
 text-align:center;
 text-shadow: 2px 2px #FF0000;
+font-size:40px;
 }
 header{
 
     overflow: auto;
 }
 section{
-border: 1px solid red;
 
 
 }
 
 article{
 border: 1px solid red;
+overflow:auto;
 margin-bottom:10px;
 
 
 }
 img{
-float:left;
-    border: 1px solid red;
-    width:180px;
+
+    border: 15px solid red;
+    align-items:center;
     height:180px;
+   
   
 }
 nav > ul{
     display: flex;
     justify-content:space-around;
    list-style: none;
-    align-items: right;
     background-color:gainsboro;
     padding:10px;
+      clear:both;
+     flex-wrap:wrap;
 
 }
+
 
 aside{
 
@@ -91,6 +95,7 @@ h4 {
 p {
 	line-height: 24px;
 	margin: 8px 0;
+  
 }
 main > h2{
 
@@ -102,12 +107,25 @@ color:#8C4CF7;
 
 
 }
+article:first-child{
+
+
+border:5px dotted red;  
+font-weight:bold;
+color:black;
+background-color:rgb(142, 223, 226);
+
+}
 @media (min-width:500px){
-nav{
- display: flex;
-    flex-wrap:wrap;
-   
+img{
+   float: right;
+    border: 10px solid blue;
+   width:180px;
+    height:180px;
   
 }
+div> h1{
 
+    font-size:100px;
+}
 }
