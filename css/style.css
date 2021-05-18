@@ -33,46 +33,7 @@ body {
   background: none;
   display: flex;
   align-items: center;
-}
-
-article :first-child {
-  text-transform: uppercase;
-  font-size: 2.5rem;
-  font-weight: bolder;
-  color: rgb(94, 92, 92);
-  text-shadow: 3px 3px rgb(38, 108, 129);
-}
-
-article :last-child {
-  font-size: 1.5rem;
-  font-weight: bold;
-}
-
-article {
-  border-bottom: groove;
-  border-width: 1px;
-}
-
-#twitter-container {
-  width: 50%;
-  height: 1500px;
-  background: none;
-  float: left;
-}
-
-#facebook-container {
-  width: 50%;
-  height: 750px;
-  background: none;
-  float: right;
-}
-
-#instagram-container {
-  width: 50%;
-  height: 730px;
-  background: none;
-  float: right;
-}
+}/*needs @media queries*/
 
 .head-line {
   width: 80%;
@@ -86,13 +47,51 @@ article {
   justify-content: space-around;
 }
 
+article :first-child {
+  text-transform: uppercase;
+  font-size: 2.5rem;
+  font-weight: bolder;
+  color: rgb(5, 5, 5);
+  text-shadow: 3px 3px rgb(38, 108, 129);
+}
+
+article :last-child {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+article {
+  border-bottom: groove;
+  border-width: 1px;
+}
+
+.section-container {
+  display: flex;
+}
+
+#twitter-container {
+  background: none;
+  float: left;
+}
+
+#facebook-container {
+  background: none;
+  float: right;
+}
+
+#instagram-container {
+  background: none;
+  float: right;
+}
+
+
+
 .twitter {
-  width: 95%;
-  height: 1470px;
   background: none;
   margin: 20px 20px;
   border-right: 1px solid grey;
 }
+
 .pic {
   float: left;
 }
@@ -102,10 +101,8 @@ article {
 }
 
 .facebook {
-  width: 99%;
-  height: 720px;
-  background: none;
-  margin-top: 10px;
+ background: none;
+ margin-top: 10px;
 }
 
 .facebook > p {
@@ -113,9 +110,7 @@ article {
 }
 
 .instagram {
-  width: 99%;
-  height: 720px;
-  background: none;
+background: none;
 }
 
 .instagram > p {
@@ -123,8 +118,6 @@ article {
 }
 
 footer {
-  width:100%;
-  height:100px;
   background:none;
   font-size:1.2rem;
   font-weight:bold;
