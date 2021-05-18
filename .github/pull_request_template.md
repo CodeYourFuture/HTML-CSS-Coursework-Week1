@@ -23,7 +23,7 @@ Please complete the details below this message
 # Homework Details
 
 - Module: HTML/CSS Project 
-- Week: 8
+- Week: 1
 
 # Notes
 

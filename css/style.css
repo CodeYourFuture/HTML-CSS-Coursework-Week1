@@ -23,7 +23,7 @@
      justify-content: space-between;
  }
 
- .left-header {
+ .left-header { 
      flex-basis: 40%;
      padding-left: 0.5rem;
      text-align: right;
