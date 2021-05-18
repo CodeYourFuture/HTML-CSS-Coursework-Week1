@@ -58,9 +58,10 @@ nav {
 nav a {
     text-decoration: none;
     color: brown;
+    
 }
 
-body {ß
+body {
     font-size: 16px;
     margin: 150px 60px 0 100px;
     margin-top: 150px;
@@ -78,9 +79,12 @@ article:first-child {
     background-color: #ffffff;
     font-family: 'Times New Roman';
     font-size: 24px;
-    border: 2px solid rgb(255, 255, 255;
+    border: 2px solid rgb(255, 255, 255);
 }
 
-h2 {
-    display: flex;
-}
+a {
+    border: 1px solid black ;
+    background-color: mediumaquamarine;
+    font-family: initial ;
+    list-style: none;
+    text-decoration: none;
