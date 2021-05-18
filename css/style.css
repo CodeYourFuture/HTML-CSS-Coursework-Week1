@@ -6,3 +6,24 @@
  *    for example: General styles, Navigation styles, Hero styles, Footer etc.
  * 
  */
+header {
+  text-align: center;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 5px;
+  border-color: blueviolet;
+}
+main {
+  text-align: center;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 5px;
+  border-color: blueviolet;
+}
+footer {
+  text-align: center;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 5px;
+  border-color: blueviolet;
+}
