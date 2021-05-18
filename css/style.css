@@ -6,126 +6,143 @@
  *    for example: General styles, Navigation styles, Hero styles, Footer etc.
  * 
  */
+ /*** general styles*/
+/***  Mobile first*/
 body{
-color:rgb(47, 68, 7);
-background-color:lightgoldenrodyellow;
-font-family:Arial, Helvetica, sans-serif;
-font-style:normal;
-font-size:18px;
-	margin: 0;
-
-}
-div> h1{
-text-align:center;
-text-shadow: 2px 2px #FF0000;
-font-size:40px;
-}
-header{
-
-    overflow: auto;
-}
-section{
-
-
+    color:rgb(47, 68, 7);
+    background-color:lightgoldenrodyellow;
+    font-family:Arial, Helvetica, sans-serif;
+    font-style:normal;
+    font-size:15px;
+    margin: 0 auto;
+    text-align: justify;
 }
 
-article{
-border: 1px solid red;
-overflow:auto;
-margin-bottom:10px;
-
-
-}
-img{
-
-    border: 15px solid red;
-    align-items:center;
-    height:180px;
-   
-  
-}
-nav > ul{
-    display: flex;
-    justify-content:space-around;
-   list-style: none;
-    background-color:gainsboro;
-    padding:10px;
-      clear:both;
-     flex-wrap:wrap;
-
-}
-
-
-aside{
-
-    float:left;
-}
-footer{
-
-
-    clear:both;
-}
-p{
-
-line-height: 20pt;
-padding:10px;
-
-
-}
 h1, h2, h3, h4, h5, h6 {
 	font-family: 'Bungee', Helvetica, Arial, sans-serif;
-	font-weight: normal;
+	font-weight: bold;
+    font-style:italic;
+    color: #8C4CF7;
+    padding:5px;
+}
+blockquote{
+    text-align:center;
+}
+/************************************************************/
+
+/** header logo , blog description and nav bar*/
+
+.header_container{
+
+    overflow: auto;
+    zoom:1;
 }
 
-h1 {	color: #8C4CF7;
-	font-size: 36px;
-	margin: 0;
+#logo_container > h1 {
+    text-align:center;
+    text-shadow: 2px 2px #FF0000;
+    font-size:40px;
+    margin: 0 auto;
 }
 
-h3 {
-	color: #8C4CF7;
-	font-size: 20px;
+#logo_container > h3{
+    text-align:center;
+
 }
 
-h4 {
-	color: #8C4CF7;
-	font-size: 14px;
+#nav_bar > ul{
+    display: flex;
+    justify-content:space-around;
+    list-style: none;
+    background-color:gainsboro;
+    padding:10px;
+    clear:both;
+    flex-wrap:wrap;
 }
+/***************************************************************/
 
-p {
-	line-height: 24px;
-	margin: 8px 0;
-  
-}
-main > h2{
+/*** section and articles*/
+
+#main > h2{
 
 text-align:center;
 font-weight:bold;
 font-size:large;
 color:#8C4CF7; 
 
-
+}
+#main {
+    background-color:rgba(255, 160, 122, 0.274);
+}
+#section_container{
+    width:100%;
 
 }
-article:first-child{
 
+#section_container >h2{ 
+    text-decoration:underline; 
+}
 
-border:5px dotted red;  
-font-weight:bold;
-color:black;
-background-color:rgb(142, 223, 226);
+.article{
+    zoom:1;
+    overflow:auto;
+    margin-bottom:50px;
+    padding:5px;
 
 }
+.article:first-child{
+    border:5px dotted red;  
+    font-weight:bold;
+    color:black;
+    background-color:rgb(142, 223, 226);
+    font-style:italic;
+}
+.info{
+    line-height: 20pt;
+    padding:5px;
+    line-height: 24px;
+	margin: 8px 0;
+
+}
+
+.image{
+    height:300px;
+    width:100%;
+}
+
+/***************************************************************/
+/** Author info*/
+
+#footer{
+    clear:both;
+}
+#footer >p{
+    font-size:1rem;
+    color:darkviolet;}
+#footer a, #footer .info  {
+
+    align-items:center;
+    text-align:center;
+    display:block;
+} 
+/********************************************************************/
+
+/** large screen devices*/
+
 @media (min-width:500px){
-img{
-   float: right;
+.image{
+    float: right;
     border: 10px solid blue;
-   width:180px;
+    width:180px;
     height:180px;
   
 }
-div> h1{
+#logo-container> h1{
 
     font-size:100px;
+}
+#section_container{
+    width:70%;
+
 }
 }
