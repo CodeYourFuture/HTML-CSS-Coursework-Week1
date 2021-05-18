@@ -92,6 +92,8 @@ article {
   border-right: 1px solid grey;
 }
 
+
+
 .pic {
   float: left;
 }
@@ -117,12 +119,20 @@ background: none;
   font-size: 1.35rem;
 }
 
+.credit {
+  text-align: right;
+  font-weight: bold;
+}
+
 footer {
   background:none;
   font-size:1rem;
   font-weight:bold;
   text-align:center;
- 
+}
+
+footer > p {
+  margin: 0mm;
 }
 
 @media screen and (min-width: 992px) {
