@@ -7,6 +7,12 @@
  * 
  */
 
+ /*full page background color */
+ html {
+    background-color:rgb(221, 240, 240)
+ }
+
+ /*header styling*/
  .header-container {
     
     position: fixed;
@@ -23,9 +29,7 @@ header {
     height: 100px;
 
 }
-html {
-    background-color:rgb(221, 240, 240)
-}
+/*logo style*/
 .logo {
     display: flex;
     margin-left: 0;
@@ -36,10 +40,13 @@ html {
     display: block;
     height: 100%;
     }
+
+    /* title*/
 h1 {
     text-align: center;
     justify-content:left ;
 }
+/* navbar style*/
 li {
     list-style: none;
 }
@@ -60,31 +67,58 @@ nav a {
     color: brown;
     
 }
-
+/*body style*/
 body {
     font-size: 16px;
-    margin: 150px 60px 0 100px;
-    margin-top: 150px;
+    margin: 160px 60px 0 100px;
+    line-height: 1.5;
 }
 h3{
     padding-left: 60px;
 }
 p {
     text-align:left;
-    font-size: 0.8rem;
     font-family: Cambria;
     padding-left: 60px;
 }
-article:first-child {
-    background-color: #ffffff;
-    font-family: 'Times New Roman';
-    font-size: 24px;
-    border: 2px solid rgb(255, 255, 255);
+
+/* article style */
+article {
+    display: grid;
+    align-items: center;
+    justify-items: left;
+
 }
 
-a {
-    border: 1px solid black ;
-    background-color: mediumaquamarine;
+article:first-child {
+    background-color:rgb(180, 231, 231);
+    font-family: 'Times New Roman';
+    font-size: 20px;
+    border: 2pßx solid rgb(255, 255, 255);
+    border-radius: 6px;
+}
+
+.article a {
+    border: none;
+    border-radius: 6px;
+    background-color: silver;
+    color: black;
     font-family: initial ;
     list-style: none;
     text-decoration: none;
+    margin-left: 400px;
+    margin-bottom: 20px;
+    padding: 3px 5px 3px 5px;
+}
+
+
+/* footer styling*/
+          
+footer span {
+    color:rgb(137, 146, 146);
+    display: flex;
+    justify-content: flex-end;
+    font-size: 0.8em;
+    margin-left: 50px;
+        
+      }
