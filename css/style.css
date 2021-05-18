@@ -6,3 +6,38 @@
  *    for example: General styles, Navigation styles, Hero styles, Footer etc.
  * 
  */
+
+body {
+  margin: 100px 100px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+a {
+  color: rgb(35, 70, 55);
+}
+
+a:hover {
+  color: rgb(79, 117, 101);
+}
+
+h1,
+h3 {
+  font-family: "Pacifico", cursive;
+}
+
+img {
+  height: 450px;
+  width: 600px;
+}
+
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+footer p {
+  padding: 20px;
+  font-size: 14px;
+}
