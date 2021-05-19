@@ -1,0 +1,91 @@
+/**
+ * Add your custom styles below
+ * 
+ * Remember: 
+ * - Be organised, use comments and separate your styles into meaningful chunks
+ *    for example: General styles, Navigation styles, Hero styles, Footer etc.
+ * 
+ */
+
+body {
+  margin: 100px;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 0.9rem;
+}
+
+a {
+  color: rgb(35, 70, 55);
+}
+
+a:hover {
+  color: rgb(79, 117, 101);
+}
+
+header {
+  box-shadow: 0 4px 5px 0 rgba(255, 138, 18, 45%);
+  text-align: center;
+
+  margin: -70px -20px 30px;
+  padding-bottom: 20px;
+  background-color: #e9967a;
+}
+
+/* Blog title and article titles*/
+h1,
+h3 {
+  font-family: "Pacifico", cursive;
+}
+
+h2 {
+  font-size: 1rem;
+  font-weight: 200;
+  padding: 0px 35px;
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+/*1st article heading*/
+#article1 {
+  font-size: 1.6rem;
+}
+
+section {
+  box-shadow: 3px 0 5px 0 rgba(0, 0, 0, 0.2);
+  margin-top: 60px;
+  padding: 10px 20px;
+  width: 80%vw;
+}
+
+/* 1st article title stands out */
+main section:first-child {
+  background: #e9967ae2;
+}
+
+img {
+  height: 320px;
+  width: 500px;
+}
+
+.caption {
+  color: rgb(70, 67, 67);
+  font-size: 12px;
+  margin-top: 5px;
+}
+
+footer {
+  display: flex;
+  flex-direction: row;
+  margin-top: 80px;
+}
+
+footer p {
+  padding: 20px;
+  font-size: 12px;
+  position: relative;
+  left: 30vw;
+}
