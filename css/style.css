@@ -169,19 +169,20 @@ blockquote {
 
 blockquote p {
     font-size: 20px;
-    color: #15AABA;
+    color: #3F334A;
     font-weight: 500;
 }
 
 cite {
     font-size: 22px;
-    color: #666;
+    color: #3F334A;
     font-weight: 500;
 }
  .website-link {
     font-size: 20px;
-    color: #C100C1;
+    color: #5FD40F;
     font-weight: 600;
+    text-decoration: none;
  }
 
  .website-link:hover {
