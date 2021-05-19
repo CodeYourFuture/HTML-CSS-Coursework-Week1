@@ -19,7 +19,7 @@ body{
 }
 
 h1, h2, h3 {
-    
+
 	font-family: 'Bungee', Helvetica, Arial, sans-serif;
 	font-weight: bold;
     font-style:italic;
@@ -101,8 +101,7 @@ color:#8C4CF7;
 .info{
     line-height: 20pt;
     padding:5px;
-    line-height: 24px;
-	margin: 8px 0;
+    margin: 8px auto;
 
 }
 
