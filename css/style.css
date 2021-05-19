@@ -1,8 +1,39 @@
+/*Universal Styles*/
+body {
+background-color: #f5eee0;
+color: #202020;
+font-family: 'Gill Sans', Arial, Helvetica, sans-serif;
+font-size: 16px;
+}
+
+h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: 'Bungee', Arial, Helvetica, sans-serif;
+}
+
+h2 {
+    font-size: 1.5rem;
+    margin-top: 40px;
+}
+
+
+
+
+/*Header Styles*/
 .header {
     background-color: #202020;
     background-image: url(./images/twitch-header.png);
+    height: 160px;
     background-position: center center;
     background-repeat: no-repeat;
     padding: 20px;
     text-align: center;
-  }
+}
+
+.header .logo {
+    position: absolute;
+    margin-top: -10px;
+    margin-left: 110px;
+}
+
