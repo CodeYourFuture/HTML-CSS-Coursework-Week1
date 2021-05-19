@@ -6,12 +6,16 @@ font-family: 'Gill Sans', Arial, Helvetica, sans-serif;
 font-size: 16px;
 }
 
+h1, h2, h3 {
+    font-family: 'Bungee', Arial, Helvetica, sans-serif; 
+}
+
 h1 {
     font-size: 3rem;
     font-weight: bold;
     text-align: center;
     color: #8C4CF7;
-    font-family: 'Bungee', Arial, Helvetica, sans-serif;
+    margin-bottom: 60px;
 }
 
 h2 {
@@ -19,9 +23,18 @@ h2 {
     margin-top: 40px;
 }
 
+h3 {
+    color:#8C4CF7;
+    font-size: 1.25rem;
+}
 
+p {
+    line-height: 24px;
+}
 
-
+.intro p {
+    text-align: center;
+}
 /*Header Styles*/
 .header {
     background-color: #202020;
@@ -59,3 +72,14 @@ h2 {
 .header .navigation li a.hover {
     border-bottom: 2px solid #8C4CF7;
 }
+
+/*Main Styles*/
+article:first-child {
+    width: 60%;
+    margin: auto;
+}
+
+.container {
+    display: flex;
+}
+        
