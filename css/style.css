@@ -7,8 +7,10 @@ font-size: 16px;
 }
 
 h1 {
-    font-size: 2rem;
+    font-size: 3rem;
     font-weight: bold;
+    text-align: center;
+    color: #8C4CF7;
     font-family: 'Bungee', Arial, Helvetica, sans-serif;
 }
 
@@ -33,7 +35,27 @@ h2 {
 
 .header .logo {
     position: absolute;
-    margin-top: -10px;
+    margin-top: 10px;
     margin-left: 110px;
 }
 
+.header nav {
+    float: right;
+}    
+
+.header .navigation li {
+    margin-top: -5px;
+    padding: 10px;
+}
+
+.header .navigation li a {
+    list-style-type: none;
+    text-decoration: none;
+    color: #f5eee0;
+    font-weight: bold;
+}
+
+.header .navigation li a.active, 
+.header .navigation li a.hover {
+    border-bottom: 2px solid #8C4CF7;
+}
