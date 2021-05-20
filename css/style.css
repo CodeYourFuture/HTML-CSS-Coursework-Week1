@@ -6,3 +6,8 @@
  *    for example: General styles, Navigation styles, Hero styles, Footer etc.
  * 
  */
+header {
+  color: rgb(82, 10, 52);
+  position: center;
+  font-size: 24;
+}
