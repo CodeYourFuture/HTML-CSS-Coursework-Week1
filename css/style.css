@@ -6,3 +6,87 @@
  *    for example: General styles, Navigation styles, Hero styles, Footer etc.
  * 
  */
+
+body {
+  background: rgb(243, 234, 216);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.1em;
+  line-height: 2em;
+  justify-content: center;
+  border: black solid 5px;
+  border-radius: 10px;
+  margin: 10px;
+  padding: 10px;
+}
+
+.logo {
+  float: left;
+}
+
+.title {
+  display: inline-block;
+  margin: 40px 0px 40px 20px;
+}
+
+.start {
+  border: black solid 5px;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.pagesImage {
+  float: left;
+  padding-right: 20px;
+}
+
+article {
+  border: black solid 5px;
+  border-radius: 10px;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+.paras {
+  text-align: justify;
+  clear: both;
+}
+
+a:link {
+  color: rgb(168, 6, 6);
+}
+
+a:hover {
+  color: rgb(226, 17, 157);
+}
+
+a:visited {
+  color: rgb(4, 73, 201);
+}
+
+article:first-child {
+  background: rgb(41, 40, 40);
+  font-style: italic;
+  color: rgb(243, 234, 216);
+  border: rgb(243, 60, 60) solid 10px;
+}
+
+article:first-child a:link {
+  color: rgb(255, 242, 170);
+}
+
+article:first-child a:visited {
+  color: rgb(243, 200, 253);
+}
+
+article:first-child a:hover {
+  color: rgb(64, 245, 40);
+}
+
+footer {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.copyRight {
+  padding-right: 40px;
+}
