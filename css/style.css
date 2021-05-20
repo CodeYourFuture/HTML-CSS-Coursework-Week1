@@ -97,3 +97,11 @@ img:last-of-type {
   transform: translateZ(0.4px) scale(0.6) translateX(-104%) translateY(-40%)
     rotate(-5deg);
 }
+
+.footer {
+  background: black;
+  color: yellow;
+  text-align: center;
+  font-size: 175%;
+  text-shadow: 0 2px 20px red;
+}
