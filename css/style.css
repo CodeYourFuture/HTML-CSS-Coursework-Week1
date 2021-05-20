@@ -6,3 +6,75 @@
  *    for example: General styles, Navigation styles, Hero styles, Footer etc.
  * 
  */
+
+@import url(https://fonts.googleapis.com/css?family=Nunito);
+
+html {
+  height: 100%;
+  overflow: hidden;
+}
+
+.header {
+  color: black;
+  text-align: center;
+  font-size: 175%;
+  text-shadow: 0 0px 15px red;
+  background-color: yellow;
+}
+
+#title h1 {
+  transform: translateZ(0.25px) scale(0.75);
+  transform-origin: 50% 100%;
+}
+
+body {
+  background: black;
+  margin: 0;
+  padding: 0;
+  perspective: 1px;
+  transform-style: preserve-3d;
+  height: 100%;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  font-family: Nunito;
+}
+
+h1 {
+  font-size: 250%;
+}
+
+p {
+  font-size: 140%;
+  line-height: 150%;
+  color: #333;
+}
+
+.page {
+  text-align: center;
+  color: black;
+  position: relative;
+  padding: 25vh 10%;
+  min-height: 100vh;
+  width: 100vw;
+  box-sizing: border-box;
+  box-shadow: 0 -1px 10px rgba(0, 0, 0, 0.7);
+  transform-style: inherit;
+}
+
+.page:nth-child(2n) .content {
+  margin-left: 0;
+  margin-right: auto;
+}
+
+.page:nth-child(2n + 1) .content {
+  margin-left: auto;
+  margin-right: 0;
+}
+
+.content {
+  width: 45%;
+  padding: 5%;
+  border-radius: 5px;
+  background: rgba(200, 150, 0, 1);
+  box-shadow: 0px 0px 50px red;
+}
