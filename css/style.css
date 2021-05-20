@@ -104,3 +104,19 @@ footer li {
     padding: 20px 20px;
     font-size: 20px;
 }
+
+@media screen and (min-width: 600px) {
+    footer ul {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    footer ul li {
+        font-size: 16px;
+    }
+
+    .img1, .img2 {
+        width: 300px;
+        height: auto;
+    }
+}
