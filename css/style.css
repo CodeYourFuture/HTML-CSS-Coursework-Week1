@@ -69,11 +69,17 @@ a:hover {
     color: rgba(248, 130, 4, 0.945);
 }
 
+
 .img1, .img2 {
-    width: 400px;
-    height: auto;
-    margin: 20px 50px;
-    border: 1px black solid;
+    margin: 25px 0;
+    border: 1px solid black;
+}
+main .img1 {
+    width: 30%;
+}
+
+main .img2 {
+    width: 50%;  
 }
 
 h2:first-child {
