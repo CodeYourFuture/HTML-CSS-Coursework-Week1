@@ -11,19 +11,30 @@ header {
   margin: 20px;
   padding: 20px;
   border-radius: 5px;
-  border-color: blueviolet;
+  color: blueviolet;
 }
 main {
   text-align: center;
   margin: 20px;
   padding: 20px;
   border-radius: 5px;
-  border-color: blueviolet;
+  color: blueviolet;
 }
 footer {
   text-align: center;
   margin: 20px;
   padding: 20px;
   border-radius: 5px;
-  border-color: blueviolet;
+  color: blueviolet;
+}
+body {
+  background-color: darkkhaki;
+}
+.Boxing {
+  margin: 2px;
+  padding: 2px;
+}
+.Boxing:first-child {
+  color: rgb(139, 61, 81);
+  font-size: large;
 }
