@@ -1,4 +1,4 @@
-/**
+/*
  * Add your custom styles below
  * 
  * Remember: 
@@ -15,10 +15,22 @@
   margin: 0 auto;
 }
 
-@media screen and (min-width: 720px) {
-  body {
-    width: 60%;
-  }
+@media screen and (min-width: 721px) {
+    body {
+        width: 60%;
+    }
+}
+
+@media screen and (max-width: 720px) {
+    body {
+      width: 70%;
+    }
+} 
+
+ @media screen and (max-width: 480px) {
+    body{
+      width: 80%;
+    }
 }
 
 header {
@@ -31,14 +43,16 @@ header {
   overflow: auto;
 }
 
-@media (max-width: 1000px) {
+@media screen and (max-width: 1150px) {
   header {
-    /* Reverse the axis of the header, making it vertical. */
     flex-direction: column;
-
-    /* Align items to the begining (the left) of the header. */
-    align-items: flex-start;
+    overflow: hidden;
   }
+
+  header h1 {
+      text-align: center;
+  }
+
 }
 
 a {
@@ -56,16 +70,10 @@ header .navigation ul {
   margin: 0;
   padding: 0;
   display: flex;
-  float: right;
-}
-
-header .navigation li {
-  margin-left: 1.5rem;
-  /* display: inline-block; */
 }
 
 header .navigation a {
-  padding: 0.9rem 1.2rem;
+  padding: 0.9rem 1.8rem;
   font-size: 1.1rem;
   color: #000017;
 }
@@ -92,36 +100,34 @@ header p {
 /* Main*/
 
 main {
-  clear: both;
   text-align: justify;
-  margin-top: 4rem;
-}
-
-article {
-  margin-bottom: 3rem;
-  border: 4px dashed #e84a45;
+  margin-top: 5rem;
 }
 
 article {
   display: flex;
-  justify-content: flex-start;
-  align-items: stretch;
+  justify-content: flex-start;    
   flex-flow: row nowrap;
-  border: 5px solid yellow;
+  margin-bottom: 4rem;
 }
 
 article:first-child {
   display: block;
 }
 
+@media screen and (max-width: 720px) {
+    article {
+        display: block;
+    }
+}
+
 .article-content {
-  border: 5px solid green;
-  display: block;
+  margin-left: 2.5rem;
 }
 
 .article-title {
-  flex-basis: 30%;
-  border: 5px dotted;
+  flex: 0 0 25%;
+  width: 30%;
 }
 
 .read-more {
@@ -129,7 +135,7 @@ article:first-child {
   display: block;
   position: relative;
   bottom: 0;
-  margin-top: 2rem;
+  margin-top: 1rem;
 }
 
 
