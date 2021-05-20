@@ -6,3 +6,96 @@
  *    for example: General styles, Navigation styles, Hero styles, Footer etc.
  * 
  */
+
+* {
+  background-color: #275e85;
+  color: white;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%; /* full window width */
+  text-align: center;
+}
+
+/* I have reset the box-sizing from content-box to border-box. this will make sizing elements easier */
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -box-sizing: border-box;
+}
+
+/* I have used this solution to try and show 3 elements on the same line based on the percentage of the overall width 
+of the page, whilst not having to use CSS grids. Source for solution : https://www.codecademy.com/forum_questions/53a1263e631fe949a9000427
+
+However I am still running into issues for getting it to display properly   */
+
+#wrapper {
+  width: 100%; /* of body width */
+  background-color: #1e4763;
+}
+
+#wrapper > div {
+  display: inline-block;
+  width: 32%; /* of wrapper width */
+  margin: auto;
+  text-align: center;
+  overflow: hidden;
+}
+
+h1 {
+  /*width: max-content; /* of wrapper width */
+  margin: auto;
+  color: whitesmoke;
+  height: 300px;
+  font-size: 3em;
+  background-color: #1e4763;
+  /*vertical-align:middle;*/
+}
+
+.h1-image-1 .h1-image-2 {
+  margin: auto;
+}
+
+p {
+  text-align: start;
+  margin-left: 10%;
+  margin-right: 10%;
+  padding-top: 5%;
+  color: white;
+  font-size: 1.3em;
+}
+
+h2 {
+  text-align: start;
+  font-size: 225%;
+  margin-top: 10%;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.h2-image {
+  display: block;
+  margin-top: 2.5%;
+  align-items: baseline;
+  margin-left: 10%;
+}
+
+input {
+  display: block;
+  background-color: white;
+  color: black;
+  width: 40%;
+  height: 30px;
+  align-items: baseline;
+  margin-left: 10%;
+  margin-top: 5%;
+}
+
+.footer-top {
+  border-top: solid grey 2px;
+  margin-top: 10%;
+}
