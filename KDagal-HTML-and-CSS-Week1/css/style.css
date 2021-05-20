@@ -1,0 +1,34 @@
+/* Primary header*/
+header {
+    color: yellowgreen;
+    text-align: center;
+}
+
+/* Image*/
+img{
+    width: 97%;
+    padding: 10px;
+}
+
+/* header 2*/
+h2{
+color: whitesmoke;
+}
+
+/* Body of the page*/
+body{
+    background-color: rgb(47, 230, 47);
+}
+
+/* first paragraph is hilghited*/
+section :first-child{
+    background-color: burlywood;
+}
+
+footer{
+    background-color: green;
+}
+textarea{
+    width: 50%;
+}
+
