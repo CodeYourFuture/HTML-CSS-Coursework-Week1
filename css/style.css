@@ -33,7 +33,7 @@ body {
   background: none;
   display: flex;
   align-items: center;
-}/*needs @media queries*/
+} /*needs @media queries*/
 
 .head-line {
   width: 80%;
@@ -84,15 +84,11 @@ article {
   float: right;
 }
 
-
-
 .twitter {
   background: none;
   margin: 20px 20px;
   border-right: 1px solid grey;
 }
-
-
 
 .pic {
   float: left;
@@ -103,8 +99,8 @@ article {
 }
 
 .facebook {
- background: none;
- margin-top: 10px;
+  background: none;
+  margin-top: 10px;
 }
 
 .facebook > p {
@@ -112,7 +108,8 @@ article {
 }
 
 .instagram {
-background: none;
+  background: none;
+  border-top: 1px solid grey;
 }
 
 .instagram > p {
@@ -125,17 +122,12 @@ background: none;
 }
 
 footer {
-  background:none;
-  font-size:1rem;
-  font-weight:bold;
-  text-align:center;
+  background: none;
+  font-size: 1rem;
+  font-weight: bold;
+  text-align: center;
 }
 
 footer > p {
   margin: 0mm;
 }
-
-@media screen and (min-width: 992px) {
-  .navbar-brand > img {
-    max-height: 80px;
-  }
