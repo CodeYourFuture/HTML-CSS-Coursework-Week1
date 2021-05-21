@@ -6,3 +6,16 @@
  *    for example: General styles, Navigation styles, Hero styles, Footer etc.
  * 
  */
+body{
+  background-color: #a6b807;
+}
+
+
+#title{
+  text-align: center;
+  background: rgb(0, 0, 0) 
+    color: yellow;
+  text-shadow: -2px 5px 5px grey;
+  font-family: Fredericka the great ,sans-serof;
+  padding: 5px 5px 10px 5px;
+}
