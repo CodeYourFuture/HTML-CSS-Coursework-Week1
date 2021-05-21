@@ -22,7 +22,6 @@ body {
 }
 
 .sign-up-nav-bar > li {
-  margin-inline: 2em;
   display: inline;
 }
 
@@ -152,14 +151,6 @@ footer > p {
   .nav-icon {
     width: 30px;
     height: 30px;
-  }
-
-  .sign-up-nav-bar > li {
-    margin-inline: 0.2em;
-  }
-
-  .nav-icon {
-    align-items: right;
   }
 
   #logo {
