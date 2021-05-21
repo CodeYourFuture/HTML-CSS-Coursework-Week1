@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
+
 /* reset css file */
 
 *{
@@ -17,6 +19,12 @@ a{
 }
 
 /* Utiliti Classes */
+
+.container{
+    max-width: 1100px;
+    margin: auto;
+    padding: 0 2rem;
+}
 
 .bg-dark{
     background: black;
@@ -61,6 +69,18 @@ a{
 
 .text-center{
     text-align: center;
+}
+
+.list{
+    margin: 0.50rem;
+    list-style: none;
+    border: 2px solid white;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+
+.list li{
+    padding: 0.25rem;
 }
 
 /* bootstrap classes */
@@ -138,3 +158,53 @@ a{
     padding: 0.5rem 1rem;
     border-radius: 50%;
 }
+
+#Womens-section{
+    display:flex;
+  }
+  #Womens-section div{
+    flex: 1;
+  }
+  #Womens-section img{
+    height: auto;
+    max-width: 100% ;
+  }
+  
+  #Womens-section .content{
+    text-align: right;
+  }
+  
+  #Kids-section .items{
+    display: flex;
+  }
+  
+  #Kids-section .items div{
+    flex: 1;
+  }
+  
+  #Kids-section .items img{
+    border-radius: 50%;
+    display: block;
+    margin: auto;
+    width: 60%; /* 60% of parent */
+  }
+  
+  #contact{
+    display: flex;
+    justify-content: center;
+  }
+  
+  #contact .contact-form{
+    flex-basis: 300px;
+    text-align: center;
+  }
+  #contact .contact-form label{
+    display: block;
+    margin: 0.25rem 0;
+  }
+  
+  #main-footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
