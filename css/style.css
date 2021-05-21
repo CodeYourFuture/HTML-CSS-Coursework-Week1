@@ -6,3 +6,70 @@
  *    for example: General styles, Navigation styles, Hero styles, Footer etc.
  * 
  */
+#page-wrapper {
+  position: relative;
+}
+li {
+  list-style: none;
+}
+body {
+  background-color: #f0f8ff;
+}
+#header {
+  margin: auto;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  background-color: rgb(45, 46, 46);
+  justify-content: space-around;
+}
+img {
+  display: block;
+  height: auto;
+  max-width: 100%;
+  width: 400px;
+  top: 0px;
+  margin-left: 35%;
+}
+#main-articles {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  padding: 10px 280px 20px 280px;
+  margin: 50px;
+  align-items: center;
+}
+article > h1 {
+  text-align: center;
+}
+.nav-bar ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+article:first-child {
+  background-color: cornflowerblue;
+}
+article:first-child p {
+  font-size: 16px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+a:link {
+  color: rgb(10, 2, 39);
+}
+
+a:visited {
+  color: rgb(17, 226, 191);
+}
+a:hover {
+  color: hotpink;
+}
+#bamboo {
+  margin-top: 140px;
+}
+footer > ul {
+  color: aqua;
+  background-color: darkslategrey;
+  display: flex;
+  justify-content: space-around;
+}
