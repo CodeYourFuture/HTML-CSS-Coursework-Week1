@@ -23,9 +23,60 @@ a{
     color: white;
 }
 
+.background-light{
+    background: black;
+    color: #A6ACAF;
+}
+
 .text-primary{
     color: white;
 }
+
+.large-heading{
+    font-size: 3rem;
+}
+
+.medium-heading{
+    font-size: 1.5rem;
+}
+
+.bold{
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+.btn{
+    font-size: 1.25rem;
+    color: white;
+    background: black;
+    border-radius: 5px;
+    padding: 0.5rem 1.5rem;
+    margin: 0.5rem 0.75rem;
+}
+
+.btn:hover{
+    background-color: black;
+    color: #C0392B
+}
+
+.text-center{
+    text-align: center;
+}
+
+/* bootstrap classes */
+
+.m-1{margin: 0.25rem;}
+.m-2{margin: 1rem;}
+.m-3{margin: 3rem;}
+
+.p-1{margin: 1rem;}
+.p-1{margin: 2rem;}
+.p-1{margin: 3rem;}
+
+.py-1{margin: 1.25rem 0;}
+.py-1{margin: 2rem 0;}
+.py-1{margin: 3rem 0;}
+
 
 /* id */
 
@@ -54,4 +105,36 @@ a{
     background-color: #C0392B;
     color: black;
     border-radius: 5px;
+}
+
+#showcase{
+    background: #A6ACAF no-repeat center/cover;
+    height: 100vh;
+}
+
+#showcase .show-content{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+
+}
+
+#mens-section .items{
+    display: flex;
+    padding: 1rem;
+}
+
+#mens-section .items .item{
+    flex: 1;
+    text-align: center;
+    padding: 1rem;
+}
+
+#mens-section .items .item i{
+    background: #C0392B;
+    padding: 0.5rem 1rem;
+    border-radius: 50%;
 }
