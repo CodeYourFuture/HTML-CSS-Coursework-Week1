@@ -16,21 +16,23 @@ Please complete the details below this message
 
 # Your Details
 
-- Your Name:
-- Your City:
-- Your Slack Name:
+- Your Name: Gulnihal 
+- Your City: Manchester
+- Your Slack Name: Gulnihal
 
 # Homework Details
 
-- Module:
-- Week:
+- Module: HTML & CSS
+- Week: 1
 
 # Notes
 
 - What did you find easy?
+creating semantic elements in html
 
 - What did you find hard?
-
+positioning in css
 - What do you still not understand?
 
 - Any other notes?
+positioning has not been finished yet
