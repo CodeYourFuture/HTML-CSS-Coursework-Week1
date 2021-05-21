@@ -51,7 +51,7 @@ li {
     list-style: none;
 }
 nav li {
-    display: inline-block;
+    display: inline;
     padding: 2em;
 }
 nav {
@@ -82,20 +82,24 @@ p {
     padding-left: 60px;
 }
 
+
 /* article style */
 article {
     display: grid;
     align-items: center;
     justify-items: left;
+    
 
 }
 
 article:first-child {
-    background-color:rgb(180, 231, 231);
+    background-color:rgba(253, 253, 253, 0.5);
     font-family: 'Times New Roman';
-    font-size: 20px;
+    font-size: 18px;
+    word-spacing: 12px;
     border: 2pßx solid rgb(255, 255, 255);
     border-radius: 6px;
+
 }
 
 .article a {
@@ -109,6 +113,14 @@ article:first-child {
     margin-left: 400px;
     margin-bottom: 20px;
     padding: 3px 5px 3px 5px;
+}
+
+/* images' style */
+
+img {
+    max-width: 280px;
+    float: left;
+
 }
 
 
