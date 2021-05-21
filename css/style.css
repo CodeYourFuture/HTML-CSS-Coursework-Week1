@@ -7,6 +7,7 @@ body {
   margin: 0;
   padding: 0;
   width: 100%; /* full window width */
+  font-family: "KoHo", sans-serif;
 }
 
 /* I have reset the box-sizing from content-box to border-box. this will make sizing elements easier */
@@ -30,6 +31,7 @@ However I am still running into issues for getting it to display properly   */
   top: 0;
   width: 100%;
   background-color: #1c3f57;
+  border-bottom: #ff3100 4px solid;
 }
 
 /* wrapper > div selects all child elements div within the wrapper. This is how I managed to get all three elements to display in a row.*/
@@ -120,7 +122,7 @@ input {
 }
 
 .footer-top {
-  border-top: solid grey 2px;
+  border-top: solid #ff3100 2px;
   margin-top: 10%;
 }
 
