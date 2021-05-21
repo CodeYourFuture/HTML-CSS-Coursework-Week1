@@ -16,7 +16,6 @@ body {
 
 .nav-bar-container {
   display: flex;
-  justify-content: space-around;
   background-color: silver;
   font-size: 1em;
   font-weight: bolder;
@@ -25,6 +24,11 @@ body {
 .sign-up-nav-bar > li {
   margin-inline: 2em;
   display: inline;
+}
+
+.nav-icon {
+  width: 40px;
+  height: 40px;
 }
 
 #logo {
@@ -69,21 +73,6 @@ article {
   display: flex;
 }
 
-#twitter-container {
-  background: none;
-  float: left;
-}
-
-#facebook-container {
-  background: none;
-  float: right;
-}
-
-#instagram-container {
-  background: none;
-  float: right;
-}
-
 .twitter {
   background: none;
   margin: 20px 20px;
@@ -126,8 +115,83 @@ footer {
   font-size: 1rem;
   font-weight: bold;
   text-align: center;
+  border-top: 1px solid grey;
 }
 
 footer > p {
   margin: 0mm;
+}
+
+@media screen and (max-width: 1400px) {
+  .nav-bar-container {
+    display: block;
+    background-color: silver;
+    font-size: 1em;
+    font-weight: bolder;
+  }
+}
+
+@media screen and (max-width: 1300px) {
+  #logo {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .nav-bar-container {
+    font-size: 0.5em;
+    font-weight: bolder;
+    display: block;
+  }
+
+  .sign-up-nav-bar {
+    display: flex;
+    margin-left: 120px;
+  }
+
+  .nav-icon {
+    width: 30px;
+    height: 30px;
+  }
+
+  .sign-up-nav-bar > li {
+    margin-inline: 0.2em;
+  }
+
+  .nav-icon {
+    align-items: right;
+  }
+
+  #logo {
+    display: none;
+  }
+
+  article :last-child {
+    font-weight: bold;
+    font-size: inherit;
+  }
+
+  .twitter > p {
+    font-size: inherit;
+  }
+
+  .facebook > p {
+    font-size: inherit;
+  }
+
+  .instagram > p {
+    font-size: inherit;
+  }
+
+  .section-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .twitter {
+    background: none;
+    margin: auto;
+    border-right: none;
+    border-bottom: 1px solid grey;
+  }
 }
