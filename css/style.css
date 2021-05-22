@@ -6,3 +6,69 @@
  *    for example: General styles, Navigation styles, Hero styles, Footer etc.
  * 
  */
+header{
+    background-color:rgb(177, 236, 188)
+    body{
+        background-color:#;
+}
+ li a {
+     text-decoration: none;
+     color: #000;
+     
+     
+ }
+ #nav_list{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+ }
+ article:first-child{
+font-size: larger;
+ }
+    footer{
+background-color: cadetblue;
+margin_top:3%;
+padding:3%;
+
+width:100%;
+    
+}
+#footer_list{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+#nav_bar{
+    background-color:rgb(132, 184, 226);
+    height: 25px;
+}
+ #motor_bikes{
+     text-align: center;
+ }
+ #parts{
+    text-align: center;
+ }
+ aside{
+     background-color: rgb(92, 138, 165);
+     float:right;
+     height: 100%;
+    border: 1.5px solid black;
+    color:black
+    
+     
+ }
+ #aside_ul {
+      list-style-type: none;
+      text-decoration: none;
+      color:black;
+ }
+ 
+ header{
+    text-align: center;
+ }
+ #logo{
+     float:left;
+ }
+ 
