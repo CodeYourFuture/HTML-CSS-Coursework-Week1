@@ -1,3 +1,11 @@
+/* After having watched the responsivity videos, there is a lot that I would change witgh this project. It
+would be really good to start again from the ground up and design it first for an iphone, and then for a tablet 
+etc... 
+
+I would massively change the layout of the font, change the pictures so theyre centered and larger, then as the
+website sclaes up I could look to shift them to a left alligned position. I would also play around with spacing 
+and perhaps redesign the header. */
+
 * {
   background-color: #275e85;
   color: white;
@@ -82,9 +90,11 @@ h2 {
   border-bottom: #1e4763 solid 3px;
 }
 
+/* Using a relative measurement for the width of the images mean that they will rescale as the page does !!! */
+
 .h2-image {
   display: block;
-
+  width: 30%;
   align-items: baseline;
   margin-left: 10%;
 }
