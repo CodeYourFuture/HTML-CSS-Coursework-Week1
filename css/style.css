@@ -1,8 +1,140 @@
-/**
- * Add your custom styles below
- * 
- * Remember: 
- * - Be organised, use comments and separate your styles into meaningful chunks
- *    for example: General styles, Navigation styles, Hero styles, Footer etc.
- * 
- */
+/* After having watched the responsivity videos, there is a lot that I would change witgh this project. It
+would be really good to start again from the ground up and design it first for an iphone, and then for a tablet 
+etc... 
+
+I would massively change the layout of the font, change the pictures so theyre centered and larger, then as the
+website sclaes up I could look to shift them to a left alligned position. I would also play around with spacing 
+and perhaps redesign the header. */
+
+* {
+  background-color: #275e85;
+  color: white;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%; /* full window width */
+  font-family: "KoHo", sans-serif;
+}
+
+/* I have reset the box-sizing from content-box to border-box. this will make sizing elements easier */
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -box-sizing: border-box;
+}
+
+/* I have used this solution to try and show 3 elements on the same line based on the percentage of the overall width 
+of the page, whilst not having to use CSS grids. Source for solution : https://www.codecademy.com/forum_questions/53a1263e631fe949a9000427
+
+However I am still running into issues for getting it to display properly   */
+
+#wrapper {
+  width: 100%; /* of body width */
+
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #1c3f57;
+  border-bottom: #ff3100 4px solid;
+}
+
+/* wrapper > div selects all child elements div within the wrapper. This is how I managed to get all three elements to display in a row.*/
+
+#wrapper > div {
+  background-color: #1c3f57;
+  display: inline-block;
+  width: 32.4%; /* of wrapper width */
+  height: 250px;
+  text-align: center;
+  overflow: hidden;
+}
+
+h1 {
+  /*width: max-content; /* of wrapper width */
+  background-color: #1c3f57;
+  margin-top: 10%;
+  color: whitesmoke;
+  height: 300px;
+  font-size: 3em;
+  /*vertical-align:middle;*/
+}
+
+p {
+  text-align: start;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 3em;
+  color: white;
+  font-size: 1.3em;
+}
+
+.heading-p {
+  margin-top: 350px;
+}
+
+h2 {
+  text-align: start;
+  font-size: 225%;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.h2-bottom {
+  margin-bottom: 3.5%;
+  margin-left: 10%;
+  margin-right: 34.5%;
+  border-bottom: #1e4763 solid 3px;
+}
+
+/* Using a relative measurement for the width of the images mean that they will rescale as the page does !!! */
+
+.h2-image {
+  display: block;
+  width: 30%;
+  align-items: baseline;
+  margin-left: 10%;
+}
+
+main article:first-child {
+  font-size: 1.2em;
+  margin-top: 100px;
+  margin-bottom: 15%;
+}
+
+/* Note - margin-top did not work for <a> because it is an inline element, need to change to inline-block or block*/
+.article-link {
+  display: block;
+  font-size: 1.5em;
+  text-align: left;
+  margin-left: 10%;
+  margin-top: 5%;
+  text-decoration: none;
+  font-style: italic;
+}
+
+a:hover {
+  color: #ff3100;
+}
+
+input {
+  display: block;
+  background-color: white;
+  color: black;
+  width: 40%;
+  height: 30px;
+  align-items: baseline;
+  margin-left: 10%;
+  margin-top: 5%;
+}
+
+.footer-top {
+  border-top: solid #ff3100 2px;
+  margin-top: 10%;
+}
+
+footer a {
+}
