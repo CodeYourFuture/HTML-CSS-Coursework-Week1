@@ -1,0 +1,166 @@
+div {
+    display: block;
+  }
+  
+  section#content {
+      margin-left: 200px;
+      margin-top: 100px;
+      width: 75%;
+  }
+  
+  h2 {
+    color: #EB376D;
+    margin-left: 35px;
+  }
+  
+  body {
+      margin: 0px;
+      background-color: #000000;
+      background-image: url(https://static.tumblr.com/e4549ef…/nhr4yxh/Or2neyo5h/tumblr_static_35ev8urakfeokswc8sw4o8gwo.jpg);
+      background-attachment: fixed;
+      background-repeat: no-repeat;
+      font-size: 14px;
+      font-family: 'Bookmania', serif;
+      line-height: 16px;
+      color: #f2eadb;
+  }
+  
+  div#side {
+      text-align: left;
+      position: fixed;
+      left: 50px;
+      top: 90px;
+      width: 150px;
+      padding-left: 15px;
+      border-left: 0px solid #DDDDDD;
+  }
+  
+  a.nav {
+      display: block;
+      margin-bottom: 10px;
+      font-size: 12px;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      text-decoration: none;
+      color: white;
+  }
+  
+  a.nav:hover .xtra_icon {
+      margin: 0px;
+      opacity: 1;
+      filter: alpha(opacity = 100);
+      -moz-transition: all 0.4s;
+      -webkit-transition: all 0.4s;
+      -o-transition: all 0.4s;
+      transition: all 0.4s;
+  }
+  
+  
+  .music-card img {
+    width: 320px;
+  }
+  
+  
+  .music-container {
+    background-color: rgba(0, 0, 0, 0.35);    
+    display: flex; 
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  
+  .music-card {
+    margin: 25px;
+  }
+  
+  
+  .music-card:hover {
+     background-color: pink;
+     opacity: 0.5;
+  }
+  
+  
+  
+  #lana-bio-info {
+    margin: 2%;
+    padding-top: 1%;
+    padding-bottom: 2%;
+    padding-left: 1%;
+    text-align: justify;
+  }
+  
+  
+  .video-container {
+    background-color: rgba(0, 0, 0, 0.35);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  
+  .video-card {
+    margin: 25px;
+  }
+  
+  .video-card:hover {
+    background-color: pink;
+    opacity: 0.5;
+  }
+  
+  #gif {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+  
+  .social-media {
+    text-align: center;
+    margin: 150px;
+  }
+  
+  .social-media a {
+    text-decoration: none;
+    padding: 20px;
+    margin: 20px;
+    font-size: 40px;
+    
+  /* setting icon's radius corners */
+    border-radius: 100%;
+  }
+  
+  
+  .social-media a:hover {
+      background-color: rgba(0, 0, 0, 0.35);
+  }
+  
+  
+  #social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+  }
+  
+  #social a {
+    position: relative;
+    color: #EB376D;
+    font-size: 35px;
+    transition: 0.3s;
+    transition-property: transform;
+    text-decoration: none;
+    margin-bottom: 20px;
+  }
+  
+  #social a:not(:last-child){
+    margin-right: 60px;
+  }
+  
+  footer {
+    background-color: rgba(0, 0, 0, 0.35);
+    text-align: right;
+    margin-top: 50px;
+    padding: 8px; 
+  }
+           
