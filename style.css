@@ -56,6 +56,10 @@ div {
       transition: all 0.4s;
   }
   
+  section:first-child {
+    margin: 20px;
+    border: 2px solid white;
+  }
   
   .music-card img {
     width: 320px;
