@@ -8,8 +8,9 @@
  */
 header{
     background-color:rgb(177, 236, 188)
+}
     body{
-        background-color:#;
+        background-color:rgb(76, 163, 163);
 }
  li a {
      text-decoration: none;
@@ -70,5 +71,8 @@ width:100%;
  }
  #logo{
      float:left;
+ }
+ h2 {
+text-align: center;
  }
  
