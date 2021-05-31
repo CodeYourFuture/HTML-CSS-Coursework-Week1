@@ -6,3 +6,19 @@
  *    for example: General styles, Navigation styles, Hero styles, Footer etc.
  * 
  */
+
+body {
+	font-family: Roboto;
+	background-color: rgb(247, 247, 247);
+	color: rgb(36, 36, 36);
+}
+
+ h1 {
+	 font-size: 40px;
+ }
+
+.container {
+	margin: 0px auto;
+	max-width: 800px;
+	padding: 0px 30px;
+}
