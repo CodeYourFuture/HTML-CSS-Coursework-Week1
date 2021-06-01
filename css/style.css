@@ -6,3 +6,32 @@
  *    for example: General styles, Navigation styles, Hero styles, Footer etc.
  * 
  */
+ /*general styles */
+ @import url('https://fonts.googleapis.com/css2?family=Lato&family=Montserrat&family=Open+Sans&family=Playfair+Display:ital,wght@1,800&display=swap');
+ 
+body {
+    background-color:mintcream;
+    color:rgb(50, 52, 54);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    padding: 20px;
+    }
+  
+h1, h2 {
+    color:#b7410e;
+    font-family: 'Playfair Display', serif;
+  }
+
+a {
+    color:#317873;
+  }
+
+a:hover {
+    color:#5f9ea0;
+  }
+
+article:first-child {
+    font-size: 1.5rem;
+    background-color: rgb(240, 245, 238);
+    padding: 20px;
+}
