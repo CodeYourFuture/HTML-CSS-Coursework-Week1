@@ -16,17 +16,36 @@ body {
     font-size: 16px;
     padding: 20px;
     line-height: 1.5;
+    margin: 0;
     }
 
-header {
+/* header {
     background-color: rgb(240, 245, 238);
     padding: 20px;
     border: 1px dotted #b7410e;
     border-radius: 5px;
-}
+} */
 
 header p {
     font-size: 1.25rem;
+}
+
+.hero {
+    /* Sizing */
+    width: 100vw;
+    height: 100vh;
+    
+    /* Flexbox stuff */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    /* Text styles */
+    text-align: center;
+
+    /*Hero background image */
+    background-image: url("https://img.apmcdn.org/d76a9a8bd7f4a527dd22f8ac86e92f25b1630e67/uncropped/996cc5-splendid-table-02-10-pg-at-spig-700px-jpg.jpg");
+    background-size: cover;
 }
 
 
