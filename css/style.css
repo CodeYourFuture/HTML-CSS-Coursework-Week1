@@ -15,15 +15,30 @@ body {
     font-family: 'Montserrat', sans-serif;
     font-size: 16px;
     padding: 20px;
+    line-height: 1.5;
     }
-  
+
+header {
+    background-color: rgb(240, 245, 238);
+    padding: 20px;
+    border: 1px dotted #b7410e;
+    border-radius: 5px;
+}
+
+header p {
+    font-size: 1.25rem;
+}
+
+
 h1, h2 {
     color:#b7410e;
     font-family: 'Playfair Display', serif;
   }
 
+  /*styling links*/
 a {
     color:#317873;
+    text-decoration: none;
   }
 
 a:hover {
@@ -31,7 +46,13 @@ a:hover {
   }
 
 article:first-child {
-    font-size: 1.5rem;
+    font-weight: bolder; 
     background-color: rgb(240, 245, 238);
     padding: 20px;
+    border: 1px dotted #b7410e;
+    border-radius: 5px;
+}
+
+footer {
+    background-color: rgb(240, 245, 238);
 }
