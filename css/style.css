@@ -1,4 +1,21 @@
-/**
+footer {
+  width: 100%;
+  background-color:rgb(137, 125, 252);
+  padding: 0.3em;
+  border-top-left-radius: 1em;
+  border-top-right-radius: 1em;
+}
+
+footer a {
+  text-decoration: none;
+  color: black;
+  margin-left: 0.5em;
+}
+
+footer p {
+  color: #fc5e5e;
+}
+/*
  * Add your custom styles below
  * 
  * Remember: 
