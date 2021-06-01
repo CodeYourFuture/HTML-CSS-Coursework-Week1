@@ -1,5 +1,129 @@
+/*  */
+* {
+  font-family: "Courier New", Courier, monospace;
+  background-color: #000;
+  color: #fff;
+  scroll-behavior: smooth;
+  scroll-padding-top: 8.75rem;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* Header styles */
+
+.logo {
+  width: 4rem;
+  height: 4rem;
+  margin-right: 0.625rem;
+  margin-top: 0.3125rem;
+}
+
+.headerSection {
+  display: flex;
+  justify-content: space-between;
+  background-color: #000;
+  position: fixed;
+  width: 100%;
+  height: 7rem;
+}
+
+.siteInfoContainer {
+  display: flex;
+  margin-left: 1.25rem;
+}
+
+.siteInfoContainer p {
+  color: #29af22;
+  font-weight: bold;
+}
+
+.titleContainer > p {
+  font-style: italic;
+}
+
+.mainHeadng {
+  margin-top: 1.25rem;
+  margin-left: 0.625rem;
+}
+
+.pageNavigation {
+  margin-right: 1.25rem;
+  margin-top: 0.1875rem;
+}
+
+.pageNavigation > ul {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+}
+
+.pageNavigation > ul > li {
+  text-decoration: none;
+  font-weight: bold;
+  background-color: #fff;
+  color: #000;
+  border: 1px solid #fff;
+  border-radius: 10px;
+  margin: 0.5rem;
+  width: 8.4375rem;
+}
+
+.pageNavigation > ul > li > a {
+  text-decoration: none;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  border-radius: 10px;
+}
+
+.getInTouch {
+  background-color: #fff;
+  color: #000;
+}
+
+.pageNavigation > ul > li a:hover,
+.pageNavigation > ul > li a:focus {
+  background-color: #fff;
+  color: #000;
+  transition: 0.8s;
+}
+
+.pageNavigation > ul > li .getInTouch:hover,
+.pageNavigation > ul > li .getInTouch:focus {
+  background-color: #000;
+  color: #fff;
+  transition: 1.5s;
+}
+
 /* Article styles */
 
-article:first-child {
-  background-color: rgb(156, 156, 161);
+/* Just a bit of fun to show the site information can be used as a selector :) */
+.yourSelectorToTheLatestSoftwareDevelopment > .news > article {
+  background-color: #000;
+  border: 1px ridge #fff;
+  border-radius: 4px;
+  margin: 0.625rem;
+}
+
+.articleSection article:first-child {
+  border: 1px groove #e6d408;
+}
+
+.articleSection {
+  padding-top: 7.5rem;
+}
+
+article > p,
+article > a {
+  margin-left: 3.125rem;
+  margin-right: 3.125rem;
+  color: #fff;
+}
+
+article > h2 {
+  margin-left: 0.625rem;
+  color: #6aa2e4;
 }
