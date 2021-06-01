@@ -14,7 +14,6 @@ body {
     color:rgb(50, 52, 54);
     font-family: 'Montserrat', sans-serif;
     font-size: 16px;
-    padding: 20px;
     line-height: 1.5;
     margin: 0;
     }
@@ -48,6 +47,21 @@ header p {
     background-size: cover;
 }
 
+.hero h1 {
+    margin-top: 500px;
+    padding-right: 20px;
+    font-size: 4rem;
+    text-align: left;
+    text-shadow: 2px 2px 4px black;
+}
+
+.hero h2 {
+    color:rgb(240, 245, 238);
+    margin-top: 500px;
+    padding-left: 100px;
+    
+}
+
 
 h1, h2 {
     color:#b7410e;
@@ -63,6 +77,11 @@ a {
 a:hover {
     color:#5f9ea0;
   }
+
+.articles {
+    margin: 20px;
+}
+
 
 article:first-child {
     font-weight: bolder; 
