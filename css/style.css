@@ -2,7 +2,7 @@ body {
   background-color: rgb(38, 181, 240);
 }
 
-h2, h3 {
+h3 {
   color: red;
   text-align: center;
 }
@@ -12,9 +12,13 @@ h1, p {
   text-shadow: slategray;
 }
 
+h2 {
+  color: black;
+}
+
 
 /*article styles*/
-article:first-child {
+#article:first-child {
   background-color: red;
   color: yellow;
 }
