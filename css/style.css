@@ -12,7 +12,7 @@
 body {
 	font-family: 'Noto Sans TC', sans-serif;
 	background-color: rgb(247, 247, 247);
-	color: rgb(44, 44, 44);
+	color: rgb(65, 65, 65);
 	margin: 0;
 }
 
@@ -26,6 +26,7 @@ body {
 	font-size: 36px;
 	margin-top: 50px;
 	font-weight: 900;
+	color: rgb(3, 17, 36);
  }
 
  h2 {
@@ -78,4 +79,10 @@ body {
 .steps-wrap img {
 	width: 100%;
 	margin: 20px 0;
+}
+
+footer {
+	height: 100px;
+	background-color: rgb(238, 238, 238);
+	border: dashed; /*dont kill me, please XD*/
 }
