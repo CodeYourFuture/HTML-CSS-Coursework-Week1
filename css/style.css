@@ -6,3 +6,117 @@
  *    for example: General styles, Navigation styles, Hero styles, Footer etc.
  * 
  */
+body {width:100%;
+      height:100%;
+      font-size: 16px;
+      font-family:Calibri;
+      text-align: justify;
+      background-color:#FEE4C4;
+      color:black;
+      line-height: 25px;
+      box-sizing: border-box;
+      }
+
+#navbar {position:fixed; 
+               top:0; 
+               height: 70px;
+               width:100%;
+               background-color:#5A809E;
+               }
+
+
+      #navbar ul {list-style-type:none; 
+                 display:flex; 
+                 justify-content:space-around; 
+                 }
+
+      #navbar ul a:hover {background:#6CC2BD;
+                         }
+      
+      .nav-link {color:aliceblue; 
+                 font-weight:bolder; 
+                 font-size:18px; 
+                 display:block; 
+                 padding:8px; 
+                 text-decoration:none;
+                 }
+         
+#main {margin-top:80px;
+      }
+
+h1 {font-weight: bolder;
+    font-size:28px;
+    color:#5A809E}
+
+h2 {font-size:24px; 
+      color: #7c79a2;
+      font-weight:bold;
+      }
+
+h3 {font-size:22px; 
+    color: #F57D7C;
+    font-weight:bold;
+   }
+p:first-child {color:#F57D7C;}
+
+#welcoming {padding-top: 20px;
+            height:250px;
+            width:100%;
+            line-height:5px; 
+            display:flex;
+            flex-direction:row;
+            align-items: center;
+            background-image: url("https://www.design-seeds.com/wp-content/uploads/2017/04/4_3_2ColorDream_LBTOMA.png");  
+            }
+
+     #welcomeingmsg p {font-size:24px; 
+                       line-height:5px; 
+                      font-weight:bold; 
+                      position:relative; 
+                      left:120px; 
+                      }
+
+     #profile-img {width:150px; 
+                   margin-left:25%; 
+                   padding:10px;
+                   object-fit: contain;
+                   padding-top: 20px;
+                  }
+
+#About, #Projects, #Contactme {margin-left:10%; 
+                               margin-right:10%;
+                              }
+
+#MSD, #webdev {margin-left:11%; 
+               margin-right:11%;
+              }
+
+.projectslist {display:flex; 
+               flex-direction: row;
+               margin:auto;
+               width:75%; 
+              }
+
+.project-link {text-decoration:none;
+               color:#5A809E; 
+               font-size:18px; 
+               font-weight:bold; 
+               width:200px; 
+               height:35px; 
+               background-color:#FFC1A6; 
+               display:block; 
+               margin-right:20px; 
+               text-align:center;
+               }
+
+.project-img {width:200px; 
+              height:200px; 
+              margin-right:20px;
+             }
+
+#profile-link {text-decoration:none; 
+               font-weight:bold; 
+               color:#7c79a2;
+               }
+
+#contactme i {font-size: 24px;}
