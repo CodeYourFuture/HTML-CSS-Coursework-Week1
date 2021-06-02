@@ -78,17 +78,30 @@ a:hover {
     color:#5f9ea0;
   }
 
-.articles {
+article {
     margin: 20px;
+    background-color: rgb(240, 245, 238);
+    padding-left: 20px;
+    padding-right: 40px;
+    border: 1px dotted #b7410e;
+    border-radius: 5px;
 }
 
 
 article:first-child {
     font-weight: bolder; 
-    background-color: rgb(240, 245, 238);
-    padding: 20px;
-    border: 1px dotted #b7410e;
-    border-radius: 5px;
+}
+
+#honey-section {
+
+}
+
+#honey-section p {
+    
+}
+
+#honey-image {
+    float: right;
 }
 
 footer {
