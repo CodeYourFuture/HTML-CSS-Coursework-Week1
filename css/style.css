@@ -23,8 +23,10 @@ body {
 }
 
 header {
+	/*
 	background-image: url(https://chefjar.com/wp-content/uploads/2016/03/DSC_1613_1-1.jpg);
 	background: cover no-repeat;
+	*/
 }
 
 
@@ -35,8 +37,39 @@ header {
 	font-weight: 900;
  }
 
+ .description {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	width: 50%;
+	margin: 50px 0;
+ }
+
+
+ #author-img {
+	height:40px;
+	width: 40px;
+	border-radius: 50%;
+	margin-right: 20px;
+	background-image: url(https://www.gravatar.com/avatar/169771357cf99a0be07fbfae275a77d9?s=32&d=identicon&r=PG);
+	background-size: cover;
+ }
+
+#author-name {
+	margin-right: 30px;
+	font-style: italic;
+}
+
+#page-date {
+	font-style: italic;
+}
+
 .container {
 	margin: 0px auto;
 	max-width: 900px;
 	padding: 0px 30px;
+}
+
+.list-item {
+	margin: 10px 0;
 }
