@@ -1,5 +1,14 @@
+/*article styles*/
 
+#article {
+    background-color:yellow;
+    margin: 0.5em;
+    padding: 0.5em;
+    border-radius: 1em;
+  }
 /*footer styles*/
+
+
 footer {
   width: 100%;
   background-color:rgb(137, 125, 252);
@@ -17,6 +26,8 @@ footer a {
 footer p {
   color: #fc5e5e;
 }
+
+
 /*
  * Add your custom styles below
  * 
