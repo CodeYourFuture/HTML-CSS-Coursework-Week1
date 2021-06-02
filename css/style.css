@@ -127,3 +127,8 @@ article > h2 {
   margin-left: 0.625rem;
   color: #6aa2e4;
 }
+
+.footerDetails {
+  text-align: center;
+  font-size: 0.8rem;
+}
