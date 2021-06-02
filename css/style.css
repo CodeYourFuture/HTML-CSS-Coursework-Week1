@@ -20,6 +20,12 @@ body {
 	width: 100%;
 	height: 80px;
 	background-color: rgb(18, 93, 190);
+	display: flex;
+}
+
+#logo {
+	width: 60px;
+	margin: 10px 0;
 }
 
  h1 {
@@ -27,6 +33,7 @@ body {
 	margin-top: 50px;
 	font-weight: 900;
 	color: rgb(3, 17, 36);
+	text-align: center;
  }
 
  h2 {
@@ -37,7 +44,7 @@ body {
 	display: flex;
 	flex-direction: row;
 	align-items: center;
-	width: 50%;
+	justify-content: center;
 	margin: 50px 0;
  }
 
@@ -46,19 +53,11 @@ body {
 	height:40px;
 	width: 40px;
 	border-radius: 50%;
-	margin-right: 20px;
+	margin: 0px 30px;
 	background-image: url(https://www.gravatar.com/avatar/169771357cf99a0be07fbfae275a77d9?s=32&d=identicon&r=PG);
 	background-size: cover;
  }
 
-#author-name {
-	margin-right: 30px;
-	font-style: italic;
-}
-
-#page-date {
-	font-style: italic;
-}
 
 .steps-wrap {
 	background-color: rgb(238, 238, 238);
