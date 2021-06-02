@@ -100,8 +100,10 @@ body {
 
 /* Article styles */
 
-/* Just a bit of fun to show the site information can be used as a selector :) */
-.yourSelectorToTheLatestSoftwareDevelopment > .news > article {
+/*  Just a bit of fun to show the site information paragraph content can be used as a selector 
+    and to play with the nth-last-type() and last-of-type Pseudo selectors :) */
+.yourSelectorToTheLatestSoftwareDevelopment article:nth-last-of-type(2),
+.yourSelectorToTheLatestSoftwareDevelopment article:last-of-type {
   background-color: #000;
   border: 1px ridge #fff;
   border-radius: 4px;
@@ -110,6 +112,8 @@ body {
 
 .articleSection article:first-child {
   border: 1px groove #e6d408;
+  margin: 0.625rem;
+  border-radius: 15px;
 }
 
 .articleSection {
