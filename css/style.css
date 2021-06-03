@@ -48,8 +48,9 @@ body {
   margin-left: 0.625rem;
 }
 
+/* Nav styles */
+
 .pageNavigation {
-  margin-right: 1.25rem;
   margin-top: 0.1875rem;
   height: 7.75rem;
 }
@@ -66,7 +67,7 @@ body {
   font-weight: bold;
   color: #000;
   margin: 0.5rem;
-  width: 8.4375rem;
+  width: 100%;
   height: 1.2rem;
 }
 
@@ -85,6 +86,10 @@ body {
   color: #000;
 }
 
+/* Nav hover styles */
+
+/*  I had so much fun figuring the next few rules out and there was 
+    definitely a eureka moment or two in there :) */
 .pageNavigation > ul > li:first-child > a:focus,
 .pageNavigation > ul > li:first-child > a:hover {
   padding-bottom: 5.3rem;
@@ -125,8 +130,9 @@ body {
 
 /* Article styles */
 
-/*  Just a bit of fun to show the site information paragraph content can be used as a selector 
-    and to play with the nth-last-type() and last-of-type Pseudo selectors :) */
+/*  Just a bit of fun to show the site information paragraph content is an actual selector 
+    and to play with the nth-last-type(), last-of-type and first-child Pseudo selectors 
+    which allow each article to be manipulated independently :) */
 .yourSelectorToTheLatestSoftwareDevelopment article:nth-last-of-type(2) {
   background-color: #000;
   border: 2px ridge #cf7208;
@@ -170,18 +176,22 @@ article > h2 {
   text-decoration: none;
 }
 
-.footerDetails {
-  text-align: center;
-  font-size: 0.8rem;
-}
-
 .articleSemicolon {
   font-size: 1.5rem;
   font-weight: bold;
   color: #fff;
 }
 
+/* Cosmetically closes the selector rule started at the top of the website */
+
 .mainCurlyBracket {
   color: #baa309;
   font-weight: bold;
+}
+
+/* Footer styles */
+
+.footerDetails {
+  text-align: center;
+  font-size: 0.8rem;
 }
