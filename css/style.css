@@ -5,4 +5,61 @@
  * - Be organised, use comments and separate your styles into meaningful chunks
  *    for example: General styles, Navigation styles, Hero styles, Footer etc.
  * 
+
  */
+ main{
+     width:auto;
+     height: auto;
+     background-color: aquamarine;
+     border: 1px solid blue;
+     margin: auto;
+
+ }
+ h1{
+     margin-left:   520px;
+
+
+ }
+ nav{
+     margin-left: 320px;
+     width: 500px;
+     border: cornflowerblue solid 1px;
+     padding: 5px;
+     border-radius: 25%;
+     background-color: cornsilk;
+ }
+ div{
+     margin-left: 230px;
+     margin-top: 20px;
+     display: flexbox;
+     align-items: center;
+     justify-content: center;
+ }
+ section:first-of-type{
+background-color: rgb(165, 203, 228);
+padding: 5px;
+border-radius:10px ;
+
+ }
+ section{
+width:700px;
+ padding:10px;
+ }
+ h2{
+    margin-left:   320px;
+ 
+ }
+img{
+    width: 300px;
+    margin-left:   220px;
+    border-radius: 50%;
+}
+article{
+    margin-left: 10px;
+    margin-bottom: 10px;
+
+}
+a{
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
