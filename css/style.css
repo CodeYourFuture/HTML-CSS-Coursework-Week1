@@ -26,8 +26,12 @@ header p {
  text-align: center;
 }
 
-article:first-child{
+article:first-of-type{
  background-color: cadetblue;
- color:cyan;
+ color:rgb(255, 251, 0);
+}
+
+table{
+
 }
 
