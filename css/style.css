@@ -6,3 +6,38 @@
  *    for example: General styles, Navigation styles, Hero styles, Footer etc.
  * 
  */
+
+/* Set default margin and padding to 0 */
+* {
+  padding: 0;
+  margin: 0;
+}
+/* Header */
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+header h1 {
+  font-size: 5rem;
+}
+header p {
+  font-size: 1.2em;
+  font-style: italic;
+  padding: .5%;
+}
+
+nav ul {
+ display: flex;
+ width: 28rem;
+  margin: 5%;
+}
+nav li {
+  font-size: 2rem;
+  list-style: none;
+  padding: 2%;
+}
+nav li a {
+  text-decoration: none;
+}
