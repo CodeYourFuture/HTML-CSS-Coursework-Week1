@@ -80,6 +80,12 @@ body {
   border-radius: 10px;
 }
 
+.pageNavigation > ul > li:nth-last-child(1) > a {
+  background-color: #fff;
+  color: #000;
+}
+
+.pageNavigation > ul > li:first-child > a:focus,
 .pageNavigation > ul > li:first-child > a:hover {
   padding-bottom: 5.3rem;
   border: 2px ridge #e6d408;
@@ -89,6 +95,7 @@ body {
   color: #e6d408;
 }
 
+.pageNavigation > ul > li:nth-child(2) > a:focus,
 .pageNavigation > ul > li:nth-child(2) > a:hover {
   padding-bottom: 5.4rem;
   border: 2px ridge #cf7208;
@@ -98,6 +105,7 @@ body {
   color: #cf7208;
 }
 
+.pageNavigation > ul > li:nth-child(3) > a:focus,
 .pageNavigation > ul > li:nth-child(3) > a:hover {
   padding-bottom: 5.4rem;
   border: 2px ridge #29af22;
@@ -107,11 +115,7 @@ body {
   color: #29af22;
 }
 
-.pageNavigation > ul > li:nth-last-child(1) > a {
-  background-color: #fff;
-  color: #000;
-}
-
+.pageNavigation > ul > li:nth-last-child(1) > a:focus,
 .pageNavigation > ul > li:nth-last-child(1) > a:hover {
   background-color: #6aa2e4;
   border: 2px solid #6aa2e4;
