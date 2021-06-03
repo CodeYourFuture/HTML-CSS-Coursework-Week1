@@ -66,9 +66,7 @@ section article {
 article:first-child {
   background-color: #b0e0e6;
 }
-article:first-child img {
-  box-shadow: black 1px 2px 2px;
-}
+
 article:first-child h2 {
   background-color: rgb(255 255 255 / 55%);
   margin-right: 7%;
@@ -100,6 +98,7 @@ article h2 {
 }
 article img {
   width: 60rem;
+  box-shadow: black 1px 2px 2px;
 }
 article p {
   width: 40%;
@@ -115,3 +114,18 @@ article a {
   color: black;
   font-family: "Merriweather", serif;
 }
+/* Footer */
+footer{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+    
+    padding: 1%;
+}
+footer img{
+    width:2.5rem;
+}
+footer small{
+    font-size: 1.2em;
+}
+
