@@ -18,26 +18,102 @@ header {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background-color: pink;
 }
 header h1 {
   font-size: 5rem;
+  padding-top: 1%;
 }
 header p {
-  font-size: 1.2em;
+  font-size: 1.5em;
   font-style: italic;
-  padding: .5%;
+  padding: .2%;
 }
-
+nav{
+    background-color: powderblue;
+    width: 100%;
+    padding: .5%;
+    box-shadow: 0px 1px 2px 1px;
+}
 nav ul {
  display: flex;
- width: 28rem;
-  margin: 5%;
+justify-content: center;
 }
 nav li {
-  font-size: 2rem;
+  font-size: 1.3rem;
   list-style: none;
-  padding: 2%;
+  padding: 0.15%;
+  text-transform: lowercase;
 }
 nav li a {
   text-decoration: none;
+}
+li:hover{
+    
+    text-decoration: underline;
+}
+/* Main Section */
+section article{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #dde6fe;
+}
+article:first-child{
+    background-color: powderblue;
+}
+article:first-child img{
+    box-shadow: black 1px 2px 2px;
+    
+}
+article:first-child h2{
+    background-color: rgb(255 255 255 / 55%);
+    margin-right: 7%;
+    padding: .1em .5em;
+    margin-bottom: .285em;
+    border-radius: 2%;
+    
+}
+
+article:nth-child(2) h2{
+    
+    margin-left: 18%;
+    text-align: right;
+    
+    
+}
+article:nth-child(3){
+    
+    background-color: #f9ff7775;
+
+    
+}
+article:nth-child(3) h2{
+    
+    margin-right: 20%;
+    
+
+    
+}
+article h2{
+    font-size: 3.2rem;
+    padding: 0.2em;
+    margin-top: 1.2em;
+    justify-self: flex-start;
+    margin-bottom: .285em;
+}
+article img{
+    width: 60rem;
+}
+article p{
+    width: 40%;
+    font-size: 1.75rem;
+    margin-top: 1em;
+    
+}
+article a{
+    font-size: 1.5em;
+    margin-left: 35%;
+    padding: 1em;
+    color: black;
 }
