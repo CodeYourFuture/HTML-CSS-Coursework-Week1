@@ -6,3 +6,28 @@
  *    for example: General styles, Navigation styles, Hero styles, Footer etc.
  * 
  */
+ body{
+  background-color:silver;
+ }
+
+header{
+ color: red;
+ padding-top: 20px;
+}
+
+.imggeneralstyle{
+ width: 200px;
+ right: 20px;
+ float: right;
+}
+
+header p {
+ color: black;
+ text-align: center;
+}
+
+article:first-child{
+ background-color: cadetblue;
+ color:cyan;
+}
+
