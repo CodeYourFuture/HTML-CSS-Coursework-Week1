@@ -8,7 +8,21 @@
  */
  h1{height: 100px;
     width: 50%;
-    background-color: powderblue;
+    background-color: red;
     text-align:center;
     padding-top:25px;
   }
+  nav{
+     background-color: #BCC6CC;
+    padding-top:px;
+    height: 20px;
+     width:70%;
+    text-align:center;
+      }
+
+  p{height: 100px;
+    width: 70%;
+  padding-top:0px;}
+  
+    
+    
