@@ -11,8 +11,20 @@
  }
 
 header{
- color: red;
- padding-top: 20px;
+ background-color: black;
+ color: silver;
+ padding: 20px;
+ width: 100%;
+}
+
+nav{
+ display: inline-block;
+ width: 100%;
+}
+
+header ul li{
+ display: inline-block;
+ margin: 20px;
 }
 
 .imggeneralstyle{
