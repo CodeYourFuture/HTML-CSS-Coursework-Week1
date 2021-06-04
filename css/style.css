@@ -23,7 +23,7 @@ img {
   width: 1250px;
   max-width: 100%;
   padding: 20px;
-  margin: 2rem auto;
+  margin: 0 auto 4rem auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -84,7 +84,11 @@ article .btn:hover {
 /* footer */
 
 .site-footer {
-  width: 1250px;
+  background: bisque;
+}
+
+.footer-container {
+    width: 1250px;
   max-width: 100%;
   padding: 20px;
   margin: 2rem auto;
