@@ -19,6 +19,8 @@ header {
   justify-content: center;
   align-items: center;
   background-color:#b0e0e6;
+  position: fixed;
+  width: 100%;
 }
 header h1 {
   font-size: 5rem;
@@ -43,7 +45,7 @@ nav ul {
 nav li {
   font-size: 1.3rem;
   list-style: none;
-  padding: 0.15%;
+  padding: 0.15% 5%;
   text-transform: lowercase;
   font-family: "Merriweather", serif;
 
@@ -57,6 +59,9 @@ li:hover {
   text-decoration: underline;
 }
 /* Main Section */
+main{
+  padding-top: 9%;
+}
 section article {
   display: flex;
   flex-direction: column;
