@@ -65,6 +65,30 @@ a {
 .intro-content h1 {
   vertical-align: middle;
   display: inline-block;
+
+  opacity: 0;
+  animation-delay: 0.3s;
+  animation-fill-mode: forwards;
+}
+
+.bouncy h1 {
+  animation-name: cd-bounce-right;
+  animation-duration: 0.6s;
+}
+
+@keyframes cd-bounce-right {
+  0% {
+    opacity: 0.2;
+    transform: translateX(-200px);
+  }
+  60% {
+    opacity: 0.7;
+    transform: translateX(15px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
 }
 
 /* Articles */
@@ -78,6 +102,27 @@ a {
 article {
   min-height: 100px;
   text-align: center;
+}
+
+.articles article:first-child {
+  border: 2px solid bisque;
+  border-radius: 10px;
+  padding: 1rem;
+}
+
+.articles article:first-child h2 {
+  background-image: linear-gradient(
+    to left,
+    violet,
+    indigo,
+    blue,
+    green,
+    yellow,
+    orange,
+    red
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 article p {
