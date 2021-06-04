@@ -15,7 +15,7 @@ img {
 }
 
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 /* Header and nav */
@@ -49,6 +49,22 @@ a {
   display: inline-block;
   padding: 0.5em 1.5em;
   color: #000;
+}
+
+/* Intro */
+.intro {
+  margin: 4rem 0;
+}
+
+.intro-content {
+  height: 15rem;
+  text-align: center;
+  line-height: 15rem;
+}
+
+.intro-content h1 {
+  vertical-align: middle;
+  display: inline-block;
 }
 
 /* Articles */
@@ -101,6 +117,6 @@ article .btn:hover {
 }
 
 .footer-icons a {
-    margin-right: 0.6rem;
-color: #000;
+  margin-right: 0.6rem;
+  color: #000;
 }
