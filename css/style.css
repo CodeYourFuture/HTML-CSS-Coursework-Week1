@@ -18,9 +18,32 @@ nav{height:1opx;
   background:#BCC6CC;
   }
 
-  p{height: 100px;
-    width: 70%;
-  padding-top:0px;}
+  li{
+    padding-right:90px;
+    text-align:center;
+   display: inline-block;
+    margin-left:10px;
+      }
+  
+  p{width:70%;
+    
+  }
+  #social{background:#BCC6CC;
+    padding:10px;
+    
+  }
+  #thir{background:#6D7B8D;
+     padding:10px;
+  }
+  #fourt{padding:20px;
+    
+  }
+  p:first-child {font-size:20px;
+    color:blue;}
+  footer{background-color: powderblue;
+    padding:10px;
+  }
+    
   
     
     
