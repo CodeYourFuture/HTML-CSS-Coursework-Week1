@@ -1,6 +1,7 @@
 
  /*** general styles*/
 /***  Mobile first*/
+*{box-sizing:border-box;}
 body{
     border: 5px solid yellow;
     display:flex;
