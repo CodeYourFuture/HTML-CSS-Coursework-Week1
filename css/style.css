@@ -24,7 +24,7 @@ nav{
 
 header ul li{
  display: inline-block;
- margin: 20px;
+ padding: 0 20px;
 }
 
 .imggeneralstyle{
@@ -41,6 +41,7 @@ header p {
 article:first-of-type{
  background-color: cadetblue;
  color:rgb(255, 251, 0);
+ padding: 20px 0 ;
 }
 
 td{
