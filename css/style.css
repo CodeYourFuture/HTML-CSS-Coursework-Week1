@@ -23,7 +23,7 @@ img {
   width: 1250px;
   max-width: 100%;
   padding: 20px;
-  margin: 0 auto;
+  margin: 2rem auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -45,6 +45,7 @@ img {
   display: inline-block;
   padding: 0.5em 1.5em;
   text-decoration: none;
+  color: #000;
 }
 
 /* Articles */
@@ -68,8 +69,26 @@ article p {
 }
 
 article .btn {
-    padding: 0.6rem;
-background: bisque;
-border: none;
-border-radius: 7px;
+  padding: 0.6rem;
+  background: bisque;
+  border: none;
+  border-radius: 7px;
+  transition: all 0.5s ease;
+}
+
+article .btn:hover {
+  padding: 0.8rem;
+  background: rgb(238, 180, 110);
+}
+
+/* footer */
+
+.site-footer {
+  width: 1250px;
+  max-width: 100%;
+  padding: 20px;
+  margin: 2rem auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
