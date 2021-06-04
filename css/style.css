@@ -6,12 +6,15 @@
  *    for example: General styles, Navigation styles, Hero styles, Footer etc.
  * 
  */
+
+/* Global */
 img {
     width: 100%;
     max-width: 100%;
     height: auto;
 }
 
+/* Header and nav */
  .header-wrapper {
     width: 1250px;
 	max-width: 100%;
@@ -38,4 +41,17 @@ img {
 	display: inline-block;
 	padding: .5em 1.5em;
     text-decoration: none;
+}
+
+/* Articles */
+
+.articles {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 0.5rem;
+}
+
+article {
+    min-height: 100px;
+  text-align: center;
 }
