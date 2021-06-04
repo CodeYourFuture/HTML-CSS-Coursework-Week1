@@ -6,6 +6,7 @@
  *    for example: General styles, Navigation styles, Hero styles, Footer etc.
  * 
  */
+
 header{
     display: flex;
     justify-content: center;
@@ -45,4 +46,9 @@ main{
     width: 90%;
     margin: auto;
     padding-top: 60px;
+}
+
+article:first-child img{
+  width: 60%;
+  margin-left: 20%;
 }
