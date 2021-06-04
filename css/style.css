@@ -6,19 +6,17 @@
  *    for example: General styles, Navigation styles, Hero styles, Footer etc.
  * 
  */
- h1{height: 100px;
-    width: 50%;
-    background-color: red;
-    text-align:center;
-    padding-top:25px;
+ header{height: 100px;
+  width: 100%;
+  background-color: powderblue;
+  text-align:center;
+  padding-top:25px;
+}
+
+nav{height:1opx;
+  width:100%;
+  background:#BCC6CC;
   }
-  nav{
-     background-color: #BCC6CC;
-    padding-top:px;
-    height: 20px;
-     width:70%;
-    text-align:center;
-      }
 
   p{height: 100px;
     width: 70%;
