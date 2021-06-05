@@ -1,8 +1,25 @@
-/**
- * Add your custom styles below
- * 
- * Remember: 
- * - Be organised, use comments and separate your styles into meaningful chunks
- *    for example: General styles, Navigation styles, Hero styles, Footer etc.
- * 
- */
+body {
+  background-color: aqua;
+}
+
+h1 {
+  font-size: 4rem;
+  margin-bottom: 0;
+  text-align: center;
+}
+P {
+  text-align: center;
+}
+#img-div {
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+}
+#image {
+  width: 100%;
+  height: auto;
+  max-width: 1400px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
