@@ -1,8 +1,191 @@
-/**
- * Add your custom styles below
- * 
- * Remember: 
- * - Be organised, use comments and separate your styles into meaningful chunks
- *    for example: General styles, Navigation styles, Hero styles, Footer etc.
- * 
- */
+
+ /*** general styles*/
+/***  Mobile first*/
+*{box-sizing:border-box;}
+body{
+    border: 5px solid yellow;
+    display:flex;
+    justify-content:center;
+    flex-direction: column; 
+    color:rgb(47, 68, 7);
+    background-color:lightgoldenrodyellow;
+    font-family:Arial, Helvetica, sans-serif;
+    font-style:normal;
+    font-size:15px;
+    margin:auto;
+    width:90%;
+}
+
+h1, h2, h3 {
+	font-family: 'Bungee', Helvetica, Arial, sans-serif;
+	font-weight: bold;
+    font-style:italic;
+    color: #8C4CF7;
+    padding:5px;
+}
+blockquote{
+    text-align:center;
+}
+/************************************************************/
+
+/** header logo , blog description and nav bar*/
+
+.header_container
+{
+display:flex;
+flex-direction:row;
+width:100%;
+padding:10px;
+justify-content:center;
+}
+
+#logo_container > h1 {
+    
+   text-align:center;
+    text-shadow: 2px 2px #FF0000;
+    font-size:40px;
+    margin: 0 auto;
+}
+
+
+#nav_bar{
+    display: flex;
+    Flex-direction:column;
+    margin:0px;
+    justify-content: center;
+    background-color:gainsboro;
+    width:95%;
+  
+      
+}
+li{
+    display: flex;
+    Flex-direction:column;
+    justify-content:center;
+    padding:10px;
+    width:100%;
+        
+}
+
+/***************************************************************/
+
+/*** section and articles*/
+
+#main > h2{
+
+text-align:center;
+font-weight:bold;
+font-size:large;
+color:#8C4CF7; 
+
+}
+#main { display: flex;
+    justify-content:space-around;
+    background-color:gainsboro;
+    padding:10px;
+    background-color:rgba(255, 160, 122, 0.274);
+}
+#section_container{
+    width:100%;
+
+}
+
+#section_container >h2{ 
+    text-decoration:underline; 
+}
+
+.article{
+border-bottom: 5px solid brown; 
+    display:flex;
+    flex-direction: column;
+    margin-bottom:50px;
+    padding:5px;
+    text-align: justify;
+
+}
+.article:first-child{
+    border:5px dotted red;  
+    font-weight:bold;
+    color:black;
+    background-color:rgb(142, 223, 226);
+    font-style:italic;
+}
+.info{
+    display:flex;
+    flex-direction: column;
+    line-height: 20pt;
+    padding:5px;
+    margin: 8px auto;
+
+}
+
+.image{
+   display:flex;
+   align-items:center;
+   border:3px solid red;
+   justify-content:center; 
+    width: 100%;
+
+    height:300px;
+    
+}
+ul{
+    border: 5px solid brown;
+}
+
+/***************************************************************/
+/** Author info*/
+
+#footer{
+    clear:both;
+}
+#footer >p{
+    font-size:1rem;
+    color:darkviolet;}
+#footer a, #footer .info  {
+
+    align-items:center;
+    text-align:center;
+    display:block;
+} 
+/********************************************************************/
+
+/** large screen devices*/
+
+@media (min-width:500px){
+.image{
+    float: right;
+    border: 10px solid blue;
+    width:180px;
+    height:180px;
+  
+}
+#logo-container> h1{
+
+    font-size:100px;
+}
+#section_container{
+    width:70%;
+
+}
+
+#nav_bar{
+    display: flex;
+    Flex-direction:column;
+    margin:0px;
+    justify-content: center;
+    background-color:gainsboro;
+    width:100%;
+  
+      
+}
+li{
+    display: flex;
+    Flex-direction:column;
+    justify-content:center;
+    padding:10px;
+    width:100%;
+        
+}
+
+}
