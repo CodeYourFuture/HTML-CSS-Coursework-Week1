@@ -6,3 +6,59 @@
  *    for example: General styles, Navigation styles, Hero styles, Footer etc.
  * 
  */
+
+ *{
+     font-family: Arial, Helvetica, sans-serif;
+ }
+header, footer{
+    text-align: center;
+    background-color: rgb(4, 88, 88);
+    color: rgb(236, 234, 154);
+}
+h1{
+    color: aqua;
+}
+article{
+    text-align: center;
+}
+article h2{
+    text-transform: capitalize;
+    color;
+}
+main{
+    background-color: aliceblue ;
+}
+
+article:first-child{
+    border: solid 5px rgb(173, 117, 11);
+    max-width: 50%;
+    border-radius: 5%;
+    background-color: rgb(240, 191, 99);
+}
+/*Used nth-child(3) to select the second article */
+article:nth-child(3), 
+article:last-of-type{
+    max-width: 35%;
+    border: solid 2px rgb(235, 189, 39);
+    border-radius: 5%;
+    background-color: rgb(240, 191, 99);
+
+}
+
+
+img{
+    width: 100%;
+}
+.float{
+    position:relative;
+
+}
+article{
+    padding:20px;
+    margin:auto;
+}
+footer{
+    height: 50px;
+    padding:20px;
+}
+
