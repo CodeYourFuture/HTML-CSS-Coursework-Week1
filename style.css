@@ -1,0 +1,129 @@
+.img-text {
+  display: flex;
+  flex-direction: column;
+}
+.intro {
+  position: relative;
+  bottom: 50px;
+  top: 5px;
+  padding: 10px;
+  font-style: italic;
+  font-size: 20px;
+}
+/* .column {
+   float: left;
+    width: 50%;
+    padding: 10px;
+    height: 500px;
+  } */
+
+#header {
+  text-align: Center;
+  witdh: 100%;
+  display: flex;
+}
+#header_img {
+  width: 80px;
+  height: auto;
+}
+
+#nav-bar {
+  background-color: pink;
+  align-items: center;
+  justify-content: space-around;
+  display: flex;
+  position: fixed;
+  width: 100%;
+}
+
+#nav-bar {
+  background-color: pink;
+  align-items: center;
+  justify-content: space-around;
+  display: flex;
+  position: fixed;
+  width: 100%;
+}
+#nav-bar ul {
+  display: flex;
+  list-style: none;
+  padding: 10px;
+}
+#nav-bar ul li {
+  padding: 0 45px;
+}
+
+#title {
+  padding: 250px;
+  text-align: center;
+  font-size: 15px;
+  /*text-decoration: underline;*/
+}
+#main_doc {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.main-section {
+  width: 45%;
+  padding: 0 20px;
+}
+.first-child {
+  /* text-decoration-color: green;*/
+  border: 1px solid red;
+  font-weight: bold;
+}
+
+ul {
+  list-style: none;
+  padding: 20px;
+}
+
+#form {
+  form-align: center;
+}
+
+#submit {
+  float: center;
+  background-color: orange;
+}
+
+@media only screen and (min-width: 400px) and (max-width: 720px) {
+  body {
+    background-color: green;
+  }
+}
+
+aside {
+  width: 40%;
+  padding-left: 15px;
+  margin-left: 15px;
+  float: right;
+  font-style: italic;
+  background-color: lightgray;
+}
+h1 {
+  text-align: Center;
+  text-transform: uppercase;
+  padding: 50px;
+  margin: 40px;
+}
+h2 {
+  color: red;
+  text-align: Center;
+  font-variant: small-caps;
+  position: relative;
+  bottom: 60px;
+  margin: 10px 20px 0px 20px;
+  padding: 0px;
+}
+
+.ball {
+  text-decoration: underline;
+}
+
+# video {
+  width: 560;
+  height: 315;
+  frameborder: 0;
+}
