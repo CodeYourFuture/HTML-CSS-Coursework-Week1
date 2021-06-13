@@ -6,3 +6,50 @@
  *    for example: General styles, Navigation styles, Hero styles, Footer etc.
  * 
  */
+
+ /*This is header*/
+
+h1{
+    color: rgb(36, 34, 34);
+    text-align: center; 
+    font-size:5rem ;
+}
+p{ 
+    color: rgb(48, 47, 47);
+    font-size:1.6rem ;
+    display:block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom:40px;
+    width: 60%;
+}
+
+/*This is articles*/
+h2{
+    color: rgb(48, 47, 47);
+    font-size: 3rem;
+    margin-left:18rem;
+    border-top: 2px solid #d3d3d3;
+    width: 60%;
+    padding-top: 5rem;
+
+}
+img{   
+    display:block;
+    margin-right: auto;
+    margin-left: auto;
+    width:60%;
+ }
+
+ footer{
+    display:block;
+    margin-right: auto;
+    margin-left: auto;
+    border-top: 2px solid #d3d3d3;
+    width: 60%;
+ }
+ footer p{
+     text-align: center;
+     font-size: 0.8rem;
+     color: rgb(48, 47, 47);
+ }
