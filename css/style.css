@@ -97,7 +97,7 @@ body {
   border: 2px ridge #e6d408;
   border-radius: 8px 8px 0 0;
   border-bottom: 0;
-  transition: 1.2s;
+  transition: padding-bottom 1.2s ease-in;
   color: #e6d408;
 }
 
@@ -107,7 +107,7 @@ body {
   border: 2px ridge #cf7208;
   border-radius: 8px 8px 0 0;
   border-bottom: 0;
-  transition: 1.2s;
+  transition: padding-bottom 1.2s ease-in;
   color: #cf7208;
 }
 
@@ -117,7 +117,7 @@ body {
   border: 2px ridge #29af22;
   border-radius: 8px 8px 0 0;
   border-bottom: 0;
-  transition: 1.2s;
+  transition: padding-bottom 1.2s ease-in;
   color: #29af22;
 }
 
@@ -126,7 +126,7 @@ body {
   background-color: #6aa2e4;
   border: 2px solid #6aa2e4;
   color: #fff;
-  transition: 1s;
+  transition: padding-bottom 1s ease-in;
 }
 
 /* Article styles */
