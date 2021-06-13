@@ -20,7 +20,7 @@ body {
   margin-top: 0.3125rem;
 }
 
-.headerSection {
+.header-section {
   display: flex;
   justify-content: space-between;
   background-color: #000;
@@ -29,41 +29,41 @@ body {
   height: 7.95rem;
 }
 
-.siteInfoContainer {
+.site-info-container {
   display: flex;
   margin-left: 1.25rem;
 }
 
-.siteInfoContainer p {
+.site-info-container p {
   color: #baa309;
   font-weight: bold;
   font-size: 1.1rem;
 }
 
-.titleContainer > p {
+.title-container > p {
   font-style: italic;
 }
 
-.mainHeadng {
+.main-headng {
   margin-top: 1.25rem;
   margin-left: 0.625rem;
 }
 
 /* Nav styles */
 
-.pageNavigation {
+.page-navigation {
   margin-top: 0.1875rem;
   height: 7.75rem;
 }
 
-.pageNavigation > ul {
+.page-navigation > ul {
   display: flex;
   justify-content: space-around;
   list-style: none;
   height: 2.3rem;
 }
 
-.pageNavigation > ul > li {
+.page-navigation > ul > li {
   text-decoration: none;
   font-weight: bold;
   color: #000;
@@ -72,7 +72,7 @@ body {
   height: 1.2rem;
 }
 
-.pageNavigation > ul > li > a {
+.page-navigation > ul > li > a {
   text-decoration: none;
   font-weight: bold;
   display: flex;
@@ -82,7 +82,7 @@ body {
   border-radius: 10px;
 }
 
-.pageNavigation > ul > li:nth-last-child(1) > a {
+.page-navigation > ul > li:nth-last-child(1) > a {
   background-color: #fff;
   color: #000;
 }
@@ -91,8 +91,8 @@ body {
 
 /*  I had so much fun figuring the next few rules out and there was 
     definitely a eureka moment or two in there :) */
-.pageNavigation > ul > li:first-child > a:focus,
-.pageNavigation > ul > li:first-child > a:hover {
+.page-navigation > ul > li:first-child > a:focus,
+.page-navigation > ul > li:first-child > a:hover {
   padding-bottom: 5.3rem;
   border: 2px ridge #e6d408;
   border-radius: 8px 8px 0 0;
@@ -101,8 +101,8 @@ body {
   color: #e6d408;
 }
 
-.pageNavigation > ul > li:nth-child(2) > a:focus,
-.pageNavigation > ul > li:nth-child(2) > a:hover {
+.page-navigation > ul > li:nth-child(2) > a:focus,
+.page-navigation > ul > li:nth-child(2) > a:hover {
   padding-bottom: 5.4rem;
   border: 2px ridge #cf7208;
   border-radius: 8px 8px 0 0;
@@ -111,8 +111,8 @@ body {
   color: #cf7208;
 }
 
-.pageNavigation > ul > li:nth-child(3) > a:focus,
-.pageNavigation > ul > li:nth-child(3) > a:hover {
+.page-navigation > ul > li:nth-child(3) > a:focus,
+.page-navigation > ul > li:nth-child(3) > a:hover {
   padding-bottom: 5.4rem;
   border: 2px ridge #29af22;
   border-radius: 8px 8px 0 0;
@@ -121,8 +121,8 @@ body {
   color: #29af22;
 }
 
-.pageNavigation > ul > li:nth-last-child(1) > a:focus,
-.pageNavigation > ul > li:nth-last-child(1) > a:hover {
+.page-navigation > ul > li:nth-last-child(1) > a:focus,
+.page-navigation > ul > li:nth-last-child(1) > a:hover {
   background-color: #6aa2e4;
   border: 2px solid #6aa2e4;
   color: #fff;
@@ -134,27 +134,27 @@ body {
 /*  Just a bit of fun to show the site information paragraph content is an actual selector 
     and to play with the nth-last-type(), last-of-type and first-child Pseudo selectors 
     which allow each article to be manipulated independently :) */
-.yourSelectorToTheLatestSoftwareDevelopment article:nth-last-of-type(2) {
+.your-selector-to-the-latest-software-development article:nth-last-of-type(2) {
   background-color: #000;
   border: 2px ridge #cf7208;
   border-radius: 4px;
   margin: 0 0.625rem 0.625rem 0.625rem;
 }
 
-.yourSelectorToTheLatestSoftwareDevelopment article:last-of-type {
+.your-selector-to-the-latest-software-development article:last-of-type {
   background-color: #000;
   border: 2px ridge #29af22;
   border-radius: 4px;
   margin: 0 0.625rem 0.625rem 0.625rem;
 }
 
-.yourSelectorToTheLatestSoftwareDevelopment article:first-child {
+.your-selector-to-the-latest-software-development article:first-child {
   border: 2px groove #e6d408;
   margin: 0.625rem;
   border-radius: 15px;
 }
 
-.articleSection {
+.article-section {
   padding-top: 7.5rem;
 }
 
@@ -170,14 +170,14 @@ article > h2 {
   font-size: 1.5rem;
 }
 
-.sourceLink {
+.source-link {
   font-size: 1rem;
   color: #6bb590;
   margin-left: 3.125rem;
   text-decoration: none;
 }
 
-.articleSemicolon {
+.article-semicolon {
   font-size: 1.5rem;
   font-weight: bold;
   color: #fff;
@@ -185,14 +185,14 @@ article > h2 {
 
 /* Cosmetically closes the selector rule started at the top of the website */
 
-.mainCurlyBracket {
+.main-curly-bracket {
   color: #baa309;
   font-weight: bold;
 }
 
 /* Footer styles */
 
-.footerDetails {
+.footer-details {
   text-align: center;
   font-size: 0.8rem;
 }
