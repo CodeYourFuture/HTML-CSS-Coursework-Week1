@@ -1,8 +1,198 @@
-/**
- * Add your custom styles below
- * 
- * Remember: 
- * - Be organised, use comments and separate your styles into meaningful chunks
- *    for example: General styles, Navigation styles, Hero styles, Footer etc.
- * 
- */
+* {
+  font-family: "Courier New", Courier, monospace;
+  background-color: #000;
+  color: #fff;
+  scroll-behavior: smooth;
+  scroll-padding-top: 9.5rem;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* Header styles */
+
+.logo {
+  width: 4rem;
+  height: 4rem;
+  margin-right: 0.625rem;
+  margin-top: 0.3125rem;
+}
+
+.header-section {
+  display: flex;
+  justify-content: space-between;
+  background-color: #000;
+  position: fixed;
+  width: 100%;
+  height: 7.95rem;
+}
+
+.site-info-container {
+  display: flex;
+  margin-left: 1.25rem;
+}
+
+.site-info-container p {
+  color: #baa309;
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+.title-container > p {
+  font-style: italic;
+}
+
+.main-headng {
+  margin-top: 1.25rem;
+  margin-left: 0.625rem;
+}
+
+/* Nav styles */
+
+.page-navigation {
+  margin-top: 0.1875rem;
+  height: 7.75rem;
+}
+
+.page-navigation > ul {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  height: 2.3rem;
+}
+
+.page-navigation > ul > li {
+  text-decoration: none;
+  font-weight: bold;
+  color: #000;
+  margin: 0.5rem;
+  width: 100%;
+  height: 1.2rem;
+}
+
+.page-navigation > ul > li > a {
+  text-decoration: none;
+  font-weight: bold;
+  display: flex;
+  width: 10rem;
+  justify-content: center;
+  border: 2px solid #fff;
+  border-radius: 10px;
+}
+
+.page-navigation > ul > li:nth-last-child(1) > a {
+  background-color: #fff;
+  color: #000;
+}
+
+/* Nav hover styles */
+
+/*  I had so much fun figuring the next few rules out and there was 
+    definitely a eureka moment or two in there :) */
+.page-navigation > ul > li:first-child > a:focus,
+.page-navigation > ul > li:first-child > a:hover {
+  padding-bottom: 5.3rem;
+  border: 2px ridge #e6d408;
+  border-radius: 8px 8px 0 0;
+  border-bottom: 0;
+  transition: padding-bottom 1.2s ease-in;
+  color: #e6d408;
+}
+
+.page-navigation > ul > li:nth-child(2) > a:focus,
+.page-navigation > ul > li:nth-child(2) > a:hover {
+  padding-bottom: 5.4rem;
+  border: 2px ridge #cf7208;
+  border-radius: 8px 8px 0 0;
+  border-bottom: 0;
+  transition: padding-bottom 1.2s ease-in;
+  color: #cf7208;
+}
+
+.page-navigation > ul > li:nth-child(3) > a:focus,
+.page-navigation > ul > li:nth-child(3) > a:hover {
+  padding-bottom: 5.4rem;
+  border: 2px ridge #29af22;
+  border-radius: 8px 8px 0 0;
+  border-bottom: 0;
+  transition: padding-bottom 1.2s ease-in;
+  color: #29af22;
+}
+
+.page-navigation > ul > li:nth-last-child(1) > a:focus,
+.page-navigation > ul > li:nth-last-child(1) > a:hover {
+  background-color: #6aa2e4;
+  border: 2px solid #6aa2e4;
+  color: #fff;
+  transition: padding-bottom 1s ease-in;
+}
+
+/* Article styles */
+
+/*  Just a bit of fun to show the site information paragraph content is an actual selector 
+    and to play with the nth-last-type(), last-of-type and first-child Pseudo selectors 
+    which allow each article to be manipulated independently :) */
+.your-selector-to-the-latest-software-development article:nth-last-of-type(2) {
+  background-color: #000;
+  border: 2px ridge #cf7208;
+  border-radius: 4px;
+  margin: 0 0.625rem 0.625rem 0.625rem;
+}
+
+.your-selector-to-the-latest-software-development article:last-of-type {
+  background-color: #000;
+  border: 2px ridge #29af22;
+  border-radius: 4px;
+  margin: 0 0.625rem 0.625rem 0.625rem;
+}
+
+.your-selector-to-the-latest-software-development article:first-child {
+  border: 2px groove #e6d408;
+  margin: 0.625rem;
+  border-radius: 15px;
+}
+
+.article-section {
+  padding-top: 7.5rem;
+}
+
+article > p {
+  margin-left: 3.125rem;
+  margin-right: 3.125rem;
+  color: #d67f3c;
+}
+
+article > h2 {
+  margin-left: 0.625rem;
+  color: #6aa2e4;
+  font-size: 1.5rem;
+}
+
+.source-link {
+  font-size: 1rem;
+  color: #6bb590;
+  margin-left: 3.125rem;
+  text-decoration: none;
+}
+
+.article-semicolon {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #fff;
+}
+
+/* Cosmetically closes the selector rule started at the top of the website */
+
+.main-curly-bracket {
+  color: #baa309;
+  font-weight: bold;
+}
+
+/* Footer styles */
+
+.footer-details {
+  text-align: center;
+  font-size: 0.8rem;
+}
