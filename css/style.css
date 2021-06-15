@@ -24,6 +24,10 @@ p{
     width: 60%;
 }
 
+P::first-letter{
+    font-size:1.8rem;
+}
+
 /*This is articles*/
 h2{
     color: rgb(48, 47, 47);
