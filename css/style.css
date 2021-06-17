@@ -17,7 +17,6 @@ header {
     display: flex;
     max-width: 100%;
     align-items: center;
-    background-color:white;
     justify-content: space-between;
 }
 
@@ -39,6 +38,7 @@ ul {
     display: flex;
     padding-right: 15px;
     text-transform: uppercase;
+    font-family: 'Alef';
 }
 
 li {
@@ -71,4 +71,35 @@ article {
 
 article:first-child {
     background-color: #2a9d8f;
+    border-radius: 3px;
 }
+
+article:last-child {
+    background-color: #e9c46a;
+    border-radius: 3px;
+}
+.articles {
+    max-width: 95%;
+    margin: 0 auto;
+    padding-top: 1em;
+}
+
+h2 {
+    font-size: 2.5em; 
+    color: #264653;
+    font-family: 'Akaya Telivigala';
+}
+
+p {
+    font-family: 'Alef';
+    line-height: 1.5em;
+}
+
+.about-me{
+    color: white;   
+}
+.projects {
+    text-align: right;
+}
+
+
