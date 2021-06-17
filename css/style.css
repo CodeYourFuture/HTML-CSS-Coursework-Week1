@@ -6,3 +6,69 @@
  *    for example: General styles, Navigation styles, Hero styles, Footer etc.
  * 
  */
+body{
+    
+
+}
+
+/*Header*/
+
+header {
+    display: flex;
+    max-width: 100%;
+    align-items: center;
+    background-color:white;
+    justify-content: space-between;
+}
+
+header img {
+    border-radius: 50%;
+    max-width: 10em;
+    padding: 20px;
+}
+
+h1 {
+    padding-left: 1.5em;
+    font-size: 4em;
+    font-family: 'Dancing Script';
+    color: #264653;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    padding-right: 15px;
+    text-transform: uppercase;
+}
+
+li {
+    background-color: #f4a261;
+    border-radius: 3px;
+    padding: 1em;
+    color: #264653;
+    font-weight: bold;
+}
+
+li:first-child {
+    margin-right: 1em;
+}
+
+li:last-child
+    {
+    margin-left: 1em;
+}
+
+/*Main*/
+
+main {
+    padding-top: 2em;
+}
+
+article {
+    height: 400px;
+    width: 100%;
+}
+
+article:first-child {
+    background-color: #2a9d8f;
+}
