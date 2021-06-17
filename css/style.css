@@ -1,8 +1,114 @@
-/**
- * Add your custom styles below
- * 
- * Remember: 
- * - Be organised, use comments and separate your styles into meaningful chunks
- *    for example: General styles, Navigation styles, Hero styles, Footer etc.
- * 
- */
+/*Header*/
+
+header {
+    display: flex;
+    max-width: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header img {
+    border-radius: 50%;
+    max-width: 10em;
+    padding: 20px;
+}
+
+h1 {
+    padding-left: 1.5em;
+    font-size: 4em;
+    font-family: 'Dancing Script';
+    color: #264653;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    padding-right: 15px;
+    text-transform: uppercase;
+    font-family: 'Alef';
+}
+
+li {
+    background-color: #f4a261;
+    border-radius: 3px;
+    padding: 1em;
+}
+
+li:first-child {
+    margin-right: 1em;
+}
+
+li:last-child
+    {
+    margin-left: 1em;
+}
+
+a {
+    text-decoration: none;
+    color: #264653;
+    font-weight: bold;
+}
+
+/*Main*/
+
+main {
+    padding-top: 2em;
+}
+
+article {
+    height: 500px;
+    width: 100%;
+}
+
+article:first-child {
+    background-color: #2a9d8f;
+    border-radius: 3px;
+}
+
+article:last-child {
+    background-color: #e9c46a;
+    border-radius: 3px;
+}
+.articles {
+    max-width: 95%;
+    margin: 0 auto;
+    padding-top: 1em;
+}
+
+h2 {
+    font-size: 2.5em; 
+    color: #264653;
+    font-family: 'Akaya Telivigala';
+}
+
+p {
+    font-family: 'Alef';
+    line-height: 1.5em;
+    font-size: 1.2em;
+}
+
+.about-me{
+    color: white;   
+}
+.projects {
+    text-align: right;
+}
+/*Footer*/
+footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.foot {
+    max-width: 98%;
+    margin: 0 auto;
+}
+footer p {
+    text-align: center;
+    font-size: 1rem;
+    padding: 2em 0;
+}
+footer a {
+    text-transform: uppercase;
+}
+
