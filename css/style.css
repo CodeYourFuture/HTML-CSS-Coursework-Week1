@@ -36,9 +36,9 @@ img {
   margin: 0 auto;
   text-align: center;
   padding: 20px;
-  /*background-image: url(/image/logo.jpeg);
+  /**background-image: url(/image/logo.jpeg);
     height:300px ;
-    width: 600px;*/
+    width: 600px;**/
 }
 #page-title h1 {
   font-size: 3rem;
