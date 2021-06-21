@@ -1,0 +1,46 @@
+!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <title>Donald Fagan</title>
+    <link
+      href="//fonts.googleapis.com/css?family=Roboto:400,500,300"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+ </head>
+  
+  <body>
+    <!-- Add your HTML markup here -->
+    <!-- Remember: Use semantic HTML tags like <header>, <main>, <nav>, <footer>, <section> etc -->
+    <h1> style="background-color:DarkBlue;">Donald Fagan</h1>
+     
+     <h2><a href="https://www.facebook.com/DonaldFagenMusic">American singer and songwriter</a></h2>
+     <br>
+     <p style="color:Gray;"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris iaculis, sem quis venenatis consequat, dui orci placerat erat, quis mollis tortor tortor vitae erat. 
+     Proin varius gravida suscipit. Etiam erat massa, luctus eget posuere vel, porttitor sed tortor. Phasellus non semper libero, in faucibus mauris. 
+     Vivamus cursus, nisi non tempus porta, nisi sem convallis tortor, non consequat augue dolor quis mi.Nullam dapibus lorem vitae ante vulputate, non ultrices mi ultrices. 
+     Phasellus suscipit ex et nunc porttitor, at cursus est malesuada.</p>
+     
+     <p> Interdum et malesuada fames ac ante ipsum primis in faucibus. 
+     Praesent molestie elementum eros, nec bibendum urna porttitor ut. Morbi quis mi purus. Fusce quis hendrerit dolor. 
+     Mauris ullamcorper rhoncus velit, in ultrices arcu commodo in. Aliquam tristique tortor sit amet est imperdiet scelerisque. 
+     Praesent auctor dui non lectus condimentum pretium. Suspendisse vehicula velit non ex ultricies, at euismod odio gravida. 
+     Sed sed imperdiet massa.</p>
+    
+
+<p style="background-color:Tomato;">
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris iaculis, sem quis venenatis consequat, dui orci placerat erat, quis mollis tortor tortor vitae erat. 
+</p>
+  </body>
+  
+  <footer>
+   		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+  </footer>
+</html>
