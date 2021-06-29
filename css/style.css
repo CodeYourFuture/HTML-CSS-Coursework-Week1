@@ -6,3 +6,73 @@
  *    for example: General styles, Navigation styles, Hero styles, Footer etc.
  * 
  */
+* {
+  font-family: Century Gothic;
+}
+
+header {
+  font-size: 35%;
+  text-align: center;
+  background-color: #f6f6f7;
+  width: 100%;
+  padding: 7px;
+  margin-bottom: 3rem;
+  border-radius: 3rem;
+}
+
+h1 {
+  font-style: bold;
+  font-size: 5rem;
+  color: #9160c3;
+  font-size: 30em;
+  margin-bottom: 2em;
+}
+
+header h2 {
+  font-style: ;
+  color: #a595b5;
+  font-size: 30em;
+  margin-bottom: 1em;
+}
+.introduction {
+  font-size: 3rem;
+  position: sticky;
+  margin-bottom: 3rem;
+  margin: 7rem;
+}
+.introduction image {
+  position: center;
+  border-radius: 3rem;
+}
+.footer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2em;
+}
+
+footer h3 {
+  font-size: 3rem;
+  position: sticky;
+}
+
+footer img {
+  height: 3rem;
+  margin: 3rem;
+}
+
+@media screen and (min-width: 992px) {
+  .navbar-brand > img {
+    max-height: 80px;
+  }
+
+  @media (min-width: 640px) and (max-width: 1439px) {
+    html {
+      font-size: cal (16+ (23-16) * (100vw-640px) / (1439-640));
+    }
+  }
+  @media screen and (min-width: 1440px) {
+    html {
+      font-size: 23px;
+    }
+  }
+}
