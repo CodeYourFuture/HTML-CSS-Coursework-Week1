@@ -6,3 +6,49 @@
  *    for example: General styles, Navigation styles, Hero styles, Footer etc.
  * 
  */
+
+header{
+    display: flex;
+    justify-content: center;
+    flex-flow:column;
+    align-items: center;
+    height: 150px;
+    background-color: lightseagreen;
+    color: rgb(153, 49, 8);
+    width: 100%;
+}
+nav{
+    background-color: rgb(213, 227, 228);
+    height: 50px;   
+    float:left;
+width: 100%;
+}
+nav li{
+    display: inline-block;
+margin: 5px 10px;
+
+}
+nav a{
+    color: rgb(153, 49, 8);
+
+}
+
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60px;
+    width: 100%;
+    background-color: lightseagreen;
+}
+main{
+    width: 90%;
+    margin: auto;
+    padding-top: 60px;
+}
+
+article:first-child img{
+  width: 60%;
+  margin-left: 20%;
+}
