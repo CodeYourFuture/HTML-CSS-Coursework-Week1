@@ -6,3 +6,51 @@
  *    for example: General styles, Navigation styles, Hero styles, Footer etc.
  * 
  */
+
+ /**need to think why doing box-sizing**/
+ * {
+     box-sizing: border-box;
+ }
+ 
+
+body {
+    background-color: lightcyan;
+    margin:0;
+}
+
+header {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-transform: uppercase;
+    text-align:center;
+    padding: 20px;
+}
+
+h1 {
+    color:lightsteelblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 20px;
+    margin: 20px;
+}
+
+h2 {
+    color:powderblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     padding: 20px;
+    margin: 20px;
+}
+
+p {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-indent: 50px;
+    max-width: 100%;
+    padding: 20px;
+    margin: 20px;
+}
+
+footer  {
+    font-family: 'Courier New', Courier, monospace;
+    text-align:center;
+    padding: 20px;
+    margin: 20px;
+
+}
