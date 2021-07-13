@@ -6,3 +6,32 @@
  *    for example: General styles, Navigation styles, Hero styles, Footer etc.
  * 
  */
+/*style for navigation bar*/
+#nav-bar{
+    position: fixed;
+    top: 1rem;
+    height: 8rem;
+    display: flex;
+    border-radius: 5%;
+    background-color: rgb(128, 121, 177);
+    width: 99%;
+}
+#nav-bar img{
+    border: 5px solid rgb(126, 117, 184);
+    border-radius: 5%;
+    width: 15%;
+}
+ .nav-link{
+    display:flex;
+    flex-direction: row;
+   justify-content: space-evenly;
+
+}
+li{
+    list-style: none;
+}
+body{
+    position: relative;
+    top: 10rem;
+    background-color: rgb(109, 187, 187);
+}
