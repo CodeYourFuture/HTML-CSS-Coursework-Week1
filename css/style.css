@@ -6,3 +6,67 @@
  *    for example: General styles, Navigation styles, Hero styles, Footer etc.
  * 
  */
+body{
+    margin: 0px;
+}
+ nav{
+     display:flex;
+     justify-content: space-between;
+     background-color: #9A7658;
+     padding: 20px;
+ }
+
+ .nav-link{
+     padding-right: 60px;
+     color:white;
+ }
+
+ #page-header{
+     background-image: linear-gradient(to bottom right, rgba(134, 77, 31, 0.014),rgba(15, 12, 4, 0.863)), url("https://images.unsplash.com/photo-1452421822248-d4c2b47f0c81?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=667&q=80");
+     background-repeat: no-repeat;
+     background-size:cover;
+     width:100%;
+     height:400px;
+     margin: 0px;
+ }
+
+ h1{
+     font-size: 300%;
+     padding: 100px 30px 30px 60px;
+     color:white;
+     margin:0px;
+ }
+
+ #blog-description{
+    font-size: 170%;
+    padding: 0px 60px 10px 60px;
+    color:white;
+ }
+
+ .article-content{
+     display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid rgb(0, 0, 0);
+    width: 80%;
+    margin: 40px auto;
+    background-color: rgba(255, 145, 0, 0.089) ;
+ }
+ h2 {
+     text-align:center;
+     font-size: 180%;
+     padding-top: 40px;
+ }
+
+ .article-image{
+    display:block;
+    width:70%;
+    border: 2px solid black;
+    padding: 7px;
+ }
+
+ .article-paragraph{
+    width:70%
+ }
+
+ 
