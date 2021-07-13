@@ -48,9 +48,9 @@ h3 {
 }
 
 nav {
-  display: inline-block;
+  
   float: right;
-  margin-top: 150px;
+  margin-top: -80px;
 }
 header ul {
   margin-top: -10px;
@@ -65,4 +65,26 @@ header ul li {
 article {
   background-color: rgb(238, 207, 68);
   opacity: 0.9;
+}
+.contact{
+  display:flex;
+  justify-content: space-around;
+  height: 100px;
+}
+button{
+  height: 5em;
+  width: 15em;
+  border-style: none;
+  border-radius: 1.2em;
+  background: #3fb312;
+  color: #132e09;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+footer h3{
+
+  padding-left: 1.8em;
+}
+button:hover , button:focus{
+  background: #045a16;
 }
