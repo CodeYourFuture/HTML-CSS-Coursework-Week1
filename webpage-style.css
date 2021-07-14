@@ -1,8 +1,15 @@
 html {
-    background-color: rgb(50, 38, 54);
+    background-color: rgb(34, 4, 18);
 }
+
 .header {
     background-color: rgb(37, 9, 19);
+}
+.header h1 {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-family: 'Bebas Neue', cursive;
+    text-decoration: underline overline ;
 }
 .header img {
     /* sorts out centering of the cover image */
@@ -14,7 +21,26 @@ html {
 
     /* adds the border */
     border-style: solid;
-    border-color: rgb(45, 8, 71);
+    border-color: rgb(36, 2, 10);
     border-width: 0.5em;
     border-radius: 0.6em;
+}
+
+.game-article {
+    padding: 1em;
+    background-color: rgb(37, 9, 19);
+    color: rgb(255, 255, 255);
+}
+.game-article h2 {
+    text-align: center;
+    text-decoration: underline;
+}
+.game-article h3 {
+    text-align: center;
+}
+.game-article img {
+    display: block;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
 }
