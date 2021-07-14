@@ -8,29 +8,29 @@
  */
 .first-txt {
   position: absolute;
-  top: 17px;
-  left: 10px;
-  color: #953553;
+  top: 10px;
+  left: 150px;
+  color: #972d6b;
   font-size: 1.7em;
 }
 
 .second-txt {
   position: absolute;
-  top: 130px;
-  left: 10px;
-  color: #953553;
+  top: 80px;
+  left: 150px;
+  color: #972d6b;
   font-size: 1.7em;
 }
 
 header img {
   margin-bottom: -5px;
-  width: 10%;
-  height: 200px;
+  width: 8%;
+  height: 150px;
   padding: 0 px;
 }
 
 header {
-  background-color: #ffdb58;
+  background-color: #da981fd8;
 }
 p {
   font-size: 30px;
@@ -39,6 +39,7 @@ article {
   margin: 50px 50px 50px 50px;
   padding: 20px;
   text-align: justify;
+  color: #0a2202;
 }
 .contact {
   padding-left: 70px;
@@ -48,7 +49,6 @@ h3 {
 }
 
 nav {
-  
   float: right;
   margin-top: -80px;
 }
@@ -56,22 +56,22 @@ header ul {
   margin-top: -10px;
 }
 
-header ul li {
+header li {
   display: inline-block;
   margin-right: 10px;
   font-size: 2.5em;
   margin: 0 50px 10px 0;
 }
 article {
-  background-color: rgb(238, 207, 68);
-  opacity: 0.9;
+  background-color: rgb(235, 213, 114);
+  opacity: 0.85;
 }
-.contact{
-  display:flex;
+.contact {
+  display: flex;
   justify-content: space-around;
   height: 100px;
 }
-button{
+button {
   height: 5em;
   width: 15em;
   border-style: none;
@@ -81,10 +81,18 @@ button{
   font-size: 1.2em;
   font-weight: bold;
 }
-footer h3{
-
+footer h3 {
   padding-left: 1.8em;
 }
-button:hover , button:focus{
+button:hover,
+button:focus {
   background: #045a16;
+}
+article:first-child {
+  color: rgb(230, 243, 242);
+  background: crimson;
+}
+nav a {
+  text-decoration: none;
+  color: rgb(223, 33, 71);
 }
