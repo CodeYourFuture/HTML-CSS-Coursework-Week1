@@ -6,26 +6,36 @@
  *    for example: General styles, Navigation styles, Hero styles, Footer etc.
  * 
  */
+
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
 /*style for navigation bar*/
 #nav-bar{
     position: fixed;
-    top: 1rem;
+    top: 0;
     height: 8rem;
     display: flex;
-    border-radius: 5%;
-    background-color: rgb(128, 121, 177);
-    width: 99%;
+    background-color: rgb(172, 162, 235);
+    width: 100%;
+    margin: 0;
 }
 #nav-bar img{
-    border: 5px solid rgb(126, 117, 184);
+    border: 5px solid rgb(209, 77, 72);
     border-radius: 5%;
-    width: 15%;
+    width: 10%;
 }
- .nav-link{
+ .nav-link > ul{
     display:flex;
-    flex-direction: row;
-   justify-content: space-evenly;
-
+    width: 85vw;
+    font-size: 2rem;
+    margin-top: 2rem;
+    justify-content: space-around;
+}
+nav a:link{
+    text-decoration:none;
 }
 li{
     list-style: none;
@@ -34,4 +44,5 @@ body{
     position: relative;
     top: 10rem;
     background-color: rgb(109, 187, 187);
+    color: rgb(39, 38, 38);
 }
