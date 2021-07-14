@@ -15,7 +15,22 @@ html {
     line-height: 1.5;
     background: #27ae60;
   }
-  
+
+.container {
+    width: 200px;
+    height: 120px;
+    
+}
+
+.container img {
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+    
+    
+    }
+
+
   nav ul {
     list-style: none;
     padding-left: 10;
@@ -68,3 +83,23 @@ html {
   .nav__submenu-item:hover {
     background: #9b354bc7;//rgba(0, 0, 0, 0.1);
   }
+
+  .welcome-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 40vh;
+    background-color: rgba(235, 234, 184, 0.884);
+    background-image: linear-gradient(62deg, #94a7b9 0%, #674688 100%);
+  }
+  
+  .welcome-section > p {
+    font-size: 3rem;
+    font-weight: 500;
+    font-style: italic;
+    color: rgb(0, 255, 115);
+  }
+
+  
