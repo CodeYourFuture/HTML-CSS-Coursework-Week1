@@ -6,3 +6,23 @@
  *    for example: General styles, Navigation styles, Hero styles, Footer etc.
  * 
  */
+ .title {
+     color: rgb(14, 223, 195);
+     text-align: center;
+ }
+ .articles article:first-child{
+     background-color:honeydew
+ }
+ .articles article:last-child{
+     background-color: honeydew;
+ }
+
+ footer{
+     color: indigo;
+     position: absolute;
+     bottom: 0px;
+     width: 100%;
+     text-align: center;
+ }
+ 
+
