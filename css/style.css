@@ -90,6 +90,7 @@ html {
   }
   .nav__submenu-item:hover {
     background: #9b354bc7;//rgba(0, 0, 0, 0.1);
+    padding-color: red;
   }
 
   .welcome-section {
@@ -119,4 +120,21 @@ iframe.relative {
     border-width: 10px;
     border-color: rgba(172, 119, 240, 0.719);
     border-style:groove;
-}
+  }
+
+  #miroboard {
+    display:flex;
+    position:relative;
+    left: 150px;
+    top:50px;
+  }
+
+  #lemons-lemonade, #zero-carbon {
+    display:flex;
+    position:relative;
+    
+    
+ 
+  }
+  
+ 
