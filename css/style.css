@@ -5,6 +5,7 @@
 
   --main-background-color: #fff;
   --main-text-color: #333;
+  --highlight-color: hsl(47, 100%, 58%);
 
   --highlight-font: "Bebas Neue", Arial; /* grabs attention but not good for paragraphs */
   --normal-font: "Roboto", Arial; /* all around font */
@@ -19,6 +20,7 @@ html {
   margin: 0;
   border: 0;
   color: var(--main-text-color);
+  font-family: var(--normal-font);
 }
 
 nav ul {
@@ -47,6 +49,23 @@ a {
 .top-nav {
   display: inline-flex;
   position: absolute;
-  top: 10em; /* moves the element away from the top wall */
+  top: 6.5em; /* moves the element away from the top wall */
   padding-left: 2em; /* pushes the list away from the header */
+}
+
+.top-nav li {
+  display: flex;
+  line-height: 3em;
+}
+
+.top-nav a {
+  font-size: 1.5rem;
+  outline: 0;
+}
+
+.top-nav a:hover,
+.top-nav a:focus {
+  color: var(--highlight-color);
+  border-bottom: 2px solid var(--highlight-color);
+  transition: color 300ms ease;
 }
