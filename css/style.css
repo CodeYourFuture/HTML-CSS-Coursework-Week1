@@ -81,7 +81,26 @@ body {
 
 /* Section styles */
 
-article {
+.section1 {
+    display: inline;
+}
+.grid-tv-shows{
+    display: flex;
+}
+
+.section2 {
+    display: inline;
+}
+
+.grid-movies {
+    display: flex;
+}
+
+.section3 {
+    display: inline;
+}
+
+.grid-web-series {
     display: flex;
 }
 
@@ -92,7 +111,7 @@ article {
 }
 
 .featured-background {
-    width: 60%;
+    width: 100%;
     max-height: 200px;
 }
 
@@ -100,7 +119,7 @@ article {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    width: 200px;
+    width: 300px;
     height: 150px;
 }
 
