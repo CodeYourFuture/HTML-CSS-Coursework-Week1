@@ -1,8 +1,68 @@
-/**
- * Add your custom styles below
- * 
- * Remember: 
- * - Be organised, use comments and separate your styles into meaningful chunks
- *    for example: General styles, Navigation styles, Hero styles, Footer etc.
- * 
- */
+* {
+  font-family: Tahoma;
+  border: 1px solid;
+}
+
+body {
+  background-color: #161616;
+  border: none;
+}
+
+header {
+  border: none;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  background-color: #161616;
+  width: 100%;
+}
+
+header img {
+  height: 88px;
+  width: 208px;
+  border: none;
+}
+
+.img-heading {
+  display: flex;
+  font-size: 125%;
+  font-weight: bolder;
+  justify-content: center;
+  align-items: center;
+  border: none;
+}
+
+.img-heading h1 {
+  color: #c84b31;
+  text-align: left;
+  margin: 0px 0px 0px 5px;
+  padding: 0px 10px 0px 10px;
+  border: none;
+}
+
+header h3 {
+  text-align: center;
+  color: #ecdbba;
+}
+
+.articles {
+  margin-top: 140px;
+}
+
+.articles h3 {
+  color: #346751;
+}
+
+.articles p {
+  color: #c84b31;
+}
+
+.articles article:first-child {
+  font-size: 110%;
+  font-weight: 600;
+}
+
+footer {
+  height: 300px;
+  width: 100%;
+}
