@@ -3,6 +3,7 @@
 :root {
   font-size: 16px;
 
+  /* variables in the root so I can use them everywhere */
   --main-background-color: #fff;
   --main-text-color: #333;
   --highlight-color: hsl(47, 100%, 58%);
@@ -24,12 +25,14 @@ html {
 }
 
 nav ul {
-  list-style: none;
+  list-style: none; /* no dots at the start of the list item */
 }
 
 a {
-  text-decoration: none;
+  text-decoration: none; /* makes links look better and like normal text */
 }
+
+/* alignment */
 
 .align-page {
   position: absolute; /* so we can use left and right */
@@ -46,6 +49,8 @@ a {
   font-family: var(--highlight-font);
 }
 
+/* top bar nav */
+
 .top-nav {
   display: inline-flex;
   position: absolute;
@@ -55,14 +60,14 @@ a {
 
 .top-nav li {
   display: flex;
-  line-height: 3em;
+  line-height: 3em; /* space between the items */
 }
 
 .top-nav a {
   font-size: 1.5rem;
-  outline: 0;
+  outline: 0; /* so you don't get a cube around the element when focused */
 }
-
+/* hover and focus state so I can control how the on focus looks */
 .top-nav a:hover,
 .top-nav a:focus {
   color: var(--highlight-color);
