@@ -12,11 +12,18 @@
      box-sizing: border-box;
  }
  
+img {
+    border-radius: 5px;
+    border-color:silver;
+    border: 5px solid rgb(196, 201, 57);
+
+}
+
 
 body {
     background-color: #DDFFBC;
-    padding: 25px;
-    margin:0;
+    padding: 50px;
+    margin:20;
    
 }
 
@@ -24,7 +31,9 @@ header {
     font-family: 'Open Sans Condensed', sans-serif;
     text-transform: uppercase;
     text-align:center;
-    padding: 20px;
+    padding: 10px;
+    font-size: 2.2rem;
+    
 }
 
 h1 {
@@ -45,20 +54,19 @@ h2 {
 h3 {
      color: #91C788;
     font-family: 'Open Sans Condensed', sans-serif;
-    padding: 20px;
+    padding: 5px;
     margin: 20px;
 }
 p {
     font-family: 'Open Sans Condensed', sans-serif;
     text-indent: 50px;
     max-width: 100%;
-    padding: 20px;
-    margin: 20px;
+    padding: 10px;
+    margin: 10px;
     color:rgb(196, 201, 57);
 }
 
 a:link {
-  padding: 100px;
   color:rgb(196, 201, 57);
   text-decoration: none;
   
@@ -67,7 +75,6 @@ a:link {
 a:visited  {
 color:#2cce14;
 text-decoration: none;
-
 
 }
 
