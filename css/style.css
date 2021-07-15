@@ -18,20 +18,22 @@
     top: 0;
     height: 8rem;
     display: flex;
-    background-color: rgb(172, 162, 235);
+    background-color: rgb(188, 160, 188);
     width: 100%;
-    margin: 0;
+    font-size: 2rem;
 }
+/* header logo style */
 #nav-bar img{
-    border: 5px solid rgb(209, 77, 72);
+    border: 3px solid rgb(236, 140, 136);
     border-radius: 5%;
     width: 10%;
+    
 }
+/* style for navigation links in header and footer */
  .nav-link > ul{
     display:flex;
-    width: 85vw;
-    font-size: 2rem;
-    margin-top: 2rem;
+    width: 70vw;
+    margin-top: 2.5rem;
     justify-content: space-around;
 }
 nav a:link{
@@ -40,9 +42,50 @@ nav a:link{
 li{
     list-style: none;
 }
+
 body{
     position: relative;
     top: 10rem;
-    background-color: rgb(109, 187, 187);
+    background-color: rgb(89, 131, 129);
     color: rgb(39, 38, 38);
+}
+
+/* styling section and article elements */
+.width-control{
+    width: 75%;
+   margin: 5rem 10rem;
+   padding: 3rem;
+   font-size: 1.1em;
+   border-radius: 1%;
+   background-color: rgb(0, 95, 163);
+}
+article img{
+    width: 100%;
+    border-radius: 1%;
+}
+
+/* link color in article elements */
+article a {
+    color: rgb(201, 139, 139);
+}
+
+/* text color for section and article elements */
+.text-color{
+    color: rgb(187, 183, 183);
+}
+
+main article:first-child{
+    background-color: rgb(0, 107, 143);
+    color: rgb(212, 205, 205);
+    font-size: 1.2em;
+    
+}
+
+footer{
+    display: flex;
+    background-color: rgb(249, 201, 139);
+}
+
+address{
+    text-align: center;
 }
