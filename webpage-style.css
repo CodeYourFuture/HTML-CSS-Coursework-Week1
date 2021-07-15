@@ -1,18 +1,42 @@
 html {
-    background-color: rgb(34, 4, 18);
+    background-color: #03071e;
 }
 
 p {
     font-size: 1.2em;
-    color: rgb(252, 169, 183);
+    color: #faa307;
+    text-align: center;
 }
 
 .header {
-    background-color: rgb(37, 9, 19);
+    background-color: #6a040f;
 }
+.nav-bar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #370617;
+    overflow: hidden;
+}
+.nav-bar ul li {
+    display: inline;
+    float: left;
+}
+.nav-bar ul li a {
+    display: block;
+    padding: 1em;
+    background-color: #370617;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.nav-bar ul li a:hover {
+    background-color: #2c000f;
+}
+
 .header h1 {
     text-align: center;
-    color: rgb(255, 255, 255);
+    color: #ffba08;
     font-family: 'Bebas Neue', cursive;
     text-decoration: overline;
     letter-spacing: 0.1rem;
@@ -35,20 +59,20 @@ h3 {
 
     /* adds the border */
     border-style: solid;
-    border-color: rgb(36, 2, 10);
+    border-color: #370617;
     border-width: 0.5em;
     border-radius: 0.6em;
 }
 
 #article-section article:first-child {
-    background-color: orange; /* place holder test color */
+    background-color: #9d0208; /* place holder test color */
     
 }
 
 .game-article {
     padding: 1em;
-    background-color: rgb(37, 9, 19);
-    color: rgb(255, 255, 255);
+    background-color: #370617;
+    color: #faa307;
 }
 .game-article h2 {
     text-align: center;
@@ -67,7 +91,7 @@ h3 {
     
     /* adds the border */
     border-style: solid;
-    border-color: rgb(36, 2, 10);
+    border-color: #370617;
     border-width: 0.5em;
     border-radius: 0.6em;
 }
