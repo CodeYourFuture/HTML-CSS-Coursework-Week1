@@ -6,3 +6,98 @@
  *    for example: General styles, Navigation styles, Hero styles, Footer etc.
  * 
  */
+ /*background colour of whole page*/
+body{
+    background-color: silver;
+}
+
+/*adjusting top image in the middle*/
+#header-image{
+    padding-left: 60px;
+}
+
+/*Fixing navigation bar to the top*/
+nav{
+    position: fixed;
+    top: 0%;
+    width: 100%;
+    font-size: 20px;
+    }
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    background-color:paleturquoise;
+}
+/*adding hover effect to nav bar*/
+#nav-bar a:hover{
+    color: ghostwhite;
+    background-color: black;
+    border-radius: 10px;
+    padding: 0.5em;
+}
+/*designing Top heading*/
+h1{
+    padding-left: 1rem;
+    font-size: 50px;
+    color: blue;    
+}
+/*page description*/
+.pageDescription{
+    font-size: 20px;
+    padding-left:1rem ;
+    padding-top: 0px;
+}
+/*aligning quot in the middle*/
+.quot{
+    font-size: 25px;
+    text-align: center;
+    padding-top: 0px;
+    background-color: cyan;
+    word-spacing: 0.3em;
+    
+    }
+    /*Styling First child element as mentioned in HOME WORK*/
+    #article-section .article1:first-child{
+        background-color: lightgreen;
+        font-size: 23px;
+        word-spacing: 0.5em;
+        font-style: italic;
+        color: black;
+        text-align: center;
+    }
+    /*Moving headings of articles to right*/
+    h2{
+        padding-left: 1rem;
+    }
+
+/*Designing second article*/
+#article-section .article2:nth-child(2){
+    background-color: cornsilk;
+    font-size: 20px;
+    word-spacing: 0.3em;
+    text-align: center;
+
+}
+
+/*Designing last article*/
+#article-section .article3:last-child{
+    background-color: honeydew;
+    font-size: 20px;
+    word-spacing: 0.3em;
+    text-align: center;
+
+}
+
+/*Designing footer*/
+footer{
+    background-color: wheat;
+    text-align: end;
+    padding-bottom: 0px;
+}
+/*Adding hover effect to links*/
+a:hover{
+    background-color:blueviolet;
+    font-size: 22px;
+    color: white;
+}
