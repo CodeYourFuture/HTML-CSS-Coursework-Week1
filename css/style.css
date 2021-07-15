@@ -57,10 +57,24 @@ p {
     color:rgb(196, 201, 57);
 }
 
-a {
-   padding: 55px;  
+a:link {
+  padding: 100px;
+  color:rgb(196, 201, 57);
+  text-decoration: none;
+  
 }
 
+a:visited  {
+color:#2cce14;
+text-decoration: none;
+
+
+}
+
+a:hover {
+    color:rgb(196, 201, 57);
+    text-decoration: none;
+}
 article:first-child {
     color:rgb(196, 201, 57);
     font-size: 20px;
