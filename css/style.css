@@ -6,3 +6,72 @@
  *    for example: General styles, Navigation styles, Hero styles, Footer etc.
  * 
  */
+ body, html {
+    margin: 1px;
+background-color: #dddbdb;
+font-family: "stalemate", serif;
+
+        }
+
+     #nav-bar {
+            overflow: hidden;
+            background-color: #c0bfbd;
+            position: fixed;
+            top: 0;
+            width: 100%;
+       border-radius: 30px;
+      box-shadow: #e8ded1 5px 5px 5px; 
+             }
+            
+           
+   #nav-bar a {
+    font-family: serif;
+    float: right;
+    display: block;
+    color: #010101;
+    text-align: center;
+    padding: 10px 10px;
+    text-decoration: none;
+    font-size: 25px;
+    } 
+
+            
+            h1{
+                font-size: 60px;
+                text-align: center;
+            }
+            h2{
+                font-size: 55px;
+                text-align: center;
+            }
+            h3{
+                font-size: 40px;
+                text-align: center;
+            }
+#image1 {
+    width: 100%;
+    height: 400px;
+}
+
+#image2 {
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+#links2 {
+    font-size: 20px;
+    display: block;
+    text-align: center;
+}
+.footer {
+    position:relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(117, 117, 117);
+    color: white;
+    text-align: center;
+  }
+
+

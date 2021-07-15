@@ -23,5 +23,5 @@ It should include the following elements:
 - Use the sketch below to guide you towards the layout and content you are trying to achieve. _Please note that this is just a sketch - you can choose the colours, fonts and images that you want to use in the page._
 
   <a href="blog-sketch-week-1.png" target="blank">
-    <img src="blog-sketch-week-1.png" style="border: 1px solid #bababa;">
+    <img src ="blog-sketch-week-1.png" style="border: 1px solid #bababa;">
   </a>
