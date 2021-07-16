@@ -2,15 +2,83 @@
   padding: 0;
   margin: 0;
   font-family: "Roboto", sans-serif;
+  line-height: 1.5;
 }
+/* *********************************** header  ***************************** */
 .header {
-  margin-top: 250px;
-  margin-bottom: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: rgb(240, 228, 125);
+  font-size: 48px;
   text-align: center;
+  height: 100vh;
+  width: 100%;
+  background: url(https://i1.wp.com/femmefitalefitclub.com/wp-content/uploads/2017/01/TRX-suspension-system-workout.jpg?fit=1920%2C1080&ssl=1)
+    no-repeat;
 }
 
 .header__desc {
   padding: 10px 0 80px 0;
-  border-bottom: 1px solid black;
   display: inline-block;
+}
+/* *********************************** Main ***************************** */
+.main {
+  background: linear-gradient(135deg, white 80%, yellow);
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.menu__list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+  justify-content: space-around;
+}
+
+.menu__list-item {
+  text-decoration: none;
+}
+
+.content__title {
+  padding: 40px 0;
+  text-align: left;
+}
+
+.content__title h3 {
+  text-align: center;
+  padding-bottom: 40px;
+  font-size: 32px;
+}
+
+.content__image {
+  height: auto;
+  width: auto;
+  min-width: 200px;
+  min-height: 200px;
+}
+
+.content__article {
+  display: flex;
+  background: linear-gradient(135deg, white 80%, yellow);
+  height: 200px;
+  padding: 40px;
+}
+
+.footer {
+  padding: 20px;
+  background-color: dimgrey;
+  text-align: center;
+  color: white;
+  font-weight: 200;
+  font-size: 20px;
+}
+/* *********************************** footer ***************************** */
+
+.footer :first-child {
+  color: rgb(218, 123, 0);
+  font-weight: 400;
 }
