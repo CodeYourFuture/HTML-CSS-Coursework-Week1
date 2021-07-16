@@ -6,7 +6,7 @@
   /* variables in the root so I can use them everywhere */
   --main-background-color: #fff;
   --main-text-color: #333;
-  --highlight-color: hsl(47, 100%, 58%);
+  --highlight-color: #6700e6;
 
   --highlight-font: "Bebas Neue", Arial; /* grabs attention but not good for paragraphs */
   --normal-font: "Roboto", Arial; /* all around font */
@@ -78,7 +78,6 @@ a {
 h2:hover,
 h2:focus {
   color: var(--highlight-color);
-  border-bottom: 2px solid var(--highlight-color);
   transition: color 300ms ease;
 }
 
@@ -116,4 +115,8 @@ h2:focus {
   padding-top: 2em;
   text-align: center;
   border-top: 10px solid var(--highlight-color);
+}
+
+.footer-header {
+  font-size: 2rem;
 }
