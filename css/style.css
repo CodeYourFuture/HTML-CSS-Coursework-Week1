@@ -39,6 +39,10 @@ header img {
   border: none;
 }
 
+header p {
+  text-align: center;
+  color: #346751;
+}
 .nav-bar {
   width: 100%;
   text-align: center;
@@ -72,14 +76,16 @@ a {
 }
 
 .question h3 {
-  margin: 180px 0 0 0;
+  margin: 250px 0 0 0;
   text-align: center;
   color: #c84b31;
 }
 
 #art1 {
-  margin: 70px auto 50px auto;
+  margin: 70px auto 10px auto;
   width: 550px;
+  border: 1px solid #ecdbba;
+  border-radius: 20px;
 }
 
 #art2,
@@ -102,6 +108,11 @@ a {
 .articles article:first-child {
   font-size: 110%;
   font-weight: 600;
+}
+
+.playerlinks {
+  text-align: center;
+  font-size: 75%;
 }
 
 .articles article:nth-child(1),
