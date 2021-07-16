@@ -24,7 +24,7 @@ html {
   font-family: var(--normal-font);
 }
 
-nav ul {
+ul {
   list-style: none; /* no dots at the start of the list item */
 }
 
@@ -74,3 +74,5 @@ a {
   border-bottom: 2px solid var(--highlight-color);
   transition: color 300ms ease;
 }
+
+/* articles */
