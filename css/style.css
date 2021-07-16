@@ -72,6 +72,12 @@ a {
   font-size: 1.5rem;
   outline: 0; /* so you don't get a cube around the element when focused */
 }
+
+.top-nav span {
+  font-size: 1.5rem;
+  opacity: 0.7;
+}
+
 /* hover and focus state so I can control how the on focus looks */
 .top-nav a:hover,
 .top-nav a:focus,
