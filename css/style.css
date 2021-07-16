@@ -85,7 +85,7 @@ a {
 #art2,
 #art3,
 #art4 {
-  margin: 100px auto 50px auto;
+  margin: 60px auto 50px auto;
   width: 550px;
 }
 
@@ -129,4 +129,20 @@ a {
 footer {
   height: 300px;
   width: 100%;
+}
+
+footer h4 {
+  color: #346751;
+  text-align: center;
+  margin: 5px 0 0 0;
+}
+
+footer p {
+  color: #346751;
+  text-align: center;
+  margin: 5px 0 0 0;
+}
+
+footer a {
+  color: #c84b31;
 }
