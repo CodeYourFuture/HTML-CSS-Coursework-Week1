@@ -1,0 +1,91 @@
+/**
+ * Add your custom styles below
+ 
+ * 
+ * Remember: 
+ * - Be organised, use comments and separate your styles into meaningful chunks
+ *    for example: General styles, Navigation styles, Hero styles, Footer etc.
+ * 
+ */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+li,
+a,
+button {
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  color: black;
+  text-decoration: none;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px, 10px;
+}
+
+.interior1 {
+  max-width: 50%;
+}
+
+h1 {
+  left: 30%;
+  text-align: left;
+}
+
+.nav-links {
+  list-style: none;
+}
+
+.nav-links li {
+  display: inline-block;
+  padding: 0px, 20px;
+}
+
+.nav-links li a {
+  transition: all 0.3sec ease 0s;
+}
+
+.nav-links li a :hover {
+  color: #0088a9;
+}
+
+button {
+  padding: 9px, 25px;
+  background-color: rgba(0, 136, 169, 1);
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3sec ease 0s;
+}
+
+button :hover {
+  background-color: rgba(0, 136, 169, 0.8);
+}
+
+.Our-Services-list {
+  padding: 2% 2%;
+}
+.Our-Services {
+  padding: 2%;
+}
+
+#welcome {
+  padding: 5%;
+}
+
+#About-Us {
+  padding: 5%;
+}
+
+img {
+  vertical-align: middle;
+}
