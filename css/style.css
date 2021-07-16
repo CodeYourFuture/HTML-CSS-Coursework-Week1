@@ -130,3 +130,38 @@ h2:focus {
 }
 
 /* media query and scaling */
+
+/* small phone screens */
+@media only screen and (max-width: 850px) {
+  .align-page {
+    margin-left: 1em;
+  }
+  .main-heading {
+    font-size: 15rem;
+  }
+  .top-nav {
+    display: flex;
+    position: absolute;
+    padding: 0;
+    top: 40%; /* moves the nav bar down from the top of the screen */
+  }
+  .top-nav ul {
+    display: flex;
+    flex-direction: row; /* makes the nav appear in a row to better use the space */
+    gap: 1em; /* gap between the items */
+  }
+  .articles-section h2 {
+    font-size: 2rem;
+    padding-bottom: 1em; /* moves the paragraph text away from the header */
+  }
+  .articles-section p {
+    font-size: 1rem;
+    line-height: 1.7em; /* adds some space between the rows of text to make it more readable */
+  }
+  .page-footer {
+    position: absolute;
+    right: 1.5%; /* makes the element more center */
+    margin-top: 2em;
+    padding-top: 2em; /* moves the footer text away form the border */
+  }
+}
