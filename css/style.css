@@ -122,6 +122,7 @@ h2:focus {
   padding-top: 2em;
   text-align: center;
   border-top: 10px solid var(--highlight-color);
+  margin-top: 10em; /* moves the footer away from the text */
 }
 
 .footer-header {
