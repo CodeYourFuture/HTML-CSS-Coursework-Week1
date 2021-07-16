@@ -6,3 +6,50 @@
  *    for example: General styles, Navigation styles, Hero styles, Footer etc.
  * 
  */
+ /*Aligning all headings in the middle*/
+ h1, h2{
+     text-align: center;
+     font-size: 40px;
+ }
+
+ /*Coloring the headings*/
+ h1, h2{
+     color: black;
+ }
+
+ /*Setting background for the page*/
+ body{
+     color: white;
+     background-color: gray;
+ }
+ 
+ /*Aligning images in center*/
+.Image{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+ }
+
+ /*Styling first article */
+ #Articles .First-Article:first-child{
+     font-style: italic;
+     font-size: 25px;
+     word-spacing: 0.5rem;
+ }
+ /*Styling other articles */
+ .Second-Article, .Third-Article{
+     font-size: 20px;
+     word-spacing: 0.4rem;
+}
+
+ /*Adding hover effect to links*/
+ a:hover{
+     background-color: white;
+     font-size: 20px;
+ }
+
+ /*Putting the last link*/
+ footer{
+     text-align: end;
+ }
