@@ -6,3 +6,98 @@
  *    for example: General styles, Navigation styles, Hero styles, Footer etc.
  * 
  */
+.container {
+    background-color: rgba(241, 237, 237, 0.87);
+}
+
+/*Cover image*/
+.cover-img {
+    width: 1503px;
+    height: 700px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+/* Header */
+header, h5{
+    text-align: center;
+    letter-spacing: 0.5em;
+    padding: 10px;
+}
+
+header > p {
+    letter-spacing: normal;
+}
+
+/*article-one*/
+article{
+    padding: 15px;
+    margin: 10px;
+    
+}
+.section-one, .section-two, .section-three{
+    display: flex;
+    flex-direction: row;
+    padding: 50px;
+}
+h2{
+    text-align: center;
+}
+.section-one img {
+    width: 550px;
+    height: 500px;
+    
+}
+
+.section-one > p {
+    line-height: 1.6rem;
+    font-size: 20px;
+    padding: 10px;
+    margin: 20px;
+}
+hr{
+    width: 900px;
+}
+
+/*article-two*/
+.section-two {
+    padding: 10px;
+    margin: 10px;
+}
+
+.section-two img {
+    width: 250px;
+    height: 300px;
+    margin: 20px;
+    padding: 20px;
+    flex-grow: 2;
+}
+
+figcaption {
+    line-height: 1.5rem;
+}
+
+/*article-three*/
+.section-three img {
+    width: 300px;
+    height: 300px;
+    margin: 15px;
+    padding: 10px;
+    
+}
+
+a {
+    text-decoration: none;
+    font-size: large;
+    padding: 30px;
+    margin:15px
+      
+}
+a:hover {
+    color:brown;
+}
+
+article:first-child {
+    background-color: rgb(35, 112, 5);
+    color: white;
+}
