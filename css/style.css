@@ -16,19 +16,22 @@ html {
     background: #27ae60;
   }
 
-.container {
-    width: 200px;
-    height: 120px;
-    
-}
+header{
+  position:fixed;
+  width:100%;
+  align-items: center;
 
-.container img {
-    width: 100%;
-    height: auto;
+}
+.container {
+    width: 15%;
+    height: 30%;
     border-radius: 50%;
+    position: relative;
+    left: 20px;
+    top: 100px;
     
     
-    }
+  }
 
 
   /* nav ul {
@@ -38,11 +41,12 @@ html {
     margin-bottom: 10;
   }
    */
-  h1 {
+  h1{
     width: 700px;
-    margin: 100px auto 20px;
+    margin: 100px 250px 50px;
     color: #f0f0f0;
     text-align: center;
+    
   }
   
   .nav {
@@ -58,20 +62,23 @@ html {
     color: #f0f0f0; */
   }
   .nav a {
-    display: block;
-    padding: 0 60px;
+    display:flex;
+    padding: 0 50px;
     line-height: inherit;
     cursor: pointer;
   }
   .nav__menu {
     line-height: 60px;
+    
     font-weight: 400;
     text-transform: uppercase;
+    
+
   }
   .nav__menu-item {
     display:inline-block;
     position:relative;
-    padding-inline:;
+    
     
   }
   .nav__menu-item:hover {
@@ -93,13 +100,16 @@ html {
     padding-color: red;
   }
 
+  .nav, .nav > a, .nav_menu, .nav_menu-item {
+    text-align: center;
+  }
   .welcome-section {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     width: 100%;
-    height: 40vh;
+    height: 30vh;
     border-radius: 30%;
     background-color: rgba(235, 234, 184, 0.884);
     background-image: linear-gradient(62deg, #94a7b9 0%, #674688 100%);
