@@ -42,10 +42,9 @@ a {
 /* alignment */
 
 .align-page {
-  position: absolute; /* so we can use left and right */
   height: 100vh;
-  width: 75vw; /* makes sure we have blank space on either side */
-  left: 5%; /* pushes the block away from the left wall */
+  width: 100vw; /* makes sure we have blank space on either side */
+  margin-left: 5em;
 }
 
 .main-heading {
@@ -66,6 +65,7 @@ a {
 .top-nav li {
   display: flex;
   line-height: 3em; /* space between the items */
+  white-space: nowrap;
 }
 
 .top-nav a {
@@ -95,9 +95,25 @@ h2:focus {
   width: clamp(45ch, 2rem, 75ch);
   font-size: 1.5rem;
 }
-
+/* affects the first child of the articles-section, which means the most recent article */
 .articles-section li:first-child {
   display: inline-flex; /* only take the room it needs */
   border: 5px solid var(--highlight-color);
   padding: 1em; /* pops out the first article so people know it's special also adds some white space to the border */
+}
+
+.articles-section li:last-child {
+  padding-bottom: 10em; /* makes the footer appear off screen */
+}
+
+/* footer */
+
+.page-footer {
+  display: block;
+  margin-left: -5em; /* reset the margin from earlier */
+  width: 100vw;
+  padding-bottom: 2em;
+  padding-top: 2em;
+  text-align: center;
+  border-top: 10px solid var(--highlight-color);
 }
