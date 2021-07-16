@@ -112,10 +112,6 @@ h2:focus {
   padding: 1em; /* pops out the first article so people know it's special also adds some white space to the border */
 }
 
-.articles-section li:last-child {
-  padding-bottom: 10em; /* makes the footer appear off screen */
-}
-
 /* footer */
 
 .page-footer {
