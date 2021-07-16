@@ -24,6 +24,13 @@ html {
   font-family: var(--normal-font);
 }
 
+/* all headings should use this font */
+h1,
+h2 {
+  font-family: var(--highlight-font);
+  color: var(--main-text-color);
+}
+
 ul {
   list-style: none; /* no dots at the start of the list item */
 }
@@ -45,8 +52,6 @@ a {
   display: inline-block;
   font-size: 20rem;
   text-align: left;
-  color: var(--main-text-color);
-  font-family: var(--highlight-font);
 }
 
 /* top bar nav */
@@ -69,10 +74,30 @@ a {
 }
 /* hover and focus state so I can control how the on focus looks */
 .top-nav a:hover,
-.top-nav a:focus {
+.top-nav a:focus,
+h2:hover,
+h2:focus {
   color: var(--highlight-color);
   border-bottom: 2px solid var(--highlight-color);
   transition: color 300ms ease;
 }
 
 /* articles */
+
+.articles-section h2 {
+  display: inline-flex;
+  font-size: 5rem;
+  outline: 0;
+}
+
+.articles-section p {
+  /* limits the size of the paragraph to be more readable */
+  width: clamp(45ch, 2rem, 75ch);
+  font-size: 1.5rem;
+}
+
+.articles-section li:first-child {
+  display: inline-flex; /* only take the room it needs */
+  border: 5px solid var(--highlight-color);
+  padding: 1em; /* pops out the first article so people know it's special also adds some white space to the border */
+}
