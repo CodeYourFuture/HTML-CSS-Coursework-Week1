@@ -100,6 +100,11 @@ h2:focus {
   width: clamp(45ch, 2rem, 75ch);
   font-size: 1.5rem;
 }
+
+.articles-section li {
+  margin-bottom: 5em; /* adds some vertical space between the items */
+}
+
 /* affects the first child of the articles-section, which means the most recent article */
 .articles-section li:first-child {
   display: inline-flex; /* only take the room it needs */
@@ -126,3 +131,5 @@ h2:focus {
 .footer-header {
   font-size: 2rem;
 }
+
+/* media query and scaling */
