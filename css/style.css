@@ -1,6 +1,5 @@
 * {
   font-family: Tahoma;
-  border: 1px solid;
 }
 
 body {
@@ -40,26 +39,91 @@ header img {
   border: none;
 }
 
-header h3 {
+.nav-bar {
+  width: 100%;
   text-align: center;
-  color: #ecdbba;
+  border: none;
+}
+header ul {
+  margin: 0px auto;
 }
 
-.articles {
-  margin-top: 140px;
+header ul li {
+  display: inline-block;
+}
+
+.list-item {
+  color: #346751;
+  border: 1px solid #ecdbba;
+  border-radius: 5px;
+  font-weight: bold;
+  padding: 5px;
+  margin: 5px;
+}
+
+.list-item:hover {
+  background: #ecdbba;
+}
+
+a {
+  color: #346751;
+  border: none;
+  text-decoration: none;
+}
+
+.question h3 {
+  margin: 180px 0 0 0;
+  text-align: center;
+  color: #c84b31;
+}
+
+#art1 {
+  margin: 70px auto 50px auto;
+  width: 550px;
+}
+
+#art2,
+#art3,
+#art4 {
+  margin: 100px auto 50px auto;
+  width: 550px;
 }
 
 .articles h3 {
   color: #346751;
+  text-align: center;
 }
 
 .articles p {
   color: #c84b31;
+  padding: 0 0 20px 0;
 }
 
 .articles article:first-child {
   font-size: 110%;
   font-weight: 600;
+}
+
+.articles article:nth-child(1),
+.articles article:nth-child(2) {
+  margin: 30px 0px 30px 0px;
+}
+
+.articles article:first-child img,
+.articles article:nth-child(3) img {
+  float: left;
+  height: 184px;
+  width: 124px;
+  margin: 0px 20px 10px 0px;
+  border-radius: 10px;
+}
+
+.articles article:nth-child(2) img {
+  float: right;
+  height: 184px;
+  width: 124px;
+  margin: 0px 20px 10px 0px;
+  border-radius: 10px;
 }
 
 footer {
