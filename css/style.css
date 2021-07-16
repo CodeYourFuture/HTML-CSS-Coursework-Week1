@@ -39,10 +39,13 @@
 nav a:link{
     text-decoration:none;
 }
+nav a:hover{
+    color:rgb(7, 141, 7) ;
+}
 li{
     list-style: none;
 }
-
+/* body style */
 body{
     position: relative;
     top: 10rem;
@@ -80,7 +83,7 @@ main article:first-child{
     font-size: 1.2em;
     
 }
-
+/* footer syle */
 footer{
     display: flex;
     background-color: rgb(249, 201, 139);
