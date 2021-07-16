@@ -6,97 +6,100 @@
  *    for example: General styles, Navigation styles, Hero styles, Footer etc.
  * 
  */
-.first-txt {
-  position: absolute;
-  top: 10px;
-  left: 150px;
-  color: #972d6b;
-  font-size: 1.7em;
-}
 
-.second-txt {
-  position: absolute;
-  top: 80px;
-  left: 150px;
-  color: #972d6b;
-  font-size: 1.7em;
-}
-
-header img {
-  margin-bottom: -5px;
-  width: 8%;
-  height: 150px;
-  padding: 0 px;
+body {
+  background: url(/pexels-anthony-shkraba-6679657.jpg);
+  background-size: contain;
 }
 
 header {
-  background-color: #da981fd8;
+  background-color: crimson;
+  color: #ffffff;
+  width: 100%;
+  padding: 30px;
 }
-p {
-  font-size: 30px;
-}
-article {
-  margin: 50px 50px 50px 50px;
-  padding: 20px;
-  text-align: justify;
-  color: #0a2202;
-}
-.contact {
-  padding-left: 70px;
+
+header li {
+  display: inline-block;
+  font-size: 2em;
+  margin: 0px 50px 0px 0px;
 }
 h3 {
   font-size: 30px;
 }
 
 nav {
-  float: right;
-  margin-top: -80px;
-}
-header ul {
-  margin-top: -10px;
+  display: inline-block;
+  width: 100%;
+  
 }
 
-header li {
-  display: inline-block;
-  margin-right: 10px;
-  font-size: 2.5em;
-  margin: 0 50px 10px 0;
+nav a {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 1em;
 }
+
 article {
+  margin: 50px 50px 50px 50px;
+  padding: 20px;
+  text-align: justify;
+  color: #0a2202;
   background-color: rgb(235, 213, 114);
   opacity: 0.85;
+  
 }
+p {
+  font-size: 30px;
+}
+
+article:first-child {
+  background: rgb(191, 219, 30);
+  color: #0a2202;
+}
+
+
+footer h3 {
+  padding-left: 1.8em;
+}
+footer a:hover,
+footer a:focus {
+  background: #045a16;
+}
+
+a{
+  font-size: 1.5em;
+  text-decoration: none;
+  color: crimson;
+
+}
+
 .contact {
   display: flex;
   justify-content: space-around;
   height: 100px;
+  padding-left: 70px;
 }
-button {
-  height: 5em;
-  width: 15em;
-  border-style: none;
-  border-radius: 1.2em;
-  background: #3fb312;
-  color: #132e09;
-  font-size: 1.2em;
-  font-weight: bold;
-}
-footer h3 {
-  padding-left: 1.8em;
-}
-button:hover,
-button:focus {
-  background: #045a16;
-}
-article:first-child {
-  color: rgb(230, 243, 242);
-  background: crimson;
-}
-nav a {
+
+.contact-links{
+  background-color:#d4512a;
+  border: none;
+  color:#c2e0e0;
   text-decoration: none;
-  color: rgb(223, 33, 71);
+  font-size:2em;
+  padding: 1em;
+  border-radius: 0.5em; 
+  
 }
-body {
-  background: url(/pexels-anthony-shkraba-6679657.jpg);
-  background-size: contain;
+
+#logo{
+  float:right;
+  margin-top: -2em;
+  margin-right: 3em;
+  font-family: "Sofia", sans-serif;
+  font-size: 3em;
 }
+
+
+
+
