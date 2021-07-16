@@ -6,3 +6,78 @@
  *    for example: General styles, Navigation styles, Hero styles, Footer etc.
  * 
  */
+
+html {
+    font-size: 1.5rem; 
+}
+   
+#title {
+    height: 6rem;
+    text-align: center;
+    font-size: 5rem;
+    color:#F9BA4C;
+    font-family: Jazz LET, fantasy;
+    text-decoration: underline;
+}
+  
+body {
+    background-color: #372B29;
+    color: #F9F5F4;
+  }
+
+article:first-child {
+    background-color:orangered;
+}
+
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+  
+.quote {
+    text-align: center;
+    border-radius: 3px;
+    font-style: italic;
+    text-align: center;
+    padding: 1rem 1.2rem;
+    width: 60%;
+    color: #4a4a4a;
+    margin: 1rem auto 2rem;
+    color: #4a4a4a;
+    background: #F9BA4C;
+}
+
+#img-caption {
+    text-align: center;
+    font-family: Bookman, URW Bookman L, serif;
+    font-size: 1.5rem;
+    margin: 1rem;
+}
+  
+h2 {
+    text-decoration: underline;
+    text-align: center;
+    color:#F9BA4C;
+}
+ 
+#tribute-info, #facts, p {
+    text-align: left;
+    line-height: 3rem;
+    padding: 3rem;
+    width: 70%;
+    margin:auto;
+}
+  
+#imag-dock {
+    max width: 100%;
+    width: 30%;
+    height: auto;
+    margin: 0 auto;
+}
+  
+#image1 {
+    padding: 4rem;
+}
