@@ -141,4 +141,19 @@ header{
            100% { content:"Shimla";}
 
     }
+
+    .article-image{
+                  width:100%;
+    }
+
+      .facebookicon{
+                   width:30px;
+
+      }
+
+       footer{
+           background-color:cyan;
+
+       }
+     
    
