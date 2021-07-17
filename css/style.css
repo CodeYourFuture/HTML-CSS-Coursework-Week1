@@ -1,3 +1,131 @@
+* {
+  box-sizing: border-box;
+  font-family: sans-serif;
+  line-height: 1.8;
+  letter-spacing: 0.1rem;
+  margin: 1rem;
+}
+
+html {
+  /*Gold*/
+  background-color: rgb(255, 215, 0, 0.1);
+  height: 100%;
+}
+
+h1 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+h2 {
+  font-size: 1.5rem;
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+}
+
+h1,
+h2 {
+  text-align: center;
+  font-weight: bold;
+}
+
+p {
+  text-align: justify;
+}
+
+img {
+  display: block;
+  margin: auto;
+  padding: 1rem;
+  width: 50%;
+}
+
+figcaption {
+  margin-left: 50%;
+}
+
+figure {
+  background-color: rgb(255, 215, 0, 0.1);
+}
+
+button {
+  background-color: rgb(255, 215, 0, 0.5);
+  padding: 0.4rem;
+  border: none;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+}
+
+button a {
+  color: #191970;
+}
+
+button a:hover,
+button a:focus {
+  color: #006400;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  background-color: white;
+  padding: 1rem;
+}
+/*prevents-disease*/
+article:first-child {
+  border: 0.2rem dashed #00008b;
+  font-size: 1.3rem;
+}
+
+article:first-child h2 {
+  font-family: monospace, serif;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.prevents-disease q:before {
+  content: open-quote;
+  font-size: 150%;
+}
+
+.prevents-disease q:after {
+  content: close-quote;
+  font-size: 150%;
+}
+
+/*recommendations*/
+.prevents-disease,
+.recommendations {
+  padding: 1rem;
+  background-color: #f9f9f9;
+}
+
+.recommendations li {
+  list-style-type: square;
+}
+
+/*water-exercise*/
+.water-exercise {
+  padding: 1rem;
+  background-color: #f0f8e0;
+}
+
+/*footer*/
+footer {
+  /*YellowGreen*/
+  background-color: rgb(154, 205, 50, 0.3);
+  height: 20%;
+  padding: 1rem;
+}
+
+footer p {
+  text-align: center;
+}
+
 /**
  * Add your custom styles below
  * 
