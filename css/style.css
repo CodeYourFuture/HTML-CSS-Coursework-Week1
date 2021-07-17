@@ -6,3 +6,111 @@
  *    for example: General styles, Navigation styles, Hero styles, Footer etc.
  * 
  */
+ body, header, main, article, footer {
+     max-width: 100%;
+ }
+
+ h1, h2 {
+     text-align: center;
+ }
+
+ p {
+     font-size: 17px;
+ }
+
+ /*navigation bar*/
+ ul {
+     list-style-type: none;
+     background-color: lightgrey;
+     padding: 0;
+     margin: 0;
+     overflow: hidden;
+ }
+
+ li {
+     display: inline;
+     float: left;
+ }
+
+ li a {
+     display: block;
+     padding: 10px 30px 10px 30px;
+     color: red;
+     transition: 0.5s;
+     background-color: lightgrey;
+ }
+
+ li a:hover, li a:focus, summary:hover, summary:focus {
+     background-color: grey;
+     font-size: 18px;
+     color: orange;
+     transition: 0.5s;
+ }
+
+ summary {
+     transition: 0.5s;
+     cursor: pointer;
+     background-color: lightgrey;
+     font-size: 18px;
+ }
+
+ /*header*/
+ header {
+     min-height: 500px;
+     background-color: rgb(201, 180, 87);
+     text-align: center;
+     padding: 10px;
+ }
+
+ header img {
+     max-width: 50%;
+     max-height: 70%;
+ }
+
+ header p {
+     font-size: 20px;
+ }
+
+/*main*/
+ #main_article {
+     background-color: rgb(30, 30, 32);
+     padding: 10px;
+ }
+
+ .article {
+     min-height: 150px;
+     background-color: yellow;
+     margin: 10px 10px 10px 10px;
+ }
+
+ article article:first-of-type {
+     background-color: white;
+     color: lightcoral;
+ }
+
+ #article1 p:nth-of-type(3) {
+     color: rgb(71, 163, 102);
+ }
+
+ details {
+     padding: 10px 10px 10px 10px;
+ }
+
+ /*link*/
+ .link {
+     color: blue;
+     transition: 0.5s;
+ }
+
+ .link:hover {
+     font-size: 18px;
+     color: violet;
+     transition: 0.5s;
+ }
+
+ /*footer*/
+ footer {
+     text-align: center;
+     background-color: lightgrey;
+     font-size: 18px;
+ }
