@@ -2,6 +2,8 @@ body {
     font-family: Arial;
     padding: 20px;
     background: #849b9a;
+
+    
   }
 
   /* Header/Blog Title */
@@ -9,7 +11,37 @@ body {
     padding: 30px;
     font-size: 40px;
     text-align: center;
-    background: rgb(179, 78, 78);
+    padding: 0px 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgb(97, 94, 94);
+  }
+  
+  #nav-bar {
+    font-size: 1.2rem;
+    padding-top: 0.3rem;
+    padding-bottom: 0.3rem;
+  }
+  #nav-bar .container {
+    
+    display: grid;
+    /* grid-template-columns: repeat(2, 1fr); */
+  }
+  
+  #nav-bar .nav {
+    color: black;
+    font-size: larger;
+    justify-self: flex-end;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  #nav-bar .nav a {
+    padding: 0 1rem;
+  }
+  #nav-bar .nav a:hover {
+    color: #555;
   }
   
   /* Create two unequal columns that floats next to each other */
