@@ -4,51 +4,53 @@ html, body, main{
 }
 
 body {
- font-family: "Roboto", sans-serif;
- -webkit-font-smoothing: antialiased;
- margin: auto;
- display: flex;
- flex-wrap: wrap;
+  font-family: "Roboto", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  word-spacing: 5px;
+  letter-spacing: 3px;
 }
 
 header, main{
-  display: flex;
-  flex-flow: row wrap;
-  width:100%;
-  /* order:1; */
+   display: flex;
+   flex-flow: row wrap;
+   width:100%;
+   /* order:1; */
 }
 
 
 header{
-  padding-top:20px;
-  height: 200px;
-  position: fixed;
-  display: flex;
-  background-color: whitesmoke;
-  padding-bottom: 20px;
+   padding-top:20px;
+   height: 100px;
+   position: fixed;
+   display: flex;
+   background-color: rgba(245, 245, 245, 0.952);
+   padding-bottom: 20px;
+   background: url("/header-img.jpg");
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
 }
 
-.logo {
-  display: inline-block;
-  float: left;
-  width:30%;
-  height: 180px;
-  
-  
-  position:relative;
-  padding-left: 10px;
-  padding-top: 0px;
-  order:1;
-  border-style: groove;
-  border-color: rgba(0, 100, 0, 0.541);
-
-  
+.header .logo {
+   display: inline-block;
+   float: left;
+   width:30%;
+   height:90%;
+   
+   position:relative;
+   padding-left: 10px;
+   padding-top: 0px;
+   order:1;
+   
 }
 
 .logo img{
-  max-width:100%;
-  max-height:100%;
-  border-radius: 50%;
+   max-width:100%;
+   max-height:100%;
+   border-radius: 50%;
+   
 }
 
 .container {
@@ -57,19 +59,20 @@ header{
   cursor: pointer;
   width:70%;
   position:absolute;
-  order:2;
-  left:90%;
+  /* order:2; */
+  left:80%;
 
 }
 
 .menu {
   padding-top: 13px;
-  width:400px;
-  height:24vh;
+  width:200px;
+  height:auto;
   position:absolute;
   transform: translate(500px, 0);
   transition:transform 0.3s ease;
-  background:rgba(0, 255, 213, 0.61);
+  background:rgba(119, 113, 118, 0.959);
+  border-radius: 20%;
 }
 .menu li:hover{
   background-color: rgba(128, 128, 128, 0.486);
@@ -92,9 +95,9 @@ header{
 .menu a{
   
   text-decoration:none;
-  font-size: 50px;
-  font-weight:600;
-  color:rgb(246, 247, 233);
+  font-size: 20px;
+  font-weight:bold;
+  color:rgb(247, 247, 247);
   padding: -1.5em;
 }
 
@@ -123,7 +126,204 @@ li {
 }
 
 .change .menu {
-  -webkit-transform: translate(-250px, 0);
+  -webkit-transform: translate(-150px, 0);
   
 }
 
+
+
+/* Welcome section */
+
+/* .welcome-section{
+  display: flex;
+  background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("welcome-section.jpg");
+  max-width: 100%;
+  height:50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position:relative
+} */
+
+
+
+.big-container{
+  margin-top: 101px;
+  display: flex;
+  flex-flow: row wrap;
+  width:100%;
+  height:800px;
+  justify-content: center;
+  text-align: center;
+  
+  
+}
+
+.big-container .welcome-section{
+  width:100%;
+  height:30%;
+  
+  background:url("/welcome-img.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+
+}
+
+.welcome-section_text{
+  color:rgb(240, 243, 243);
+  display: flex;
+  flex-flow: row wrap;
+  
+  max-width: 100%;
+  height: 100px;
+  font-weight: bold;
+  position: relative;
+  top:50%;
+  background-color: rgba(169, 169, 169, 0.945);
+  justify-content: center;
+  
+  
+}
+
+.welcome-section_text h1{
+  width: 100%;
+  max-height: 50%;
+  
+  font-size:30px;
+  font-weight: bold;
+  position: relative;
+  
+  top:5px;
+  
+  
+  
+}
+
+.welcome-section_text p{
+  max-width: 100%;
+  font-size: 20px;
+  max-height: 50%;
+}
+
+.timeline {
+  position: relative;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.timeline::after {
+  content: '';
+  position: absolute;
+  width: 6px;
+  background-color: rgb(145, 55, 55);
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  margin-left: -3px;
+}
+
+.timeline-container {
+  padding: 10px 40px;
+  position: relative;
+  background-color: inherit;
+  width: 50%;
+}
+
+/* The circles on the timeline */
+.timeline-container::after {
+  content: '';
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  right: -17px;
+  background-color: white;
+  border: 4px solid #FF9F55;
+  top: 15px;
+  border-radius: 50%;
+  z-index: 1;
+}
+
+/* Place the container to the left */
+.left {
+  left: 0;
+}
+
+/* Place the container to the right */
+.right {
+  left: 50%;
+}
+
+/* Add arrows to the left container (pointing right) */
+.left::before {
+  content: " ";
+  height: 0;
+  position: absolute;
+  top: 22px;
+  width: 0;
+  z-index: 1;
+  right: 30px;
+  border: medium solid white;
+  border-width: 10px 0 10px 10px;
+  border-color: transparent transparent transparent white;
+}
+
+/* Add arrows to the right container (pointing left) */
+.right::before {
+  content: " ";
+  height: 0;
+  position: absolute;
+  top: 22px;
+  width: 0;
+  z-index: 1;
+  left: 30px;
+  border: medium solid white;
+  border-width: 10px 10px 10px 0;
+  border-color: transparent white transparent transparent;
+}
+
+/* Fix the circle for containers on the right side */
+.right::after {
+  left: -16px;
+}
+
+/* The actual content */
+.content {
+  padding: 20px 30px;
+  background-color: white;
+  position: relative;
+  border-radius: 6px;
+}
+
+/* Media queries - Responsive timeline on screens less than 600px wide */
+@media screen and (max-width: 600px) {
+/* Place the timelime to the left */
+  .timeline::after {
+    left: 31px;
+  }
+
+/* Full-width containers */
+  .timeline-container {
+    width: 100%;
+    height: 260px;
+    padding-left: 70px;
+    padding-right: 25px;
+  }
+
+/* Make sure that all arrows are pointing leftwards */
+  .timeline-container::before {
+    left: 60px;
+    border: medium solid white;
+    border-width: 10px 10px 10px 0;
+    border-color: transparent white transparent transparent;
+  }
+
+/* Make sure all circles are at the same spot */
+  .left::after, .right::after {
+    left: 15px;
+  }
+
+/* Make all right containers behave like the left ones */
+  .right {
+    left: 0%;
+  }
+}
