@@ -1,139 +1,159 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-  <title>My Blog</title>
-  <link href="//fonts.googleapis.com/css?family=Open+Sans:400,800,300" rel="stylesheet" type="text/css" />
-  <link rel="stylesheet" href="css/style.css" />
-  <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
-</head>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <title>My Blog</title>
+    <link href="//fonts.googleapis.com/css?family=Open+Sans:400,800,300" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  </head>
 
-<body>
-  <!-- Add your HTML markup here -->
-  <!-- Remember: Use semantic HTML tags like <header>, <main>, <nav>, <footer>, <section> etc -->
-  
-    <header id="header">
+  <body>
+    <!-- Add your HTML markup here -->
+    <!-- Remember: Use semantic HTML tags like <header>, <main>, <nav>, <footer>, <section> etc -->
 
-    <!--        -----------Navigation Menu-----------        -->
-    <nav class="nav">
-      <ul class="nav__menu">
-        <li class="nav__menu-item"><a>Brief</a></li>
-        <li class="nav__menu-item"><a>Activities</a>
-          <ul class="nav__submenu">
-            <li class="nav__submenu-item"> <a>HTML/CSS</a></li>
-            <li class="nav__submenu-item"> <a>JavaScript</a></li>
-            <li class="nav__submenu-item"> <a>Personal Development</a></li>
+    <header class="header">
+      <!-- Adding my image to the blog page -->
+
+      <div class="logo">
+        <img src="me.jpg" alt="Picture of Wiam Nasr">
+      </div>
+
+      
+      <div class="container" onclick="myFunction(this)">
+        <div class="bar1"></div>
+        <div class="bar2"></div>
+        <div class="bar3"></div>
+        <ul class="menu">
+          <li><a href="_blank">About</a></li>
+          <li><a href="#">Articles</a></li>
+          <li><a href="#"> Mind Maps</a></li>
+          <li><a href="#"> Contact</a></li>
+        </ul>
+      </div>
+
+      <nav class="navbar navbar-dark bg-dark">
+          <ul>
+            <li><a href="_blank">About</a></li>
+            <li><a href="#">Articles</a></li>
+            <li><a href="#"> Mind Maps</a></li>
+            <li><a href="#"> Contact</a></li>
           </ul>
-        </li>
-        <li class="nav__menu-item"><a>Media</a>
-          <ul class="nav__submenu">
-            <li class="nav__submenu-item"> <a>Publications</a></li>
-            <li class="nav__submenu-item"> <a>Mind Maps</a></li>
-            <li class="nav__submenu-item"> <a>Diffuse</a></li>
-          </ul>
-        </li>
-        <li class="nav__menu-item"><a>Blog</a></li>
+      </nav>
 
-      </ul>
-    </nav>
-
-
-  </header>
-
-  <!-- Adding my image to the blog page -->
-  <img class="container" src="me.jpg" alt="Picture of Wiam Nasr">
+      <script>
+        function myFunction(x) {
+          x.classList.toggle("change");
+        }
+      </script>
+    </header>
 
 
 
-<!--       ---------------Welcome Section----------------      -->
-  <section class="welcome-section">
-    <h2>Hello I am Wiam</h2>
-    <p>a data savvy, futurist entrepreneur</p>
-  </section>
 
 
-  <!--       ------------Main Header--------------             -->
-  <h1>Learning Journey, so far</h1>
+    <!-- Big container -->
+    <main class="container">
 
-  <article>
-    <h2>Brief</h2>
-
-
-    <div id="linkedin-articles">
-      <!-- Display Side Articles from Linkedin -->
-      <iframe id="zero-carbon" class="relative"
-        src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:6782278405728563200" height="730" width="250"
-        frameborder="0" allowfullscreen="" title="Embedded post">
-      </iframe>
-      <iframe id="lemons-lemonade" class="relative"
-        src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:6773580282479095808" height="490" width="250"
-        frameborder="0" allowfullscreen="" title="Embedded post">
-      </iframe>
-
-
-    </div>
-
-  </article>
-
-
-  <!-- Miro Board - Wiam Nasr Study Notes -->
-  <article>
-    <h2>Mind Maps</h2>
-    <iframe id="miroboard" class="relative" width=80% height="800"
-      src="https://miro.com/app/embed/o9J_l80EWtA=/?pres=1&frameId=3074457360968127721&autoplay=yep" frameBorder="0"
-      scrolling="no" allowFullScreen></iframe>
-  </article>
-
-  <section id="contact" class="contact-section">
-    <div class="contact-section-header">
-      <h2>Lets collaborate!</h2>        
-    </div>
-    <div class="contact-links">
-      <a href="https://www.facebook.com/chocolatefashionleb" target="_blank" class="btn contact-details">
-        <i class="fab fa-facebook-square">
-          
-        </i> Facebook
-      </a>
-      <a id="profile-link" href="https://github.com/wiamnasr" target="_blank" class="btn contact-details">
-        <i class="fab fa-github">
-          
-        </i> GitHub
-      </a>
-      <a href="https://www.linkedin.com/in/wiamnasr/" target="_blank" class="btn contact-details">
-        <i class="fab fa-linkedin">            
-        </i> Linkedin
-      </a>
-      <a href="https://twitter.com/wiam_nasr" target="_blank" class="btn contact-details">
-        <i class="fab fa-twitter">            
-        </i> Twitter
-      </a>        
-      <a href="mailto:wiamnasr@gmail.com" class="btn contact-details">
-        <i class="fas fa-at">
-          
-        </i> Send a mail
-      </a>
-      <a href="tel:07442958029" class="btn contact-details">
-        <i class="fas fa-mobile-alt">
-          
-        </i> Call me
-      </a>
-    </div>
-  </section>
-
-</body>
-<footer>
+      <!--       ---------------About----------------      -->
+      <div class="welcome-section">
+        <h2>Hello I am Wiam</h2>
+        <p>a data savvy, futurist entrepreneur</p>
+      </div>
 
 
 
-  <!-- Linkedin, twitter-->
-  <a href="https://twitter.com/WiamNasr2?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-size="small"
-    data-show-count="false">Follow @WiamNasr2</a>
-  <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-  <script src="https://platform.linkedin.com/in.js" type="text/javascript">lang: en_US</script>
-  <script type="IN/Share" data-url="https://www.linkedin.com"></script>
-</footer>
+
+
+      <!-- first article section -->
+      <article class="aricles">
+        <h2>Linkedin Articles</h2>
+        <div id="linkedin-articles">
+          <!-- Display Side Articles from Linkedin -->
+          <iframe id="zero-carbon" class="article"
+            src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:6782278405728563200" height="730" width="250"
+            frameborder="0" allowfullscreen="" title="Embedded post">
+          </iframe>
+          <iframe id="lemons-lemonade" class="article"
+            src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:6773580282479095808" height="490" width="250"
+            frameborder="0" allowfullscreen="" title="Embedded post">
+          </iframe>
+
+
+        </div>
+
+      </article>
+
+
+      <!-- Miro Board - Wiam Nasr Study Notes -->
+      <!-- Second Article Section -->
+
+      <section class="mind-maps">
+        <h2>Mind Maps</h2>
+        <iframe id="miroboard" class="relative" width=80% height="800"
+          src="https://miro.com/app/embed/o9J_l80EWtA=/?pres=1&frameId=3074457360968127721&autoplay=yep" frameBorder="0"
+          scrolling="no" allowFullScreen></iframe>
+      </section>
+
+      <!-- Contact Section -->
+      <section id="contact" class="contact-section">
+        <div class="contact-section-header">
+          <h2>Lets collaborate!</h2>
+        </div>
+        <div class="contact-links">
+          <a href="https://www.facebook.com/chocolatefashionleb" target="_blank" class="btn contact-details">
+            <i class="fab fa-facebook-square">
+
+            </i> Facebook
+          </a>
+          <a id="profile-link" href="https://github.com/wiamnasr" target="_blank" class="btn contact-details">
+            <i class="fab fa-github">
+
+            </i> GitHub
+          </a>
+          <a href="https://www.linkedin.com/in/wiamnasr/" target="_blank" class="btn contact-details">
+            <i class="fab fa-linkedin">
+            </i> Linkedin
+          </a>
+          <a href="https://twitter.com/wiam_nasr" target="_blank" class="btn contact-details">
+            <i class="fab fa-twitter">
+            </i> Twitter
+          </a>
+          <a href="mailto:wiamnasr@gmail.com" class="btn contact-details">
+            <i class="fas fa-at">
+
+            </i> Send a mail
+          </a>
+          <a href="tel:07442958029" class="btn contact-details">
+            <i class="fas fa-mobile-alt">
+
+            </i> Call me
+          </a>
+        </div>
+      </section>
+
+
+    </main>
+
+    <footer>
+      <!-- Linkedin, twitter-->
+      <a href="https://twitter.com/WiamNasr2?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-size="small"
+        data-show-count="false">Follow @WiamNasr2</a>
+      <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+      <script src="https://platform.linkedin.com/in.js" type="text/javascript">lang: en_US</script>
+      <script type="IN/Share" data-url="https://www.linkedin.com"></script>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+    </script>
+
+  </body>
+
 
 </html>
 
