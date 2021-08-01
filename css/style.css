@@ -11,12 +11,14 @@ body {
   flex-wrap: wrap;
   word-spacing: 5px;
   letter-spacing: 3px;
+  
 }
 
 header, main{
    display: flex;
    flex-flow: row wrap;
    width:100%;
+   
    /* order:1; */
 }
 
@@ -31,6 +33,7 @@ header{
    background: url("/header-img.jpg");
    background-repeat: no-repeat;
    background-size: 100% 100%;
+   
 }
 
 .header .logo {
@@ -73,6 +76,7 @@ header{
   transition:transform 0.3s ease;
   background:rgba(119, 113, 118, 0.959);
   border-radius: 20%;
+  
 }
 .menu li:hover{
   background-color: rgba(128, 128, 128, 0.486);
@@ -86,8 +90,9 @@ header{
 .menu a:hover{
   text-decoration: none;
   color:rgb(92, 22, 86);
-  font-size: 60px;
+  font-size: 30px;
   font-weight:400;
+  
 }
 
 .menu-two{display:none;}
@@ -163,7 +168,7 @@ li {
   width:100%;
   height:30%;
   
-  background:url("/welcome-img.jpg");
+  background-image:url("/welcome-img.jpg");
   background-repeat: no-repeat;
   background-size: 100% 100%;
 
@@ -179,7 +184,7 @@ li {
   font-weight: bold;
   position: relative;
   top:50%;
-  background-color: rgba(169, 169, 169, 0.945);
+  background-color: rgba(199,200,202,255);
   justify-content: center;
   
   
@@ -208,7 +213,11 @@ li {
 .timeline {
   position: relative;
   width: 100%;
+  height:auto;
   margin: 0 auto;
+  background-image: url("/timeline-img.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
 }
 
 .timeline::after {
@@ -289,10 +298,60 @@ li {
 /* The actual content */
 .content {
   padding: 20px 30px;
-  background-color: white;
+  background-color: rgba(199, 200, 202, 0.801);
   position: relative;
   border-radius: 6px;
 }
+
+.skills-bar{
+  width:100%;
+  margin-top: 30px;
+  background-color: rgba(199, 200, 202, 0.267);
+  color: rgb(88, 83, 83);
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.coding-language {
+  width:100%;
+  background-color: rgba(199,200,202,255);
+
+}
+
+.skills {
+  text-align: right;
+  padding-top:10px;
+  padding-bottom:10px;
+  color: rgba(255, 255, 255, 0.74);
+}
+
+.html {width:35%; background-color:rgba(0, 128, 0, 0.945);}
+.css {width:20%; background-color:rgba(0, 0, 255, 0.925);}
+.js {width:5%; background-color: rgba(255, 0, 0, 0.918);}
+.py {width:5%; background-color:rgba(71, 70, 70, 0.932);}
+
+.mind-maps {
+  margin-top: 80px;
+  width:100%;
+  display: flex;
+  flex-flow: row wrap;
+  
+}
+
+.mind-maps h2{
+  width:100%;
+  font-size: 60px;
+  font-weight: bolder;
+  background-color: rgba(217, 188, 235, 0.897);
+  color: rgba(255, 255, 255, 0.979);
+}
+
+.mind-maps iframe {
+  width:100%;
+  height:300px;
+}
+
+
 
 /* Media queries - Responsive timeline on screens less than 600px wide */
 @media screen and (max-width: 600px) {
@@ -304,10 +363,31 @@ li {
 /* Full-width containers */
   .timeline-container {
     width: 100%;
-    height: 260px;
+    height: 360px;
     padding-left: 70px;
     padding-right: 25px;
+    top:40px;
   }
+
+  .timeline-container .content h2, .timeline-container .content p{
+    color:white;
+    font-weight: 600;
+    font-weight: 550;
+    max-width: 100%;
+    
+  }
+  
+
+  .timeline-container .content h2 {
+    font-size: 30px;
+    
+  }
+
+  .timeline-container .content p {
+    font-size: 20px;
+  }
+
+
 
 /* Make sure that all arrows are pointing leftwards */
   .timeline-container::before {
