@@ -456,6 +456,8 @@ input[type=submit]:hover {
   display: flex;
   flex-flow: row wrap;
   margin-top: 60px;
+  height: 200px;
+  background-color: rgba(224, 183, 236, 0.781);
 }
 
 .articles h2 {
@@ -470,14 +472,18 @@ input[type=submit]:hover {
 .articles #linkedin-articles {
   display: flex;
   flex-flow: row nowrap;
+  justify-content: space-around;
   width:100%;
-  margin-top: 30px;
+  margin-top: 0px;
+  
   
 }
 
 #linkedin-articles :first-child, #linkedin-articles :last-child{
-  width: 50%;
+  width: 40%;
   height:100px;
+  border-radius: 50%;
+  border:none;
 }
 
 
