@@ -394,6 +394,95 @@ input[type=submit]:hover {
 }
 
 
+.contact-section {
+  width:100%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+.contact-section-header {
+  width:100%;
+  background-color:rgba(63, 61, 63, 0.938);
+  color:rgba(245, 245, 245, 0.815);
+  
+}
+
+.contact-links {
+  width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  margin-top: 30px;
+}
+
+.contact-section .contact-links .fa {
+  /* padding: 20px; */
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+  
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.articles{
+  width:100%;
+  display: flex;
+  flex-flow: row wrap;
+  margin-top: 60px;
+}
+
+.articles h2 {
+  width:100%;
+  background-color:rgba(63, 61, 63, 0.938);
+  justify-content: center;
+  height:50px;
+  color: rgba(245, 245, 245, 0.815);
+
+}
+
+.articles #linkedin-articles {
+  display: flex;
+  flex-flow: row nowrap;
+  width:100%;
+  margin-top: 30px;
+  
+}
+
+#linkedin-articles :first-child, #linkedin-articles :last-child{
+  width: 50%;
+  height:100px;
+}
+
+
+
+
 
 /* Media queries - Responsive timeline on screens less than 600px wide */
 @media screen and (max-width: 600px) {
