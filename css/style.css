@@ -600,30 +600,48 @@ input[type=submit]:hover {
   .menu-two {
     width:100%;
     display: flex;
-    justify-content:space-evenly;
+    justify-content:space-around;
     background-color: darkgrey;
     font-size: 20px;
     order: 100;
   }
 
-  .menu-two li{
+  /* .menu-two li{
     display: flex;
+    justify-content: flex-start;
     
+  } */
+
+
+  .menu-two li {
+    
+    height:68px;
+    margin-top: 20px;
   }
 
   .menu-two li a {
     color:whitesmoke;
     text-decoration: none;
-    font-size: 20px;
-    font-weight: bold;
+    font-size:25px;
+    font-weight: 600;
+    width: 88px;
+
 
   }
+
+
+
+  
+
+
 
   .menu-two li :hover {
     opacity:0.8;
     border: groove rgba(238, 130, 238, 0.445);
     color:rgba(88, 45, 88, 0.884)
   }
+
+
 
   .header{
     display: flex;
@@ -636,6 +654,9 @@ input[type=submit]:hover {
   .header .logo {
     width: 100%%;
     order:2;
+    display: flex;
+    justify-content: center;
+    
 
   }
 
@@ -644,17 +665,74 @@ input[type=submit]:hover {
  
 
   .header .logo img {
-    width:70%;
-    height:90%;
+    width:250px;
+    height:220px;
     border-style: groove;
+    
   }
 
+
+
   .big-container{
-    margin-top: 301px;
+    margin-top: 345px;
 
   }
 
   .big-container .welcome-section{
     height:600px;
   }
+  .welcome-section_text {
+    height: 200px;
+  }
+
+  .welcome-section_text h1 {
+    font-size: 60px;
+    color:white;
+  }
+  .welcome-section_text p {
+    font-size: 40px;
+  }
+
+
+
+  .skills-bar {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    width:30%;
+    margin: 250px 0 0 10%;
+    height: 300px;
+    order:11
+    
+    
+  }
+
+  
+  .mind-maps {
+    width:50%;
+    height: 300px;
+    border: none;
+    order:9;
+    margin: 300px 0 0 0;
+    border-radius: 50%;
+    border-style: groove;
+    border-color: rgb(153, 113, 153);
+    border-inline-width: 100px;
+  }
+
+  .form{
+    margin-top: 400px;
+    display: flex;
+
+  }
+  
+  
+
+
+  
+  
+
+  
+
 }
+
