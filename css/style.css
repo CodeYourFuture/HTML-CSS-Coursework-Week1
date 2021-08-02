@@ -776,6 +776,14 @@ input[type=submit]:hover {
     border:none;
   }
 
+  .menu-two li a {
+    font-size: 30px;
+  }
+
+  .menu-two li :hover {
+    font-size: 50px;
+  }
+
   .big-container .welcome-section {
     background-size: 80% 100%;
     background-color: rgba(199, 200, 202, 0.815);
@@ -820,7 +828,7 @@ input[type=submit]:hover {
   }
 
   .timeline-container {
-    width:45%
+    width:50%
   }
 
   
