@@ -832,7 +832,7 @@ input[type=submit]:hover {
 
   .articles{
     order:7;
-    margin-top: 0;
+    margin-top: 250px;
     padding: 300px 0 0 0;
     height:1200px;
     background-color:rgba(199, 200, 202, 0.815);
@@ -871,11 +871,19 @@ input[type=submit]:hover {
     height:90%;
   }
 
-  .skills-bar, .form {
+  .skills-bar {
     margin-top: 200px;
     width:45%;
     height: 100%;
     margin-left: 30px;
+  }
+
+  .form {
+    width:500px;
+    height: 490px;
+    margin-left: 60px; 
+
+
   }
 
   .contact-section .contact-section-header h2 {
@@ -885,5 +893,16 @@ input[type=submit]:hover {
 
 
 
+
+}
+
+@media screen and (min-width:1500px) {
+  .header {
+    background-size: 70% 100%;
+  }
+  .big-container .welcome-section {
+    background-size: 70% 100%;
+    
+  }
 
 }
