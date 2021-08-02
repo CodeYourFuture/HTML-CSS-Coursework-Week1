@@ -28,7 +28,7 @@ header{
    height: 100px;
    position: fixed;
    display: flex;
-   background-color: rgba(245, 245, 245, 0.952);
+   background-color: rgba(199, 200, 202, 0.815);
    padding-bottom: 20px;
    background: url("/header-img.jpg");
    background-repeat: no-repeat;
@@ -188,7 +188,7 @@ li {
   font-weight: bold;
   position: relative;
   top:50%;
-  background-color: rgba(199,200,202,255);
+  background-color: rgba(199, 200, 202, 0.815);
   justify-content: center;
   
   
@@ -229,6 +229,7 @@ li {
   content: '';
   position: absolute;
   width: 6px;
+  
   background-color: rgb(145, 55, 55);
   top: 0;
   bottom: 0;
@@ -681,6 +682,7 @@ input[type=submit]:hover {
 
   .big-container .welcome-section{
     height:600px;
+    
   }
   .welcome-section_text {
     height: 200px;
@@ -766,3 +768,61 @@ input[type=submit]:hover {
 
 }
 
+@media screen and (min-width:1100px) {
+  .header {
+    background-size: 80% 100%;
+    background-position: center;
+    background-color: rgba(199, 200, 202, 0.815);
+    border:none;
+  }
+
+  .big-container .welcome-section {
+    background-size: 80% 100%;
+    background-color: rgba(199, 200, 202, 0.815);
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    
+  }
+
+  .welcome-section_text {
+    border-radius: 50%;
+    width:60%;
+    height:50%;
+    align-items: center;
+    margin-top:10%;
+    position:static;
+
+
+  }
+
+  .welcome-section_text h1 {
+    position:static;
+    max-width: 60%;
+  }
+
+  .welcome-section_text p {
+    width:50%;
+    font-size: 30px;
+  }
+
+  .main{
+    background-color: rgba(199, 200, 202, 0.815);
+  }
+
+  .timeline {
+    width:100%;
+    background-color: rgba(26, 69, 155, 0.247);
+    border:none;
+    background-image: url("/bigScreen-timeline.jpg");
+    background-size: 80% 100%;
+    background-position: center;
+  }
+
+  .timeline-container {
+    width:45%
+  }
+
+  
+ 
+}
