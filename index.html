@@ -1,244 +1,244 @@
 <!DOCTYPE html>
 <html lang="en">
 
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-    <title>My Blog</title>
-    <link href="//fonts.googleapis.com/css?family=Open+Sans:400,800,300" rel="stylesheet" type="text/css" />
-    <link rel="stylesheet" href="css/style.css" />
-    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-  
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  </head>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <title>My Blog</title>
+  <link href="//fonts.googleapis.com/css?family=Open+Sans:400,800,300" rel="stylesheet" type="text/css" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
-  <body>
-    <!-- Add your HTML markup here -->
-    <!-- Remember: Use semantic HTML tags like <header>, <main>, <nav>, <footer>, <section> etc -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
 
-    <header class="header">
-      <!-- Adding my image to the blog page -->
+<body>
+  <!-- Add your HTML markup here -->
+  <!-- Remember: Use semantic HTML tags like <header>, <main>, <nav>, <footer>, <section> etc -->
 
-      <div class="logo">
-        <img src="me.jpg" alt="Picture of Wiam Nasr">
-      </div>
+  <header class="header">
+    <!-- Adding my image to the blog page -->
+
+    <div class="logo">
+      <img src="me.jpg" alt="Picture of Wiam Nasr">
+    </div>
 
 
-      <div class="container" onclick="myFunction(this)">
-        <div class="bar1"></div>
-        <div class="bar2"></div>
-        <div class="bar3"></div>
-        <ul class="menu">
-          <li><a href="#about-id">About</a></li>
-          <li><a href="#timeline-id">Timeline</a></li>
-          <li><a href="#coding-id"> Coding</a></li>
-          <li><a href="#mind-id"> Mind Maps</a></li>
-          <li><a href="#subscribe-id"> Subscribe</a></li>
-          <li><a href="#contact-id"> Contact</a></li>
-          <li><a href="#articles-id"> Articles</a></li>
-          
-        </ul>
-      </div>
-
-      <ul class="menu-two">
+    <div class="container" onclick="myFunction(this)">
+      <div class="bar1"></div>
+      <div class="bar2"></div>
+      <div class="bar3"></div>
+      <ul class="menu">
         <li><a href="#about-id">About</a></li>
         <li><a href="#timeline-id">Timeline</a></li>
-        
-        <li class="smaller-menu-item"><a href="#mind-id"> Mind Maps</a></li>
-        <li class="smaller-menu-item"><a href="#subscribe-id"> Subscribe</a></li>
+        <li><a href="#coding-id"> Coding</a></li>
+        <li><a href="#mind-id"> Mind Maps</a></li>
+        <li><a href="#subscribe-id"> Subscribe</a></li>
         <li><a href="#contact-id"> Contact</a></li>
         <li><a href="#articles-id"> Articles</a></li>
+
       </ul>
+    </div>
 
-      <script>
-        function myFunction(x) {
-          x.classList.toggle("change");
-        }
-      </script>
-    </header>
+    <ul class="menu-two">
+      <li><a href="#about-id">About</a></li>
+      <li><a href="#timeline-id">Timeline</a></li>
+
+      <li class="smaller-menu-item"><a href="#mind-id"> Mind Maps</a></li>
+      <li class="smaller-menu-item"><a href="#subscribe-id"> Subscribe</a></li>
+      <li><a href="#contact-id"> Contact</a></li>
+      <li><a href="#articles-id"> Articles</a></li>
+    </ul>
+
+    <script>
+      function myFunction(x) {
+        x.classList.toggle("change");
+      }
+    </script>
+  </header>
 
 
 
 
 
-    <!-- Big container -->
-    <main class="big-container">
+  <!-- Big container -->
+  <main class="big-container">
 
-      <!--       ---------------About----------------      -->
-      <div class="welcome-section">
-        <div id="about-id" class="welcome-section_text">
-          <h1>Hello! Wiam here</h1>
-          <p>a data savvy, futurist entrepreneur</p>
+    <!--       ---------------About----------------      -->
+    <div class="welcome-section">
+      <div id="about-id" class="welcome-section_text">
+        <h1>Hello! Wiam here</h1>
+        <p>a data savvy, futurist entrepreneur</p>
+      </div>
+
+    </div>
+
+
+
+    <div id="timeline-id" class="timeline">
+      <div class="timeline-container left">
+        <div class="content">
+          <h2>Mar 2021 - Present</h2>
+          <p>Trainee @ CodeYourFuture</p>
         </div>
-        
+      </div>
+      <div class="timeline-container right">
+        <div id="cf-container" class="content">
+          <h2>2014-2019</h2>
+          <p>Co-Founder of Chocolate fashion</p>
+        </div>
+      </div>
+      <div class="timeline-container left">
+        <div class="content">
+          <h2>Mar 2019 - Sep 2019</h2>
+          <p>Business Development Manager @ Fintech Galaxy</p>
+        </div>
+      </div>
+      <div class="timeline-container right">
+        <div class="content">
+          <h2>Feb 2016 - Jun 2019</h2>
+          <p>Content Quality Analyst @ Thomson Reuters</p>
+        </div>
+      </div>
+      <div class="timeline-container left">
+        <div class="content">
+          <h2>Jun 2014 - Jan 2016</h2>
+          <p>Projects Analyst @ Thomson Reuters</p>
+        </div>
+      </div>
+      <div class="timeline-container right">
+        <div class="content">
+          <h2>Nov 2012 - May 2014</h2>
+          <p>Projects Associate @ Thomson Reuters</p>
+        </div>
+      </div>
+    </div>
+
+    <section id="coding-id" class="skills-bar">
+
+      <p>HTML</p>
+
+      <div class="coding-language">
+        <div class="skills html">35%</div>
+      </div>
+
+      <p>CSS</p>
+      <div class="coding-language">
+        <div class="skills css">20%</div>
+      </div>
+
+      <p>JavaScript</p>
+      <div class="coding-language">
+        <div class="skills js">5%</div>
+      </div>
+
+      <p>Python</p>
+      <div class="coding-language">
+        <div class="skills py">5%</div>
       </div>
 
 
 
-      <div id="timeline-id" class="timeline">
-        <div class="timeline-container left">
-          <div class="content">
-            <h2>Mar 2021 - Present</h2>
-            <p>Trainee @ CodeYourFuture</p>
-          </div>
+    </section>
+
+
+
+
+
+
+    <!-- Miro Board - Wiam Nasr Study Notes -->
+    <!-- mind maps Section -->
+
+    <section id="mind-id" class="mind-maps">
+      <h2>Mind Maps</h2>
+      <iframe id="miroboard" class="relative" width=80% height="800"
+        src="https://miro.com/app/embed/o9J_l80EWtA=/?pres=1&frameId=3074457360968127721&autoplay=yep" frameBorder="0"
+        scrolling="no" allowFullScreen></iframe>
+    </section>
+
+    <section id="subscribe-id" class="form">
+      <form action="action_page.php">
+        <div class="subscribe-container">
+          <h2>Want to stay in the loop?</h2>
+          <p>Subscribe to my monthly newsletter</p>
         </div>
-        <div class="timeline-container right">
-          <div id="cf-container" class="content">
-            <h2>2014-2019</h2>
-            <p>Co-Founder of Chocolate fashion</p>
-          </div>
+
+        <div class="subscribe-container" style="background-color:white">
+          <input type="text" placeholder="Name" name="name" required>
+          <input type="text" placeholder="Email address" name="mail" required>
+          <label>
+            <input type="checkbox" checked="checked" name="subscribe"> Monthly Newsletter
+          </label>
         </div>
-        <div class="timeline-container left">
-          <div class="content">
-            <h2>Mar 2019 - Sep 2019</h2>
-            <p>Business Development Manager @ Fintech Galaxy</p>
-          </div>
+
+        <div class="subscribe-container">
+          <input type="submit" value="Subscribe">
         </div>
-        <div class="timeline-container right">
-          <div class="content">
-            <h2>Feb 2016 - Jun 2019</h2>
-            <p>Content Quality Analyst @ Thomson Reuters</p>
-          </div>
-        </div>
-        <div class="timeline-container left">
-          <div class="content">
-            <h2>Jun 2014 - Jan 2016</h2>
-            <p>Projects Analyst @ Thomson Reuters</p>
-          </div>
-        </div>
-        <div class="timeline-container right">
-          <div class="content">
-            <h2>Nov 2012 - May 2014</h2>
-            <p>Projects Associate @ Thomson Reuters</p>
-          </div>
-        </div>
+      </form>
+
+
+    </section>
+
+
+
+    <!-- forms section -->
+
+
+    <!-- Contact Section -->
+    <section id="contact-id" class="contact-section">
+      <div class="contact-section-header">
+        <h2>Lets collaborate!</h2>
+      </div>
+      <div class="contact-links">
+        <a href="https://www.facebook.com/chocolatefashionleb" target="_blank" class="fa fa-facebook"></a>
+        <a id="profile-link" href="https://github.com/wiamnasr" target="_blank" class="fa fa-github"></a>
+        <a href="https://www.linkedin.com/in/wiamnasr/" target="_blank" class="fa fa-linkedin"></a>
+        <a href="https://twitter.com/WiamNasr2" target="_blank" class="fa fa-twitter"></a>
+        <a href="mailto:wiamnasr@gmail.com" class="fa fa-google"></a>
+      </div>
+    </section>
+
+    <!-- articles section -->
+    <article id="article-id" class="articles">
+      <h2>Linkedin Articles</h2>
+      <div id="linkedin-articles">
+        <!-- Display Side Articles from Linkedin -->
+        <iframe id="zero-carbon" class="article"
+          src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:6782278405728563200" height="730" width="250"
+          frameborder="0" allowfullscreen="" title="Embedded post">
+        </iframe>
+        <iframe id="lemons-lemonade" class="article"
+          src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:6773580282479095808" height="490" width="250"
+          frameborder="0" allowfullscreen="" title="Embedded post">
+        </iframe>
+
+
       </div>
 
-      <section id="coding-id" class="skills-bar">
+    </article>
 
-        <p>HTML</p>
 
-        <div class="coding-language">
-          <div class="skills html">35%</div>
-        </div>
-
-        <p>CSS</p>
-        <div class="coding-language">
-          <div class="skills css">20%</div>
-        </div>
-
-        <p>JavaScript</p>
-        <div class="coding-language">
-          <div class="skills js">5%</div>
-        </div>
-
-        <p>Python</p>
-        <div class="coding-language">
-          <div class="skills py">5%</div>
-        </div>
+  </main>
 
 
 
-      </section>
 
-      
-
-      
-
-
-      <!-- Miro Board - Wiam Nasr Study Notes -->
-      <!-- mind maps Section -->
-
-      <section id="mind-id" class="mind-maps">
-        <h2>Mind Maps</h2>
-        <iframe id="miroboard" class="relative" width=80% height="800"
-          src="https://miro.com/app/embed/o9J_l80EWtA=/?pres=1&frameId=3074457360968127721&autoplay=yep" frameBorder="0"
-          scrolling="no" allowFullScreen></iframe>
-      </section>
-
-      <section id="subscribe-id" class="form">
-        <form action="action_page.php">
-          <div class="subscribe-container">
-            <h2>Want to stay in the loop?</h2>
-            <p>Subscribe to my monthly newsletter</p>
-          </div>
-        
-          <div class="subscribe-container" style="background-color:white">
-            <input type="text" placeholder="Name" name="name" required>
-            <input type="text" placeholder="Email address" name="mail" required>
-            <label>
-              <input type="checkbox" checked="checked" name="subscribe"> Monthly Newsletter
-            </label>
-          </div>
-        
-          <div class="subscribe-container">
-            <input type="submit" value="Subscribe">
-          </div>
-        </form>
-
-
-      </section>
-
-      
-      
-      <!-- forms section -->
-      
-      
-      <!-- Contact Section -->
-      <section id="contact-id" class="contact-section">
-        <div class="contact-section-header">
-          <h2>Lets collaborate!</h2>
-        </div>
-        <div class="contact-links">
-          <a href="https://www.facebook.com/chocolatefashionleb" target="_blank" class="fa fa-facebook"></a>
-          <a id="profile-link" href="https://github.com/wiamnasr" target="_blank" class="fa fa-github"></a>
-          <a href="https://www.linkedin.com/in/wiamnasr/" target="_blank" class="fa fa-linkedin"></a>
-          <a href="https://twitter.com/WiamNasr2" target="_blank" class="fa fa-twitter"></a>
-          <a href="mailto:wiamnasr@gmail.com" class="fa fa-google"></a>
-        </div>
-      </section>
-
-      <!-- articles section -->
-      <article id="article-id" class="articles">
-        <h2>Linkedin Articles</h2>
-        <div id="linkedin-articles">
-          <!-- Display Side Articles from Linkedin -->
-          <iframe id="zero-carbon" class="article"
-            src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:6782278405728563200" height="730" width="250"
-            frameborder="0" allowfullscreen="" title="Embedded post">
-          </iframe>
-          <iframe id="lemons-lemonade" class="article"
-            src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:6773580282479095808" height="490" width="250"
-            frameborder="0" allowfullscreen="" title="Embedded post">
-          </iframe>
-
-
-        </div>
-
-      </article>
-
-
-    </main>
-
-    
-
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
     </script>
 
-  </body>
+</body>
 
 
 </html>
 
 <!-- To-Do:
 
-1) design 1 minor breakpoint
-2) design breakpoint
-3) Finalize first design
+1) Design last breakpoint for big screens
+2) Finalize first design
+3) Possibly another minor breakpoint????
 4) Set next review and revamp date (once per week maintenance)
 
 -->

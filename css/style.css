@@ -584,10 +584,15 @@ input[type=submit]:hover {
 
 @media screen and (min-width: 750px) {
   .articles{
-    height:400px;
+    display: flex;
+    height:50%;
+    justify-content:space-evenly;
+    margin-top: 100px;
+    
   }
   .articles #zero-carbon, .articles #lemons-lemonade{
-    height: 300px;
+    height: 90%;
+    width: 30%;
   }
 }
 
@@ -606,11 +611,7 @@ input[type=submit]:hover {
     order: 100;
   }
 
-  /* .menu-two li{
-    display: flex;
-    justify-content: flex-start;
-    
-  } */
+
 
 
   .menu-two li {
@@ -723,16 +724,45 @@ input[type=submit]:hover {
   .form{
     margin-top: 400px;
     display: flex;
+    justify-content: center;
+    width:50%;
+   
 
   }
-  
-  
 
+  .form .subscribe-container h2 {
+    font-size: 50px;
+    color:whitesmoke;
+    background-color: rgba(44, 37, 37, 0.486);
+  }
 
-  
-  
+  .form .subscribe-container p {
+    font-size: 30px;
 
-  
+  }
+
+  .form .subscribe-container p:hover {
+    color:whitesmoke;
+    background-color: rgba(144, 98, 150, 0.486);
+    opacity:0.8;
+    
+  }
+
+  .contact-section {
+    margin-top: 100px;
+    width: 80%;
+  }
+
+  .contact-section .contact-links{
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+    justify-content: space-evenly;
+  }
+
+  .contact-section h2, .articles h2 {
+    font-size: 50px;
+  }
 
 }
 
