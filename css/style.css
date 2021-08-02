@@ -814,23 +814,76 @@ input[type=submit]:hover {
     font-size: 30px;
   }
 
-  .main{
-    background-color: rgba(199, 200, 202, 0.815);
-  }
+ 
 
   .timeline {
     width:100%;
     background-color: rgba(26, 69, 155, 0.247);
     border:none;
     background-image: url("/bigScreen-timeline.jpg");
-    background-size: 80% 100%;
+    background-size: 80% 80%;
     background-position: center;
+    
   }
 
   .timeline-container {
     width:50%
   }
 
+  .articles{
+    order:7;
+    margin-top: 0;
+    padding: 300px 0 0 0;
+    height:1200px;
+    background-color:rgba(199, 200, 202, 0.815);
+    
+  }
   
- 
+  .articles h2 {
+    font-size: 60px;
+    height: 100px;
+  }
+
+  #linkedin-articles :first-child, #linkedin-articles :last-child{
+    width: 45%;
+    height:700px;
+    border-radius: 10%;
+    border-style: groove;
+    border-width: 35px;
+    border-color: rgba(26, 69, 155, 0.247);
+    
+  }
+
+  .mind-maps{
+    margin-top: 200;
+    padding-top: 100px;
+    
+    background-color: rgba(26, 69, 155, 0.247);
+    width:80%;
+    height: 1000px;
+  }
+
+  .mind-maps h2 {
+    height:10%;
+  }
+  
+  .mind-maps .relative {
+    height:90%;
+  }
+
+  .skills-bar, .form {
+    margin-top: 200px;
+    width:45%;
+    height: 100%;
+    margin-left: 30px;
+  }
+
+  .contact-section .contact-section-header h2 {
+    font-size: 60px;
+  }
+  
+
+
+
+
 }
