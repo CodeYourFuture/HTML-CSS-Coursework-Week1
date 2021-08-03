@@ -65,8 +65,8 @@ a:visited {
   background-color: lightgray;
 }
 .intro li:first-child {
-  font-family:'Times New Roman', Times, serif;
-  font-style: inherit;
+
+  display: flex;
 }
 .memorial {
   background-color: #444;
