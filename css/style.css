@@ -14,12 +14,7 @@ header::after {
   display: table;
 }
 
-#header-img {
-  width: 90px;
-  height: 50px;
-  float: left;
-  padding-top: 1.7em;
-}
+
 nav ul{
   float: right;
   margin-right: 2em;
@@ -35,9 +30,9 @@ nav li{
 
 
 .nav-bar {
-  width: 100%;  /* i'm assuming full width */
-  height: 80px; /* change it to desired width */
-  background-color: rgb(0, 0, 0); /* change to desired color */
+  width: 100%; 
+  height: 80px; 
+  background-color: rgb(0, 0, 0);
 }
 .logo {
   display: inline-block;
@@ -45,14 +40,14 @@ nav li{
   width: 100px;
   height: 50px;
   margin-right: 20px;
-  margin-top: 15px;    /* if you want it vertically middle of the navbar. */
+  margin-top: 15px;   
 }
 .nav-bar > a {
   display: inline-block;
   vertical-align: top;
   margin-right: 20px;
-  height: 80px;        /* if you want it to take the full height of the bar */
-  line-height: 80px;    /* if you want it vertically middle of the navbar */
+  height: 80px;        
+  line-height: 80px;    
 }
 
 
@@ -67,32 +62,28 @@ a:visited {
   color: inherit;
 }
 
-#intro:first-child {
+.intro:first-child {
+  font-family:fantasy
+}
+.memorial {
   background-color: #444;
   color: rgb(253, 253, 253);
   Padding: 20em;
-  background-image: url(https://images.squarespace-cdn.com/content/v1/5d5d5cd9ba6acb0001cd8d66/1566685057535-4GEF9VMV55SIABU8KDEM/ALES6397-Edit.jpg?format=750w);
+  background-image: url(/img/Kobe-memorial-v3.jpeg);
   font-family: "ABeeZee";
   background-size: cover;
   background-blend-mode: multiply;
   display: flex;
   flex-direction: column;
   align-items: center; 
+
 }
 
-main {
+.intro {
   font-family: 'Exo 2', sans-serif;
+  text-align-last: center;
 }
 
-.text {
-  text-align: center;
-}
-
-.videos {
-  text-align: center;
-  padding: 3.5em;
-  margin: 0 auto;
-  }
 
 
 
@@ -101,36 +92,8 @@ img {
   height: 220px;
   margin: 20px;
 }
-#collection {
-   background-color:#f2efea;
-   padding: 3em;
-}
-#photo-collage {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-}
 
-input{
-  height: 2em;
-  border: none;
-  transition: 0.1s;
-}
-input:hover {
-    border-bottom: 2px solid black;
-}
-#form {
-  text-align: center;
-  padding: 2em;
-}
 
-#submit {
-  border-radius: 5px;
-  padding: 0.5em;
-  font-family: 'Exo 2', sans-serif;
-  background-color: #ffe500;
-  border: none;
-}
 
 html, body {
   margin: 0;
@@ -157,3 +120,4 @@ footer li {
     font-size: 2em;
   }
 }
+
