@@ -61,9 +61,12 @@ a {
 a:visited {
   color: inherit;
 }
-
-.intro:first-child {
-  font-family:fantasy
+.intro {
+  background-color: lightgray;
+}
+.intro li:first-child {
+  font-family:'Times New Roman', Times, serif;
+  font-style: inherit;
 }
 .memorial {
   background-color: #444;
