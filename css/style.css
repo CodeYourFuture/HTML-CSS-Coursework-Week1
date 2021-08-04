@@ -1,18 +1,31 @@
+/* Head */
+html{
+  font-size: 10px;
+}
 
+body{
+  height: 100vh;
+  width: 100%;
+  background-color: #333;
+}
+*{
+  padding:0;
+  margin: 0;
+  box-sizing: border-box;
+}
 header {
   position: relative;
   background-color: grey;
   color: white;
-  font-family: 'Exo 2', sans-serif;
+  font-family: 'Playfair Display', serif;
   padding: 0em;
   width: 100%
 }
 
-header::after {
+/* header::after {
   clear: both;
-  content: '';
   display: table;
-}
+} */
 
 
 nav ul{
@@ -23,7 +36,7 @@ nav ul{
 
 
 nav li{
-  padding: 1em;
+  padding: 1.5em;
   display: inline-block;
 }
 
@@ -32,24 +45,11 @@ nav li{
 .nav-bar {
   width: 100%; 
   height: 80px; 
+  font-size: 20px;
+ display: inline-flex;
+ vertical-align: top;
   background-color: rgb(0, 0, 0);
 }
-.logo {
-  display: inline-block;
-  vertical-align: top;
-  width: 100px;
-  height: 50px;
-  margin-right: 20px;
-  margin-top: 15px;   
-}
-.nav-bar > a {
-  display: inline-block;
-  vertical-align: top;
-  margin-right: 20px;
-  height: 80px;        
-  line-height: 80px;    
-}
-
 
 
 
@@ -61,47 +61,134 @@ a {
 a:visited {
   color: inherit;
 }
-.intro {
-  background-color: lightgray;
-}
-.intro li:first-child {
 
+
+
+section{
+  height: 100%;
   display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  margin: 0 auto;
 }
-.memorial {
-  background-color: #444;
-  color: rgb(253, 253, 253);
-  Padding: 20em;
-  background-image: url(/img/Kobe-memorial-v3.jpeg);
-  font-family: "ABeeZee";
-  background-size: cover;
-  background-blend-mode: multiply;
+section:first-child {
+  background-color: rgb(255, 255, 255);
+
+}
+
+.container{
+  max-width: 120rem;
+  padding: 0 1.5rem;
+  margin: 0 auto;
+}
+
+.content{
   display: flex;
-  flex-direction: column;
-  align-items: center; 
-
+  background-color: #fff;
+  box-shadow: .5rem .5rem 1rem rgba(0,0,0,0.5);
 }
 
-.intro {
-  font-family: 'Exo 2', sans-serif;
-  text-align-last: center;
+.content-img{
+  flex: 1;
+}
+
+.content-img img{
+  width: 100%;
+  height: 100%;
+  object-fit:cover;
+}
+
+.content-text{
+  flex: 1.5;
+  padding: 4rem;
+}
+
+.content-text .content-title{
+  font-family: 'Playfair Display', serif;
+  color: #222;
+  font-size: 4rem;
+}
+
+.content-text .content-subtitle{
+  font-size: 2.56rem;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: #444;
+  /* margin: .5rem 0 2rem; */
+}
+
+.content-text .content-paragraph{
+  font-size: 1.6rem;
+  margin-bottom: 2rem;
+}
+
+.content-text .btn{
+  display: inline-block;
+  text-decoration: none;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  padding: 1.5rem 2rem;
+  border: 1px solid #444;
+  color: #444;
 }
 
 
-
-
-img {
-  width: 147px;
-  height: 220px;
-  margin: 20px;
+@media screen and (max-width: 1100px){
+  .content-text{
+      flex: 1;
+  }
 }
 
+@media screen and (max-width: 960px){
+  .content-text .content-paragraph{
+      font-size: 1.4rem;
+      margin-bottom: 1.6rem;
+  }
 
+  .content-text .content-subtitle{
+      font-size: 2rem;
+  }
 
-html, body {
-  margin: 0;
-  font-family: 'Exo 2', sans-serif;
+  .content-text .content-title{
+      font-size: 3.2rem;
+  }
+
+  .content-text .btn{
+      padding: 1rem 1.56rem;
+  }
 }
+
+@media screen and (max-width: 756px){
+  .content{
+      flex-direction: column;
+      text-align: center;
+  }
+
+  .content-text .content-paragraph{
+      text-align: justify;
+  }
+
+  .content-img{
+      height: 350px;
+      width: 100%;
+  }
+}
+
+@media screen and (max-width: 456px){
+  .content-text .content-paragraph{
+      font-size: 1.2rem;
+  }
+  .content-text .content-subtitle{
+      font-size: 1.72rem;
+  }
+
+  .content-text .content-title{
+      font-size: 2.7rem;
+  }
+} 
+
+
 
 footer {
   background-color: black;
