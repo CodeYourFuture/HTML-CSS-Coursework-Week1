@@ -30,7 +30,7 @@ header{
    display: flex;
    background-color: rgba(199, 200, 202, 0.815);
    padding-bottom: 20px;
-   background: url("/header-img.jpg");
+   background: url("https://raw.githubusercontent.com/wiamnasr/HTML-CSS-Coursework-Week1/master/header-img.jpg");
    background-repeat: no-repeat;
    background-size: 100% 100%;
    order:1;
@@ -171,7 +171,7 @@ li {
   width:100%;
   height:30%;
   
-  background-image:url("/welcome-img.jpg");
+  background-image:url("https://raw.githubusercontent.com/wiamnasr/HTML-CSS-Coursework-Week1/master/welcome-img.jpg");
   background-repeat: no-repeat;
   background-size: 100% 100%;
   order:5;
@@ -219,7 +219,7 @@ li {
   width: 100%;
   height:auto;
   margin: 0 auto;
-  background-image: url("/timeline-img.jpg");
+  background-image: url("https://raw.githubusercontent.com/wiamnasr/HTML-CSS-Coursework-Week1/master/timeline-img.jpg");
   background-repeat: no-repeat;
   background-size: 100% 100%;
   order:7;
@@ -820,7 +820,7 @@ input[type=submit]:hover {
     width:100%;
     background-color: rgba(26, 69, 155, 0.247);
     border:none;
-    background-image: url("/bigScreen-timeline.jpg");
+    background-image: url("https://raw.githubusercontent.com/wiamnasr/HTML-CSS-Coursework-Week1/master/bigScreen-timeline.jpg");
     background-size: 80% 80%;
     background-position: center;
     
