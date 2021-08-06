@@ -9,11 +9,12 @@ body {
 
 header {
   border: none;
-  position: fixed;
+  /* position: fixed; */
   top: 0px;
   left: 0px;
   background-color: #161616;
   width: 100%;
+  /* z-index: 10; */
 }
 
 header img {
@@ -76,14 +77,18 @@ a {
 }
 
 .question h3 {
-  margin: 250px 0px 50px 0px;
+  margin: 40px 0px 50px 0px;
   text-align: center;
   color: #c84b31;
 }
 
+.row.force-height > div {
+  height: 50px;
+}
+
 .card {
-  background-color:#161616 ;
-  color:#c84b31;
+  background-color: #161616;
+  color: #c84b31;
 }
 
 .card img {
