@@ -76,9 +76,21 @@ a {
 }
 
 .question h3 {
-  margin: 250px 0 0 0;
+  margin: 250px 0px 50px 0px;
   text-align: center;
   color: #c84b31;
+}
+
+.card {
+  background-color:#161616 ;
+  color:#c84b31;
+}
+
+.card img {
+  height: 25rem;
+}
+.card h5 {
+  color: #346751;
 }
 
 #art1 {
