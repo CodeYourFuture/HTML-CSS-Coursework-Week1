@@ -2,7 +2,7 @@
 
 ## Setup
 
-First step is to fork this repo into your own Github account - if you don't remember how, then refer back Lesson 0 contents.
+First step is to fork this repo into your own Github account. If you don't remember how, then read back over the [Git lesson](https://syllabus.codeyourfuture.io/git/overview).
 
 ## Homework
 
