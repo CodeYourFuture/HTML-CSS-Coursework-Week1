@@ -6,3 +6,44 @@
  *    for example: General styles, Navigation styles, Hero styles, Footer etc.
  * 
  */
+ header{height: 100px;
+  width: 100%;
+  background-color: powderblue;
+  text-align:center;
+  padding-top:25px;
+}
+
+nav{height:1opx;
+  width:100%;
+  background:#BCC6CC;
+  }
+
+  li{
+    padding-right:90px;
+    text-align:center;
+   display: inline-block;
+    margin-left:10px;
+      }
+  
+  p{width:70%;
+    
+  }
+  #social{background:#BCC6CC;
+    padding:10px;
+    
+  }
+  #thir{background:#6D7B8D;
+     padding:10px;
+  }
+  #fourt{padding:20px;
+    
+  }
+  p:first-child {font-size:20px;
+    color:blue;}
+  footer{background-color: powderblue;
+    padding:10px;
+  }
+    
+  
+    
+    
