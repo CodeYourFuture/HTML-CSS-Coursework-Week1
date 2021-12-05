@@ -6,6 +6,8 @@ https://github.com/CodeYourFuture/CYF-Coursework-Template
 
 # How To Submit Your Coursework
 
+Finished 
+
 You should use Git & Github to submit your coursework as a pull request.
 
 You can use the Github Desktop cheatsheet here to help you do this.
