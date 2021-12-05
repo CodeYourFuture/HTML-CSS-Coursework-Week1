@@ -1,8 +1,283 @@
-/**
- * Add your custom styles below
- * 
- * Remember: 
- * - Be organised, use comments and separate your styles into meaningful chunks
- *    for example: General styles, Navigation styles, Hero styles, Footer etc.
- * 
- */
+ /* took away the padding and margin from the full root page */
+ * {
+     margin: 0;
+     padding: 0;
+ }
+
+
+/* added a universal font for the full page */
+ body {
+     font-family: Roboto, sans-serif;
+ }
+
+/* this is how I have made space on left and right side of the page and ive used a margin 0 auto to center everything. */
+ main {
+     width: 80%;
+     margin: 0 auto;
+ }
+
+ /* * Header styles */ 
+ header {
+     display: flex;
+     flex-flow: row nowrap;
+     justify-content: space-between;
+ }
+
+ .left-header { 
+     flex-basis: 40%;
+     padding-left: 0.5rem;
+     text-align: right;
+     margin-top: 3rem;
+ }
+
+ .left-header img {
+     width: 100px;
+ }
+
+ .right-header {
+     flex-basis: 60%;
+     margin-top: 2.75rem;
+     padding-left: 0.5rem;
+ }
+
+ .right-header h1{
+     margin: 0;
+     font-size: 3rem;
+     color: #C100C1;
+     letter-spacing: 0.5rem;
+     text-transform: uppercase;
+ }
+
+ .right-header p {
+     margin-top: 0.5rem;
+     color:#666666;
+     font-weight: 500;
+     font-size: 2rem;
+     letter-spacing: 0.5rem;
+     text-transform: uppercase;
+ }
+/* end of header */
+
+
+/* navigation styles */
+nav {
+    border-top: 2px solid #C100C1;
+    border-bottom: 2px solid #C100C1;
+    margin: 3rem 0;
+}
+
+.navigation nav ul {
+    list-style: none;
+    text-align: center;
+    margin-bottom: 0;
+    padding: 0;
+}
+
+.navigation li {
+    display: inline-block;
+}
+
+.navigation a {
+    display: block;
+    text-decoration: none;
+    padding: 1rem 2rem;
+    color: #666;
+    font-size: 22px;
+}
+
+.navigation a:hover {
+    color: #C100C1;
+}
+/* end of navigation */
+
+
+
+/* hero secetion */
+.hero-image {
+    background-image: linear-gradient(to bottom,rgba(231, 0, 252, 0.132), rgba(75, 30, 63, 0.119)), url(../images/vitaliy-paykov-2wwvrZVbHzk-unsplash.jpg);
+    
+    height: 300px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    margin: 1rem 0;
+}
+
+.hero-text {
+    position: absolute;
+    text-align: center;
+    top: 30%;
+    left: 50%;
+    color: #fff;
+    font-size: 1.5rem;
+}
+
+.hero-text button {
+    padding: 2px 8px;
+    border-radius: 4px;
+    border-style: none;
+    background-color: #C100C1;
+    color: #fff;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.hero-text button:hover {
+    background-color: #fff;
+    color: #C100C1;
+}
+/* end of hero */
+
+
+/* page heading and text styling for h2 tags and p tags */
+.page-heading-style {
+    text-align: center;
+    color: #C100C1;
+    font-size: 22px;
+    margin: 3rem 0;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+}
+
+.page-text-style {
+    line-height: 2;
+    font-size: 20px;
+    color: #666;
+    font-weight: 400;
+}
+
+.page-smaller-heading-style {
+    text-align: center;
+    color: #15AABA;
+    font-size: 20px;
+    margin: 3rem 0;
+    letter-spacing: 6px;
+    text-transform: uppercase;
+}
+/* end of Page heading and text styling */
+
+/* about section */
+article:first-child { 
+    margin: 3rem 0;
+    padding: 1rem 0;
+    
+}
+blockquote {
+    margin-top: 1.5rem;
+}
+
+blockquote p {
+    font-size: 20px;
+    color: #3F334A;
+    font-weight: 500;
+}
+
+cite {
+    font-size: 22px;
+    color: #3F334A;
+    font-weight: 500;
+}
+ .website-link {
+    font-size: 20px;
+    color: #5FD40F;
+    font-weight: 600;
+    text-decoration: none;
+ }
+
+ .website-link:hover {
+     color: #15AABA;
+ }
+/* end of about section */
+
+
+/* news section */
+article:nth-child(2) { 
+    border-top: 2px solid #C100C1;
+    margin: 3rem 0;
+    padding: 1rem 0;
+}
+
+.video-link {
+    display: flex;
+    justify-content: center;
+}
+
+iframe {
+    margin: 2rem 0;
+    padding: 1rem 0;
+}
+/* end of news section */
+
+/* information section */
+article:last-child { 
+    border-top: 2px solid #15AABA;
+    margin: 3rem 0;
+    padding: 1rem 0;
+}
+
+
+.form-label {
+    display: flex;
+    justify-content: center;
+    padding: 1rem 0;
+}
+
+.form-label label {
+    padding-right: .2rem;
+    color:#666666;
+    font-weight: 500;
+    letter-spacing: 0.5rem;
+}
+
+.form-btn {
+    display: flex;
+    justify-content: center;
+}
+
+.form-btn button {
+  font-size: 1rem;
+  margin: 2rem 0;
+  background-color: #C100C1;
+  color: #fff;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 10px;
+}
+
+.form-btn button:hover {
+  background-color: #15AABA;
+  color: #fff;
+}
+/* End of information section */
+
+/* footer section */
+footer {
+    margin: 1rem 0;
+    padding: 1rem 0;
+}
+
+footer p {
+    text-align: center;
+}
+
+.social-media {
+    display: flex;
+    justify-content: center;
+}
+
+.social-media li {
+    padding: 1.5rem;
+    list-style: none;
+}
+
+.social-media img {
+    width: 25px;
+}
+/* end of footer section */
+
+
+
+
+
+
