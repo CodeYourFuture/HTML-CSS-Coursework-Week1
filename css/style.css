@@ -6,3 +6,136 @@
  *    for example: General styles, Navigation styles, Hero styles, Footer etc.
  * 
  */
+/**
+ * Add your custom styles below
+ * 
+ * Remember: 
+ * - Be organised, use comments and separate your styles into meaningful chunks
+ *    for example: General styles, Navigation styles, Hero styles, Footer etc.
+ * 
+ */
+
+ body {
+    font-family: "Source Sans Pro", "Helvetica Neue", Arial, sans-serif;
+    background-color: #f5f6fa;
+    margin: 0px;
+    font-size: 16px;
+  }
+  
+  header {
+    position: static;
+    margin: 20px;
+    background-color: #ffffff;
+    border: 1px solid #b8b9b9;
+    border-radius: 5px;
+  }
+  
+  .header-img {
+    display: block;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+  
+  ul {
+      display: flex;
+      flex-direction: row;
+      list-style: none; 
+      margin-left: 40%;
+      margin-right: auto;
+  }
+  li a {
+      display: block;
+      color: #000;
+      padding: 8px 16px;
+      text-decoration: none;
+  }
+    
+  li a:hover {
+      background-color: #555;
+      color: white;
+  }
+  
+  .main {
+      display: flex;
+      flex-direction: row;
+  }
+  .description {
+      display: flex;
+      margin: 20px;
+      border: 1px solid #a3a3a3;
+      border-radius: 10px;
+      padding: 10px;
+      line-height: 1.6;
+      width: 550px;
+      background: white;
+    }
+  
+  .des-img {
+      display: block;
+      margin-top: 30px;
+      border-radius: 100px;
+      width: 120px;
+      height: 120px;
+  }
+  
+  article {
+      text-align: justify;
+      padding: 0 15px;
+      font-weight: 450;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  
+  article :first-child {
+      font-style: italic;
+  }
+  
+  p { 
+      font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+      font-size: medium;
+  }
+  
+  a:link {
+      color: #e84118;
+  }
+    
+  a:visited {
+      color: #353b48;
+  }
+    
+  a:hover {
+      color: #eb2f06;
+  }
+  
+  a:active {
+      color: blue;
+  }
+  
+  footer {
+      background-color: #c6c7c5;
+      border-radius: 10px;
+      padding: 25px;
+      margin: 25px;
+  }
+  
+  @media (max-width: 750px) {
+      .main {
+        margin-top: 3px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 0 5px;
+      }
+  
+  }
+  @media (max-width: 750px) {
+      .header-img {
+          display: block;
+          margin-top: 20px;
+          margin-left: auto;
+          margin-right: auto;
+          width: 500px;
+      }
+  }
