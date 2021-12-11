@@ -1,4 +1,4 @@
-/**
+/*
  * Add your custom styles below
  * 
  * Remember: 
@@ -6,3 +6,187 @@
  *    for example: General styles, Navigation styles, Hero styles, Footer etc.
  * 
  */
+
+/* General styles */
+* {
+  font-family: "Newsreader", Helvetica, Arial, sans-serif;
+  line-height: 2;
+  background-color: #f2f2f2;
+  margin: 0 auto;
+}
+
+header {
+  margin-top: 2rem;
+  position: sticky;
+  top: 0;
+  display: flex;
+  z-index: 1000;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+    font-weight: 600;
+}
+
+h2, h3 {
+    font-weight: 500;
+}
+
+/* Navigation styles */
+
+header .navigation ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+
+header .navigation a {
+  padding: 0.9rem 1.8rem;
+  font-size: 1.1rem;
+  color: #000017;
+}
+
+header h1 {
+  color: #e84a45;
+  font-size: 1.2rem;
+  font-weight: 600;
+  padding: 0;
+  margin: 0;
+}
+
+header p {
+  color: #000017;
+  font-style: italic;
+  font-weight: 450;
+  margin-top: -1rem;
+}
+
+/* Main*/
+
+main {
+  text-align: justify;
+  margin-top: 5rem;
+}
+
+article {
+  display: flex;
+  justify-content: flex-start;    
+  flex-flow: row nowrap;
+  margin-bottom: 4rem;
+}
+
+article:first-child {
+  display: block;
+  color: #e84a45;
+}
+
+article:first-child h2 {
+    font-weight: 500;
+}
+
+.article-content {
+  margin-left: 2.5rem;
+}
+
+.article-title {
+  flex: 0 0 25%;
+  width: 30%;
+}
+
+.read-more {
+  color: #e84a45;
+  display: block;
+  position: relative;
+  bottom: 0;
+  margin-top: 1rem;
+}
+
+
+/* Footer */
+
+.footer {
+  margin: 4rem auto 2rem auto;
+  text-align: center;
+}
+
+.footer strong {
+    display: block;
+    margin-top: 2rem;
+}
+
+.fa {
+  padding: 10px;
+  font-size: 30px;
+  width: 50px;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* media queries */
+
+    /* body width */
+
+@media screen and (min-width: 721px) {
+    body {
+        width: 60%;
+    }
+}
+
+@media screen and (max-width: 720px) {
+    body {
+      width: 70%;
+    }
+} 
+
+ @media screen and (max-width: 480px) {
+    body{
+      width: 80%;
+    }
+}
+
+    /* header media queries */
+
+@media screen and (max-width: 1150px) {
+  header {
+    flex-direction: column;
+    overflow: hidden;
+  }
+
+  header h1 {
+      text-align: center;
+  }
+
+  header ul {
+      font-size: 0.9rem;
+  }
+
+  header .navigation a {
+  padding: 0.9rem 1.13rem;
+  font-size: 1.1rem;
+  }   
+}
+
+    /* article media queries */
+
+@media screen and (max-width: 1080px) {
+    article {
+        display: block;
+    }
+    .article-content {
+        margin-left: 0;
+    }
+    .article-title {
+        display: block;
+        width: 100%;
+    }
+    .read-more {
+        margin-bottom: 1rem;
+    }
+}
