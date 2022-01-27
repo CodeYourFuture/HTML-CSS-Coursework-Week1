@@ -1,8 +1,107 @@
-/**
- * Add your custom styles below
- * 
- * Remember: 
- * - Be organised, use comments and separate your styles into meaningful chunks
- *    for example: General styles, Navigation styles, Hero styles, Footer etc.
- * 
- */
+body {
+    width: 98%;
+    height: 100%;
+}
+
+.header {
+    margin-top: 0px;
+    text-align: center;
+    color: white;
+    background-color: black;
+    border-radius: 20px;
+}
+
+main {
+    text-align: center;
+}
+
+.image {
+    position: absolute;
+    top: 190px;
+    left: 470px;
+    border-radius: 10px;
+}
+
+#image {
+position:absolute;
+top: 200px;
+left: 600px;
+
+}
+
+p {
+    color: brown;
+    font-size: large;
+    font-display: auto;
+}
+
+.who {
+    width: 400px;
+    height: 200px;
+}
+
+.who :first-child {
+    color: blueviolet;
+    font-style: oblique;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+
+.foreword {
+    width: 400px;
+    height: 150px;
+}
+
+.summary {
+    width: 400px;
+    height: 150px;
+}
+
+.nav-bar {
+    position: absolute;
+    color: white;
+    top: 130px;
+    left: 400px;
+    font-family: fantasy;
+    display: inline;
+}
+
+li {
+    margin-right: 80px;
+    margin-top: 60px;
+    display: inline;
+}
+
+footer {
+    background-color: cornsilk;
+    font-display: initial;
+}
+
+button {
+    width: 150px;
+    height: 30px;
+    background-color: orangered;
+    border-radius: 20px;
+}
+
+button:hover,
+button:focus {
+    background-color: coral;
+}
+
+.subscrib {
+    height: 20px;
+    padding-right: 30px;
+}
+
+.button {
+    margin-left: 20px;
+    width: 130px;
+    height: 30px;
+}
+
+@media screen and( max-width: 400px) {
+    .main {
+        width: 90%;
+    }
+}
