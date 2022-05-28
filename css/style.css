@@ -1,8 +1,64 @@
-/**
- * Add your custom styles below
- * 
- * Remember: 
- * - Be organised, use comments and separate your styles into meaningful chunks
- *    for example: General styles, Navigation styles, Hero styles, Footer etc.
- * 
- */
+/* google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;1,400&display=swap');
+/* General styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #E0E1DD;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 1px;
+}
+
+.container {
+    width: 80%;
+    margin: 1em auto;
+}
+
+li {
+    list-style: none;
+}
+
+
+/* header style */
+header > h1{
+    background: #778DA9;
+    border-radius: 0 .25em .25em 0;
+    padding: .1em 0 0 .25em
+}
+
+header > p {
+    width: 50%;
+    margin: 0.5em 0;
+    padding: 0.4em;
+    border-left: solid .2em #778DA9;
+    background: #BAC5D4;
+    border-radius: 0 .25em .25em 0;
+}
+
+/* Navigation styles */
+.nav-list {
+    display: flex;
+    gap: .5em;
+}
+
+.nav-item {
+    border-radius: .3em;
+    background: #778DA9;
+    padding: .2em;
+}
+
+.nav-item > a {
+    text-decoration: none;
+    color: #000;
+}
+
+.nav-item > a:hover {
+    color: #000;
+}
+
+
+/* Footer styles */
