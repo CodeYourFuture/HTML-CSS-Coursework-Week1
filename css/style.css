@@ -6,3 +6,84 @@
  *    for example: General styles, Navigation styles, Hero styles, Footer etc.
  * 
  */
+
+* {
+  font-size: 18px;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #ffdbb5;
+  color: #2d3047;
+}
+
+h1 {
+  font-size: 34px;
+}
+
+h2 {
+  font-size: 48px;
+}
+
+h3 {
+  font-size: 25px;
+}
+
+img {
+  width: 40%;
+  height: 400px;
+  border-radius: 20px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  background-color: #e09258;
+}
+
+a {
+  text-decoration: none;
+  color: #2d3047;
+}
+
+.link_item {
+  list-style-type: none;
+  display: inline-flex;
+  padding: 10px 15px 0 0;
+  font-size: 1.5rem;
+}
+
+a:hover {
+  color: #419d78;
+}
+.nav-title {
+  text-align: center;
+}
+
+.blog-title {
+  padding: 10px 0;
+}
+
+.blog-post {
+  text-align: center;
+  margin: auto;
+  height: 90vh;
+  margin-top: 120px;
+}
+.blog-text {
+  width: 40%;
+  padding: 15px 10px;
+  margin: 0 auto;
+}
+
+button {
+  padding: 8px;
+  background-color: #e09258;
+  color: #2d3047;
+}
+
+button:hover {
+  color: #419d78;
+}
