@@ -32,14 +32,21 @@ background-color: aquamarine;
   left: 0px;
 }
 
+h1:first-child {
+    color: purple;
+    font-weight: bold;
+    }
+
 #article1 {
   text-align: center;
   height: auto; 
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-items: normal;
+  margin: 0;
 }
-.article1:first-child {
-color: red;
-font-weight: bold;
-}
+
+
 #article2 {
   text-align: center;
   height: auto;
