@@ -60,12 +60,6 @@ color:blue;
   font-size: 1.2em;
 }
 
-#copyright {
-  text-align: center;
-  background: deepskyblue;
-  padding: 1em;
-}
-
 @media all and (max-width: 800px) {
   #navbar {
     justify-content: space-around;
@@ -88,7 +82,12 @@ color:blue;
 #navbar a:last-of-type {
     border-bottom: none;
   }
-
+  #copyright {
+    text-align: center;
+    background: deepskyblue;
+    padding: 1em;
+  }
+  
 footer {
 background-color: beige;
 color: blue;
