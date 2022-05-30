@@ -1,5 +1,9 @@
 /* google fonts */
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;1,400&display=swap');
+/* variables */
+:root {
+    --color-one: #778DA9;
+}
 /* General styles */
 * {
     margin: 0;
@@ -22,19 +26,23 @@ li {
     list-style: none;
 }
 
+img {
+    width: 100%;
+}
 
 /* header style */
-header > h1{
-    background: #778DA9;
+header > h1,
+footer {
+    background: var(--color-one);
     border-radius: 0 .25em .25em 0;
-    padding: .1em 0 0 .25em
+    padding: .1em 0 0 .25em;
+    text-align: center;
 }
 
 header > p {
-    width: 50%;
     margin: 0.5em 0;
     padding: 0.4em;
-    border-left: solid .2em #778DA9;
+    border-left: solid .2em var(--color-one);
     background: #BAC5D4;
     border-radius: 0 .25em .25em 0;
 }
@@ -42,12 +50,13 @@ header > p {
 /* Navigation styles */
 .nav-list {
     display: flex;
+    justify-content: center;
     gap: .5em;
 }
 
 .nav-item {
     border-radius: .3em;
-    background: #778DA9;
+    background: var(--color-one);
     padding: .2em;
 }
 
@@ -60,5 +69,33 @@ header > p {
     color: #000;
 }
 
+/* Article styling */
+article {
+    margin: 1em;
+}
+.article-title {
+    font-size: 1.2em;
+    margin:  .3em 0;
+}
+
+.article-summary {
+    margin: .5em 0;
+}
 
 /* Footer styles */
+footer {
+    text-align: center;
+    padding: .2em 0;
+}
+
+
+/* Media Query */
+@media screen and (min-width: 760px) {
+    header > h1 {
+        text-align: start;
+    }
+
+    header > p {
+        width: 50%;
+    }
+}
