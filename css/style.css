@@ -36,28 +36,19 @@ background-color: aquamarine;
   text-align: center;
   height: auto; 
 }
-h2:first-child {
-color:blue;
+.article1:first-child {
+color: red;
+font-weight: bold;
 }
 #article2 {
   text-align: center;
-  display: grid;
-  grid-template-columns: 1fr;
-  justify-items: normal;
-  font-size: 17px;
-  margin-left: 0;
+  height: auto;
+
 
 }
 #profile {
   text-align: center;
-  display: grid;
-  grid-template-columns: 1fr;
- justify-items: normal;
-}
-#profile-link {
-  text-decoration: none;
-  color: Gold;
-  font-size: 1.2em;
+ height: auto;
 }
 
 @media all and (max-width: 800px) {
