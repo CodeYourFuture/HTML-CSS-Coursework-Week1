@@ -17,7 +17,7 @@ It should include the following elements:
 - An articles section with three articles, each including a title, summary and a link.
 - A page footer containing info about you or the site.
 - Proper use of the semantic HTML tags we discussed.
-- Research the `:first-child` pseudo-class and use it to style the first article so that it stands out from the others.
+- Research the `:first-child pseudo-class`  and use it to style the first article so that it stands out from the others.
 - Use this website [Lorem Ipsum](http://www.lipsum.com/) to generate random blocks of contents to fill your website.
 - **Commit often (with good meaningful commit messages), and Push to Github regularly.**
 - Use the sketch below to guide you towards the layout and content you are trying to achieve. _Please note that this is just a sketch - you can choose the colours, fonts and images that you want to use in the page._
