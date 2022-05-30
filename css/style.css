@@ -2,7 +2,7 @@
  * Add your custom styles below
  * 
  * Remember: 
- * - Be organised, use comments and separate your styles into meaningful chunks
+ * - Be organized, use comments and separate your styles into meaningful chunks
  *    for example: General styles, Navigation styles, Hero styles, Footer etc.
  * 
  */
@@ -88,10 +88,10 @@ color:blue;
 #navbar a:last-of-type {
     border-bottom: none;
   }
-.tiles {
-    grid-template-columns: 1fr;
-  }
+
+footer {
+background-color: beige;
+color: blue;
+text-align: center;
 }
-#respond {
-  margin-top: 40px;
 }
