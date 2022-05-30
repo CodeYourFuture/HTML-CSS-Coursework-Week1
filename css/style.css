@@ -6,3 +6,54 @@
  *    for example: General styles, Navigation styles, Hero styles, Footer etc.
  * 
  */
+
+body {
+  background-color: yellow;
+}
+
+header {
+  background-color: aqua;
+  color: blue;
+  border: solid red 5px;
+  border-radius: 10px;
+  padding: 2rem;
+}
+
+article:first-child {
+  background-color: yellow;
+  color: red;
+  border: solid aqua 3px;
+  border-radius: 4px;
+  padding: 2rem;
+  font-style: italic;
+}
+
+
+#articles {
+  background-color: blue;
+  color: aqua;
+  border: solid red 5px;
+  border-radius: 10px;
+  padding: 2rem;
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+
+.links {
+  color: red;
+}
+
+a: hover {
+  color: white;
+}
+ 
+
+footer {
+  background-color: aqua;
+  color: blue;
+  border: solid red 5px;
+  border-radius: 10px;
+  padding: 2rem;
+}
+
+ 
