@@ -6,3 +6,97 @@
  *    for example: General styles, Navigation styles, Hero styles, Footer etc.
  * 
  */
+body {
+    background: rgb(11, 155, 23);
+    background: linear-gradient(to bottom right, rgb(5, 95, 20) 0%, rgba(9,121,48,1) 35%, rgba(0,212,255,1) 100%);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+
+
+}
+
+#navbar {
+    background: linear-gradient(to top, rgba(141, 157, 180, 0.7), rgba(15, 15, 214, 0.8));
+    text-align: center;
+    transition: 1s;
+    width: 100%;
+    position: fixed;
+}
+
+.nav-link {
+    text-shadow: rgba(18, 245, 139, 0.986) 0px 0px 10px;
+    font-size: 30px;
+    padding: 20px;
+    list-style-type: none;
+
+}
+
+
+li {
+    display: inline;
+    padding: 5px;
+}
+
+a {
+    color: black;
+}
+
+.site-header {
+    text-shadow: rgba(18, 240, 173, 0.986) 0px 0px 10px;
+    font-size: 50px;
+    padding: 20px;
+}
+
+#home {
+
+    /* text-align: center;
+    font-size: 30px;
+    display: block; */
+    height: 100vh;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 100px;
+  
+}
+
+h1 {
+    text-align: center;
+    font-size: 30px;
+    text-shadow: rgba(75, 245, 202, 0.986) 0px 0px 10px;
+}
+
+p {
+    text-align: center;
+    font-size: 25px;
+    text-shadow: rgba(22, 133, 245, 0.986) 0px 0px 10px;
+}
+
+#articles{
+    text-align: center;
+    height: 100vh;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 80px;
+}
+
+#Mpumalanga{
+    height: 100vh;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 80px; 
+}
+
+#Drakensburg-Mountains{
+    height: 100vh;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 80px;   
+}
+
+#Cape-Town{
+    height: 100vh;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 80px;
+}
