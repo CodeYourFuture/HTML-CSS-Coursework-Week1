@@ -72,6 +72,8 @@ header > p {
 /* Article styling */
 article {
     margin: 1em;
+    padding: .5em;
+    border-radius: 0 .25em .25em 0;
 }
 .article-title {
     font-size: 1.2em;
@@ -82,6 +84,22 @@ article {
     margin: .5em 0;
 }
 
+article:first-child {
+    background: rgb(213, 96, 96, .5);
+}
+
+
+article:nth-child(2) {
+    background: rgb(113, 222, 113, .5);
+}
+
+article:last-child {
+    background: rgb(98, 98, 223, .5);
+}
+
+article:first-child img, article:nth-child(2) img {
+  width: 50%;
+}
 /* Footer styles */
 footer {
     text-align: center;
@@ -97,5 +115,26 @@ footer {
 
     header > p {
         width: 50%;
+    }
+
+    /* article */
+    article {
+        margin: 1em 0;
+        width: 50%;
+        
+    }
+    
+    img {
+        border-radius: 0.25em;
+    }
+
+    .article-summary {
+        margin: .5em 0;
+        
+    }
+
+    /* Navigation styles */
+    .nav-list {
+        justify-content: start;
     }
 }
