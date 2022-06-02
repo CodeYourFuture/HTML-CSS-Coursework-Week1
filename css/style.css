@@ -6,3 +6,67 @@
  *    for example: General styles, Navigation styles, Hero styles, Footer etc.
  * 
  */
+ header{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-top: 5%;
+    padding-bottom: 2%; 
+}
+/*Styling the whole nav bar*/
+ .topnav {
+    border-style: double;
+    background-color: rgb(240, 231, 231);
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  /* Styling the text on the nav bar*/
+  .topnav a {
+    float: left;
+    color: #050505;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  /* styling the hover on the nav */
+  .topnav a:hover {
+    background-color: rgb(68, 157, 163);
+    color: black;
+  }
+
+  main p{
+    border-bottom: 1px solid #050505;
+    padding-bottom: 2%;
+    font-style: italic;
+  }
+
+  .row{
+      padding-right: 5%;
+      padding-left: 5%;
+      padding-top: 2%;
+      padding-bottom: 2%;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+
+  .column{
+      padding-top: 1%;
+      padding-bottom: 2%;
+  }
+  /* This does not work well*/
+  .column:first-child{
+      font-weight: bold;
+  }
+  .image1{
+      width: 50%;
+  }
+  .image3{
+      width: 50%;
+  }
+
+  footer{
+      text-align: center;
+      font-size: small;
+      font-style: italic;
+  }
