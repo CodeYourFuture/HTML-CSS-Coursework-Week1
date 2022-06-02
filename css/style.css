@@ -3,8 +3,8 @@
 body{
 	/*code for background */
 	background-color: #1F2022;
-	background-image: url(/css/hogwarts_castle.png);
-	background-repeat: no-repeat;
-	background-size: 100%;
-	background-position: bottom;
+	background-image: url(/css/images/hogwarts_banner.png), url(/css/images/hogwarts_castle.png);
+	background-repeat: no-repeat, no-repeat;
+	background-size: 100%, 100%;
+	background-position: top, bottom;
 }
