@@ -1,8 +1,153 @@
-/**
- * Add your custom styles below
- * 
- * Remember: 
- * - Be organised, use comments and separate your styles into meaningful chunks
- *    for example: General styles, Navigation styles, Hero styles, Footer etc.
- * 
- */
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+/*font-family: 'Lora', serif;*/
+
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+/*font-family: 'Libre Baskerville', serif;*/
+
+  
+ 
+
+
+body{
+  background-color: black;
+  color: white;
+  font-family: 'Lora', serif;
+  
+}
+
+img{
+  margin: 10px 0 0 0;
+  padding: 20px;
+}
+
+#decsription{
+  color: #fdecb4;
+}
+
+#banner-tag{
+  margin: 3em 2em;
+  font-size: 25px;
+}
+
+ul, .main-nav, a{
+  list-style-type: none;
+  display: inline-block;
+  margin: 18px;
+  padding: 0 15px 0 0;
+  text-decoration: none;
+  color: #fdecb4;
+ 
+}
+
+#navigation{
+  float: right;
+  font-size: 17px;
+  
+  
+}
+.card-heading{
+  font-size: 50px;
+  color: #fdecb4
+}
+
+.card-text{
+  font-size: 17px;
+  display: 
+}
+
+#first_article:first-child {
+  color: yellow;
+}
+
+#first_article{
+  color: white;
+  background-image: url(https://www.finntaylor.com/media/7955/Drake_bw.jpg?mode=crop-up&width=640&height=0&quality=90&slimmage=true);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: ;
+  margin: 7px;
+  padding: 15px;
+  box-shadow: 0px 1px 2px 2px ;
+  transition: 0.3s;
+  border-radius: 5px;
+  text-align: center;
+  font-family: 'Libre Baskerville', serif;
+  
+}
+  
+
+
+#second_article{
+  background-image: url(https://hips.hearstapps.com/esquireuk.cdnds.net/16/39/4000x2000/landscape-1474880848-drake.jpg?resize=1200:*);
+ background-repeat: no-repeat;
+  background-position: left;
+  background-size:  ;
+  margin: 70px 0 0 0;
+  padding: 15px;
+  box-shadow: 0px 1px 2px 2px ;
+  transition: 0.3s;
+  border-radius: 5px;
+  text-align: center;
+  font-family: 'Libre Baskerville', serif;
+  
+}
+
+#third_article{
+  background-image: url(https://i.pinimg.com/originals/73/8d/1f/738d1f830a1bbf6ec95b54d29ad2e254.png);
+ background-repeat: no-repeat;
+  background-position: right;
+  background-size:auto ;
+  margin: 70px 0 0 0;
+  padding: 15px;
+  box-shadow: 0px 1px 2px 2px ;
+  transition: 0.3s;
+  border-radius: 5px;
+  text-align: center;
+  font-family: 'Libre Baskerville', serif;
+}
+
+#fourth_article, #footer{
+ background-repeat: no-repeat;;
+  background-position: right;
+  background-size: 38em ;
+  margin: 70px 0 0 0;
+  padding: 15px;
+  box-shadow: 0px 1px 2px 2px ;
+  transition: 0.3s;
+  border-radius: 5px;
+  text-align: center;
+  font-family: 'Libre Baskerville', serif;
+}
+
+.album_cover{
+  box-shadow: 1px 1px 7px 1px #fdecb4;
+  transition: 0.3s;
+  width: 17%;
+  display: inline-block;
+  margin: 0px 8px 0 0;
+}
+
+.album_text{
+  font-size: 15px;
+  padding:
+}
+
+.album_cover_second_line{
+  padding: 2px 0 0 0;
+  box-shadow: 1px 1px 7px 1px #fdecb4;
+  transition: 0.3s;
+  width: 17%;
+  display: inline-block;
+  margin: 20px 8px 0 0;
+}
+
+
+.album{
+  height: 225px;
+  width: 225px;
+}
+
+.social_media_icon{
+  height: 45x;
+  width: 45px;
+}
