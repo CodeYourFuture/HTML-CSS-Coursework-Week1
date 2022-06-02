@@ -28,12 +28,13 @@ h3{
 
 .navbar {
     display: flex;
-    justify-content: flex-end;
+ 
     background-color: #001530;
   }
   .nav-title {
     margin: auto;
     color: aliceblue;
+    text-align: center;
   }
 
   .link_item {
