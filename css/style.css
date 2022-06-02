@@ -1,8 +1,67 @@
-/**
- * Add your custom styles below
- * 
- * Remember: 
- * - Be organised, use comments and separate your styles into meaningful chunks
- *    for example: General styles, Navigation styles, Hero styles, Footer etc.
- * 
- */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+html,
+* {
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+    
+  }
+
+body {
+  margin: 0;
+  height: 100%;
+  font-family: Poppins;
+  background-color: #ffcbb6
+}
+
+h1{
+    font-size: 34px;
+}
+
+h2{
+    font-size: 38px;
+}
+
+h3{
+    font-size: 25px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    background-color: #e09258;
+  }
+  .nav-title {
+    margin-left: 15px;
+  }
+
+  .link_item {
+    list-style-type: none;
+    display: inline-flex;
+    padding: 10px 50px 0 0;
+    font-size: 2rem;
+  }
+  
+  a:hover {
+    color: #419d78;
+  }
+  .nav-title {
+    text-align: center;
+  }
+  
+  .blog-title {
+    padding-bottom: 20px;
+  }
+  
+  .blog-post {
+    text-align: center;
+    margin: auto;
+    height: 90vh;
+    margin-top: 120px;
+  }
+  .blog-text {
+    width: 40%;
+    padding: 25px 10px 15px 10px;
+    margin: 0 auto;
+  }
+  
