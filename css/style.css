@@ -1,8 +1,212 @@
-/**
- * Add your custom styles below
- * 
- * Remember: 
- * - Be organised, use comments and separate your styles into meaningful chunks
- *    for example: General styles, Navigation styles, Hero styles, Footer etc.
- * 
- */
+/*genereal styling*/
+* {
+    box-sizing: border-box;
+  }
+  :root {
+    --color-darkblue: #001524;
+    --color-red: #e5383b;
+    --color-teal: #15616D;
+    --color-lightblue: #b9dfda;
+    --color-orange: #DE8A02;
+    --color-white: #fff;
+  }
+  html {
+    font-size: 1.2rem;
+    scroll-behavior: smooth;
+  
+  }
+  
+  @media (max-width: 980px) {
+    html {
+      font-size: 0.8rem;
+    }
+  }
+  @media (max-width: 460px) {
+    html {
+      font-size: 0.6rem;
+    }
+  }
+  body {
+    font-family:'Varela Round', sans-serif; 
+    
+    font-size: 0.5rem;
+    font-weight: 300;
+
+    line-height: 1.5;
+    padding: 2rem;
+    margin: 0;
+    background-color: var(--color-darkblue);
+    overflow: visible;
+  } 
+  /*header styling*/ 
+  header {
+    
+    color: #fff;
+    text-align: center;
+    padding: rem;
+   
+  }
+  h1 {
+    font-family: 'Permanent Marker', cursive;
+    font-size: 1.5rem;
+    margin-top: 0rem; 
+  }
+  hr {
+    border: 2px solid white;
+    width: 30rem;
+    border-radius: 10px;
+    margin-top: -10px;
+  }
+  h3 {
+    font-size: 0.7rem;
+    font-weight: 200;
+    margin-bottom: 3rem;
+
+  }
+  /*main styling*/ 
+  main {
+    text-align: center;
+  }
+  /*links styling*/
+  a:link {
+    text-decoration: none;
+    color: yellow;
+    font-weight: bold;
+    font-style: italic;
+  }
+  a:visited {
+    color: var(--color-red);
+
+  }
+  a:hover {
+    font-size: 0.6rem;
+  }
+ 
+  h2 {
+    font-family:'Roboto Condensed', sans-serif;
+    text-align: center;
+    font-size: 1rem;
+  }
+  article:first-child {
+    background-color: var(--color-teal);
+    color: var(--color-white);
+    padding: 0.5rem;
+    border-radius: 20px;
+    border: 10px solid var(--color-orange)
+  }
+  .orange-article {
+    background-color: var(--color-orange);
+    color: var(--color-white);
+    padding: 0.5rem;
+    border-radius: 20px;
+    border: 5px solid var(--color-teal);
+    margin-top: 30px;
+  }
+
+  /*images styling*/
+  
+  img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+    
+    
+    
+  }
+
+  
+  /*footer styling*/
+  footer {
+   color: var(--color-white);
+   margin-top: 1rem;
+  
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    
+  }
+  
+  .subscribe {
+ 
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .subscribe h6 {
+    font-family:'Permanent Marker', cursive;
+    font-size: 0.8rem;
+    margin-top: -5px; 
+  }
+  form {
+    text-align: center;
+  }
+  input {
+      width: 100%;
+      padding: 3px 3px;
+      margin: 5px 0;
+      box-sizing: border-box;
+      border-radius: 5px;
+      border: 3px solid var(--color-orange);
+      font-size: 0.6rem;
+  }
+  button {
+    text-align: center;
+    width: 6rem;
+    padding: 5px 10px;
+    margin: 8px 0;
+    border-radius: 10px;
+    background-color: var(--color-teal);
+    color: var(--color-white);
+    font-size: 0.7rem;
+  }
+  .media ul li {
+    list-style-type: none;
+    display: inline;
+    padding: 0.6rem;
+    font-size: 1rem;
+    background-color: var(--color-orange);
+    border-radius: 50%;
+   
+   
+  }
+  
+  .media ul li a {
+    color: var(--color-teal);
+
+  }
+  
+  .links {
+    text-decoration: none;
+    
+    text-align: center;
+  }
+  .links ul li {
+    list-style-type: none;
+  }
+  .links ul li a {
+    color: var(--color-teal);
+  }
+
+  @media screen and (max-width: 768px) {
+    footer {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: center;
+      gap: 0.5rem;
+      
+    }
+    .subscribe {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      
+    }
+    .media ul {
+        margin: 5rem;
+    }
+
+    }
