@@ -6,3 +6,216 @@
  *    for example: General styles, Navigation styles, Hero styles, Footer etc.
  * 
  */
+
+ /*general styles*/
+
+ *,*::before, *::after{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+ }
+
+ body{
+   color: #ffffff;
+   font-size: 19px;
+   line-height: 1.4;
+   background-color: #373939;
+   font-family: Arial, Helvetica, sans-serif;
+ }
+
+ /*header styles*/
+
+ header{
+   margin: 10px 0;
+   width: 100%;
+   display: flex;
+   flex-flow: column;
+   min-height: 10vh;
+   background-color: #616d85;
+   box-shadow: 10px 2px 20px(rgba(90, 73, 73, 0.2))
+ }
+ .main-header{
+  display: grid;
+  line-height: 10vh ;
+  margin-bottom: 20px;
+  grid-template-columns: repeat(2, minmax(375px, auto));
+ }
+
+ .main-header .logo{
+   display: flex;
+   font-weight: 600;
+   font-size: 25px;
+   margin-left: 75px;
+   justify-content: flex-start;
+   align-items: center;
+   color: #31b899;
+ }
+
+ .main-header .list{
+
+  padding: 0;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+
+ }
+
+ .main-header .list li{
+   margin: 5px;
+ }
+
+ .main-header .list li a {
+   text-transform: capitalize;
+   text-decoration: none;
+   color: #d7bcbc;
+   padding: 10px 15px;
+ }
+
+ .main-header .list li a:hover {
+   background-color: #919db6;
+   color: #ffffff;
+ }
+
+
+ /* main section */
+
+ .main-section{
+
+  min-width: 750px;
+  width: 75vw;
+  min-height: 100vh;
+  margin: 0 auto;
+ }
+
+ .main-section .title{
+   text-align: left;
+   font-size: 35px;
+   font-weight: 200;
+   font-family: cursive;
+   margin: 0 0 10px 15px;
+   padding: 10px;
+   background-color: rgba(144, 142, 142,.2);
+   
+ }
+
+ .main-section article{
+   margin: 5px;
+   padding: 15px;
+   border-radius: 15px;
+ }
+ .main-section article h1{
+   text-align: left;
+   text-transform: capitalize;
+   font-size: 30px;
+   color: #047dce;
+   font-family: cursive;
+   margin-left: 15px;
+ }
+
+ .main-section article p{
+  padding: 10px 20px;
+ }
+
+ .main-section article a{
+
+  padding: 5px 10px;
+  display: block;
+  width: 150px;
+  font-size: 20px;
+  color: #d7bcbc;
+  text-decoration: none;
+  margin-left: 15px;
+  background-color: #4e6b5d;
+  border: 1px solid rgba(3, 3, 21, 0.5);
+ }
+
+ .main-section article a:hover{
+   color: #ffffff;
+   background-color: #636c80;
+ }
+
+ .main-section article:nth-child(2){
+
+  background-color: #0d0b35;
+ }
+ .main-section article:nth-child(3){
+
+  background-color: #072a20;
+ }
+ .main-section article:nth-child(4){
+   background-color: #3e0229;
+ }
+ 
+
+ /* footer styles */
+
+ .footer {
+   background-color: #616d85;
+   color: aliceblue;
+   display: grid;
+   width: 100%;
+   min-height: 25vh;
+   grid-template-columns: repeat(2, 1fr);
+ }
+
+ .footer .icons {
+    display: flex;
+    align-items: center;
+    flex-flow: column;
+    justify-content: center;
+    padding: 25px;
+ }
+
+ .footer .icons h3{
+   font-size: medium;
+   color: #d5ece6;
+   font-weight: 100;
+   font-weight: 200;
+   text-transform: capitalize;
+   margin-bottom: 15px;
+   padding-bottom: 10px;
+   border-bottom: 1px solid rgb(69, 67, 67);
+ }
+ .footer .icons ul{
+   list-style: none;
+ }
+
+ .footer .icons a{
+
+  display: block;
+  padding: 3px;
+  margin: 5px;
+  text-decoration: none;
+  color: rgb(210, 169, 169);
+
+ }
+
+ .footer .searchbar {
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ }
+
+ .footer .searchbar input {
+
+  padding: .479rem;
+  width: 45%;
+  outline: none;
+  border-radius: 4px;
+  border: 1px solid gray;
+ }
+
+ .footer .searchbar button{
+
+  border: 1px solid gray;
+  padding: .480rem;
+  cursor: pointer;
+  outline: none;
+  font-weight: 600;
+ }
+
+ .footer .searchbar button:hover {
+background-color: #919db6;
+color: white;
+ }
