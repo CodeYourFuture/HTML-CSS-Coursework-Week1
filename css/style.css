@@ -8,15 +8,85 @@
  */
 
 body {
+  color: red;
+  font-weight: bolder;
+  justify-content: center;
+}
+.nav-link {
+  display: inline-block;
+  margin-top: 0;
+  padding: 1px;
+  text-align: right;
+  height: 0vh;
+}
+
+#navbar {
+  border: solid red 5px;
+  border-radius: 10px;
+  padding: 1px;
+  margin: 1px;
   background-color: yellow;
+  font-size: 15px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  font-weight: bolder;
+  overflow: hidden;
+  height: auto;
+  z-index: 2;
 }
 
 header {
-  background-color: aqua;
-  color: blue;
+  text-align: center;
+  font-weight: bolder;
+  font-size: 3rem;
+}
+
+#Home {
+  /* display: block; */
+  background-image: url("https://pbs.twimg.com/media/EPO6ep0WoAAN9ri.jpg");
+  background-size: 100%;
+  color: aqua;
   border: solid red 5px;
   border-radius: 10px;
-  padding: 2rem;
+  padding-top: 50em;
+  padding: 2em;
+  justify-content: center; 
+  text-align: center;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  height: 100vh;
+}
+
+#img-div {
+  justify-content: center;
+  position: relative;
+  padding: 5px;
+}
+
+#image {
+  border: 5px white solid;
+  border-radius: 25px;
+  margin-top: 5em;
+  height: 30rem;
+  width: 50rem;
+  z-index: -1;
+ }
+
+ #img-caption {
+   color: rgb(246, 250, 3);
+   text-align: center;
+   font-size: 30px;
+ }
+
+#intro {
+  padding-left: 180px;
+  padding-right: 180px;
+  font-size: 20px;
+}
+
+main {
+  margin: 0 auto;
 }
 
 article:first-child {
@@ -29,31 +99,41 @@ article:first-child {
 }
 
 
-#articles {
-  background-color: blue;
+#Articles {
+  background-image: url("https://pbs.twimg.com/media/EPO6ep0WoAAN9ri.jpg");
+  background-size: 100%;
   color: aqua;
   border: solid red 5px;
   border-radius: 10px;
-  padding: 2rem;
+  justify-content: center;
+  padding: 8rem;
   margin-top: 2em;
   margin-bottom: 2em;
+  height: 100vh;
 }
 
 .links {
-  color: red;
+  color: blue;
 }
 
-a: hover {
-  color: white;
+#Gallery {
+  background-image: url("https://pbs.twimg.com/media/EPO6ep0WoAAN9ri.jpg");
+  background-size: 100%;
+  color: aqua;
+  border: solid red 5px;
+  border-radius: 10px;
+  padding: 10em;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  justify-content: center;
+  height: 100vh;
+
 }
- 
 
 footer {
-  background-color: aqua;
-  color: blue;
+  background-color: yellow;
+  color: red;
   border: solid red 5px;
   border-radius: 10px;
   padding: 2rem;
 }
-
- 
