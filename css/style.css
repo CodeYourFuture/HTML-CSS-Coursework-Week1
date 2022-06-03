@@ -6,3 +6,51 @@
  *    for example: General styles, Navigation styles, Hero styles, Footer etc.
  * 
  */
+
+
+/**H1 style*/
+.head{
+    text-align: center;
+}
+
+/**body*/
+.blog{
+    text-align: center;
+    font-size: medium;
+}
+
+.para{
+    font-weight: bold;
+}
+
+article{
+    text-align: center;
+    border: 1rem double;
+    margin: auto;
+    
+}
+
+article p:first-child{
+    font-weight: bold;
+
+}
+
+body{
+    background-color: blanchedalmond;
+}
+
+
+
+/**footer*/
+footer{
+    text-align: center;
+    font-size: medium;
+    margin: 2rem;
+    padding: 2rem;
+
+}
+
+a{
+    text-decoration: none;
+    
+}
