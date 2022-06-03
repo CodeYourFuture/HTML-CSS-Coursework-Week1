@@ -58,5 +58,8 @@ article:first-child {
   }
 
   footer{
+      width: 100vw ;
+      height: 184px;
+      margin: 0px;
       background-color: #2A2222;
   }
