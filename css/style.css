@@ -129,6 +129,7 @@
     justify-content: space-between;
     align-items: center;
     
+    
   }
   
   .subscribe {
@@ -172,6 +173,7 @@
     font-size: 1rem;
     background-color: var(--color-orange);
     border-radius: 50%;
+    margin-right: 0.8rem;
    
    
   }
@@ -179,18 +181,21 @@
   .media ul li a {
     color: var(--color-teal);
 
+
+  }
+  .media ul li a:hover {
+    color: var(--color-darkblue);
   }
   
   .links {
     text-decoration: none;
-    
     text-align: center;
   }
   .links ul li {
     list-style-type: none;
   }
   .links ul li a {
-    color: var(--color-teal);
+    color: var(--color-white);
   }
 
   @media screen and (max-width: 768px) {
@@ -199,17 +204,19 @@
       flex-direction: column;
       justify-content: flex-start;
       align-items: center;
-      gap: 0.5rem;
+      gap: 1rem;
       
     }
     .subscribe {
-      display: flex;
-      flex-direction: column;
-      justify-content: flex-start;
+      display: block;
       
     }
-    .media ul {
-        margin: 5rem;
+    h6 {
+      margin-bottom: 1rem;
+    }  
+      
+      
     }
+    
 
-    }
+    
