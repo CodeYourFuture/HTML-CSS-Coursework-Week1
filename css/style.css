@@ -67,15 +67,15 @@
   }
   .payroll-img {
     width: 25%;
-    float: left;
-    margin: 30px;
+    float: right;
+    margin-right: 250px;
     position: relative;
     bottom: 30px;
   }
   .cooking-img {
     width: 35%;
     float: left;
-    margin: 30px;
+    margin: 25px;
     position: relative;
     bottom: 30px;
   }
@@ -91,10 +91,9 @@
   position: relative;
   right: 230px;
   }
-  .nature {
-    position: relative;
-    bottom: 30px;
-    width: 15%;
+
+  .contact-me {
+    padding-bottom: 30px;
   }
   .btn {
     background: #F0A500;
@@ -146,4 +145,7 @@
     margin: 10px;
   text-decoration: none;
   }
-  
+  .
+.skill-row:first-child h3 {
+    color: grey;
+  }
