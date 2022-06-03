@@ -96,14 +96,15 @@ h2{
 	font-family: Glamy Sunrise;
 }
 
-article:first-child h2{
+main>article:first-child>h2{
+	font-family: Glamy Sunrise;
 	color: #e1be1f;
 	text-align: center;
 	font-size: 5em;
 	background-color: #000;
 }
 
-article:first-child p{
+main>article:first-child>p{
 	background-image: url(/css/images/Hufflepuff.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -115,20 +116,46 @@ article:first-child p{
 	text-align: center;
 }
 
-article:first-child a{
+main>article:first-child a{
 	color: #000;
 }
+
 
 .container{
 	width: 100%;
 	display: grid;
-	grid-template-rows: 1fr 1fr ;
+	grid-template-columns: 1fr 1fr ;
 }
+h3{
+	font-family: Glamy Sunrise;
+	color: #fff;
+	text-align: center;
+	font-size: 2em;
+	background-color: #000;
+	height: 2em;
+	margin: 0.25em;
+	padding: 0.25em;
 
-#p_header{
-	font-size: 3em;
 }
 
 p{
 	font-family: Magic Owl;
+	background-color: #fff;
+	font-size: 1em;
+	position: relative;
+	margin: 0.25em;
+	padding: 0.25em;
+	border: #000 1px solid;
+
+	
+}
+
+
+footer{
+	background-color: #6E6E6E;
+	color: #FFF;
+	font-family: Ovation;
+	background-position: 0% 35%;
+	font-size: 4em;
+	text-align: center;
 }
