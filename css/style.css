@@ -6,3 +6,137 @@
  *    for example: General styles, Navigation styles, Hero styles, Footer etc.
  * 
  */
+ @import url('https://fonts.googleapis.com/css2?family=Lobster+Two&display=swap');
+ /* @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap'); */
+ @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500;700&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Arima+Madurai:wght@800&display=swap');
+
+ body {
+     margin: 0;
+    height:100%;
+    background-image: url(/images/wp4588670-the-untamed-wallpapers.jpg);
+    background-size: cover;
+    background-position: center;
+ }
+ 
+/* NAV BAR START   */
+
+  .navbar {
+     overflow: hidden; 
+     background-color: rgba(0,0,0,0.3); 
+    /* background-color: #00afb9; */    
+    position: fixed;
+    top: 0;
+    width: 100%;
+     display: flex;
+    justify-content:flex-end;
+    align-items: center; 
+    
+  }
+  .navbar a {
+     /* float: left;  */
+    display:inline-block;
+    font-weight: 500;
+    font-size: 20px;
+    color: #e0e1dd;
+    text-decoration: none;
+    font-family: 'Lobster Two', cursive;
+    padding: 20px 20px;
+   
+    
+    
+  }
+  .navbar a:hover {
+    color: #706677;
+    cursor: pointer;
+  }
+/* NAV BAR END */
+
+ h1 {
+  font-family: 'Lobster Two', cursive;
+  color:#000000;
+   text-align:center; 
+  padding-top: 3rem;
+  font-size: 3rem;
+ 
+ }
+
+ p{
+  font-family: 'Arima Madurai', cursive;
+  /* font-family: 'Raleway', sans-serif; */
+  color:#000000;
+  text-align:center;
+  font-size: 18px;
+  padding: 0px 20px;
+ }
+
+ .gradient {
+  background:linear-gradient(to right, rgba(255,0,0,0), rgb(243, 243, 243),  rgba(255,0,0,0)) ;
+ margin: 0px auto;
+min-width: 550px;
+font-family: 'Lobster Two', cursive;
+color:#000000;
+text-align:center;
+}
+/* FIRST ARTICLE  START*/
+  section :first-child {
+    display: flex;
+  align-items:center;
+  justify-content: center
+  
+ } 
+ 
+img {
+  min-width: 200px;
+}
+.image {
+  flex-basis: 80%;
+  order: 2;
+}
+.first {
+  padding:0px 30px;
+}
+/* FIRST ARTICLE END */
+
+article:not(:first-child){
+  width: 550px;
+  border:2px solid; 
+  border-image: linear-gradient(to top, rgb(243, 243, 243), rgba(0, 0, 0, 0)) 1 100%;
+  padding: 0px 20px;
+  margin: 10px;
+}
+
+aside {
+  border:2px solid; 
+  border-image: linear-gradient(to top, rgb(243, 243, 243), rgba(0, 0, 0, 0)) 1 100%;
+  width: 320px;
+  padding-left: 15px;
+  margin-left: 15px;
+  float: right;
+ text-align: center;
+  
+}
+
+.aside {
+  background:linear-gradient(to right, rgba(255,0,0,0), rgb(243, 243, 243),  rgba(255,0,0,0)) ;
+  margin: 0px auto;
+ min-width: 200px;
+ font-family: 'Lobster Two', cursive;
+} 
+
+ .all_info {
+  border-radius: 10px;
+  background-color:#00afb9;
+  opacity:0.8;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px; 
+  min-width: 7rem;
+  width:75%;
+ }
+footer{
+  text-align:center;
+  font-size: 20px;
+  padding: 10px;
+ 
+}
