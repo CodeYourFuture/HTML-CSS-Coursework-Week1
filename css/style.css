@@ -1,10 +1,101 @@
-/*backgorund*/
 
+/*list of fonts*/
+@font-face {
+	font-family: Glamy Sunrise ;
+	src: url(/css/fonts/glamy-sunrise-font/GlamySunriseRegular-BWOKl.ttf);
+}
+@font-face {
+	font-family: Magic Owl;
+	src:url(/css/fonts/magic-owl-font/MagicOwlPersonalUse-WyO0O.otf)
+}
+@font-face {
+	font-family: Wolfpack Halloweed;
+	src: url(/css/fonts/wolfpack-halloweed-font/WolfpackHalloweed-EaGOl.otf);
+}
+@font-face {
+	font-family: Ovation;
+	src: url(/css/fonts/ovation-font/Ovation-axD6o.ttf);
+}
+/*end of fonts*/
+
+/*code for background */
 body{
-	/*code for background */
 	background-color: #1F2022;
-	background-image: url(/css/images/hogwarts_banner.png), url(/css/images/hogwarts_castle.png);
-	background-repeat: no-repeat, no-repeat;
-	background-size: 100%, 100%;
-	background-position: top, bottom;
+	background-image: /*url(/css/images/hogwarts_banner.png),*/ url(/css/images/hogwarts_castle.png);
+	background-repeat: /*no-repeat,*/ no-repeat;
+	background-size: /*50%,*/ 100%;
+	background-position: /*top,*/ bottom;
+	background-attachment: fixed;
+}
+
+{
+	list-style-type: none;
+}
+
+nav{
+	
+	position: fixed;
+  	top: 0;
+  	width: 100%;
+	z-index: 9;
+	
+	
+
+}
+
+.navigation_bar{
+	float: left;
+	width: 23%;
+	list-style-type: none;
+	text-align: center;
+	font-size: 2rem;
+	border-color: #1F2022;
+	border: 1px solid #1F2022;
+	border-radius: 10em;
+	padding: 0.4rem;
+	background-color: #FFF;
+	font-family: Glamy Sunrise;
+	color: #6E6E6E;
+}
+
+
+
+.red{
+	color: #de2d26;
+}
+.blue{
+	color: #03506b;
+}
+.green{
+	color: #1f851e;
+}
+.yellow{
+	color: #e1be1f;
+}
+
+h1{
+	font-family: Wolfpack Halloweed;
+	font-size: 7rem;
+	text-align: center;
+	text-shadow: -1px -1px 0 #FFF, 1px -1px 0 #FFF, -1px 1px 0 #FFF, 1px 1px 0 #FFF;
+}
+
+#h2_header{
+	background-color: #6E6E6E;
+	color: #FFF;
+	font-family: Ovation;
+	background-position: 0% 35%;
+	font-size: 5em;
+	text-align: center;
+	position: relative;
+  	top: -1em;
+
+}
+
+#p_header{
+	font-size: 3em;
+}
+
+p{
+	font-family: Magic Owl;
 }
