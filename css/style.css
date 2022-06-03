@@ -71,6 +71,25 @@ h3{
     padding: 25px 10px 15px 10px;
     margin: 0 auto;
   }
+
+  article:first-child:hover {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+  }
+  article:first-child:hover,
+  .article:first-child:focus,
+  .article:first-child:active {
+    -webkit-transform: scale(1);
+    transform: scale(1.1);
+    -webkit-transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
+    transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
+  }
+  
   
   
 .contact-section {
@@ -89,7 +108,7 @@ h3{
     margin-top: 0px
    }
    .contact-section-header > p{
-   font-style: italic;
+    font-style: italic;
     font-size: 20px;
     margin-bottom: 30px;
     color: #ffcbb6;
@@ -102,14 +121,10 @@ h3{
     text-shadow: 1px 1px 1px #1f1f1f;
     }
 
-  footer{
+footer{
     background-color: #001530;
     padding: 50px;
     text-align: center;
     color: #fff;
   }
-   }
-  @media(max-width: 640px){
-    section{
-      padding 50px;
-    }
+ 
