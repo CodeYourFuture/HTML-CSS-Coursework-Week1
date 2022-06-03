@@ -12,7 +12,7 @@
     --color-white: #fff;
   }
   html {
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     scroll-behavior: smooth;
   
   }
@@ -170,10 +170,10 @@
     list-style-type: none;
     display: inline;
     padding: 0.6rem;
-    font-size: 1rem;
+    font-size: 0.6rem;
     background-color: var(--color-orange);
     border-radius: 50%;
-    margin-right: 0.8rem;
+    margin-right: 0.5rem;
    
    
   }
