@@ -67,6 +67,7 @@
   /*main styling*/ 
   main {
     text-align: justify;
+    text-indent: 1rem;
   }
   /*links styling*/
   a:link {
