@@ -6,3 +6,43 @@
  *    for example: General styles, Navigation styles, Hero styles, Footer etc.
  * 
  */
+ /* header styling */
+body{
+    background-color: black;
+}
+header{
+    text-align: center; 
+    background: blueviolet;    
+    color: whitesmoke;
+    font-style: normal;
+}
+/* 1st child*/
+p:first-child {
+    background-color: red;
+  }
+
+.javascript{
+    color:green;
+    text-align: justify;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+ 
+}    
+.python{
+    color: green;
+    text-align: justify;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+
+}
+.go{
+    color: green;
+    text-align: justify;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+footer{
+    background:blueviolet;
+    padding: 15px 23px;
+    color: #fff;
+    text-align: center;
+}
