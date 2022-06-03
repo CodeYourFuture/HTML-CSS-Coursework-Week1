@@ -60,14 +60,14 @@
   .code-img {
     border-radius: 10%;
     width: 25%;
-    float: left;
+    float:left;
     margin: 30px;
     position: relative;
     bottom: 50px;
   }
   .payroll-img {
     width: 25%;
-    float: right;
+    float: left;
     margin: 30px;
     position: relative;
     bottom: 30px;
