@@ -7,7 +7,8 @@
     --color-red: #e5383b;
     --color-teal: #15616D;
     --color-lightblue: #b9dfda;
-    --color-orange: #DE8A02;
+    --color-yellow: #ffbe0b;
+    --color-orange: #ca6702;
     --color-white: #fff;
   }
   html {
@@ -70,12 +71,12 @@
   /*links styling*/
   a:link {
     text-decoration: none;
-    color: yellow;
+    color: var(--color-yellow);
     font-weight: bold;
     font-style: italic;
   }
   a:visited {
-    color: var(--color-red);
+    color: var(--color-darkblue);
 
   }
   a:hover {
