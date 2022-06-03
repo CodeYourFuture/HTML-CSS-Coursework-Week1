@@ -7,16 +7,110 @@
       content="width=device-width, initial-scale=1, shrink-to-fit=no"
     />
     <title>My Blog</title>
-    <link
+    <!--<link
       href="//fonts.googleapis.com/css?family=Roboto:400,500,300"
       rel="stylesheet"
       type="text/css"
-    />
-    <link rel="stylesheet" href="css/style.css" />
+    />-->
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Roboto+Condensed:wght@300&family=Roboto:wght@300;400&family=Varela+Round&display=swap');
+      </style>
+    <link rel="stylesheet" href="./style.css"/>
+    <link href="./css/style.css" rel="stylesheet" type="text/css" media="screen, projection"/>    
+    
     <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+    <script src="https://kit.fontawesome.com/f71b3e8157.js" crossorigin="anonymous"></script>
   </head>
   <body>
-    <!-- Add your HTML markup here -->
-    <!-- Remember: Use semantic HTML tags like <header>, <main>, <nav>, <footer>, <section> etc -->
+    <header>
+      <h1>Hiking adventures for ladies</h1>
+      <hr/>
+      <h3> I created this website to share all the great hikes I do with everyone else out there. I share the hiking tricks and tips that I have learned over the years to fast-track you into a hiking pro. And I tell you what hiking gear works and what gear does not.</h3>
+
+    </header>
+    <main>
+      <article class="teal-article">
+        <h2>Backpacking for beginners</h2>
+        
+         <img src="https://i.insider.com/5df9417e71a5ca254c15c2c8?width=1200&format=jpeg" width="600" height="300" alt="woman with backpack"/>
+        
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris ullamcorper at orci efficitur imperdiet. Suspendisse lorem metus. Lorem ipsum dolor sit amet, <a href="https://www.backpackersshop.com/" target="_blank">The backpackers shop</a> consectetur adipisicing elit. Ducimus facere soluta dignissimos natus molestiae dolorum delectus similique nisi, consequatur quod reiciendis in quae vel esse nobis? Qui enim laudantium distinctio. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorum, tempora! Molestias sunt debitis repellendus cupiditate voluptates numquam optio nulla, porro facere quasi in illum corrupti inventore eaque et esse sit!</p>
+        <p>Mauris eu magna ipsum. Suspendisse finibus nisl quam, eget eleifend felis vestibulum sit amet. Etiam vitae sem est. Integer aliquet sagittis dui eget vulputate. Nam sit amet mauris dui. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earum tempore distinctio corrupti natus repellat, accusamus ullam aspernatur. Sed sit exercitationem aperiam saepe itaque iste, odio asperiores quos alias rerum quas.</p>
+      </article>
+      
+      <article class="orange-article">
+        <h2>Fire safety when camping</h2>
+                
+         <img src="https://gudgear.com/wp-content/uploads/2020/02/campfire-safety.jpg"  width="600" height="300" alt="fire and marshmallows"/>
+        
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris ullamcorper at orci efficitur imperdiet. Suspendisse lorem metus. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rerum quis labore odio, aliquid vero ullam assumenda nobis perferendis suscipit nostrum dolores accusantium optio delectus velit, quia eum recusandae modi distinctio.</p>
+        <p>Mauris eu magna ipsum. Suspendisse finibus nisl quam, eget eleifend felis vestibulum sit amet. Etiam vitae sem est. Integer aliquet sagittis dui eget vulputate. Nam sit amet mauris dui <a href="https://www.campingforfoodies.com/campfire-cooking-equipment-you-cant-live-without/" target="_blank">Campfire cooking kit</a>. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque, modi? Dolorem dolore, ipsa quisquam nisi asperiores, provident itaque sapiente rerum incidunt enim laudantium repellat quibusdam omnis, amet molestias labore nihil.</p>
+      </article>
+
+      <article class="orange-article">
+        <h2>Why are GPS Distances always different?</h2>
+                
+         <img src="https://www.adventurealan.com/wp-content/uploads/2015/11/conness-gps.jpg"  width="600" height="300"  alt="hiking gps smartphone with mountains in the background"/>
+        
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris ullamcorper at orci efficitur imperdiet. Suspendisse lorem metus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure similique rerum iusto minus voluptates adipisci aperiam consequuntur distinctio hic accusamus. Similique. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perferendis optio earum omnis tempore, nobis accusantium minus illo obcaecati necessitatibus, tenetur aut sapiente cupiditate minima eligendi cumque. In nostrum nisi et. <a href="https://www.garmin.com/en-ZA/c/outdoor-recreation/handheld-hiking-gps/" target="_blank">Handheld hiking GPS</a> quas rerum consectetur deserunt eligendi aut facilis tempora.</p>
+        <p>Mauris eu magna ipsum. Suspendisse finibus nisl quam, eget eleifend felis vestibulum sit amet. Etiam vitae sem est. Integer aliquet sagittis dui eget vulputate. Nam sit amet mauris dui.</p>
+      </article>
+
+
+
+    </main>
+
+    <footer>
+      <!--FORM-->
+      <div class="subscribe">
+        <h6>Subscribe for updates :</h6>
+        <form>
+          <!--First name-->
+          <div class="first-name">
+            <label id="First-name" for="fname"></label>
+            <input type="text" name="name" id="fname" class="form-name" placeholder="Your first name" size="20" required>
+          </div>
+
+          <!--Email-->
+          <div class="email">
+            <label id="email-label" for="email"></label>
+            <input type="email" name="email" id="email" class="form-email" placeholder="Your email address" size="20" required>
+
+            <!--Submit-->
+            <div class="submit">
+              <button type="submit">SIGN UP</button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+
+<!--SOCIAL MEDIA-->
+    <div class="media">
+      <ul>
+          <li><a href="#"><i class="fa-solid fa-phone"></i><span></span></a></li>
+          <li><a href="#"><i class="fa-solid fa-envelope"></i><span></span></a></li>
+          <li><a href="#"><i class="fa-brands fa-facebook-f"></i><span></span></a></li>
+          <li><a href="#"><i class="fa-brands fa-twitter"></i><span></span></a></li>
+        </ul>
+      </div>
+
+    </div>
+
+<!--USEFUL LINKS-->
+
+    <div class="links">
+      <ul>
+        <li><a href="#">Explore</a></li>
+        <li><a href="#">Useful links</a></li>
+        <li><a href="#">Term and conditions</a></li>
+        <li><a href="#">Privacy policy</a></li>
+      </ul>
+    </div>
+
+  </div>
+
+
+    </footer>
   </body>
 </html>
