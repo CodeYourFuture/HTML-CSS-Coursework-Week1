@@ -6,3 +6,57 @@
  *    for example: General styles, Navigation styles, Hero styles, Footer etc.
  * 
  */
+
+ .header {
+    margin-top: -50px;
+    padding: 0%;
+    width: 100vw;
+    height: 100vh;
+    background-image: url(/images/heropage.jpg.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center top;
+}
+
+nav {
+margin-top: 50px;
+margin-right: 100px;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    padding: 25px;
+    
+}
+
+a {
+    text-decoration: none;
+    padding: 1em;
+}
+ 
+main {
+    width: 100vw;
+    height: 1080px;
+    background-color: #685B3A;
+}
+
+.articlesection {
+    display: flex;
+    padding: 100px;
+    justify-content: space-around;
+    
+}
+
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+article:first-child {
+    color: blue;
+  }
+
+  footer{
+      background-color: #2A2222;
+  }
