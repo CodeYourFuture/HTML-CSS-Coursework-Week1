@@ -48,7 +48,7 @@ nav{
 	width: 23%;
 	list-style-type: none;
 	text-align: center;
-	font-size: 2rem;
+	font-size: 2em;
 	border-color: #1F2022;
 	border: 1px solid #1F2022;
 	border-radius: 10em;
@@ -90,6 +90,39 @@ h1{
 	position: relative;
   	top: -1em;
 
+}
+
+h2{
+	font-family: Glamy Sunrise;
+}
+
+article:first-child h2{
+	color: #e1be1f;
+	text-align: center;
+	font-size: 5em;
+	background-color: #000;
+}
+
+article:first-child p{
+	background-image: url(/css/images/Hufflepuff.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: 40% 50%;
+	font-size: 2.5em;
+	position: relative;
+	top: -1.7em;
+	color: #FFF;
+	text-align: center;
+}
+
+article:first-child a{
+	color: #000;
+}
+
+.container{
+	width: 100%;
+	display: grid;
+	grid-template-rows: 1fr 1fr ;
 }
 
 #p_header{
