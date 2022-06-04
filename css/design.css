@@ -1,0 +1,105 @@
+body {
+    margin: 0;
+    padding: 0;  
+       
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: grey;
+    width: 100%;
+    overflow: hidden;
+}
+    
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(17, 1, 1) ;
+    height: 100px;
+}
+
+li a {
+    display: block;
+  color: rgb(245, 245, 248);
+  text-align: center;
+  padding: 16px 18px;
+  text-decoration: none;
+  font-size: 25px;
+}
+li a:hover {
+    background-color: brown;
+}
+
+li {
+    float: right;  
+}
+li a:first-child {
+color: rgb(221, 20, 20);
+  }
+  #logo {
+      margin-top: 120px;
+  }
+
+article {
+    width: 80ch;
+    gap: 2rem;
+}
+
+#title {font-style: oblique;
+    color: rgb(247, 248, 244);
+    margin-top: -60px;
+}
+#home {
+    background-color: rgb(94, 80, 80);
+}
+article:first-child {color: blue;}
+#samsung {
+    margin-left: 700px;
+    margin-top: -1600px;
+    width: 700px;
+}
+#link {
+    margin-left: 500px;
+    font-size: 40px;
+}
+#iphone {
+        margin-left: 700px;
+        margin-top: -1600px;
+        width: 450px;
+        height: 450px;
+    }
+#huawei {
+        margin-left: 700px;
+        margin-top: -1800px;
+        width: 650px;
+        height: 1200px;
+    }
+footer  {
+    height: 100px;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+    align-items: center;
+    background-color: rgb(1, 14, 14);
+}
+
+.media {
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+p {
+    margin-left: 20px;
+}
+h1 {margin-left: 20px;}
+
+navbar {position: fixed;
+width: 1350px;}
