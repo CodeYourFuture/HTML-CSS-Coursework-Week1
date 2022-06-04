@@ -1,8 +1,29 @@
-/**
- * Add your custom styles below
- * 
- * Remember: 
- * - Be organised, use comments and separate your styles into meaningful chunks
- *    for example: General styles, Navigation styles, Hero styles, Footer etc.
- * 
- */
+
+ @import url('https://fonts.googleapis.com/css2?family=Joan&family=Roboto:wght@100&display=swap');
+
+ body {
+    background-color: pink;
+    font-family: Joan, Roboto;
+    margin: 0;
+}
+main{
+    background-color: rgb(218, 139, 188);
+    width: 600px;
+    padding: 25px;
+    border: none;
+    border-radius: 10px;
+    margin: 50px auto;
+}
+header {
+    padding:25px 0;
+    background-color: hotpink;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+footer {
+    padding: 25px 0;
+    background-color: hotpink;
+    text-align: center;
+    margin-top: 25px;
+}
