@@ -1,8 +1,118 @@
-/**
- * Add your custom styles below
- * 
- * Remember: 
- * - Be organised, use comments and separate your styles into meaningful chunks
- *    for example: General styles, Navigation styles, Hero styles, Footer etc.
- * 
- */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
+
+html {
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+header {
+  width: 100%;
+  height: 40vh;
+  border-bottom: 2px solid rgb(109, 93, 68);
+  background-image: linear-gradient(60deg, #2b412d 0%, #352517 100%);
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+h1 {
+  font-weight: 500;
+  font-size: 50px;
+  color: rgb(201, 201, 100);
+  border: 2px solid rgb(201, 201, 100);
+  padding: 10px 30px;
+}
+
+h1:hover {
+  box-shadow: 0 0 20px 0px rgb(129, 129, 15)
+}
+
+
+h2 {
+  font-size: 35px;
+}
+
+h3 {
+  font-size: 20px;
+}
+
+p {
+  font-size: 30px;
+}
+
+main {
+  width: 80%;
+  margin: 15px auto;
+}
+
+
+/* img */
+.img {
+  width: 100%;
+  height: 80vh;
+}
+
+/* container */
+.container {
+  width: 85%;
+  margin: 0 auto;
+}
+
+/* articles- blog */
+.articles-blogs {
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  background: rgb(13, 71, 78);
+  color: #e4e4e4;
+  height: 40vh;
+  padding-top: 20px 0;
+}
+
+.footer-content h4 {
+  padding: 20px 0 0 0;
+  font-weight: 500;
+  font-size: 20px;
+  text-align: center;
+}
+
+
+.footer-content p {
+  max-width: 500;
+  line-height: 10px;
+  font-size: 15px;
+}
+
+.socials {
+  list-style: none;
+  display: flex;
+  margin: 16px;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem 2rem;
+  padding: 20px 20px;
+}
+
+.socials li {
+  margin: 0 10px;
+}
+
+.footer-bottom {
+  background: rgb(3, 40, 44);
+  padding: 20px 0;
+}
+
+span {
+  color: crimson;
+}
