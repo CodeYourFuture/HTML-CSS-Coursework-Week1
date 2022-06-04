@@ -2,7 +2,91 @@
  * Add your custom styles below
  * 
  * Remember: 
- * - Be organised, use comments and separate your styles into meaningful chunks
+ * - Be organized, use comments and separate your styles into meaningful chunks
  *    for example: General styles, Navigation styles, Hero styles, Footer etc.
  * 
  */
+
+body {
+background-color: aquamarine;
+} 
+#navbar {
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  background: #0AFFFF;
+}
+#navbar a {
+  text-decoration: none;
+  display: block;
+  padding: 1em;
+  font-size: 1.5em;
+  font-weight: bold;
+  color: black;
+}
+#navbar a:hover {
+  background: #00abe5;
+  left: 0px;
+}
+
+h1:first-child {
+    color: purple;
+    font-weight: bold;
+    }
+
+#article1 {
+  text-align: center;
+  height: auto; 
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-items: normal;
+  margin: 0;
+}
+
+
+#article2 {
+  text-align: center;
+  height: auto;
+}
+#profile {
+  text-align: center;
+ height: auto;
+}
+
+@media all and (max-width: 800px) {
+  #navbar {
+    justify-content: space-around;
+  }
+.tiles {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media all and (max-width: 600px) {
+  #navbar {
+    flex-flow: column wrap;
+    padding: 0;
+  }
+#navbar a {
+    text-align: center;
+    padding: 10px;
+    border-top: 1px solid rgba(255, 255, 255, 0.3);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  }
+#navbar a:last-of-type {
+    border-bottom: none;
+  }
+  #copyright {
+    text-align: center;
+    background: deepskyblue;
+    padding: 1em;
+  }
+  
+footer {
+background-color: beige;
+color: blue;
+text-align: center;
+}
+}
