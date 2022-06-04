@@ -1,22 +1,86 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, shrink-to-fit=no"
-    />
-    <title>My Blog</title>
-    <link
-      href="//fonts.googleapis.com/css?family=Roboto:400,500,300"
-      rel="stylesheet"
-      type="text/css"
-    />
-    <link rel="stylesheet" href="css/style.css" />
-    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
-  </head>
-  <body>
-    <!-- Add your HTML markup here -->
-    <!-- Remember: Use semantic HTML tags like <header>, <main>, <nav>, <footer>, <section> etc -->
-  </body>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <title>My Blog</title>
+  <link href="//fonts.googleapis.com/css?family=Roboto:400,500,300" rel="stylesheet" type="text/css" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+</head>
+
+<body class="container">
+  <header>
+    <h1>none-Semantic vs Semantic</h1>
+    <p>Difference between semantic and non-semantic elements</p>
+    <nav>
+      <ul class="nav-list">
+        <li class="nav-item"><a href="#">none-Semantic</a></li>
+        <li class="nav-item"><a href="#">Semantic</a></li>
+        <li class="nav-item"><a href="#three">Difference</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <!-- article one -->
+    <article class="article-one">
+      <h2 class="article-title">none-Semantic</h2>
+      <figure>
+        <img
+          src="img/ns.jpeg"
+          alt="none semantic">
+        <figcaption>Fig 1</figcaption>
+      </figure>
+      <p class="article-summary">
+        Semantic elements they don’t have any meaning. They don’t tell anything about the content they contain. They can be used with different attributes to mark up semantics common to a group.
+      </p>
+      <a href="https://www.geeksforgeeks.org/difference-between-semantic-and-non-semantic-elements/" class="learn-more" target="_blank"><span>&rArr;</span>learn more</a>
+    </article>
+    <!-- article two -->
+    <article class="article-two">
+      <h2 class="article-title">Semantic</h2>
+      <figure>
+        <img
+          src="img/s.jpeg"
+          alt="none semantic">
+        <figcaption>Fig 2</figcaption>
+      </figure>
+      <p class="article-summary">
+        These elements simply mean, elements with meaning. The reason being, there definition in the code tells the browser and the developer what they are supposed to do. Framing in simpler words, these elements describe the type of content they are supposed to contain.
+      </p>
+      <a href="https://www.geeksforgeeks.org/difference-between-semantic-and-non-semantic-elements/" class="learn-more"><span>&rArr;</span>learn more</a>
+    </article>
+    <!-- article three -->
+    <article class="article-three" id="three">
+      <h2 class="article-title">none-Semantic vs Semantic</h2>
+      <figure>
+        <img
+          src="img/nsvss.jpeg"
+          alt="none semantic">
+        <figcaption>Fig 3</figcaption>
+      </figure>
+     
+     
+        <section class="difference">
+          <ul class="none-semantic-list">
+            <li>none-Semantic</li>
+            <li>They have meaning.</li>
+            <li>They describe how the content within them is supposed to behave.</li>
+            <li>They have specific attributes for their structure.</li>
+          </ul>
+          <ul class="semantic-list">
+            <li>Semantic</li>
+            <li>They don’t have meaning.</li>
+            <li>They can contain anything.</li>
+            <li>‘class’ attribute can be used to work with their structure. </li>
+          </ul>
+        </section>
+      <a href="https://www.geeksforgeeks.org/difference-between-semantic-and-non-semantic-elements/" class="learn-more"><span>&rArr;</span>learn more</a>
+    </article>
+  </main>
+  <footer>
+    &copy; Anthony Mogotlane
+  </footer>
+</body>
 </html>

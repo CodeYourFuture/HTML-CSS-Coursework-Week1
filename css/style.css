@@ -1,8 +1,190 @@
-/**
- * Add your custom styles below
- * 
- * Remember: 
- * - Be organised, use comments and separate your styles into meaningful chunks
- *    for example: General styles, Navigation styles, Hero styles, Footer etc.
- * 
- */
+/* google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;1,400&display=swap');
+/* variables */
+:root {
+    --color-one: #778DA9;
+}
+/* General styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #E0E1DD;
+    /* font-family: 'Roboto', sans-serif; */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 1px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.container {
+    width: 80%;
+    margin: 1em auto;
+}
+
+li {
+    list-style: none;
+}
+
+img {
+    width: 100%;
+}
+
+/* header style */
+header > h1,
+footer {
+    background: var(--color-one);
+    border-radius: 0 .25em .25em 0;
+    padding: .1em 0 0 .25em;
+    text-align: center;
+}
+
+header > p {
+    margin: 0.5em 0;
+    padding: 0.4em;
+    border-left: solid .2em var(--color-one);
+    background: #BAC5D4;
+    border-radius: 0 .25em .25em 0;
+}
+
+/* Navigation styles */
+.nav-list {
+    display: flex;
+    justify-content: center;
+    gap: .5em;
+}
+
+.nav-item {
+    border-radius: .3em;
+    background: var(--color-one);
+    padding: .2em;
+    transition: .3s all ease-in;
+}
+.nav-item:hover {
+    background: var(--color-one);
+    opacity: .8;
+}
+
+.nav-item > a {
+    text-decoration: none;
+    color: #000;
+    transition: .3s all ease-in;
+}
+
+.nav-item > a:hover {
+    color: #fff;
+}
+
+/* Article styling */
+article {
+    margin: 1em;
+    padding: .5em;
+    border-radius: 0 .25em .25em 0;
+}
+.article-title {
+    font-size: 1.2em;
+    margin:  .3em 0;
+}
+
+.article-summary {
+    margin: .5em 0;
+    font-size: .9em;
+}
+
+article:first-child {
+    background: rgb(213, 96, 96, .5);
+}
+
+
+article:nth-child(2) {
+    background: rgb(113, 222, 113, .5);
+}
+
+article:last-child {
+    background: rgb(98, 98, 223, .5);
+}
+
+article:first-child img, article:nth-child(2) img {
+  width: 50%;
+}
+
+figcaption {
+    font-size: .6em;
+}
+
+.learn-more {
+    color: #fff;
+    background: var(--color-one);
+    padding: .2em;
+    border-radius: .25em;
+    text-decoration: none;
+}
+.learn-more:hover {
+    opacity: .8;
+}
+
+.difference {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    font-size: .8em;
+    margin-top: .3em;
+    margin-bottom: 1em;
+}
+.difference li {
+    margin-bottom: 5px;
+}
+
+
+.semantic-list {
+    border-left: #000 solid 2px;
+}
+
+.semantic-list li:first-child,
+.none-semantic-list li:first-child{
+    font-weight: bold;
+    border-bottom: #000 solid 2px;
+    padding-left: .3em;
+}
+/* Footer styles */
+footer {
+    text-align: center;
+    padding: .2em 0;
+}
+
+
+/* Media Query */
+@media screen and (min-width: 760px) {
+    header > h1 {
+        text-align: start;
+    }
+
+    header > p {
+        width: 50%;
+    }
+
+    /* article */
+    article {
+        margin: 1em 0;
+        width: 50%;
+        
+    }
+    
+    img {
+        border-radius: 0.25em;
+    }
+
+    .article-summary {
+        margin: .5em 0;
+        
+    }
+
+    /* Navigation styles */
+    .nav-list {
+        justify-content: start;
+    }
+}
