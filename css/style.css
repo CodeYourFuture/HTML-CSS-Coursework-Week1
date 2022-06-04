@@ -7,7 +7,7 @@
  * 
  */
 
-@import url('https://fonts.googleapis.com/css2?family=Tiro+Gurmukhi&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Tiro+Gurmukhi&display=swap');
 
 *,
 *::before,
@@ -19,12 +19,8 @@
 :root {
     --clr-primary: #143668;
     --clr-secondary: #FD6D6D;
-    --clr-light:#FFF; 
-    /* --clr-transparent: rgba(255,255,255,. 5);  
-    --fw-normal: 400;
-    --fw-bold:700;
-    --fw-black:900;
-    --grid: 1fr; */
+    --clr-light:#FFF;
+
 }
 
 body {
@@ -54,7 +50,7 @@ nav {
     padding: 50px 50px;
 }
 
-ul {
+nav ul {
     
     list-style: none;
     display: flex;
@@ -64,12 +60,15 @@ ul {
 .alink {
     text-decoration: none;
     padding: 0 1em;
-    font-size: 24px;
+    font-size: 20px;
+    font-weight: 700;
     color: var(--clr-primary);
+    font-family: 'Libre Baskerville', serif;
+    font-weight: 700;
 }
 
 .titlecontainer {
-    padding: 100px 50px;
+    padding: 50px 50px;
 }
 
 h1 {
@@ -79,50 +78,66 @@ h1 {
 }
 
 .downarrow {
-    color: var(--clr-secondary);
-    padding-left: 600px;
-    
+    display: block;
+    text-align: center;
+    color: var(--clr-secondary); 
+    padding-bottom: 50px;
 }
 
 .aboutcontainer {
     width:100vw;
-    height: 100vh;
+    height: 800px;
+    background-image: url(/images/molumen-world-map.svg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center top;
 }
 
 .aboutcontainer p {
-    margin: 100px 100px 50px 100px;
+    padding: 10px 50px;
+    line-height: 50px;
 }
 
 .aboutcontainer h2 {
     color: var(--clr-secondary);
     font-size: 35px;
-    text-align: right;
-    margin-right: 100px;
+    text-align: center;
+    padding-top: 50px;
 }
+            
 
 .blogcontainer  {
     background-color: var(--clr-secondary);
     /* font-size: 35px;
     text-align: right;
     margin-right: 100px; */
-    padding: 50px;
-    
+    padding: 50px;   
+    /* z-index: 2; */
 }
 
 .blogcontainer h2 {
-    color: var(--clr-primary);
+    color: var(--clr-light);
     font-size: 35px;
     text-align: right;
-    margin-right: 100px;
+    margin-right: 50px;
 }
 
 article:first-child {
     color: var(--clr-primary);
+    font-family: 'Libre Baskerville', serif;
+    font-size: 30px;
+    font-weight: 700;
+    background-color: #FFF;
+    border-radius: 5px;
+    padding: 10px;
 }
 
 
-
 footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* padding: 50px 10px; */
     margin-top: -50px;
     width:100%;
     height: 200px;
@@ -137,4 +152,8 @@ footer h2 {
     font-size: 35px;
     padding-top: 50px;
     margin-right: 100px;
+}
+
+.contactdetails {
+    
 }
