@@ -6,10 +6,39 @@
  *    for example: General styles, Navigation styles, Hero styles, Footer etc.
  * 
  */
- 
 
- 
-article p:first-child {
 
-    background-color: rgb(197, 232, 232);
+
+h1 {
+    border:2px solid green;
+    background-image: url("https://i.pinimg.com/564x/18/9c/7e/189c7e3c87a71d63d7d774e9f493e826.jpg");
 }
+
+.article > :first-child {
+    color: green;
+}
+
+article {
+    color: rgb(155, 5, 5);
+}
+
+.about-section {
+    padding: 50px;
+    text-align: center;
+    background-color: lightgray;
+    color: black;
+  }
+
+  .contacts{
+    background-color:#778da9;
+    padding: 70px;
+  }
+
+  .socials {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 50px;
+    height: 100px;
+  }
+  
