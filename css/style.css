@@ -33,7 +33,7 @@ body {
 
 
 .adventurelogo {
-    margin-top: 50px;
+    margin-top: 25px;
     padding-left: 50px;
     width: 20%;
     height: auto;
@@ -51,7 +51,7 @@ h1 {
     font-weight: 700;
     font-size: 100px;
     width: 50%;
-    padding-left: 50px;
+    padding-left: 80px;
     color: white;
     line-height: 120px;
 }
@@ -61,7 +61,7 @@ span {
 }
 
 .tagline {
-    padding-left: 50px;    
+    padding-left: 80px;    
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
     font-size: 18px; 
@@ -84,7 +84,7 @@ span {
 
 
 nav {
-margin-top: 60px;
+margin-top: 25px;
 margin-right: 100px;
 }
 
@@ -98,6 +98,8 @@ a {
     text-decoration: none;
     padding-right: 1em;
     color: white;
+    font-size: 15px;
+    padding: 30px;
 }
 
 .heroexplore {
@@ -110,7 +112,7 @@ a {
     font-weight: 400;
     font-size: 16px; 
     border-radius: 8px;
-    margin-left: 50px;
+    margin-left: 80px;
     margin-top: 25px;
 }  
  
@@ -121,16 +123,16 @@ main {
 }
 
 .articlesection {
-    display: flex;
-    /* padding: 100px; */
+    display: flex;    
     justify-content: center;
     
 }
 
 .blogitem {
-    padding: 20px;
+    padding: 20px;    
     width: 300px;
-    height:auto;    
+    height:auto; 
+     
 }
 
 h2 {
@@ -143,7 +145,7 @@ article:first-child {
 
   footer{
       width: 100vw ;
-      height: 184px;
+      height: 20px;
       margin: 0px;
       background-color: #2A2222;
   }
