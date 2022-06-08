@@ -6,3 +6,12 @@
  *    for example: General styles, Navigation styles, Hero styles, Footer etc.
  * 
  */
+ #img-caption{
+     width:600px
+ }
+
+ #imgage{
+     max: width 100%;
+     height: auto;
+     display:block;
+ }
