@@ -53,7 +53,7 @@ text-align: ;
 }
 
 h1 {
-    color: white;
+    color: blue;
 }
 
 article {
@@ -65,5 +65,5 @@ article {
 /* First Child Psuedo Class */
 
 article:first-child {
-    background-color: burlywood;
+    background-color: rgb(135, 187, 222);
 }
