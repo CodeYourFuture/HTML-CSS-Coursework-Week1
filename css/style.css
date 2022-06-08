@@ -6,3 +6,64 @@
  *    for example: General styles, Navigation styles, Hero styles, Footer etc.
  * 
  */
+ 
+ /* General Styles */
+ @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,300&display=swap');
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    margin:0;
+    font-family: 'Roboto', sans-serif;
+    padding: 0px 50px;
+}
+
+/* Navigation Styles */
+
+ul {
+    margin-right: 50px; 
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    gap: 30px;
+}
+
+.navlink {
+    text-decoration: none;
+    color: black;
+}
+
+/* Hero Styling */
+
+.hero {
+    display:flex;
+    margin: 50px 0px;
+    align-items: center;
+    background-color: lightgrey;
+}
+
+.herotext {
+
+padding: 20px;
+text-align: ;
+}
+
+h1 {
+    color: blue;
+}
+
+article {
+    background-color: lightgray;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+/* First Child Psuedo Class */
+
+article:first-child {
+    background-color: rgb(135, 187, 222);
+}
