@@ -35,9 +35,8 @@ body {
 .adventurelogo {
     margin-top: 25px;
     padding-left: 50px;
-    width: 20%;
+    width: 300px;
     height: auto;
-
 }
 
 .content {
@@ -54,6 +53,7 @@ h1 {
     padding-left: 80px;
     color: white;
     line-height: 120px;
+    margin: 50px 0 0 0;
 }
 
 span {
@@ -65,21 +65,19 @@ span {
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
     font-size: 18px; 
-    width: 50%;
-    margin-top: -70px;
+    width: 50%;   
 }
 
 .header {
     margin-top: -40px;
-    padding-bottom: 120px;
+    padding-bottom: 130px;
     padding: 0px;
     width: 100vw;
     height: 100vh;
     background-image: url(/images/heropage.jpg.jpg);
     background-size: cover;
     background-attachment: fixed;
-    background-position: center top;
-    padding-bottom: 50px;
+    background-position: center top;    
 }
 
 
@@ -88,10 +86,10 @@ margin-top: 25px;
 margin-right: 100px;
 }
 
-ul {
+.navbar {
     list-style: none;
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
 }
 
 a {
@@ -117,35 +115,76 @@ a {
 }  
  
 main {
+    margin-top: -40px;
     width: 100vw;
-    height: 1080px;
+    height: 800px;
     background-color: #685B3A;
 }
 
 .articlesection {
     display: flex;    
     justify-content: center;
-    
 }
 
 .blogitem {
-    padding: 20px;    
-    width: 300px;
-    height:auto; 
-     
+  margin: 30px;
+  width: 303px;
+}
+
+article img {
+    height: 340px;
+    border-radius: 10px;
+   box-shadow:
+  5.1px 2.3px 2.7px rgba(0, 0, 0, 0.084),
+  14.7px 6.6px 6.9px rgba(0, 0, 0, 0.098),
+  33.2px 15px 14.2px rgba(0, 0, 0, 0.098),
+  72.1px 32.5px 29.2px rgba(0, 0, 0, 0.091),
+  195px 88px 80px rgba(0, 0, 0, 0.08)
 }
 
 h2 {
     font-family: Arial, Helvetica, sans-serif;
+    font-size: 32px;
+    padding:50px 0  0 50px;
+}
+
+article h3 {
+    color: #6def9a;
 }
 
 article:first-child {
-    color: blue;
-  }
+    color: #6def9a;
+}
 
   footer{
       width: 100vw ;
-      height: 20px;
+      height: 90px;
       margin: 0px;
       background-color: #2A2222;
-  }
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+}
+
+.footercontacts {
+     display: flex;
+     justify-items: flex-end;
+     flex-wrap: wrap;
+     margin-left: 600px;
+     /* vertical-align: middle;   */
+     align-items: center;    
+} 
+
+.contact {
+    padding-bottom: 30px;
+}
+
+.footercontacts ul {
+    list-style: none;
+}
+
+.logoicon {
+    width: auto;
+    height: 50px;
+    margin-left: 90px;
+}
