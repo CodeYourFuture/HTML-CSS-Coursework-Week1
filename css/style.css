@@ -126,6 +126,12 @@
    margin-left: 15px;
  }
 
+ img{
+  max-width: 1000px;
+  width: 100%;
+  object-fit: cover;
+ }
+
  .main-section article p{
   padding: 10px 20px;
  }
@@ -233,3 +239,7 @@
 background-color: #919db6;
 color: white;
  }
+
+
+
+ 
