@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;600;800&display=swap");
 
 * {
   padding: 0;
@@ -8,166 +8,156 @@
 
 body {
   width: 100%;
-  font-family: "Space Mono", monospace;
+  font-family: "Noto Sans", sans-serif;
   font-weight: 400;
-  color: #949494;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-weight: 600;
-  font-family: "Space Mono", monospace;
-  color: #000000;
+  color: #231f20;
 }
 
 header {
   width: 100%;
+  height: 7rem;
+  padding: 20px;
+  background-color: #efefef;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo-container img {
+  width: 12.5rem;
+}
+
+.nav-list {
+  display: flex;
+  list-style: none;
+}
+
+.nav-list li {
+  margin: 0 20px;
+}
+
+.nav-list li a {
+  text-decoration: none;
+  font-size: 1rem;
+  color: #231f20;
+  font-weight: 600;
+}
+
+.nav-list li a.active-nav {
+  color: red;
+}
+
+.nav-cta {
+  width: 150px;
+  height: 35px;
+  font-size: 1rem;
+  font-weight: 600;
+  border: none;
+  background-color: red;
+  color: #efefef;
+  cursor: pointer;
 }
 
 section {
   width: 100%;
 }
 
-#nav-section {
+article {
   display: flex;
   justify-content: space-between;
-  align-items: center;
-  width: 70%;
-  height: 100px;
-  margin: 0 auto;
-  border-bottom: 1px solid #6e6e6e;
+  width: 50%;
+  height: 300px;
+  margin: 50px auto;
+  border: 1px solid #dddddd;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
-#nav-container,
-.nav-list {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-#success {
-  width: 100%;
-  height: 200px;
-  background-color: #ff0000;
-}
-
-.logo-container {
-  display: flex;
-  align-items: center;
-  cursor: pointer;
-}
-.logo-container span {
-  color: #ff0000;
-}
-
-.logo-container p {
-  color: #000000;
-  font-size: 1.5rem;
-  font-weight: 600;
-}
-
-.nav-list li {
-  margin-right: 1.5rem;
-  list-style: none;
-}
-
-.nav-list li .nav-link {
-  text-decoration: none;
-  font-size: 1rem;
-  font-weight: 600;
-  color: #000000;
-  font-family: "Space Mono", monospace;
-}
-
-.header-cta-btn {
-  width: 100px;
-  height: 40px;
-  font-size: 1rem;
-  font-weight: 600;
-  color: #ffffff;
-  font-family: "Space Mono", monospace;
-  background-color: transparent;
-  border: none;
-  border-radius: 5px;
-  background-color: #ff0000;
-  cursor: pointer;
-}
-
-.header-cta-btn:first-child {
-  background-color: #ffffff;
-  border: 2px solid #ff0000;
-  color: #000000;
-}
-
-.intro-container {
-  display: flex;
-  justify-content: space-between;
-  width: 70%;
-  margin: 0 auto;
-  padding: 50px 0;
-}
-
-.intro-container .intro-content-container {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  width: 100%;
-  height: 800px;
-}
-
-.intro-content-container h1 {
-  font-size: 3rem;
-  width: 95%;
-  margin-bottom: 50px;
-}
-
-.intro-content-container h3 {
-  font-size: 1.5rem;
-  width: 90%;
-  margin-bottom: 50px;
-}
-
-.intro-content-container button {
-  font-size: 1.2rem;
-  font-weight: 600;
-  border: none;
-  border-radius: 5px;
-  background-color: #ff0000;
-  color: #ffffff;
-  cursor: pointer;
-  width: 70%;
-  height: 50px;
-  margin-bottom: 50px;
-}
-.intro-container .intro-img-container {
-  width: 100%;
-  height: 800px;
-  background-image: url(./image/header.jpg);
-  background-repeat: no-repeat;
+section article .article-img-container {
   background-position: center;
+  background-repeat: no-repeat;
   background-size: cover;
+  width: 30%;
+  height: 300px;
 }
 
-.success-data-container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+section article:first-child .article-img-container {
+  background-image: url(./image/Erick-850x697.jpg);
+}
+
+section article:nth-child(2) .article-img-container {
+  background-image: url(./image/Learning-code-850x577.jpg);
+}
+
+section article:nth-child(3) .article-img-container {
+  background-image: url(./image/Laptop-850x599.jpg);
+}
+
+.arcticle-content-container {
   width: 70%;
-  height: 100%;
-  margin: 0 auto;
-  color: #ffffff;
-  font-weight: 600;
+  padding: 50px;
 }
 
-.success-data-container h2 {
-  color: #ffffff;
-  font-size: 1.8rem;
-  margin-bottom: 10px;
+article h2 {
+  font-size: 1.5rem;
+  margin-bottom: 15px;
 }
-.success-data-container .success-data {
-  width: 300px;
+article p {
+  font-size: 0.9rem;
+  margin-bottom: 15px;
 }
+
+article p span {
+  color: red;
+  text-decoration: underline;
+  text-align: justify;
+  cursor: pointer;
+}
+
+article h4 {
+  font-size: 0.9rem;
+  color: #ada9a9;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: underline;
+  width: 100%;
+  height: 70px;
+  color: #efefef;
+  background-color: red;
+}
+
+@media (max-width: 1350px) {
+  section article {
+    width: 60%;
+  }
+  article p {
+    font-size: 0.8rem;
+    margin-bottom: 15px;
+  }
+}
+
+@media (max-width: 1100px) {
+  section article .article-img-container {
+    display: none;
+  }
+  .arcticle-content-container {
+    width: 100%;
+  }
+  section article {
+    width: 50%;
+  }
+} ;
