@@ -100,6 +100,10 @@ a {
     padding: 30px;
 }
 
+li a:hover {
+    color: #37FA7A ;
+}
+
 .heroexplore {
     background-color: #685B3A;
     width: 150px;
