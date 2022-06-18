@@ -1,8 +1,161 @@
-/**
- * Add your custom styles below
- * 
- * Remember: 
- * - Be organised, use comments and separate your styles into meaningful chunks
- *    for example: General styles, Navigation styles, Hero styles, Footer etc.
- * 
- */
+
+/*list of fonts*/
+@font-face {
+	font-family: Glamy Sunrise ;
+	src: url(/css/fonts/glamy-sunrise-font/GlamySunriseRegular-BWOKl.ttf);
+}
+@font-face {
+	font-family: Magic Owl;
+	src:url(/css/fonts/magic-owl-font/MagicOwlPersonalUse-WyO0O.otf)
+}
+@font-face {
+	font-family: Wolfpack Halloweed;
+	src: url(/css/fonts/wolfpack-halloweed-font/WolfpackHalloweed-EaGOl.otf);
+}
+@font-face {
+	font-family: Ovation;
+	src: url(/css/fonts/ovation-font/Ovation-axD6o.ttf);
+}
+/*end of fonts*/
+
+/*code for background */
+body{
+	background-color: #1F2022;
+	background-image: /*url(/css/images/hogwarts_banner.png),*/ url(/css/images/hogwarts_castle.png);
+	background-repeat: /*no-repeat,*/ no-repeat;
+	background-size: /*50%,*/ 100%;
+	background-position: /*top,*/ bottom;
+	background-attachment: fixed;
+}
+
+{
+	list-style-type: none;
+}
+
+nav{
+	
+	position: fixed;
+  	top: 0;
+  	width: 100%;
+	z-index: 9;
+	
+	
+
+}
+
+.navigation_bar{
+	float: left;
+	width: 23%;
+	list-style-type: none;
+	text-align: center;
+	font-size: 2em;
+	border-color: #1F2022;
+	border: 1px solid #1F2022;
+	border-radius: 10em;
+	padding: 0.4rem;
+	background-color: #FFF;
+	font-family: Glamy Sunrise;
+	color: #6E6E6E;
+}
+
+
+
+.red{
+	color: #de2d26;
+}
+.blue{
+	color: #03506b;
+}
+.green{
+	color: #1f851e;
+}
+.yellow{
+	color: #e1be1f;
+}
+
+h1{
+	font-family: Wolfpack Halloweed;
+	font-size: 7rem;
+	text-align: center;
+	text-shadow: -1px -1px 0 #FFF, 1px -1px 0 #FFF, -1px 1px 0 #FFF, 1px 1px 0 #FFF;
+}
+
+#h2_header{
+	background-color: #6E6E6E;
+	color: #FFF;
+	font-family: Ovation;
+	background-position: 0% 35%;
+	font-size: 5em;
+	text-align: center;
+	position: relative;
+  	top: -1em;
+
+}
+
+h2{
+	font-family: Glamy Sunrise;
+}
+
+main>article:first-child>h2{
+	font-family: Glamy Sunrise;
+	color: #e1be1f;
+	text-align: center;
+	font-size: 5em;
+	background-color: #000;
+}
+
+main>article:first-child>p{
+	background-image: url(/css/images/Hufflepuff.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: 40% 50%;
+	font-size: 2.5em;
+	position: relative;
+	top: -1.7em;
+	color: #FFF;
+	text-align: center;
+}
+
+main>article:first-child a{
+	color: #000;
+}
+
+
+.container{
+	width: 100%;
+	display: grid;
+	grid-template-columns: 1fr 1fr ;
+}
+h3{
+	font-family: Glamy Sunrise;
+	color: #fff;
+	text-align: center;
+	font-size: 2em;
+	background-color: #000;
+	height: 2em;
+	margin: 0.25em;
+	padding: 0.25em;
+
+}
+
+p{
+	font-family: Magic Owl;
+	background-color: #fff;
+	font-size: 1em;
+	position: relative;
+	margin: 0.25em;
+	padding: 0.25em;
+	border: #000 1px solid;
+
+	
+}
+
+
+footer{
+	background-color: #6E6E6E;
+	color: #FFF;
+	font-family: Ovation;
+	background-position: 0% 35%;
+	font-size: 4em;
+	text-align: center;
+}
