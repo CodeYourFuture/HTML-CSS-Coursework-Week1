@@ -6,3 +6,196 @@
  *    for example: General styles, Navigation styles, Hero styles, Footer etc.
  * 
  */
+
+ @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Passion+One&family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,700;1,800&family=Roboto:wght@400;700;900&family=Work+Sans:wght@400;700;900&display=swap');
+
+ *,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    color: white;
+}
+
+.navbar {
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+}
+
+
+.adventurelogo {
+    margin-top: 25px;
+    padding-left: 50px;
+    width: 300px;
+    height: auto;
+}
+
+.content {
+    background-color: hsla(0, 100%, 0%, 0.3);
+    height: 100vh;
+    width: 100vw;
+}
+
+.homepage-content {
+    display: grid;
+    grid-template-columns: auto;
+    align-items: center;
+    margin-top: 50px;
+
+}
+
+h1 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 100px;
+    width: 50%;
+    padding-left: 80px;
+    color: white;
+    line-height: 100px;
+    margin: 50px 0 0 0;
+}
+
+span {
+    color: #37FA7A;
+}
+
+.tagline {
+    padding-left: 80px;    
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 18px; 
+    width: 50%;   
+}
+
+.header {
+    margin-top: -30px;
+    padding: 0px;
+    width: 100vw;
+    height: 100vh;
+    background-image: url(/images/heropage.jpg.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center top; 
+}
+
+
+nav {
+margin-top: 25px;
+margin-right: 100px;
+}
+
+.navbar {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+a {
+    text-decoration: none;
+    padding-right: 1em;
+    color: white;
+    font-size: 15px;
+    padding: 30px;
+}
+
+li a:hover {
+    color: #37FA7A ;
+}
+
+.heroexplore {
+    background-color: #685B3A;
+    width: 150px;
+    height: 45px;
+    border-style: none;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 16px; 
+    border-radius: 8px;
+    margin-left: 80px;
+    margin-top: 25px;
+}  
+ 
+main {
+    
+    width: 100vw;
+    height: 800px;
+    background-color: #685B3A;
+    margin-top: -40px;
+}
+
+.articlesection {
+    display: flex;    
+    justify-content: center;
+}
+
+.blogitem {
+  margin: 30px;
+  width: 303px;
+}
+
+article img {
+    height: 340px;
+    border-radius: 10px;
+   box-shadow:
+  5.1px 2.3px 2.7px rgba(0, 0, 0, 0.084),
+  14.7px 6.6px 6.9px rgba(0, 0, 0, 0.098),
+  33.2px 15px 14.2px rgba(0, 0, 0, 0.098),
+  72.1px 32.5px 29.2px rgba(0, 0, 0, 0.091),
+  195px 88px 80px rgba(0, 0, 0, 0.08)
+}
+
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 32px;
+    padding:50px 0  0 50px;
+}
+
+article h3 {
+    color: #6def9a;
+}
+
+article:first-child {
+    color: #6def9a;
+}
+
+  footer{
+      width: 100vw ;
+      height: 90px;
+      margin: 0px;
+      background-color: #2A2222;
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+}
+
+.footercontacts {
+     display: flex;
+     justify-items: flex-end;
+     flex-wrap: wrap;
+     margin-left: 600px;
+     /* vertical-align: middle;   */
+     align-items: center;    
+} 
+
+.contact {
+    padding-bottom: 30px;
+}
+
+.footercontacts ul {
+    list-style: none;
+}
+
+.logoicon {
+    width: auto;
+    height: 50px;
+    margin-left: 90px;
+}
