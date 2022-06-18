@@ -21,7 +21,7 @@ body {
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
     color: white;
-    background-color: #2A2222;
+    /* background-color: #2A2222; */
 }
 
 .navbar {
@@ -45,6 +45,14 @@ body {
     width: 100vw;
 }
 
+.homepage-content {
+    display: grid;
+    grid-template-columns: auto;
+    align-items: center;
+    margin-top: 70px;
+
+}
+
 h1 {
     font-family: 'Poppins', sans-serif;
     font-weight: 700;
@@ -52,7 +60,7 @@ h1 {
     width: 50%;
     padding-left: 80px;
     color: white;
-    line-height: 120px;
+    line-height: 100px;
     margin: 50px 0 0 0;
 }
 
@@ -69,15 +77,14 @@ span {
 }
 
 .header {
-    margin-top: -40px;
-    padding-bottom: 130px;
+    margin-top: -30px;
     padding: 0px;
     width: 100vw;
     height: 100vh;
     background-image: url(/images/heropage.jpg.jpg);
     background-size: cover;
     background-attachment: fixed;
-    background-position: center top;    
+    background-position: center top; 
 }
 
 
@@ -119,10 +126,11 @@ li a:hover {
 }  
  
 main {
-    margin-top: -40px;
+    
     width: 100vw;
     height: 800px;
     background-color: #685B3A;
+    margin-top: -40px;
 }
 
 .articlesection {
