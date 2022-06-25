@@ -1,11 +1,11 @@
 User stories
 
--I have a consistent color scheme to links
--I have a consistent color scheme to text
-Complete-I have a page header with a title and a description for the site
--I have three articles with titles, summaries and links
+Completed-I have a consistent color scheme to links
+Completed-I have a consistent color scheme to text
+Completed-I have a page header with a title and a description for the site
+Completed-I have three articles with titles, summaries and links
 Completed-I have a page footer with info about me or the siteI have used semantic HTML
--I have created lorem ipsum text to generate random blocks of consistentI have committed often with meaningful messages
--I have pushed to Github regularly
--I have created a page that looks similar to the sketch
+Completed-I have created lorem ipsum text to generate random blocks of consistentI have committed often with meaningful messages
+Completed-I have pushed to Github regularly
+Completed-I have created a page that looks similar to the sketch
 - I have researched first child pseudo class and used it to style the first article
