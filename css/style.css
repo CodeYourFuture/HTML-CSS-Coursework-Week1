@@ -12,14 +12,15 @@
         font-weight: normal;
         line-height: 1.5;
         background-color: white;
-        color: black;
-        
+        color: black; 
     }
 
 .navbar {
     width: 100%;
     background-color: #FBBF77;
     overflow: auto;
+    border-radius: 10px;
+   
 }
 
 .navbar a {
@@ -29,7 +30,6 @@
     text-decoration: none;
     font-size: 17px;
     width: 30%;
-    
     text-align: center;
 }
 
@@ -39,39 +39,44 @@ img{
     margin-left: auto;
     margin-right: auto;
     width: 40%;
+    border: 2px solid white;
 }
 
 header{
   text-align: center;
-    font-size: 1.25rem;
-    line-height: normal;
-   background-image: url("img/digital-binary-code-computer-matrix-data-falling-numbers-coding-typography-codes-stream-gray-background-illustration_102902-992.webp");
+  font-size: 1.25rem;
+  line-height: normal;
+  background-image: url("https: //github.com/JadeJones2022/HTML-CSS-Coursework-Week1/blob/c40544be8906935fc4b94903979fcf341e3491eb/img/digital-binary-code-computer-matrix-data-falling-numbers-coding-typography-codes-stream-gray-background-illustration_102902-992.webp");
 
 }
 
+section:first-child{
+ font-weight: 600;
+
+}
 
 .section1{
-    background-color: #FBBF77;
+    border: 10px solid #FBBF77;
     padding: 1.5rem;
     text-align:center;
-    border: 20px;
     margin:30px;
+    border-radius: 20px;
 }
 
 .section2{
-    background-color: #95CFEC;
+    border: 10px solid #95CFEC;
     padding: 1.5rem;
-        text-align: center;
-        border: 20px;
-        margin: 30px;
+    text-align: center;
+    margin: 30px;
+    border-radius: 20px;
 }
 
 .section3{
-    background-color: #FDF68C;
+    border: 10px solid #FDF68C;
     padding: 1.5rem;
-        text-align: center;
-        border: 20px;
-        margin: 30px;
+    text-align: center;
+    margin: 30px;
+    border-radius: 20px;
 }
 
 footer{
