@@ -8,4 +8,4 @@ Completed-I have a page footer with info about me or the siteI have used semanti
 Completed-I have created lorem ipsum text to generate random blocks of consistentI have committed often with meaningful messages
 Completed-I have pushed to Github regularly
 Completed-I have created a page that looks similar to the sketch
-- I have researched first child pseudo class and used it to style the first article
+Completed- I have researched first child pseudo class and used it to style the first article
