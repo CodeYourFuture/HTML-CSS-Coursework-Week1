@@ -6,3 +6,79 @@
  *    for example: General styles, Navigation styles, Hero styles, Footer etc.
  * 
  */
+ body {
+        font-family: Arial, serif;
+        font-size: 1rem;
+        font-weight: normal;
+        line-height: 1.5;
+        background-color: white;
+        color: black; 
+    }
+
+.navbar {
+    width: 100%;
+    background-color: #FBBF77;
+    overflow: auto;
+    border-radius: 10px;
+   
+}
+
+.navbar a {
+    float: left;
+    padding: 12px;
+    color: black;
+    text-decoration: none;
+    font-size: 17px;
+    width: 30%;
+    text-align: center;
+}
+
+   
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    border: 2px solid white;
+}
+
+header{
+  text-align: center;
+  font-size: 1.25rem;
+  line-height: normal;
+  
+
+}
+
+section:first-child{
+ font-weight: 600;
+
+}
+
+.section1{
+    border: 10px solid #FBBF77;
+    padding: 1.5rem;
+    text-align:center;
+    margin:30px;
+    border-radius: 20px;
+}
+
+.section2{
+    border: 10px solid #95CFEC;
+    padding: 1.5rem;
+    text-align: center;
+    margin: 30px;
+    border-radius: 20px;
+}
+
+.section3{
+    border: 10px solid #FDF68C;
+    padding: 1.5rem;
+    text-align: center;
+    margin: 30px;
+    border-radius: 20px;
+}
+
+footer{
+    text-align:center
+}
