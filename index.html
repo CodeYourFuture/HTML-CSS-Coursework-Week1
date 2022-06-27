@@ -14,9 +14,125 @@
     />
     <link rel="stylesheet" href="css/style.css" />
     <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   </head>
   <body>
     <!-- Add your HTML markup here -->
     <!-- Remember: Use semantic HTML tags like <header>, <main>, <nav>, <footer>, <section> etc -->
+
+      <!--header starts here-->
+    <header class="c-site-header">
+      <div id="header" class="container">
+        <img alt="" class="avatar-circle"
+          src="https://previews.123rf.com/images/jemastock/jemastock1708/jemastock170807891/83960293-man-with-curly-hair-avatar-icon-image-vector-illustration-design-black-and-white.jpg">
+        <h1>Micheale Andemariam</h1>
+        <h2>Full-stack software developer</h2>
+        <nav aria-label="Main Site Links.">
+          <ul>
+            <li><a class="nav-link" href="#about-me">About Me</a></li>
+            <li><a class="nav-link" href="#my-media">My Media</a></li>
+            <li><a class="nav-link" href="#my-skills">My Skills</a></li>
+            <li><a class="nav-link" href="#my-certificates">My Certificates</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+      <!--header ends here-->
+    
+    <!--about me starts here-->
+    <main>
+      <section class="container">
+        <h3 id="about-me">About Me</h3>
+        <article>
+          <h4>Thank you for visiting my home page</h4>
+          <p>
+          Hi, I am <strong>Micheale,</strong> and I live in Birmingham, UNITED KINGDOM. I am passionate about programming. I practice every day for
+          about 4 to 5 hours. I have always been thinking of becoming a software developer. However, I could not get the chance to
+          learn programming for different reasons up until recently. Yet, once I found out about the code your future program
+          through my friend who voluntarily works there, I instantly thought it was the only organization that could help me
+          fulfil my dream, and I signed up right away. So far, I have completed <i>HTML, CSS, JAVASCRIPT and RESPONSIVE WEB DESIGN at
+          Solo Learn. I have also done google fundamentals 1 and 2 and basic HTML and CSS tutorials on FreeCodeCam.
+          At present, I am taking a full-stack software development course at CodeYourFuture, and my goal is to get a full-time
+          job as a front-end or back-end developer by the end of it.
+          </p>
+        </article>
+        <article>
+          <h5>Here is my favorite quote:</h5>
+          <p>
+            <q>
+              Don not be pushed by your problems. Be led by your dreams. Live the life you want to live. Be the person you
+              want to remember years from now. Make decisions and act on them. Make mistakes, fall and try again. Even if
+              you fall a thousand times, at least you will not have to wonder what could have been. At least you will know in
+              your heart that you gave your dreams your best shot.
+    
+              Each of us has a fire in our hearts burning for something. It is our responsibility in life to find it and keep
+              it lit. This is your life, and it is a short one. Do not let others extinguish your flame. Try what you want to
+              try. Go where you want to go. Follow your own intuition. Dream with your eyes open until you know exactly what
+              it looks like. Then do at least one thing every day to make it a reality.</q>
+          </p>
+        </article>
+      </section>
+    </main>
+    <!--about me ends here-->
+    
+    <!--media starts-->
+    <div class="my-media">
+      <h3 id="my-media">My Media</h3>
+      <h5>A short inspiring youtube video of talented coder.</h5>
+      <iframe src="https://www.youtube.com/embed/fxIlVbvOHyY" title="YouTube video player" allowfullscreen></iframe>
+    </div>
+    <!--media ends-->
+    
+    <!--skills starts-->
+    <div class="my-skills">
+      <h3 id="my-skills">My Skills</h3>
+      <ul>
+        <li><abbr title="Hypertext Markup Language">HTML 80%</abbr> <br />
+          <progress max="100" value="80"></progress>
+        </li>
+        <li><abbr title="Cascading Style Sheet">CSS 70%</abbr> <br />
+          <progress max="100" value="70"></progress>
+        </li>
+        <li><abbr title="JavaScript">JS 50%</abbr> <br />
+          <progress max="100" value="50"></progress>
+        </li>
+        <li><abbr title="Responsive Web Design">RWD 60%</abbr> <br />
+          <progress max="100" value="60"></progress>
+        </li>
+      </ul>
+    </div>
+    <!--skills ends-->
+    
+    <!--certificates starts-->
+    <div class="my-certificates">
+      <h3 id="my-certificates">My Certificates</h3>
+      <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+        <li>Responsive Web Design</li>
+      </ul>
+    </div>
+    <!--certificates ends-->
+    
+    <!--footer starts--> 
+    <footer class="c-site-footer" class="contact-me">
+      <h3>Contact me on </h3>
+
+      <a href="#" class="fa fa-facebook"></a>
+      <a href="#" class="fa fa-twitter"></a>
+      <a href="#" class="fa fa-instagram"></a>
+
+      <form>
+        <input name="name" placeholder="Name" type="text" required /><br />
+        <input name="email" placeholder="Email" type="email" required /><br />
+        <textarea name="message" placeholder="Message" required></textarea><br />
+        <input type="submit" value="SEND" />
+      </form>
+      <p>© All rights reserved.</p>
+    </footer>
+
+    <!--footer ends-->
+
   </body>
 </html>
