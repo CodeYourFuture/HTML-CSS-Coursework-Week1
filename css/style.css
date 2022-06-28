@@ -15,7 +15,7 @@ html {
 body {
     font-family: "Handlee", cursive;
     font-size: 13pt;
-    background-color: #efefef;
+    background-color: #f8f6f6;
     padding: 10px;
     margin: 0;
 }
@@ -42,7 +42,7 @@ h1 {
 }
 
 h2 {
-    color: #282b0e;
+    color: #ffffff;
     text-align: center;
 }
 
@@ -67,20 +67,28 @@ h4, h5 {
     border-radius: 10px;
 }
 
+li:hover{
+    color:#20bcd5;
+}
+
 .avatar-circle {
     border: 8px solid pink;
     border-radius: 50%;
 }
 
 .container {
-    background-color: #fff;
+    background-color: #b5b4b4;
     padding: 15px;
     margin-bottom: 10px;
     border-radius: 10px;
 }
 
+article p {
+    padding: 20px;
+}
+
 .my-media {
-    background-color: #fff;
+    background-color: #b5b4b4;
     padding: 15px;
     margin-bottom: 10px;
     border-radius: 10px;
@@ -96,7 +104,7 @@ iframe {
 }
 
 .my-skills {
-    background-color: #fff;
+    background-color: #b5b4b4;
     padding: 15px;
     margin-bottom: 10px;
     border-radius: 10px;
@@ -107,7 +115,7 @@ iframe {
 }
 
 .my-certificates {
-    background-color: #fff;
+    background-color: #b5b4b4;
     padding: 15px;
     margin-bottom: 10px;
     border-radius: 10px;
@@ -127,7 +135,7 @@ form {
 }
 
 .c-site-footer {
-    background-color: #fff;
+    background-color: #b5b4b4;
     padding: 15px;
     margin-bottom: 0;
     border-radius: 10px;
@@ -139,8 +147,8 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #555;
-    border: 6px solid #444;
+    background-color: rgb(152, 151, 151);
+    border: 6px solid rgb(147, 146, 146);
     border-radius: 10px;
 }
 
@@ -155,6 +163,10 @@ li a {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+}
+
+li a:hover {
+    color:rgb(247, 71, 71);
 }
 
 .fa {
