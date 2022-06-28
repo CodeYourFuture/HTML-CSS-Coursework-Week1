@@ -16,21 +16,25 @@ Please complete the details below this message
 
 # Your Details
 
-- Your Name:
-- Your City:
-- Your Slack Name:
+- Your Name: Pakize Bozkurt
+- Your City: Birmingham
+- Your Slack Name: Pakize Bozkurt
 
 # Homework Details
 
-- Module:
-- Week:
+- Module: HTML/CSS
+- Week: 2
 
 # Notes
 
 - What did you find easy?
+Img tag was easy for me.
 
 - What did you find hard?
+CSS
 
 - What do you still not understand?
+Colouring webpage.
 
 - Any other notes?
+Thank you so much! I need to take time for improving my skills.

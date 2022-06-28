@@ -6,3 +6,128 @@
  *    for example: General styles, Navigation styles, Hero styles, Footer etc.
  * 
  */
+ * {
+    box-sizing: border-box;
+  }
+ 
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 2 px;
+    background: rgb(241, 227, 199);
+  }
+ 
+  .header {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(206, 110, 223);
+    font-size: 25px;
+    text-size-adjust: 30px;
+  }
+
+  /*Style the images*/
+   .img1{
+       border-radius: 50%;
+
+   }
+
+   .img2{
+       border-radius: 50%;
+
+   }
+
+   .img2{
+       border-radius: 50%;
+
+   }
+
+   .img3{
+       border-radius: 50%;
+
+   }
+
+   .img4{
+       border-radius: 50%;
+
+   }
+
+
+  /* Style the top navigation bar*/ 
+  .nav-bar {
+    width: 100%;
+    font-size: 40px;
+    padding: 2px;
+    color:rgb(49, 6, 49);
+    
+  }
+  
+  /* Remove underline on nav-link*/
+  a {
+    text-decoration: none;
+    color: rgb(68, 202, 15);
+  }
+  
+  /* Change color on hover */
+  .nav-bar a:hover {
+    background: #a2dff1;
+    color: rgba(235, 229, 231, 0.863)
+  }
+
+  /*left column of page*/
+  .left-side {
+    float: left;
+    width: 75%;
+  }
+
+  /*Right column of page*/
+  .right-side {
+    float: left;
+    width: 25%;
+    padding-left: 20px;
+    text-align: justify;
+  }
+
+  /*style article section*/
+  .article {
+    background-color: rgb(245, 181, 245);
+    padding: 20px;
+    margin-top: 20px;
+ }
+
+/*use pseudo-class style on first article*/
+ .article:first-child {
+   background-color: rgb(245, 244, 180);
+ }
+
+/*style right column section*/
+ .aside {
+  background-color: rgb(179, 223, 243);
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.aside > h3{
+  text-align: center;
+}
+
+/* clear floats after the columns */
+ main:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+img {
+    max-width: 100%;
+    height: 165px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+
+  footer {
+    text-align: center;
+    background-color: rgb(238, 161, 125);
+    color: rgb(133, 10, 96);
+    padding: 5px;
+    margin-top: 20px;  
+  }
