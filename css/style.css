@@ -1,8 +1,132 @@
-/**
- * Add your custom styles below
- * 
- * Remember: 
- * - Be organised, use comments and separate your styles into meaningful chunks
- *    for example: General styles, Navigation styles, Hero styles, Footer etc.
- * 
- */
+:root{
+    --main-white: #f0f0f0;
+    --main-black: #000; 
+    --main-grey-dark: #292b2c;
+    --main-grey-light: #86969f;
+
+}
+
+body{
+    margin: 0;
+}
+
+h1{
+    font-size: 4rem;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.header{ 
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: flex-end;
+    height: 5rem; 
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    background-color: var(--main-grey-dark);
+    position: fixed;
+    top: 0;
+    margin-top: auto;
+}
+
+
+.nav-list{
+    display: flex;
+    list-style: none;
+    justify-content: flex-end;
+    margin-right: 2rem;
+}
+
+.nav-links{
+    color: var(--main-white);
+    margin-right: 3rem;
+    text-decoration: none;
+
+}
+
+
+.welcome-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    line-height: 0.8rem;
+    background-color: #a5becc;
+
+}
+
+.welcome-section > p{
+    font-size: 3vw;
+    text-transform: uppercase;
+}
+
+.ali-section{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+   
+}
+
+.ali-intro{
+    background-color: black;
+    flex-direction: column;
+    display: flex;
+    height: 30rem;
+    line-height: 0.1;
+    color: #f0f0f0;
+    
+    
+}
+
+.ali-name{
+    font-size: 5vw;
+    margin-top: 10rem; 
+    margin-left: 2rem;
+
+}
+#intro{
+    font-size: 3vw;
+    margin-left: 3rem;
+}
+
+#ali-life-death{
+    font-size: 1.5vw;
+    margin-left: 4rem;
+}
+.ali-pic{
+    position: absolute;
+    right: 10px;
+    height: 30rem;
+    width: 50rem;
+    opacity: 0.5;
+    max-width: 100%;
+    
+}
+
+.ali-article{
+    text-align: center;
+    background-color: var(--main-grey-light);           
+}
+q{
+    font-size: 3rem;
+   
+
+}
+
+#quote{
+    font-size: 1rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+
+.ali-article-content{
+    text-align: left;
+    margin: 2rem 12rem;
+    
+}
+.ali-article-content > p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
