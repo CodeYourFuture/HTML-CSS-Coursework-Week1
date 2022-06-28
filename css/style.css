@@ -1,8 +1,53 @@
-/**
- * Add your custom styles below
- * 
- * Remember: 
- * - Be organised, use comments and separate your styles into meaningful chunks
- *    for example: General styles, Navigation styles, Hero styles, Footer etc.
- * 
- */
+body {
+    margin:0;
+    font-family: 'Roboto', sans-serif;
+    padding: 0px 50px;
+    font-weight: normal;
+    color: white;
+}
+
+/* Nav styles */
+
+ul {
+    margin-right: 50px; 
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    gap: 30px;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: black;
+}
+
+/* main styling for boxer*/
+.img {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 150px;
+  }
+
+.boxer {
+    display:flex;
+    margin: 50px 0px;
+    align-items: center;
+    background-color: black;
+}
+
+.boxer-text {
+padding: 20px;
+text-align:center;
+}
+
+h1 {
+    color: Green;
+    background-color: black;
+}
+
+article {
+    background-color: black;
+    padding: 1.5em;
+    margin-bottom: 20px;
+}
