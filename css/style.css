@@ -1,5 +1,8 @@
 :root {
-    --grey-dark: #2a2a2a;
+    --grey-dark: #2d2d2c;
+    --grey-light: #e1e1e1;
+    --yellow-dark: #fff700;
+    --white: white;
 }
 
 /* Reset */
@@ -20,8 +23,8 @@ a {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    padding: 0.2rem 2rem;
-    background-color: rgb(216, 214, 214);
+    /* padding: 0 2rem; */
+    background-color: var(--grey-light)
 }
 
 .header__logo {
@@ -39,12 +42,21 @@ a {
 .nav__list {
     display: flex;
     list-style: none;
-    padding-top: 1.5rem;
     color: var(--grey-dark);
 }
 
 .nav__item {
-    padding: 0 1.5rem;
+    padding: 1.5rem 1.5rem 2rem;
     font-size: 1.2rem;
     cursor: pointer;
+}
+
+.nav__item:hover {
+    font-weight: 600;
+    background-color: var(--yellow-dark)
+}
+
+.nav__link:focus {
+    font-weight: 600;
+    background-color: var(--white);
 }
