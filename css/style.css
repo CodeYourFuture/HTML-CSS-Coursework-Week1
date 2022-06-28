@@ -6,3 +6,100 @@
  *    for example: General styles, Navigation styles, Hero styles, Footer etc.
  * 
  */
+
+header {
+    width:100%;
+    text-align: center;  
+}
+.hero {
+    background-image:url("https://imageio.forbes.com/specials-images/imageserve/61d52d4e3a76ed81ac034ea8/The-10-Tech-Trends-That-Will-Transform-Our-World/960x0.jpg?format=jpg&width=960");
+    background-size: cover;
+    background-position: center;
+    padding: 1rem;
+}
+    
+    
+/* Headings */
+h1 {
+    text-align: center;
+    color:white;
+    font-size: 60px;   
+}
+h2 {
+    font-size: 45px;
+    color:white;
+}
+h3 {
+    color:black;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    font-size: 32px;
+}
+body {
+    margin: 0 0;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;   
+}
+
+img {
+    width: 600px;
+    height: 400px;   
+}
+
+.image {
+    height: auto;
+    padding: 5px;
+    margin: 0 auto;
+    width:60%;
+}
+/* main */
+
+main section article:first-child {
+    box-shadow: 1px 1px 8px black;
+    padding: 10px;
+    background-color: rgb(234, 238, 241);
+}
+
+div:first-child: {
+    background_color:lightgray;
+}
+.description_paragraph {
+    padding-left: 10px;
+    margin: 80px 0;
+    width:100%;
+}
+.read_more {
+    color:rgb(46, 21, 21);
+    padding-top: 2px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+hr {
+    width: 70%;
+    height: 0.2px;
+    color: rgb(236, 234, 234);
+    margin-top: 30px;
+    font-weight: lighter;
+}
+p {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+    font-size:20px;
+    text-align: justify;
+}
+ /* Footer */
+.footer_content{
+    display :flex;
+    flex-direction: column;
+    align-items:center;
+    background-color:rgb(7,86,134);
+    color:white;
+}
+
+    
