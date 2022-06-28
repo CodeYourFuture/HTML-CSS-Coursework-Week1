@@ -87,6 +87,10 @@ article p {
     padding: 20px;
 }
 
+article:first-child {
+    color: #f75b0d;
+}
+
 .my-media {
     background-color: #b5b4b4;
     padding: 15px;
