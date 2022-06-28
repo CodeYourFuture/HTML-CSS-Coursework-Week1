@@ -6,27 +6,28 @@
  *    for example: General styles, Navigation styles, Hero styles, Footer etc.
  * 
  */
- /* Headings */
+
 header {
     width:100%;
     text-align: center;  
 }
 .hero {
-    background-image: linear-gradient(to right, rgba(58, 53, 53, 0.877), #b1596249), url("https: //images.pexels.com/photos/589802/pexels-photo-589802.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
-        background-size: cover;
-        background-position: center;
-        padding: 1rem;
-        height: 300px;
-        margin:  auto auto;
+    background-image:url("https://imageio.forbes.com/specials-images/imageserve/61d52d4e3a76ed81ac034ea8/The-10-Tech-Trends-That-Will-Transform-Our-World/960x0.jpg?format=jpg&width=960");
+    background-size: cover;
+    background-position: center;
+    padding: 1rem;
 }
     
+    
+/* Headings */
 h1 {
     text-align: center;
-    color:black;
+    color:white;
     font-size: 60px;   
 }
 h2 {
     font-size: 45px;
+    color:white;
 }
 h3 {
     color:black;
@@ -62,20 +63,27 @@ main section article:first-child {
     padding: 10px;
     background-color: rgb(234, 238, 241);
 }
-div:first-child : {
+
+div:first-child: {
     background_color:lightgray;
 }
-
 .description_paragraph {
     padding-left: 10px;
     margin: 80px 0;
     width:100%;
 }
 .read_more {
-    color:red;
+    color:rgb(46, 21, 21);
     padding-top: 2px;
     margin-right: 20px;
     margin-left: 20px;
+}
+hr {
+    width: 70%;
+    height: 0.2px;
+    color: rgb(236, 234, 234);
+    margin-top: 30px;
+    font-weight: lighter;
 }
 p {
     margin-top: 20px;
@@ -90,8 +98,8 @@ p {
     display :flex;
     flex-direction: column;
     align-items:center;
-    background-color:rgb(204, 183, 185);
-    color: red;
+    background-color:rgb(7,86,134);
+    color:white;
 }
 
     
