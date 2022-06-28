@@ -1,3 +1,7 @@
+:root {
+    --grey-dark: #2a2a2a;
+}
+
 /* Reset */
 
 * {
@@ -8,4 +12,39 @@
 
 a {
     text-decoration: none;
+    color: var(--grey-dark);
+}
+
+/* Header */
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 0.2rem 2rem;
+    background-color: rgb(216, 214, 214);
+}
+
+.header__logo {
+    max-height: 75px;
+    width: auto;
+}
+
+.header__title {
+    padding-top: 1rem;
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+/* Navigation */
+.nav__list {
+    display: flex;
+    list-style: none;
+    padding-top: 1.5rem;
+    color: var(--grey-dark);
+}
+
+.nav__item {
+    padding: 0 1.5rem;
+    font-size: 1.2rem;
+    cursor: pointer;
 }
