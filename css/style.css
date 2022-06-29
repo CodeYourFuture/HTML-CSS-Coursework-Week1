@@ -6,3 +6,48 @@
  *    for example: General styles, Navigation styles, Hero styles, Footer etc.
  * 
  */
+
+main section article:first-child {
+  background-color: rgb(174, 174, 211);
+}
+
+main,
+header,
+footer {
+  text-align: center;
+  padding: 0rem 15rem 0rem 15rem;
+}
+
+article {
+  margin-top: 3rem;
+  width: 100%;
+  background-color: rgb(169, 214, 214);
+}
+
+h1 {
+  color: rgb(190, 190, 207);
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  background-color: rgb(70, 70, 83);
+}
+
+p {
+  font-size: 1.2rem;
+  color: rgb(0, 0, 0);
+}
+
+.link {
+  color: rgb(138, 46, 46);
+}
+
+header {
+  font-size: 4.5rem;
+  color: rgb(70, 70, 83);
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+footer {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
