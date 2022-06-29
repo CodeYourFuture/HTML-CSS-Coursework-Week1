@@ -7,27 +7,72 @@
  * 
  */
 
-/* Header */
+/* Body - background colour */
+
+.body {
+    background-color: aliceblue;
+}
+
+/* Header - title, description, nav bar */
 
  .header {
-    border-style: dashed;
-    border-color: yellow;
+    /* border-style: dashed; */
+    /* border-color: yellow; */
     text-align: center;
     padding-bottom: 25px;
+    color: darkslategray;
+    font-size: 150%;
  }
+
+.header-title {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.header-description {
+    border-bottom: 2px solid darkcyan;
+    padding-bottom: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
 
  .header-nav {
-    border-style: dashed;
-    border-color: hotpink;
     display: flex;
     justify-content: space-evenly;
+    border-bottom: 1px solid darkcyan;
+    padding-bottom: 20px;
  }
 
+.header-link {
+    text-decoration: none;
+    color: steelblue;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.header-link:hover {
+    color: rebeccapurple;
+}
+
+/* Article 1 - John Frusciante */
  .article-1 {
     border-style: dashed;
     border-color: green;
     margin-top: 25px;
+    text-align: center;
+    width: 75%;
+    margin: auto;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
  }
+
+.article-1-title {
+    width: fit-content;
+    margin: auto;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: darkslategray;
+    border-bottom: 3px solid darkcyan;
+}
+
+.article-1-summary, .article-1-link-text {
+    font-size: 120%;
+}
 
  .article-2 {
     border-style: dashed;
