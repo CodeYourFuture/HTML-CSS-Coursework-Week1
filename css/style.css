@@ -6,3 +6,220 @@
  *    for example: General styles, Navigation styles, Hero styles, Footer etc.
  * 
  */
+
+
+/* Body - background colour */
+
+.body {
+    background-color: aliceblue;
+}
+
+
+/* Header - title, description, nav bar */
+
+ .header {
+    text-align: center;
+    padding-bottom: 25px;
+    color: darkslategray;
+    font-size: 150%;
+ }
+
+.header-title {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.header-description {
+    border-bottom: 2px solid darkcyan;
+    padding-bottom: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+ .header-nav {
+    display: flex;
+    justify-content: space-evenly;
+    border-bottom: 1px solid darkcyan;
+    padding-bottom: 20px;
+ }
+
+.header-link {
+    text-decoration: none;
+    color: steelblue;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.header-link:hover {
+    color: rebeccapurple;
+}
+
+
+/* Separator div */
+
+.separator {
+    border-bottom: 1px solid darkcyan;
+}
+
+
+/* Article 1 - John Frusciante */
+
+ .article-1 {
+    text-align: center;
+    width: 75%;
+    margin: auto;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 100px;
+ }
+
+.article-1-title {
+    width: 40%;
+    margin: auto;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: darkslategray;
+    border-bottom: 2px solid darkcyan;
+}
+
+.article-1-img {
+    margin-top: 20px;
+    height: 250px;
+    width: 445px;
+    border: solid 1px darkcyan;
+}
+
+.article-1-summary,
+.article-1-link-text {
+    font-size: 120%;
+}
+
+.article-1-summary {
+    border-top: 1px solid darkcyan;
+    padding-top: 5px;
+}
+
+.article-1-link {
+    text-decoration: none;
+    color: steelblue;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.article-1-link:hover {
+    color: rebeccapurple;
+}
+
+
+/* Article 2 - David Gilmour */
+
+ .article-2 {
+    text-align: center;
+    width: 75%;
+    margin: auto;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 200px;
+}
+
+.article-2:hover {
+    border: solid 2px rebeccapurple;
+    padding: 50px;
+}
+
+.article-2-title {
+    width: 40%;
+    margin: auto;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: darkslategray;
+    border-bottom: 2px solid darkcyan;
+}
+
+.article-2-img {
+    margin-top: 20px;
+    height: 250px;
+    width: 445px;
+    border: solid 1px darkcyan;
+}
+
+.article-2-summary,
+.article-2-link-text {
+    font-size: 120%;
+}
+
+.article-2-summary {
+    border-top: 1px solid darkcyan;
+    padding-top: 5px;
+}
+
+.article-2-link {
+    text-decoration: none;
+    color: steelblue;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.article-2-link:hover {
+    color: rebeccapurple;
+}
+
+
+ /* Article 3 - Eddie Hazel */
+ .article-3 {
+    text-align: center;
+    width: 75%;
+    margin: auto;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 200px;
+ }
+
+ .article-3:hover {
+    border: solid 2px rebeccapurple;
+    padding: 50px;
+ }
+
+ .article-3-title {
+     width: 40%;
+     margin: auto;
+     font-family: Georgia, 'Times New Roman', Times, serif;
+     color: darkslategray;
+     border-bottom: 2px solid darkcyan;
+ }
+
+ .article-3-img {
+     margin-top: 20px;
+     height: 250px;
+     width: 445px;
+     border: solid 1px darkcyan;
+ }
+
+ .article-3-summary,
+ .article-3-link-text {
+     font-size: 120%;
+ }
+
+ .article-3-summary {
+     border-top: 1px solid darkcyan;
+     padding-top: 5px;
+ }
+
+ .article-3-link {
+     text-decoration: none;
+     color: steelblue;
+     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ }
+
+ .article-3-link:hover {
+     color: rebeccapurple;
+ }
+
+
+ /* Footer */
+
+ .footer {
+    border-top: 2px solid darkcyan;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: darkslategray;
+    margin-top: 200px;
+ }
+
+
+ /* Pseudo-class: article 1st-child */
+
+article:first-child {
+    border: solid 2px rebeccapurple;
+    padding: 50px;
+}
