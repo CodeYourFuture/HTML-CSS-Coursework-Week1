@@ -16,6 +16,9 @@ main {
   justify-content: center;
   padding-bottom: 1rem;
 }
+article:first-child {
+  background-color: rgb(255, 224, 229);
+}
 .main-image {
   max-width: 100%;
   margin-bottom: 1rem;
