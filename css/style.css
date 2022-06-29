@@ -26,6 +26,9 @@
     text-decoration: none;
     font-size: 20px;
   } 
+  
+
+
 
 .hero-image {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://tinyurl.com/y62ds4by");
@@ -51,11 +54,12 @@
     margin-bottom: 2 rem;
     font-size: 2rem;
   }
-  .sidebar {
+  .sidebar:hover  {
     display: flex;
     flex-direction: column;
     min-width: 350px;
     color: darkblue;
+    background-color: yellow;
   }
   .article__title {
     margin-bottom: 0.5rem;
