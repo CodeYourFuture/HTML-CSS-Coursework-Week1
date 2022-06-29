@@ -1,0 +1,105 @@
+/**
+ * Add your custom styles below
+ *
+ * Remember: 
+ * - Be organised, use comments and separate your styles into meaningful chunks
+ *    for example: General styles, Navigation styles, Hero styles, Footer etc.
+ * 
+ */
+   
+
+ html, body{
+    margin: 0;
+    padding: 0;
+  }
+ body { 
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+    font-size: 1ream;
+    font-weight: normal;
+    line-height: 1.5;
+    background-color: rgb(245, 255, 240);
+    color: black;
+  }
+  ul{
+    margin: 0;
+  }
+
+  .nav li{
+ display: inline;
+ 
+}
+
+ .nav a{
+    display: inline-block;
+    padding: .5em;
+    color: black;
+    text-decoration: none;
+    
+    
+}
+ .main-nav li{
+    padding: 0 9%;
+ }
+
+
+  .nav a:hover{
+    background-color: aqua;
+}
+
+
+
+    img{
+        float: left;
+        height: 200px;
+        width: 200px;
+        margin: 10px;
+        border-radius: 100%;
+    }
+
+    header{
+        font-family: 'Courier New', Courier, monospace;
+        text-align: center;
+        font-size: 1rem;
+        line-height: normal;
+        border-color:rgb(0, 225, 255);
+        border-style:inset;
+        border-width: thick;
+        padding-bottom: 10px;
+    }
+
+    section:first-child{
+  font-weight: 500;
+    }
+
+   .content-section{
+    margin: 1em;
+   }
+   
+   
+    .container1{
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 0 1.5rem;
+
+    }
+
+     .container2{
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 0 1.5rem; 
+
+    }
+
+     .container3{
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 0 1.5rem; 
+
+    }
+
+    .main-footer{
+        text-align: right;
+        color: blue; 
+        text-decoration: dotted;
+    }
+    
