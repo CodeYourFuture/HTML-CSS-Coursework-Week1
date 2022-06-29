@@ -7,17 +7,17 @@
  * 
  */
 
+
 /* Body - background colour */
 
 .body {
     background-color: aliceblue;
 }
 
+
 /* Header - title, description, nav bar */
 
  .header {
-    /* border-style: dashed; */
-    /* border-color: yellow; */
     text-align: center;
     padding-bottom: 25px;
     color: darkslategray;
@@ -51,6 +51,14 @@
     color: rebeccapurple;
 }
 
+
+/* Separator div */
+
+.separator {
+    border-bottom: 1px solid darkcyan;
+}
+
+
 /* Article 1 - John Frusciante */
 
  .article-1 {
@@ -58,7 +66,7 @@
     width: 75%;
     margin: auto;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    margin-top: 50px;
+    margin-top: 100px;
  }
 
 .article-1-title {
@@ -76,7 +84,8 @@
     border: solid 1px darkcyan;
 }
 
-.article-1-summary, .article-1-link-text {
+.article-1-summary,
+.article-1-link-text {
     font-size: 120%;
 }
 
@@ -95,28 +104,103 @@
     color: rebeccapurple;
 }
 
-.separator {
-    border-bottom: 1px solid darkcyan;
-}
 
 /* Article 2 - David Gilmour */
-
  .article-2 {
-    border-style: dashed;
-    border-color: red;
-    margin-top: 25px;
- }
-
- .article-3 {
-    border-style: dashed;
-    border-color: blue;
-    margin-top: 25px;
- }
-
- .footer {
-    border-style: dashed;
-    border-color: purple;
     text-align: center;
-    margin-top: 25px;
+    width: 75%;
+    margin: auto;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 200px;
+}
+
+.article-2-title {
+    width: 40%;
+    margin: auto;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: darkslategray;
+    border-bottom: 2px solid darkcyan;
+}
+
+.article-2-img {
+    margin-top: 20px;
+    height: 250px;
+    width: 445px;
+    border: solid 1px darkcyan;
+}
+
+.article-2-summary,
+.article-2-link-text {
+    font-size: 120%;
+}
+
+.article-2-summary {
+    border-top: 1px solid darkcyan;
+    padding-top: 5px;
+}
+
+.article-2-link {
+    text-decoration: none;
+    color: steelblue;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.article-2-link:hover {
+    color: rebeccapurple;
+}
+
+
+ /* Article 3 - Eddie Hazel */
+ .article-3 {
+    text-align: center;
+    width: 75%;
+    margin: auto;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 200px;
+ }
+
+ .article-3-title {
+     width: 40%;
+     margin: auto;
+     font-family: Georgia, 'Times New Roman', Times, serif;
+     color: darkslategray;
+     border-bottom: 2px solid darkcyan;
+ }
+
+ .article-3-img {
+     margin-top: 20px;
+     height: 250px;
+     width: 445px;
+     border: solid 1px darkcyan;
+ }
+
+ .article-3-summary,
+ .article-3-link-text {
+     font-size: 120%;
+ }
+
+ .article-3-summary {
+     border-top: 1px solid darkcyan;
+     padding-top: 5px;
+ }
+
+ .article-3-link {
+     text-decoration: none;
+     color: steelblue;
+     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ }
+
+ .article-3-link:hover {
+     color: rebeccapurple;
+ }
+
+
+ /* Footer */
+ .footer {
+    border-top: 2px solid darkcyan;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: darkslategray;
+    margin-top: 200px;
  }
 
