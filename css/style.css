@@ -2,7 +2,229 @@
  * Add your custom styles below
  * 
  * Remember: 
- * - Be organised, use comments and separate your styles into meaningful chunks
+ * - Be organized, use comments and separate your styles into meaningful chunks
  *    for example: General styles, Navigation styles, Hero styles, Footer etc.
  * 
  */
+
+html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Handlee", cursive;
+    font-size: 13pt;
+    background-color: #f8f6f6;
+    padding: 10px;
+    margin: 0;
+}
+
+#header {
+    background-image: url("https://img.freepik.com/free-vector/programming-code-coding-hacker-background-programming-code-icon-made-with-binary-code_127544-815.jpg?size=626&ext=jpg");
+    background-size: cover;
+}
+
+#header img {
+    display: block;
+    width: 80px;
+    height: 80px;
+    margin: auto;
+}
+
+h1 {
+    font-size: 25pt;
+    color: #ffffff;
+    padding-top: 5px;
+    margin: 0;
+    font-weight: bold;
+    text-align: center;
+}
+
+h2 {
+    color: #ffffff;
+    text-align: center;
+}
+
+h3 {
+    font-size: 25pt;
+    color: #20bcd5;
+    text-align: center;
+    padding: 18px 0 18px 0;
+    margin: 0 0 10px 0;
+    color: rgb(82, 63, 63);
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+
+h4, h5 {
+    text-align: center;
+    font-size: 18px;
+    padding-top: 10px;
+}
+
+.c-site-header {
+    background-color: #fff;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+li:hover{
+    color:#20bcd5;
+}
+
+.avatar-circle {
+    border: 8px solid pink;
+    border-radius: 50%;
+}
+
+.container {
+    background-color: #b5b4b4;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+article p {
+    padding: 20px;
+}
+
+article:first-child {
+    background-color: #bbeff7;
+}
+
+.my-media {
+    background-color: #b5b4b4;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+iframe {
+    display: block;
+    margin: 0 auto;
+    border: 3px dashed #f1f3f3;
+    width: 560;
+    height: 315;
+
+}
+
+.my-skills {
+    background-color: #b5b4b4;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+.my-skills ul {
+    padding: 20px;
+}
+ .my-skills li{
+    margin: 10px;
+ }
+
+.my-certificates {
+    background-color: #b5b4b4;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+.my-certificates li {
+    padding: 20px;
+}
+
+.my-certificates li:hover {
+    color:#f75b0d;
+}
+
+form {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.c-site-footer {
+    background-color: #b5b4b4;
+    padding: 15px;
+    margin-bottom: 0;
+    border-radius: 10px;
+    text-align: center;
+}
+
+nav ul{
+    display: flex;
+    justify-content: flex-end;
+    background-color: rgb(152, 151, 151);
+    border: 6px solid rgb(147, 146, 146);
+    border-radius: 10px;
+}
+
+ul {display: flex; 
+    justify-content: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    
+}
+
+li {
+    float: left;
+    color: white;
+}
+
+li a {
+    display: block;
+    color: #000000;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 10px;
+    padding-right: 80px;
+    text-decoration: none;
+}
+
+li a:hover {
+    color:rgb(247, 71, 71);
+    border-top: 2px solid #f75b0d;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 50px;
+    width: 20px;
+    text-align: center;
+    text-decoration: none;
+    margin: 10px;
+    border-radius: 50%;
+    display: inline;
+
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+    background: #d7dff1;
+    color: #3B5998;
+        
+
+}
+
+.fa-twitter {
+    background: #e0d8d8;
+    color: rgb(108, 219, 239);
+}
+
+.fa-instagram {
+    background-color: rgb(247, 71, 71);
+    color: white;
+}
+
+@media only screen and (max-width: 600px) {
+    nav {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
