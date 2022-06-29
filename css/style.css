@@ -6,3 +6,45 @@
  *    for example: General styles, Navigation styles, Hero styles, Footer etc.
  * 
  */
+
+/* Header */
+
+ .header {
+    border-style: dashed;
+    border-color: yellow;
+    text-align: center;
+    padding-bottom: 25px;
+ }
+
+ .header-nav {
+    border-style: dashed;
+    border-color: hotpink;
+    display: flex;
+    justify-content: space-evenly;
+ }
+
+ .article-1 {
+    border-style: dashed;
+    border-color: green;
+    margin-top: 25px;
+ }
+
+ .article-2 {
+    border-style: dashed;
+    border-color: red;
+    margin-top: 25px;
+ }
+
+ .article-3 {
+    border-style: dashed;
+    border-color: blue;
+    margin-top: 25px;
+ }
+
+ .footer {
+    border-style: dashed;
+    border-color: purple;
+    text-align: center;
+    margin-top: 25px;
+ }
+
