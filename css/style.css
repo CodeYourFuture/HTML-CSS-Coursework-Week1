@@ -7,5 +7,59 @@
  * 
  */
 body {
- background-color: blue;   
+ background-color: #000; 
+ color: #fff;  
+ margin: auto;
+}
+
+header {
+    text-align: center;
+    background-color:lightslategray;
+    }
+nav {
+  background-color: lightgray;
+  display: flex; 
+  flex-direction: row; 
+  justify-content: center;
+}    
+
+.nav-links {
+  background-color: cadetblue;
+  text-decoration: none;
+  font-weight: bold;
+  margin: 7px 7px 5px 0px;
+  padding: 7px 7px 5px 7px;
+  border-radius: 5px;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding:10px 10px;
+}
+
+article {
+    padding: 10px;
+    margin: auto;
+    background-color: lightseagreen;
+    margin: 20px 5px;
+    border-radius: 17px;
+}
+
+
+
+/* pseudo selector first-child of article-sec           */
+
+.article-sec article:first-child:hover {
+
+    background-color: brown;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+footer {
+ color: #fff;
+ background-color: lightslategray;
+ padding: 10px; 
+ margin: 10px;  
 }
