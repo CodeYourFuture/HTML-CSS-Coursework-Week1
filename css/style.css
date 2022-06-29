@@ -6,3 +6,29 @@
  *    for example: General styles, Navigation styles, Hero styles, Footer etc.
  * 
  */
+*{
+    background-color: rgb(115, 227, 194);
+}
+
+
+/** header section*/
+.header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/** Navigation section*/
+.header-nav{
+    background-color: blue;
+}
+.nav-item-holder{
+    display: flex;
+    
+}
+.nav-items{
+    display: flex;
+    margin: 50px;
+}
