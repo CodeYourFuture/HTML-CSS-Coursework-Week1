@@ -55,4 +55,40 @@
     display: flex;
     flex-direction: column;
     min-width: 350px;
+    color: darkblue;
   }
+  .article__title {
+    margin-bottom: 0.5rem;
+    font-size: 1rem;
+    font-weight: 700;
+    border: 2px gray;
+    color: blue;
+  }
+  
+  .article__title-link {
+    color: blueviolet;
+    color: var(--orange-dark);
+  }
+  
+  .article__summary {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    color: brown;
+  }
+  .footer__content {
+    border-top: 2px solid var(--orange-light);
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    color: green;
+  }
+  
+  .footer p {
+    padding-bottom: 1rem;
+    text-align: center;
+    font-size: 0.85rem;
+  }
+  
+  
+
+  
+  
