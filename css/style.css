@@ -58,6 +58,8 @@ h3 {
 
 h4, h5 {
     text-align: center;
+    font-size: 18px;
+    padding-top: 10px;
 }
 
 .c-site-header {
@@ -88,7 +90,7 @@ article p {
 }
 
 article:first-child {
-    color: #f75b0d;
+    background-color: #bbeff7;
 }
 
 .my-media {
@@ -117,6 +119,9 @@ iframe {
 .my-skills ul {
     padding: 20px;
 }
+ .my-skills li{
+    margin: 10px;
+ }
 
 .my-certificates {
     background-color: #b5b4b4;
@@ -146,14 +151,21 @@ form {
     text-align: center;
 }
 
-ul {
+nav ul{
+    display: flex;
+    justify-content: flex-end;
+    background-color: rgb(152, 151, 151);
+    border: 6px solid rgb(147, 146, 146);
+    border-radius: 10px;
+}
+
+ul {display: flex; 
+    justify-content: center;
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: rgb(152, 151, 151);
-    border: 6px solid rgb(147, 146, 146);
-    border-radius: 10px;
+    
 }
 
 li {
@@ -163,14 +175,17 @@ li {
 
 li a {
     display: block;
-    color: white;
+    color: #000000;
+    font-size: 20px;
     text-align: center;
-    padding: 14px 16px;
+    padding-top: 10px;
+    padding-right: 80px;
     text-decoration: none;
 }
 
 li a:hover {
     color:rgb(247, 71, 71);
+    border-top: 2px solid #f75b0d;
 }
 
 .fa {
