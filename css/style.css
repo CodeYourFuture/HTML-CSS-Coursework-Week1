@@ -7,7 +7,30 @@
  * 
  */
 body {
-  max-width: 60%;
+  max-width: 100%;
+}
+main,
+.main-image {
+  max-width: 100%;
+}
+main {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
+}
+article {
+  max-width: 50vw;
+}
+figure {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.center-text {
+  text-align: center;
+}
+@media screen and (max-width: 900px) {
+  article {
+    max-width: 90vw;
+  }
 }
