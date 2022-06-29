@@ -6,3 +6,35 @@
  *    for example: General styles, Navigation styles, Hero styles, Footer etc.
  * 
  */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #fff;
+}
+
+.newspaper {
+    display: flex;
+}
+
+.header {}
+
+.article-1 {
+    display: flex;
+}
+
+.article-2 {
+    display: flex;
+}
+
+.article-3 {
+    display: flex;
+}
+
+.footer {
+    display: flex;
+}
