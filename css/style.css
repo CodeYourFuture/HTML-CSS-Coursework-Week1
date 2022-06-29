@@ -66,6 +66,7 @@ main {
   display: flex;
   position: relative;
   /* background-color: aqua; */
+  background-image: url(../jean-philippe-delberghe-75xPHEQBmvA-unsplash.jpg);
 }
 .main h1 {
   text-align: center;
@@ -136,4 +137,10 @@ aside h3 {
 }
 .fa-github {
   margin-right: 20px;
+}
+.footer h5 {
+  display: flex;
+  position: absolute;
+  margin-left: 500px;
+  /* background-color: blueviolet; */
 }
