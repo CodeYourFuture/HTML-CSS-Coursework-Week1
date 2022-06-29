@@ -106,12 +106,18 @@
 
 
 /* Article 2 - David Gilmour */
+
  .article-2 {
     text-align: center;
     width: 75%;
     margin: auto;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     margin-top: 200px;
+}
+
+.article-2:hover {
+    border: solid 2px rebeccapurple;
+    padding: 50px;
 }
 
 .article-2-title {
@@ -159,6 +165,11 @@
     margin-top: 200px;
  }
 
+ .article-3:hover {
+    border: solid 2px rebeccapurple;
+    padding: 50px;
+ }
+
  .article-3-title {
      width: 40%;
      margin: auto;
@@ -196,6 +207,7 @@
 
 
  /* Footer */
+
  .footer {
     border-top: 2px solid darkcyan;
     text-align: center;
@@ -204,3 +216,10 @@
     margin-top: 200px;
  }
 
+
+ /* Pseudo-class: article 1st-child */
+
+article:first-child {
+    border: solid 2px rebeccapurple;
+    padding: 50px;
+}
