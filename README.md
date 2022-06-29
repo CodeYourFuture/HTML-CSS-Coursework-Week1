@@ -25,3 +25,5 @@ It should include the following elements:
   <a href="blog-sketch-week-1.png" target="blank">
     <img src="blog-sketch-week-1.png" style="border: 1px solid #bababa;">
   </a>
+
+   

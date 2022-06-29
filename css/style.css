@@ -6,129 +6,134 @@
  *    for example: General styles, Navigation styles, Hero styles, Footer etc.
  * 
  */
- /* nav */
- body {
+/* nav */
+/* body  */
+body {
   box-sizing: border-box;
   width: 100vw;
   overflow-x: hidden;
+  background-image: url(../jean-philippe-delberghe-75xPHEQBmvA-unsplash.jpg);
+  /* background-color: rgb(0, 179, 255); */
   margin: 0;
-  background: url(/download\.png);
-  background-size: cover;
 }
-.header {
-  display: flex;
-  width: 100%;
-  justify-content: space-between;
+/* nav */
+.topnav {
+  /* background-color: rgb(171, 171, 67); */
+  overflow: hidden;
   position: fixed;
-  align-items: center;
-  /* background-color: aqua; */
+  top: 0;
+  width: 100%;
+  margin-bottom: 8rem;
+  margin-top: 1rem;
 }
-/* logo  */
-.logo {
-  width: 100px;
-  height: 60px;
-  border-radius: 30px;
-  opacity: 0.3;
-}
-.logo:hover {
-  opacity: 1.0;
-  box-shadow: 10px 10px 18px rgb(230, 4, 4);
-}
-/* nav  */
- 
-.nav-list {
-   display: inline; 
-  float: left;
+.topnav a {
+  float: right;
   color: darkblue;
-  padding: 14px 16px;
-  
-  font-size: 2rem;
-  margin-right: 20px;
-  
-}
-.nav-link {
-  display: block;
   text-align: center;
-  /* text-decoration: none; */
-  /* margin-right: 10px; */
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  font-weight: bold;
+  text-align: center;
   padding: 15px 25px;
-  background-color: rgb(52, 143, 233);
+  background-color: rgb(22, 109, 33);
   color: aliceblue;
-  /* border-radius: 7px; */
-  -webkit-border-top-right-radius: 10px;
-  -webkit-border-top-left-radius: 10px;
-  -moz-border-radius-top-left: 10px;
-  -moz-border-radius-top-right: 10px;
   border: 2px solid black;
   width: 75px;
-  /* font-weight: bold; */
-  /* font-size: 20px; */
   transition: all 0.3s ease;
 }
 /* Change the color of links on hover */
-/* .nav-link:hover {
-  color: black; 
+.nav-link:hover {
+  color: black;
   background: #96e0e9;
-  -moz-transition: background-color 200ms ease-in;
-  -webkit-transition: background-color 200ms ease-in;
-  -ms-transition: background-color 200mx ease-in;
-  -o-transition: background-color 200ms ease-in;
-  transition: background-color 200ms ease-in;
   box-shadow: 5px 10px 18px red inset;
-   padding: 25px 15px 10px 15px;
-  
-} */
-/* #onlink {
-   
-  background: none;
-  color: #000000;
-  border-bottom: 1px solid #ffffff;
-  border-bottom: none;
-} */
-
-ul {
-  list-style-type: none;
-  
+  padding: 25px 15px 10px 15px;
+}
+#active {
+  background-color: rgb(33, 162, 24);
+  color: black;
+}
+* {
   margin: 0;
   padding: 0;
-  overflow: hidden;
 }
-li {
-  float: left;
-   display: inline; 
-  float: left;
-  color: darkblue;
-  padding: 1px 1px;
-  
-  font-size: 2rem;
+
+/* main */
+main {
+  margin-top: 100px;
+}
+.main-container {
+  display: flex;
+  position: relative;
+  /* background-color: aqua; */
+}
+.main h1 {
+  text-align: center;
+  font-size: 40px;
+}
+.article-1 {
+  margin: 40px;
+  font-size: 30px;
+}
+.main-container-2 {
+  display: flex;
+  position: relative;
+  /* background-color: aqua; */
+}
+.main h2 {
+  text-align: center;
+  font-size: 40px;
+}
+.article-2 {
+  margin: 50px;
+  font-size: 30px;
+}
+.main h1 {
+  text-align: center;
+  font-size: 40px;
+}
+/* aside */
+aside {
+  margin: 40px;
+  font-size: 25px;
+  border: 2px solid rgb(181, 163, 163);
+  padding: 20px;
+  background-color: rgb(212, 216, 219);
+  box-shadow: 5px 10px 18px rgb(80, 53, 53)
+}
+aside h3 {
+  text-align: center;
+}
+
+.main h4 {
+  text-align: center;
+  font-size: 40px;
+}
+.about p {
+  margin: 40px;
+  font-size: 30px;
+}
+/* footer */
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100px;
+  /* background-color: aquamarine; */
+}
+/* .footer a {
+  font-size: 30px;
+  text-align: center;
+  margin-bottom: 80px;
+} */
+.go {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-bottom: 7%;
+  font-size: 2.5rem;
+}
+.fa-github {
   margin-right: 20px;
-}
-li a {
-  display: block;
-  padding: 8px;
-  text-align: center;
-  display: block;
-  text-align: center;
-  padding: 15px 25px;
-  background-color: rgb(52, 143, 233);
-  color: aliceblue;
-  -webkit-border-top-right-radius: 10px;
-  -webkit-border-top-left-radius: 10px;
-  -moz-border-radius-top-left: 10px;
-  -moz-border-radius-top-right: 10px;
-  border: 2px solid black;
-  width: 75px;
-  transition: all 0.3s ease;
-}
-li a:hover {
-   
-   color: black; 
-  background: #96e0e9;
-  -moz-transition: background-color 200ms ease-in;
-  -webkit-transition: background-color 200ms ease-in;
-  -ms-transition: background-color 200mx ease-in;
-  -o-transition: background-color 200ms ease-in;
-  transition: background-color 200ms ease-in;
-  box-shadow: 5px 10px 18px red inset;
-   padding: 25px 15px 10px 15px;
 }
