@@ -52,27 +52,54 @@
 }
 
 /* Article 1 - John Frusciante */
+
  .article-1 {
-    border-style: dashed;
-    border-color: green;
-    margin-top: 25px;
     text-align: center;
     width: 75%;
     margin: auto;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 50px;
  }
 
 .article-1-title {
-    width: fit-content;
+    width: 40%;
     margin: auto;
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: darkslategray;
-    border-bottom: 3px solid darkcyan;
+    border-bottom: 2px solid darkcyan;
+}
+
+.article-1-img {
+    margin-top: 20px;
+    height: 250px;
+    width: 445px;
+    border: solid 1px darkcyan;
 }
 
 .article-1-summary, .article-1-link-text {
     font-size: 120%;
 }
+
+.article-1-summary {
+    border-top: 1px solid darkcyan;
+    padding-top: 5px;
+}
+
+.article-1-link {
+    text-decoration: none;
+    color: steelblue;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.article-1-link:hover {
+    color: rebeccapurple;
+}
+
+.separator {
+    border-bottom: 1px solid darkcyan;
+}
+
+/* Article 2 - David Gilmour */
 
  .article-2 {
     border-style: dashed;
