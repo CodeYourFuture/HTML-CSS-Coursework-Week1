@@ -6,3 +6,93 @@
  *    for example: General styles, Navigation styles, Hero styles, Footer etc.
  * 
  */
+ body, html {
+    height: 100%;
+    margin: 0;
+ }
+ .logo {
+    max-height: 120px;
+    width: auto;
+  }
+  .topnav {
+    background-color: maroon;
+    overflow: hidden;
+  }
+  .topnav a {
+    float: right;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 10px 12px;
+    text-decoration: none;
+    font-size: 20px;
+  } 
+  
+
+
+
+.hero-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://tinyurl.com/y62ds4by");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 60%;
+    width: 100%;
+
+  }
+  .hero-image h1 {
+    text-align: center;
+    position: center;
+    color: green;
+    margin-bottom: 1 rem;
+    font-size: 4rem;
+  }
+  .hero-image p {
+    text-align: center;
+    position: center;
+    color: white;
+    margin-bottom: 2 rem;
+    font-size: 2rem;
+  }
+  .sidebar:hover  {
+    display: flex;
+    flex-direction: column;
+    min-width: 350px;
+    color: darkblue;
+    background-color: yellow;
+  }
+  .article__title {
+    margin-bottom: 0.5rem;
+    font-size: 1rem;
+    font-weight: 700;
+    border: 2px gray;
+    color: blue;
+  }
+  
+  .article__title-link {
+    color: blueviolet;
+    color: var(--orange-dark);
+  }
+  
+  .article__summary {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    color: brown;
+  }
+  .footer__content {
+    border-top: 2px solid var(--orange-light);
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    color: green;
+  }
+  
+  .footer p {
+    padding-bottom: 1rem;
+    text-align: center;
+    font-size: 0.85rem;
+  }
+  
+  
+
+  
+  
