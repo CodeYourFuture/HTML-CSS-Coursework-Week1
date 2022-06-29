@@ -1,0 +1,56 @@
+body {
+  width: 100%;
+  background-color: black;
+}
+button {
+  background-color: white;
+  border-radius: 0.25rem;
+  border: none;
+  margin-left: 1rem;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+header {
+  font-family: "Amatic SC", cursive;
+  font-size: 3rem;
+  line-height: 80%;
+}
+main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+figure {
+  background-color: white;
+  padding: 2rem 2rem;
+  max-width: 90vw;
+}
+figcaption {
+  max-width: 60vw;
+}
+img {
+  max-width: 70vw;
+}
+.drop-shadow {
+  box-shadow: 3px 4px 8px gray;
+}
+p {
+  font-family: "Quicksand", sans-serif;
+}
+.center-text {
+  text-align: center;
+  color: white;
+}
+hr {
+  border: none;
+  background-color: gray;
+  height: 1px;
+  max-width: 70vw;
+}
+/* MANCHESTER */
+.align-center {
+  display: block;
+  margin: auto;
+}

@@ -10,15 +10,15 @@ body {
   max-width: 100%;
   background-color: black;
 }
-main,
-.main-image {
-  max-width: 100%;
-}
 main {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   padding-bottom: 1rem;
+}
+.main-image {
+  max-width: 100%;
+  margin-bottom: 1rem;
 }
 header {
   margin-bottom: 2rem;
@@ -55,13 +55,19 @@ p {
 article {
   max-width: 50vw;
   background-color: white;
-  padding: 0rem 2rem;
+  padding: 0rem 2rem 2rem 2rem;
   margin-bottom: 1rem;
+}
+.drop-shadow {
+  box-shadow: 3px 4px 8px gray;
 }
 figure {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+}
+figcaption {
+  margin-top: 1rem;
 }
 .center-text {
   text-align: center;
