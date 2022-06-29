@@ -15,8 +15,13 @@ body {
 
 header {
     margin: 0em 1em ;
-    padding: 0.2em 1em 2em 0em;
-    background-color: lightslategray;
+        padding: 0.2em 1em 2em 0em;
+        background-image: url("/images/canal-art3.png");
+        text-align: center;
+        background-color: lightslategray;
+        background-repeat: no-repeat;
+        background-position: center;
+        width: 100%;
    
     }
 
@@ -35,15 +40,7 @@ header {
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     text-shadow: none;
  }
-    .bg-image {
-        text-align: center;
-        opacity: 0.6;
-        background-color: lightslategray;
-        background-repeat: no-repeat;
-        background-position: center;
-        width: 25%;
-
-    }
+    
     
 
 
@@ -71,6 +68,13 @@ nav {
    color: lightskyblue;
 }
 
+.intro-image {
+
+    width: 30%;
+}
+
+
+
 section {
     display: flex;
     justify-content: center;
@@ -78,7 +82,7 @@ section {
     padding:10px 10px;
 }
 
-article {
+ article {
     padding: 10px;
     margin: auto;
     background-color: lightseagreen;
