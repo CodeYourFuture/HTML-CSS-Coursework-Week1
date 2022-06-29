@@ -28,28 +28,28 @@
   } 
 
 .hero-image {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://images.newindianexpress.com/uploads/user/imagelibrary/2020/3/21/original/From_the_Nawabs.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://tinyurl.com/y62ds4by");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
-    height: 50%;
-    width: 60%;
+    height: 60%;
+    width: 100%;
 
   }
   .hero-image h1 {
     text-align: center;
     position: center;
-    color: white;
+    color: green;
     margin-bottom: 1 rem;
-    font-size: 3rem;
+    font-size: 4rem;
   }
   .hero-image p {
     text-align: center;
     position: center;
     color: white;
     margin-bottom: 2 rem;
-    font-size: 1.2rem;
+    font-size: 2rem;
   }
   .sidebar {
     display: flex;
