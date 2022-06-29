@@ -10,18 +10,50 @@ body {
  background-color: #000; 
  color: #fff;  
  margin: auto;
+ text-align: center;
 }
 
 header {
-    text-align: center;
-    background-image: url("/images/canal-art2.png") ;
-    background-color:lightslategray;
+    margin: 0em 1em ;
+    padding: 0.2em 1em 2em 0em;
+    background-color: lightslategray;
+   
     }
+
+ h1 {
+    font-family: 'Calligraffitti', cursive;
+        font-family: 'Courgette', cursive;
+    font-size: 48px;
+    text-align: center;
+    font-style: italic;
+    color: #fff;
+    text-shadow: 4px 4px #000 ;
+ }
+ 
+
+ h1:hover {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-shadow: none;
+ }
+    .bg-image {
+        text-align: center;
+        opacity: 0.6;
+        background-color: lightslategray;
+        background-repeat: no-repeat;
+        background-position: center;
+        width: 25%;
+
+    }
+    
+
+
 nav {
+   position: sticky;
   background-color: lightgray;
-  display: flex; 
+  display: flex;
   flex-direction: row; 
   justify-content: center;
+  margin: 0em 1em;
 }    
 
 .nav-links {
