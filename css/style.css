@@ -14,6 +14,7 @@ body {
 
 header {
     text-align: center;
+    background-image: url("/images/canal-art2.png") ;
     background-color:lightslategray;
     }
 nav {
@@ -32,6 +33,12 @@ nav {
   border-radius: 5px;
 }
 
+.nav-links:hover {
+   background-color: darkcyan;
+   font-weight: bolder ; 
+   color: lightskyblue;
+}
+
 section {
     display: flex;
     justify-content: center;
@@ -45,6 +52,7 @@ article {
     background-color: lightseagreen;
     margin: 20px 5px;
     border-radius: 17px;
+    
 }
 
 
@@ -56,10 +64,26 @@ article {
     background-color: brown;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-
+ /* footer section       */   
 footer {
- color: #fff;
+ display: flex;   
+ flex-direction: row;
+ justify-content: space-between;
+color: #fff;
  background-color: lightslategray;
- padding: 10px; 
- margin: 10px;  
+ padding: 1em; 
+ margin: 1em;  
+}
+
+.footer-container {
+display: flex;
+flex-direction: row; 
+list-style-type: none;
+margin: auto;
+}
+
+
+ .footer-links  {
+  text-decoration: none;  
+ margin-right: 2em;
 }
