@@ -20,25 +20,80 @@ body {
 }
 
 .newspaper {
+    background-image: url(../img/background-paper.jpg);
+    background-size: cover;
     background-color: antiquewhite;
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     /* align-content: center; */
     /* justify-content: center; */
     /* align-items: center; */
+    /* justify-content: space-between; */
     width: 1000px;
-    height: 100vh;
+    /* height: 100vh; */
+    padding: 50px;
 }
 
 .header {
-    background-color: green;
     display: flex;
+    justify-content: space-around;
+}
+
+.logo {
+    height: 150px;
+}
+
+
+/*Navigation */
+
+
+/* #dp-nav {
+    background-color: #000;
+    height: 40px;
+    margin-bottom: 20px;
+}
+
+#dp-nav ul {
+    list-style: none;
+    list-style-type: none;
+}
+
+#dp-nav li {
+    float: left;
+    padding: 13px 19px;
+    border-right: 1px dashed #3f3e3e;
+    text-transform: uppercase;
+    font-size: 10pt;
+}
+
+#dp-nav li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+#dp-nav li a:hover {
+    color: #e8ddb0;
+} 
+*/
+
+.title-paper {
+    height: 160px;
+    width: auto;
 }
 
 .article-1 {
-    background-color: orange;
     display: flex;
+    flex-direction: row;
+}
+
+.art1-content {
+    display: flex;
+    flex-direction: row;
+}
+
+.art1-img {
+    height: 350px;
 }
 
 .article-2 {
@@ -60,4 +115,6 @@ body {
 .article-1,
 .article-2,
 .article-3,
+.footer {}
+
 .footer {}
