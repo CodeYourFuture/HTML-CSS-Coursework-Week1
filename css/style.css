@@ -32,6 +32,17 @@ header:first-child img {
     text-decoration: none;
     color: whitesmoke;
     justify-content: space-between;
+    padding: 10px;
+    
+}
+
+
+a:hover {
+    color: orange;
+}
+
+a:active {
+    color: blue;
 }
 
  main {
@@ -42,6 +53,9 @@ header:first-child img {
     margin: 0 auto;
  }
 
+ .football {
+    background-color:honeydew
+ }
  table {
     font-family: arial, sans-serif;
         border-collapse: collapse;
@@ -58,6 +72,10 @@ header:first-child img {
         background-color: #dddddd;
  }
 
+ .heading {
+    margin-top: 50px;
+    
+ }
  .image {
     justify-content: center;
     width: 50px;
@@ -73,5 +91,5 @@ header:first-child img {
 
  footer {
     text-align: center;
-    color:chocolate;
+    color:darkgoldenrod;
  }
