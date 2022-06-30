@@ -1,8 +1,204 @@
-/**
- * Add your custom styles below
- * 
- * Remember: 
- * - Be organised, use comments and separate your styles into meaningful chunks
- *    for example: General styles, Navigation styles, Hero styles, Footer etc.
- * 
- */
+:root {
+    --grey-dark: #463e33;
+    --grey-light: #dcdccf;
+    --yellow: #fff700;
+    --purple-dark: #b0566a;
+    --purple-light: #fce2e7;
+    --white: white;
+}
+
+/* Reset */
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto Mono', monospace;
+    color: var(--grey-dark);
+}
+
+a {
+    text-decoration: none;
+    color: var(--grey-dark);
+}
+
+
+/* Header */
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0.5rem 1.5rem;
+    background-color: var(--grey-light);
+}
+
+.header__section {
+    display: flex;
+    flex-direction: row;
+}
+
+.header__logo {
+    max-height: 50px;
+    width: auto;
+}
+
+.header__title {
+    padding: 0.5rem 1.5rem 0;
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+/* Navigation */
+.nav__list {
+    display: flex;
+    list-style: none;
+    color: var(--grey-dark);
+}
+
+.nav__item {
+    margin-top: 0.5rem;
+    padding: 0.5rem 1.5rem;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+.nav__item:hover {
+    font-weight: 700;
+    background-color: var(--yellow)
+}
+
+.nav__link:focus {
+    font-weight: 600;
+    background-color: var(--white);
+}
+
+/* Hero section */
+.hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url("../images/woman-tech.jpg");
+    background-color: var(--grey-light);
+    height: 90vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    filter: grayscale(80%);
+    border-bottom: 1px dashed var(--grey-dark);
+
+}
+
+.hero:hover {
+    filter: initial;
+}
+
+.hero__title {
+    font-size: 4rem;
+    color: var(--grey-light);
+}
+
+.hero__subtitle {
+    font-size: 1.5rem;
+    color: var(--grey-dark);
+    background-color: var(--yellow);
+}
+
+/* Main */
+
+/* Articles */
+.articles__section {
+    width: 90vw;
+    margin: auto;
+    padding: 2rem;
+}
+
+.article {
+    display: flex;
+    flex-direction: row;
+    /* align-items: center; */
+    width: fit-content;
+    margin-bottom: 2rem;
+    background-color: var(--grey-light);
+    border: 3px dashed var(--grey-dark);
+}
+
+.article:first-child {
+    background-color: var(--purple-light);
+    border: 3px dashed var(--purple-dark);
+}
+
+.article__image {
+    width: 400px;
+    height: auto;
+}
+
+.article__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 2rem;
+}
+
+.article__title {
+    margin-top: 1rem;
+    font-size: 2rem;
+    text-align: center;
+
+}
+
+.article__title:hover {
+    background-color: var(--yellow);
+}
+
+.article__summary {
+    padding: 1.5rem;
+    font-size: 1.2rem;
+    text-align: justify;
+}
+
+.article__link {
+    font-weight: 600;
+    color: var(--purple-dark);
+}
+
+.article__link:hover {
+    background-color: var(--purple-dark);
+    font-weight: 700;
+    color: var(--purple-light);
+}
+
+/* Footer */
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 10vh;
+    padding: 1rem;
+    background-color: var(--grey-light);
+    border-top: 1px dashed var(--grey-dark);
+
+}
+
+.footer__list {
+    display: flex;
+    list-style: none;
+}
+
+.footer__logo {
+    width: 30px;
+    height: auto;
+    filter: grayscale();
+    padding: 0rem 1rem 0.5rem;
+}
+
+.footer__logo:hover {
+    filter: initial;
+}
+
+.footer__text--muted {
+    font-size: 1rem;
+    font-weight: 400;
+    color: var(--grey-dark)
+}

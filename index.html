@@ -7,16 +7,132 @@
       content="width=device-width, initial-scale=1, shrink-to-fit=no"
     />
     <title>My Blog</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="//fonts.googleapis.com/css?family=Roboto:400,500,300"
+      href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200;300;400;500;600;700&display=swap"
       rel="stylesheet"
-      type="text/css"
     />
     <link rel="stylesheet" href="css/style.css" />
     <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
   </head>
   <body>
-    <!-- Add your HTML markup here -->
-    <!-- Remember: Use semantic HTML tags like <header>, <main>, <nav>, <footer>, <section> etc -->
+    <header class="header">
+      <div class="header__section">
+        <a href="#"><img class="header__logo" src="./images/logo.svg" /> </a>
+        <p class="header__title">Women Tech Blog</p>
+      </div>
+      <nav class="nav">
+        <ul class="nav__list">
+          <li class="nav__item"><a class="nav__link" href="#">Login</a></li>
+          <li class="nav__item"><a class="nav__link" href="#">Articles</a></li>
+          <li class="nav__item"><a class="nav__link" href="#">About</a></li>
+          <li class="nav__item"><a class="nav__link" href="#">More</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main class="main">
+      <section class="hero">
+        <h1 class="hero__title">Women Tech Blog</h1>
+        <h2 class="hero__subtitle">
+          Woman's blog to help women integrate into the tech industry
+        </h2>
+      </section>
+      <section class="articles__section">
+        <article class="article">
+          <img
+            class="article__image"
+            src="./images/women-challenges.jpg"
+            alt="women challenges image"
+          />
+          <div class="article__content">
+            <h3 class="article__title">
+              <a href="">Biggest challenges for women in tech </a>
+            </h3>
+            <p class="article__summary">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Suspendisse id fringilla justo. Ut feugiat sapien lacinia,
+              ultricies tortor sed, bibendum erat. Nullam dui ex, volutpat at
+              pellentesque in, vulputate et libero. Curabitur tincidunt finibus
+              urna eget tincidunt.
+              <a class="article__link" href="#">Read more ...</a>
+            </p>
+          </div>
+        </article>
+        <article class="article">
+          <img
+            class="article__image"
+            src="./images/responsive-css.jpg"
+            alt="Website opened in different screens"
+          />
+          <div class="article__content">
+            <h3 class="article__title">
+              <a href="">How to design a responsive web page?</a>
+            </h3>
+            <p class="article__summary">
+              Sed rhoncus lorem sed laoreet sagittis. Donec euismod porttitor
+              faucibus. Praesent semper fermentum tincidunt. Curabitur neque
+              nisl, interdum ut mollis ac, finibus non nunc. Etiam pellentesque
+              hendrerit erat vitae viverra. Aenean vehicula elit metus, quis
+              venenatis nulla pellentesque quis. Vestibulum a finibus ante.
+              <a class="article__link" href="#">Read more ...</a>
+            </p>
+          </div>
+        </article>
+        <article class="article">
+          <img
+            class="article__image"
+            src="./images/blog-image.jpg"
+            alt="blog screenshot"
+          />
+          <div class="article__content">
+            <h3 class="article__title">
+              <a href="">How To Code a Blog Theme Concept in HTML & CSS?</a>
+            </h3>
+            <p class="article__summary">
+              Fusce varius neque ullamcorper ornare aliquet. Morbi ac tortor sed
+              orci sollicitudin cursus elementum eget ante. Ut ac euismod
+              mauris, in lacinia odio. Maecenas ultrices nulla eu nibh mattis
+              vulputate.Nulla id fermentum tellus, ac cursus odio. In hac
+              habitasse platea dictumst. Vestibulum at dui sit amet orci rutrum
+              sodales. Etiam vulputate ex at dolor tincidunt, nec congue metus
+              laoreet. Nullam in augue a risus porttitor eleifend eget ut
+              mauris. Maecenas urna nisl, hendrerit quis lectus vel, varius
+              rutrum urna. Vivamus nec lorem sed erat tempus gravida.
+              <a class="article__link" href="#">Read more ...</a>
+            </p>
+          </div>
+        </article>
+      </section>
+    </main>
+    <footer class="footer">
+      <ul class="footer__list">
+        <li class="footer_list__item">
+          <a href="#"
+            ><img
+              class="footer__logo"
+              src="./images/facebook_icon.svg"
+              alt="facebook logo"
+          /></a>
+        </li>
+        <li class="footer_list__item">
+          <a href="#"
+            ><img
+              class="footer__logo"
+              src="./images/pinterest_icon.svg"
+              alt="pinterest logo"
+          /></a>
+        </li>
+        <li class="footer_list__item">
+          <a href="#"
+            ><img
+              class="footer__logo"
+              src="./images/twitter_icon.svg"
+              alt="twitter logo"
+          /></a>
+        </li>
+      </ul>
+      <p class="footer__text--muted">Women Tech Blog©</p>
+    </footer>
   </body>
 </html>
