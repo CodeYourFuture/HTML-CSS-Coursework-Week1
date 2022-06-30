@@ -1,4 +1,4 @@
-/**
+        /**
  * Add your custom styles below
  * 
  * Remember: 
@@ -6,115 +6,115 @@
  *    for example: General styles, Navigation styles, Hero styles, Footer etc.
  * 
  */
-
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-body {
-    background-color: #fff;
-    display: flex;
-    justify-content: center;
-}
-
-.newspaper {
-    background-image: url(../img/background-paper.jpg);
-    background-size: cover;
-    background-color: antiquewhite;
-    display: flex;
-    flex-direction: column;
-    /* flex-wrap: wrap; */
-    /* align-content: center; */
-    /* justify-content: center; */
-    /* align-items: center; */
-    /* justify-content: space-between; */
-    width: 1000px;
-    /* height: 100vh; */
-    padding: 50px;
-}
-
-.header {
-    display: flex;
-    justify-content: space-around;
-}
-
-.logo {
-    height: 150px;
-}
-
-
-/*Navigation */
-
-
-/* #dp-nav {
-    background-color: #000;
-    height: 40px;
-    margin-bottom: 20px;
-}
-
-#dp-nav ul {
-    list-style: none;
-    list-style-type: none;
-}
-
-#dp-nav li {
-    float: left;
-    padding: 13px 19px;
-    border-right: 1px dashed #3f3e3e;
-    text-transform: uppercase;
-    font-size: 10pt;
-}
-
-#dp-nav li a {
-    color: #fff;
-    text-decoration: none;
-}
-
-#dp-nav li a:hover {
-    color: #e8ddb0;
-} 
-*/
-
-.title-paper {
-    height: 160px;
-    width: auto;
-}
-
-.article-1 {
-    display: flex;
-    flex-direction: row;
-}
-
-.art1-content {
-    display: flex;
-    flex-direction: row;
-}
-
-.art1-img {
-    height: 350px;
-}
-
-.article-2 {
-    background-color: orangered;
-    display: flex;
-}
-
-.article-3 {
-    background-color: orange;
-    display: flex;
-}
-
-.footer {
-    background-color: green;
-    display: flex;
-}
-
-.header,
-.article-1,
-.article-2,
-.article-3,
-.footer {}
-
-.footer {}
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            background-color: #fff;
+            display: flex;
+            justify-content: center;
+        }
+        
+        .newspaper {
+            background-image: url(../img/background-paper.jpg);
+            background-size: cover;
+            background-color: antiquewhite;
+            display: flex;
+            flex-direction: column;
+            /* flex-wrap: wrap; */
+            /* align-content: center; */
+            /* justify-content: center; */
+            /* align-items: center; */
+            /* justify-content: space-between; */
+            width: 1000px;
+            /* height: 100vh; */
+            padding: 50px;
+        }
+        
+        .newspaper h1,
+        h2 {
+            text-align: center;
+            text-transform: uppercase;
+            margin: 5px
+        }
+        
+        .newspaper h1 {
+            font-family: 'Fredericka the Great', cursive;
+            /* font-family: 'League Gothic', sans-serif; */
+            /* font-family: 'Aclonica', sans-serif; */
+            font-size: 45px;
+        }
+        
+        .newspaper h2 {
+            font-family: 'Diplomata SC', cursive;
+            font-size: 26px;
+            /* border-bottom: 1px dotted #000; */
+        }
+        
+        .newspaper p {
+            font-size: 16px;
+            text-align: justify;
+            font-family: 'Special Elite', cursive;
+            line-height: 1.5rem;
+            margin: 15px;
+            /* float: right; */
+        }
+        /* .art1-left p:first-child {
+            background: yellow;
+        } */
+        
+        .header {
+            display: flex;
+            justify-content: space-around;
+        }
+        
+        .logo {
+            height: 150px;
+        }
+        
+        .title-paper {
+            height: 160px;
+            width: auto;
+        }
+        
+        .article-1 {
+            /* display: flex; */
+            /* align-items: center;
+            flex-direction: column; */
+            border-bottom: 1px dotted #000;
+        }
+        
+        .art1-img {
+            margin: 15px;
+            height: 400px;
+            width: auto;
+            border: 1px solid rgb(142, 142, 142);
+            float: left;
+        }
+        
+        .article-2 {
+            background-color: orangered;
+            display: flex;
+        }
+        
+        .article-3 {
+            background-color: orange;
+            display: flex;
+        }
+        
+        .footer {
+            background-color: green;
+            display: flex;
+        }
+        
+        .header,
+        .article-1,
+        .article-2,
+        .article-3,
+        .footer {}
+        
+        .footer {}
