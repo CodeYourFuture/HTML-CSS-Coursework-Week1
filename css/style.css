@@ -16,6 +16,18 @@ body {
   /* background-color: rgb(0, 179, 255); */
   margin: 0;
 }
+/* logo */
+.logo {
+  width: 100px;
+  height: 60px;
+  border-radius: 30px;
+  opacity: 0.3;
+}
+ 
+.logo:hover {
+  opacity: 1.0;
+  box-shadow: 10px 10px 18px rgb(230, 4, 4);
+}
 /* nav */
 .topnav {
   /* background-color: rgb(171, 171, 67); */
