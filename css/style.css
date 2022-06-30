@@ -15,26 +15,49 @@
 
 body {
     background-color: #fff;
+    display: flex;
+    justify-content: center;
 }
 
 .newspaper {
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    /* align-content: center; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    width: 1000px;
+    height: 100vh;
+}
+
+.header {
+    background-color: green;
     display: flex;
 }
 
-.header {}
-
 .article-1 {
+    background-color: orange;
     display: flex;
 }
 
 .article-2 {
+    background-color: orangered;
     display: flex;
 }
 
 .article-3 {
+    background-color: orange;
     display: flex;
 }
 
 .footer {
+    background-color: green;
     display: flex;
 }
+
+.header,
+.article-1,
+.article-2,
+.article-3,
+.footer {}
