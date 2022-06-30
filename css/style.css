@@ -1,8 +1,150 @@
-/**
- * Add your custom styles below
- * 
- * Remember: 
- * - Be organised, use comments and separate your styles into meaningful chunks
- *    for example: General styles, Navigation styles, Hero styles, Footer etc.
- * 
- */
+/* body */
+body{
+    font-family: 'Oleo Script Swash Caps', cursive;
+    color: white;
+    margin: 0;
+    padding: 0;
+    background-size:cover;
+    background-repeat: no-repeat;
+  
+}
+
+/* header */
+header{
+    display: flex;
+    align-items: center; 
+    background-color: rgb(211, 228, 228);   
+    margin-top: 1rem;
+    border-bottom: 2px solid black ;
+}
+.header-logo{
+    margin-left: 2rem;
+    border:1px solid black;
+    
+}
+
+.nav-list{
+   
+    font-size: 20px;
+    font-weight: bolder;
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+
+}
+
+.nav-item{
+    margin: 1rem 3rem;
+    padding: 1rem;
+    
+    
+}
+.nav-link{
+    text-shadow:0 0 2px white;
+    text-decoration: none;
+    letter-spacing: 00.1em;
+    font-stretch: extra-expanded;
+    color:black;
+}
+.nav-link:hover{
+    font-size:25px ;
+}
+/* main title  */
+.title-1{
+    font-size: 50px;
+    letter-spacing: 0.1em;
+    text-align: center;
+    text-shadow: 1px 1px 5px white;
+    color:black;
+    margin-top: 5rem;
+   
+}
+.description{
+    padding:0 2rem;
+    text-align: center;
+    font-size: 30px;
+    color: black;
+}
+/* content */
+
+.summary{
+    padding: 0 2rem;
+    font-size: 30px;
+    color:black;
+    padding-left: 3rem;
+    text-align: justify;
+    margin-bottom: 0;
+}
+
+.title { 
+    padding:3rem  0  0 3rem;
+    font-size: 40px;
+    color:black;
+}
+
+.picture-1{
+    text-align: center;
+    background-image: url("../nasir2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:80vh;
+}
+
+
+.picture-2 {
+    background-image:url("../vank.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80vh;
+    }
+.picture-3{
+    background-image: url("../Yazd.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80vh;
+    }
+
+ .more {
+    color: rgb(196, 28, 28);
+    padding-left: 2rem;
+    font-size: 50px;
+    margin-top: 0;
+}
+
+.link{
+        
+        color: rgb(190, 42, 42);
+        font-size: 25px;
+        font-weight: bold;
+        font-family: Arial;
+        text-decoration: none;
+    }
+
+    .link:hover{
+        color: rgb(61, 40, 40);
+        font-size: 30px;
+    }
+.link:focus{
+    color: red;
+}
+/* border */
+.border{
+    border-bottom: 3px double rgb(109, 103, 103);
+}
+/* footer */
+.footer p{
+
+font-family: Arial, Helvetica, sans-serif;
+font-size: 20px;
+text-align: center;
+color:rgb(109, 103, 103);
+}
+/* first child pseudo class practice */
+p:first-child{
+    color:rgb(46, 33, 102);
+    margin-bottom: 0.5rem;
+}
+
+.nav-link:first-child{
+    color: rgb(55, 55, 110);
+}
