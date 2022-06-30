@@ -27,10 +27,8 @@ a {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 0.5rem 1.5rem 0rem;
+    padding: 0.5rem 1.5rem;
     background-color: var(--grey-light);
-    border-bottom: 2px solid var(--grey-dark);
-
 }
 
 .header__section {
