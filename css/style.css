@@ -30,13 +30,10 @@ body {
 }
 /* nav */
 .topnav {
-  /* background-color: rgb(171, 171, 67); */
-  /* overflow: hidden; */
+  display: block;
   position: fixed;
-  top: 0;
-  width: 100%;
-  /* margin-bottom: 8rem; */
-  margin-top: 1rem;
+  top: 1rem;
+  width: 100%;  
 }
 .topnav a {
   float: right;
