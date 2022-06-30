@@ -96,15 +96,27 @@
             float: left;
         }
         
-        .article-2 {
-            background-color: orangered;
-            display: flex;
+        .art2-img {
+            margin: 15px;
+            height: 320px;
+            width: auto;
+            border: 1px solid rgb(142, 142, 142);
+            float: left;
         }
         
-        .article-3 {
-            background-color: orange;
-            display: flex;
+        .art3-img {
+            margin: 15px;
+            height: 245px;
+            width: auto;
+            border: 1px solid rgb(142, 142, 142);
+            float: left;
         }
+        
+        .article-2 {
+            border-bottom: 1px dotted #000;
+        }
+        
+        .article-3 {}
         
         .footer {
             background-color: green;
