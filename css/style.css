@@ -1,8 +1,22 @@
-/**
- * Add your custom styles below
- * 
- * Remember: 
- * - Be organised, use comments and separate your styles into meaningful chunks
- *    for example: General styles, Navigation styles, Hero styles, Footer etc.
- * 
- */
+body
+{
+    background-color: grey;
+}
+
+ header
+{
+    padding-bottom: 20px;
+}
+
+.article-1:first-child 
+{
+  background-color: rgb(255, 255, 255);
+  border-radius: 5px;
+  font-size: medium;
+}
+
+.img
+{
+    width: 100%;
+    height: 50em;
+}
