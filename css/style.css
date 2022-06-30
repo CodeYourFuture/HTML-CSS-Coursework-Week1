@@ -9,6 +9,7 @@
  body {
     margin: 0;
     background-color: lightgrey;
+    background-image: url(/images/fb.png);
  }
 header {
     text-align: center;
@@ -47,6 +48,7 @@ a:active {
 
  main {
     background-color: white;
+    
     width: 800px;
     padding: 25px;
     text-align: center;
