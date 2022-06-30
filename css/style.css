@@ -13,7 +13,6 @@ body {
   width: 100vw;
   overflow-x: hidden;
   background-image: url(../jean-philippe-delberghe-75xPHEQBmvA-unsplash.jpg);
-  /* background-color: rgb(0, 179, 255); */
   margin: 0;
 }
 /* logo */
@@ -32,11 +31,11 @@ body {
 /* nav */
 .topnav {
   /* background-color: rgb(171, 171, 67); */
-  overflow: hidden;
+  /* overflow: hidden; */
   position: fixed;
   top: 0;
   width: 100%;
-  margin-bottom: 8rem;
+  /* margin-bottom: 8rem; */
   margin-top: 1rem;
 }
 .topnav a {
@@ -61,7 +60,7 @@ body {
   background: #96e0e9;
   box-shadow: 5px 10px 18px red inset;
   padding: 25px 15px 10px 15px;
-  border-top-left-radius: 2rem;
+  border-top-left-radius: 1.5rem;
 }
 #active {
   background-color: rgb(171, 173, 171);
@@ -109,6 +108,9 @@ main img {
 .article-2 {
   margin: 50px;
   font-size: 30px;
+  /* border: 1px solid; */
+   background-image: url(../jean-philippe-delberghe-75xPHEQBmvA-unsplash.jpg);
+   padding: 25px;
 }
 .main h1 {
   text-align: center;
@@ -120,7 +122,7 @@ aside {
   font-size: 25px;
   border: 2px solid rgb(181, 163, 163);
   padding: 20px;
-  background-color: rgb(212, 216, 219);
+  /* background-color: rgb(212, 216, 219); */
   box-shadow: 5px 10px 18px rgb(80, 53, 53)
 }
 aside h3 {
