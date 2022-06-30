@@ -57,3 +57,31 @@
 .nav-button{
     color: yellowgreen;
 }
+
+/** Main section*/
+/** Articles */
+.main{
+    background-color: white;
+}
+.article{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0.8rem;
+}
+.article-text{
+    display: flex;
+    flex-direction: column;
+    margin: 3rem;
+    padding: 3em;
+    background-color: aquamarine;
+    border-style: solid;
+    border-radius: 1rem;
+}
+.article-images{
+    width: 400px;
+    max-width: 80%;
+    height: auto;
+}
