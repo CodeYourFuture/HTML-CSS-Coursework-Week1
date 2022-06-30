@@ -1,0 +1,272 @@
+
+header {
+ overflow: hidden;
+background-color: black;   
+margin-top: 50px;
+margin-left: 150px;
+margin-right: 150px;
+}
+
+body {
+margin:0;
+padding:0;
+background-color: rgb(236, 241, 240);
+background-image: url(jpg); 
+}
+
+video {
+width: 700px;
+height: 800px;
+}
+
+
+img { 
+width: 300px;
+height: 250px;
+margin-top: 20px;
+}
+
+ul { 
+display: flex;
+list-style: none;
+float: right;
+padding: 0px;
+}
+
+li a {
+color: rgb(245, 239, 239);
+text-decoration: none;
+padding: 10px;
+overflow: hidden;
+}
+
+li a:hover {
+color: rgb(14, 14, 15);
+background-color: rgb(243, 56, 4);
+padding: 27px; 
+width: 15px;     
+}
+
+.logo { 
+font-size: 50px; 
+}
+.part1 {
+   box-sizing: border-box;
+   margin-top: 30px;
+}
+h2{
+  margin-left: 550px;
+  margin-top: 60px;
+  color: orangered;  
+}
+.diva1 {
+text-align: center;
+font-size:x-large;
+margin-top: 70px;
+}
+.number1 {
+ margin-top: 50px;
+font-style: inherit;
+box-shadow: 5px 3px 5px 3px ;
+width:1000px;
+margin-left: 250px;
+}
+.diva2 {
+text-align: end; 
+}
+.para1 {
+   width: 500px;
+   margin-top: 100px;
+   margin-left: 900px;
+  
+}
+.picture1 {
+ width: 400px;
+ height: 500px;
+ margin-top: -400px;
+
+}
+.button1 {
+ margin-left: 1200px;
+ margin-bottom: 40px;
+
+}
+ .butt {
+width: 200px;
+background-color: orangered;
+box-sizing: content-box;
+font-style: italic;
+
+    
+ }
+ .part2 {
+ background-color: black;
+ height: 500px;
+
+ }
+ .service { 
+ color: aliceblue;
+ text-align: center;
+ padding-top: 80px;
+ text-transform: uppercase;
+ font-size: xx-large;
+ margin-left: 500px;
+
+ }
+ .service1 {
+ margin-top: 250px;
+ padding: 0px;  
+ }
+
+ em{ 
+   color: aqua;
+
+ }
+
+ .precing12 {
+  margin-left:500px;
+ }
+ .pricing2 {
+   color: aqua;
+   text-align: center;
+   padding-top: 100px;
+   
+
+ }
+
+ .image2 {
+  width: 350px;
+  height: 400px;
+  margin-left: 200px;
+  margin-bottom: 30px;
+  margin-top: -280px;
+ }
+ .para12 {
+   margin-left: 300px;
+
+ }
+
+ .para2 {
+  margin-left: 200px;
+  text-align: center;
+  color: aliceblue;
+ }
+
+ .burundi1{
+   margin-left: 860px;
+   margin-top: -150px;
+  
+ }
+ .burundi{
+  width: 100px;
+  height: 50px;
+  color: orangered;
+  background-color: black;
+  border-color: orangered;
+
+ }
+
+ .south1 {
+   margin-left: 750px;
+   margin-top: -50px;
+   border: 1px solid;
+   
+  
+ }
+
+ .south {
+   width: 100px;
+  height: 50px;
+  color: orangered;
+  background-color: black;
+  border-color: orangered;
+ }
+
+ .burundi:hover {
+   
+   background-color: orangered;
+   color: black;
+ }
+
+ .south:hover {
+   
+   background-color: orangered;
+   color: black;
+ }
+
+ .garelie{
+  text-align: center;
+  background-color: orangered;
+  width: 300px;
+  margin-left: 600px;
+  margin-top: 50px;
+ }
+ .some image{
+   text-align: center;
+  
+ }
+
+ .some{
+   padding-top: 100px;
+  text-align: center;
+  font-size: xx-large;
+  
+ }
+ .loco1{
+   margin-left: 200px;
+   margin-top: 10px;
+   
+
+ }
+ .locopc1{
+
+   width: 300px;
+   height: 440px;
+   margin-top: 50px;
+ }
+ .loco2{
+   text-align: center;
+   margin-top: -400px;
+   
+ }
+ .locopc2{
+   
+   width: 300px;
+   height: 400px;
+  margin-bottom: -30px;
+
+ }
+
+ .loco3{
+text-align: end;
+margin-top: -400px;
+margin-right: 200px;
+ }
+
+ .locopc3{
+   
+   width: 300px;
+   height: 400px;
+  margin-bottom: -30px;
+
+ }
+ .loco4{
+   text-align: center;
+   margin-top: 100px;
+    }
+
+    .locopc4{
+      margin-bottom: 30px;
+      width: 1200px;
+      height: 500px;
+    }
+
+    footer{
+      background-color: black;
+      text-align: center;
+    }
+    .intro1{
+      color: black;
+      background-color: black;
+     margin-right: 500px;
+    }
