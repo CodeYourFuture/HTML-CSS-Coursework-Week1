@@ -46,6 +46,9 @@ header{
     font-stretch: extra-expanded;
     color:black;
 }
+.nav-link:hover{
+    font-size:25px ;
+}
 /* main title  */
 .title-1{
     font-size: 50px;
@@ -74,7 +77,7 @@ header{
 }
 
 .title { 
-    padding:1rem  3rem;
+    padding:3rem  0  0 3rem;
     font-size: 40px;
     color:black;
 }
@@ -139,8 +142,9 @@ color:rgb(109, 103, 103);
 /* first child pseudo class practice */
 p:first-child{
     color:rgb(46, 33, 102);
+    margin-bottom: 0.5rem;
 }
 
-.nav-item:first-child{
+.nav-link:first-child{
     color: rgb(55, 55, 110);
 }
