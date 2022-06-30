@@ -136,3 +136,11 @@ font-size: 20px;
 text-align: center;
 color:rgb(109, 103, 103);
 }
+/* first child pseudo class practice */
+p:first-child{
+    color:rgb(46, 33, 102);
+}
+
+.nav-item:first-child{
+    color: rgb(55, 55, 110);
+}
