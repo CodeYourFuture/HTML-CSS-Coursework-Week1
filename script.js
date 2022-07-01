@@ -1,4 +1,4 @@
-document.querySelector('.submit-email').addEventListener('mousedown', (e) => {
+document.querySelector(".submit-email").addEventListener("mousedown", (e) => {
   e.preventDefault();
-  document.querySelector('.subscription').classList.add('done');
+  document.querySelector(".subscription").classList.add("done");
 });
