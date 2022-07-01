@@ -6,3 +6,106 @@
  *    for example: General styles, Navigation styles, Hero styles, Footer etc.
  * 
  */
+
+ /* General style */
+ body {
+    margin: 0;
+    background-color: lightgrey;
+    background-image: url(/images/fb.png);
+ }
+
+ /* header presentation */
+
+header {
+    text-align: center;
+    padding: 25px 0;
+    margin-bottom: 25px;
+}
+
+header:first-child img {
+    width: 850px;
+    height: 150px;
+
+}
+
+/* navigation bar layout */
+
+.navigation {
+    background-color: black;
+    height: 25px;
+}
+
+.nav-links {
+
+    text-decoration: none;
+    color: whitesmoke;
+    justify-content: space-between;
+    padding: 10px 15px;
+    
+}
+
+/* nav hover effects */
+
+a:hover {
+    color: orange;
+}
+
+a:active {
+    color: blue;
+}
+
+/* main session design */
+
+ main {
+    background-color: white;
+    
+    width: 800px;
+    padding: 25px;
+    text-align: center;
+    margin: 0 auto;
+ }
+
+ .football {
+    background-color:honeydew
+ }
+
+/* table formatting */
+
+ table {
+    font-family: arial, sans-serif;
+        border-collapse: collapse;
+        width: 100%;
+    }
+    
+    td, th {
+        border: 1px solid #dddddd;
+        text-align: left;
+        padding: 8px;
+    }
+    
+    tr:nth-child(even) {
+        background-color: #dddddd;
+ }
+/* Various articles display */
+ .heading {
+    margin-top: 50px;
+    
+ }
+ .image {
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    border: solid;
+    border-radius: 30%;
+ }
+
+ .links {
+    text-align: center;
+    text-decoration: none;
+ }
+/* footer design */
+
+ footer {
+    text-align: center;
+    color:red;
+ }
