@@ -1,8 +1,91 @@
-/**
- * Add your custom styles below
- * 
- * Remember: 
- * - Be organised, use comments and separate your styles into meaningful chunks
- *    for example: General styles, Navigation styles, Hero styles, Footer etc.
- * 
- */
+body {
+    font-family: 'Roboto', sans-serif;
+    -webkit-font-smoothing: antialiased;
+}
+
+h1 {
+    font-size: 43px;
+    margin: 05px;
+}
+
+.header {
+    min-width: 37.5rem;
+    height: 4.375rem;
+    background-color: #fff;
+    display: flex;
+    position: fixed;
+    width: 100%;
+    justify-content: center;
+    border-bottom: 1px solid #DDD;
+}
+
+.header .logo {
+    justify-content: left;
+    height: 4rem;
+}
+
+.container {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navigation {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navigation__list {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    color: #838994;
+    font-size: 1.2rem;
+    list-style: none;
+}
+
+.navigation__item:hover {
+    cursor: pointer;
+    color: red;
+}
+
+.navigation__item--active {
+    color: #4c5058;
+    font-weight: 500;
+}
+
+.intro {
+    background-image: url("https://miro.medium.com/max/1024/1*fJjQOPz-PdJjRqefaBV13Q.jpeg");
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50rem;
+    overflow: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.intro__h1,
+.intro__h3 {
+    color: white;
+    font-weight: 400;
+    font-size: 3.125rem;
+    margin-bottom: 1rem;
+}
+
+.intro__h3 {
+    font-size: 2rem;
+}
+.right{
+    font-size: 20px;
+        margin: 05px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+    border-top: 1px dotted gray;
+}
