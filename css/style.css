@@ -50,6 +50,7 @@ li a {
 li a:hover {
   background-color: #c5d347;
   font-weight: bolder;
+  color: #bb0000;
 }
 
 header {
