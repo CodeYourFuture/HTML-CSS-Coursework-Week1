@@ -20,7 +20,7 @@ It should include the following elements:
 - Research the `:first-child` pseudo-class and use it to style the first article so that it stands out from the others.
 - Use this website [Lorem Ipsum](http://www.lipsum.com/) to generate random blocks of contents to fill your website.
 - **Commit often (with good meaningful commit messages), and Push to Github regularly.**
-- Use the sketch below to guide you towards the layout and content you are trying to achieve. _Please note that this is just a sketch - you can choose the colours, fonts and images that you want to use in the page._
+- Use the sketch below to guide you towards the layout and content you are trying to achieve. _Please note that this is just a sketch - you can choose the colours, fonts and images that you want to use in the  page._
 
   <a href="blog-sketch-week-1.png" target="blank">
     <img src="blog-sketch-week-1.png" style="border: 1px solid #bababa;">

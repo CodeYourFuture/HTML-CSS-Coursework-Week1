@@ -77,7 +77,11 @@ h1 {
 }
 
 .intro__h3 {
-    font-size: 1.563rem;
+    font-size: 2rem;
+}
+.right{
+    font-size: 20px;
+        margin: 05px;
 }
 
 .footer {
