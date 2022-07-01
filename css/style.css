@@ -6,3 +6,118 @@
  *    for example: General styles, Navigation styles, Hero styles, Footer etc.
  * 
  */
+
+ body {
+    font-family: 'Roboto', sans-serif;
+    -webkit-font-smoothing: antialiased;
+     
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    min-height: 100vh;
+    background-color: #f7f7f7;
+    
+}
+h4{
+   margin-bottom: 15px;
+}
+
+p {
+    border:solid ;
+    padding: 30px;
+}
+p:second-child {
+    background-color: #f00;
+}
+
+.container .row{
+    width: 85%;
+    margin: auto;
+}
+.container .row .heading-section {
+    width: 60%;
+    text-align: center;
+    margin: auto;
+}
+ 
+
+.container .row .heading-section h1{
+    padding-top: 30px;
+    font-size:42px;
+    
+}
+
+.container .row .heading-section span{
+    color: #f00
+}
+    
+
+.container .row .heading-section {
+    margin-top: 15px;
+    color: #3d3d3d;
+    font-size: 17px;
+    line-height: 1.5;
+}
+
+.content-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     margin: auto;
+}
+.content-section .card{
+    flex: 1;
+    margin: 40px 20px;
+}
+ .content-section .card img{
+    width: 100%;
+    height: auto;
+
+ }
+ .content-section .card h4{
+    margin-top: 20px;
+ }
+ content-section .card p{
+    font-size: 15px;
+    font-weight: lighter;
+    margin-top: 10px;
+    color: #3d3d3d;
+    line-height: 1.5;
+ }
+
+ .social{
+    text-align:center ;
+    padding: 17px;
+    border: 2px solid lightgray;
+    }
+    .fa{
+        padding:20px;
+        font: size 30px;
+        text-align: center;
+        text-decoration: none;
+        margin:10px;
+        border-radius: 50%;
+    }
+    .fa-facebook{
+        background-color: blue;
+        color: white;
+    }
+
+    .fa-twitter{
+        background-color: blue;
+        color: white;
+    }
+    .fa-instagram{
+        background-color: blue;
+        color: white;
+    }
+    .copy{
+    font-size:15px;
+    text-align: center;
+    }
