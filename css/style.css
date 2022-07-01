@@ -6,3 +6,106 @@
  *    for example: General styles, Navigation styles, Hero styles, Footer etc.
  * 
  */
+body {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100%vh;
+  background: linear-gradient(to top,#fad2cc, #f48882, #fad2cc);
+}
+
+/* Nav and Link Styles */
+
+nav {
+  display: flex;
+  height: 10vh;
+  gap: 30%;
+  align-items: center;
+  background: linear-gradient(to top, #fad2cc, #dd9bcf, #fcf);
+  width: 100%;
+  border: none;
+}
+ 
+list {
+  display: flex;
+  gap: 5%;
+}
+list, a{
+  font-family: "Rubik Moonrocks", cursive;
+  text-decoration: none;
+  color: rgb(34, 28, 28);
+}
+
+nav > a{
+  font-weight: bold;
+  font-size: 1.2rem;
+  font-style: italic;
+}
+
+/* Main content styles */
+
+main {
+  width: 75%;
+  margin: 2px auto;
+  background: #f6ffee;
+  border-radius: 10%;
+  padding-top: 1%;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-bottom: 1%;
+}
+
+img {
+  width: 100%;
+  height: 500px;
+}
+
+h1,
+header p {
+  text-align: center;
+}
+header p {
+  font-style: italic;
+}
+
+/* Article 1 */
+
+.first_article h2 {
+  padding-top: 2%;
+  margin-left: 2%;
+}
+
+article:first-child {
+  font-family: "Courier New", Courier, monospace;
+}
+
+/* Article 2 */
+.second_article h2 {
+  width: 100%;
+  height: 15%;
+  margin-top: 5%;
+}
+
+/* Footer */
+
+footer {
+  display: flex;
+  justify-content: space-around;
+  height: 5vh;
+  margin-top: 2px;
+  background: linear-gradient(
+    to top,
+
+    #dd9bcf,
+    #fcf,
+    #fad2cc,
+    #f48882
+  );
+  font-size: small;
+  margin-top: 5px;
+  padding: 0;
+}
+footer p {
+  margin: 0;
+  padding: 5px;
+}
