@@ -6,3 +6,48 @@
  *    for example: General styles, Navigation styles, Hero styles, Footer etc.
  * 
  */
+
+
+ body {
+    font-family: "Source Sans Pro", "Helvetica Neue", Arial, sans-serif;
+    color: var(--grey-dark);
+    font-size: 1rem;
+    padding: 4rem;
+ }
+
+ header {
+     text-align: center;
+     font-style: normal;
+     margin: 2rem
+ }
+
+ article {
+    margin-top: 3rem;
+ }
+
+ /* First child*/
+ article:first-child {
+     background-color: rgb(240, 189, 189);
+ }
+
+
+
+ .arrow-right {
+     display: inline-block;
+     height: 0;
+     width: 0;
+     border: 6px solid var(--white);
+     border-left-color: var(--orange-dark);
+ }
+
+ footer {
+    margin-top: 3rem;
+    text-align: center;
+    color:rgb(145, 140, 140); 
+ }
+
+ .footer-content {
+    border-top: 2px solid;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+ }
