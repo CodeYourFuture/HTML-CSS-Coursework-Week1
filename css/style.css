@@ -7,236 +7,246 @@
  * 
  */
 
-
- body{
-    background-color: rgb(225, 226, 228);
-    width: 70%;
-    margin: auto;
-    font-family: Arial, Helvetica, sans-serif;
-    border: 20px solid #8f9a27;
-    border-top: 0px;
- }
-
-
- nav{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    background-color: #8f9a27;
-}
-  ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #8f9a27;
-    align-content: center;
-  }
-  
-  li {
-    float: left;
-  }
-  
-  li a {
-    display: block;
-    color: rgb(0, 0, 0);
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 1.5em;
-  }
-  
-  li a:hover {
-    background-color: #c5d347;
-    font-weight: bold;
-  }
-
-
-header{
-    height: 50vh;
-    background-image: url(../img/background-header.jpg);
-    background-repeat: no-repeat;
-    border: 20px solid #8f9a27;
-    background-size: 100% 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding-left: 2%;
-    border-top: 0px solid #8f9a27;;
+body {
+  background-color: rgb(225, 226, 228);
+  width: 70%;
+  margin: auto;
+  font-family: Arial, Helvetica, sans-serif;
+  border: 20px solid #8f9a27;
+  border-top: 0px;
 }
 
-.title-header{
-    width: 40%;
-    font-size: 4.0em;
-    color: aliceblue;
-    margin-top: 2em;
+nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background-color: #8f9a27;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #8f9a27;
+  align-content: center;
 }
 
-
-
-.logos{
-    border: 2px solid red;
-    display: flex;
-    flex-direction: row;
+li {
+  float: left;
 }
 
+li a {
+  display: block;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 1.5em;
+}
 
+li a:hover {
+  background-color: #c5d347;
+  font-weight: bold;
+}
 
+header {
+  height: 50vh;
+  background-image: url(../img/background-header.jpg);
+  background-repeat: no-repeat;
+  border: 20px solid #8f9a27;
+  background-size: 100% 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 2%;
+  border-top: 0px solid #8f9a27;
+}
+
+.title-header {
+  width: 40%;
+  font-size: 4em;
+  color: aliceblue;
+  margin-top: 2em;
+}
+
+.logos {
+  border: 2px solid red;
+  display: flex;
+  flex-direction: row;
+}
 
 .fa {
-    text-align: center;
-    text-decoration: none;
-    width: 2vh;
-    height: 2vh;
-    padding: 7px;
-    border-radius: 50%;
-    margin: 10px ;
-    border: 3px solid white;
-    box-shadow:  0px 0px 2px 2px rgb(58, 58, 58);
-    margin-top: 0px;
-   
-
-  }
-  
-  .fa:hover {
-      /*opacity: 0.7;*/
-      width: 2.5vh;
-    height: 2.5vh;
-    box-shadow:  0px 0px 5px 5px rgb(185, 180, 180);
-      
-  }
-  
-  .fa-facebook {
-    background: #3B5998;
-    color: white;
-  }
-  
-
-  .fa-facebook:hover{
-    background: #3b6cd4;
-    color: rgb(255, 52, 52);
-  }
-
-
-  .fa-twitter {
-    background: #55ACEE;
-    color: white;
-  }
-
-
-  .fa-instagram {
-    background: #125688;
-    color: white;
-  }
-  
-  .fa-youtube {
-    background: #bb0000;
-    color: white;
-  }
-  
-
-
-  .container {
-    width: 100%;
-    height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 1em;
-    border: 3px solid blue;
-  }
-  
-  .content {
-    width: 30vw;
-    height: 40px;
-    box-shadow: 2px 4px 10px rgba(0, 0, 0, .2);
-    border-radius: 60px;
-    overflow: hidden;
-  }
-  
-  .subscription {
-    position: relative;
-    width: 100%;
-    height: 100%;
-  }
-  
-  .subscription .add-email{
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    border: none;
-    outline: none;
-    padding: 0 20px;
-    font-size: 1em;
-  }
-  
-  .subscription .submit-email {
-    position: absolute;
-    top: 0;
-    right: 0;
-    height: calc(100% - 2px);
-    width: 100px;
-    border: none;
-    border-radius: 60px;
-    outline: none;
-    margin: 1px;
-    padding: 0 20px;
-    cursor: pointer;
-    background: #8f9a27;
-    color: #FFFFFF;
-    font-size: 1em;
-    transition: width .35s ease-in-out,
-      background .35s ease-in-out;
-  }
-  
-  .subscription.done .submit-email {
-    width: calc(100% - 2px);
-    background: #8f9a27;
-  }
-  
-  .subscription .submit-email .before-submit,
-  .subscription .submit-email .after-submit {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    text-align: center;
-    line-height: 38px;
-    transition: visibility .35s ease-in-out,
-      opacity .35s ease-in-out;
-  }
-  
-  .subscription.done .submit-email .before-submit,
-  .subscription:not(.done) .submit-email .after-submit {
-    visibility: hidden;
-    opacity: 0;
-  }
-  
-  .subscription .submit-email .after-submit {
-    transition-delay: .35s;
-  }
-  
-  .subscription:not(.done) .submit-email .before-submit,
-  .subscription.done .submit-email .after-submit {
-    visibility: visible;
-    opacity: 1;
-  }
-
-
-section{
-    width: 70%;
-    text-align: justify;
-    border: 2px solid red;
-    display: block;
-margin: auto;
-font-size: 1.2em;
+  text-align: center;
+  text-decoration: none;
+  width: 2vh;
+  height: 2vh;
+  padding: 7px;
+  border-radius: 50%;
+  margin: 10px;
+  border: 3px solid white;
+  box-shadow: 0px 0px 2px 2px rgb(58, 58, 58);
+  margin-top: 0px;
 }
 
+.fa:hover {
+  /*opacity: 0.7;*/
+  width: 2.5vh;
+  height: 2.5vh;
+  box-shadow: 0px 0px 5px 5px rgb(185, 180, 180);
+}
 
-h2{
-    background-color: #8f9a27;
+.fa-facebook {
+  background: #3b5998;
+  color: white;
+}
+
+.fa-facebook:hover {
+  background: #3b6cd4;
+  color: rgb(255, 52, 52);
+}
+
+.fa-twitter {
+  background: #55acee;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1em;
+  border: 3px solid blue;
+}
+
+.content {
+  width: 30vw;
+  height: 40px;
+  box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 60px;
+  overflow: hidden;
+}
+
+.subscription {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.subscription .add-email {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: none;
+  outline: none;
+  padding: 0 20px;
+  font-size: 1em;
+}
+
+.subscription .submit-email {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: calc(100% - 2px);
+  width: 100px;
+  border: none;
+  border-radius: 60px;
+  outline: none;
+  margin: 1px;
+  padding: 0 20px;
+  cursor: pointer;
+  background: #8f9a27;
+  color: #ffffff;
+  font-size: 1em;
+  transition: width 0.35s ease-in-out, background 0.35s ease-in-out;
+}
+
+.subscription.done .submit-email {
+  width: calc(100% - 2px);
+  background: #8f9a27;
+}
+
+.subscription .submit-email .before-submit,
+.subscription .submit-email .after-submit {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  line-height: 38px;
+  transition: visibility 0.35s ease-in-out, opacity 0.35s ease-in-out;
+}
+
+.subscription.done .submit-email .before-submit,
+.subscription:not(.done) .submit-email .after-submit {
+  visibility: hidden;
+  opacity: 0;
+}
+
+.subscription .submit-email .after-submit {
+  transition-delay: 0.35s;
+}
+
+.subscription:not(.done) .submit-email .before-submit,
+.subscription.done .submit-email .after-submit {
+  visibility: visible;
+  opacity: 1;
+}
+
+section {
+  width: 70%;
+  text-align: justify;
+  border: 2px solid red;
+  display: block;
+  margin: auto;
+  font-size: 1.2em;
+}
+
+h2 {
+  background-color: #8f9a27;
+  text-align: center;
+}
+
+.Dishes-conatiner {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  width: 100%;
+  flex-wrap: wrap;
+  align-content: flex-start;
+}
+
+.dish1 {
+  width: 30%;
+  text-align: center;
+  height: 60vh;
+  padding: 0;
+}
+
+img {
+  width: 100%;
+  height: 40vh;
+  border: 6px solid white;
+}
+
+footer {
+  text-align: center;
+  color: lightslategray;
+  font-weight: 20;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
