@@ -6,19 +6,26 @@
  *    for example: General styles, Navigation styles, Hero styles, Footer etc.
  * 
  */
-body {background-color: darkcyan;}
+body {
+  background-color: darkcyan;
+}
+
 h1 {
-    position: relative;
-    margin-left: 20rem
-} 
+  position: relative;
+  margin-left: 20rem
+}
 
 img {
   border: 1px solid #ddd;
   border-radius: 4px;
   padding: 5px;
   width: 600px;
-position: relative;
- margin-left: 10rem
+  position: relative;
+  margin-left: 10rem
+}
+
+.navigation__item:first-child {
+  background-color: yellow;
 }
 
 <img src="paris.jpg" alt="Paris">
