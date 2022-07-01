@@ -70,6 +70,10 @@
     align-items: center;
     margin: 0.8rem;
 }
+.article:first-child{
+background-color: brown;
+}
+
 .article-text{
     display: flex;
     flex-direction: column;
@@ -81,6 +85,10 @@
     justify-content: center;
     align-items: center;
 }
+.main .article #article-text:hover {
+    background-color: yellow;
+}
+
 .article-images{
     width: 400px;
     max-width: 80%;
@@ -103,7 +111,6 @@
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: brown;
 }
-
 
 
 /** Footer section*/
