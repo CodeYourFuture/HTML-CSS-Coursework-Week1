@@ -1,129 +1,87 @@
-/**
- * Add your custom styles below
- * 
- * Remember: 
- * - Be organised, use comments and separate your styles into meaningful chunks
- *    for example: General styles, Navigation styles, Hero styles, Footer etc.
- * 
- */
- iframe {
-     frameborder="0";
- }
-
- /* don't edit this */
- .jest-lite-report__status--pass {
-     background: var(--color-pass);
- }
-
- .jest-lite-report__errors {
-     display: none
- }
-
- * {
-     box-sizing: border-box;
-     margin: 0;
-     padding: auto;
- }
-
-  body {
-      background-image: url("https://i1.wp.com/blog.magmalabs.io/wp-content/uploads/2017/07/qa-tester.png?resize=1160%2C630&ssl=1");
-      background-size: cover;
-      background-repeat: no-repeat;
-  }
-
- #page-wrapper {
-     position: relative;
- }
-
- .images {
-     margin: auto;
-     width: 900px;
- }
-
- .left {
-     float: left;
-     padding: 0 10px 10px 0;
- }
-
- .header {
-     padding: 40px;
-     text-align: center;
-     background-color: clay;
-     justify-content: space-around;
-     color: white;
-     font-size: x-large;
- }
-
- ul {
-     list-style: none;
-     list-style-type: ;
- }
-
- a {
-     text-decoration: none;
-     text-align-last: justify;
-     text-align: center;
-     color: black;
-     font: 2em sans-serif;
-     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
- }
-.left{
-        width: 30vw;
+body {
+    font-family: 'Roboto', sans-serif;
+    -webkit-font-smoothing: antialiased;
 }
 
- .nav-list {
-     width: 30vw;
-     display: flex;
-     flex-direction: row;
-     justify-content: space-around;
-     font-family: sans-serif;
-     font-size: 900;
-     background-color: ;
-     padding: 15px;
-     margin: 10px;
- }
-
- .p {
-     display: block;
-     margin-block-start: 1em;
-     margin-block-end: 1em;
-     margin-inline-start: 0px;
-     margin-inline-end: 0px;
- }
-
- h3 {
-     color: black;
-     padding: auto;
-     margin: auto;
-     font-style: italic;
-     font-size: 3vmax;
- }
-
-
-#paragraphs{
-    color: black;
-    padding: auto;
-        margin: auto;
-        font-size: 1.1vmax;
+h1 {
+    font-size: 43px;
+    margin: 05px;
 }
 
+.header {
+    min-width: 37.5rem;
+    height: 4.375rem;
+    background-color: #fff;
+    display: flex;
+    position: fixed;
+    width: 100%;
+    justify-content: center;
+    border-bottom: 1px solid #DDD;
+}
 
+.header .logo {
+    justify-content: left;
+    height: 4rem;
+}
 
+.container {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
 
+.navigation {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+.navigation__list {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    color: #838994;
+    font-size: 1.2rem;
+    list-style: none;
+}
 
+.navigation__item:hover {
+    cursor: pointer;
+    color: red;
+}
 
- html,
- body {
-     margin: 0;
-     height: 100%;
- }
+.navigation__item--active {
+    color: #4c5058;
+    font-weight: 500;
+}
 
- /* don't edit this */
- .jest-lite-report__status--pass {
-     background: var(--color-pass);
- }
+.intro {
+    background-image: url("https://miro.medium.com/max/1024/1*fJjQOPz-PdJjRqefaBV13Q.jpeg");
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50rem;
+    overflow: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
- .jest-lite-report__errors {
-     display: none
- }
+.intro__h1,
+.intro__h3 {
+    color: white;
+    font-weight: 400;
+    font-size: 3.125rem;
+    margin-bottom: 1rem;
+}
+
+.intro__h3 {
+    font-size: 1.563rem;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+    border-top: 1px dotted gray;
+}
