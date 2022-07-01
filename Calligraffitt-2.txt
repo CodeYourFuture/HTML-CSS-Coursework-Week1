@@ -1,0 +1,15 @@
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Calligraffitti&family=Courgette&display=swap" rel="stylesheet">
+
+
+
+
+
+
+
+
+
+font-family: 'Calligraffitti', cursive;
+font-family: 'Courgette', cursive;
