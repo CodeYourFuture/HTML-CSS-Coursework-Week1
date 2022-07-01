@@ -6,11 +6,16 @@
  *    for example: General styles, Navigation styles, Hero styles, Footer etc.
  * 
  */
+
+ /* General style */
  body {
     margin: 0;
     background-color: lightgrey;
     background-image: url(/images/fb.png);
  }
+
+ /* header presentation */
+
 header {
     text-align: center;
     padding: 25px 0;
@@ -23,9 +28,11 @@ header:first-child img {
 
 }
 
+/* navigation bar layout */
+
 .navigation {
     background-color: black;
-    
+    height: 25px;
 }
 
 .nav-links {
@@ -33,10 +40,11 @@ header:first-child img {
     text-decoration: none;
     color: whitesmoke;
     justify-content: space-between;
-    padding: 10px;
+    padding: 10px 15px;
     
 }
 
+/* nav hover effects */
 
 a:hover {
     color: orange;
@@ -45,6 +53,8 @@ a:hover {
 a:active {
     color: blue;
 }
+
+/* main session design */
 
  main {
     background-color: white;
@@ -58,6 +68,9 @@ a:active {
  .football {
     background-color:honeydew
  }
+
+/* table formatting */
+
  table {
     font-family: arial, sans-serif;
         border-collapse: collapse;
@@ -73,7 +86,7 @@ a:active {
     tr:nth-child(even) {
         background-color: #dddddd;
  }
-
+/* Various articles display */
  .heading {
     margin-top: 50px;
     
@@ -90,8 +103,9 @@ a:active {
     text-align: center;
     text-decoration: none;
  }
+/* footer design */
 
  footer {
     text-align: center;
-    color:darkred;
+    color:red;
  }
