@@ -31,9 +31,10 @@ body {
 /* nav */
 .topnav {
   display: block;
-  position: fixed;
-  top: 1rem;
-  width: 100%;  
+  position: static;
+  /* top: 1rem; */
+  width: 100%; 
+  margin-top: -3rem; 
 }
 .topnav a {
   float: right;
@@ -65,14 +66,14 @@ body {
   border-bottom: none;
   border-top-left-radius: 2rem;
 }
-* {
+/* * {
   margin: 0;
   padding: 0;
-}
+} */
 
 /* main */
 main {
-  margin-top: 50px;
+  margin-top: 80px;
 }
 main img {
   width: 100%;
@@ -88,9 +89,11 @@ main img {
 .main h1 {
   text-align: center;
   font-size: 40px;
+  /* background-color: black; */
+  /* margin-top: 5rem; */
 }
 .article-1 {
-  margin: 40px;
+  margin: 5px 40px;
   font-size: 30px;
 }
 .main-container-2 {
