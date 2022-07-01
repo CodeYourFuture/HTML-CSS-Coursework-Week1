@@ -6,3 +6,103 @@
  *    for example: General styles, Navigation styles, Hero styles, Footer etc.
  * 
  */
+
+
+ 
+
+ body{
+    background-image: url(../images/celeste.gif);
+    background-repeat: no-repeat;
+    background-size:contain
+}
+
+.main-text{
+    font-size: 130pt;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight:bolder;
+    color: whitesmoke;
+    text-align: right;
+    padding-right: 50px;
+    margin-top: 60px;
+    margin-bottom: -60px;
+}
+
+h2{
+    color: azure;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 40pt;
+    text-align: right;
+    padding-right: 160px;
+    margin-bottom: 90px;
+}
+.first-text{
+    color: aqua;
+    text-align: right;
+    padding-right: 260px;
+    font-size: 20pt;
+}
+
+.video{
+    position: relative;
+    left: 1100px;
+}
+
+/* Game articles */
+
+.articles{
+    background-color: black;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+
+h1{
+    font-size: 66px;
+    font-weight: 600;
+    color: cadetblue;
+}
+
+.min-text{
+    font-size: 30px;
+    font-weight: 400;
+    color: antiquewhite;
+}
+p{
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px;
+}
+
+.row{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.game-ft{
+    flex-basis: 31%;
+    background: gainsboro;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+}
+
+footer{
+    background-color: aliceblue;
+    text-align: center;
+    width: 100%;
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+
+h4{
+    font-size: 33px;
+}
+
+a{
+    font-size: 20px;
+}
+
