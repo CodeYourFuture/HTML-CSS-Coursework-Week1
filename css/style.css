@@ -16,7 +16,7 @@ body {
 header {
     margin: 0em 1em ;
         padding: 0.2em 1em 2em 0em;
-        background-image: url("/images/canal-art3.png");
+        background-image: url("/images/canal-art3.svg");
         text-align: center;
         background-color: lightslategray;
         background-repeat: no-repeat;
@@ -42,7 +42,7 @@ header {
  }
     
     
-
+/*  nav section     */
 
 nav {
    position: sticky;
@@ -67,19 +67,31 @@ nav {
    font-weight: bolder ; 
    color: lightskyblue;
 }
-
+/* intro  history & origin   */
 .intro-image {
-
-    width: 30%;
+   width: 30%;
 }
 
+.wiki-link {
+   text-decoration: none; 
+   font-weight: bold;
+   font-size: 20px;
+   
+}
 
+.wiki-link:hover {
+    background-color: purple;
+    color: #fff;
+}
+
+/* section and article styles     */
 
 section {
     display: flex;
     justify-content: center;
     flex-direction: column;
     padding:10px 10px;
+    color: black
 }
 
  article {
@@ -122,4 +134,11 @@ margin: auto;
  .footer-links  {
   text-decoration: none;  
  margin-right: 2em;
+ padding: 2px;
+}
+.footer-links:hover {
+    background-color: darkcyan;
+    font-weight: bolder;
+    color: #fff;
+    font-weight: bold;
 }
