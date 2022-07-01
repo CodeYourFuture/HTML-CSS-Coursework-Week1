@@ -6,3 +6,24 @@
  *    for example: General styles, Navigation styles, Hero styles, Footer etc.
  * 
  */
+.container  {
+     background-color: rgb(81, 117, 117);
+     font-family: 'Roboto', sans-serif;
+
+}
+
+h1 {
+    color: aliceblue;
+}
+}
+
+.content {
+     text-align: center;
+     border-style: solid;
+     border-width: 6ch;
+     padding: 40px;
+
+
+
+
+}
