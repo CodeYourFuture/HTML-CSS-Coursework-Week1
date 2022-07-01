@@ -23,15 +23,16 @@ main {
   justify-content: center;
 }
 figure {
-  background-color: white;
-  padding: 2rem 2rem;
+  padding: 1rem 1rem;
   max-width: 90vw;
+  block-size: fit-content;
+  background-color: white;
 }
 figcaption {
   max-width: 60vw;
 }
 img {
-  max-width: 70vw;
+  max-width: 20vw;
 }
 .drop-shadow {
   box-shadow: 3px 4px 8px gray;
@@ -53,4 +54,7 @@ hr {
 .align-center {
   display: block;
   margin: auto;
+}
+.larger-scale {
+  max-width: 40vw;
 }

@@ -47,6 +47,13 @@ header {
   line-height: 100%;
   font-size: 0.85rem;
 }
+/*    ARTICLE    */
+article {
+  max-width: 50vw;
+  background-color: white;
+  padding: 0rem 2rem 2rem 2rem;
+  margin-bottom: 1rem;
+}
 h3 {
   font-family: "Amatic SC", cursive;
   font-size: 1.5rem;
@@ -54,12 +61,6 @@ h3 {
 p {
   font-family: "Quicksand", sans-serif;
   margin: 0;
-}
-article {
-  max-width: 50vw;
-  background-color: white;
-  padding: 0rem 2rem 2rem 2rem;
-  margin-bottom: 1rem;
 }
 .drop-shadow {
   box-shadow: 3px 4px 8px gray;
