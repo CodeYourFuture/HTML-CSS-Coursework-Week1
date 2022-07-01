@@ -212,7 +212,7 @@ header {
   opacity: 1;
 }
 
-section {
+article {
   width: 70%;
   text-align: justify;
   /*border: 2px solid red;*/
@@ -222,9 +222,14 @@ section {
   padding-top: 2em;
 }
 
+article:first-child {
+  color: #bb0000;
+}
+
 h2 {
   background-color: #8f9a27;
   text-align: left;
+  padding: 3px;
 }
 
 .Dishes-conatiner {
