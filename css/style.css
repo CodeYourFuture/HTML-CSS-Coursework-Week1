@@ -7,7 +7,13 @@
 }
 
 body{
+    margin: 0%;
+    
+}
+
+main{
     margin: 0;
+    padding-top: 0;
 }
 
 h1{
@@ -15,6 +21,7 @@ h1{
     text-transform: uppercase;
     font-weight: bold;
 }
+
 
 .header{ 
     display: flex;
@@ -28,6 +35,7 @@ h1{
     position: fixed;
     top: 0;
     margin-top: auto;
+    
 }
 
 
@@ -45,7 +53,7 @@ h1{
 
 }
 
-
+/* ---------------------------------------------------------------------------------------- */
 .welcome-section{
     display: flex;
     flex-direction: column;
@@ -62,13 +70,13 @@ h1{
     font-size: 3vw;
     text-transform: uppercase;
 }
-
+/* Mohammed ali section---------------------------------------------------------------------------------- */
 .ali-section{
     display: flex;
     flex-direction: column;
     width: 100%;
    
-}
+} 
 
 .ali-intro{
     background-color: black;
@@ -77,6 +85,7 @@ h1{
     height: 30rem;
     line-height: 0.1;
     color: #f0f0f0;
+    padding: 2rem;
     
     
 }
@@ -103,6 +112,7 @@ h1{
     width: 50rem;
     opacity: 0.5;
     max-width: 100%;
+   
     
 }
 
@@ -112,8 +122,6 @@ h1{
 }
 q{
     font-size: 3rem;
-   
-
 }
 
 #quote{
@@ -125,8 +133,55 @@ q{
 .ali-article-content{
     text-align: left;
     margin: 2rem 12rem;
-    
-}
-.ali-article-content > p{
+    line-height: 1.5;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+/* Michael Jordan section-------------------------------------------- */
+.mj-section{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.mj-intro{
+    background-color: #1F4690;
+    line-height: 0.5px;
+    padding: 25px;
+    text-align: center;
+    font-size: 4rem;
+    color: white;
+ 
+}
+
+
+
+.mj-article-header{
+    background-color: #DAEAF1;
+    text-align: center;
+    line-height: 0.5px;
+    padding-top: 50px;
+    font-size: 30px;
+    font-weight: bold;
+    
+
+}
+
+.mj-article-content{
+    display: flex;
+    background-color: #DAEAF1;
+    
+
+}
+
+.mj-pic{
+    height: 600px;
+    width: 600px;
+    justify-content: flex-end;
+}
+
+.mj-content-list{
+    padding: 50px;
+    font-size: 20px;
 }
