@@ -92,6 +92,9 @@ main img {
   /* background-color: black; */
   /* margin-top: 5rem; */
 }
+.article-1:first-child {
+  color: red;
+}
 .article-1 {
   margin: 5px 40px;
   font-size: 30px;
@@ -112,9 +115,23 @@ main img {
    background-image: url(../jean-philippe-delberghe-75xPHEQBmvA-unsplash.jpg);
    padding: 25px;
 }
+.article-2:first-child {
+  color: blue;
+}
 .main h1 {
   text-align: center;
   font-size: 40px;
+}
+.article__read-more a {
+  font-size: 1.5rem;
+  font-weight: 700;
+  /* color: #c05326; */
+  text-decoration: none;
+}
+
+.article__read-more a:hover,
+.article__read-more a:focus {
+  text-decoration: underline;
 }
 /* aside */
 aside {
