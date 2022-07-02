@@ -30,6 +30,12 @@
    color: rgb(181, 206, 228);
    font-size: 60px;
    text-align: center;
-   text-shadow: #fff 6ch;
+   text-decoration-line: underline;
+   text-decoration-color: black;
+   text-shadow: 5px 5px 5px rgb(28, 51, 99);
+
 
 }
+article:first-child {
+    background: yellow;
+  }
