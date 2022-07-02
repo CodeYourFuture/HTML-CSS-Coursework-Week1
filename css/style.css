@@ -6,3 +6,181 @@
  *    for example: General styles, Navigation styles, Hero styles, Footer etc.
  * 
  */
+/* nav */
+/* body  */
+body {
+  box-sizing: border-box;
+  width: 100vw;
+  overflow-x: hidden;
+  background-image: url(../jean-philippe-delberghe-75xPHEQBmvA-unsplash.jpg);
+  margin: 0;
+}
+/* logo */
+.logo {
+  width: 100px;
+  height: 60px;
+  border-radius: 30px;
+  opacity: 0.3;
+  margin-top: 0.5rem;
+}
+ 
+.logo:hover {
+  opacity: 1.0;
+  box-shadow: 10px 10px 18px rgb(230, 4, 4);
+}
+/* nav */
+.topnav {
+  display: block;
+  position: static;
+  /* top: 1rem; */
+  width: 100%; 
+  margin-top: -3rem; 
+}
+.topnav a {
+  float: right;
+  /* color: darkblue; */
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  font-weight: bold;
+  text-align: center;
+  padding: 15px 25px;
+  /* background-color: rgb(22, 109, 33); */
+  color: black;
+  /* border: 2px solid black; */
+  width: 75px;
+  transition: all 0.3s ease;
+}
+/* Change the color of links on hover */
+.nav-link:hover {
+  color: black;
+  background: #96e0e9;
+  box-shadow: 5px 10px 18px red inset;
+  padding: 25px 15px 10px 15px;
+  border-top-left-radius: 1.5rem;
+}
+#active {
+  background-color: rgb(171, 173, 171);
+  color: black;
+  border-bottom: none;
+  border-top-left-radius: 2rem;
+}
+/* * {
+  margin: 0;
+  padding: 0;
+} */
+
+/* main */
+main {
+  margin-top: 80px;
+}
+main img {
+  width: 100%;
+  height: 150px;
+  margin-top: 0;
+}
+.main-container {
+  display: flex;
+  position: relative;
+  /* background-color: aqua; */
+  /* background-image: url(../jean-philippe-delberghe-75xPHEQBmvA-unsplash.jpg); */
+}
+.main h1 {
+  text-align: center;
+  font-size: 40px;
+  /* background-color: black; */
+  /* margin-top: 5rem; */
+}
+.article-1:first-child {
+  color: red;
+}
+.article-1 {
+  margin: 5px 40px;
+  font-size: 30px;
+}
+.main-container-2 {
+  display: flex;
+  position: relative;
+  /* background-color: aqua; */
+}
+.main h2 {
+  text-align: center;
+  font-size: 40px;
+}
+.article-2 {
+  margin: 50px;
+  font-size: 30px;
+  /* border: 1px solid; */
+   background-image: url(../jean-philippe-delberghe-75xPHEQBmvA-unsplash.jpg);
+   padding: 25px;
+}
+.article-2:first-child {
+  color: blue;
+}
+.main h1 {
+  text-align: center;
+  font-size: 40px;
+}
+.article__read-more a {
+  font-size: 1.5rem;
+  font-weight: 700;
+  /* color: #c05326; */
+  text-decoration: none;
+}
+
+.article__read-more a:hover,
+.article__read-more a:focus {
+  text-decoration: underline;
+}
+/* aside */
+aside {
+  margin: 40px;
+  font-size: 25px;
+  border: 2px solid rgb(181, 163, 163);
+  padding: 20px;
+  /* background-color: rgb(212, 216, 219); */
+  box-shadow: 5px 10px 18px rgb(80, 53, 53)
+}
+aside h3 {
+  text-align: center;
+}
+
+.main h4 {
+  text-align: center;
+  font-size: 40px;
+}
+.about p {
+  margin: 40px;
+  font-size: 30px;
+}
+/* footer */
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100px;
+  /* background-color: aquamarine; */
+}
+/* .footer a {
+  font-size: 30px;
+  text-align: center;
+  margin-bottom: 80px;
+} */
+.go {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-bottom: 7%;
+  font-size: 2.5rem;
+}
+.fa-github {
+  margin-right: 20px;
+}
+.footer h5 {
+  display: flex;
+  position: absolute;
+  margin-left: 500px;
+  /* background-color: blueviolet; */
+}
