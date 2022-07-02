@@ -1,8 +1,143 @@
-/**
- * Add your custom styles below
- * 
- * Remember: 
- * - Be organised, use comments and separate your styles into meaningful chunks
- *    for example: General styles, Navigation styles, Hero styles, Footer etc.
- * 
- */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    background-image: url(../img/background-paper.jpg);
+    background-size: cover;
+    background-color: antiquewhite;
+}
+
+/* header: */
+
+.header {
+    display: flex;
+    justify-content: space-around;
+}
+
+.logo {
+    height: 150px;
+}
+
+.title-paper {
+    height: 160px;
+    width: auto;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 1000px;
+    padding: 50px;
+    box-shadow: 3px 15px 18px 1px #888;
+}
+
+/* articles & headlines: */
+
+.content h1,
+h2 {
+    text-align: center;
+    text-transform: uppercase;
+    margin: 5px
+}
+
+.content h1 {
+    font-family: 'Fredericka the Great', cursive;
+    font-size: 50px;
+}
+
+.content h2 {
+    font-family: 'Diplomata SC', cursive;
+    font-size: 26px;
+}
+
+.content p {
+    font-size: 16px;
+    text-align: justify;
+    font-family: 'Special Elite', cursive;
+    line-height: 1.5rem;
+    margin: 15px;
+}
+
+/* Articles borders: */
+
+.header,
+.article-1,
+.article-2 {
+    border-bottom: 1px dotted #000;
+}
+
+.article-3 {
+    border-bottom: 3px solid #000;
+}
+
+/* Images: */
+
+.art1-img {
+    margin: 15px;
+    height: 400px;
+    width: auto;
+    border: 1px solid rgb(142, 142, 142);
+    float: right;
+}
+
+.art2-img {
+    margin: 15px;
+    height: 320px;
+    width: auto;
+    border: 1px solid rgb(142, 142, 142);
+    float: left;
+}
+
+.art3-img {
+    margin: 15px;
+    height: 260px;
+    width: auto;
+    border: 1px solid rgb(142, 142, 142);
+    float: right;
+}
+
+
+/* pseudo classes: */
+
+.article-1 h1:first-child {
+    font-size: 45px;
+    text-decoration-line: underline;
+    text-decoration-thickness: 1px;
+    text-shadow: 2px 1px #ffcc00;
+    margin-top: 7px;
+}
+
+.article-1 h2:first-of-type {
+    text-shadow: 1px 1px #ffcc00;
+}
+
+.content p:first-letter {
+    font-family: 'Fredericka the Great', cursive;
+    font-size: 80px;
+    float: left;
+    margin: 23px 12px;
+}
+
+/* Footer: */
+
+.footer {
+    display: flex;
+    justify-content: center;
+    background-color: #000;
+    margin: 5px 0;
+    padding: 5px;
+}
+
+.copyright {
+    font-family: 'Aclonica', sans-serif;
+    color: rgb(210, 210, 210);
+}
