@@ -106,3 +106,7 @@ a{
     font-size: 20px;
 }
 
+h1:first-child{
+    color: rgb(40, 162, 255);
+}
+
