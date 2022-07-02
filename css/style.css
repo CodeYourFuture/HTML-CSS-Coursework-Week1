@@ -10,6 +10,11 @@ body {
     justify-content: center;
 }
 
+.container {
+    background-image: url(../img/background-paper.jpg);
+    background-size: cover;
+    background-color: antiquewhite;
+}
 
 /* header: */
 
@@ -27,10 +32,7 @@ body {
     width: auto;
 }
 
-.newspaper {
-    background-image: url(../img/background-paper.jpg);
-    background-size: cover;
-    background-color: antiquewhite;
+.container {
     display: flex;
     flex-direction: column;
     width: 1000px;
@@ -38,34 +40,32 @@ body {
     box-shadow: 3px 15px 18px 1px #888;
 }
 
+/* articles & headlines: */
 
-/* texts & headlines: */
-
-.newspaper h1,
+.content h1,
 h2 {
     text-align: center;
     text-transform: uppercase;
     margin: 5px
 }
 
-.newspaper h1 {
+.content h1 {
     font-family: 'Fredericka the Great', cursive;
     font-size: 50px;
 }
 
-.newspaper h2 {
+.content h2 {
     font-family: 'Diplomata SC', cursive;
     font-size: 26px;
 }
 
-.newspaper p {
-    font-size: 15px;
+.content p {
+    font-size: 16px;
     text-align: justify;
     font-family: 'Special Elite', cursive;
     line-height: 1.5rem;
     margin: 15px;
 }
-
 
 /* Articles borders: */
 
@@ -78,7 +78,6 @@ h2 {
 .article-3 {
     border-bottom: 3px solid #000;
 }
-
 
 /* Images: */
 
@@ -109,7 +108,7 @@ h2 {
 
 /* pseudo classes: */
 
-.article-1 h1:first-of-type {
+.article-1 h1:first-child {
     font-size: 45px;
     text-decoration-line: underline;
     text-decoration-thickness: 1px;
@@ -121,25 +120,12 @@ h2 {
     text-shadow: 1px 1px #ffcc00;
 }
 
-.article-1 p:first-of-type {
-    font-size: 17px;
-    font-weight: bold;
-}
-
-.article-1 img:first-of-type {
-    float: right;
-    position: relative;
-    right: 0px;
-    bottom: 0px;
-}
-
-.newspaper p:first-letter {
+.content p:first-letter {
     font-family: 'Fredericka the Great', cursive;
     font-size: 80px;
     float: left;
     margin: 23px 12px;
 }
-
 
 /* Footer: */
 
