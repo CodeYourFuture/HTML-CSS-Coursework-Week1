@@ -1,0 +1,47 @@
+nav {
+  background-color: black;
+  height: 50px;
+}
+
+nav ul li {
+  list-style-type: none;
+  width: 150px;
+  float: left;
+  text-align: center;
+}
+nav ul {
+  height: 50px;
+  margin: 0 auto;
+  padding: 0;
+}
+
+li a {
+  text-decoration: none;
+  color: white;
+  line-height: 50px;
+  display: block;
+}
+li a:hover {
+  background-color: black;
+  color: aqua;
+}
+
+* {
+  color: black;
+  background-color: gray;
+  color: white;
+}
+
+.mphones {
+  margin: 0 auto;
+  border: 50px;
+  max-width: 100%;
+}
+
+p:article{
+    color: white;
+}
+
+p:article{
+    color:lawngreen;
+}
