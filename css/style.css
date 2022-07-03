@@ -130,7 +130,7 @@ article :first-child {
 
 footer {
     border-top: 2px solid ;
-    margin: 50px;
+    margin-top: 20px;
     text-align: center;
     background-color: aqua;
 }
