@@ -28,7 +28,7 @@ h1{
     align-items: center;
     width: 100%;
     justify-content: flex-end;
-    height: 5rem; 
+    /* height: 1rem;  */
     margin-top: 1rem;
     margin-bottom: 1rem;
     background-color: var(--main-grey-dark);
@@ -63,6 +63,7 @@ h1{
     height: 100vh;
     line-height: 0.8rem;
     background-color: #a5becc;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 
 }
 
@@ -85,7 +86,7 @@ h1{
     height: 30rem;
     line-height: 0.1;
     color: #f0f0f0;
-    padding: 2rem;
+    padding-bottom: 2rem;
     
     
 }
@@ -184,4 +185,80 @@ q{
 .mj-content-list{
     padding: 50px;
     font-size: 20px;
+}
+
+/* Maradona section------------------------------------------------------ */
+
+.maradona-section {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+}
+
+.maradona-intro{
+    background-color: #541212;
+    line-height: 0.5px;
+    padding: 25px;
+    font-size: 40px;
+    display: flex;
+    flex-direction: column;
+    height: 25rem;
+    color: white;
+    
+}
+
+.maradona-name {
+    font-size: 5vw;
+    margin-top: 10rem;
+    margin-left: 2rem;
+
+}
+
+
+
+.maradona-life-death {
+    font-size: 1.5vw;
+    margin-left: 4rem;
+}
+
+.maradona-pic {
+    position: absolute;
+    right: 60px;
+    height: 400px;
+    width:400px;
+    max-width: 100%;
+}
+
+.maradona-article {
+    text-align: center;
+    background-color: var(--main-grey-light);
+}
+
+
+
+.maradona-article-content {
+    text-align: left;
+    margin: 2rem 12rem;
+    line-height: 1.5;
+    font-family: sans-serif;
+}
+
+/* footer section */
+
+footer{
+    font-weight: 300;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 2rem;
+    background-color: var(--main-grey-dark);
+    color: white;
+}
+
+.footer-a:visited{
+    color: #F94C66;
+
+}
+.footer-a:hover{
+    color: #34B3F1;
 }
