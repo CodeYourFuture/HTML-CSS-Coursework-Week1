@@ -6,3 +6,132 @@
  *    for example: General styles, Navigation styles, Hero styles, Footer etc.
  * 
  */
+
+/* Using Roboto font added from Google. Set margin to 0 */
+
+ body {
+    margin: 0;
+    font-family:'Roboto'sans-serif;
+
+          
+}
+
+header,
+main,
+footer {
+    max-width: 1200px;
+    margin: 0 auto ;
+    padding: 0 ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    
+}
+
+
+header {
+    position: relative;
+    width: auto;
+    height: 250px;
+    display: block;
+}
+
+/* using a pseudoclass to adjust the background image opacity  */
+
+header::after {
+    content: "";
+    background-image: url(/images/img4.jpg);
+    position: absolute;
+    top: -55px;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    opacity: 0.3;
+    z-index: -1;
+    background-position: center;
+}
+
+
+h1 {
+    position: relative;
+    color: black;
+    font-size: 5rem;
+    line-height: 0.9;
+    text-align: center;
+}
+
+/* navigation bar */
+
+.navigation-list {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: ;
+    height: 0.5rem;
+    margin-bottom: 1rem;
+    padding-top: 1rem;
+}
+
+.navigation-item {
+    list-style-type: none;
+    flex-direction: row;
+    font-size: 0.75rem;
+    padding: 0rem 1rem 0rem 0rem;
+
+}
+
+.navigation-link {
+    color: var(--grey-dark);
+    font-weight: 600;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 0.5rem 0;
+}
+
+/* hover properties of the navigation bar */
+
+.navigation-link:hover {
+    background-color: coral;
+    color: darkgreen;
+    padding: 2px 5px;
+    border-radius: 2px;
+}
+
+
+main {
+    background-color: chartreuse;
+    font-size: initial ;
+    background-image: url(/images/img5.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.first-article{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+.first-image,
+.second-image,
+.third-image
+ {
+    width: 400px;
+}
+
+/* use of :first-child pseudo class applied to the article  */
+
+article :first-child {
+    color: chocolate;
+}
+
+footer {
+    border-top: 2px solid ;
+    margin-top: 20px;
+    text-align: center;
+    background-color: aqua;
+}
+
