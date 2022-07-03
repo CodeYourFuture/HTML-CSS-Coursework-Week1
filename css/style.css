@@ -53,6 +53,10 @@ h1{
 
 }
 
+h1:first-child{
+    text-shadow: 2px 2px #FF0000;
+}
+
 /* ---------------------------------------------------------------------------------------- */
 .welcome-section{
     display: flex;
@@ -197,7 +201,7 @@ q{
 }
 
 .maradona-intro{
-    background-color: #541212;
+    background-color: #06283D;
     line-height: 0.5px;
     padding: 25px;
     font-size: 40px;
@@ -242,6 +246,7 @@ q{
     margin: 2rem 12rem;
     line-height: 1.5;
     font-family: sans-serif;
+    font-weight: bold;
 }
 
 /* footer section */
