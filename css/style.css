@@ -1,8 +1,124 @@
-/**
- * Add your custom styles below
- * 
- * Remember: 
- * - Be organised, use comments and separate your styles into meaningful chunks
- *    for example: General styles, Navigation styles, Hero styles, Footer etc.
- * 
- */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Open Sans";
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  width: 60%;
+  margin: auto;
+  margin-top: 3%;
+  grid-gap: 40px;
+}
+
+li {
+  list-style: none;
+  display: inline;
+  padding: 10px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+li:hover {
+  font-weight: 900;
+}
+
+i {
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+i:hover {
+  transform: scale(1.3);
+}
+
+.header {
+  text-align: center;
+  margin-top: 3%;
+  margin-bottom: 2%;
+}
+
+ul > :first-child:hover {
+  color: blue;
+}
+
+h1 {
+  font-family: "Merriweather";
+  font-size: 50px;
+}
+
+h2,
+h4,
+h5 {
+  font-weight: 100;
+}
+
+hr {
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 2%;
+}
+
+.content-container {
+  display: flex;
+  justify-content: center;
+  width: 60%;
+  margin: auto;
+  text-align: center;
+}
+
+.featured-article,
+.another-article {
+  margin: 2%;
+  margin-bottom: 2%;
+}
+
+.another-article h3,
+p {
+  margin-bottom: 10px;
+}
+
+img {
+  height: 400px;
+  width: 700px;
+}
+
+p {
+  text-align: left;
+  margin-left: 261px;
+  margin-right: 261px;
+}
+
+#caption {
+  text-align: center;
+  font-style: italic;
+}
+
+#caption_2 {
+  text-align: center;
+  font-style: italic;
+}
+
+.social_media {
+  text-align: center;
+  font-size: 40px;
+}
+
+#subscribe {
+  font-size: 20px;
+  text-align: center;
+}
+
+#legal {
+  text-align: center;
+  font-size: 158x;
+}
