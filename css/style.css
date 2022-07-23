@@ -6,3 +6,25 @@
  *    for example: General styles, Navigation styles, Hero styles, Footer etc.
  * 
  */
+ body{
+    background-color: khaki;
+ }
+ header{
+    font: 1em sans-serif;
+ }
+
+ section{
+    display: block;
+    margin: 5px;
+ }
+ .articles{
+    margin: 5px;
+    padding: 2px;
+ }
+ .articale-image{
+    width: 20%;
+ }
+ .facebook-image{
+    width: 7%;
+    border-radius: 50%;
+ }
