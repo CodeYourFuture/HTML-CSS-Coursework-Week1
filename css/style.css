@@ -55,4 +55,10 @@
     width: 7%;
     border-radius: 50%;
  }
- 
+
+ /* this is to practice pseudo class
+  and targeting picture and first child of the (class="pict-summary-section")
+ */
+section :first-child{
+   border-radius: 50%;
+}
