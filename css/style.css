@@ -6,3 +6,65 @@
  *    for example: General styles, Navigation styles, Hero styles, Footer etc.
  * 
  */
+  /* body font and background color */
+ body{
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: khaki;
+ }
+
+ /* this is header and h2 styling rule */
+ header,h2{
+    border: solid 3px;
+    text-align: center;
+    box-shadow: 10px 5px 5px red;
+    font-size: x-large;
+    padding: 5px;
+   }
+/* for SEO reason I give enough space between nav items */
+#navigation{
+   display: flex;
+   justify-content: space-around;
+}
+   /* this rule is displaying the three sections of the page
+   as block means on top of each other or other words portrait  */
+ .articles{
+    display:block;
+    box-shadow: 10px 5px red;
+ }
+
+ /* This class is targeting pictures and summary section so 
+ they can appear side by side  */
+ .pict-summary-section{
+   display: flex;
+   padding: 10px;
+ }
+
+ /* this code helps to make space between the pictures and the 
+ other content such as paragraphs and ul list. */
+.summary-section{
+   margin: 5%;
+}
+
+ .summary-paragraph{
+   font-size: larger;
+ }
+ .articale-image{
+   height: 100%;
+    width: 40%;
+ }
+ footer{
+   box-shadow: -5px 5px 5px ;
+ }
+ .facebook-image{
+  
+    width: 5%;
+   height: 4%;
+    border-radius: 50%;
+ }
+
+ /* this is to practice pseudo class
+  and targeting picture and first child of the (class="pict-summary-section")
+ */
+section :first-child{
+   border-radius: 50%;
+}
