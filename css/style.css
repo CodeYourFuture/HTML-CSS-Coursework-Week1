@@ -6,3 +6,276 @@
  *    for example: General styles, Navigation styles, Hero styles, Footer etc.
  * 
  */
+
+ /* fonts */ 
+@import url('https://fonts.googleapis.com/css2?family=Prata&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200;400&display=swap');
+
+
+/* general */
+
+ body {
+    width: 100%;
+    margin: 0 auto;
+    font-family: "raleway";
+    font-size: 1rem;
+}
+
+ main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ }
+
+ main article:first-child {
+   background-color: rgb(26, 50, 26);
+   color: white;
+}
+
+main article:first-child .article_subtitle {
+
+    color: white;
+ }
+
+
+ /* font styles */
+
+ h1 {
+    text-align: center;
+    font-family: 'prata';
+    color: white;
+    letter-spacing: 2px;
+    font-weight: initial;
+    font-size: 5vw;
+    padding: 10px;
+    margin: 0px;
+ }
+
+ h2,
+ h4 {
+    text-align: center; 
+ }
+ 
+ h4 {
+    color: white;
+    font-weight: initial;
+    padding: 0px 20px 20px 20px;
+    line-height: 1.5;
+    margin: 0px;
+ }
+
+
+ h3 {
+    text-transform: uppercase;
+    color: seagreen;
+    font-weight: bold;
+    font-family: 'prata';
+    letter-spacing: 2px;
+    align-self: left;
+ }
+
+/* header */
+
+ header {
+    background-image: url("/images/IMG_3129.JPG");
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    width: 100%;
+    height: 45vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero {
+    width: 50%;
+    height: auto;
+    border: 2px solid white;
+}
+
+/* navigation */
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(26, 50, 26);
+    height: 7vh;
+    align-items: center;
+}
+
+ul {
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+
+a:hover {
+    text-decoration: none;
+    color:  rgb(225, 139, 28);
+}
+
+li {
+    list-style: none;
+    display: inline-block;
+    padding: 10px;
+
+}
+
+
+/* articles */ 
+
+
+article {
+    max-width: 50%;
+    margin: 10px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+ }
+
+ 
+
+.article_title {
+    text-transform: uppercase;
+    color: rgb(225, 139, 28);
+    font-weight: bold;
+    font-family: 'prata';
+    letter-spacing: 3pt;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.article_subtitle {
+    color: saddlebrown;
+    text-align: left;
+    margin-bottom: -60px;
+    padding-top: 0px;
+    font-size: 3em;
+    z-index: -1;
+    text-transform: uppercase;
+    opacity: 10%;
+    letter-spacing: 3pt;
+}
+
+.first_article_title {
+    text-transform: uppercase;
+    color: white;
+    font-weight: bold;
+    font-family: 'prata';
+    letter-spacing: 3pt;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.first_article_subtitle {
+    color: white;
+    text-align: left;
+    margin-bottom: -60px;
+    padding-top: 0px;
+    font-size: 3em;
+    z-index: 1;
+    text-transform: uppercase;
+    opacity: 30%;
+    letter-spacing: 3pt;
+}
+
+article img {
+    object-fit: cover;
+    height: 25vw;
+    margin-top: 10px;
+}
+
+
+button {
+    border: none;
+    padding: 10px;
+    width: 150px;
+    align-self: flex-start;
+    border: 1px solid seagreen;
+    color: seagreen;
+    background-color: white;
+ }
+
+ button:hover {
+    background-color:rgb(225, 139, 28);
+    background-color:rgb(225, 139, 28);
+    border: 1px solid rgb(225, 139, 28);
+    color: white;
+ }
+
+
+    /* footer */ 
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 25vh;
+    background-color:  rgb(26, 50, 26);
+    margin-top: 20px;
+
+}
+
+.footer-text {
+    color: white;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+
+/* media query */
+
+
+@media only screen and (max-width: 900px) {
+    header {
+        background-repeat: no-repeat;
+        background-position: top;
+  
+        background-size: cover;
+    }
+
+    .article_title {
+        text-transform: uppercase;
+        color: rgb(225, 139, 28);
+        font-weight: bold;
+        font-family: 'prata';
+        letter-spacing: 3pt;
+        font-size: 3.5vw;
+    }
+    
+
+    .article_subtitle {
+        color: saddlebrown;
+        text-align: left;
+        margin-bottom: -12%;
+        padding-top: 0px;
+        font-size: 5vw;
+        z-index: -1;
+        text-transform: uppercase;
+        opacity: 10%;
+        letter-spacing: 3pt;
+        }
+ 
+        .first_article_subtitle {
+            font-size: 5vw;
+            margin-bottom: -12%;
+        }
+
+        .first_article_title {
+        letter-spacing: 3pt;
+        font-size: 3.5vw;
+    }
+
+  }
+
