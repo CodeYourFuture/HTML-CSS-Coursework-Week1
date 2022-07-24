@@ -31,13 +31,22 @@ color: white;
 letter-spacing: 2px;
 font-weight: initial;
 font-size: 5vw;
+padding: 10px;
+margin: 0px;
  }
 
  h2,
  h4 {
     text-align: center; 
  }
-
+ 
+ h4 {
+    color: white;
+    font-weight: initial;
+    padding: 0px 20px 20px 20px;
+    line-height: 1.5;
+    margin: 0px;
+ }
  article {
 
     width: 70%;
@@ -126,4 +135,9 @@ nav {
     font-weight: bold;
     font-family: 'prata';
     letter-spacing: 2px;
+}
+
+hr {
+    width: 100%;
+    color: black;
 }
