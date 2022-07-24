@@ -6,3 +6,42 @@
  *    for example: General styles, Navigation styles, Hero styles, Footer etc.
  * 
  */
+
+ /* Header */
+ .h1 {
+    text-align: center;
+    background-color: aquamarine;
+    width: fit-content;
+    margin: auto;
+ }
+ .intro {
+    text-align: center;
+    text-decoration: underline;
+    font-size: larger;
+ }
+ .h2 {
+    text-align: center;
+ }
+
+ /* Article */
+ article {
+   border-top: 2px solid orange;
+ }
+ .h3 {
+   text-align: center;
+ }
+ .link {
+   text-align: center;
+ }
+ .image {
+   display: flex;  
+   justify-content: center;
+   margin-left:auto;
+   margin-right: auto;
+ }
+ .article {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid black;
+ }
