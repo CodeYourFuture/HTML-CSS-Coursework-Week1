@@ -28,6 +28,10 @@ header {
     margin: 20px;
 }
 
+.article:first-child {
+    background-color: #bdc3c7;
+}
+
 .section-other {
     display: flex;
     background-color: #ecf0f1;
