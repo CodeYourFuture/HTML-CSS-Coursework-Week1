@@ -9,3 +9,15 @@ header {
     text-align: center;
     padding: 50px 0px;
 }
+
+.section-article {
+    display: flex;
+    justify-content: center;
+}
+
+.article {
+    width: 30%;
+    background-color: #ecf0f1;
+    padding: 20px;
+    margin: 20px;
+}
