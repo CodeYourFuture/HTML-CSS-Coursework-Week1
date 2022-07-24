@@ -14,14 +14,17 @@
 
  /* this is header and h2 styling rule */
  header,h2{
-    font: 1em sans-serif;
     border: solid 3px;
     text-align: center;
     box-shadow: 10px 5px 5px red;
     font-size: x-large;
     padding: 5px;
    }
-
+/* for SEO reason I give enough space between nav items */
+#navigation{
+   display: flex;
+   justify-content: space-around;
+}
    /* this rule is displaying the three sections of the page
    as block means on top of each other or other words portrait  */
  .articles{
@@ -46,13 +49,16 @@
    font-size: larger;
  }
  .articale-image{
+    aspect-ratio: 4/2;
     width: 40%;
  }
  footer{
    box-shadow: -5px 5px 5px ;
  }
  .facebook-image{
-    width: 7%;
+  
+    width: 5%;
+   height: 4%;
     border-radius: 50%;
  }
 

@@ -4,17 +4,18 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
     <title>FLC College</title>
-    <link href="//fonts.googleapis.com/css?family=Roboto:400,500,300" rel="stylesheet" type="text/css"/>
+    <!-- I comment out this part to improve lighthouse best practices and SEO -->
+    <!-- <link href="//fonts.googleapis.com/css?family=Roboto:400,500,300" rel="stylesheet" type="text/css"/> -->
     <link rel="stylesheet" href="css/style.css" />
     <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
   </head>
   <body>
     <header class="header">
       <h1 class="title-1">Fit and Learning College <span id="title-span"> FLC</span></h1>
-      <nav class="navigation">
+      <nav id="navigation" class="navigation">
         <a href="#maths-id">Maths Course</a>&nbsp;
         <a href="#somali-id">Somali Language Course</a>&nbsp;
-        <a href="#sport-id">Sports</a>
+        <a href="#sport-id">Sports Course</a>
       </nav>
     </header>
     <!-- This the maine content of the page -->
@@ -23,7 +24,7 @@
         <article id="maths-section" class="articles">
           <h2 class="title-2">Maths Courses</h2>
           <section class="pict-summary-section">
-            <img src="/images/Maths-image.jpg" class="articale-image" alt="Math-image">
+            <img src="images/Maths-image.jpg" class="articale-image" alt="Math-image">
             <section class="summary-section">
               <p class="summary-paragraph">FLC provides high quality education, in specialized subjects</p>
               <ul id="maths_list">
@@ -31,7 +32,7 @@
                 <li>Secondary Level</li>
                 <li>Higher Mathematics</li>
               </ul>
-              <a class=""></a>
+              <a href="https://www.bbc.co.uk/bitesize/topics/zsjqtfr/year/z63tt39" class="math-link-toBitsize" target="_parent">More Maths</a>
             </section>
           </section>
         </article>
@@ -40,7 +41,7 @@
         <article id="somali-section" class="articles">
           <h2 class="title-2">Somali Language Courses</h2>
            <section class="pict-summary-section">
-             <img src="/images/somali-image.jpg" class="articale-image" alt="somali-image" >
+             <img src="images/somali-image.jpg" class="articale-image" alt="somali-image" >
               <section class="summary-section">
                 <p class="summary-paragraph">FLC can guaranteed you will be tough Somali Language in very short period of time</p>
                 <ul>
@@ -48,7 +49,7 @@
                   <li>speaking and writing</li>
                   <li>Listening complex conversation</li>
                 </ul>
-                <a class=""></a>
+                <a href="https://www.youtube.com/watch?v=uWWauiksJVs" class="somali-link" target="_parent">More about Somali</a>
               </section>
             </section>
         </article>
@@ -57,7 +58,7 @@
         <article id="sport-section" class="articles">
           <h2 class="title-2">Sports Courses</h2>
           <section class="pict-summary-section">
-            <img src="/images/sports-image.jpg" class="articale-image" alt="sport-image">
+            <img src="images/sports-image.jpg" class="articale-image" alt="sport-image">
               <section class="summary-section">
                   <p class="summary-paragraph">FLC is proud to be one of the best sports and learning college in the country</p>
                   <ul>
@@ -66,7 +67,7 @@
                     <li>Running & for advanced and beginners</li>
                     <li>Swimming</li>
                   </ul>
-                  <a class=""></a>
+                  <a href="https://www.liv-coll.ac.uk/course_departments/sports/" class="sports-link" target="_parent">more about sport</a>
                 </section>
           </section>
         </article>
@@ -74,8 +75,8 @@
 
     <footer class="footer">
       <!--a link for facebook has no class ** make it if necessary-->
-    <img src="/images/facebook-image.jpg" class="facebook-image" alt="facebook-image">
-      <span class="">@copy write Khadar</span>
+    <img src="images/facebook-image.jpg" class="facebook-image" alt="facebook-image">
+      <span class="">@copy-right Khadar</span>
     </footer>
   </body>
 </html>
