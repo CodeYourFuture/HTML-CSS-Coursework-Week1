@@ -3,6 +3,13 @@ body {
     margin: 0;
 }
 
+button {
+    background-color: #2980b9;
+    color: white;
+    border: none;
+    padding: 20px;
+}
+
 header {
     background-color: #2980b9;
     color: white;
