@@ -16,8 +16,19 @@ header {
 }
 
 .article {
-    width: 30%;
     background-color: #ecf0f1;
     padding: 20px;
     margin: 20px;
+}
+
+.section-other {
+    display: flex;
+    background-color: #ecf0f1;
+}
+
+.other-card {
+    margin: 50px;
+    background-color: white;
+    padding: 50px;
+    text-align: center;
 }
