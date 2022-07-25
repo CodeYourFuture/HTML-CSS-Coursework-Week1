@@ -6,3 +6,54 @@
  *    for example: General styles, Navigation styles, Hero styles, Footer etc.
  * 
  */
+
+ .header_titel{
+    border: 1px solid black;
+    text-align: center;
+    width: 500px;
+    margin-left: 30%;
+ }
+
+ .titel_art_1{
+    border: 1px solid black;
+    width: 500px;
+    margin-left: 30%;
+    margin-top: 100px;
+    background-color: aquamarine;
+ }
+
+ .titel_art_2{
+    border: 1px solid black;
+    width: 500px;
+    margin-left: 30%;
+    margin-top: 100px;
+    background-color: aquamarine;
+ }
+
+ .titel_art_3{
+    border: 1px solid black;
+    width: 500px;
+    margin-left: 30%;
+    margin-top: 100px;
+    background-color: aquamarine;
+ }
+
+ article{
+    border: 1px solid black;
+    width: 500px;
+    margin-left: 30%;
+    margin-top: 10px;
+    padding: 5px;
+    background-color: white;
+ }
+
+ body{
+    background-color: skyblue;
+ }
+
+ img{
+    width: 100px;
+    height: 100px;
+    margin-left: 30%;
+    margin-top: 10px;
+ }
