@@ -1,8 +1,163 @@
-/**
- * Add your custom styles below
- * 
- * Remember: 
- * - Be organised, use comments and separate your styles into meaningful chunks
- *    for example: General styles, Navigation styles, Hero styles, Footer etc.
- * 
- */
+/* ============ General styles =========== */
+:root {
+  --clr-light-blue: #6cd6e4;
+  --clr-black: #263238;
+  --clr-gray: #62727b;
+  --clr-white: #ffffff;
+  --clr-light-gray: #e2e2e2;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  font-family: inherit;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* ================ header ================ */
+header {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  padding: 14px 10vw;
+  background-color: var(--clr-black);
+}
+
+header div:first-child {
+  font-size: clamp(1rem, 1.6vw, 1.6vw);
+  display: flex;
+  letter-spacing: 0.3rem;
+  gap: 12px;
+  color: var(--clr-white);
+}
+
+header h4::first-letter {
+  color: var(--clr-light-blue);
+  font-size: 2rem;
+}
+
+header img {
+  width: 3em;
+}
+
+header ul {
+  display: flex;
+  gap: 1.1rem;
+  list-style: none;
+  font-weight: 500;
+}
+
+header ul a {
+  text-decoration: none;
+  color: var(--clr-white);
+}
+header ul a:hover {
+  color: var(--clr-light-blue);
+}
+.active-link {
+  color: var(--clr-black);
+}
+
+/* =============== Main ============== */
+section h1 {
+  text-align: center;
+  padding: 2rem 0;
+  font-size: 3rem;
+}
+
+.article-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.article-container article:first-child {
+  background-color: var(--clr-light-blue);
+}
+
+.article-container article {
+  width: clamp(380px, 90vw, 420px);
+  margin-bottom: 30px;
+  border: 2px solid var(--clr-light-blue);
+  border-radius: 6px;
+}
+
+.article-container img {
+  width: 100%;
+  max-height: 240px;
+}
+
+.article-text {
+  padding: 20px 0 0;
+  text-align: center;
+}
+
+.article-text h3 {
+  margin: 1rem;
+}
+.article-text > p {
+  margin: 1rem;
+}
+
+.writer {
+  border-top: 2px solid var(--clr-light-blue);
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px;
+}
+
+.writer a {
+  background-color: var(--clr-gray);
+  text-decoration: none;
+  color: var(--clr-white);
+  font-size: 1.1rem;
+  text-shadow: 1px 1px 1px black;
+  padding: 8px 18px;
+  border-radius: 4px;
+}
+
+.writer a:hover {
+  opacity: 80%;
+}
+.writer img {
+  width: 4rem;
+  border-radius: 50%;
+}
+
+.writer-name {
+  font-weight: 800;
+}
+
+/* ================ Footer =============== */
+
+footer {
+  background-color: var(--clr-black);
+  color: var(--clr-white);
+  min-height: 7rem;
+  padding: 1vw 3vw;
+}
+
+footer p {
+  letter-spacing: 0.11rem;
+  font-size: 0.7rem;
+  margin: 3vw 0;
+}
+
+footer p:first-child {
+  border-top: var(--clr-light-gray) 1px solid;
+  padding-top: 2rem;
+}
+
+footer p:last-child {
+  text-align: center;
+}
