@@ -64,6 +64,10 @@
   background-color: aquamarine;
   
  }
- h3: first-child {
+ section:first-child {
   background-color: aquamarine;
+  color:blue;
+  margin-left: 25%;
+  margin-right: 25%;
+  border-radius: 3rem;
  }
