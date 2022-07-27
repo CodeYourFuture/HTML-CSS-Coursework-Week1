@@ -6,3 +6,56 @@
  *    for example: General styles, Navigation styles, Hero styles, Footer etc.
  * 
  */
+body{
+font-family: 'roboto', Times, serif
+}
+.logo{
+width: 300px;
+}
+.navbar{
+margin-left: 20px;
+margin-right: 20px;
+margin: 0px auto;
+padding: 5px 30px 5px 30px;
+background-color: #EFEFEF;
+display: flex;
+flex-direction:column
+}
+.article {
+padding-left: 50px;
+padding-right: 50px;
+margin-top: 30px;    
+}
+.articleImg{
+max-width: 100%;
+width: 700px;
+height: 400px;
+max-height: 100%;
+border-radius: 15px;   
+object-fit: cover;
+}
+h2:first-child{
+    border-bottom: 5px solid rgb(176, 19, 1);
+    width: 30%;
+}
+.articletext{
+max-width: 100%;
+width: 700px;
+}
+h5{
+color: rgba(107, 107, 107, 0.794);
+}
+.articleBtn{
+border: none;
+border-radius: 5px;
+background-color: rgb(176, 19, 1);
+color: white;
+font-weight: 500;
+padding: 10px;
+}
+.articleBtn:hover{
+    background-color: white;
+    color:rgb(176, 19, 1);
+    border: 2px solid rgb(176, 19, 1);
+
+}
