@@ -6,3 +6,42 @@
  *    for example: General styles, Navigation styles, Hero styles, Footer etc.
  * 
  */
+ body{
+    margin: 2% 10%; 
+ }
+ header{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+ }
+ nav > ul{
+    display: flex;
+    justify-content: center;
+    gap: 1%;
+    list-style: none;
+ }
+ ul:first-child{
+    font-style: italic;
+ }
+ .summary{
+    width: 80%;
+ }
+ article{
+    display: flex;
+    flex-direction: column;
+ }
+ 
+ 
+ footer{
+    border-top: 1px solid lightgrey;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 2%;
+ }
+footer> p:last-child{
+ font-size: 0.75em;
+  font-style: italic;
+}
+
+    
