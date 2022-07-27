@@ -1,26 +1,25 @@
-/**
- * Add your custom styles below
- * 
- * Remember: 
- * - Be organised, use comments and separate your styles into meaningful chunks
- *    for example: General styles, Navigation styles, Hero styles, Footer etc.
- * 
- */
+
 body{
 font-family: 'roboto', Times, serif
 }
+/* ** Header Start ** */
 .logo{
-width: 300px;
+color: rgb(176, 19, 1);
 }
 .navbar{
-margin-left: 20px;
-margin-right: 20px;
-margin: 0px auto;
-padding: 5px 30px 5px 30px;
+margin-left: 50px;
+margin-right: 50px;
+padding-left: 15px;
+padding-right: 15px;
+max-width: max-content;
 background-color: #EFEFEF;
+border-radius: 10px;
 display: flex;
+flex-wrap: wrap;
 flex-direction:column
 }
+/* ** Header End ** */
+/* ** Article Start ** */
 .article {
 padding-left: 50px;
 padding-right: 50px;
@@ -57,5 +56,16 @@ padding: 10px;
     background-color: white;
     color:rgb(176, 19, 1);
     border: 2px solid rgb(176, 19, 1);
-
 }
+/* ** Article End ** */
+/* ** Footer Start ** */
+.footer{
+padding-left: 50px;
+padding-right: 50px;
+}
+.copyright{
+text-align: center;
+font-size: 15px;
+color:rgba(107, 107, 107, 0.794);
+}
+/* ** Footer End ** */
