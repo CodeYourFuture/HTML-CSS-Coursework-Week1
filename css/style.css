@@ -3,8 +3,12 @@ body{
 font-family: 'roboto', Times, serif
 }
 /* ** Header Start ** */
-.logo{
+.title{
 color: rgb(176, 19, 1);
+font-size: 30px;
+}
+.desc{
+font-size: 17px;  
 }
 .navbar{
 margin-left: 50px;
@@ -16,8 +20,12 @@ background-color: #EFEFEF;
 border-radius: 10px;
 display: flex;
 flex-wrap: wrap;
-flex-direction:column
+flex-direction:column;
 }
+.navigation:hover{
+    color:rgb(176, 19, 1);
+}
+
 /* ** Header End ** */
 /* ** Article Start ** */
 .article {
@@ -35,7 +43,7 @@ object-fit: cover;
 }
 h2:first-child{
     border-bottom: 5px solid rgb(176, 19, 1);
-    width: 30%;
+    width: 50%;
 }
 .articletext{
 max-width: 100%;
