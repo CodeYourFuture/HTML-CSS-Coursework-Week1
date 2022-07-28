@@ -6,3 +6,11 @@
  *    for example: General styles, Navigation styles, Hero styles, Footer etc.
  * 
  */
+ header {
+ height: 50px;
+ width: 100%;
+ text-align: center;
+ font-family: serif;
+ font-size: 40px;
+}
+
