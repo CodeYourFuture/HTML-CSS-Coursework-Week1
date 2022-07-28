@@ -6,3 +6,67 @@
  *    for example: General styles, Navigation styles, Hero styles, Footer etc.
  * 
  */
+
+body{
+
+    background: radial-gradient(circle, rgba(0,0,0,1) 0%, rgba(255,255,255,1) 100%);
+
+}
+ 
+.topText{
+    text-align: center;
+
+}
+
+.topImageDiv{
+    display: flex;
+    justify-content: center;
+}
+
+.topImage{
+    width: 10%;
+    height: 10%;
+}
+
+
+ a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+   
+    padding : 10px;
+ }
+
+ a:hover{
+    text-decoration: none;
+    color: #fff;
+    background-color: #515151;
+    padding : 10px;
+
+ }
+
+ .bulletImage{
+    background-image: url('https://officialpsds.com/imageview/rm/y5/rmy5x6_large.png?1521316965');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:contain;
+    width: 50%;
+    height: 50%;
+    transform: rotate(180deg);
+
+ }
+
+ li{
+    list-style-type: none;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-content:center;
+   
+ }
+
+ ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+ }
