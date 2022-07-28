@@ -46,6 +46,7 @@ ul{
 .arts .link li{
     display: inline-block;
     margin-left: 1.563rem;
+    
 }
 .arts .link li.active{
     color: #4c5058;
@@ -54,6 +55,7 @@ ul{
 .arts .link li:hover{
 cursor: pointer;
 color: #333333;
+margin-right: 2rem;
 }
 .frame {
     margin-top: 5.5rem;
