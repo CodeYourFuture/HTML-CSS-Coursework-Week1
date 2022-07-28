@@ -6,15 +6,25 @@
  *    for example: General styles, Navigation styles, Hero styles, Footer etc.
  * 
  */
+ *{
+   margin: 0%;
+   padding: 0%;
+   box-sizing: border-box;
+ }
  body{
     margin: 2% 10%;
     background-color:aliceblue;
     color: black;
  }
+
  header{
     display: flex;
     flex-direction: column;
     text-align: left;
+    margin-bottom: 2%;
+ }
+ h1 {
+   padding-bottom: 1%;
  }
  nav > ul{
     display: flex;
@@ -23,31 +33,40 @@
     list-style: none;
     font-weight: bolder;
     color: darkblue;
+    padding-bottom: 2%;
+    
  }
  ul:first-child{
     font-style: italic;
  }
  .summary{
     width: 80%;
+    margin-bottom: 2%;
  }
  /* about article */
- article{
-    display: flex;
-    flex-direction: column;
-    padding-bottom: 1%;
-    border-bottom: 1px solid lightgrey;
- }
+
+article{
+   display: flex;
+   flex-direction: column;
+   padding-bottom: 1%;
+   border-bottom: 1px solid lightgrey;
+   margin-bottom: 5%;
+}
  .article-header{
    font-weight:bolder;
    font-style: italic;
+   margin-bottom: 2%;
  }
  .article-image{
    width: 80%;
    height: 40vh;
+   margin-bottom: 2%;
  }
  a{
    color: blue;
  }
+
+ /* footer */
  footer{
     display: flex;
     flex-direction: column;
