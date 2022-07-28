@@ -136,9 +136,11 @@ section{
 
 .one{
 
-    background-image: url(https://cdn.wallpapersafari.com/9/0/O5xazg.jpg )         ;
+    background-image: url(https://i.gifer.com/QOAT.gif)         ;
     background-size: cover;
     background-repeat: no-repeat;
+    filter: grayscale(100%);
+
 }
 
 
@@ -146,6 +148,8 @@ section{
         background-image: url(https://i.gifer.com/KwTU.gif)         ;
         background-size: cover;
         background-repeat: no-repeat;
+        filter: grayscale(100%);
+
        
 
 }
