@@ -1,8 +1,68 @@
-/**
- * Add your custom styles below
- * 
- * Remember: 
- * - Be organised, use comments and separate your styles into meaningful chunks
- *    for example: General styles, Navigation styles, Hero styles, Footer etc.
- * 
- */
+body {
+  font-family: "Barlow", sans-serif;
+  margin: 0;
+}
+/* HEADER*/
+.header {
+  background-color: #90a075;
+  text-align: center;
+  color: white;
+  padding: 1rem;
+  margin: 1rem;
+}
+
+/* MAIN */
+
+main {
+  height: 100%;
+  padding: 2rem;
+}
+.section-1 {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+  font-size: 1rem;
+  padding: 1.5rem;
+  margin: 1rem;
+}
+.article {
+  width: 50%;
+  background-color: #b3c791;
+  padding: 1.5rem;
+  margin: 1rem;
+}
+.section-2 {
+  background-color: #717678;
+  padding: 1rem;
+}
+
+.article2 {
+  margin: 50px;
+  background-color: #aea4a4;
+  padding: 50px;
+  text-align: center;
+}
+.btn-article{
+  text-decoration: none;
+ background-color:#a65773;
+ color:white;
+ border-radius: 2rem;
+ padding: 0.5rem 0.5rem;
+ display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+
+}
+
+/* FOOTER */
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+
