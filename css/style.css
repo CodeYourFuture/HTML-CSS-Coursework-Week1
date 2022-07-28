@@ -16,47 +16,15 @@
  font-family: serif;
  font-size: 40px;
  font-weight: bolder;
- font-family:  serif;
  color: #830837;
+ margin-top: 5rem;
 }
-    
+ .learns {
+    font-family: serif;
+    font-size: 20px;
+ }  
 
-ul{
-    list-style: none;
-    padding: 0;
-}
- 
-.arts {
-    position: fixed;
-    width: 100%;
-    z-index: 9999;  
-    background-color: rgb(96, 211, 219);
-    border-bottom: 1px solid rgb(90, 211, 201);
-}
-.arts > .content{
-    height: 4.375rem;
-}
 
-.arts .link{
-    float: right;
-    color: #838994;
-    font-size: 1.04rem;
-    margin-top: 1.7rem;
-}
-.arts .link li{
-    display: inline-block;
-    margin-left: 1.563rem;
-    
-}
-.arts .link li.active{
-    color: #4c5058;
-    font-weight: 500;
-}
-.arts .link li:hover{
-cursor: pointer;
-color: #333333;
-margin-right: 2rem;
-}
 .frame {
     margin-top: 5.5rem;
     text-align: center;
@@ -67,6 +35,11 @@ margin-right: 2rem;
     color: rgb(121, 9, 9);
     
 }
+    .learn {
+        margin-top: 2rem;
+        text-decoration: solid;
+        color: #830837;
+    }
     
     .break h1 {
         margin-top: 3.5rem;
@@ -75,7 +48,14 @@ margin-right: 2rem;
         text-align: start;
         font-weight: 300;
     }
+    .broken {
+        text-align: start;
+        margin-right: 3.5rem;
+    }
+.broken article {
+    text-align: start;
 
+}
     .gally, .broke, .arty {
         margin-top: 3.5;
         font-size: 1.45rem;
