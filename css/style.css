@@ -12,9 +12,12 @@
  header {
  height: 50px;
  width: 100%;
- text-align: center;
+ text-align: start;
  font-family: serif;
  font-size: 40px;
+ font-weight: bolder;
+ font-family:  serif;
+ color: #830837;
 }
     
 
@@ -22,6 +25,7 @@ ul{
     list-style: none;
     padding: 0;
 }
+ 
 .arts {
     position: fixed;
     width: 100%;
@@ -32,10 +36,7 @@ ul{
 .arts > .content{
     height: 4.375rem;
 }
-.arts .logo{
-height: 4.375rem;
-width: 4.375rem;
-}
+
 .arts .link{
     float: right;
     color: #838994;
@@ -84,5 +85,7 @@ color: #333333;
     }
     .about h3 {
         margin: 0.437rem;
+        color: #333333;
+        font-family: 'Times New Roman';
     }
     
