@@ -6,17 +6,42 @@
       name="viewport"
       content="width=device-width, initial-scale=1, shrink-to-fit=no"
     />
-    <title>My Blog</title>
+    <title>HTML-CSS-Coursework-Week1</title>
     <link
       href="//fonts.googleapis.com/css?family=Roboto:400,500,300"
       rel="stylesheet"
       type="text/css"
     />
+    <link rel="stylesheet" href="css/reset.css" />
     <link rel="stylesheet" href="css/style.css" />
     <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <!-- Add your HTML markup here -->
     <!-- Remember: Use semantic HTML tags like <header>, <main>, <nav>, <footer>, <section> etc -->
+    <header class="header">
+      <nav class="nav">
+        <div class="nav-right">
+          <ul>
+            <li><a href=""></a>Programs</li>
+            <li><a href=""></a>Strem</li>
+            <li><a href=""></a>Curriculum</li>
+            <li><a href="">Profile</a></li>
+            <li><a href="">Contact</a></li>
+            <li class="sun"><i class="fa-regular fa-sun"></i></li>
+          </ul>
+        </div>
+        <div class="nav-searchbox">
+          <i class="fa-solid fa-magnifying-glass"></i>
+          <form class="header-form" action="">
+            <input type="text" id="header-search" placeholder="search" />
+          </form>
+        </div>
+      </nav>
+    </header>
   </body>
 </html>
