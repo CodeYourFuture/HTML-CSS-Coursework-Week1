@@ -10,6 +10,8 @@
 body {
   font-family: "Roboto", sans-serif;
   line-height: 21px;
+  display: flex;
+  flex-direction: column;
 }
 
 .header {
@@ -40,6 +42,12 @@ body {
   display: flex;
   gap: 1.2rem;
 }
+
+.nav-right ul li a:hover {
+  text-decoration: none;
+  color: rgb(199, 197, 197);
+  outline: none;
+}
 .nav-searchbox {
   display: flex;
   justify-content: space-between;
@@ -63,8 +71,37 @@ body {
 
 /* Main */
 .main {
-  height: 50rem;
+  margin-top: 9rem;
+  line-height: 1.6rem;
+  color: #000;
+  /* display: flex;
+  flex-flow: column wrap; */
 }
+
+.contaner p:first-child {
+  margin-top: 2rem;
+}
+.contaner p:last-child {
+  margin-bottom: 2rem;
+}
+.contaner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.contaner article {
+  width: 60%;
+}
+h1 {
+  margin-left: 50px;
+  margin-bottom: 20px;
+  font-size: 1.5rem;
+  color: rgb(150, 149, 149);
+}
+/* .contaner:last-child {
+  margin-top: 6rem;
+} */
 
 /* Footer */
 
@@ -77,11 +114,11 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  color: #fff;
+  color: rgb(218, 216, 216);
 }
 .footer-icon {
   width: 20%;
-  border: 1px solid #fff;
+  border: 1px solid rgb(150, 149, 149);
   padding: 6px;
   border-radius: 25px;
 }
@@ -90,23 +127,31 @@ body {
   justify-content: space-around;
 }
 .footer-icon ul li {
-  border-left: 1px solid #fff;
+  border-left: 1px solid rgb(150, 149, 149);
   padding: 0 7px;
 }
 .footer-icon ul li i {
   padding: 0 5px;
   cursor: pointer;
 }
+
 .footer-link {
   margin-top: 15px;
+  font-family: swissra;
 }
 .footer-ul {
   display: flex;
   justify-content: center;
   gap: 40px;
 }
+.footer-ul li a:hover {
+  text-decoration: none;
+  color: #f8163a;
+  outline: none;
+}
 .footer-copyright {
   margin-top: 15px;
   font-weight: 100;
   color: #939393;
+  font-family: swissra;
 }
