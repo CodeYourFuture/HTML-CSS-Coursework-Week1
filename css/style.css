@@ -26,3 +26,43 @@ main {
   padding: 1.5rem;
   margin: 1rem;
 }
+.article {
+  width: 50%;
+  background-color: #b3c791;
+  padding: 1.5rem;
+  margin: 1rem;
+}
+.section-2 {
+  background-color: #717678;
+  padding: 1rem;
+}
+
+.article2 {
+  margin: 50px;
+  background-color: #aea4a4;
+  padding: 50px;
+  text-align: center;
+}
+.btn-article{
+  text-decoration: none;
+ background-color:#a65773;
+ color:white;
+ border-radius: 2rem;
+ padding: 0.5rem 0.5rem;
+ display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+
+}
+
+/* FOOTER */
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+
