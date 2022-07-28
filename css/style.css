@@ -1,4 +1,28 @@
 body {
-    font-family: 'Barlow', sans-serif;
-    margin: 0;
+  font-family: "Barlow", sans-serif;
+  margin: 0;
+}
+/* HEADER*/
+.header {
+  background-color: #90a075;
+  text-align: center;
+  color: white;
+  padding: 1rem;
+  margin: 1rem;
+}
+
+/* MAIN */
+
+main {
+  height: 100%;
+  padding: 2rem;
+}
+.section-1 {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+  font-size: 1rem;
+  padding: 1.5rem;
+  margin: 1rem;
 }
