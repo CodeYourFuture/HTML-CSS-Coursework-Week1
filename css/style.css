@@ -1,8 +1,4 @@
-/**
- * Add your custom styles below
- * 
- * Remember: 
- * - Be organised, use comments and separate your styles into meaningful chunks
- *    for example: General styles, Navigation styles, Hero styles, Footer etc.
- * 
- */
+body {
+    font-family: 'Barlow', sans-serif;
+    margin: 0;
+}
