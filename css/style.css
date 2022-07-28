@@ -6,6 +6,9 @@
  *    for example: General styles, Navigation styles, Hero styles, Footer etc.
  * 
  */
+ html {
+    background-color: rgb(127, 229, 255);
+ }
  header {
  height: 50px;
  width: 100%;
@@ -13,4 +16,73 @@
  font-family: serif;
  font-size: 40px;
 }
+    
 
+ul{
+    list-style: none;
+    padding: 0;
+}
+.arts {
+    position: fixed;
+    width: 100%;
+    z-index: 9999;  
+    background-color: rgb(96, 211, 219);
+    border-bottom: 1px solid rgb(90, 211, 201);
+}
+.arts > .content{
+    height: 4.375rem;
+}
+.arts .logo{
+height: 4.375rem;
+width: 4.375rem;
+}
+.arts .link{
+    float: right;
+    color: #838994;
+    font-size: 1.04rem;
+    margin-top: 1.7rem;
+}
+.arts .link li{
+    display: inline-block;
+    margin-left: 1.563rem;
+}
+.arts .link li.active{
+    color: #4c5058;
+    font-weight: 500;
+}
+.arts .link li:hover{
+cursor: pointer;
+color: #333333;
+}
+.frame {
+    margin-top: 5.5rem;
+    text-align: center;
+}
+.float {
+    text-align: center;
+    margin-bottom: 10erm;
+    color: rgb(121, 9, 9);
+    
+}
+    
+    .break h1 {
+        margin-top: 3.5rem;
+        font-size: 3.125rem;
+        color: rgb(26, 11, 11);
+        text-align: start;
+        font-weight: 300;
+    }
+
+    .gally, .broke, .arty {
+        margin-top: 3.5;
+        font-size: 1.45rem;
+    } 
+    .about {
+        margin-top: 10rem;
+        text-align: center;
+        color: #838994;
+    }
+    .about h3 {
+        margin: 0.437rem;
+    }
+    
