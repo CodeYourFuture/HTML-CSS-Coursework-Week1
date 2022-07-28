@@ -15,12 +15,25 @@ body{
  
 .topText{
     text-align: center;
+    color: #fff;
 
 }
 
 .topImageDiv{
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;
+    align-content: start;
+}
+
+ .topText{
+
+}
+p{
+    font-weight: bold;
+
+
 }
 
 .topImage{
@@ -31,10 +44,11 @@ body{
 
  a{
     text-decoration: none;
-    color: rgb(0, 0, 0);
-   
+    font-weight:100;
+    color: rgb(0, 0, 0);   
     padding : 10px;
  }
+
 
  a:hover{
     text-decoration: none;
