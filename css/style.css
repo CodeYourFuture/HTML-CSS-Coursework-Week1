@@ -128,7 +128,7 @@ section{
     border-radius: 50% ;
     background-color: #fff;
     background: radial-gradient(circle, rgba(255,255,255,1) 0%,  rgb(138, 135, 135) 75%,  rgba(0,0,0,1) 100%);
-    box-shadow: 3px 3px 3px 3px rgb(184, 183, 183);
+  /*  box-shadow: 3px 3px 3px 3px rgb(184, 183, 183);*/
     margin: 50px;
     padding: 100px;
 
@@ -139,18 +139,29 @@ section{
     background-image: url(https://i.gifer.com/QOAT.gif)         ;
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: 20% 70%;
     filter: grayscale(100%);
 
 }
 
 
 .two{
-        background-image: url(https://i.gifer.com/KwTU.gif)         ;
+        background-image: url(https://i.gifer.com/pkf.gif)         ;
         background-size: cover;
         background-repeat: no-repeat;
+        background-position: 30% 70%;
         filter: grayscale(100%);
 
-       
+}
+
+
+.three{
+
+    background-image: url(https://i.gifer.com/Jeh4.gif)         ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 20% 70%;
+    filter: grayscale(100%);
 
 }
 
