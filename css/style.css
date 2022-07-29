@@ -6,3 +6,11 @@
  *    for example: General styles, Navigation styles, Hero styles, Footer etc.
  * 
  */
+article {
+    padding: 20px; 20px;
+}
+
+section:first-child {
+    color: pink;
+    background-color: white;
+}
