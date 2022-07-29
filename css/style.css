@@ -17,6 +17,7 @@
 .nav {
   width: 95%;
   height: 10%;
+  margin: 0 auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -41,6 +42,31 @@
 }
 /*Header Area */
 .header .hero {
-  background-image: url(/images/drone-back-ground.jpg);
+  margin: 20px auto;
+  width: 95%;
+  height: 35vh;
+  background-image: url(/images/hero-drone-pic.png);
   background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/*Blogs posts Area*/
+
+.main .blog {
+  margin: 20px auto;
+  width: 95%;
+}
+
+.post-image {
+  width: 400px;
+}
+
+.blog-post {
+  border: 1px solid lightgray;
+  display: flex;
+  margin-bottom: 1.5rem;
+}
+
+.post-content {
+  margin-left: 1rem;
 }
