@@ -6,3 +6,37 @@
  *    for example: General styles, Navigation styles, Hero styles, Footer etc.
  * 
  */
+ .all_artical{
+ justify-content: space-between;
+ font-size: medium;
+
+ font-style: italic;
+ }
+ .article1{
+ border-bottom: 1px outset rgb(77, 8, 8);
+ }
+ article:first-child{
+    background-color: yellow;
+ }  
+ .article2{
+border-bottom: 1px outset rgb(164, 131, 131);
+ }
+ .article3{
+    
+    border-bottom: 1px outset rgb(126, 121, 121);
+ }
+ .img1{
+    
+   padding: 10px;
+   margin: 15px;
+    height: 250px;
+    width: 600px;
+ }
+ body{
+   
+   background-color: rgb(207, 211, 212);
+   text-align: center;
+   text-decoration: dashed;
+    border-bottom: 1px solid blueviolet;
+ }
+
