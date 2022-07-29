@@ -163,6 +163,8 @@ section {
 
 section.one:first-child {
   color: rgb(184, 38, 38);
+
+  /*NOT WORKING!!!*/
 }
 
 .two {
