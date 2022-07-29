@@ -6,3 +6,157 @@
  *    for example: General styles, Navigation styles, Hero styles, Footer etc.
  * 
  */
+
+:root {
+  --grey-dark: #292b2c;
+  --grey-light: #e4e4e4;
+  --orange-dark: #c05326;
+  --orange-light: #f7eae4;
+  --white: #fff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: skyblue;
+  font-family: "Roboto", sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+/*navigation area */
+.nav {
+  width: 80%;
+  height: 10%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav .navbar {
+  display: flex;
+  align-items: center;
+}
+
+.nav ul {
+  list-style-type: none;
+}
+
+.nav ul li a {
+  padding-left: 2rem;
+  text-decoration: none;
+  font-size: large;
+}
+
+.nav .logo {
+  width: 5rem;
+  border: solid transparent;
+  border-radius: 10px;
+}
+/*Header Area */
+.header .hero {
+  margin: 20px auto;
+  width: 80%;
+  height: 35vh;
+  background-image: url(/images/hero-drone-pic.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.hero h2 {
+  padding-top: 2rem;
+  text-align: center;
+  color: darkblue;
+}
+
+/*Blogs posts Area*/
+
+.main .blog {
+  margin: 20px auto;
+  width: 80%;
+}
+
+.post-image {
+  width: 400px;
+  height: 226.28px;
+}
+
+.blog-post {
+  border: 1px solid lightgray;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1.5rem;
+  background: lightcyan;
+}
+
+.post-content {
+  margin-left: 1rem;
+}
+
+.post-title {
+  margin: 1.4rem 0;
+}
+
+.post-btn {
+  margin-top: 2rem;
+  padding: 0.7rem;
+  border-radius: 0.5em;
+  border-color: transparent;
+  font-size: 1rem;
+  font-family: "Roboto", sans-serif;
+  background-color: var(--orange-dark);
+  color: white;
+}
+
+.blog-post:first-child {
+  box-shadow: rgba(56, 46, 240, 0.4) 5px 5px, rgba(101, 46, 240, 0.3) 10px 10px,
+    rgba(46, 78, 240, 0.2) 15px 15px, rgba(46, 240, 217, 0.1) 20px 20px,
+    rgba(240, 46, 170, 0.05) 25px 25px;
+}
+
+/* Footer Area */
+
+footer img {
+  width: 1.2rem;
+}
+
+header h1,
+header h2 {
+  color: white;
+}
+
+footer .container {
+  margin: 20px auto;
+  width: 80%;
+  border-top: 2px solid var(--grey-light);
+  padding-top: 0.7rem;
+  padding-bottom: 1rem;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-between; */
+  align-items: center;
+}
+
+footer ul {
+  list-style: none;
+}
+
+footer .social-media {
+  display: flex;
+  justify-content: space-between;
+}
+
+footer .social-media li img {
+  /* margin: 4rem;
+  padding: 5rem; */
+
+  /* padding: 0.7rem; */
+  box-sizing: content-box;
+  margin: 0.5rem;
+  padding: 0.5rem;
+  border: 1px solid var(--grey-light);
+  border-radius: 100px;
+}
