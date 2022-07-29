@@ -109,7 +109,7 @@ nav {
 article {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-evenly;
 }
 
 .sectionDiv {
@@ -143,10 +143,11 @@ section {
   );
   box-shadow: 3px 30px 30px rgb(80, 79, 79);
   margin: 25px;
-  padding: 100px;
+  padding: 50px;
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
+  align-items: center;
+  text-align: center;
 }
 
 .one {
@@ -155,6 +156,9 @@ section {
   background-repeat: no-repeat;
   background-position: 20% 70%;
   filter: grayscale(100%);
+  align-self: center;
+  text-align: center;
+
 }
 
 section.one:first-child {
@@ -165,8 +169,10 @@ section.one:first-child {
   background-image: url(https://i.gifer.com/pkf.gif);
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: 30% 70%;
+  background-position: 40% 20%;
   filter: grayscale(100%);
+  align-self: center;
+  text-align: center;
 }
 
 .three {
@@ -175,6 +181,8 @@ section.one:first-child {
   background-repeat: no-repeat;
   background-position: 20% 70%;
   filter: grayscale(100%);
+  align-self: center;
+  text-align: center;
 }
 
 hr {
