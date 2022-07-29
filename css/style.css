@@ -6,3 +6,89 @@
  *    for example: General styles, Navigation styles, Hero styles, Footer etc.
  * 
  */
+ /*navbar.................*/
+.nav{
+
+float: right;
+
+padding:0px;
+
+}
+.nav-list{
+    gap: 20px;
+    list-style-type:none;
+    display: flex;
+    margin-bottom: 80px;
+    
+}
+.nav_link:hover{
+    background-color:gray ;
+    transition: background-color 1000ms linear;
+    transform: inherit;
+}
+.nav_link{
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration:double;
+    
+}
+/*main.................*/
+.main-title{
+ font-family:Georgia, 'Times New Roman', Times, serif;
+ margin-top: 80px;
+
+}
+.main-content1{
+    flex-direction: column;
+    position: relative;
+    margin-top: 50px;
+   
+}
+/*img.................*/
+.img1{
+    background-image: url("https://geographical.co.uk/wp-content/uploads/Photographing-mountains-in-spring-1200x800.jpg");
+    justify-content: center;
+    padding-top: 300px;
+    padding-bottom: 300px;
+    color: #fff;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    background-size: cover;
+}
+/*button.................*/
+.btn-primary{
+    display: block;
+    background-color: rgb(101, 117, 85);
+    font-size: 60%;
+    box-sizing: border-box;
+    width: 200px;
+    padding: 10px;
+    margin: 30px;
+    
+}
+.btn-primary1{
+   color: #fff;
+   justify-content: center;
+ }
+.btn-outline{
+    display: block;
+    background-color: rgb(101, 117, 85);
+    font-size: 60%;
+    box-sizing: border-box;
+    width: 200px;
+    padding: 10px;
+    margin: 30px;
+}
+.btn-outline1{
+    color: #fff;
+    justify-content: center;
+}
+/*footer..............................................*/
+.footer{
+    display:flex;
+    justify-content: center;
+    justify-items: center; 
+    gap: 25px;
+}
