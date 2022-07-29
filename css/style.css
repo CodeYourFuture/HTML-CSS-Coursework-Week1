@@ -25,13 +25,12 @@ body {
 
 header {
     height: 230px;
-    background-image: radial-gradient(#1d0a53, #6f6766);
-    linear-gradient(to right, #553c9a 45%, #ee4b2b);
-
+    background-image: linear-gradient(to left, #553c9a 45%, #ee4b2b);
  }
 
 h1 {
     text-align: center;
+    font-size: 3rem;
  }
 
 ul {
@@ -46,6 +45,7 @@ a {
     color: var(--text-color);
     text-decoration: none;
 }
+
 ul li:hover {
     background: var(--orange-dark);
     padding: 15px;
@@ -82,6 +82,15 @@ section, header {
 
 .col1 > p, .col2 > p {
     margin: 0 10px 0 10px;
+}
+
+.HP_text {
+    margin: 0 10px 0 10px;
+}
+
+div:first-child i {
+    background-color: black;
+    font-size: large;
 }
 
 .gallery {
