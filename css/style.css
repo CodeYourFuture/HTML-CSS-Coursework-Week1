@@ -6,3 +6,69 @@
  *    for example: General styles, Navigation styles, Hero styles, Footer etc.
  * 
  */
+ html {
+    background-color: rgb(127, 229, 255);
+ }
+ header {
+ height: 50px;
+ width: 100%;
+ text-align: start;
+ font-family: serif;
+ font-size: 40px;
+ font-weight: bolder;
+ color: #830837;
+ margin-top: 5rem;
+}
+ .learns {
+    font-family: serif;
+    font-size: 20px;
+ }  
+
+
+.frame {
+    margin-top: 5.5rem;
+    text-align: center;
+}
+.float {
+    text-align: center;
+    margin-bottom: 10erm;
+    color: rgb(121, 9, 9);
+    
+}
+    .learn {
+        margin-top: 2rem;
+        text-decoration: solid;
+        color: #830837;
+    }
+    
+    .break h1 {
+        margin-top: 3.5rem;
+        font-size: 3.125rem;
+        color: rgb(26, 11, 11);
+        text-align: start;
+        font-weight: 300;
+        
+    }
+    .broken {
+        text-align: start;
+        margin-right: 3.5rem;
+    }
+.broken article {
+    text-align: start;
+
+}
+    .gally, .broke, .arty {
+        margin-top: 3.5;
+        font-size: 1.45rem;
+    } 
+    .about {
+        margin-top: 10rem;
+        text-align: center;
+        color: #838994;
+    }
+    .about h3 {
+        margin: 0.437rem;
+        color: #333333;
+        font-family: 'Times New Roman';
+    }
+    
