@@ -6,3 +6,90 @@
  *    for example: General styles, Navigation styles, Hero styles, Footer etc.
  * 
  */
+
+
+
+ /**header**/
+ .navbar{
+    position: fixed;
+     min-width: 290px;
+     top: 0px;
+     left: 0px;
+     width: 300px;
+     height: 100%;
+     border-right: solid;
+     border-color: rgba(0, 22, 22, 0.4);
+     background-color: #ceced1;
+   }
+   .navbar ul {
+     height: 88%;
+     padding: 0;
+     overflow-y: auto;
+     overflow-x: hidden;
+   }
+   .navbar li{
+     list-style:none;
+     color:skyblue;
+     border-bottom:1px solid;
+     position:relative;
+     width:100%;
+   }
+   .navbar a{
+     display: block;
+     padding: 10px 30px;
+     color: #4d4e53;
+     text-decoration: none;
+     cursor: pointer;
+   }
+   h1,h2{
+     color: black;
+     margin: 10px;
+     text-align: center;
+     font-size: 1.8em;
+     font-weight: thin;
+    }
+
+
+    /**main body style**/
+    .main-doc{
+        position: absolute;
+        margin-left: 310px;
+        padding: 20px;
+        margin-bottom: 110px;
+      }
+   em{
+     cursor:pointer;
+     color:blue;
+     text-transform:Arial;
+     fond-weight: bold;
+   }
+   code{
+     display:block;
+     text-align: left;
+     white-space: pre-line;
+     position: relative;
+     word-break: normal;
+     word-wrap: normal;
+     line-height: 2;
+     background-color: #ffe8e8;
+     padding: 15px;
+     margin: 10px;
+     border-radius: 5px;
+   }
+
+
+   /**footer**/
+    .footer{
+        background-color: #ceced1;
+    }
+    .footer p{
+        font-size: small;
+        align-items:center;
+    }
+
+   /* For mobile phones: */
+   @media only screen and (max-width: 815px) 
+     #navbar ul {
+       border: 1px solid;
+       height: 207px;
+     }
