@@ -6,3 +6,26 @@
  *    for example: General styles, Navigation styles, Hero styles, Footer etc.
  * 
  */
+
+ @import url('https://fonts.googleapis.com/css2?family=Square+Peg&family=Work+Sans:wght@300&display=swap');
+article {
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+body {
+    text-align: center;
+    background-color: palevioletred;
+    color: white;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+section:first-child {
+    color: palevioletred;
+    background-color: white;
+}
+
+img {
+   padding: 10px;
+}
