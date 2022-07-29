@@ -7,177 +7,169 @@
  * 
  */
 
-body{
+body {
+  background: radial-gradient(
+    circle,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(0, 0, 0, 1) 100%
+  );
 
-    background: radial-gradient(circle, rgba(0,0,0,1) 0%, rgba(255,255,255,1) 100%);
-
+  font-family: 'Roboto';
+    font-weight:900;
 }
- 
-.topText{
-    text-align: center;
-    color: #fff;
 
+.topText {
+  text-align: center;
+  color: #fff;
 }
 
-.topImageDiv{
+.topImageDiv {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  align-content: start;
+}
+
+.topText {
+}
+p {
+  font-weight: bold;
+}
+
+.topImage {
+  width: 10%;
+  height: 10%;
+}
+
+h1 {
+  color: #fff;
+  font-weight: 400;
+  font-style: italic;
+  text-shadow: 3px 3px 3px darkgray;
+  z-index: -1;
+}
+
+a {
+  text-decoration: none;
+  font-weight: 100;
+  color: rgb(0, 0, 0);
+  padding: 10px;
+  font-size: larger;
+  border-radius: 50px;
+  text-shadow: 3px 3px 3px #fff;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #fff;
+  /*background-color: #515151;*/
+  padding: 10px;
+  font-size: larger;
+  border-radius: 75px;
+  box-shadow: 3px 3px 3px #fff;
+}
+
+.active {
+}
+
+.bulletImage {
+  background-image: url("https://officialpsds.com/imageview/rm/y5/rmy5x6_large.png?1521316965");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 50%;
+  height: 50%;
+  transform: rotate(180deg);
+}
+
+li {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: center;
+  align-content: center;
+}
+
+ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+nav {
+  margin-top: -50px;
+}
+
+article {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+
+.sectionDiv{
+
     display: flex;
-    flex-direction: row;
-    justify-content: center; 
-    align-items: center;
-    align-content: start;
-}
-
- .topText{
-
-}
-p{
-    font-weight: bold;
-
-
-}
-
-.topImage{
-    width: 10%;
-    height: 10%;
-}
-
-h1{
-    color: #fff;
-    font-weight: 400;
-    font-style: italic;
-    text-shadow: 3px 3px 3px darkgray;
-    z-index: -1;
-   
-}
-
- a{
-    text-decoration: none;
-    font-weight:100;
-    color: rgb(0, 0, 0);   
-    padding : 10px;
-    font-size: larger;
-    border-radius: 50px;
-    text-shadow: 3px 3px 3px #fff;
-
- }
-
-
- a:hover{
-    text-decoration: none;
-    color: #fff;
-    /*background-color: #515151;*/
-    padding : 10px;
-    font-size: larger;
-    border-radius: 75px;
-    box-shadow: 3px 3px 3px #fff;
-
-
- }
-
-.active{
-
-
-
-}
-
-
- .bulletImage{
-    background-image: url('https://officialpsds.com/imageview/rm/y5/rmy5x6_large.png?1521316965');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size:contain;
-    width: 50%;
-    height: 50%;
-    transform: rotate(180deg);
-
-
- }
-
- li{
-    list-style-type: none;
-    display: flex;
-    flex-direction: column-reverse;
+    flex-direction: column;
+    align-content: center;
     justify-content: center;
-    align-content:center;
-   
- }
-
- ul{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-
- }
-
- nav{
-    margin-top: -50px;
-
- }
-
-article{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    text-align: center;
 
 }
 
-section{
-    width: 200px;
-    height: 200px;
-    border: 15px solid black;
-    border-radius: 50% ;
-    background-color: #fff;
-    background: radial-gradient(circle, rgba(255,255,255,1) 0%,  rgb(138, 135, 135) 75%,  rgba(0,0,0,1) 100%);
-  /*  box-shadow: 3px 3px 3px 3px rgb(184, 183, 183);*/
-    margin: 50px;
-    padding: 100px;
-
+section {
+  width: 200px;
+  height: 200px;
+  border: 0px solid black;
+  border-radius: 50%;
+  background-color: #fff;
+  background: radial-gradient(
+    circle,
+    rgba(255, 255, 255, 1) 0%,
+    rgb(138, 135, 135) 75%,
+    rgba(0, 0, 0, 1) 100%
+  );
+    box-shadow: 3px 3px 3px 3px rgb(184, 183, 183);
+  margin: 50px;
+  padding: 100px;
 }
 
-.one{
-
-    background-image: url(https://i.gifer.com/QOAT.gif)         ;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: 20% 70%;
-    filter: grayscale(100%);
-
+.one {
+  background-image: url(https://i.gifer.com/QOAT.gif);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 20% 70%;
+  filter: grayscale(100%);
 }
 
-
-.two{
-        background-image: url(https://i.gifer.com/pkf.gif)         ;
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position: 30% 70%;
-        filter: grayscale(100%);
-
+.two {
+  background-image: url(https://i.gifer.com/pkf.gif);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 30% 70%;
+  filter: grayscale(100%);
 }
 
-
-.three{
-
-    background-image: url(https://i.gifer.com/Jeh4.gif)         ;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: 20% 70%;
-    filter: grayscale(100%);
-
+.three {
+  background-image: url(https://i.gifer.com/Jeh4.gif);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 20% 70%;
+  filter: grayscale(100%);
 }
 
+hr {
+  position: absolute;
+  bottom: 0;
+  margin-left: 30%;
+  margin-right: 30%;
+}
 
- hr{
-    position: absolute;
-    bottom: 0;
-    margin-left: 30%;
-    margin-right: 30%;
- }
-
- .footer{
-    position: absolute;
-    bottom: 0;
-    margin-left: 45%;
-    margin-right: 40%;
-    color: #fff;
-
- }
+.footer {
+  position: absolute;
+  bottom: 0;
+  margin-left: 45%;
+  margin-right: 40%;
+  color: #fff;
+}
