@@ -6,3 +6,41 @@
  *    for example: General styles, Navigation styles, Hero styles, Footer etc.
  * 
  */
+
+ body {
+    font-family: Arial, serif;
+    font-size: 1rem;
+    font-weight: normal;
+    line-height: 3;
+    background-color: white;
+    color: black;
+  }
+
+  .menu{
+    float: right;
+    color: #f2f2f2;
+    text-align: right;
+    padding: 10px 25px;
+    text-decoration: none;
+    font-size: 17px;
+    background-color: red;
+  }
+
+  .header{
+    text-align: center;
+    padding-top: 1rem;
+    padding-bottom: 1px;
+  }
+
+  .describe{
+    margin: 7rem;
+    padding: 2rem;
+  }
+  
+  .result h3{
+padding:0.5rem;
+  }
+
+  .footer div style{
+    line-height: 1rem;
+  }
