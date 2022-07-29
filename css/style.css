@@ -6,3 +6,20 @@
  *    for example: General styles, Navigation styles, Hero styles, Footer etc.
  * 
  */
+
+
+ /* General styles */
+html {
+    background-color: cornflowerblue;
+}
+
+ .container {
+    text-align: center;
+    padding: 90px;
+
+ }
+ 
+ .h1 {
+    border: 2px solid;
+    font-family: monospace;
+ }
