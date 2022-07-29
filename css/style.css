@@ -6,3 +6,99 @@
  *    for example: General styles, Navigation styles, Hero styles, Footer etc.
  * 
  */
+ @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap");
+
+ * {
+   box-sizing: border-box;
+ }
+ 
+ body {
+   background-color: #b1aea50d; /* 84894A 034C3C */
+   font-family: "lato", sans-serif;
+   margin: 0;
+ }
+ nav {
+   background-color: #464640;
+   color: #fff;
+   display: flex;
+   justify-content: flex-end;
+   padding: 15px;
+ }
+ nav a {
+   color: #fff;
+   position: relative;
+   margin-left: 30px;
+   text-decoration: none;
+ }
+ nav a::after {
+   content: "";
+   border-bottom: 3px solid #fff;
+   position: absolute;
+   top: 0;
+   left: 0;
+   transform: translateY(10px);
+   transition: transform 0.3s ease;
+   height: 100%;
+   width: 100%;
+   opacity: 0;
+ }
+ nav a:hover::after {
+   transform: translateY(0);
+   opacity: 1;
+ }
+
+ h1,
+ h2,
+ p{
+  text-align: center;
+  
+  
+ }
+ img{
+  height: 350px;
+  width: 300px;
+  justify-content: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 15%;
+ 
+ }
+ img:hover{
+  transform: scaleX(-2);
+ }
+ .section-cachupa{
+  background-color: rgba(57, 43, 6, 0.502);
+  color: #fff;
+  box-sizing: content-box;
+  width: 70%;
+  margin: 10px;
+  padding: 15px;
+  border: 1px grey solid;
+  display: flex;
+  flex-direction: column;
+ }
+  
+  
+ 
+ .section-buzio{
+  background-color: dimgray;
+  width: 70%;
+  margin: 10px;
+  padding: 15px;
+  border: 1px grey solid;
+  display: flex;
+  flex-direction: column;
+  
+ }
+ 
+ .section-moreia{
+  background-color: lightslategray;
+  width: 70%;
+  margin: 10px;
+  padding: 15px;
+  border: 1px rgb(61, 47, 47) solid;
+  display: flex;
+  flex-direction: column;
+ }
+ 
