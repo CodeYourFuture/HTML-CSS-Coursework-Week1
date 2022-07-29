@@ -1,8 +1,58 @@
-/**
- * Add your custom styles below
- * 
- * Remember: 
- * - Be organised, use comments and separate your styles into meaningful chunks
- *    for example: General styles, Navigation styles, Hero styles, Footer etc.
- * 
- */
+body {
+    font-family: 'Barlow', sans-serif;
+    margin: 0;
+}
+
+button {
+    background-color: #777777a8;
+    color: white;
+    border: none;
+    padding: 20px;
+}
+
+header {
+    background-color: #777777a8;
+    color: white;
+    text-align: center;
+    padding: 80px 0px;
+}
+
+.section-article {
+    display: flex;
+    flex-direction: column;
+}
+
+.article {
+    background-color: #eeeeee;
+    padding: 20px 400px;
+    margin: 20px;
+    text-align: center;
+}
+
+.article:first-child {
+    background-color: #c4c4c4;
+}
+
+.section-card {
+    display: flex;
+    background-color: #eeeeee;
+}
+
+.card {
+    margin: 50px;
+    background-color: white;
+    padding: 50px;
+    text-align: center;
+}
+
+img{
+    height: 400px;
+    width: 800px;
+}
+
+footer {
+    background-color: #a9a9a9;
+    color: white;
+    text-align: center;
+    padding: 40px 0px;
+}
