@@ -1,0 +1,83 @@
+/**
+ * Add your custom styles below
+ * 
+ * Remember: 
+ * - Be organised, use comments and separate your styles into meaningful chunks
+ *    for example: General styles, Navigation styles, Hero styles, Footer etc.
+ * 
+ */
+
+ body{
+    background-color: rgb(255, 247, 205);
+ }
+
+ h1, h2{
+    margin: 5px;
+    padding: 5px;
+    color: gray;
+    text-align: center;
+ }
+
+ p{
+    padding: 15px;
+ }
+
+
+ img{
+    width: 200px;
+    height: 200px;
+    padding: 20px 10px;
+}
+
+ /* containers for articles */
+
+ .container{
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+    padding: 10px;
+    background-color: lightblue;
+    border: 1px solid rgb(255, 119, 0);
+    border-radius: 5px;
+ }
+
+ /* sudo first:child */
+
+ main> .container:first-child{
+    background-color: aliceblue;
+ }
+
+.city{
+    display: flex;  
+}
+
+/* learn more buttons */
+
+.side-container{
+    display: grid;
+}
+
+.btn{
+    background-color: blue;
+    color: white;
+    margin:auto;
+    padding: 15px;
+    font-size: 20px;
+    text-align: center;
+    border: none;
+    border-radius: 3px;
+    text-decoration: none;
+  }
+
+  .btn:hover {
+    background-color: green;
+  }
+
+/* footer */
+
+ .footer{
+    background-color:#75828E;
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+ }
