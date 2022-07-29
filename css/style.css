@@ -11,11 +11,11 @@ body {
   background: radial-gradient(
     circle,
     rgba(255, 255, 255, 1) 0%,
-    rgba(0, 0, 0, 1) 100%
+    rgba(0, 0, 0, 1) 85%
   );
 
-  font-family: 'Roboto';
-    font-weight:900;
+  font-family: "Roboto";
+  font-weight: 900;
 }
 
 .topText {
@@ -33,31 +33,35 @@ body {
 
 .topText {
 }
+
+
 p {
-  font-weight: bold;
+  font-weight: 100 ;
+  color: #fff;
 }
 
 .topImage {
   width: 10%;
   height: 10%;
+  text-align: center;
 }
 
 h1 {
   color: #fff;
   font-weight: 400;
-  font-style: italic;
-  text-shadow: 3px 3px 3px darkgray;
+ /* text-shadow: 3px 3px 3px darkgray;*/
   z-index: -1;
 }
 
 a {
   text-decoration: none;
+  text-align: center;
   font-weight: 100;
   color: rgb(0, 0, 0);
   padding: 10px;
   font-size: larger;
   border-radius: 50px;
-  text-shadow: 3px 3px 3px #fff;
+ /* text-shadow: 3px 3px 3px #fff;*/
 }
 
 a:hover {
@@ -67,7 +71,7 @@ a:hover {
   padding: 10px;
   font-size: larger;
   border-radius: 75px;
-  box-shadow: 3px 3px 3px #fff;
+  box-shadow: 3px 30px 10px #fff;
 }
 
 .active {
@@ -81,6 +85,7 @@ a:hover {
   width: 50%;
   height: 50%;
   transform: rotate(180deg);
+  align-self: center;
 }
 
 li {
@@ -99,6 +104,7 @@ ul {
 
 nav {
   margin-top: -50px;
+  position: relative;
 }
 
 article {
@@ -107,15 +113,12 @@ article {
   justify-content: space-between;
 }
 
-
-.sectionDiv{
-
-    display: flex;
-    flex-direction: column;
-    align-content: center;
-    justify-content: center;
-    text-align: center;
-
+.sectionDiv {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  text-align: center;
 }
 
 section {
@@ -130,8 +133,8 @@ section {
     rgb(138, 135, 135) 75%,
     rgba(0, 0, 0, 1) 100%
   );
-    box-shadow: 3px 3px 3px 3px rgb(184, 183, 183);
-  margin: 50px;
+  box-shadow: 3px 30px 30px  rgb(80, 79, 79);
+  margin: 25px;
   padding: 100px;
 }
 
@@ -141,6 +144,12 @@ section {
   background-repeat: no-repeat;
   background-position: 20% 70%;
   filter: grayscale(100%);
+}
+
+section:first-child{
+
+color: rgb(184, 38, 38);
+
 }
 
 .two {
@@ -167,7 +176,7 @@ hr {
 }
 
 .footer {
-  position: absolute;
+  position: relative;
   bottom: 0;
   margin-left: 45%;
   margin-right: 40%;
