@@ -6,3 +6,64 @@
  *    for example: General styles, Navigation styles, Hero styles, Footer etc.
  * 
  */
+
+:root {
+    --text-color: rgba(247, 246, 1);
+    --dark-blue: rgb(8, 77, 119);
+
+}
+
+body {
+    max-width: 1200px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: var(--text-color);
+    background-color: var(--dark-blue);
+ }
+
+ 
+
+
+ /* MAIN */
+
+.container {
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+}
+
+section {
+    border: 2px black dashed;
+    padding: 10px;
+    margin: 30px;
+    background-color: darkblue;
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: 5px 10px;
+}
+
+.col1, .col2 {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    text-align: justify;
+}
+
+.col1 > p, .col2 > p {
+    margin: 0 10px 0 10px;
+}
+
+
+
+hr {
+    width: 80%;
+    border-width: 2px;
+}
+
+/* FOOTER */
+
+h4 {
+    font-weight: normal;
+    text-align: right;
+    padding-right: 30px;
+    
+}
