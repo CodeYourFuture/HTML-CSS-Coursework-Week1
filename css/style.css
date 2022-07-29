@@ -6,3 +6,81 @@
  *    for example: General styles, Navigation styles, Hero styles, Footer etc.
  * 
  */
+body {
+    background-color: rgb(241, 237, 232);
+}
+
+.main-arti {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+
+.each-arti {
+    display: flex;
+    flex-direction: row;
+    border: 2px solid rgb(221, 214, 214);
+    margin-top: 29px;
+    padding-left: 20px;
+    box-shadow: ;
+
+}
+
+article:first-child {
+    background-color: rgb(238, 248, 248);
+    border-radius: 10%;
+
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+a {
+    padding: 20px;
+    text-decoration: none;
+    color: rgb(96, 70, 26);
+    font-weight: 600;
+}
+
+img {
+    width: 100px;
+    padding: 20px;
+}
+
+section {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    box-shadow: blue;
+}
+
+p,
+h1 {
+    text-align: justify;
+    font-family: 'Roboto', sans-serif;
+    padding: 20px;
+}
+
+.section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+a:hover {
+    color: cornflowerblue;
+
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@1,300&family=Open+Sans:ital@1&family=Roboto:ital,wght@1,100;1,300&family=Uchen&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap');
