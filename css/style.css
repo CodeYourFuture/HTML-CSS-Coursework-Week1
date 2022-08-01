@@ -134,7 +134,7 @@ h1 {
   border-left: 1px solid rgb(150, 149, 149);
   padding: 0 7px;
 } */
-.footer-icon ul li::after {
+.footer-icon ul li:not(:last-child)::after {
   content: "|";
   padding: 0 7px;
 }
