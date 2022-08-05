@@ -6,3 +6,85 @@
  *    for example: General styles, Navigation styles, Hero styles, Footer etc.
  * 
  */
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+
+ body{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(231, 248, 247);
+ }
+
+ .center-container{
+    margin: auto;
+ }
+    div{
+    width: 80%;
+    background-color: #fff;
+    padding: 3em;
+    box-shadow: 0 0 2.2em rgb(231, 240, 240);
+
+ }
+ 
+ header{
+    text-align: center;
+
+
+ }
+
+ header ul{
+    margin-top: 1.5em;
+ }
+
+ header li{
+    list-style-type: none;
+    display:inline-block ;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 2rem;
+    margin-right: 2em;
+ }
+
+ header li:last-child{ margin-right: 0;}
+ header a{
+    text-decoration: none;color: rgb(3, 96, 158);
+    padding: .09em;
+
+ }
+
+main{
+    margin: top 5em; ;
+}
+
+article{
+  width: 95%;  
+}
+article img{
+    width: 50%;
+    float: right;
+    margin: 1 1 5em 2em;
+    box-shadow: 5px 5px 1px rgba(0, 0, 0, .40);
+}
+p{
+    font-size: 1.5em;
+    line-height: 160%;
+    margin-bottom: 1em;
+}
+h2{
+    font-size: 4.5rem;
+    margin-bottom: 0.72em;
+    margin-top: 0.6em;
+   font-family: inherit;
+    color: rgb(3, 96, 158);
+    text-align: center;
+    
+}
+
+hr{
+    width: 85%;
+    margin: 4em auto;
+    border: 1.5 solid rgb(2, 39, 63);
+    box-shadow: 0px 1px 6px rgb(2, 39, 63);
+}
+
