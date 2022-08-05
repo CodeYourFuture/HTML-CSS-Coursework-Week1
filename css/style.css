@@ -1,8 +1,91 @@
-/**
- * Add your custom styles below
- * 
- * Remember: 
- * - Be organised, use comments and separate your styles into meaningful chunks
- *    for example: General styles, Navigation styles, Hero styles, Footer etc.
- * 
- */
+body {
+  font-family: "roboto", Times, serif;
+}
+
+/* ** Header Start ** */
+.header__title {
+  color: rgb(176, 19, 1);
+  font-size: 30px;
+}
+
+.header__desc {
+  font-size: 17px;
+}
+
+.header__navbar {
+  margin-left: 50px;
+  margin-right: 50px;
+  padding-left: 15px;
+  padding-right: 15px;
+  max-width: max-content;
+  background-color: #efefef;
+  border-radius: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+.navigation:hover {
+  color: rgb(176, 19, 1);
+}
+
+/* ** Header End ** */
+
+/* ** Article Start ** */
+.article {
+  padding-left: 50px;
+  padding-right: 50px;
+  margin-top: 30px;
+}
+
+.article__img {
+  max-width: 100%;
+  width: 700px;
+  height: 400px;
+  max-height: 100%;
+  border-radius: 15px;
+  object-fit: cover;
+}
+section:nth-child(1) {
+  color: blueviolet;
+  width: 50%;
+}
+
+.article__text {
+  max-width: 100%;
+  width: 700px;
+}
+
+h3 {
+  color: rgba(107, 107, 107, 0.794);
+  font-size: 12px;
+  font-weight: 400;
+}
+.articleBtn {
+  border: none;
+  border-radius: 5px;
+  background-color: rgb(176, 19, 1);
+  color: white;
+  font-weight: 500;
+  padding: 10px;
+}
+
+.articleBtn:hover {
+  background-color: rgb(249, 249, 249);
+  color: rgb(176, 19, 1);
+  border: none solid rgb(176, 19, 1);
+}
+/* ** Article End ** */
+
+/* ** Footer Start ** */
+.footer {
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.footer__copyright {
+  text-align: center;
+  font-size: 15px;
+  color: rgba(107, 107, 107, 0.794);
+}
+/* ** Footer End ** */
