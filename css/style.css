@@ -25,11 +25,11 @@
 }
 
 article:first-child h1 {
-    background-color: yellow;
+    background-color: blueviolet;
 }
 footer {
     display: flex;
-    background-color: blueviolet;
+    background-color: rgb(61, 43, 226);
     justify-content: center;
 }
 
