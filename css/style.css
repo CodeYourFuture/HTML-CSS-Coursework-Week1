@@ -6,3 +6,50 @@
  *    for example: General styles, Navigation styles, Hero styles, Footer etc.
  * 
  */
+
+/*General style*/
+body {
+  background-color: #ffcdb2;
+  margin: 0 400px;
+}
+
+.desc {
+  background-color: #faedcd;
+  font-size: 20px;
+  color: #d90429;
+}
+
+/*Header*/
+header {
+  margin-bottom: 5em;
+}
+h1 {
+  color: #e63946;
+  font-size: 50px;
+  margin-bottom: 0;
+}
+
+/*Article*/
+article:first-child {
+  background-color: #faedcd;
+}
+article {
+  margin-bottom: 5em;
+}
+span {
+  font-size: 30px;
+  color: #e63946;
+  font-weight: bold;
+}
+
+img {
+  width: 600px;
+  margin: 1.5em 0 0.5em 0;
+}
+
+/*Footer*/
+footer {
+  font-size: 18px;
+  color: #e63946;
+  text-align: center;
+}
