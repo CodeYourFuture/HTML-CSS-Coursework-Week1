@@ -1,8 +1,107 @@
-/**
- * Add your custom styles below
- * 
- * Remember: 
- * - Be organised, use comments and separate your styles into meaningful chunks
- *    for example: General styles, Navigation styles, Hero styles, Footer etc.
- * 
- */
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+   
+   .nav-item{
+  flex-direction: row;
+  justify-content: space-around;
+  display: inline-block;
+  margin-left: 30px;
+  
+  
+   }
+   .nav{
+     flex-direction: row;
+  justify-content: space-around;
+  display: inline-block;
+  padding: 10px;
+  
+   }
+  
+   
+   
+  
+   li a{
+     text-decoration: none;
+     color:black;
+  }
+  
+  
+  li a:hover{ 
+     color: coral;}
+  
+  
+  
+   h1{
+      text-align: center;
+      margin:30px 0;
+   }
+  
+   h2{
+      text-align: center;
+   }
+   .art1{
+      text-align: center;
+   }
+  
+   .foot{
+      text-align: center;
+   }
+   
+  
+   section{
+      border: 1px solid black;
+  
+   }
+  
+   .instagram-icon{
+     height: 20PX;
+     width: 20PX;
+   }
+  
+   .p{
+     padding: 30px;
+        
+      }
+   
+  
+   img {
+     width: 350px;
+     height: 300px;
+     object-fit: cover;
+     object-position: left;
+     
+   }
+  .img1{
+     object-position: left;
+     
+  } 
+  
+  .section{
+     
+     display: flex;
+     flex-direction: column;
+     justify-content: space-between;
+     align-items: center;
+     
+   }
+  
+   .head{
+     text-align: justify;
+  }
+   
+  .main{
+     
+     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+     align-items: center;
+     margin: 2rem auto;
+     height: 500px;
+   
+   }
