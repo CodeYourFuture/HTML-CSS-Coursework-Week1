@@ -1,22 +1,80 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, shrink-to-fit=no"
-    />
-    <title>My Blog</title>
-    <link
-      href="//fonts.googleapis.com/css?family=Roboto:400,500,300"
-      rel="stylesheet"
-      type="text/css"
-    />
-    <link rel="stylesheet" href="css/style.css" />
-    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
-  </head>
-  <body>
-    <!-- Add your HTML markup here -->
-    <!-- Remember: Use semantic HTML tags like <header>, <main>, <nav>, <footer>, <section> etc -->
-  </body>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - A Pen by Sammy Ahmed</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<!-- Overlay -->
+    <section id="overlay"></section>
+    <!-- header -->
+    <header class="container">
+        <div class="wrapper">
+            <nav class="navbar">
+                <!-- logo -->
+                <div class="navbar__logo">
+                    <img src="https://img.freepik.com/premium-vector/luxury-cars-logo_20448-238.jpg" alt="logo">
+                </div>
+                <!-- links -->
+                <ul class="navbar__links">
+                    <li class="navbar__link"><a href="#project">Cars Types</a></li>
+                    <li class="navbar__link"><a href="#comment-section">Comments</a></li>
+                </ul>
+                <!-- icon -->
+                <div class="navbar__ham">
+                    <div class="navbar__icon"></div>
+                </div>
+            </nav>
+        </div>
+    </header> 
+    <section>
+<!--project -->
+      <section class="banner__desc" id="project" class="pt">
+        <div class="container">
+          <div class="wrapper">
+    <div  class="banner__desc"  id="cart">
+        <img id="cart-img" style="width:50px;" src="https://cdn.pixabay.com/photo/2014/06/19/00/59/shopping-cart-371980_960_720.png">
+
+    <span id="cart-total"><span>
+   </div>
+    <div>
+    <h1 class="banner__detail">Choose Your Car</h1>
+
+    <div id="cars-types">
+        <div class="car-display">
+            <img class="banner__img" id="car-image"
+                src="https://cdn.pixabay.com/photo/2017/04/06/22/11/car-2209439_960_720.png">
+         <div class="banner__desc"> 
+          <p id="car-desc" class="banner__tag">Bogati 2020</p>
+            <p>£<span class="banner__detail" id="car-price">100,000<span></p>
+            <br />
+            <button id="pre-img">Previous</button>
+            <button id="next-img">Next</button>
+            <button id="purchase-order">Buy</button>
+            <p class="banner__detail">Information:</p>
+            <p class="banner__title" id="car-info">This is the fastest car in the world, you would be lucky if you buy it.</p>
+            <br>
+           <div id="comment-section">
+            <p class="banner__detail">Comment Section</p>
+            <input id="user-comment">
+            <button id="post-comment">Post</button>
+            <p class="banner__detail">Comments:</p>
+
+              </div>
+           </div>
+        </div>
+    </div>
+    <div id="comments" class="banner__desc">
+    </div>
+      </div>
+      </div>
+      </div>
+      </section>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
 </html>
