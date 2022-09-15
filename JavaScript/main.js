@@ -1,7 +1,4 @@
-<<<<<<< HEAD
-=======
 /* global */
->>>>>>> b7333db7c60557f8aedcfcf9c9b693d209d538f7
 *,
 *:before,
 *:after {
@@ -58,8 +55,6 @@ p {
     padding-top: 10%;
   }
 
-<<<<<<< HEAD
-=======
 .section__heading {
     text-align: center;
     padding: 0 15px;
@@ -88,7 +83,6 @@ p {
     margin: 0 auto;
   }
 
->>>>>>> b7333db7c60557f8aedcfcf9c9b693d209d538f7
 :root {
     --orange: #FBC85E;
     --green: #9EF490;
@@ -103,10 +97,7 @@ p {
     --shadow: 0 7px 29px 0 rgba(100, 100, 111, 0.2);
 }
 
-<<<<<<< HEAD
-=======
 /* header */
->>>>>>> b7333db7c60557f8aedcfcf9c9b693d209d538f7
 #overlay {
     position: fixed;
     top: 0;
@@ -117,20 +108,11 @@ p {
     z-index: 4;
     display: none;
   }
-<<<<<<< HEAD
-
-
-  #overlay.show {
-    display: initial;
-  }
-
-=======
   
   #overlay.show {
     display: initial;
   }
   
->>>>>>> b7333db7c60557f8aedcfcf9c9b693d209d538f7
 header {
     background-color: var(--gray);
 }
@@ -154,8 +136,6 @@ header {
    width: 63px;
 }
 
-<<<<<<< HEAD
-=======
 .navbar__logo p {
     font-family: "Lato", serif;
     font-size: 1.125rem;
@@ -165,7 +145,6 @@ header {
 }
 
 /* menu */
->>>>>>> b7333db7c60557f8aedcfcf9c9b693d209d538f7
 .navbar__links {
     position: fixed;
     top: 0;
@@ -221,11 +200,7 @@ header {
     transition: var(--smooth);
     z-index: 6;
   }
-<<<<<<< HEAD
-
-=======
   
->>>>>>> b7333db7c60557f8aedcfcf9c9b693d209d538f7
   .navbar__icon {
     width: 45px;
     height: 6px;
@@ -234,11 +209,7 @@ header {
     transition: var(--smooth);
     position: relative;
   }
-<<<<<<< HEAD
-
-=======
   
->>>>>>> b7333db7c60557f8aedcfcf9c9b693d209d538f7
   .navbar__icon:before,
   .navbar__icon:after {
     content: "";
@@ -249,19 +220,11 @@ header {
     border-radius: 5px;
     transition: var(--smooth);
   }
-<<<<<<< HEAD
-
-  .navbar__icon:before {
-    transform: translateY(-12px);
-  }
-
-=======
   
   .navbar__icon:before {
     transform: translateY(-12px);
   }
   
->>>>>>> b7333db7c60557f8aedcfcf9c9b693d209d538f7
   .navbar__icon:after {
     transform: translateY(12px);
   }
@@ -270,17 +233,6 @@ header {
     transform: translateX(-50px);
     background: transparent;
   }
-<<<<<<< HEAD
-
-  .open .navbar__icon:before {
-    transform: rotate(45deg) translate(35px, -35px);
-  }
-
-  .open .navbar__icon:after {
-    transform: rotate(-45deg) translate(35px, 35px);
-  }
-
-=======
   
   .open .navbar__icon:before {
     transform: rotate(45deg) translate(35px, -35px);
@@ -290,7 +242,6 @@ header {
     transform: rotate(-45deg) translate(35px, 35px);
   }
  
->>>>>>> b7333db7c60557f8aedcfcf9c9b693d209d538f7
   @media (min-width: 62em)  {
     .navbar__links {
         position: initial;
@@ -313,29 +264,18 @@ header {
     }
   }
 
-<<<<<<< HEAD
-  #project .container {
-    background-image: var(--light-white));
-=======
   /* banner */
   #banner .container {
     background-image: linear-gradient(to bottom, var(--gray), var(--light-white));
->>>>>>> b7333db7c60557f8aedcfcf9c9b693d209d538f7
   }
 
   .banner__desc {
     display: flex;
     flex-direction: column;
     text-align: center;
-<<<<<<< HEAD
-    padding: 10px 10px;
-  }
-
-=======
     padding: 0 10px;
   }
  
->>>>>>> b7333db7c60557f8aedcfcf9c9b693d209d538f7
   .banner__tag {
     font-size: 1.375rem;
     font-weight: bold;
@@ -362,10 +302,6 @@ header {
     margin-top: 25px;
   }
 
-<<<<<<< HEAD
-/*   @media (min-width: 62em) {
-    #project .container {
-=======
   .banner__btn {
     margin-top: 54px;
   }
@@ -376,7 +312,6 @@ header {
 
   @media (min-width: 62em) {
     #banner .container {
->>>>>>> b7333db7c60557f8aedcfcf9c9b693d209d538f7
       display: flex;
       justify-content: space-between;
       align-items: center;
@@ -394,9 +329,6 @@ header {
       max-width: 800px;
       width: 100%;
     }
-<<<<<<< HEAD
-  } */
-=======
   }
 
   /* what is */
@@ -645,4 +577,3 @@ header {
       margin-top: 0;
     }
   }
->>>>>>> b7333db7c60557f8aedcfcf9c9b693d209d538f7
