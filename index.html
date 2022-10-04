@@ -6,17 +6,129 @@
       name="viewport"
       content="width=device-width, initial-scale=1, shrink-to-fit=no"
     />
-    <title>My Blog</title>
-    <link
-      href="//fonts.googleapis.com/css?family=Roboto:400,500,300"
-      rel="stylesheet"
-      type="text/css"
-    />
+    <title>Nagas</title>
     <link rel="stylesheet" href="css/style.css" />
     <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
   </head>
   <body>
-    <!-- Add your HTML markup here -->
-    <!-- Remember: Use semantic HTML tags like <header>, <main>, <nav>, <footer>, <section> etc -->
+    <div id="app-container">
+      <!-- Semantically, I checked if <nav> MUST be within <header> but there is no hard rule that it must be -->
+      <!-- dev.w3.org/html5/spec/Overview.html#the-nav-element -->
+      <nav>
+        <h3 class="nav-title">Navigation</h3>
+        <ul class="nav-list">
+          <li class="nav-list-item"><a class="nav-link" href="#article-id-01">Article One</a></li>
+          <li class="nav-list-item"><a class="nav-link" href="#article-id-02">Article Two</a></li>
+          <li class="nav-list-item"><a class="nav-link" href="#article-id-03">Article Three</a></li>
+          <li class="nav-list-item"><a class="nav-link" href="#article-id-04">Article Four</a></li>
+        </ul>
+      </nav>
+      <header>
+        <div class="header-image-title-container">
+          <img class="header-image" src="images/logo01.png" alt="Naga Logo">
+          <h1 class="header-title">Nagas</h1>
+        </div>
+        <span class="header-description">
+          <strong>Naga</strong>, in Hinduism and Buddhism, is the Sanskrit word for a deity taking the form of a great snake, specifically the multi-headed king cobra. The naga which is seen sheltering the Buddha while meditating is known as Mucilanda.
+        </span>
+      </header>
+      <main>
+        <article id="article-id-01">
+          <h2 class="article-title">Mucalinda</h2>
+          <div class="article-figures-container">
+            <figure>
+              <img class="article-image" src="images/image01.jpg" alt="A painting of Mucalinda protecting Buddha">
+              <figcaption class="article-image-caption">Mucalinda protects Buddha (detail), Wat Kasattrathirat, Ayutthaya</figcaption>
+              <cite>
+                <a href="https://commons.wikimedia.org/wiki/File:090_Mucalinda_protects_Buddha_(detail)_(9192151900).jpg" target="_blank">citation</a>
+              </cite>
+            </figure>
+            <figure>
+              <img class="article-image" src="images/image02.jpg" alt="A stone pillar depicting the throne of Buddha protected by Mucalinda">
+              <figcaption class="article-image-caption">Pillar with Naga Mucalinda protecting the throne of the Buddha. Railing pillar from Jagannath Tekri, Pauni (Bhandara District). 2nd-1st century BCE. National Museum of India.</figcaption>
+              <cite>
+                <a href="https://en.wikipedia.org/wiki/Mucalinda#/media/File:Pillar_with_Naga_Muchalinda_over_the_throne_of_the_Buddha._Pauni_(Bhandara_District)._Railing_pillar_from_Jagannath_Tekri._2nd-1st_century_BCE.jpg" target="_blank">citation</a>
+              </cite>
+            </figure>
+          </div>
+          <p class="article-summary">
+            Mucalinda, Muchalinda or Mucilinda is the name of a nāga, a snake-like being, who protected the Gautama Buddha from the elements after his enlightenment.
+            It is said that six weeks after Gautama Buddha began meditating under the Bodhi Tree, the heavens darkened for seven days, and a prodigious rain descended. 
+            However, the mighty King of Serpents, Mucalinda, came from beneath the earth and protected with his hood the One who is the source of all protection. 
+            When the great storm had cleared, the serpent king assumed his human form, bowed before the Buddha, and returned in joy to his palace.
+          </p>
+        </article>
+        <article id="article-id-02">
+          <h2 class="article-title">Nagas in Thailand</h2>
+          <div class="article-figures-container">
+            <figure>
+              <img class="article-image" src="images/image03.jpg" alt="image alt text">
+              <figcaption class="article-image-caption">image caption</figcaption>
+              <cite>
+                <a href="#">citation</a>
+              </cite>
+            </figure>
+            <figure>
+              <img class="article-image" src="images/image04.jpg" alt="image alt text">
+              <figcaption class="article-image-caption">image caption</figcaption>
+              <cite>
+                <a href="#">citation</a>
+              </cite>
+            </figure>
+          </div>
+          <p class="article-summary">
+            In Thai beliefs Nagas are considered the patronage of water. 
+            Nagas are believed to live in either water bodies or in caves. 
+            According to a popular legend, the Mekong River in north-eastern Thailand and Laos was said to be created by two Nāga kings slithering through the area, thus creating the Mekong and the nearby Nan River. 
+            The Mekong is synonymous with the unexplained fireballs phenomenon which has long been believed to be created by the nagas that dwell in the river.
+          </p>
+        </article>
+        <article>
+          <h2 id="article-id-03" class="article-title article-title-three">Folklore</h2>
+          <div class="article-figures-container">
+            <figure>
+              <img class="article-image" src="images/image05.jpg" alt="image alt text">
+              <figcaption class="article-image-caption">image caption</figcaption>
+              <cite><a href="#">citation</a></cite>
+            </figure>
+            <figure>
+              <img class="article-image" src="images/image06.jpg" alt="image alt text">
+              <figcaption class="article-image-caption">image caption</figcaption>
+              <cite><a href="#">citation</a></cite>
+            </figure>
+          </div>
+          <p class="article-summary">
+            Thai folklore holds the Phaya nagas to be semi-divine, demi-creatures, which possess supernatural powers as has been described in Buddhist and Hindu cosmology. 
+            The "Kamchanod Forest" Ban Dung district, Udon Thani province, which is held in high reverence and fear across Thailand, is believed to be the border between the human world and the netherworld, and is frequently depicted in Thai folklore as the site of many hauntings, but more frequently is considered to be the home of the Nāga.
+          </p>
+        </article>
+        <article id="article-id-04">
+          <h2 class="article-title">A Naga tries to Ordain</h2>
+          <div class="article-figures-container">
+            <figure>
+              <img class="article-image" src="images/image07.jpg" alt="image alt text">
+              <figcaption class="article-image-caption">image caption</figcaption>
+              <cite><a href="#">citation</a></cite>
+            </figure>
+            <figure>
+              <img class="article-image" src="images/image08.png" alt="image alt text">
+              <figcaption class="article-image-caption">image caption</figcaption>
+              <cite><a href="#">citation</a></cite>
+            </figure>
+          </div>
+          <p class="article-summary">The Buddhist nāga generally has sometimes portrayed as a human being with a snake or dragon extending over his head. One nāga, in human form, attempted to become a monk; and when telling it that such ordination was impossible, the Buddha told it how to ensure that it would be reborn a human, and so able to become a monk.
+            The nagas are believed to both live on Nagaloka, among the other minor deities, and in various parts of the human-inhabited earth. Some of them are water-dwellers, living in streams or the ocean; others are earth-dwellers, living in caverns.
+            The nagas are the followers of Virūpākṣa (Pāli: Virūpakkha), one of the Four Heavenly Kings who guards the western direction. They act as a guard upon Mount Sumeru, protecting the dēvas of Trāyastriṃśa from attack by the asuras.</p>
+        </article>
+      </main>
+      <footer>
+        <h3 class="footer-title">Footer</h3>
+        <a class="footer-link" href="https://github.com/bazmurphy/html-css-01" target="_blank">
+          <img class="footer-github-image" src="images/github.png" alt="github logo">github.com/bazmurphy
+        </a>
+        <a class="footer-link" href="https://syllabus.codeyourfuture.io/html-css/week-1/homework" target="_blank">CYF HTML CSS Module 01</a>
+        </span>
+      </footer>
+    </div>
   </body>
 </html>
