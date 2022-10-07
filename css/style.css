@@ -6,3 +6,46 @@
  *    for example: General styles, Navigation styles, Hero styles, Footer etc.
  * 
  */
+
+/*General style*/
+ body {
+     background-color: #dae1d3;
+     margin: 50px 420px;
+ }
+ h1 {
+    font-size: 60px;
+    color: rgb(14, 59, 123);
+ }
+
+ /*Header style*/
+ header {
+    font-size: xx-large;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+ }
+
+ /*Article style*/
+
+ img {
+    width: 1200px;
+
+ }
+ span {
+     font-size: 48px;
+     font-weight: bold;
+ }
+ article:first-child {
+     background-color: #faeccd;
+ }
+ article {
+    background-color: #f9e4b7;
+    padding-left: 40px;
+ }
+ p, a {
+    font-size: 30px;
+ }
+
+ /* Footer style */
+ footer {
+    text-align: center;
+ }
+ 
