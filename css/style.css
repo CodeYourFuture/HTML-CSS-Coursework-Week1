@@ -6,3 +6,27 @@
  *    for example: General styles, Navigation styles, Hero styles, Footer etc.
  * 
  */
+/*content*/
+ .body {
+  color: #ffdc64;
+  background-color: black;
+  
+}
+article:first-child {
+  color: #deb530;
+}
+
+/*images*/
+
+
+.Aventador-img {
+
+}
+
+.Huracán-img {
+
+}
+
+.Urus-img {
+
+}
