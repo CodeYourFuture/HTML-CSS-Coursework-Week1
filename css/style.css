@@ -1,8 +1,185 @@
-/**
- * Add your custom styles below
- * 
- * Remember: 
- * - Be organised, use comments and separate your styles into meaningful chunks
- *    for example: General styles, Navigation styles, Hero styles, Footer etc.
- * 
- */
+/* Taking the requirement and thinking of a unique design that fits the content, I created this design and theme, styled on a Buddhist Scripture book, it is 100% original, and took me time to theorise, create and tweak! */
+/* It is functional across mobile and desktop without media queries using only flexbox and uses exclusively rem units*/
+
+@import url('https://fonts.googleapis.com/css2?family=Eagle+Lake&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+/* BASIC SETUP */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+/* BODY */
+body {
+  display: flex;
+  justify-content: center;
+  padding: 2rem;
+  background-color: hsl(43, 100%, 64%);
+  background-image: url("../images/background01.png");
+}
+
+/* APP CONTAINER */
+#app-container {
+  max-width: 68rem;
+  display: flex;
+  flex-direction: column;
+  font-family: "Quicksand", serif;
+  background-color: hsl(43, 80%, 60%);
+  background-image: url("../images/background02.png");
+  border-radius: 0.5rem;
+  border-left: 2rem solid hsl(43, 60%, 64%);
+  padding: 0.5rem 2rem;
+  box-shadow: 0 0 0.2rem 0.1rem hsla(0, 0%, 0%, 0.5);
+  text-shadow: 0 0 0.1rem hsla(0, 0%, 0%, 0.5);
+}
+
+/* NAVIGATION */
+nav {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  padding: 1rem 0;
+}
+
+.nav-title {
+  font-size: 0.9rem;
+  font-family: "Eagle Lake", serif;
+}
+
+.nav-list {
+  display: flex;
+  gap: 1rem;
+  list-style: none;
+}
+
+.nav-list-item {
+  font-size: 0.9rem;
+}
+
+.nav-link {
+  color: inherit;
+}
+
+/* HEADER */
+header {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 1rem 0;
+  border-top: 0.1rem solid hsl(0, 0%, 0%, 0.2);
+}
+
+.header-image-title-container {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.header-image {
+  max-width: 5rem;
+  filter: drop-shadow(0.2rem 0.2rem 0.2rem hsl(0, 0%, 0%));
+}
+
+.header-title {
+  font-size: 3rem;
+  font-family: "Eagle Lake", serif;
+  text-shadow: 0 0 0.3rem hsl(35, 100%, 50%);
+  filter: drop-shadow(0.2rem 0.2rem 0.1rem hsl(0, 0%, 40%));
+}
+
+/* MAIN */
+main {
+  display: flex;
+  flex-direction: column;
+}
+
+/* ARTICLES */
+article {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  border-top: 0.1rem solid hsl(0, 0%, 0%, 0.2);
+  padding-top: 0.5rem;
+  padding-bottom: 2rem;
+}
+
+.article-title {
+  font-size: 1.8rem;
+  font-family: "Eagle Lake", serif;
+  text-shadow: 0 0 0.1rem hsl(35, 100%, 50%);
+}
+
+/* ARTICLE IMAGES */
+.article-figures-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+figure {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.article-image {
+  max-width: 25rem;
+  max-height: 20rem;
+  border-left: 1rem solid hsl(43, 60%, 64%);
+  border-radius: 0.5rem;
+  box-shadow: 0 0 0.2rem 0.1rem hsla(0, 0%, 0%, 0.5);
+}
+
+.article-image-caption {
+  font-size: 0.8rem;
+  max-width: 20rem;
+}
+
+cite {
+  align-self: flex-end;
+}
+
+cite > a {
+  font-size: 0.8rem;
+  font-style: normal;
+  color: inherit;
+}
+
+/* FOOTER */
+footer {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem 0;
+  border-top: 0.1rem solid hsl(0, 0%, 0%, 0.2);
+}
+
+.footer-title {
+  font-size: 0.9rem;
+  font-family: "Eagle Lake", serif;
+}
+
+.footer-link {
+  display: flex;
+  gap: 0.25rem;
+  color: inherit;
+  font-size: 0.9rem;
+}
+
+.footer-github-image {
+  display: block;
+  max-width: 1.2rem;
+  max-height: 1.2rem;
+}
+
+
+/* first-child REQUIREMENT, UNCOMMENT TO SEE WORKING */
+
+/* article:first-child {
+  border: 0.2rem solid red;
+} */
