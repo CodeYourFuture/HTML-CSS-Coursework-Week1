@@ -6,3 +6,19 @@
  *    for example: General styles, Navigation styles, Hero styles, Footer etc.
  * 
  */
+ 
+ /* General */
+:root {
+   --black: #000;
+   --blue-dark: #16222e;
+   --green-dark: #307050;
+   --green-light: #55c98f;
+   --white: #fff;
+ }
+
+ body {
+    margin: 0;
+ }
+
+
+
