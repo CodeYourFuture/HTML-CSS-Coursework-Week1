@@ -6,3 +6,12 @@
  *    for example: General styles, Navigation styles, Hero styles, Footer etc.
  * 
  */
+article {
+    width: 250px;
+    max-width: 300px;
+    min-width: 100px;
+    float: right;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+}
