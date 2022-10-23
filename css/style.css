@@ -47,4 +47,43 @@ li a:hover{
   background-color: #006D77;
 }
 
+.hero-image {
+  background-image: url("../images/marcos-paulo-prado-9RFkhF6WW5E-unsplash.jpg");
+  background-color: #cccccc;
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  margin-bottom: 10px;
+}
+
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+
+}
+#herobutton {
+    background-color: #E29578;
+    color: whitesmoke;
+    padding: 10px 25px;
+    border-radius: 10px;
+
+}
+.article{
+    display:flex
+    justify-content: space-around;
+    
+}
+.article div {
+    border: 1px black solid;
+    margin: 10px;
+    padding: 10px;
+    
+}
+
 
