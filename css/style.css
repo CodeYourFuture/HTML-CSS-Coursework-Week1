@@ -68,8 +68,27 @@ header {
     color: var(--white);
     
  }
- 
+
  .nav-links:hover {
     color: var(--green-light);
     transition: all .4s ease-in-out;
  }
+
+ /* main */
+ main {
+    display: flex;
+    flex-direction: column;
+    padding: 30px 25px;
+ }
+
+ .main-title {
+    text-align: center;
+ }
+
+ /* section */
+ section {
+    display: flex;
+    flex-direction: column;
+    
+ }
+ /* article */
