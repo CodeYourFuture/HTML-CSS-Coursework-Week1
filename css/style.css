@@ -83,12 +83,56 @@ header {
 
  .main-title {
     text-align: center;
+    font-size: 30px;
+    margin-bottom: 80px;
+ }
+ .main-title::selection {
+    background: var(--green-dark);
  }
 
  /* section */
  section {
     display: flex;
-    flex-direction: column;
+    padding: 0 80px;
     
  }
+ section p::selection {
+    background: var(--green-dark);
+ }
+ section h3::selection {
+    background: var(--green-dark);
+ }
  /* article */
+ article {
+  margin-bottom: 1rem;
+  border: 1px solid var(--green-dark);
+  border-radius: 5px;
+  padding: 10px;
+  margin: 5px;
+}
+
+article:first-child {
+    background-color: var(--blue-dark);
+}
+
+.article-title {
+    padding: 10px;
+}
+
+.article-summary {
+    padding: 10px;
+    text-align: justify;
+}
+
+.article-read-more {
+    padding: 10px;
+}
+
+.article-read-more a {
+    text-decoration: none;
+    color: var(--green-light);
+}
+
+.article-read-more a:hover {
+    color: var(--green-dark);
+}
