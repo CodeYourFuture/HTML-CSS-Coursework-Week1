@@ -6,7 +6,7 @@
  *    for example: General styles, Navigation styles, Hero styles, Footer etc.
  * 
  */
- 
+
  /* General */
 :root {
    --black: #000;
@@ -18,7 +18,58 @@
 
  body {
     margin: 0;
+    background-color: var(--black);
+    color: var(--white);
  }
 
+ header,
+ footer {
+  padding: 1rem 1.5rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
 
+ /* Header */
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-bottom: 1rem;
+  padding-top: 1rem;
+}
 
+.header-logo{
+    max-height: 90px;
+    width: auto;
+    filter: grayscale(100%);
+}
+
+.header-logo:hover {
+    transition: all 1s ease-in-out;
+    transform: scale(1.5);
+}
+
+/* navigation */
+
+ .nav-list {
+    list-style: none;
+    display: flex;
+ }
+
+ .nav-items {
+    padding: .9rem;
+    margin: 30px;
+ }
+
+ .nav-links {
+    font-size: 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: var(--white);
+    
+ }
+ 
+ .nav-links:hover {
+    color: var(--green-light);
+    transition: all .4s ease-in-out;
+ }
