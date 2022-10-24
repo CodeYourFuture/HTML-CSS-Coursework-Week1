@@ -136,3 +136,49 @@ article:first-child {
 .article-read-more a:hover {
     color: var(--green-dark);
 }
+
+/* footer */
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.footer-list {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    
+
+}
+
+.footer-items {
+    font-size: 40px;    
+    margin-left: 30px;
+    margin-right: 30px;
+    transition: all .4s ease-in-out;
+}
+
+.footer-links {
+    color: var(--green-dark);
+    transition: all .4s ease-in-out;
+}
+
+.footer-items:hover {
+    transform: scale(1.2);
+}
+
+.footer-links:hover {
+    color: var(--green-light);
+}
+
+.footer-text {
+    text-align: center;
+}
+
+.footer-text::selection {
+    background: var(--green-dark);
+}
