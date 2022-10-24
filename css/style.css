@@ -6,12 +6,135 @@
  *    for example: General styles, Navigation styles, Hero styles, Footer etc.
  * 
  */
-article {
+ body {
+    margin: 50px 100px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border: 2px dotted red;  
+ }
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    border: 2px dotted red;
+    flex-direction: row;
+    
+}
+
+.box-1 {
+    border: 1px solid black;
+    font-weight: bold;
+    padding: 10px;
+    text-align: right;
+    margin-top: 75px;
+    height: 30%;
+    order: 3;
+    flex: 0.5;
+
+}
+
+.box-2 {
+    background-color: black;
+    text-align: center;
+    padding: 5px;
+    font-weight: bold;
+    font-size: larger; 
+    color: whitesmoke; 
+    order: 2;
+    flex: .7;
+ }
+
+ .box-3 {
+    border: 1px solid black;
+    font-weight: bold;
+    margin: 0;
+    margin-top: 75px;
+    height: 30%;
+    order: 1;
+    flex: 0.5;
+ }
+
+ nav ul li {
+    list-style: none;
+    display: inline;
+    padding: 15px;
+   
+    
+    
+ }
+
+ .nav-bar {
+    text-align: left;
+    padding: 5px;
+ }
+
+.intro {
+    margin-bottom: 40px;
+    padding: 10px;
+    font-size: 16px;
+    
+}
+.sub-intro {
+    margin-top: 50px;
+}
+
+ .main-images {
+    display: flex;   
+ }
+
+ .img-1 {
+    max-width: 33.3%;
+    max-height: 100%;
+ }
+
+.img-2 {
+    max-width: 33.3%;
+    max-height: 100%;
+}
+
+.img-3 {
+    max-width: 33.3%;
+    max-height: 100%;
+}
+
+aside {
+    
+}
+
+.main-titles {
+    margin-top: 75px;
+}
+
+.styling {
+    border: 2px solid black;
+    padding-left: 3px 3px 3px 3px;
+    cursor: pointer;
+}
+details[open].styling {
+    background-color: rgb(235, 226, 226);
+}
+
+article:first-child {
+    color: rgb(39, 21, 21);
+    background-color: rgb(63, 224, 165);
+    padding: 20px;
     width: 250px;
     max-width: 300px;
     min-width: 100px;
     float: right;
-    margin-left: 10px;
-    margin-bottom: 10px;
+    margin: 15px;
     padding: 10px;
+    height: 450px;
+}
+
+.art-h1 {
+    font-size: large;
+}
+footer {
+    
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: blACK;
+    color: whitesmoke;
+    text-align: center;
 }
