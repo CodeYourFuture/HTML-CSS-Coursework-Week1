@@ -6,3 +6,39 @@
  *    for example: General styles, Navigation styles, Hero styles, Footer etc.
  * 
  */
+
+/*HEADER STYLING*/
+
+header {
+  background-image: url("https://www.eatthis.com/wp-content/uploads/sites/4/2020/10/dessert-assortment.jpg?quality=82&strip=1&w=1250");
+}
+
+h1 {
+  text-transform: uppercase;
+  text-align: center;
+  text-shadow: 2px 2px pink;
+  padding-top: 20px;
+}
+
+h2 {
+  text-align: center;
+  text-shadow: 2px 2px pink;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-content: center;
+  text-shadow: 2px 2px pink;
+}
+
+/*STYLING FOR MAIN BODY*/
+
+h3 {
+  text-align: center;
+}
+
+#about-us {
+  border: 2px solid pink;
+}
