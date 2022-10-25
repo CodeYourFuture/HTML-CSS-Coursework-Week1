@@ -37,8 +37,7 @@
  }
  
  .header,
- .content,
- .footer {
+ .content {
    padding: 0 1.5rem;
    max-width: 1200px;
    margin: 0 auto;
@@ -112,3 +111,40 @@
     color: #EF8D21;
   }
  
+  .content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .sideman img {
+    padding-right: 50px;
+    background-image: url("/HTML-CSS-Coursework-Week1/images/background\ image.png");
+    background-repeat: no-repeat;
+    background-position: 25% 75%;
+  }
+
+  /* hero */
+
+.hero {
+    /* height: 80px; */
+    width: 600px;
+    margin: auto;
+  }
+  
+  .hero h1 {
+    margin-bottom: 1rem;
+    font-size: 4rem;
+  }
+  .hero h3 {
+    margin-bottom: 1rem;
+    font-size: 2rem;
+  }
+
+
+ .hero p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+  }
+  
+  
