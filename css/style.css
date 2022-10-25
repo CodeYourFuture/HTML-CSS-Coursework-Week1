@@ -12,17 +12,26 @@ html {
 body {
   margin: 0;
 }
+
 nav a {
   text-decoration: none;
   color: #845f50;
   text-decoration: solid;
   padding: 10px;
+  font-size: 18px;
 }
-
 nav {
-  background-color: rgba(179, 149, 136, 0.1);
+  padding-top: 20px;
+}
+header {
   display: flex;
-  justify-content: right;
+  justify-content: space-between;
+  background-color: rgba(179, 149, 136, 0.1);
+  padding-left: 10px;
+}
+header p {
+  color: #845f50;
+  font-size: 20px;
 }
 nav a:hover {
   color: #573a2e;
@@ -63,11 +72,6 @@ main section p {
   font-size: 20px;
   text-decoration: solid;
 }
-.attractionImg p:hover {
-  color: #573a2e;
-  font-size: 23px;
-  background-color: rgba(252, 246, 231, 0.1);
-}
 
 hr {
   width: 80%;
@@ -81,4 +85,31 @@ h1 {
 }
 aside h1 {
   font-size: 25px;
+}
+.attractionName {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  height: auto;
+  color: #845f50;
+  text-decoration: solid;
+  font-size: 24px;
+}
+.attractionName p:hover {
+  color: #573a2e;
+  font-size: 23px;
+  background-color: rgba(252, 246, 231, 0.1);
+}
+
+.description {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.description p {
+  padding-left: 20px;
+  padding-right: 20px;
+  color: #845f50;
+  text-decoration: solid;
+  font-size: 18px;
 }
