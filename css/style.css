@@ -6,3 +6,82 @@
  *    for example: General styles, Navigation styles, Hero styles, Footer etc.
  * 
  */
+
+body {
+  font-family:  "Source Sans Pro", "Helvetica Neue", Arial, sans-serif;
+  color: black;
+  font-size: 1rem;
+  background-color: white;
+}
+
+/* header */
+header {
+    display: flex;
+    justify-content: space-around;
+    font-size: 1rem;
+    font-weight: 500;
+    align-items: center;
+    height: 5rem;
+    margin-top: 0.3rem;
+}
+
+.logo {
+    width:5%;
+}
+
+li {
+    list-style-type: none;
+    display: inline;
+    padding: 0rem 0.9rem 0rem 0.9rem;
+    border: 0 solid black;
+    border-radius: 2rem;
+}
+
+li:hover {
+    color: #6f1d1b;
+}
+
+li:first-child {
+    font-weight: 700;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+/* main */
+
+.main-background {
+    background-image: url(/img/background.jpg);
+    width: 100%;
+    height: 500px;
+    background-size: cover;
+    font-family: 'Courier New', Courier, monospace, "Source Sans Pro", "Helvetica Neue", Arial, sans-serif;
+    color: white;
+    text-align: center;
+}
+
+main h1 {
+    padding-top: 4rem;
+    margin-bottom: 4rem;
+}
+
+main p {
+   text-align: center;
+    margin: 4rem;
+}
+
+/* Services section */
+
+main .article-section {
+    display: flex;
+    width: 100%;
+}
+
+.services-images {
+        /* object-fit: contain; */
+        width: 10px;
+        height: 10px;
+
+}
