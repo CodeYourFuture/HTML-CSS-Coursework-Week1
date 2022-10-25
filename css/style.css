@@ -22,7 +22,10 @@ header {
   font-weight: 500;
   align-items: center;
   height: 5rem;
-  margin-top: 0.3rem;
+  padding-top: 0.3rem;
+  background: linear-gradient(white,rgba(255, 255, 255, 0.616));
+  position: fixed;
+  width: 100%;
 }
 
 .logo {
@@ -61,6 +64,7 @@ a {
     "Helvetica Neue", Arial, sans-serif;
   color: white;
   text-align: center;
+  padding-top: 5rem;
 }
 
 main h1 {
