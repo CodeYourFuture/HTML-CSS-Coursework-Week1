@@ -36,6 +36,7 @@ main section {
   height: 500px;
   display: flex;
   align-items: flex-end;
+  margin-bottom: 10px;
 }
 
 main {
@@ -52,6 +53,32 @@ main section p {
 .attractionImg {
   display: flex;
   flex-direction: row;
+  justify-content: space-around;
   width: auto;
-  height: 300px;
+  height: 250px;
+}
+.attractionImg p {
+  color: #845f50;
+  text-decoration: solid;
+  font-size: 20px;
+  text-decoration: solid;
+}
+.attractionImg p:hover {
+  color: #573a2e;
+  font-size: 23px;
+  background-color: rgba(252, 246, 231, 0.1);
+}
+
+hr {
+  width: 80%;
+  color: #845f50;
+  margin-bottom: 20px;
+}
+footer,
+h1 {
+  text-align: center;
+  color: #845f50;
+}
+aside h1 {
+  font-size: 25px;
 }
