@@ -51,15 +51,12 @@ main section {
   align-items: flex-end;
   margin-bottom: 10px;
 }
-article {
-  display: flex;
-  flex-direction: column;
-}
+
 main {
   display: flex;
   flex-direction: column;
 }
-main section p {
+main section h1 {
   font-size: 100px;
   text-align: center;
   color: rgba(252, 246, 231, 0.7);
@@ -136,9 +133,11 @@ p {
   padding-left: 20px;
   padding-right: 20px;
   font-size: 18px;
-
   color: #845f50;
 }
 footer {
   padding-top: 70px;
+}
+p:first-child {
+  color: #d55c15;
 }
