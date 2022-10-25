@@ -20,6 +20,10 @@ nav a {
   padding: 10px;
   font-size: 18px;
 }
+
+#hortHR {
+  width: 60%;
+}
 nav {
   padding-top: 20px;
 }
@@ -47,7 +51,10 @@ main section {
   align-items: flex-end;
   margin-bottom: 10px;
 }
-
+article {
+  display: flex;
+  flex-direction: column;
+}
 main {
   display: flex;
   flex-direction: column;
@@ -71,6 +78,16 @@ main section p {
   text-decoration: solid;
   font-size: 20px;
   text-decoration: solid;
+}
+.virtualtour {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.virtualtour a {
+  text-decoration: none;
+  color: #845f50;
+  font-size: 16px;
 }
 
 hr {
@@ -112,4 +129,16 @@ aside h1 {
   color: #845f50;
   text-decoration: solid;
   font-size: 18px;
+  text-align: left;
+}
+p {
+  text-align: center;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 18px;
+
+  color: #845f50;
+}
+footer {
+  padding-top: 70px;
 }
