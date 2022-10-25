@@ -70,11 +70,15 @@ article {
   column-span: all;
   text-align: center;
   display: block;
+  padding-left: 20px;
 }
 
 #recipe-section {
   column-count: 3;
   display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
 }
 
 main {
@@ -85,6 +89,16 @@ main {
   margin: 30px;
 }
 
+footer {
+  padding: 20px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  border: 2px solid white;
+  margin: 30px;
+}
+
 footer li {
   display: inline;
+  margin-right: 50px;
 }
