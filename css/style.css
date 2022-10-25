@@ -2,7 +2,56 @@
  * Add your custom styles below
  * 
  * Remember: 
- * - Be organised, use comments and separate your styles into meaningful chunks
+ * - Be organized, use comments and separate your styles into meaningful chunks
  *    for example: General styles, Navigation styles, Hero styles, Footer etc.
  * 
  */
+html {
+  font-family: "Mukta", sans-serif;
+}
+body {
+  margin: 0;
+}
+nav a {
+  text-decoration: none;
+  color: #845f50;
+  text-decoration: solid;
+  padding: 10px;
+}
+
+nav {
+  background-color: rgba(179, 149, 136, 0.1);
+  display: flex;
+  justify-content: right;
+}
+nav a:hover {
+  color: #573a2e;
+  font-size: 18px;
+  background-color: rgba(252, 246, 231, 0.1);
+}
+
+main section {
+  background-image: url(/images/london.png);
+  width: auto;
+  height: 500px;
+  display: flex;
+  align-items: flex-end;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+}
+main section p {
+  font-size: 100px;
+  text-align: center;
+  color: rgba(252, 246, 231, 0.7);
+  padding-left: 20px;
+}
+
+.attractionImg {
+  display: flex;
+  flex-direction: row;
+  width: auto;
+  height: 300px;
+}
