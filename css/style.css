@@ -8,7 +8,7 @@
  */
 
 body {
-  font-family:  "Source Sans Pro", "Helvetica Neue", Arial, sans-serif;
+  font-family: "Source Sans Pro", "Helvetica Neue", Arial, sans-serif;
   color: black;
   font-size: 1rem;
   background-color: white;
@@ -16,71 +16,78 @@ body {
 
 /* header */
 header {
-    display: flex;
-    justify-content: space-around;
-    font-size: 1rem;
-    font-weight: 500;
-    align-items: center;
-    height: 5rem;
-    margin-top: 0.3rem;
+  display: flex;
+  justify-content: space-around;
+  font-size: 1rem;
+  font-weight: 500;
+  align-items: center;
+  height: 5rem;
+  margin-top: 0.3rem;
 }
 
 .logo {
-    width:5%;
+  width: 5%;
 }
 
 li {
-    list-style-type: none;
-    display: inline;
-    padding: 0rem 0.9rem 0rem 0.9rem;
-    border: 0 solid black;
-    border-radius: 2rem;
+  list-style-type: none;
+  display: inline;
+  padding: 0rem 0.9rem 0rem 0.9rem;
+  border: 0 solid black;
+  border-radius: 2rem;
 }
 
 li:hover {
-    color: #6f1d1b;
+  color: #6f1d1b;
 }
 
 li:first-child {
-    font-weight: 700;
+  font-weight: 700;
 }
 
 a {
-    color: inherit;
-    text-decoration: none;
+  color: inherit;
+  text-decoration: none;
 }
 
 /* main */
 
 .main-background {
-    background-image: url(/img/background.jpg);
-    width: 100%;
-    height: 500px;
-    background-size: cover;
-    font-family: 'Courier New', Courier, monospace, "Source Sans Pro", "Helvetica Neue", Arial, sans-serif;
-    color: white;
-    text-align: center;
+  background-image: url(/img/background.jpg);
+  width: 100%;
+  height: 500px;
+  background-size: cover;
+  font-family: "Courier New", Courier, monospace, "Source Sans Pro",
+    "Helvetica Neue", Arial, sans-serif;
+  color: white;
+  text-align: center;
 }
 
 main h1 {
-    padding-top: 4rem;
-    margin-bottom: 4rem;
+  padding-top: 4rem;
+  margin-bottom: 4rem;
 }
 
-main p {
-   text-align: center;
-    margin: 4rem;
+main h2 {
+  text-align: center;
+  margin: 9rem;
+  font-size: 1.1rem;
+  font-weight: 500;
+  /* text-shadow: 0.5px 0.5px 0 black; */
 }
 
 /* Services section */
 
-main .article-section {
-    display: flex;
-    width: 100%;
+.article-section {
+  padding-top: 4rem;
+  padding-bottom: 3rem;
+  display: flex;
+  gap: 3rem;
+  border-bottom: 0.15rem solid #6f1c1b69;
 }
 
 .services-images {
-        width: 30rem;
-        height: 20rem;
-        
+  width: 30rem;
+  height: 20rem;
+  border-radius: 1rem;
 }
