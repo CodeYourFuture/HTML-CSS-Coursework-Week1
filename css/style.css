@@ -93,15 +93,25 @@ header {
     margin-bottom: 80px;
  }
  .main-title::selection {
-    background: var(--green-dark);
+    background: var(--green-light);
  }
 
+ main .main-title {
+    animation: color-change 3s infinite;
+ }
+
+
+@keyframes color-change {
+  0% { color: var(--white); }
+  50% { color: var(--green-dark); }
+  100% { color: var(--white); }
+}
  /* section */
  section {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    
+    margin: 0 5rem;
     
  }
  section p::selection {
@@ -113,7 +123,6 @@ header {
  /* article */
  article {
     max-width: 25vmax;
-    max-height: 30rem;
     margin-bottom: 1rem;
     border: 1px solid var(--green-dark);
     border-radius: 5px;
