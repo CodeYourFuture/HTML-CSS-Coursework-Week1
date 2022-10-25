@@ -99,7 +99,9 @@ header {
  /* section */
  section {
     display: flex;
-    padding: 0 80px;
+    flex-wrap: wrap;
+    justify-content: center;
+    
     
  }
  section p::selection {
@@ -110,11 +112,13 @@ header {
  }
  /* article */
  article {
-  margin-bottom: 1rem;
-  border: 1px solid var(--green-dark);
-  border-radius: 5px;
-  padding: 10px;
-  margin: 5px;
+    max-width: 25vmax;
+    max-height: 30rem;
+    margin-bottom: 1rem;
+    border: 1px solid var(--green-dark);
+    border-radius: 5px;
+    padding: 10px;
+    margin: 5px;
 }
 
 article:first-child {
