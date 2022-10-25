@@ -2,7 +2,142 @@
  * Add your custom styles below
  * 
  * Remember: 
- * - Be organised, use comments and separate your styles into meaningful chunks
+ * - Be organized, use comments and separate your styles into meaningful chunks
  *    for example: General styles, Navigation styles, Hero styles, Footer etc.
  * 
  */
+html {
+  font-family: "Mukta", sans-serif;
+}
+body {
+  margin: 0;
+}
+
+nav a {
+  text-decoration: none;
+  color: #845f50;
+  text-decoration: solid;
+  padding: 10px;
+  font-size: 18px;
+}
+
+#hortHR {
+  width: 60%;
+}
+nav {
+  padding-top: 20px;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgba(179, 149, 136, 0.1);
+  padding-left: 10px;
+}
+header p {
+  color: #845f50;
+  font-size: 20px;
+}
+nav a:hover {
+  color: #573a2e;
+  font-size: 18px;
+  background-color: rgba(252, 246, 231, 0.1);
+}
+
+main section {
+  background-image: url(/images/london.png);
+  width: auto;
+  height: 500px;
+  display: flex;
+  align-items: flex-end;
+  margin-bottom: 10px;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+}
+main section h1 {
+  font-size: 100px;
+  text-align: center;
+  color: rgba(252, 246, 231, 0.7);
+  padding-left: 20px;
+}
+
+.attractionImg {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: auto;
+  height: 250px;
+}
+.attractionImg p {
+  color: #845f50;
+  text-decoration: solid;
+  font-size: 20px;
+  text-decoration: solid;
+}
+.virtualtour {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.virtualtour a {
+  text-decoration: none;
+  color: #845f50;
+  font-size: 16px;
+}
+
+hr {
+  width: 80%;
+  color: #845f50;
+  margin-bottom: 20px;
+}
+footer,
+h1 {
+  text-align: center;
+  color: #845f50;
+}
+aside h1 {
+  font-size: 25px;
+}
+.attractionName {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  height: auto;
+  color: #845f50;
+  text-decoration: solid;
+  font-size: 24px;
+}
+.attractionName p:hover {
+  color: #573a2e;
+  font-size: 23px;
+  background-color: rgba(252, 246, 231, 0.1);
+}
+
+.description {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.description p {
+  padding-left: 20px;
+  padding-right: 20px;
+  color: #845f50;
+  text-decoration: solid;
+  font-size: 18px;
+  text-align: left;
+}
+p {
+  text-align: center;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 18px;
+  color: #845f50;
+}
+footer {
+  padding-top: 70px;
+}
+p:first-child {
+  color: #d55c15;
+}
