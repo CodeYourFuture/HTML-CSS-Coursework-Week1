@@ -1,8 +1,6 @@
-/**
- * Add your custom styles below
- * 
- * Remember: 
- * - Be organised, use comments and separate your styles into meaningful chunks
- *    for example: General styles, Navigation styles, Hero styles, Footer etc.
- * 
- */
+
+  article:first-child{
+    color: lime;
+  background-color: black;
+  padding: 5px;
+}
