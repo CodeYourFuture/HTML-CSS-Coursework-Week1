@@ -179,7 +179,7 @@ details[open] {
 
 details[open].summary-styles {
     padding-bottom: 1em;
-    max-height: 20px;
+    /* max-height: 20px; */
 }
 
 .summary-styles {
