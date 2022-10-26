@@ -24,7 +24,12 @@ header {
   align-items: center;
   height: 5rem;
   padding-top: 0.3rem;
-  background: linear-gradient(white 0%,rgba(255, 255, 255, 0.735)35%,rgba(255, 255, 255, 0.564) 56%,rgba(255, 255, 255, 0.059)100%);
+  background: linear-gradient(
+    white 0%,
+    rgba(255, 255, 255, 0.735) 35%,
+    rgba(255, 255, 255, 0.564) 56%,
+    rgba(255, 255, 255, 0.059) 100%
+  );
   position: fixed;
   width: 100%;
   top: 0;
@@ -62,8 +67,7 @@ a {
   width: 100%;
   height: 500px;
   background-size: cover;
-  font-family: "Courier New", Courier, monospace, "Source Sans Pro",
-    "Helvetica Neue", Arial, sans-serif;
+  font-family: "Courier New", Courier, monospace;
   color: white;
   text-align: center;
 }
@@ -75,20 +79,18 @@ main h1 {
 
 main h2 {
   text-align: center;
-  margin: 9rem;
+  margin: 9rem 9rem 2rem 9rem;
   font-size: 1.1rem;
   font-weight: 500;
-  /* text-shadow: 0.5px 0.5px 0 black; */
 }
 
 /* Services section */
 
 .article-section {
   padding-top: 6rem;
-  padding-bottom: 3rem;
+  padding-bottom: 2rem;
   display: flex;
   gap: 3rem;
-  border-bottom: 0.15rem solid #6f1c1b69;
 }
 
 .services-images {
@@ -99,5 +101,38 @@ main h2 {
 }
 
 .services-images:hover {
-    transform: scale(1.05);
+  transform: scale(1.05);
+}
+
+/* Mission section */
+
+footer {
+  background-image: url(/img/background-1.jpg);
+  width: 100%;
+  height: 400px;
+  background-size: cover;
+  background-attachment: fixed;
+  text-align: center;
+
+  margin-top: 0;
+  padding-top: 200px;
+}
+
+.footer-icons {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  align-items: center;
+}
+
+.icons {
+  width: 1.5rem;
+  border: 0.1rem solid black;
+  border-radius: 50%;
+  padding: 0.5rem;
+  transition: transform 0.4s ease;
+}
+
+.icons:hover {
+  transform: scale(1.05);
 }
