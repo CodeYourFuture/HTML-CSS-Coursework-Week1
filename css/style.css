@@ -6,3 +6,28 @@
  *    for example: General styles, Navigation styles, Hero styles, Footer etc.
  * 
  */
+
+:root {
+  --blue-dark-medium: #05386b;
+  --green-medium-dark: #379683;
+  --green-medium-medium: #5cdb95;
+  --green-medium-light: #8ee4af;
+  --green-brite-light: #edf5e1;
+
+  --grey-dark: #292b2c;
+  --grey-light: #e4e4e4;
+  --orange-dark: #c05326;
+  --orange-light: #f7eae4;
+  --white: #fff;
+}
+
+body {
+  margin: 0;
+}
+
+body,
+button {
+  font-family: "Source Sans Pro", "Helvetica Neue", Arial, sans-serif;
+  color: var(--blue-dark-medium);
+  font-size: 1rem;
+}
