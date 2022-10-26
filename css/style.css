@@ -175,3 +175,48 @@
     z-index: -1;
     bottom: 450px;
   }
+ 
+  .first-ring {
+    position: relative;
+    bottom: 850px;
+    left: 90px;
+    z-index: -1;
+  }
+
+  .second-ring {
+    position: relative;
+    bottom: 1290px;
+    left: 70px;
+    z-index: -1;
+  }
+
+  .eclipse-1 {
+    position: relative;
+    bottom: 140px;
+    left: -100px;
+    z-index: -1;
+  }
+
+  .leaf-1 {
+    position: relative;
+    bottom: 1600px;
+    z-index: -1;
+  }
+
+  .leaf-2 {
+    position: relative;
+    bottom: 1550px;
+    left: 850px;
+    z-index: -1;
+    width: 263px;
+    height: 343px;
+  }
+
+  .hero-button {
+    padding: 10px;
+    border-radius: 15px;
+  }
+  
+  .scooter-word {
+    color:#EF8D21
+  }
