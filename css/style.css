@@ -114,22 +114,16 @@
   .content {
     display: flex;
     justify-content: space-between;
-    align-items: center;
-  }
-
-  .sideman img {
-    padding-right: 50px;
-    background-image: url("/HTML-CSS-Coursework-Week1/images/background\ image.png");
-    background-repeat: no-repeat;
-    background-position: 25% 75%;
+    /* align-items: center; */
   }
 
   /* hero */
 
 .hero {
-    /* height: 80px; */
+    height: 80px;
     width: 600px;
     margin: auto;
+    padding-top: 140px;
   }
   
   .hero h1 {
@@ -149,7 +143,7 @@
   
   .price-tag {
     position: relative;
-    left: 230px;
+    left: 390px;
     bottom: 550px;
     font-size: 20px;
     font-weight: 700;
@@ -157,10 +151,27 @@
 
   .price-cost {
     position: relative;
-    left: 230px;
+    left: 390px;
     bottom: 550px;
     font-size: 50px;
     font-weight: 700;
     color:  #EF8D21;
   }
-  
+
+  .elipse {
+    position: relative;
+    left: 190px;
+    bottom: 970px;
+    z-index: -1;
+  }
+
+  .scooteman {
+    position: relative;
+    left: 170px;
+  }
+
+  .scooter-background {
+    position: relative;
+    z-index: -1;
+    bottom: 450px;
+  }
