@@ -6,3 +6,20 @@
  *    for example: General styles, Navigation styles, Hero styles, Footer etc.
  * 
  */
+ .foot {
+    text-align: center;
+ }
+
+ .headers {
+    color: navy;
+ }
+
+ .main {
+    margin-left: 30px;
+    display: flex;
+  flex-direction: column;
+ }
+
+ .links {
+    color: red;
+ }
