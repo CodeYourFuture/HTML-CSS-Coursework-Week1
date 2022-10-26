@@ -143,7 +143,7 @@
   
   .price-tag {
     position: relative;
-    left: 390px;
+    left: 500px;
     bottom: 550px;
     font-size: 20px;
     font-weight: 700;
@@ -151,7 +151,7 @@
 
   .price-cost {
     position: relative;
-    left: 390px;
+    left: 500px;
     bottom: 550px;
     font-size: 50px;
     font-weight: 700;
@@ -160,33 +160,34 @@
 
   .elipse {
     position: relative;
-    left: 190px;
+    left: 280px;
     bottom: 970px;
     z-index: -1;
   }
 
   .scooteman {
     position: relative;
-    left: 170px;
+    left: 270px;
   }
 
   .scooter-background {
     position: relative;
     z-index: -1;
     bottom: 450px;
+    left: 100px;
   }
  
   .first-ring {
     position: relative;
     bottom: 850px;
-    left: 90px;
+    left: 200px;
     z-index: -1;
   }
 
   .second-ring {
     position: relative;
     bottom: 1290px;
-    left: 70px;
+    left: 170px;
     z-index: -1;
   }
 
@@ -206,7 +207,7 @@
   .leaf-2 {
     position: relative;
     bottom: 1550px;
-    left: 850px;
+    left: 920px;
     z-index: -1;
     width: 263px;
     height: 343px;
