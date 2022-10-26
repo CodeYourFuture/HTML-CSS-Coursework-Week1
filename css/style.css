@@ -9,6 +9,11 @@
  body {
     font-family: Georgia, 'Times New Roman', Times, serif;
     border: 2px dotted red;  
+    margin: 40px 100px;
+ }
+ main {
+    margin-bottom: 50px;
+    border: 10px dotted purple;
  }
 
  header {
@@ -22,14 +27,13 @@
     display: flex;
     flex-direction: row;
     /*border: 2px solid blue; */
-    width: 100%;
     margin: 0 0 20px 0; 
 
  }
 .main-logo {
     font-size: 100px;
-    margin-left: 520px;
-    padding-right: 250px;
+    margin-left: 420px;
+    padding-right: 100px;
 }
 
 h4 {
@@ -65,7 +69,6 @@ ul {
     flex-direction: row;
     justify-content: space-between;
     
-  
 }
 
 ul li a {
@@ -84,22 +87,23 @@ ul li a:hover {
      color: black;
  }
 
-.main-container {
+.container1 {
     display: flex;
     margin-top: 60px;
     flex-direction: row;
     background-color: rgb(97, 87, 87);
-    /* border: 5px dotted red; */
+    border: 5px dotted blue;
+    border-radius: 10px;
 
  }
 
  video {
-    width: 600px;
+    width: 500px;
     height: 300px;
     display: flex;
-    flex: 0;
+    flex: -1;
     /*border: 3px solid blue; */
-    padding: 20px;
+    padding: 0px;
  }
 
 .title-container {
@@ -107,47 +111,25 @@ ul li a:hover {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    flex: 2;
+    flex: 1;
     color: white;
     font-size: larger;
     padding: 20px;
     /* border: 3px solid blue; */
 }
 
-.box-1 {
-    
-    font-weight: bold;
-    padding: 10px;
-    text-align: right;
-    margin-top: 75px;
-    height: 30%;
-    order: 3;
-    flex: 0.5;
 
-}
 
-.box-2 {
-  
-    text-align: center;
-    padding: 5px;
-    font-weight: bold;
-    font-size: larger; 
-    color: whitesmoke; 
-    order: 2;
-    flex: .7;
- }
-
- .box-3 {
-    border: 1px solid black;
-    font-weight: bold;
-    margin: 0;
-    margin-top: 75px;
+ .container2 {
+    border: 5px solid blue;
     height: 30%;
     order: 1;
     flex: 0.5;
  }
 
- 
+ .art-name {
+    font-size: larger;
+ }
 
  .nav-bar {
     text-align: left;
@@ -164,14 +146,16 @@ ul li a:hover {
     margin-top: 50px;
 }
 
- .main-images {
-    display: flex;   
+ .imgs-container1 {
+    display: flex;
+ 
  }
 
  .img-1 {
     max-width: 33.3%;
     max-height: 100%;
  }
+ 
 
 .img-2 {
     max-width: 33.3%;
@@ -183,34 +167,42 @@ ul li a:hover {
     max-height: 100%;
 }
 
-aside {
-    
-}
-
-.main-titles {
-    margin-top: 75px;
-}
-
-.styling {
-    border: 2px solid black;
-    padding-left: 3px 3px 3px 3px;
+details {
+    border-radius: 4px;
+    padding: 1em;
     cursor: pointer;
 }
-details[open].styling {
-    background-color: rgb(235, 226, 226);
+
+details[open] {
+    background-color: rgb(139, 146, 144);
+}
+
+details[open].summary-styles {
+    padding-bottom: 1em;
+    max-height: 20px;
+}
+
+.summary-styles {
+    font-weight: bold;
+}
+.link {
+    color: red;
+}
+
+.container3 {
+    display: flex;
+    flex-direction: row;
+    margin: 50px 0 50px 0;
+
 }
 
 article:first-child {
-    color: rgb(39, 21, 21);
     background-color: rgb(63, 224, 165);
-    padding: 20px;
-    width: 250px;
-    max-width: 300px;
-    min-width: 100px;
-    float: right;
-    margin: 15px;
-    padding: 10px;
-    height: 450px;
+    border-radius: 20px;
+    padding: 15px;
+}
+.article2 {
+    padding: 15px;
 }
 
 .art-h1 {
@@ -221,7 +213,7 @@ footer {
     left: 0;
     bottom: 0;
     width: 100%;
-    background-color: blACK;
-    color: whitesmoke;
+    color: rgb(102, 97, 97);
     text-align: center;
 }
+
