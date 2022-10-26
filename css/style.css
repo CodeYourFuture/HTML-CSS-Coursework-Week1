@@ -28,7 +28,7 @@
  }
 .main-logo {
     font-size: 100px;
-    margin-left: 500px;
+    margin-left: 520px;
     padding-right: 250px;
 }
 
@@ -55,20 +55,31 @@ button {
     height: 60px;
  }
 
- ul {
-     list-style: none;
-     display: flex;
-     gap: 10px;
- }
+.nav-item {
+    padding-right: 20px;
+}
+ 
+ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+  
+}
 
- ul li a {
-     color: rgb(88, 85, 85);
-     text-decoration: none;
-     padding: 15px;
-     font-size: 16px;
-     font-weight: 1000;
- }
+ul li a {
+    color: rgb(104, 89, 89);
+    text-decoration: none;
+    font-weight: 600;
+    padding: 15px;
 
+}
+
+ul li a:hover {
+    color: #CE5C08;
+}
+ 
  ul li a:hover {
      color: black;
  }
@@ -136,14 +147,7 @@ button {
     flex: 0.5;
  }
 
- nav ul li {
-    list-style: none;
-    display: inline;
-    padding: 15px;
-   
-    
-    
- }
+ 
 
  .nav-bar {
     text-align: left;
