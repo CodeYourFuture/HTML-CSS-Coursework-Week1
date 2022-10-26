@@ -24,8 +24,11 @@
 body {
   margin: 0;
   background-color: var(--green-medium-light);
-}
+  background-image: url(/image/jason-leung-UMncYEfO9-U-unsplash1a.jpg);
+  background-repeat: no-repeat;
 
+  background-size: cover;
+}
 body,
 button {
   font-family: "Source Sans Pro", "Helvetica Neue", Arial, sans-serif;
@@ -61,14 +64,17 @@ p {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  height: 5rem;
+
   margin-bottom: 1rem;
   padding-top: 1rem;
+  background-color: var(--green-medium-dark);
 }
 
 .header_logo {
-  max-height: 90px;
+  max-height: 3rem;
   width: auto;
+  border-radius: 50%;
+  border: 0.2em solid var(--green-medium-light);
 }
 
 .navigation_list {
@@ -90,7 +96,8 @@ p {
 .hero div {
   border: 2px solid rgb(255, 255, 255);
   padding: 25px;
-  color: var(--blue-dark-medium);
+  color: var(--green-brite-light);
+  background-color: var(--blue-dark-medium);
   flex-direction: column;
   display: flex;
   align-items: center;
@@ -106,7 +113,7 @@ p {
 .a_sidebar {
   display: flex;
   flex-direction: column;
-  min-width: 350px;
+  width: 35%;
 }
 
 .article_info {
@@ -114,8 +121,19 @@ p {
   border-radius: 0.5rem;
   border-width: 0.15rem;
   border-style: solid;
-  border-color: rgb(144, 138, 138);
+  border-color: var(--blue-dark-medium);
   border-image: initial;
+  background-color: #f7eae4;
+}
+.article_info2 {
+  padding: 0.75rem;
+  border-radius: 0.5rem;
+  border-width: 0.15rem;
+  border-style: solid;
+  border-color: var(--blue-dark-medium);
+  background-color: #f7eae4;
+  border-image: initial;
+  width: 60%;
 }
 
 .content {
@@ -126,7 +144,7 @@ p {
 }
 
 .card {
-  background-color: rgb(155, 91, 91);
+  background-color: var(--green-medium-dark);
   padding: 20px;
   margin-top: 20px;
   border-radius: 25px;
@@ -134,4 +152,38 @@ p {
 
 textarea {
   width: 100%;
+  background-color: var(--green-brite-light);
+  border-radius: 0.5em;
+}
+
+ul {
+  display: flex;
+  position: relative;
+  padding-inline-start: 0%;
+}
+navigation_list li {
+  list-style: none;
+}
+
+footer div ul li a {
+  width: 80px;
+  height: 80px;
+  background-color: rgb(237, 74, 74);
+  text-align: center;
+  line-height: 80px;
+  font-size: 35px;
+  margin: 0 20px;
+  display: block;
+  border-radius: 50%;
+  position: relative;
+  overflow: hidden;
+  border: 3px solid rgb(66, 46, 46);
+  z-index: 1;
+}
+
+.equal_margin {
+  margin: 2rem 0rem;
+}
+.footer {
+  margin: 2.5rem 0rem;
 }
