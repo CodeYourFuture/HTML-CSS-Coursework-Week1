@@ -12,6 +12,7 @@ body {
   color: black;
   font-size: 1rem;
   background-color: white;
+  padding-top: 5rem;
 }
 
 /* header */
@@ -23,9 +24,10 @@ header {
   align-items: center;
   height: 5rem;
   padding-top: 0.3rem;
-  background: linear-gradient(white,rgba(255, 255, 255, 0.616));
+  background: linear-gradient(white 0%,rgba(255, 255, 255, 0.735)35%,rgba(255, 255, 255, 0.564) 56%,rgba(255, 255, 255, 0.059)100%);
   position: fixed;
   width: 100%;
+  top: 0;
 }
 
 .logo {
@@ -64,7 +66,6 @@ a {
     "Helvetica Neue", Arial, sans-serif;
   color: white;
   text-align: center;
-  padding-top: 5rem;
 }
 
 main h1 {
@@ -83,7 +84,7 @@ main h2 {
 /* Services section */
 
 .article-section {
-  padding-top: 4rem;
+  padding-top: 6rem;
   padding-bottom: 3rem;
   display: flex;
   gap: 3rem;
@@ -94,4 +95,9 @@ main h2 {
   width: 30rem;
   height: 20rem;
   border-radius: 1rem;
+  transition: transform 0.4s ease;
+}
+
+.services-images:hover {
+    transform: scale(1.05);
 }
