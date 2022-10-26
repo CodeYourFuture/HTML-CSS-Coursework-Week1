@@ -7,21 +7,104 @@
  * 
  */
  body {
-    margin: 50px 100px;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     border: 2px dotted red;  
  }
 
-.header {
+ header {
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+     display: flex;
+ }
+
+ .top-container {
     display: flex;
-    justify-content: space-between;
-    border: 2px dotted red;
     flex-direction: row;
-    
+    /*border: 2px solid blue; */
+    width: 100%;
+    margin: 0 0 20px 0; 
+
+ }
+.main-logo {
+    font-size: 100px;
+    margin-left: 500px;
+    padding-right: 250px;
+}
+
+h4 {
+    color: rgb(88, 85, 85);
+}
+button {
+    height: 40px;
+    width: 100px;
+    /* padding-top: 10px; */
+    background-color: black;
+    color: white;
+    margin: 8px 0 0 10px;
+
+}
+ .top-right {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+ }
+
+ .hburger-img {
+    width: 60px;
+    height: 60px;
+ }
+
+ ul {
+     list-style: none;
+     display: flex;
+     gap: 10px;
+ }
+
+ ul li a {
+     color: rgb(88, 85, 85);
+     text-decoration: none;
+     padding: 15px;
+     font-size: 16px;
+     font-weight: 1000;
+ }
+
+ ul li a:hover {
+     color: black;
+ }
+
+.main-container {
+    display: flex;
+    margin-top: 60px;
+    flex-direction: row;
+    background-color: rgb(97, 87, 87);
+    /* border: 5px dotted red; */
+
+ }
+
+ video {
+    width: 600px;
+    height: 300px;
+    display: flex;
+    flex: 0;
+    /*border: 3px solid blue; */
+    padding: 20px;
+ }
+
+.title-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 2;
+    color: white;
+    font-size: larger;
+    padding: 20px;
+    /* border: 3px solid blue; */
 }
 
 .box-1 {
-    border: 1px solid black;
+    
     font-weight: bold;
     padding: 10px;
     text-align: right;
@@ -33,7 +116,7 @@
 }
 
 .box-2 {
-    background-color: black;
+  
     text-align: center;
     padding: 5px;
     font-weight: bold;
