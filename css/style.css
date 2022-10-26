@@ -9,36 +9,53 @@
  body {
     font-family: Georgia, 'Times New Roman', Times, serif;
     border: 2px dotted red;  
-    margin: 40px 100px;
+    margin: 0 100px 40px 100px;
  }
+
  main {
     margin-bottom: 50px;
     border: 10px dotted purple;
  }
 
+ .main-logo {
+    border: 5px solid green;
+ }
  header {
      justify-content: center;
      align-items: center;
      flex-direction: column;
      display: flex;
- }
 
+ }
  .top-container {
+    border: solid #5B6DCD 10px;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+ }
+ 
+ .top-right {
     display: flex;
     flex-direction: row;
-    /*border: 2px solid blue; */
-    margin: 0 0 20px 0; 
-
+    justify-content: center;
  }
-.main-logo {
-    font-size: 100px;
-    margin-left: 420px;
-    padding-right: 100px;
-}
+ .logo {
+    display: flex;
+    flex-direction: row;
+    font-size: 80px;
+    font-weight: bold;
+    justify-content: center;
+ }
 
+.test {
+    border: 3px dotted red;
+}
 h4 {
     color: rgb(88, 85, 85);
 }
+
 button {
     height: 40px;
     width: 100px;
@@ -46,29 +63,19 @@ button {
     background-color: black;
     color: white;
     margin: 8px 0 0 10px;
-
 }
- .top-right {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
- }
 
  .hburger-img {
     width: 60px;
     height: 60px;
  }
 
-.nav-item {
-    padding-right: 20px;
-}
  
 ul {
     list-style: none;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    
 }
 
 ul li a {
@@ -76,11 +83,6 @@ ul li a {
     text-decoration: none;
     font-weight: 600;
     padding: 15px;
-
-}
-
-ul li a:hover {
-    color: #CE5C08;
 }
  
  ul li a:hover {
@@ -89,12 +91,17 @@ ul li a:hover {
 
 .container1 {
     display: flex;
-    margin-top: 60px;
+    margin: 60px 0 60px 0;
     flex-direction: row;
-    background-color: rgb(97, 87, 87);
+    background-color: rgb(230, 222, 222);
     border: 5px dotted blue;
     border-radius: 10px;
+ }
 
+ .container1-a {
+    padding: 20px 20px 20px 60px;
+    display: flex;
+    flex-direction: column;
  }
 
  video {
@@ -106,90 +113,47 @@ ul li a:hover {
     padding: 0px;
  }
 
-.title-container {
+ .stories {
+    color: rgb(104, 89, 89);
+    text-decoration: none;
+    font-weight: 600;
     display: flex;
-    flex-direction: column;
     justify-content: center;
-    align-items: center;
-    flex: 1;
-    color: white;
-    font-size: larger;
-    padding: 20px;
-    /* border: 3px solid blue; */
-}
-
-
-
- .container2 {
-    border: 5px solid blue;
-    height: 30%;
-    order: 1;
-    flex: 0.5;
  }
 
- .art-name {
-    font-size: larger;
- }
-
- .nav-bar {
+ /*.nav-bar {
     text-align: left;
     padding: 5px;
- }
+ } */
 
-.intro {
-    margin-bottom: 40px;
-    padding: 10px;
-    font-size: 16px;
-    
-}
-.sub-intro {
-    margin-top: 50px;
-}
-
- .imgs-container1 {
+.container1-b {
     display: flex;
- 
- }
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+}
 
  .img-1 {
-    max-width: 33.3%;
+    max-width: 350px;
     max-height: 100%;
  }
  
 
 .img-2 {
-    max-width: 33.3%;
+    max-width: 300px;
     max-height: 100%;
 }
 
 .img-3 {
-    max-width: 33.3%;
+    max-width: 350px;
     max-height: 100%;
 }
 
-details {
-    border-radius: 4px;
-    padding: 1em;
-    cursor: pointer;
-}
-
-details[open] {
-    background-color: rgb(139, 146, 144);
-}
-
-details[open].summary-styles {
-    padding-bottom: 1em;
-    /* max-height: 20px; */
-}
-
-.summary-styles {
-    font-weight: bold;
-}
 .link {
-    color: red;
+    color: rgb(9, 107, 99);
 }
 
-.container3 {
+.container2 {
     display: flex;
     flex-direction: row;
     margin: 50px 0 50px 0;
@@ -197,17 +161,32 @@ details[open].summary-styles {
 }
 
 article:first-child {
+    display: flex;
+    flex-direction: column;
+    flex: 0.5;
+    order: 2;
     background-color: rgb(63, 224, 165);
+    height: 500px;
     border-radius: 20px;
     padding: 15px;
 }
+
 .article2 {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    order: 3;
     padding: 15px;
 }
 
-.art-h1 {
-    font-size: large;
+.article3 {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    order: 1;
+    padding: 15px;
 }
+
 footer {
     
     left: 0;
