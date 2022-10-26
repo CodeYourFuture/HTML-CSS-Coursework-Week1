@@ -9,7 +9,15 @@
  .foot {
     text-align: center;
  }
-
+h1 {
+    font-size: 100px;
+  text-align: center;
+  color: rgba(252, 246, 231, 0.7);
+@@ -136,9 +133,11 @@ p {
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 18px;
+}
  .headers {
     color: navy;
  }
