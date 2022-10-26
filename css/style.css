@@ -104,6 +104,24 @@ main h2 {
   transform: scale(1.05);
 }
 
+.article-summary {
+  height: 10rem;
+}
+button {
+  font-size: 1.2rem;
+  font-weight: 600;
+  background-color: white;
+  color: #6f1d1b;
+  padding: 1rem 2.5rem 1rem 2.5rem;
+  /* border: 0; */
+  border-radius:2rem;
+}
+
+button:hover {
+  background-color: #6f1d1b;
+  color: white;
+
+}
 /* Mission section */
 
 footer {
