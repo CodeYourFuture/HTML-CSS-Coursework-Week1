@@ -14,13 +14,17 @@
   </head>
   <body>
     <header class="header">
+      <a href="#">
+        <img
+          src="image/florian-klauer-nptLmg6jqDo-unsplash.jpg"
+          alt="ballooon in chair"
+          class="header_logo"
+        />
+      </a>
+
+      <!-- logo end -->
+
       <nav>
-        <a href="#">
-          <img src="img/karma-logo.svg" alt="" class="header_logo" />
-        </a>
-
-        <!-- logo end -->
-
         <ul class="navigation_list">
           <li class="navigation_item">
             <a class="navigation_link" href="#">about regex</a>
@@ -33,25 +37,51 @@
           </li>
         </ul>
       </nav>
-
-      <div class="main_div content" id="hero">
-        <div>
-          <h2>Str.Match()</h2>
-          <p>welcom to the world of regex</p>
-        </div>
-      </div>
     </header>
 
-    <main>
-      <section>info about rebex</section>
-      <article>
-        <div>when was regex invented</div>
-        <div>who uses regex</div>
-        <div>where can you learn</div>
+    <div class="main hero">
+      <div>
+        <h2>Str.Match()</h2>
+        <p>welcom to the world of regex</p>
+      </div>
+    </div>
+
+    <main class="main flex_row_jcsb">
+      <section class="article_info">
+        <h2>info about rebex</h2>
+        <p>welcom to the world of regex</p>
+      </section>
+      <article class="a_sidebar">
+        <div class="article_info">when was regex invented</div>
+        <div class="article_info">who uses regex</div>
+        <div class="article_info">where can you learn</div>
       </article>
     </main>
-    <section>
-      <div>input</div>
+
+    <section class="main">
+      <div class="card">
+        <div class="content2 flex_row_jcsb">
+          <h2>try exprince regex at work</h2>
+          <span>
+            <button class="donateButton testB" id="demo2">convert</button
+            ><button class="donateButton testB" id="demo3">refresh</button>
+          </span>
+        </div>
+
+        <!-- function html START -->
+
+        <div>
+          <label for="var1"></label>
+          <textarea
+            id="var1"
+            name="subject"
+            placeholder="Write something.."
+            style="height: 200px"
+          ></textarea>
+        </div>
+        <!-- function html END -->
+      </div>
+
       <div>output</div>
     </section>
 
