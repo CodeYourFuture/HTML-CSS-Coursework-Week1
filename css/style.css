@@ -109,6 +109,7 @@ nav a {
   text-align: left;
   color: #8491a0;
   padding-left: 50px;
+  font-size: 20px;
 }
 .section-2-experience h2 {
   text-align: left;
@@ -117,7 +118,7 @@ nav a {
   font-size: 55px;
   padding-left: 50px;
 }
-/*section 3*/
+/*section 3
 .section-3-values-div {
   display: flex;
   flex-direction: column;
@@ -128,4 +129,41 @@ nav a {
   max-height: 100%;
   margin: auto;
   display: block;
+}
+*/
+
+/*
+/*article*/
+article {
+  background-color: #333;
+  color: rgba(255, 255, 255, 0.7);
+  padding: 200px;
+  margin: 10px 0;
+}
+
+article h1 {
+  text-align: left;
+  color: #8491a0;
+
+  font-size: 20px;
+}
+.img-article {
+}
+
+/*footer*/
+footer {
+  background-color: #181823;
+  text-align: center;
+  color: #8491a0;
+  padding: 20px;
+}
+
+.contact-details {
+  font-weight: bolder;
+}
+
+.publication {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 }
