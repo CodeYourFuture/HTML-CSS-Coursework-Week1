@@ -2,7 +2,84 @@
  * Add your custom styles below
  * 
  * Remember: 
- * - Be organised, use comments and separate your styles into meaningful chunks
- *    for example: General styles, Navigation styles, Hero styles, Footer etc.
+ * - Be organised, use comments and separate your styles into
+  meaningful chunks
+ *    for example: General styles, Navigation styles, 
+ Hero styles, Footer etc.
  * 
  */
+body {
+    font-family: "Roboto", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    margin: 10px;
+    color: rgb(85, 83, 83);
+}
+h1 {
+    text-align: center;
+    font: 4rem sans-serif;
+}
+h3 {
+    text-align: center;
+    font: 1.5rem sans-serif;
+}
+.nav_list {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+}
+.nav_item {
+    padding: 2rem;
+    font-size: 1.4rem;
+}
+.nav_link {
+    color: var(--grey-dark);
+    font-weight: 400;
+    text-decoration: none;
+}
+.nav_item:hover {
+    color: #c05326;
+}
+
+/* Main*/
+.main {
+    display: flex;
+    flex-direction: column;
+}
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+/*First element of section*/
+section:first-child {
+   font-weight: 700;
+}
+h2 {
+    padding-right: 30%; 
+}
+section p {
+    width: 50%;
+}
+a {
+    text-decoration: none;
+}
+a:hover {
+    color: #c05326;
+}
+/*Footer*/
+hr {
+   width: 60%;
+}
+footer {
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
