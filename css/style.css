@@ -24,7 +24,7 @@ nav a {
 #AZ {
   width: 40px;
   height: 40px;
-  margin-right: 600px;
+  margin-right: 650px;
   margin-left: 50px;
 }
 
@@ -147,7 +147,19 @@ article h1 {
 
   font-size: 20px;
 }
+
 .img-article {
+  border-radius: 10px;
+}
+
+.publication :first-child {
+  text-align: center;
+  color: #89b3e8;
+}
+
+.publication :last-child {
+  text-align: left;
+  margin-top: 30px;
 }
 
 /*footer*/
