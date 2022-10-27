@@ -90,15 +90,10 @@
 
 /* formation/success */
 
-
-#arsenal {
+ div p {
   color: green;
-  justify-content: center;
-  flex-direction: column;
-  display: flex;
 }
-
-:first-child {
+div h2 {
   color: red;
 }
 
