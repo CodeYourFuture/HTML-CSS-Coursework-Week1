@@ -6,3 +6,181 @@
  *    for example: General styles, Navigation styles, Hero styles, Footer etc.
  * 
  */
+@media (max-width: 2000px) and (min-width: 1400px) {
+  .container {
+    max-width: 1400px;
+  }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Poppins", sans-serif;
+}
+p {
+  font-size: 18px;
+  line-height: 28px;
+  margin: 0;
+  color: #787878;
+}
+a {
+  text-decoration: none;
+  font-size: 16px;
+  color: black;
+}
+a:hover {
+  color: #f29f05;
+}
+h1 {
+  font-size: 60px;
+  line-height: 80px;
+  color: #363636;
+}
+h2 {
+  line-height: 58px;
+  font-size: 48px;
+  margin: 0;
+  color: #363636;
+}
+h3 {
+  line-height: 46px;
+  font-size: 36px;
+  margin: 0;
+  color: #363636;
+}
+h4 {
+  font-size: 24px;
+  line-height: 34px;
+  color: #363636;
+}
+h5 {
+  line-height: 32px;
+  font-size: 22px;
+  color: #363636;
+}
+h6 {
+  line-height: 28px;
+  font-size: 18px;
+  color: #363636;
+}
+ul {
+  padding: 0;
+  margin: 0;
+}
+/* li {
+  display: block;
+} */
+
+/*--- navbar ---*/
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 5rem;
+  margin-bottom: 1rem;
+  padding: 20px 0;
+}
+.navbar {
+  position: relative;
+  padding: 0px;
+}
+.nav_list {
+  display: flex;
+  list-style: none;
+}
+.nav_item {
+  padding: 0 10px;
+}
+
+.nav_item a:hover {
+  color: #f29f05;
+}
+
+/*--- main ---*/
+.main-content {
+  display: flex;
+  margin-bottom: 20px;
+  padding: 10px;
+  margin: 0.5rem;
+}
+}
+
+.branch-select {
+  display: flex;
+}
+/*--- button ---*/
+button {
+  text-align: center;
+  color: #000;
+  background-color: #f29f05;
+  text-transform: uppercase;
+  display: inline-block;
+  font-size: 16px;
+  padding: 0 25px;
+  border-radius: 10px;
+}
+
+button:hover {
+  background-position: 100%;
+  background-color: transparent;
+}
+/*--- branch-select ---*/
+
+.branch-select .nice-select {
+  color: #cfcfcf;
+  border: 0;
+  box-shadow: -1px 15px 26px -4px rgba(161, 151, 151, 0.15);
+  -webkit-box-shadow: -1px 15px 26px -4px rgba(161, 151, 151, 0.15);
+  -moz-box-shadow: -1px 15px 26px -4px rgba(161, 151, 151, 0.15);
+  height: 55px;
+  width: 60%;
+  font-size: 18px;
+}
+
+/*--- order section ---*/
+.order-content {
+  padding-bottom: 30px;
+}
+.order-section {
+  margin-bottom: 1rem;
+  display: block;
+  border: 1px solid lightgrey;
+  padding: 1rem;
+  margin: 0.5rem;
+}
+.row {
+  display: flex;
+  align-items: center;
+}
+.phone-order img {
+  width: auto;
+  max-height: 150px;
+}
+/*--- review sectoion ---*/
+.reviews-content{
+  margin-bottom: 1rem;
+  padding: 1rem;
+  margin: 0.5rem;
+}
+.container {
+  display: block;
+}
+.reviews-content {
+  display: flex;
+  flex-direction: column;
+}
+
+/*--- footer ---*/
+.footer__content {
+  border-top: 2px solid var(--orange-light);
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+footer p {
+  padding-bottom: 1rem;
+  text-align: center;
+  font-size: 0.85rem;
+}
