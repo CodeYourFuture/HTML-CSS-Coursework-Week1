@@ -90,12 +90,9 @@
 
 /* formation/success */
 
- div p {
-  color: green;
-}
-div h2 {
+ .success:first-child {
   color: red;
-}
+ }
 
 
  
