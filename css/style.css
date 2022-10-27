@@ -6,3 +6,64 @@
  *    for example: General styles, Navigation styles, Hero styles, Footer etc.
  * 
  */
+/* body */
+body {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   background-color: bisque;
+   margin-top: 0;
+}
+
+/* header */
+header {
+   background-color: goldenrod;
+   width: 100%;
+   padding-left: 13rem;
+}
+
+header h1 {
+   font-size: 3rem;
+}
+
+/* main */
+main {
+   padding-top: 0.5rem;
+}
+
+article:first-child {
+   font-size: 1.3rem;
+}
+
+article {
+   padding: 1rem 0 2rem 0;
+}
+
+article h2,
+article p {
+   padding: 0 10rem 0 10rem;
+}
+
+img {
+   padding-left: 10rem;
+}
+
+a {
+   padding-left: 10rem;
+}
+
+/* footer */
+footer {
+   padding-bottom: 2rem;
+   text-align: center;
+}
+
+hr {
+   display: block;
+   width: 50rem;
+   height: 1px;
+   border: 1px;
+   border-top: 1px solid rgb(140, 140, 141);
+   margin: 1em;
+   padding: 0.5rem;
+}
