@@ -7,5 +7,50 @@
  * 
  */
 body {
-    margin: 20px;
+    font-family: "Roboto", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    margin: 10px;
 }
+h1 {
+    text-align: center;
+    font: 4rem sans-serif;
+}
+h3 {
+    text-align: center;
+        font: 1.5rem sans-serif;
+}
+.nav_list {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+}
+
+.nav_item {
+    padding: 2rem;
+    font-size: 1.4rem;
+}
+
+.nav_link {
+    color: var(--grey-dark);
+    font-weight: 400;
+    text-decoration: none;
+}
+
+.nav_item:hover {
+    color: #c05326;
+}
+
+.header {
+
+}
+
+
+
+
+
+
+
+
+
+
+
