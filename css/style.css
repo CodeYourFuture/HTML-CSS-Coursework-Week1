@@ -1,8 +1,119 @@
-/**
- * Add your custom styles below
- * 
- * Remember: 
- * - Be organised, use comments and separate your styles into meaningful chunks
- *    for example: General styles, Navigation styles, Hero styles, Footer etc.
- * 
- */
+body {
+  font-family: "Roboto", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  color: black;
+  background-image: linear-gradient(
+      200deg,
+      rgba(10, 30, 120, 0.8),
+      rgba(100, 60, 25, 0.8)
+    ),
+    url(https://pbs.twimg.com/media/FfBTYwlX0AAW1nl?format=jpg&name=large);
+  background-size: cover;
+  background-position: 89.5% 10.5%;
+}
+
+a:hover {
+  color: orange;
+}
+
+a,
+li {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  color: red;
+}
+
+p {
+  font-size: 25px;
+  padding: 1rem;
+  line-height: 40px;
+  margin: auto;
+  text-align: justify;
+}
+
+h1 {
+  font-size: 45px;
+  color: #ffffff;
+  text-align: justify;
+}
+
+article:first-child {
+  font-size: 1.5em;
+  font-style: oblique;
+  font-weight: normal;
+  color: orange;
+}
+
+/* =================
+   =================
+*/
+
+.header {
+  display: flex;
+  flex-direction: column;
+  align-content: space-around;
+  margin-bottom: 0%;
+}
+
+.navbar-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.top-site-navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.women-life-freedom-logo {
+  position: relative;
+  width: 70%;
+}
+
+.site-title-description {
+  width: 80%;
+  color: aliceblue;
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin: 25px;
+  color: white;
+  margin-bottom: 0%;
+}
+
+.articles {
+  width: 80%;
+  color: aliceblue;
+  margin-top: 0%;
+  margin: 25px;
+  color: white;
+  margin-bottom: 0%;
+}
+
+.body-txt {
+  font-size: 20px;
+}
+
+.footer {
+  width: 80%;
+  color: aliceblue;
+  margin-top: 0%;
+  margin: 25px;
+  color: black;
+  margin-bottom: 0%;
+}
+
+.footer-txt {
+  font-size: 20px;
+}
+/* =================
+   =================
+*/
+#top-navbar-button {
+  padding: 25px;
+}
