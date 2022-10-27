@@ -90,9 +90,10 @@
 
 /* formation/success */
 
- .success:first-child {
+
+.success:first-child {
   color: red;
- }
+}
 
 
  
