@@ -1,8 +1,50 @@
-/**
- * Add your custom styles below
- * 
- * Remember: 
- * - Be organised, use comments and separate your styles into meaningful chunks
- *    for example: General styles, Navigation styles, Hero styles, Footer etc.
- * 
- */
+:root {
+  --purple1: #dcb5ff;
+  --grey: #d9f2ff;
+  --purple2: #a5bdfd;
+  --purple3: #77519f;
+  --text-color: #442169;
+  --first-font: "Baskervville", serif;
+  --second-font: "Cinzel", serif;
+  --logo-font: "Homemade Apple", cursive;
+}
+
+body {
+  font-family: var(--second-font);
+}
+
+/* Navigation bar*/
+header .nav-bar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  background-color: var(--purple2);
+}
+
+header .nav-bar ul {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  margin: 0 50px;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+header .nav-bar p {
+  margin: 0 50px;
+  font-size: 30px;
+  font-family: var(--logo-font);
+  color: var(--text-color);
+}
+
+header .nav-bar ul li a {
+  text-decoration: none;
+  padding: 0 15px;
+  color: var(--text-color);
+}
+
+h1 {
+  font-size: 100px;
+  color: var(--text-color);
+}
