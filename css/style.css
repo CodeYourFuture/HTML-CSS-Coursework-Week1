@@ -61,6 +61,7 @@ article:first-child {
 .navbar-container {
   display: flex;
   flex-direction: row;
+  justify-content: center;
 }
 
 .top-site-navbar {
@@ -116,4 +117,5 @@ article:first-child {
 */
 #top-navbar-button {
   padding: 25px;
+  text-align: center;
 }
