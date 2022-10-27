@@ -1,8 +1,75 @@
-/**
- * Add your custom styles below
- * 
- * Remember: 
- * - Be organised, use comments and separate your styles into meaningful chunks
- *    for example: General styles, Navigation styles, Hero styles, Footer etc.
- * 
- */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+ 
+body {
+    background-color: #77a38d;
+}
+ 
+ 
+ 
+ 
+ 
+ header {
+ display: flex; 
+ align-items: center; 
+ justify-content: space-between; 
+ height: 5rem;
+ margin-bottom: 1rem;
+ padding-top: 1rem;
+ border: 1px solid black ;
+}
+
+/* nav */
+.nav-list {
+    display: flex;
+    list-style: none;
+}
+.nav-item {
+    display: flex;
+    justify-content:space-around;
+    margin: 5px;
+}
+.nav-link {
+color: black;
+text-decoration: none;
+
+}
+
+
+
+main {
+    display: flex;
+    padding-right: 2rem;
+    flex-direction: column;
+    align-items: center;
+}
+
+article {
+    margin-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    padding: 5px;
+}
+.article__titel-link {
+    text-decoration:none;
+    color: var(--orange-dark);
+}
+
+.article__summery{
+    margin-top: 0%;
+    margin-bottom: 1rem;
+}
+.article__read-more a{
+    font-size: 0.85rem;
+    font-weight: 700;
+    color: var(--orange-dark);
+    text-decoration: none;
+}
+
+
+ 
+
