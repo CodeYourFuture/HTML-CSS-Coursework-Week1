@@ -13,6 +13,7 @@ body {
 
 main {
     margin-bottom: 50px;
+
 }
 
   /* Navigation Styles */
@@ -36,9 +37,13 @@ ul li a:hover {
       color: black;
 }
 
+.border-bottom {
+    border-bottom: 1px solid black;
+}
+
  /* Hero Styles */
 
-.mleft-section {
+.left-container {
      display: flex;
      justify-content: flex-end;
      align-items: center;
@@ -110,47 +115,43 @@ h4 {
     color: rgb(88, 85, 85);
 }
 
-/* General Styles - Main container */
-
+/* General Styles - Main container and aside container */
 .main-container {
-    display: flex;
-    flex-direction: row;
- }
-
-.stories {
-     color: black;
-     text-decoration: underline;
-     font-weight: 600;
-     display: flex;
-     justify-content: flex-start;
-     flex-direction: row;
-     margin: 25px 0 25px 0;
- }
-
-.main-section {
     display: flex;
     flex-direction: row;
     height: 800px;
     margin: 50px 0 10px 0;
 }
 
-.mright-section {
+.aside-container {
+    float: right;
     display: flex;
     justify-content: center;
     flex-direction: column;   
     padding-left: 100px;
 }
 
-.mright-border {
+.aside-border {
     border: 1px solid rgb(180, 175, 175);
     margin-bottom: 40px;
     padding: 15px;
     font-weight: bolder;  
 }
 
+.stories {
+    color: black;
+    font-weight: 600;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    margin: 15px 0 25px 0;
+    border-bottom: 1px solid black;
+    padding: 15px 0 25px 0;
+}
+
 /* Article Styles */
 
-.article-section {
+.article-container {
     display: flex;
     flex-direction: row;
     border: 2px solid rgb(204, 200, 200);
@@ -227,5 +228,6 @@ footer {
     text-align: center;
     border-radius: 4px;
     padding: 20px;
+
 }
 
