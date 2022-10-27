@@ -6,3 +6,146 @@
  *    for example: General styles, Navigation styles, Hero styles, Footer etc.
  * 
  */
+
+ .header__logo {
+  max-height: 90px;
+  width: auto;
+  
+}
+
+/* Navigation */
+
+.navigation__list {
+  display: flex;
+  list-style: none;
+}
+
+.navigation__item {
+  padding: 0.5rem 0;
+  padding: 0.5 rem 0;
+  flex-grow: 1;
+}
+
+
+.navigation__link {
+  color: var(--grey-dark);
+  font-weight: 600;
+  text-transform:uppercase;
+  text-decoration: none;
+  font-weight: 600;
+   padding: 0 25px;
+   
+}
+
+
+  .nav-link:hover {
+    color: #c16718;
+  }
+  .active {
+    color: #2b3956;
+  }
+  /* main - history */
+
+  main {
+  padding: 2rem;
+  }
+  
+
+  .history {
+    background-image: url("../css/arsenal\ background.png");
+    position:relative;
+    margin-bottom: 20px;
+    font-family: verdana;
+    text-align: center;
+    text-decoration:none;
+    font-size: 50px;
+    width: auto;
+    color:navajowhite;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+    }
+
+ /* history */
+
+
+  .fans {
+
+    color: black;
+    text-align:center;
+    
+    font-size:52px;
+    margin-bottom: 3rem;
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction: column;
+
+    
+  }
+
+/* formation/success */
+
+
+.success:first-child {
+  color: red;
+}
+
+
+ 
+  
+
+  /* INFO */
+
+  .info {
+    text-align: center;
+    font-weight: 250px;
+    padding: 60px 0px;
+  }
+  .info-title {
+    font-size: 40px;
+    font-weight: inherit;
+    margin-bottom: 5rem;
+  }
+  
+
+  /* footer */
+
+  .footer {
+    text-align: center;
+    padding: 2.5rem 0rem 3rem 0rem;
+  }
+
+  .container-social {
+    display: flex;
+    justify-content: space-between;
+    align-content: space-between;
+    width: 13%;
+    margin: 0 auto;
+  }
+
+  .social {
+    border: 1px solid #bdc3c7;
+    border-radius: 100%;
+    padding: 0.6rem ;
+  }
+
+  .social img {
+    width: 1.4rem;
+  }
+
+  .footer-join {
+    font-size: 20px;
+  }
+
+  .footer-text {
+    color: #acb0b2;
+    margin-top: 1.5rem;
+  }
+
+
+
