@@ -12,7 +12,32 @@
     align-items: center;
  }
 
+ main {
+   padding-top: 5rem;
+ }
+
+ header {
+   background-color: goldenrod;
+   /* width: fit-content; */
+ }
+
+ article {
+   padding: 5rem 0 3rem 0 ;
+ }
+
+ img {
+   padding-left: 10rem;
+ }
+
+ a {
+   padding-left: 10rem;
+ }
+
  header h1 {
     font-size: 3rem;
     text-align: center;
+ }
+
+ article h2, article p {
+   padding: 0 10rem 0 10rem;
  }
