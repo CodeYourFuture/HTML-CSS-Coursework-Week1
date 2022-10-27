@@ -29,12 +29,12 @@
 
 .navigation__link {
   color: var(--grey-dark);
-  background-color: red;
   font-weight: 600;
   text-transform:uppercase;
   text-decoration: none;
   font-weight: 600;
    padding: 0 25px;
+   
 }
 
 
@@ -87,6 +87,22 @@
 
     
   }
+
+/* formation/success */
+
+
+#arsenal {
+  color: green;
+  justify-content: center;
+  flex-direction: column;
+  display: flex;
+}
+
+:first-child {
+  color: red;
+}
+
+
  
   
 
