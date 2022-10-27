@@ -5,23 +5,35 @@
 } 
  
 body {
-    background-color: #77a38d;
+    background-color:#edf2bd;
+    color: #2d7feb;
+
 }
  
  
  
  
+
  
- header {
+header {
  display: flex; 
  align-items: center; 
  justify-content: space-between; 
- height: 5rem;
+ height: 10rem;
  margin-bottom: 1rem;
  padding-top: 1rem;
- border: 1px solid black ;
+ border: 2px solid black ;
 }
 
+img {
+    float: left;
+}
+h1 {
+    text-align: center;
+}
+h2 {
+    text-align: left;
+}
 /* nav */
 .nav-list {
     display: flex;
@@ -50,7 +62,7 @@ main {
 article {
     margin-bottom: 1rem;
     display: flex;
-    flex-direction: column;
+    flex-direction:column;
     border: 1px solid black;
     padding: 5px;
 }
