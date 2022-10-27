@@ -2,8 +2,10 @@
  * Add your custom styles below
  * 
  * Remember: 
- * - Be organised, use comments and separate your styles into meaningful chunks
- *    for example: General styles, Navigation styles, Hero styles, Footer etc.
+ * - Be organised, use comments and separate your styles into
+  meaningful chunks
+ *    for example: General styles, Navigation styles, 
+ Hero styles, Footer etc.
  * 
  */
 body {
@@ -17,33 +19,55 @@ h1 {
 }
 h3 {
     text-align: center;
-        font: 1.5rem sans-serif;
+    font: 1.5rem sans-serif;
 }
 .nav_list {
     display: flex;
     list-style: none;
     justify-content: center;
 }
-
 .nav_item {
     padding: 2rem;
     font-size: 1.4rem;
 }
-
 .nav_link {
     color: var(--grey-dark);
     font-weight: 400;
     text-decoration: none;
 }
-
 .nav_item:hover {
     color: #c05326;
 }
-
 .header {
 
 }
+/* main*/
+.main {
+    display: flex;
+    flex-direction: column;
+   
+}
+section {
+    display: flex;
+        flex-direction: column;
+         align-items: center;
+}
+h2 {
+    
+        padding-right: 30%;
+        
+}
+section p {
+    width: 50%;
+}
+hr {
+width: 60%;
 
+}
+footer {
+
+    text-align: center;
+}
 
 
 
