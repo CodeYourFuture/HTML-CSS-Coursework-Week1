@@ -9,6 +9,21 @@ body {
 }
 
 /* header */
+
+
+
+
+.nav {
+    display: flex;
+    margin-top: 30px;
+}
+.navbar {
+    padding: 30px;
+}
+.nav li {
+    margin-right: 15px;
+}
+
 .eli {
     font-weight:bolder;
     font-size: 30px;
@@ -173,13 +188,18 @@ a {
     background-color: rgb(203, 160, 167);
     border-radius: 5px;
     margin-top: 5px;
+    justify-content: center;
+    text-align: center;
+    
+    
+    
     
     
 }
 .footer {
     justify-content: center;
     text-align: center;
-    padding-bottom: 8px;
+    padding-bottom: 10px;
 }
 .si {
     width: 25%;
@@ -187,6 +207,34 @@ a {
     margin-right: 40px;
     
 }
+  
+  
+
+ 
+    
+    
+  .social-media {
+    justify-content: center;
+    align-items: center;
+    width: 330px;
+    padding: 0 30px;
+    display: flex;
+    /* margin-bottom: 100px; */
+  }
+
+ 
+
+  .social-media a {
+    background-color: rgb(174, 103, 115);
+    width: 45px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    margin-left: 15px;
+    margin-top: 20px;
+  }
 
     
 

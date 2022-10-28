@@ -16,17 +16,34 @@
     <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
   </head>
 
-  <body>
+  <body id="all">
     
 
    <div class="head">
+    <nav class="navbar">
+    <ul class="nav">
+      <li>
+      <a href="#all">Home</a>
+    </li>
+    <li>
+      <a href="#articles">Articles</a>
+    </li>
+    <li>
+      <a href="#po">Popular-posts</a>
+    </li>
+    </ul>
+    </nav>
+
+
+
+
     <div class="title">
     <h1 class="elirose">EllieRose Acupuncture Blog</h1>
     <p class="eli">Welcome to my Blog</p>
     </div>
    </div>
  <main class="flex">
-  <div class="main"> 
+  <div class="main" id="articles"> 
     <div class="part1">
       <div class="acu">
         <img class="acu-img" src="/images/pexels-antoni-shkraba-6076146.jpg">
@@ -70,7 +87,7 @@
 
       <div class="pop">
         <div>
-          <h4 class="pop-posts">popular posts</h4>
+          <h4 class="pop-posts" id="po">popular posts</h4>
         </div>
         
         <ul class="ul-li">
@@ -91,7 +108,9 @@
           </li>
         </ul>
       </div>
-     
+
+          
+         
     </aside>
     </div> 
     </main>
@@ -100,8 +119,12 @@
     
 
     <footer class="foot">
-      <button class="btn">Preview</button>
-      <button class="btn">Next</button>
+      <div class="social-media">
+          <a href="https://www.instagram.com/elahe_ellii/" target="_blank"><img src="./images/instagram.svg" /></a>
+          <a href="https://www.facebook.com/elahe.mortazavi.5" target="_blank"><img src="./images/twitter.svg" /></a>
+          <a href="https://www.linkedin.com/in/elahe-mortazavi-2627a36a?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BLHmL949MTo%2B%2Fgiw9y7d3Pw%3D%3D" target="_blank"><img src="./images/linkedin.svg" /></a>
+      </div>
+    
       <p class="footer">Made with Love by Elahe</p>
     </footer>
 
