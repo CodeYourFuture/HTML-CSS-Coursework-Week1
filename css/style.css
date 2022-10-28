@@ -103,6 +103,9 @@ nav {
   text-transform: uppercase;
   text-decoration: none;
 }
+.navigation_link:hover {
+  color: var(--grey-light);
+}
 
 .hero div {
   margin-top: 7rem;
@@ -213,5 +216,5 @@ footer div ul li a {
   margin: 2rem 0rem;
 }
 .footer {
-  margin: 2.5rem 0rem;
+  margin: 5.5rem 0rem;
 }
