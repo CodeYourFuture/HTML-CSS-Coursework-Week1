@@ -120,7 +120,7 @@ h4 {
     display: flex;
     flex-direction: row;
     height: 800px;
-    margin: 50px 0 10px 0;
+    margin: 50px 0 10px  0;
 }
 
 .aside-container {
@@ -164,7 +164,7 @@ article:first-child {
     flex-direction: column;
     flex: 0;
     order: 2;
-    background-color: rgb(196, 207, 203);
+    background-color: rgb(226, 238, 234);
     height: 700px;
     border-radius: 20px;
     padding: 25px;
