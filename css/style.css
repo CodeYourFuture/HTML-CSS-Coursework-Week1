@@ -1,8 +1,58 @@
-/**
- * Add your custom styles below
- * 
- * Remember: 
- * - Be organised, use comments and separate your styles into meaningful chunks
- *    for example: General styles, Navigation styles, Hero styles, Footer etc.
- * 
- */
+html{
+    background-color:black;
+    color:white;
+}
+
+a:hover{
+    font-size: 15px;
+    margin-left: 20px;
+}
+
+a{
+    color:white;
+}
+a:link { text-decoration: none; }
+
+
+a:visited { text-decoration: none; }
+
+
+a:hover { text-decoration: none; }
+
+
+a:active { text-decoration: none; }    
+
+h1,h2,h3,p{
+    display: flex;
+  align-items: center;
+  justify-content:center;
+
+}
+h1{
+    font-size:70px;
+    color:gold;
+}
+h2{
+    font-size:40px;
+}
+article:first-child a{
+    color:gold;
+    font-size:20px;
+}
+.images{
+    display: flex;
+  align-items: center;
+  justify-content: center;
+}
+img{
+  width: 300px;
+  height: 300px;
+  border-radius:30px;
+}
+nav li{
+   display:inline-block; 
+   padding-left: 100px;
+   padding-right:100px;
+}
+
+
