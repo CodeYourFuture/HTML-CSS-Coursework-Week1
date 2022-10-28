@@ -6,3 +6,104 @@
  *    for example: General styles, Navigation styles, Hero styles, Footer etc.
  * 
  */
+ * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    width: 100%;
+
+}
+nav{
+    width: 100%;
+    background-color: rgba(0,0,0,0,0.5);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px;
+}
+nav .logo{
+    width: 25%;
+    
+    font-size: 22px;
+    font-weight: bold;
+    padding: 40px;
+}
+nav .menu{
+    width: 40%;
+    font-weight: bold;
+    display: flex;
+}
+
+nav .menu a{
+    width: 25%;
+    color: black;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+nav .menu a:hover {
+    color: blue;
+}
+
+
+section:nth-child(1){
+    color: #fff;
+    margin: 5px;
+    padding: 6rem 2rem;
+    text-align: center;
+    font-weight: bold;
+    background-image: url(/home\ decor.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+section h1{
+    font-size: 50px;
+    margin-top: 5px;
+    text-shadow: 3px 1px black;
+}
+section h3{
+    font-size: 20px;
+    margin-top: 5px;
+    text-shadow: 3px 1px black;
+}
+
+.second-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+article {
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 2rem 1rem;
+}
+
+article:first-child {
+    background-color: yellow;
+}
+
+.article-summery {
+    font-size: 20px;
+}
+
+span {
+    cursor: pointer;
+    color: blue;
+    margin-top: 5px;
+}
+
+span:hover {
+    text-decoration: underline;
+}
+
+footer {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
