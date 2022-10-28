@@ -73,6 +73,9 @@ nav a:hover{
  .artname{
     font-size: 10px;
  }
+ article:first-child {
+    color:blueviolet;
+ }
 
  /* footer */
 footer{
