@@ -10,6 +10,7 @@
     --brown: #a52a2a;
     --white: #fff;
     --darkblue: #00001a;
+    --gray: #808080; 
 }
 
  body {
@@ -116,14 +117,22 @@
 /* Footer */
 
 .footer{
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    gap: 40px;
-    flex-wrap: wrap;
+    /* border: solid; */
+    /* align-items: center; */   
 }
 
-.footer div img{
+.footer p{
+    padding: 10px;
+    margin: 0px 500px;
+    border-bottom: 1px solid var(--gray);
+
+}
+
+.footer a{
+    text-decoration: none;
+}
+
+.footer img{
     width: 20px;
     height: 20px;
     padding: 10px;
