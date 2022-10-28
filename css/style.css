@@ -6,3 +6,71 @@
  *    for example: General styles, Navigation styles, Hero styles, Footer etc.
  * 
  */
+ html{
+    background-image: url(/img/images.jpeg);
+    background-size: cover;
+ }
+
+header{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+ul{
+    display: flex;
+    gap: 2rem;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.logo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+article :first-child{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+hr{
+    clear:both;
+    width: 90%;
+}
+div img{
+    height: 450%;
+    width: 45%;
+}
+.section{
+    display: flex;
+}
+.sport{
+    height: 100%;
+    width: 50%;
+    text-align: center;
+}
+.dishes{
+    height: 100%;
+    width: 50%;
+    text-align: center;
+}
+.links{
+    height: 30%;
+    width: 40%;
+    margin-bottom: 15rem;
+    font-size:1.7rem;
+}
+footer{
+    text-align: center;
+}
+h6{
+    font-size: 1rem;
+}
+a{
+    font-size: 1.3rem;
+
+}
+
