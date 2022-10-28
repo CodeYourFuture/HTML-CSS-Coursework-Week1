@@ -61,6 +61,12 @@ p {
 }
 
 .header {
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+.header {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -93,6 +99,9 @@ p {
   text-decoration: none;
 }
 
+.hero div {
+  margin-top: 7rem;
+}
 .hero div {
   border: 2px solid rgb(255, 255, 255);
   padding: 25px;
