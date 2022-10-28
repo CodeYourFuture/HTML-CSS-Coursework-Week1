@@ -6,3 +6,76 @@
  *    for example: General styles, Navigation styles, Hero styles, Footer etc.
  * 
  */
+
+body{
+    display: block; 
+    margin: 0;
+    background-color: rgb(23, 23, 78);
+}
+
+header{
+    background-color: aqua;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    align-items: center;
+    height: 5rem;
+    /* margin-bottom: 1rem */
+    gap: 1rem;
+    padding: 1.5rem 1rem;
+}
+
+header:first-child {
+    color: rgb(139, 222, 243);
+    text-shadow: 0 0 10px #7251d4, 0 0 8px #0000FF;
+}
+
+.header__logo {
+    max-height: 4rem;
+}
+
+.header,
+.content,
+.footer {
+  padding: 0 1.5rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+
+h2, h3, h4 {
+    color: rgb(110, 116, 116);
+    font-size: large;
+}
+
+p{
+    color: rgb(8, 8, 8);
+    text-align : justify;
+}
+
+.text{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    font-size: 0.85rem;
+    line-height: 1.3;
+    padding: 1.5rem 1rem;
+    margin-bottom: 3rem;
+    background-color: beige;
+}
+
+.text p{
+    border-radius: 2px white;
+    width: 90%;
+}
+
