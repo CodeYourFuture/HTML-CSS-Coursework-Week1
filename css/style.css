@@ -9,6 +9,7 @@
 :root{
     --brown: #a52a2a;
     --white: #fff;
+    --darkblue: #00001a;
 }
 
  body {
@@ -35,8 +36,9 @@
     font-size: 50px;
     padding: 10px;
     margin: 2px;
-    color: var(--brown);
-    background-color: var(--white);
+    color: var(--darkblue);
+    /* background-color: var(--white); */
+ 
 }
 
  /* Navigation */
@@ -55,7 +57,7 @@
     font-size: 20px;
     font-weight: bold;
     text-decoration: none;
-    color: white;
+    color: var(--darkblue);
 }
 
 .nav_link:hover{
