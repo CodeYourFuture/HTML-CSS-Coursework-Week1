@@ -173,3 +173,58 @@ hr {
   font-family: var(--second-font);
   font-weight: 500;
 }
+
+/*footer*/
+footer {
+  background-color: var(--purple2);
+}
+
+footer .follow {
+  text-align: center;
+  font-size: 25px;
+  padding-top: 50px;
+  padding-bottom: 20px;
+  font-family: var(--second-font);
+}
+
+footer .icons {
+  margin: 20px 0;
+  display: flex;
+  justify-content: center;
+}
+
+footer .icons i {
+  font-size: 20px;
+  margin: 0 10px;
+  padding: 18px 21px;
+  border-radius: 50%;
+  border: 1px solid var(--dark-purple);
+  transition: all ease-in-out 100ms;
+}
+
+footer .icons i:hover {
+  color: var(--blue);
+  border: 1px solid var(--blue);
+  box-shadow: 2px 5px 10px 0px rgba(0, 0, 0, 0.1);
+}
+
+footer .icons .twitter-icon {
+  padding: 18px 19px;
+  color: #68ace8;
+}
+
+footer .icons .facebook-icon {
+  padding: 18px 24px;
+  color: #50679f;
+}
+
+footerx .icons .instagram-icon {
+  color: #4a7297;
+}
+
+footer .text_love {
+  text-align: center;
+  padding-top: 25px;
+  padding-bottom: 60px;
+  font-size: 20px;
+}
