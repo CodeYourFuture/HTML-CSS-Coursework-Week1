@@ -6,3 +6,63 @@
  *    for example: General styles, Navigation styles, Hero styles, Footer etc.
  * 
  */
+ html,
+body {
+  margin: 0;
+  font-family: "SFNSText", "Helvetica Neue"
+
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 0;
+  margin-bottom: 0;
+  border-radius: 30px;
+
+
+}
+.header{
+  padding: 20px;
+}
+h4:first-child {
+  color: lime;
+  background-color: black;
+  padding: 5px;
+}
+
+
+#weblinks{
+  color: white;
+}
+.image{
+  margin: auto;
+ margin: 1em;
+ border-radius: 30px solid red;
+ }
+ body {
+  margin: 0;
+  padding-bottom: 3rem;
+  background-size: cover;
+  background-image: url("https://phonoteka.org/uploads/posts/2021-06/1625006430_7-phonoteka_org-p-oboi-gradient-vertikalnie-krasivo-7.jpg");
+  font-family: courier;
+  text-align: left;
+  font-family: "SFNSText", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+
+
+ @media only screen and (min-width: 600px) {
+  .nav-link {
+    font-size: 0.8rem;
+  }
+ 
+  #howItWorks {
+    width: 100%;
+    margin: 0 auto;
+  }
+}
+
+
