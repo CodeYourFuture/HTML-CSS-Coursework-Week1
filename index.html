@@ -2,10 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, shrink-to-fit=no"
-    />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
     <title>My Blog</title>
     <link
       href="//fonts.googleapis.com/css?family=Roboto:400,500,300"
@@ -16,6 +13,163 @@
     <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
   </head>
   <body>
+    <header class="header">
+      <a href="#">
+        <img
+          src="image/florian-klauer-nptLmg6jqDo-unsplash.jpg"
+          alt="ballooon in chair"
+          class="header_logo"
+        />
+      </a>
+
+      <!-- logo end -->
+
+      <nav>
+        <ul class="navigation_list">
+          <li class="navigation_item">
+            <a class="navigation_link" href="#">about regex</a>
+          </li>
+          <li class="navigation_item">
+            <a class="navigation_link" href="#">use case</a>
+          </li>
+          <li class="navigation_item">
+            <a class="navigation_link" href="#">try</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <div class="main hero equal_margin">
+      <div>
+        <h2>Str.Match()</h2>
+        <p>welcom to the world of regex</p>
+      </div>
+    </div>
+
+    <main class="main flex_row_jcsb equal_margin">
+      <section class="article_info2">
+        <h2>Regex ?</h2>
+        <h3>what is regex and why is it intresting?</h3>
+        <p>
+          A regular expression (shortened as regex or regexp) sometimes referred to as rational
+          expression is a sequence of characters that specifies a search pattern in text. Usually
+          such patterns are used by string-searching algorithms for "find" or "find and replace"
+          operations on strings, or for input validation. Regular expression techniques are
+          developed in theoretical computer science and formal language theory.
+        </p>
+        <br />
+        <p>
+          RegEx allows us to check for patterns in text strings such as trying to match a valid
+          email address or password. One of the great superpowers of RegEx is being able to define
+          your own search criteria for a pattern to fit your needs, and it is like a language of its
+          own.<br /><br />
+          Every form out there in the world, at some level, is using a RegEx pattern. They all do
+          similar things, but they can all be very different. There is a lot of control when
+          deciding on a pattern you want to search for.
+        </p>
+      </section>
+      <article class="a_sidebar">
+        <div class="article_info">
+          <h3>when was regex invented</h3>
+          <p>
+            The concept of regular expressions began in the 1950s, when the American mathematician
+            Stephen Cole Kleene formalized the concept of a regular language.
+          </p>
+        </div>
+        <div class="article_info">
+          <h3>who uses regex</h3>
+          <p>
+            Regular expressions are used in search engines, in search and replace dialogs of word
+            processors and text editors, in text processing utilities such as sed and AWK, and in
+            lexical analysis.
+          </p>
+        </div>
+        <div class="article_info">
+          <h3>where can you learn?</h3>
+          <p><a href="https://regexr.com/" target="_blank"> regexr.com </a></p>
+        </div>
+      </article>
+    </main>
+
+    <section class="main equal_margin">
+      <div class="card">
+        <div class="content2 flex_row_jcsb">
+          <h2>see what regex can do</h2>
+          <span>
+            <button>
+              <a href="https://www.youtube.com/" target="_blank">Search youTube</a>
+            </button>
+
+            <button class="donateButton testB" id="demo5">load string</button
+            ><button class="donateButton testB" id="demo2">convert</button
+            ><button class="donateButton testB" id="demo3">refresh</button>
+          </span>
+        </div>
+        <p>
+          you can search for and past in youtube transcripts or click load string for sample text
+        </p>
+        <!-- function html START -->
+
+        <div>
+          <label for="var1"></label>
+          <textarea
+            id="var1"
+            name="subject"
+            placeholder="click load string... or past your own transcript"
+            style="height: 200px"
+          ></textarea>
+        </div>
+        <!-- function html END -->
+      </div>
+
+      <div class="card equal_margin">
+        <div class="content2 flex_row_jcsb">
+          <h2>Your converted text is below</h2>
+          <span>
+            <button class="donateButton testB" id="demo4">clear paragrath</button
+            ><button class="donateButton testB" id="demo1">clear text</button>
+          </span>
+        </div>
+
+        <p>you can copy text from the box</p>
+
+        <p id="fibStart"></p>
+        <div>
+          <label for="var2"></label>
+          <textarea
+            id="var2"
+            name="converted"
+            placeholder="leave empty"
+            style="height: 200px"
+          ></textarea>
+        </div>
+      </div>
+    </section>
+
+    <footer class="content body_block footer">
+      <div>
+        <p>str.match() is a fun project to help people learn a bit about regex</p>
+      </div>
+
+      <div>
+        <ul class="navigation_list">
+          <li class="navigation_footer">
+            <a href="#"> <i class="fab fa-facebook-f icon"></i> </a>
+          </li>
+          <li>
+            <a href="#"> <i class="fab fa-facebook-f icon"></i> </a>
+          </li>
+          <li>
+            <a href="#"> <i class="fab fa-facebook-f icon"></i> </a>
+          </li>
+        </ul>
+      </div>
+
+      <div>
+        <p><span>&#169;</span> Olus 2022</p>
+      </div>
+    </footer>
+    <script type="module" src="js/index.js"></script>
     <!-- Add your HTML markup here -->
     <!-- Remember: Use semantic HTML tags like <header>, <main>, <nav>, <footer>, <section> etc -->
   </body>
