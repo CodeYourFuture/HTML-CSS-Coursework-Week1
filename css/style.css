@@ -150,6 +150,16 @@ p {
   border-radius: 25px;
 }
 
+/* form related info*/
+button,
+input,
+select,
+textarea {
+  font-family: inherit;
+  font-size: 100%;
+}
+/* form related info*/
+
 textarea {
   width: 100%;
   background-color: var(--green-brite-light);

@@ -49,12 +49,35 @@
     <main class="main flex_row_jcsb equal_margin">
       <section class="article_info2">
         <h2>info about rebex</h2>
-        <p>welcom to the world of regex</p>
+        <p>
+          welcom to the world of regex<br />
+          A regular expression (shortened as regex or regexp; sometimes referred to as rational
+          expression is a sequence of characters that specifies a search pattern in text. Usually
+          such patterns are used by string-searching algorithms for "find" or "find and replace"
+          operations on strings, or for input validation. Regular expression techniques are
+          developed in theoretical computer science and formal language theory.
+        </p>
       </section>
       <article class="a_sidebar">
-        <div class="article_info">when was regex invented</div>
-        <div class="article_info">who uses regex</div>
-        <div class="article_info">where can you learn</div>
+        <div class="article_info">
+          <h3>when was regex invented</h3>
+          <p>
+            The concept of regular expressions began in the 1950s, when the American mathematician
+            Stephen Cole Kleene formalized the concept of a regular language.
+          </p>
+        </div>
+        <div class="article_info">
+          <h3>who uses regex</h3>
+          <p>
+            Regular expressions are used in search engines, in search and replace dialogs of word
+            processors and text editors, in text processing utilities such as sed and AWK, and in
+            lexical analysis.
+          </p>
+        </div>
+        <div class="article_info">
+          <h3>where can you learn?</h3>
+          <p><a href="https://regexr.com/" target="_blank"> regexr.com </a></p>
+        </div>
       </article>
     </main>
 
@@ -109,6 +132,94 @@
         </div>
       </div>
     </section>
+
+    <div>
+      <fieldset class="card">
+        <legend>Coffee size</legend>
+
+        <input id="small" type="radio" name="size" value="small" />
+        <label for="small">Small</label>
+
+        <input id="medium" type="radio" name="size" value="medium" />
+        <label for="medium">Medium</label>
+
+        <input id="large" type="radio" name="size" value="large" />
+        <label for="large">Large</label>
+      </fieldset>
+
+      <fieldset class="card">
+        <legend>Fruit I like</legend>
+
+        <input id="apples" type="checkbox" name="favourite-fruit" value="apples" />
+        <label for="apples">Apples</label>
+
+        <input id="bananas" type="checkbox" name="favourite-fruit" value="bananas" />
+        <label for="bananas">Bananas</label>
+
+        <input id="oranges" type="checkbox" name="favourite-fruit" value="oranges" />
+        <label for="oranges">Oranges</label>
+      </fieldset>
+
+      <label for="cuisine">Favourite cuisine</label>
+      <select id="cuisine" name="cuisine">
+        <option value="scottish" selected>Scottish</option>
+        <option value="italian">Italian</option>
+        <option value="french">French</option>
+        <option value="polish">Polish</option>
+        <option value="romanian">Romanian</option>
+        <option value="greek">Greek</option>
+        <option value="mexican">Mexican</option>
+        <option value="turkish">Turkish</option>
+        <option value="lebanese">Lebanese</option>
+        <option value="syrian">Syrian</option>
+        <option value="moroccan">Moroccan</option>
+        <option value="ethiopian">Ethiopian</option>
+        <option value="nigerian">Nigerian</option>
+        <option value="indian">Indian</option>
+        <option value="chinese">Chinese</option>
+        <option value="thai">Thai</option>
+        <option value="korean">Korean</option>
+        <option value="japanese">Japanese</option>
+      </select>
+    </div>
+    <div class="card content">
+      <form class="card content">
+        <label for="username">Username that must be between 3 and 8 characters</label>
+        <input id="username" type="text" minlength="3" maxlength="8" required />
+
+        <label for="email">Email that is required</label>
+        <input id="email" type="email" required />
+
+        <label for="password">Password that can autocomplete with a suggested new password</label>
+        <input id="password" type="password" autocomplete="new-password" required />
+
+        <label for="age">Age that must be between 18 and 118</label>
+        <input id="age" type="number" min="18" max="118" required />
+
+        <label for="disabled">Disabled input</label>
+        <input id="disabled" type="text" value="You cannot click me" disabled />
+
+        <label for="read-only">Read-only input</label>
+        <input id="read-only" type="text" value="You can only read my value" readonly />
+
+        <button>Submit</button>
+      </form>
+    </div>
+    <div>
+      <form action="https://duckduckgo.com" method="get">
+        <label for="search">Search</label>
+        <input id="search" type="text" name="q" />
+        <button>Search DuckDuckGo</button>
+      </form>
+    </div>
+
+    <div>
+      <form action="https://github.com/search" method="get" target="_blank">
+        <label for="search">Search</label>
+        <input id="search" type="text" name="q" />
+        <button>Search github</button>
+      </form>
+    </div>
 
     <footer class="content body_block footer">
       <div>
