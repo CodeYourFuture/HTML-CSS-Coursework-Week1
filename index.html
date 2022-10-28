@@ -48,14 +48,24 @@
 
     <main class="main flex_row_jcsb equal_margin">
       <section class="article_info2">
-        <h2>info about rebex</h2>
+        <h2>Regex ?</h2>
+        <h3>what is regex and why is it intresting?</h3>
         <p>
-          welcom to the world of regex<br />
-          A regular expression (shortened as regex or regexp; sometimes referred to as rational
+          A regular expression (shortened as regex or regexp) sometimes referred to as rational
           expression is a sequence of characters that specifies a search pattern in text. Usually
           such patterns are used by string-searching algorithms for "find" or "find and replace"
           operations on strings, or for input validation. Regular expression techniques are
           developed in theoretical computer science and formal language theory.
+        </p>
+        <br />
+        <p>
+          RegEx allows us to check for patterns in text strings such as trying to match a valid
+          email address or password. One of the great superpowers of RegEx is being able to define
+          your own search criteria for a pattern to fit your needs, and it is like a language of its
+          own.<br /><br />
+          Every form out there in the world, at some level, is using a RegEx pattern. They all do
+          similar things, but they can all be very different. There is a lot of control when
+          deciding on a pattern you want to search for.
         </p>
       </section>
       <article class="a_sidebar">
@@ -86,14 +96,17 @@
         <div class="content2 flex_row_jcsb">
           <h2>see what regex can do</h2>
           <span>
+            <button>
+              <a href="https://www.youtube.com/" target="_blank">Search youTube</a>
+            </button>
+
             <button class="donateButton testB" id="demo5">load string</button
             ><button class="donateButton testB" id="demo2">convert</button
             ><button class="donateButton testB" id="demo3">refresh</button>
           </span>
         </div>
-
         <p>
-          you can past youtube transcript text into the box or click load string for a sample text
+          you can search for and past in youtube transcripts or click load string for sample text
         </p>
         <!-- function html START -->
 
@@ -135,52 +148,30 @@
 
     <div>
       <fieldset class="card">
-        <legend>Coffee size</legend>
+        <legend>When was Regex invented</legend>
 
-        <input id="small" type="radio" name="size" value="small" />
-        <label for="small">Small</label>
+        <input id="1820" type="radio" name="year" value="1820" />
+        <label for="1820">1820</label>
 
-        <input id="medium" type="radio" name="size" value="medium" />
-        <label for="medium">Medium</label>
+        <input id="1920" type="radio" name="year" value="1920" />
+        <label for="1920">1920</label>
 
-        <input id="large" type="radio" name="size" value="large" />
-        <label for="large">Large</label>
+        <input id="1950" type="radio" name="year" value="1950" />
+        <label for="1950">1950</label>
       </fieldset>
 
       <fieldset class="card">
-        <legend>Fruit I like</legend>
+        <legend>What can you do with Regex</legend>
 
-        <input id="apples" type="checkbox" name="favourite-fruit" value="apples" />
-        <label for="apples">Apples</label>
+        <input id="find" type="checkbox" name="favourite-fruit" value="find" />
+        <label for="find">find</label>
 
-        <input id="bananas" type="checkbox" name="favourite-fruit" value="bananas" />
-        <label for="bananas">Bananas</label>
+        <input id="match" type="checkbox" name="favourite-fruit" value="match" />
+        <label for="match">match</label>
 
-        <input id="oranges" type="checkbox" name="favourite-fruit" value="oranges" />
-        <label for="oranges">Oranges</label>
+        <input id="replace" type="checkbox" name="favourite-fruit" value="replace" />
+        <label for="replace">replace</label>
       </fieldset>
-
-      <label for="cuisine">Favourite cuisine</label>
-      <select id="cuisine" name="cuisine">
-        <option value="scottish" selected>Scottish</option>
-        <option value="italian">Italian</option>
-        <option value="french">French</option>
-        <option value="polish">Polish</option>
-        <option value="romanian">Romanian</option>
-        <option value="greek">Greek</option>
-        <option value="mexican">Mexican</option>
-        <option value="turkish">Turkish</option>
-        <option value="lebanese">Lebanese</option>
-        <option value="syrian">Syrian</option>
-        <option value="moroccan">Moroccan</option>
-        <option value="ethiopian">Ethiopian</option>
-        <option value="nigerian">Nigerian</option>
-        <option value="indian">Indian</option>
-        <option value="chinese">Chinese</option>
-        <option value="thai">Thai</option>
-        <option value="korean">Korean</option>
-        <option value="japanese">Japanese</option>
-      </select>
     </div>
     <div class="card content">
       <form class="card content">
@@ -195,12 +186,6 @@
 
         <label for="age">Age that must be between 18 and 118</label>
         <input id="age" type="number" min="18" max="118" required />
-
-        <label for="disabled">Disabled input</label>
-        <input id="disabled" type="text" value="You cannot click me" disabled />
-
-        <label for="read-only">Read-only input</label>
-        <input id="read-only" type="text" value="You can only read my value" readonly />
 
         <button>Submit</button>
       </form>

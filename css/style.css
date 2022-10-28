@@ -51,7 +51,6 @@ p {
   margin-bottom: 0;
 }
 
-.header,
 .main,
 .content,
 .footer {
@@ -70,10 +69,10 @@ p {
   display: flex;
   align-items: center;
   justify-content: space-between;
-
   margin-bottom: 1rem;
   padding-top: 1rem;
   background-color: var(--green-medium-dark);
+  border-bottom: 0.3em solid var(--orange-dark);
 }
 
 .header_logo {
@@ -81,6 +80,12 @@ p {
   width: auto;
   border-radius: 50%;
   border: 0.2em solid var(--green-medium-light);
+  padding: 0.15em;
+  margin-left: 2em;
+}
+
+nav {
+  margin-right: 2em;
 }
 
 .navigation_list {
@@ -123,6 +128,7 @@ p {
   display: flex;
   flex-direction: column;
   width: 35%;
+  gap: 1em;
 }
 
 .article_info {
@@ -175,6 +181,9 @@ textarea {
   border-radius: 0.5em;
 }
 
+.paraPadding {
+  padding: 1em 0;
+}
 ul {
   display: flex;
   position: relative;
