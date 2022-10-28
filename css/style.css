@@ -1,8 +1,122 @@
-/**
- * Add your custom styles below
- * 
- * Remember: 
- * - Be organised, use comments and separate your styles into meaningful chunks
- *    for example: General styles, Navigation styles, Hero styles, Footer etc.
- * 
- */
+
+ * {
+    box-sizing: border-box;
+  }
+  
+  /* Add a gray background color with some padding */
+  body {
+    font-family: Arial;
+    padding: 20px;
+    background: #eaebee;
+  }
+  
+  /* Header/Blog Title */
+  .header {
+    padding: 30px;
+    font-size: 60px;
+    text-align: center;
+    background: white;
+    color: rgb(112, 80, 80);
+    text-shadow: 2px 2px 8px #272424
+  }
+  .topnav {
+    overflow: hidden;
+    background-color: rgb(92, 81, 81);
+    
+  }
+  
+  .topnav a {
+    display: flex;
+    justify-content: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 27px;
+  }
+  
+  .topnav a:hover {
+    background-color: #ddd;
+  }
+  
+  .topnav a.active1{
+    background-color: #28cc90;
+    color: white;
+    
+  }
+
+  .active2{
+    background-color: #ffffff;
+    color: rgb(179, 32, 32);
+  }
+  .active3{
+    background-color: #cf3345;
+    color: white;
+  }
+  /* Create two unequal columns that floats next to each other */
+  /* Left column */
+  .leftcolumn {   
+    float: left;
+    width: 75%;
+  }
+  
+  /* Right column */
+  .rightcolumn {
+    float: left;
+    width: 25%;
+    padding-left: 20px;
+  }
+  
+  /* Fake image */
+  .fakeimg {
+    background-color: rgb(150, 192, 184);
+    width: 100%;
+    padding: 20px;
+    border-radius:5px ;
+  }
+  .fakeimg:hover{
+    background-color: #ddf7ee;
+  }
+  
+  /* Add a card effect for articles */
+  .card {
+     background-color: white;
+     padding: 20px;
+     margin-top: 20px;
+  }
+  
+  h2:first-child {
+    background-color: rgb(119, 209, 203);
+  }
+
+
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Footer */
+  .footer {
+    padding: 20px;
+    text-align: center;
+    background: #ddd;
+    margin-top: 20px;
+  }
+  .card1{
+    display: flex;
+   justify-content: space-around;
+   font-size:40px;
+   border:2px solid green ;
+   
+ }
+   
+  }
+  
+  /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 800px) {
+    .leftcolumn, .rightcolumn {   
+      width: 100%;
+      padding: 0;
+    }
+  }
