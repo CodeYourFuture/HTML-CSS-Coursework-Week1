@@ -134,6 +134,10 @@ nav {
   gap: 1em;
 }
 
+article div:first-child {
+  border: 5px solid var(--orange-dark);
+}
+
 .article_info {
   padding: 0.75rem;
   border-radius: 0.5rem;
