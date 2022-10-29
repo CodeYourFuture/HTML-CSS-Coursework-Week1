@@ -1,8 +1,228 @@
-/**
- * Add your custom styles below
- * 
- * Remember: 
- * - Be organised, use comments and separate your styles into meaningful chunks
- *    for example: General styles, Navigation styles, Hero styles, Footer etc.
- * 
- */
+:root {
+  --blue: #d9f2ff;
+  --purple2: #a5bdfd;
+  --purple3: #77519f;
+  --dark-purple: #442169;
+  --first-font: "Baskervville", serif;
+  --second-font: "Cinzel", serif;
+  --logo-font: "Homemade Apple", cursive;
+}
+
+body {
+  font-family: var(--first-font);
+}
+
+/* Navigation bar*/
+header .nav-bar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  background-color: var(--purple2);
+  font-family: var(--second-font);
+}
+
+header .nav-bar ul {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  margin: 0 50px;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+header .nav-bar .logo {
+  text-decoration: none;
+  margin: 0 100px;
+  font-size: 30px;
+  font-family: var(--logo-font);
+  color: var(--dark-purple);
+  display: flex;
+  align-self: center;
+}
+
+header .nav-bar ul li a {
+  text-decoration: none;
+  padding: 0 15px;
+  color: var(--dark-purple);
+}
+
+header .nav-bar ul li a:hover {
+  color: var(--blue);
+}
+
+h1 {
+  font-size: 100px;
+  color: var(--dark-purple);
+}
+
+article:first-child {
+  color: var(--dark-purple);
+}
+
+.title-and-desc {
+  margin: 10px 200px;
+}
+
+.title-and-desc img {
+  display: block;
+  margin: 0 auto;
+  width: 200px;
+  height: auto;
+}
+
+.title-and-desc h1 {
+  text-align: center;
+  line-height: 80px;
+  margin: 20px 0;
+}
+
+.title-and-desc h3 {
+  text-align: center;
+  color: var(--purple3);
+  font-weight: 600;
+}
+
+.title-and-desc .small-text {
+  font-family: var(--second-font);
+  text-align: center;
+  font-weight: 400;
+  margin: 35px 0;
+}
+
+.title-and-desc .small-text p {
+  margin: 5px 0;
+}
+
+main {
+  margin: 50px 200px;
+  font-size: 22px;
+  display: flex;
+  flex-direction: row;
+}
+
+.section {
+  padding: 10px 25px 25px 25px;
+  margin: 0 25px;
+  text-align: justify;
+  background-color: var(--blue);
+  border-radius: 10px;
+}
+
+hr {
+  color: var(--purple3);
+  font-weight: 700;
+}
+
+.article-book {
+  padding-top: 25px;
+  padding-bottom: 40px;
+}
+
+.article-book .title {
+  color: var(--purple3);
+}
+
+.article-book img {
+  width: 40%;
+  height: auto;
+  border: 3px solid var(--dark-purple);
+  border-radius: 10px;
+  display: block;
+  margin: 0 auto;
+}
+
+.article-book .link {
+  text-decoration: none;
+  background-color: var(--purple2);
+  color: var(--dark-purple);
+  padding: 12px 20px;
+  border-radius: 4px;
+  border: 2px solid var(--dark-purple);
+  font-weight: 600;
+  transition: all ease-in-out 150ms;
+  margin: 100px 0;
+}
+
+.article-book .link:hover {
+  color: var(--blue);
+  background-color: var(--purple2);
+}
+
+.sidebar {
+  max-width: 350px;
+  max-height: 1000px;
+  padding: 10px 25px 25px 25px;
+  background-color: var(--purple2);
+  text-align: justify;
+  background-color: var(--blue);
+  border-radius: 10px;
+  text-align: center;
+  font-family: var(--second-font);
+}
+
+.sidebar img {
+  width: 300px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  margin-top: 25px;
+  border: 3px solid var(--dark-purple);
+  border-radius: 10px;
+}
+
+.sidebar h3 {
+  font-size: 25px;
+  font-family: var(--second-font);
+  font-weight: 500;
+}
+
+/*footer*/
+footer {
+  background-color: var(--purple2);
+}
+
+footer .follow {
+  text-align: center;
+  font-size: 25px;
+  padding-top: 50px;
+  padding-bottom: 20px;
+  font-family: var(--second-font);
+}
+
+footer .icons {
+  margin: 20px 0;
+  display: flex;
+  justify-content: center;
+}
+
+footer .icons i {
+  font-size: 20px;
+  margin: 0 10px;
+  padding: 18px 21px;
+  border-radius: 50%;
+  border: 1px solid var(--dark-purple);
+  transition: all ease-in-out 100ms;
+  color: var(--dark-purple);
+}
+
+footer .icons i:hover {
+  color: var(--blue);
+  border: 1px solid var(--blue);
+  box-shadow: 2px 5px 10px 0px rgba(0, 0, 0, 0.1);
+}
+
+footer .icons .twitter-icon {
+  padding: 18px 19px;
+}
+
+footer .icons .facebook-icon {
+  padding: 18px 24px;
+}
+
+footer .text_love {
+  text-align: center;
+  padding-top: 25px;
+  padding-bottom: 30px;
+  font-size: 20px;
+}
