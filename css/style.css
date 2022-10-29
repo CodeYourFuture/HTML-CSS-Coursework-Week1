@@ -92,14 +92,65 @@ p{
 }
 
 .data {
-    background-color: #252853;
+    background-color: #616aeb;
     display: flex;
+    flex-direction: column;
     align-items: center;
     text-align: center;
     height: 5rem;
     /* margin-bottom: 1rem */
     gap: 1rem;
-    padding: 1.5rem 1rem;
+    padding: 3rem 1rem;
     width: 80%;
-    /* margin: auto; *
+    /* margin: auto; */
+}
+
+.social{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+    width: 80%;
+    text-align: center;
+
+
+}
+
+footer p{
+    color: white;
+
+}
+
+footer .social  a {
+    font-size: 35px;
+    color: cyan;
+    transition: all .5s ease;
+    padding-bottom: 2rem;
+}
+
+footer .social .facebook:hover{
+    transform: scale(2.1,2.1);
+    color: rgb(7, 7, 108);
+}
+
+footer .social .twitter:hover{
+    transform: scale(2.1,2.1);
+    color: rgb(251, 251, 251);
+}
+
+footer .social .youtube:hover{
+    transform: scale(2.1,2.1);
+    color: rgb(191, 3, 3);
+}
+
+footer .social .instagram:hover{
+    transform: scale(2.1,2.1);
+    color: rgba(213, 35, 240, 0.5);
+}
+
+footer .social .github:hover{
+    transform: scale(2.1,2.1);
+    color: rgb(4, 4, 10);
 }
