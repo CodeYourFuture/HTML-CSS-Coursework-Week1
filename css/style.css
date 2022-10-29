@@ -56,6 +56,10 @@ h1 {
   color: var(--dark-purple);
 }
 
+article:first-child {
+  color: var(--dark-purple);
+}
+
 .title-and-desc {
   margin: 10px 200px;
 }
