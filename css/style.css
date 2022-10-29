@@ -6,3 +6,13 @@
  *    for example: General styles, Navigation styles, Hero styles, Footer etc.
  * 
  */
+body {
+  color: rgb(11, 11, 79);
+  text-align: center;
+  margin-top: 40px;
+  background-color: rgb(223, 234, 185);
+}
+
+.anatomy_list {
+  text-align: left;
+}
