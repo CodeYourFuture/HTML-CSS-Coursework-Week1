@@ -6,3 +6,107 @@
  *    for example: General styles, Navigation styles, Hero styles, Footer etc.
  * 
  */
+ html{
+    background-image: linear-gradient(rgba(122, 84, 119, 0.4), rgba(74, 66, 80, 0.5)), url(/img/background3.jpeg);
+    background-size:cover;
+    background-attachment: fixed;
+ }
+
+ body{
+    margin: 0%;
+    display: block;
+ }
+
+ header{
+    background-image:url(/img/background3.jpeg);
+    position: fixed;
+    height: 5rem;
+    width:100%;
+    top: 0%;
+    font-size: 1.3rem;
+    display: flex;
+    justify-content: space-between;
+ }
+
+ h1{
+    padding-top: none;
+    font-size: 3rem;
+    margin-left: 2rem;
+
+
+ }
+
+header a{
+    color:rgb(18, 23, 23);
+    text-decoration: none;
+    font-size: 2.3rem;
+    padding-top: 2rem;
+    margin-right: 11rem;
+}
+
+ .one{
+    background-color: none;
+    width: 95%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 10px;
+    height: 46rem;
+    margin: auto;
+    margin-top:140px;
+    text-align:center;
+}
+
+.photos img{
+    height: 20rem;
+    width: 25rem;
+}
+
+.one h2{
+    font-size: 6rem;
+    color: white;
+}
+
+
+.article{
+    background-color: #EEE;
+    display:block;
+    height: auto;
+    text-align: center;
+    font-size: 1.5rem;
+    color: rgb(29, 68, 68);
+    line-height:1.3;
+    padding:2.5rem 2.5rem ;
+    gap:3rem;
+    margin-bottom: 3rem;
+}
+
+
+
+h2{
+color:rgb(44, 175, 175);
+font-weight: 900;
+}
+
+
+.social{
+    display: block;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+footer{
+    background-image: url(/img/background3.jpeg);
+    color:rgb(29, 68, 68);;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 6rem;
+    bottom: 0%;
+    font-size: 1.4rem;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
