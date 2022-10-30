@@ -137,7 +137,9 @@ footer .social .facebook:hover{
 
 footer .social .twitter:hover{
     transform: scale(2.1,2.1);
-    color: rgb(251, 251, 251);
+    color: #ffffff;
+    text-shadow: 0 0 10px #0a848f, 0 0 8px #08fef6; 
+    /* color: RGB 255, 255, 255; */
 }
 
 footer .social .youtube:hover{
