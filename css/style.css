@@ -6,3 +6,166 @@
  *    for example: General styles, Navigation styles, Hero styles, Footer etc.
  * 
  */
+
+body{
+    display: block; 
+    margin: 0;
+    background-color: rgb(2, 30, 67);
+}
+
+header{
+    background-color: aqua;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    align-items: center;
+    height: 5rem;
+    /* margin-bottom: 1rem */
+    gap: 1rem;
+    padding: 1.5rem 1rem;
+    width: 80%;
+    margin: auto;
+
+}
+
+header:first-child {
+    color: rgb(139, 222, 243);
+    text-shadow: 0 0 10px #7251d4, 0 0 8px #0000FF;
+}
+
+.header__logo {
+    max-height: 4rem;
+}
+
+/* .header,
+.content, */
+.footer {
+  padding: 0 1.5rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  gap: 1rem;
+}
+
+section {
+    margin: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+
+h2, h3, h4 {
+    color: rgb(110, 116, 116);
+    font-size: large;
+}
+
+p{
+    color: rgb(8, 8, 8);
+    text-align : justify;
+}
+
+.text{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    font-size: 1rem;
+    line-height: 1.3;
+    padding: 1.5rem 1rem;
+    margin-bottom: 3rem;
+    background-color: beige;
+}
+
+
+.text p{
+    width: 90%;
+}
+
+.text :first-child{
+    color: cyan;
+    text-shadow: 0 0 10px #59f416, 0 0 8px #05056b;
+    font-size: 1.5rem;
+
+}
+
+.data {
+    background-color: #616aeb;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    height: 5rem;
+    /* margin-bottom: 1rem */
+    gap: 1rem;
+    padding: 3rem 1rem;
+    width: 80%;
+    /* margin: auto; */
+}
+
+.social{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+    width: 80%;
+    text-align: center;
+
+
+}
+
+footer p{
+    color: white;
+
+}
+
+footer .social  a {
+    font-size: 35px;
+    color: cyan;
+    transition: all .5s ease;
+    padding-bottom: 2rem;
+}
+
+footer .social .facebook:hover{
+    transform: scale(2.1,2.1);
+    color: rgb(7, 7, 108);
+}
+
+footer .social .twitter:hover{
+    transform: scale(2.1,2.1);
+    color: #ffffff;
+    text-shadow: 0 0 10px #0a848f, 0 0 8px #08fef6; 
+    /* color: RGB 255, 255, 255; */
+}
+
+footer .social .youtube:hover{
+    transform: scale(2.1,2.1);
+    color: rgb(191, 3, 3);
+}
+
+footer .social .github:hover{
+    transform: scale(2.1,2.1);
+    color: rgb(4, 4, 10);
+}
+
+/* 1st option but one color */
+
+/* footer .social .instagram:hover{
+    transform: scale(2.1,2.1);
+    color: rgba(155, 20, 176, 0.662);
+} */
+
+/* 2nd option with degradient color  the best one*/
+
+footer .social .instagram:hover{
+    color: transparent;
+    transform: scale(2.1,2.1);
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    background: -webkit-radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    background-clip: text;
+    -webkit-background-clip: text;
+}
