@@ -145,12 +145,25 @@ footer .social .youtube:hover{
     color: rgb(191, 3, 3);
 }
 
-footer .social .instagram:hover{
-    transform: scale(2.1,2.1);
-    color: rgba(213, 35, 240, 0.5);
-}
-
 footer .social .github:hover{
     transform: scale(2.1,2.1);
     color: rgb(4, 4, 10);
+}
+
+/* 1st option but one color */
+
+/* footer .social .instagram:hover{
+    transform: scale(2.1,2.1);
+    color: rgba(155, 20, 176, 0.662);
+} */
+
+/* 2nd option with degradient color  the best one*/
+
+footer .social .instagram:hover{
+    color: transparent;
+    transform: scale(2.1,2.1);
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    background: -webkit-radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    background-clip: text;
+    -webkit-background-clip: text;
 }
