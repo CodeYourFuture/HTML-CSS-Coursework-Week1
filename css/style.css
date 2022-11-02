@@ -75,3 +75,8 @@ img {
   background-color: blue;
   color: white;
 }
+.footer > p {
+  font-size: 18px;
+  text-align: center;
+  margin: auto;
+}
