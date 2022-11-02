@@ -6,3 +6,71 @@
  *    for example: General styles, Navigation styles, Hero styles, Footer etc.
  * 
  */
+body {
+  background: linear-gradient(#e66465, #9198e5);
+  font-family: "Times New Roman", Times, serif;
+}
+header {
+  font-size: 36px;
+  font-weight: bold;
+  text-align: center;
+  margin: 30px 30px;
+}
+.pageDiv {
+  display: block;
+  line-height: 32px;
+  width: 50%;
+  margin: 20px auto;
+  padding: 30px;
+}
+h1,
+h2,
+h3,
+h4 {
+  font-weight: bold;
+  text-align: center;
+  padding: 18px 0px;
+}
+h1 {
+  font-size: 34px;
+}
+h2 {
+  font-size: 30px;
+}
+h3 {
+  font-size: 26px;
+}
+h4 {
+  font-size: 24px;
+}
+p {
+  font-size: 20px;
+  line-height: 24px;
+}
+ul {
+  font-size: 20px;
+}
+img {
+  display: block;
+  margin: 0 auto;
+  border-radius: 8px;
+  max-width: 700px;
+  width: 100%;
+}
+.buttonContuctUs {
+  display: block;
+  background: #e1676c;
+  color: white;
+  margin: 30px auto;
+  font-size: 28px;
+  padding: 14px 40px;
+  border: none;
+  border-radius: 25px;
+  box-shadow: 0 1px 20px rgb(0 0 0 / 50%);
+  transition: opacity 200ms ease;
+  cursor: pointer;
+}
+.buttonContuctUs:hover {
+  background-color: blue;
+  color: white;
+}
