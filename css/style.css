@@ -122,7 +122,7 @@ header {
  }
  /* article */
  article {
-    max-width: 25vmax;
+    width: 25vmax;
     margin-bottom: 1rem;
     border: 1px solid var(--green-dark);
     border-radius: 5px;
@@ -201,4 +201,11 @@ footer {
 
 .footer-text::selection {
     background: var(--green-dark);
+}
+
+@media (max-width: 820px){
+    article {
+    width: 40vmax;
+    
+}
 }
