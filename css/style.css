@@ -6,3 +6,218 @@
  *    for example: General styles, Navigation styles, Hero styles, Footer etc.
  * 
  */
+
+ :root {
+    --grey-dark: #292b2c;
+    --grey-light: #e4e4e4;
+    --orange-dark: #c05326;
+    --orange-light: #f7eae4;
+    --white: #fff;
+  }
+ 
+ body {
+   margin: 0;
+ }
+ 
+ body,
+ button {
+   font-family: "Source Sans Pro", "Helvetica Neue", Arial, sans-serif;
+   color: var(--grey-dark);
+   font-size: 1rem;
+ }
+ 
+ h1,h2,h3,h4,h5,h6 {
+   margin-top: 0;
+   margin-bottom: 0;
+ }
+ 
+ p {
+   margin-top: 0;
+   margin-bottom: 0;
+ }
+ 
+ .header,
+ .content {
+   padding: 0 1.5rem;
+   max-width: 1200px;
+   margin: 0 auto;
+ }
+ 
+ /* Header */
+ 
+ .header {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   height: 5rem;
+   margin-bottom: 1rem;
+   padding-top: 1rem;
+ }
+ 
+ .header__logo {
+   max-height: 90px;
+   width: auto;
+ }
+ 
+ /* Navigation */
+ 
+ .navigation__list {
+   display: flex;
+   list-style: none;
+   gap: 40px;
+ }
+ 
+ .navigation__item {
+   padding: 0.5rem 0;
+ }
+ 
+ .navigation__link {
+   color: var(--grey-dark);
+   font-weight: 400;
+   text-decoration: none;
+ }
+ 
+ .navigation__link:hover {
+   color: #EF8D21;
+ }
+
+ .login-book {
+    display: flex;
+    list-style: none;
+    gap: 40px;
+ }
+
+ .book {
+    background-color: #EF8D21;
+    color: white;
+    border-radius: 40px;
+    font-size: 1rem;;
+    margin: auto;
+    padding: 10px;
+  }
+
+  .book:hover {
+    background-color:#c05326;
+  }
+
+  .login {
+    color: var(--grey-dark);
+    font-weight: 400;
+    text-decoration: none;
+    margin-top: 11px;
+  }
+
+  .login:hover {
+    color: #EF8D21;
+  }
+ 
+  .content {
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+  }
+
+  /* hero */
+
+.hero {
+    height: 80px;
+    width: 600px;
+    margin: auto;
+    padding-top: 140px;
+  }
+  
+  .hero h1 {
+    margin-bottom: 1rem;
+    font-size: 4rem;
+  }
+  .hero h3 {
+    margin-bottom: 1rem;
+    font-size: 2rem;
+  }
+
+
+ .hero p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+  }
+  
+  .price-tag {
+    position: relative;
+    left: 500px;
+    bottom: 550px;
+    font-size: 20px;
+    font-weight: 700;
+  }
+
+  .price-cost {
+    position: relative;
+    left: 500px;
+    bottom: 550px;
+    font-size: 50px;
+    font-weight: 700;
+    color:  #EF8D21;
+  }
+
+  .elipse {
+    position: relative;
+    left: 280px;
+    bottom: 970px;
+    z-index: -1;
+  }
+
+  .scooteman {
+    position: relative;
+    left: 270px;
+  }
+
+  .scooter-background {
+    position: relative;
+    z-index: -1;
+    bottom: 450px;
+    left: 100px;
+  }
+ 
+  .first-ring {
+    position: relative;
+    bottom: 850px;
+    left: 200px;
+    z-index: -1;
+  }
+
+  .second-ring {
+    position: relative;
+    bottom: 1290px;
+    left: 170px;
+    z-index: -1;
+  }
+
+  .eclipse-1 {
+    position: relative;
+    bottom: 140px;
+    left: -100px;
+    z-index: -1;
+  }
+
+  .leaf-1 {
+    position: relative;
+    bottom: 1600px;
+    z-index: -1;
+  }
+
+  .leaf-2 {
+    position: relative;
+    bottom: 1550px;
+    left: 920px;
+    z-index: -1;
+    width: 263px;
+    height: 343px;
+  }
+
+  .hero-button {
+    padding: 10px;
+    border-radius: 15px;
+  }
+  
+  .scooter-word {
+    color:#EF8D21
+  }
