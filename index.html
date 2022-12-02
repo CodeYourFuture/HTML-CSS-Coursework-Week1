@@ -1,12 +1,11 @@
-<!DOCTYPE html>
-<html lang="en">
+<html>
   <head>
     <meta charset="UTF-8" />
     <meta
       name="viewport"
       content="width=device-width, initial-scale=1, shrink-to-fit=no"
     />
-    <title>My Blog</title>
+    <title>Mujtaba Webpage</title>
     <link
       href="//fonts.googleapis.com/css?family=Roboto:400,500,300"
       rel="stylesheet"
@@ -17,6 +16,34 @@
   </head>
   <body>
     <!-- Add your HTML markup here -->
-    <!-- Remember: Use semantic HTML tags like <header>, <main>, <nav>, <footer>, <section> etc -->
+    <div class="main">
+      <div class="header">
+        <img class="logo" src="data:image/png;base64,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" alt="logo" />
+        <div class="navbar">
+          <ul>
+          <div class="icon"><li>About</li></div>
+          <div class="icon"><li>Catalogue</li></div>
+          <div class="icon"><li>Contact</li></div>
+          </ul>
+        </div>
+        <div>log out</div>
+      </div>
+
+      <div class="grid-container">
+        <h1>Business</h1>
+        <img class="photo" src="https://www.incimages.com/uploaded_files/image/1920x1080/getty_180152187_970679970450042_64007.jpg" alt="phoro" />
+        <p>asddsadsfdsdfssdfdfsffdfa</p>
+        <p>asddsadsfdsdfssdfdfsffdfa</p>
+        <p>asddsadsfdsdfssdfdfsffdfa</p>
+        <p>asddsadsfdsdfssdfdfsffdfa</p>
+        <p>scsddsff</p>
+      </div>
+    </div>
+    <div class="footer">
+      <div class="icon">About</div>
+      <div class="icon">Catalogue</div>
+      <div class="icon">Contact</div>
+    
+    </div>
   </body>
 </html>
