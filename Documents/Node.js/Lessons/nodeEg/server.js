@@ -52,7 +52,7 @@ app.get("/albums/:id", function (req, res) {
     res.sendStatus(400);
     return;
   }
-  console.log('ID=', id);
+  console.log("ID=", id);
   const album = albumsData.filter((a) => a.albumId === id);
   if (!album) {
     res.sendStatus(404);
@@ -76,28 +76,37 @@ app.post("/albums/:id", function (req, res) {
   }
 
   const updatedEntry = { albumId: albumId };
-  allFields.forEach(fld => {
+  allFields.forEach((fld) => {
     if (req.body[fld]) {
       req.body[fld];
-       albumsData[index]= updatedEntry;
+      albumsData[index] = updatedEntry;
     }
   });
-
 
   res.send(album, updatedEntry);
   //console.log(req.body);
 });
 
 app.delete("/albums/:id", (req, res) => {
-    const albumId = parseInt(req.params.id);
-    if(isNaN(albumId)) {
-      res.sendStatus(400);
-      return;
-    }
-    const index = albumsData.findIndex(a => a.albumId === albumId);
-    
+  const albumId = parseInt(req.params.id);
+  if (isNaN(albumId)) {
+    res.sendStatus(400);
+    return;
+  }
+  const index = albumsData.findIndex((a) => a.albumId === albumId);
 
-})
+  if (characterIndex < 0) {
+    res.sendStatus(404);
+    return;
+  }
+
+  // 2) Delete the object
+  //     save the data
+
+  data.splice(characterIndex, 1);
+  save();
+  res.send("character deleted");
+});
 
 // Start our server port...
 
