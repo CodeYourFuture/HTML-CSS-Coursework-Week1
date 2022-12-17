@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <style>
+#fact{
+    display: none;
+}
+   </style>
+    
+    <title>Number Facts</title>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+
+</head>
+<body class= "bg-light">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 mx-auto">
+                <div class="card bg-primary text-white mt-5 p-4">
+                    <h1>Number Facts</h1>
+                    <p>Enter a number and get a random fact</p>
+                    <input type="number" class="form-control form-control-lg" id="numberInput" placeholder="Enter any number...">
+                    <div id="fact" class="card-body">
+                        <h4 class="card-title">
+                            Number Fact
+                        </h4>
+                        <p id="factText" class="card-text"></p>
+                    </div>
+                </div>
+
+            </div> 
+
+        </div>
+
+    </div>
+    <script>
+        let fact = document.querySelector("#fact");
+        let factText = document.querySelector("#factText");
+
+        let numberInput = document.querySelector("#numberInput");
+        numberInput.addEventListener('input', getFactFetch);
+
+        // function getFactAjax () {
+        //     let number = numberInput.value;
+            
+        //     let xhr = new XMLHttpRequest();
+        //     xhr.open('GET', 'http://numbersapi.com/'+number);
+
+        //     xhr.onload = function(){
+        //         if(this.status == 200 && number != ''){
+        //             fact.style.display = 'block';
+        //             factText.innerText = this.responseText;
+        //         }
+        //     }
+        //     xhr.send();
+        // }
+
+        function getFactFetch(){
+           let number = numberInput.value;
+           
+           fetch('http://numbersapi.com/' + number)
+           .then(response => response.text())
+           .then(data => {
+               if(number != ''){
+                   fact.style.display = 'block';
+                   factText.innerText = data;
+               }
+           })
+           .catch(err => console.log(err));
+        }
+    </script>
+</body>
+</html>
