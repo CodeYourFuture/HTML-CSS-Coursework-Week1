@@ -6,136 +6,183 @@
  *    for example: General styles, Navigation styles, Hero styles, Footer etc.
  * 
  */
-:root{
-    --brown: #a52a2a;
-    --white: #fff;
-    --darkblue: #00001a;
-    --gray: #808080; 
+:root {
+  --brown: #a52a2a;
+  --white: #fff;
+  --darkblue: #00001a;
+  --gray: #808080;
 }
 
- body {
-    margin: 0;
-    text-align: center;
- }
-
- /* Header */
-
- .header{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    background: url("../img/R.jpeg");
-    padding: 0px 0px 205rem 0px;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    filter: opacity(0.9);
-    /* filter: blur(1px); */
+body {
+  margin: 0;
+  text-align: center;
 }
 
- .title{
-    font-size: 50px;
-    padding: 10px;
-    margin: 2px;
-    color: var(--darkblue);
-    /* background-color: var(--white); */
- 
+/* Header */
+
+.header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  background: url("../img/R.jpeg");
+  padding: 0px 0px 205rem 0px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  filter: opacity(0.9);
+  /* filter: blur(1px); */
+  background-color: var(--white);
 }
 
- /* Navigation */
-
-.nav_list{
-    display: flex;
-    justify-content: flex-end;
+.title {
+  font-size: 50px;
+  padding: 10px;
+  margin: 2px;
+  color: var(--darkblue);
 }
 
-.nav_item{
-    list-style: none;
+/* Navigation */
+
+.nav_list {
+  display: flex;
+  justify-content: flex-end;
 }
 
-.nav_link{    
-    padding: 0px 20px;
-    font-size: 20px;
-    font-weight: bold;
-    text-decoration: none;
-    color: var(--darkblue);
+.nav_item {
+  list-style: none;
 }
 
-.nav_link:hover{
-    color: var(--brown) ;
+.nav_link {
+  padding: 0px 20px;
+  font-size: 20px;
+  font-weight: bold;
+  text-decoration: none;
+  color: var(--darkblue);
+}
+
+.nav_link:hover {
+  color: var(--brown);
 }
 
 /* Main */
 
-.container{
-    background-color: var(--white);
-    font-size: 20px;
-    margin: 0px 200px;
-    border-radius: 2ch;
+.container {
+  background-color: var(--white);
+  font-size: 20px;
+  margin: 0px 100px;
+  padding: 0px 80px;
+  border-radius: 2ch;
 }
 
-.container p{
-    text-align: justify;
+.container p {
+  text-align: justify;
 }
 
-.container:first-child{
-    font-style: italic;
+.container:first-child {
+  font-style: italic;
 }
 
-.position_1{
-    position: absolute;
-    top: 35rem;
-    height: 90%;
-    padding: 0px 80px;
+.position_1 {
+  position: absolute;
+  top: 20rem;
+  height: 100vh;
 }
 
-.position_2{
-    position: absolute;
-    top: 95rem;
-    height: 95%;
-    padding: 0px 80px;
+.position_2 {
+  position: absolute;
+  top: 80rem;
+  height: 108vh;
 }
 
-.position_3{
-    position: absolute;
-    top: 155rem;
-    height: 100%;
-    padding: 30px 80px;
+.position_3 {
+  position: absolute;
+  top: 150rem;
+  height: 125vh;
 }
 
 .sub_title {
-    font-size: 40px;
-    color: var(--brown);
+  font-size: 40px;
+  color: var(--brown);
 }
 
 .article_img {
-    width: 30rem;
-    height: 15rem;
-    padding: 20px;
+  width: 30rem;
+  height: 15rem;
+  padding: 20px;
 }
 
 /* Footer */
 
-.footer{
-    /* border: solid; */
-    /* align-items: center; */   
+.footer p {
+  padding: 10px;
+  margin: 0px;
+  border-bottom: 1px solid var(--gray);
 }
 
-.footer p{
-    padding: 10px;
-    margin: 0px 500px;
-    border-bottom: 1px solid var(--gray);
-
+.footer a {
+  text-decoration: none;
 }
 
-.footer a{
-    text-decoration: none;
+.footer img {
+  width: 20px;
+  height: 20px;
+  padding: 10px;
 }
 
-.footer img{
-    width: 20px;
-    height: 20px;
-    padding: 10px;
+/* Media Query */
+
+@media screen and (max-width: 900px) {
+  .position_1 {
+    height: 130vh;
+  }
+
+  .position_2 {
+    height: 143vh;
+  }
+
+  .position_3 {
+    height: 185vh;
+  }
+
+  .container {
+    margin: 0px 30px;
+    padding: 0px 40px;
+  }
+
+  .article_img {
+    width: 11em;
+    height: 7em;
+  }
+
+  .sub_title {
+    font-size: 40px;
+  }
+
+  .nav_link {
+    padding: 0px 10px;
+  }
+
+  .title {
+    font-size: 30px;
+  }
 }
 
- /* Footer */
+/* For Mobile */
+
+@media screen and (max-width: 540px) {
+  .position_1 {
+    height: 135vh;
+  }
+
+  .position_2 {
+    height: 160vh;
+  }
+
+  .position_3 {
+    height: 220vh;
+  }
+
+  .container {
+    margin: 0px 10px;
+  }
+}
