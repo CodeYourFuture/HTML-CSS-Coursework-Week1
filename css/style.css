@@ -6,6 +6,10 @@ h1 {
   text-align: center;
 }
 
+article:first-child {
+  background-color: bisque;
+  padding: 2%;
+}
 img {
   display: block;
   margin-left: auto;
