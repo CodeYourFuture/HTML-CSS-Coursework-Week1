@@ -6,3 +6,112 @@
  *    for example: General styles, Navigation styles, Hero styles, Footer etc.
  * 
  */
+
+
+body{
+
+  max-width: 1200px;
+  margin: 0 auto;
+}
+ 
+/* header element */
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  position: relative;
+  top: 0;
+  left: 0;
+  right: 0;
+
+/*   padding: 0 1.5rem;
+  max-width: 1200px;
+  margin: 0 auto; */
+}
+
+header h1,
+header p {
+  margin: 5px;
+}
+
+header nav ul {
+  list-style: none; /*  */
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+header nav ul li {
+  margin-right: 10px;
+}
+
+header nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* main element */
+.articles {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.articles:first-child {
+  border: 31px solid black;
+}
+
+article {
+  width: 30%;
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+article:first-child {
+  border: 4px solid black;
+}
+h2 {
+  align-items: center;
+}
+
+article h3 {
+  margin-top: 0;
+}
+
+article a {
+  color: blue;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* footer element */
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+
+footer nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+}
+
+footer nav ul li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+footer nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
