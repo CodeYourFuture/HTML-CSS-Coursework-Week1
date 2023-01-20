@@ -6,3 +6,49 @@
  *    for example: General styles, Navigation styles, Hero styles, Footer etc.
  * 
  */
+  body {
+background-color: rgb(227, 237, 241);
+margin: 2em;
+padding: 1rem;
+ }
+
+ h1{
+color: black;
+text-align: center;
+}
+nav{
+    text-align: center;
+    margin: 4rem;
+}
+main{
+    margin: 3em;
+    padding: 1em;
+    padding-left: 23em;
+}
+p:first-child {
+   margin: auto;
+}
+aside{
+    margin:1em;
+    padding-top: 1em;
+    padding-left: 5em;
+}
+.column{
+    float: left;
+    width: 50%;
+}
+.row{
+    content: none;
+    display: table;
+    clear: both;
+}
+img{
+    width: 15em;
+
+}
+footer{
+    margin: 2em;
+    padding: 1rem;
+    padding-left: 23em;
+}
+
