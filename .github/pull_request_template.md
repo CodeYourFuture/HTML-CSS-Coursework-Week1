@@ -16,14 +16,14 @@ Please complete the details below this message
 
 # Your Details
 
-- Your Name:
-- Your City:
-- Your Slack Name:
+- Your Name: Tosin Odunuga
+- Your City:Glasgow
+- Your Slack Name:Tosin
 
 # Homework Details
 
-- Module:
-- Week:
+- Module:HTML/CSS
+- Week:2
 
 # Notes
 
