@@ -10,6 +10,8 @@
 background-color: rgb(227, 237, 241);
 margin: 2em;
 padding: 1rem;
+display: flex;
+flex-direction: column;
  }
 
  h1{
@@ -24,6 +26,8 @@ main{
     margin: 3em;
     padding: 1em;
     padding-left: 23em;
+    display: flex;
+    flex-direction: column;
 }
 p:first-child {
    margin: auto;
@@ -32,6 +36,8 @@ aside{
     margin:1em;
     padding-top: 1em;
     padding-left: 5em;
+    display: flex;
+    flex-direction: column;
 }
 .column{
     float: left;
