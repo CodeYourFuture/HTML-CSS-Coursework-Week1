@@ -6,3 +6,31 @@
  *    for example: General styles, Navigation styles, Hero styles, Footer etc.
  * 
  */
+
+body {
+  background-color: floralwhite;
+}
+
+#title {
+  background-color: black;
+  color: white;
+  position: relative;
+  text-align: center;
+  font-style: italic;
+}
+
+footer {
+  position: relative;
+}
+footer > div {
+  position: absolute;
+  top: 100vh;
+  left: 45vmax;
+}
+/* #madeby:first-child {
+  text-align: center;
+} */
+
+.articles {
+  border-style: dashed;
+}
