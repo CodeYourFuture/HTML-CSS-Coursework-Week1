@@ -7,18 +7,30 @@
  * 
  */
 body {
+    padding: 0%;
+    margin: 0%;
     text-align: center;
     font-family: "Source Sans Pro", "Helvetica Neue", Arial, sans-serif;
-
     font-size: 1rem;
+    background-color: rgb(228, 225, 225);
 }
 
+/* --------------Header--------------  */
 .header {
     display: flex;
+
     align-items: center;
     justify-content: space-between;
     height: 5rem;
     margin-bottom: 1rem;
+    padding-top: 8rem;
+    position: fixed;
+
+}
+
+nav {
+    display: flex;
+    justify-content: center;
     padding-top: 1rem;
 }
 
@@ -29,13 +41,78 @@ body {
 }
 
 .navigation__item {
-
     padding: 0.5rem 1rem;
 }
 
 .navigation__link {
-    color: var(--grey-dark);
+    color: rgb(69, 69, 79);
     font-weight: 600;
     text-transform: uppercase;
     text-decoration: none;
+}
+
+/* -----------------Main---------------- */
+.main {
+    padding-top: 3rem;
+}
+
+/* -----------section 1----- */
+
+h1 {
+    color: rgba(20, 17, 17, 0.655);
+    font-size: xx-large;
+}
+
+.img1 {
+    width: 40%;
+    height: 30%;
+    padding-bottom: 3rem;
+    border-radius: 6px;
+}
+
+.text {
+    color: rgb(81, 81, 105);
+}
+
+/* -----------------Section 2-Articles------- */
+
+.articles {
+
+    display: flex;
+    justify-content: space-between;
+    background-color: aliceblue;
+    padding: 3rem;
+}
+
+article,
+a {
+    text-decoration: none;
+}
+
+article {
+    width: 25%;
+    padding-top: 2rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.imgarticle {
+    height: 40%;
+    border-radius: 100px;
+}
+
+article:first-child {
+    color: rgb(128, 88, 35);
+}
+
+p {
+    padding: 0rem;
+    text-align: justify;
+}
+
+/* --------------------Footer------------------- */
+.footer {
+    padding-top: 0.7rem;
+    padding-bottom: 0.7rem;
+    text-align: center;
 }
