@@ -1,1 +1,49 @@
-h1 
+html{
+    align-content: center;  
+}
+
+body {
+text-align: center;
+width: 80%;
+height: 100%;
+align-content: center;
+margin:auto;
+border:solid red;
+}
+
+table {
+ table-layout: fixed;
+ border: solid black;
+ width: 100%;
+ border-spacing: 2rem;
+ text-align: justify;
+ 
+}
+
+td{
+    vertical-align: top;  
+}
+
+h3{ 
+   margin: auto; 
+   font-family: SF Pro;
+   font-weight: 400;
+   font-size: 1.1rem;
+}
+
+
+.block-text{
+    height: 10.5rem;
+    font-family: SF Pro;
+    font-weight: 400;
+    font-size: 0.8rem;
+
+}
+ .iBlock {
+    margin-top: 1rem;
+    width: 17.3rem;
+ }
+
+ #more {
+    display: none;
+ }
