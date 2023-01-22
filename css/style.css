@@ -8,7 +8,10 @@
  */
 
 body {
-  background-color: floralwhite;
+  background-color: #f3d3bd;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  color: #5e5e5e;
 }
 
 #title {
@@ -17,6 +20,7 @@ body {
   position: relative;
   text-align: center;
   font-style: italic;
+  width: 100vw;
 }
 
 footer {
@@ -31,6 +35,41 @@ footer > div {
   text-align: center;
 } */
 
-.articles {
+/* .articles {
   border-style: dashed;
+} */
+.articles > h2 {
+  text-align: center;
+  background-color: black;
+  border-radius: 4px;
+  width: 100vw;
+}
+
+h2 > a {
+  color: black;
+  background-color: #fcfaf9;
+  border-radius: 10px;
+  padding: 1px 10px 1px 10px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 1000;
+  font-style: italic;
+  text-decoration: none;
+}
+
+.articles > p {
+  text-indent: 25px;
+  text-align: justify;
+  color: #5e5e5e;
+}
+
+#artc1 {
+}
+
+.logos {
+  display: block;
+  height: 100px;
+  width: 100px;
+  border-radius: 15px;
+  margin-left: auto;
+  margin-right: auto;
 }
