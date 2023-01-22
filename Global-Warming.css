@@ -8,12 +8,10 @@ width: 80%;
 height: 100%;
 align-content: center;
 margin:auto;
-border:solid red;
 }
 
 table {
  table-layout: fixed;
- border: solid black;
  width: 100%;
  border-spacing: 2rem;
  text-align: justify;
@@ -24,12 +22,6 @@ td{
     vertical-align: top;  
 }
 
-h3{ 
-   margin: auto; 
-   font-family: SF Pro;
-   font-weight: 400;
-   font-size: 1.1rem;
-}
 
 
 .block-text{
@@ -46,4 +38,35 @@ h3{
 
  #more {
     display: none;
+ }
+
+ h1{
+    font-family: SF Pro;
+    font-weight: 700;
+    font-size: 4rem;
+ }
+
+ h2{
+    margin-top: -2rem;
+    font-family: SF Pro;
+    font-weight: 400;
+    font-size: 1.8rem;
+ }
+
+ h3{ 
+    margin: auto; 
+    font-family: SF Pro;
+    font-weight: 400;
+    font-size: 1.3rem;
+    text-align: center;
+ }
+
+ .pHead{
+    font-family: SF Pro;
+    font-weight: 400;
+    font-size: 0.8rem;
+    width: 70%;
+    align-content: center;
+    margin:auto;
+    margin-bottom: 4rem;
  }
