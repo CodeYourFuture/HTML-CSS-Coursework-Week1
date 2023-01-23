@@ -37,6 +37,30 @@ h1 {
 }
 
 .image {
-    width: 20px 20px;
+    padding-bottom: 2rem;
+}
+
+.articles {
+    color: rgb(63, 6, 6);
+    padding: 1rem 0 10rem 0;
+}
+
+.articles h2 {
+    color:brown;
+    
+}
+
+.articles a {
+    text-decoration: none;
+}
+
+.articles a:hover {
+    background-color: blueviolet;
+    color: white;
+}
+
+article:first-child {
+    color: rgb(8, 9, 9);
+    font-style: italic;
 }
 
