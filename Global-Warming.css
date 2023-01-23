@@ -36,7 +36,7 @@ td{
 }
  .iBlock {
     margin-top: 1rem;
-    width: 17.3rem;
+    width: 17.3em;
  }
 
  #more {
@@ -89,3 +89,19 @@ td{
     font-size: 0.8rem;
     color: rgb(223, 219, 215);
  }
+
+ .block1:first-child {
+   background-color: rgb(100, 92, 92);
+   color: white;
+  padding: 0 1rem 0 1rem;
+ }
+
+ .block1:first-child .iBlock {
+    width: 15.6rem;
+    padding-top: 1rem;
+  }
+
+  .block1:first-child a {
+    color:rgb(118, 186, 186);
+  }
+ 
