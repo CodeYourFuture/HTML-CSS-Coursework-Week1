@@ -6,16 +6,18 @@ body {
     font-family: sans-serif;
 }
 
-/* header */
-.intro {
-    background-color: lightcoral;
-    padding: 3em;
-}
-
 .container {
     width: 80%;
     max-width: 800px;
     margin: 0 auto;
 }
+
+
+/* header */
+.intro {
+    background-color: lightcoral;
+    padding: 3em 0;
+}
+
 
 /* main */
