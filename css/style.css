@@ -1,8 +1,21 @@
-/**
- * Add your custom styles below
- * 
- * Remember: 
- * - Be organised, use comments and separate your styles into meaningful chunks
- *    for example: General styles, Navigation styles, Hero styles, Footer etc.
- * 
- */
+/* root */
+
+/* general */
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+/* header */
+.intro {
+    background-color: lightcoral;
+    padding: 3em;
+}
+
+.container {
+    width: 80%;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* main */
