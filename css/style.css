@@ -64,3 +64,13 @@ article:first-child {
     font-style: italic;
 }
 
+footer {
+    font-style: inherit;
+}
+
+footer span {
+   color: rgb(2, 93, 2);
+   font-size: 1.5rem;
+   font-weight: bold;
+}
+
