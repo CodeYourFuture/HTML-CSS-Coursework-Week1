@@ -6,6 +6,10 @@ body {
     font-family: sans-serif;
 }
 
+img {
+    max-width: 100%;
+}
+
 .container {
     width: 80%;
     max-width: 800px;
@@ -18,6 +22,5 @@ body {
     background-color: lightcoral;
     padding: 3em 0;
 }
-
 
 /* main */
