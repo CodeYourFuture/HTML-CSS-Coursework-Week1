@@ -6,3 +6,63 @@
  *    for example: General styles, Navigation styles, Hero styles, Footer etc.
  * 
  */
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+ body {
+    max-width: 1600px;
+    width: 100%;
+    margin: 0 auto;
+    color: #fff;
+    background-color: #000;
+ }
+
+ .navigation {
+    display: flex;
+    justify-content: space-evenly;
+    height: 9rem;
+    align-items: center;
+ }
+
+ input {
+    background: transparent;
+    border:none;
+    height: 2rem;
+    width: 10rem;
+ }
+
+ input::placeholder {
+    color: #fff;
+ }
+
+ h1 {
+    font-size: 200px;
+    margin-left: 2rem;
+ }
+
+ .header__p {
+    text-align: center;
+    font-size: 18px;
+ }
+ a {
+    text-decoration: none;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+ }
+ aside {
+   background-color: #000; 
+   position: fixed;
+   right: 0px;
+   top: 35%;
+   display: flex;
+   flex-direction: column;
+   width: 3rem;
+ }
+
+ a:hover {
+    cursor: pointer;
+    color: rgb(251, 52, 52);
+ }
