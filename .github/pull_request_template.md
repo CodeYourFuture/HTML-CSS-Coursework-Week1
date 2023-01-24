@@ -16,21 +16,25 @@ Please complete the details below this message
 
 # Your Details
 
-- Your Name:
-- Your City:
-- Your Slack Name:
+- Your Name: Alena Lazareva
+- Your City: Glasgow
+- Your Slack Name: @Alena Lazareva
 
 # Homework Details
 
-- Module:
-- Week:
+- Module: HTML & CSS 
+- Week: 2
 
 # Notes
 
 - What did you find easy?
+HTML is pretty straightforward
 
 - What did you find hard?
+Layouts
 
-- What do you still not understand?
+- What do you still not understand? 
+How to style Nav & Buttons in a professional way
 
 - Any other notes?
+
