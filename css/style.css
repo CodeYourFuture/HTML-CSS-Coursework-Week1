@@ -7,55 +7,13 @@
  * 
  */
 
-/* 
---- 01 Typography system 
 
-FONT SIZE SYSTEM (px)
-10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
-
-
-Font weights: 
-400 (default) 
-500 Medium 
-600 Semi-bold
-700 Bold
-
-Line heights: 
-1 (default) 
-1.05 - Small 
-1.6 - Paragraph default
-
---- 02 Colors 
-Primary  = #e67e22
-Tints: #fdf2e9;
-Shades: 
-Accents: 
-Grayes: 
-text - #555;
-primary heading #333;
-
---- 03 Images 
-for people : UI faces.com 
-
---- 04 Icons
-
---- 05 Shadows 
-
---- 06 Border Radius
-default: 9px;
-
---- 07 White Space
-
-SPACING SYSTEM (px)
-2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
-
- */
 
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    color: 1A1F16;
+    font-family: 'Lora', serif;
 }
 
 html {
@@ -66,7 +24,7 @@ html {
 /* Header */
 
 .header {
-    background-color: #0D1C0E;
+    background-color: #212529;
     color: #fff;
     height: 7rem;
     display: flex;
@@ -78,9 +36,14 @@ html {
 .name-container {
     margin-left: 3rem;
     display: flex;
+    align-items: center;
     gap: 1rem;
     letter-spacing: 0.5rem;
+    color: #f8f9fa;
+}
 
+.name-container h1 {
+    color: #f8f9fa;
 }
 
 .nav-list {
@@ -89,37 +52,47 @@ html {
     align-items: center;
     gap: 2rem;
     margin-right: 3rem;
-
-
+    font-family: 'Lora', serif;
 }
 
 /* Links and buttons */
 
-.main-btn {
-    border: 1px solid black;
-    padding: 0.5rem;
-    background-color: #157946;
-}
-
 .nav-link {
-    font-size: 2rem;
+    font-size: 1.6rem;
     text-decoration: none;
-    color: black;
+    color: #212529;
     border-radius: 7px;
     color: #F2F7F4;
 }
 
 .nav-link:hover,
-.nav-link:visited {
-    color: blueviolet;
+.nav-link:active {
+    color: #087f5b;
+
+}
+
+.main-btn {
+    padding: 0.6rem;
+    background-color: #087f5b;
+    color: #F2F7F4;
+}
+
+.main-btn:hover,
+.main-btn:visited {
+    color: #212529;
+    background-color: #0ca678;
 }
 
 .read-more {
     display: inline-block;
-    padding: 1rem 0 2rem 0;
+    padding: 1rem 0;
     color:#0D1C0E;
-
     font-size: 1.4rem;
+    letter-spacing: 0.1rem;
+}
+
+figcaption a:link {
+color: #333;
 }
 
 /* Main article */
@@ -129,7 +102,7 @@ html {
     width: 100vw;
     justify-content: center;
     gap: 3rem;
-    background-color: #D9E9D8;
+    background-color: #fff;
     padding: 3rem;
 }
 
@@ -139,7 +112,6 @@ html {
     gap: 1.5rem;
     width: 70vw;
     padding: 3rem;
-    background-color: #F2F7F4;
 
 }
 
@@ -148,14 +120,29 @@ html {
     align-items: center;
     gap: 1rem;
     margin-top: 1rem;
+
+}
+.about-author p {
+    font-size: 1.2rem;
+    color:#333;
+
+}
+
+.about-author p:last-child {
+    margin-left: auto;
+    color: #333;
+}
+
+figcaption {
+    color: #333;
+    margin-top: 1rem;
 }
 
 /* Aside articles */
 
 .three-article {
-    width: 30vw;
-    background-color: #D9E9D8;
-    border: 2rem solid #F2F7F4;
+    width: 25vw;
+    background-color: #f1f3f5;
     padding: 1.5rem;
     display: flex;
     flex-direction: column;
@@ -163,7 +150,6 @@ html {
 }
 
 .article-post {
-    /* border-bottom: 1px solid #666; */
     margin-bottom: 1rem;
 }
 
@@ -192,29 +178,40 @@ figure {
 .small-icon {
     width: 2rem;
     height: 2rem;
+    color: #F2F7F4;
 }
 
-/* Headings */
+/* Headings & fonts */
+
 .main-heading {
     font-size: 4.4rem;
     letter-spacing: 0.2rem;
+    color: #212529;
 }
 
 .subheading {
-    font-size: 3rem;
+    font-size: 2.6rem;
     margin-top: 1rem;
+    color: #212529;
 }
 
 .heading-small {
-    font-size: 2rem;
+    font-size: 1.8rem;
     margin-bottom: 1rem;
+    color: #212529;
 }
 
 p {
     font-size: 1.6rem;
     line-height: 1.5;
+    color: #212529;
+
 }
 
+.article-description {
+    font-size: 1.4rem;
+    color: #212529;
+}
 
 
 /* Footer */
@@ -222,11 +219,15 @@ p {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 8rem;
-    background-color: #0D1C0E;
-    padding-top: 3rem;
-    color: #F2F7F4;
+    height: 10rem;
+    background-color: #212529;
+    padding-top: 2rem;
     padding-right: 3rem;
+}
+
+.footer p {
+    color: #dee2e6;
+
 }
 
 .copyright {
