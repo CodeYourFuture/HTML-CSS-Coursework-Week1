@@ -55,6 +55,7 @@ SPACING SYSTEM (px)
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    color: 1A1F16;
 }
 
 html {
@@ -65,7 +66,8 @@ html {
 /* Header */
 
 .header {
-    background-color: aquamarine;
+    background-color: #0D1C0E;
+    color: #fff;
     height: 7rem;
     display: flex;
     justify-content: space-between;
@@ -77,6 +79,7 @@ html {
     margin-left: 3rem;
     display: flex;
     gap: 1rem;
+    letter-spacing: 0.5rem;
 
 }
 
@@ -85,26 +88,39 @@ html {
     display: flex;
     align-items: center;
     gap: 2rem;
+    margin-right: 3rem;
+
 
 }
 
 /* Links and buttons */
 
-.main-btn {}
+.main-btn {
+    border: 1px solid black;
+    padding: 0.5rem;
+    background-color: #157946;
+}
 
 .nav-link {
     font-size: 2rem;
     text-decoration: none;
     color: black;
+    border-radius: 7px;
+    color: #F2F7F4;
 }
 
 .nav-link:hover,
 .nav-link:visited {
- color: blueviolet;
+    color: blueviolet;
 }
 
+.read-more {
+    display: inline-block;
+    padding: 1rem 0 2rem 0;
+    color:#0D1C0E;
 
-
+    font-size: 1.4rem;
+}
 
 /* Main article */
 
@@ -113,36 +129,63 @@ html {
     width: 100vw;
     justify-content: center;
     gap: 3rem;
-    background-color: bisque;
+    background-color: #D9E9D8;
     padding: 3rem;
 }
 
 .article {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
     width: 70vw;
-    padding: 2rem;
-    background-color: aqua;
+    padding: 3rem;
+    background-color: #F2F7F4;
+
+}
+
+.about-author {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 1rem;
 }
 
 /* Aside articles */
 
 .three-article {
     width: 30vw;
-    background-color: lightblue;
+    background-color: #D9E9D8;
+    border: 2rem solid #F2F7F4;
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.article-post {
+    /* border-bottom: 1px solid #666; */
+    margin-bottom: 1rem;
 }
 
 /* Images */
+
+figure {
+    margin: 1rem 0 3rem 0;
+}
+
 .hero-image {
     width: 100%;
     height: 100%;
 }
 
 .author-img {
-    width: 7rem;
+    width: 5rem;
     border-radius: 50%;
 }
 
 .article-img {
     width: 100%;
+    margin-bottom: 2rem;
 
 }
 
@@ -151,14 +194,41 @@ html {
     height: 2rem;
 }
 
+/* Headings */
+.main-heading {
+    font-size: 4.4rem;
+    letter-spacing: 0.2rem;
+}
+
+.subheading {
+    font-size: 3rem;
+    margin-top: 1rem;
+}
+
+.heading-small {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+p {
+    font-size: 1.6rem;
+    line-height: 1.5;
+}
+
 
 
 /* Footer */
-footer {
+.footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
     height: 8rem;
-    background-color: blueviolet;
+    background-color: #0D1C0E;
     padding-top: 3rem;
+    color: #F2F7F4;
+    padding-right: 3rem;
+}
+
+.copyright {
+    margin-left: 3rem;
 }
