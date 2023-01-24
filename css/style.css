@@ -83,7 +83,8 @@ html {
     background-color: #0ca678;
 }
 
-.read-more {
+.read-more:link,
+.read-more:visited {
     display: inline-block;
     padding: 1rem 0;
     color:#0D1C0E;
@@ -91,9 +92,16 @@ html {
     letter-spacing: 0.1rem;
 }
 
+.read-more:hover,
+.read-more:active {
+    color: #087f5b;
+}
+
 figcaption a:link {
 color: #333;
 }
+
+
 
 /* Main article */
 
@@ -203,14 +211,24 @@ figure {
 
 p {
     font-size: 1.6rem;
-    line-height: 1.5;
+    line-height: 1.8;
     color: #212529;
 
 }
 
 .article-description {
     font-size: 1.4rem;
+    line-height: 1.6;
     color: #212529;
+}
+
+blockquote {
+    margin: 2rem 0;
+    font-size: 2rem;
+    border-left: 1rem solid #e9ecef;
+    padding: 2rem;
+    letter-spacing: 0.2rem;
+    color: #495057;
 }
 
 
@@ -232,4 +250,5 @@ p {
 
 .copyright {
     margin-left: 3rem;
+    font-size: 1rem;
 }
