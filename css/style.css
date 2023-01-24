@@ -6,3 +6,123 @@
  *    for example: General styles, Navigation styles, Hero styles, Footer etc.
  * 
  */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+    text-decoration: none;
+
+}
+
+
+nav {
+    text-align: end;
+    height: 30px;
+    margin: 20px;
+
+}
+
+nav a {
+    padding: 10px;
+    color: black;
+}
+
+.logo {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.logo img {
+    width: 240px;
+}
+
+main{
+    margin: 100px;
+    font-size: x-large;
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    margin: 20px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+
+}
+
+.item {
+    text-align: center;
+    padding-bottom: 30px;
+
+
+}
+
+.item a img {
+    width: 50%;
+    object-fit: cover;
+    text-align: center;
+    -webkit-filter: grayscale(0) blur(0);
+    filter: grayscale(0) blur(0);
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+    border-radius: 5px;
+
+}
+
+.item a:hover img {
+    -webkit-filter: grayscale(100%) blur(3px);
+    filter: grayscale(100%) blur(3px);
+}
+
+.item p {
+    text-align: center;
+}
+
+
+.container_contact {
+    text-align: center;
+    padding: 10px;
+
+}
+
+.container_contact h2 {
+    margin: 20px;
+}
+
+.container_contact li a {
+    color: black;
+    margin: 10px;
+}
+
+footer .logo {
+    margin-top: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+    .container {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    
+    
+    }
+}
+@media screen and (min-width: 600px) {
+    .container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+  }
+
+@media screen and (min-width:900px){
+    .container {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+    
+}

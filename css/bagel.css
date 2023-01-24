@@ -1,0 +1,22 @@
+*{
+    text-align: center;
+    text-decoration: none;
+}
+header{
+    text-align: center;
+    font-size: x-large;
+}
+
+section{
+    border: 1px solid black;
+    margin: 100px;
+}
+
+
+p {
+    font-size: larger;
+}
+
+ul li:first-child{
+    color:red;
+}
