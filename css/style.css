@@ -87,7 +87,7 @@ html {
 .read-more:visited {
     display: inline-block;
     padding: 1rem 0;
-    color:#0D1C0E;
+    color: #0D1C0E;
     font-size: 1.4rem;
     letter-spacing: 0.1rem;
 }
@@ -98,7 +98,7 @@ html {
 }
 
 figcaption a:link {
-color: #333;
+    color: #333;
 }
 
 
@@ -130,9 +130,10 @@ color: #333;
     margin-top: 1rem;
 
 }
+
 .about-author p {
     font-size: 1.2rem;
-    color:#333;
+    color: #333;
 
 }
 
@@ -229,6 +230,24 @@ blockquote {
     padding: 2rem;
     letter-spacing: 0.2rem;
     color: #495057;
+}
+
+p span:first-child {
+    text-transform: uppercase;
+}
+
+
+.intro span:first-child {
+    font-weight: 700;
+    font-size: 7rem;
+    color: #087f5b;
+    line-height: 6rem;
+    padding: 0 0.4rem 0 0;
+
+}
+
+.uppercase {
+    text-transform: capitalize;
 }
 
 
