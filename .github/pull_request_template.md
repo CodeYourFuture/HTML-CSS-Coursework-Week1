@@ -38,3 +38,11 @@ How to style Nav & Buttons in a professional way
 
 - Any other notes?
 
+*******************************
+*******************************
+
+Published on GiHub Pages
+https://lazar-eva.github.io/HTML-CSS-Coursework-Week1/ 
+
+*******************************
+*******************************
