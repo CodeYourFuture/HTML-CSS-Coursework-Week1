@@ -1,8 +1,255 @@
-/**
- * Add your custom styles below
- * 
- * Remember: 
- * - Be organised, use comments and separate your styles into meaningful chunks
- *    for example: General styles, Navigation styles, Hero styles, Footer etc.
- * 
- */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Lora', serif;
+}
+
+html {
+    font-size: 62.5%;
+    overflow-x: hidden;
+}
+
+/* Header */
+
+.header {
+    background-color: #212529;
+    color: #fff;
+    height: 7rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.name-container {
+    margin-left: 3rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    letter-spacing: 0.5rem;
+    color: #f8f9fa;
+}
+
+.name-container h1 {
+    color: #f8f9fa;
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    margin-right: 3rem;
+    font-family: 'Lora', serif;
+}
+
+/* Links and buttons */
+
+.nav-link {
+    font-size: 1.6rem;
+    text-decoration: none;
+    color: #212529;
+    border-radius: 7px;
+    color: #F2F7F4;
+}
+
+.nav-link:hover,
+.nav-link:active {
+    color: #087f5b;
+
+}
+
+.main-btn {
+    padding: 0.6rem;
+    background-color: #087f5b;
+    color: #F2F7F4;
+}
+
+.main-btn:hover,
+.main-btn:visited {
+    color: #212529;
+    background-color: #0ca678;
+}
+
+.read-more:link,
+.read-more:visited {
+    display: inline-block;
+    padding: 1rem 0;
+    color: #0D1C0E;
+    font-size: 1.4rem;
+    letter-spacing: 0.1rem;
+}
+
+.read-more:hover,
+.read-more:active {
+    color: #087f5b;
+}
+
+figcaption a:link {
+    color: #333;
+}
+
+
+/* Main article */
+
+.container {
+    display: flex;
+    width: 100vw;
+    justify-content: center;
+    gap: 3rem;
+    background-color: #fff;
+    padding: 3rem;
+}
+
+.article {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    width: 70vw;
+    padding: 3rem;
+
+}
+
+.about-author {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 1rem;
+
+}
+
+.about-author p {
+    font-size: 1.2rem;
+    color: #333;
+
+}
+
+.about-author p:last-child {
+    margin-left: auto;
+    color: #333;
+}
+
+figcaption {
+    color: #333;
+    margin-top: 1rem;
+}
+
+/* Aside articles */
+
+.three-article {
+    width: 25vw;
+    background-color: #f1f3f5;
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.article-post {
+    margin-bottom: 1rem;
+}
+
+/* Images */
+
+figure {
+    margin: 1rem 0 3rem 0;
+}
+
+.hero-image {
+    width: 100%;
+    height: 100%;
+}
+
+.author-img {
+    width: 5rem;
+    border-radius: 50%;
+}
+
+.article-img {
+    width: 100%;
+    margin-bottom: 2rem;
+
+}
+
+.small-icon {
+    width: 2rem;
+    height: 2rem;
+    color: #F2F7F4;
+}
+
+/* Headings & fonts */
+
+.main-heading {
+    font-size: 4.4rem;
+    letter-spacing: 0.2rem;
+    color: #212529;
+}
+
+.subheading {
+    font-size: 2.6rem;
+    margin-top: 1rem;
+    color: #212529;
+}
+
+.heading-small {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+    color: #212529;
+}
+
+p {
+    font-size: 1.6rem;
+    line-height: 1.8;
+    color: #212529;
+
+}
+
+.article-description {
+    font-size: 1.4rem;
+    line-height: 1.6;
+    color: #212529;
+}
+
+blockquote {
+    margin: 2rem 0;
+    font-size: 2rem;
+    border-left: 1rem solid #e9ecef;
+    padding: 2rem;
+    letter-spacing: 0.2rem;
+    color: #495057;
+}
+
+p span:first-child {
+    text-transform: uppercase;
+}
+
+.intro span:first-child {
+    font-weight: 700;
+    font-size: 7rem;
+    color: #087f5b;
+    line-height: 6rem;
+    padding: 0 0.4rem 0 0;
+}
+
+
+/* Footer */
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 10rem;
+    background-color: #212529;
+    padding-top: 2rem;
+    padding-right: 3rem;
+}
+
+.footer p {
+    color: #dee2e6;
+
+}
+
+.copyright {
+    margin-left: 3rem;
+    font-size: 1rem;
+}
