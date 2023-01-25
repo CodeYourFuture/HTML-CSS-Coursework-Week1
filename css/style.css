@@ -19,13 +19,14 @@
 nav {
     text-align: end;
     height: 30px;
-    margin: 20px;
-
+    background-color: black;
+    padding-top: 10px;
 }
 
 nav a {
-    padding: 10px;
-    color: black;
+
+    color: white;
+    margin: 10px
 }
 
 .logo {
@@ -34,11 +35,11 @@ nav a {
 }
 
 .logo img {
-    width: 240px;
+    width: 180px;
 }
 
-main{
-    margin: 100px;
+main {
+    margin: 30px 100px;
     font-size: x-large;
     text-align: center;
 }
@@ -107,22 +108,23 @@ footer .logo {
     .container {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
-    
-    
+
+
     }
 }
+
 @media screen and (min-width: 600px) {
     .container {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
     }
-    
-  }
 
-@media screen and (min-width:900px){
+}
+
+@media screen and (min-width:900px) {
     .container {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
     }
-    
+
 }
