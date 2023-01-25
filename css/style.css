@@ -6,6 +6,9 @@
  *    for example: General styles, Navigation styles, Hero styles, Footer etc.
  * 
  */
+
+ /** General Styles */
+
 body {
     font-family: helvetica, arial;
     margin: 5rem;
@@ -13,6 +16,9 @@ body {
     color: #343232;
 
  }
+
+ /** Section */
+
  section {
     display: flex;
     flex-direction: column;
@@ -22,14 +28,14 @@ body {
  .flex-container {
     width: 45rem;
  }
-header {
+ header {
 text-align: center;
 margin-bottom: 3rem;
 font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 
-article:first-child {
+ article:first-child {
     border: 2px solid #ffd8be;
     margin: 2rem 0;
     padding: 3rem;
@@ -37,6 +43,8 @@ article:first-child {
     border-radius: 15%;
     
 }
+
+/** Footer */
 
 footer {
     margin-top: 3rem;
