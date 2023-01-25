@@ -34,3 +34,9 @@ section {
     width: 40rem;
     align-items: center;
 }
+footer {
+    padding: 10px 20px;   
+}
+article:first-child{
+    border: 1rem solid bisque;
+}
