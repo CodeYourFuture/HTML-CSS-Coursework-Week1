@@ -81,10 +81,15 @@ header #navbar ul {
 }
 header #navbar ul li {
   margin: 0.5rem 0.5rem;
+  
 }
+
 header #navbar ul li a {
   padding: 0.5rem 1rem;
   color: var(--light-color);
+}
+header #navbar ul li:nth-child(2) a {
+  color: var(--gray-color);
 }
 header #navbar ul li a:hover {
   background-color: var(--secondary-color);
@@ -118,11 +123,6 @@ main .definition img {
   width: 63px;
   height: 63px;
 }
-main .definition img:nth-child(3) {
-  width: 150px;
-  height: 150px;
-}
-
 /* Footer */
 footer {
   margin-top: 1.5rem;
