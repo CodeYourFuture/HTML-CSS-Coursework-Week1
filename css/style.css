@@ -1,8 +1,152 @@
-/**
- * Add your custom styles below
- * 
- * Remember: 
- * - Be organised, use comments and separate your styles into meaningful chunks
- *    for example: General styles, Navigation styles, Hero styles, Footer etc.
- * 
- */
+body {
+    font-family: Arial, Helvetica, sans-serif
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    flex: auto;
+    gap: 30px;
+    align-items: center;
+    justify-content: space-between;
+    height: 120px;
+    border: 2px solid rgb(2, 0, 10);
+}
+
+.header-image {
+    width: 140px;
+    max-width: 140px;
+    margin: 5px;
+}
+
+h1 {
+    font-size: 28px;
+    line-height: 24px;
+    font-weight: bold;
+    font-style: italic;
+    font-family: 0.8rem 'Fira Sans', sans-serif;
+    text-align: center;
+}
+
+#main-nav {
+    display: flex;
+    flex-direction: row;
+    flex: auto;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(232, 248, 11);
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+    font-family: 'Fira Sans', sans-serif;
+    margin-right: 5px;
+    padding: 10px;
+}
+
+article:first-child {
+    color: rgb(0, 0, 0);
+    background-color: rgb(245, 9, 9);
+    padding: 5px;
+    margin-top: 40px;
+    border-radius: 30px;
+    font-size: 16px;
+    line-height: 20px;
+    font-style: italic;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+article {
+    background-color: #c2f7f7;
+    padding: 5px;
+    margin-top: 40px;
+    border-radius: 30px;
+    font-size: 16px;
+    line-height: 20px;
+    font-style: italic;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.links {
+    color: rgb(19, 2, 43);
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.summary {
+    background-color: rgb(255, 255, 255);
+    display: inline-block;
+    color: rgb(0, 0, 0);
+    border-radius: 3px;
+    font-size: 16px;
+    line-height: 20px;
+    font-style: italic;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.footer-box {
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: row;
+    flex: auto;
+    gap: 2px;
+    align-items: stretch;
+    justify-content: space-between;
+    height: auto;
+    padding: 30px;
+}
+
+.subscribe-form,
+.copyright-text {
+    color: rgb(19, 2, 43);
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+#input-email {
+    text-size-adjust: 100%;
+    box-sizing: inherit;
+    font-family: sans-serif, 'Fira Sans';
+    background-color: transparent;
+    font-size: 1rem;
+    border: 1px solid rgb(226, 11, 40);
+    border-radius: 10px;
+    display: inline;
+    padding: 3px;
+    color: blue;
+}
+
+.subscribe-button {
+    align-items: center;
+    border: 0px;
+    border-radius: 10rem;
+    background-color: rgb(237, 44, 157);
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    font-family: sans-serif, 'Fira Sans';
+    font-size: 1rem;
+    font-style: italic;
+    font-weight: 300;
+    justify-content: center;
+    padding: 4px;
+    text-align: center;
+}
+
+.copyright-bars,
+.info-bar,
+.subscribe-bar {
+    display: flex;
+    flex-direction: row;
+    flex: auto;
+    gap: 2px;
+    align-items: center;
+    justify-content: space-between;
+    height: auto;
+}
