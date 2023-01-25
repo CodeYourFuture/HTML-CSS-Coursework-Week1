@@ -7,18 +7,26 @@
  * 
  */
 body {
-    font-family: 'Courier New', Courier, monospace;
-    margin: 5rem 20rem;
-    background-color: whitesmoke;
-    color: #070D0D;
+    font-family: helvetica, arial;
+    margin: 5rem;
+    background-color: #ffffff;
+    color: #343232;
+
+ }
+ section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ }
+ .flex-container {
+    width: 45rem;
  }
 header {
 text-align: center;
 margin-bottom: 3rem;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
-
-
-
 
 
 article:first-child {
@@ -33,5 +41,7 @@ article:first-child {
 footer {
     margin-top: 3rem;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 12px;
+    font-size: 11px;
+    color: darkgray;
+    font-style: italic;
 }
