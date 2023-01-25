@@ -6,3 +6,69 @@
  *    for example: General styles, Navigation styles, Hero styles, Footer etc.
  * 
  */
+
+body{
+    background-image: url("https://t3.ftcdn.net/jpg/02/78/42/76/360_F_278427683_zeS9ihPAO61QhHqdU1fOaPk2UClfgPcW.jpg");
+    background-size: cover;
+    padding-bottom: 40px;
+    line-height: 1.8;
+}
+
+/*header*/
+header{
+    font-weight: bold;
+    text-align: center;
+    margin: 50px auto;
+    color:rgb(132, 174, 90)
+}
+
+/*nav bar*/
+ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+li{
+   padding: 0px 20px; 
+}
+
+a{
+   color:rgb(237, 88, 25); 
+   text-decoration: none;
+   font-size: larger;
+}
+
+a:hover{
+    font-weight: bold;
+    color:rgb(176, 57, 71);
+}
+/* main */
+
+#swim{
+    color: rgb(224, 48, 118);
+    margin-bottom: 20px;
+}
+
+#football{
+    color:rgb(44, 44, 224)
+}
+
+#vollyball{
+    color: darkgoldenrod;
+}
+
+img{
+    width: 200px;
+    height: 100px;
+}
+
+p{
+    margin-bottom: 70px;
+    color: rgb(105, 100, 100);
+}
+
+footer{
+    text-align: center;
+    color: rgb(176, 57, 71);
+}
