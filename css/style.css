@@ -6,3 +6,92 @@
  *    for example: General styles, Navigation styles, Hero styles, Footer etc.
  * 
  */
+
+ body{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1rem;
+  font-weight: 1.5rem;
+  margin: auto;
+ }
+
+
+ h4 {
+  display: flex;
+  text-align: justify;
+  text-align: center;
+  background: lightgray;
+ }
+
+.h4{
+  display: flex;
+  justify-content: center;
+  padding-top: 5px;
+  margin: 0;
+  height: 30px;
+}
+
+
+.email-bar{
+  width: 500px;
+  border: 1px solid black;
+  border-radius: 40px;
+  color: black;
+}
+
+ .search-bar{
+  width: 40px;
+  border: 1px solid black;
+  border-radius: 10px;
+ }
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around; 
+  width: 100%;
+  background: lightgray;
+  padding-bottom: 20px;
+}
+
+.search-bar{
+  width: 15%;
+  margin-right: 10px;
+}
+
+.email-bar {
+  width: 70%;
+  margin-right: 1px;
+}
+
+p, h2, h5{
+  text-align: justify;
+  margin-left: 5rem;
+  margin-right: 10rem;
+
+ }
+
+ h2{
+  padding-top: 1rem;
+ }
+
+ p{
+  padding-bottom: 1rem;
+ }
+
+ .img-html{
+  margin-left: 5rem;
+ }
+
+.img-css {
+  margin-left: 4rem;
+}
+
+.p {
+  margin-top: 8rem;
+}
+
+footer{
+  height: 100px;
+  margin-left: 5rem;
+}
+
