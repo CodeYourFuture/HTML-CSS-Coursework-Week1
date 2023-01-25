@@ -1,22 +1,153 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
+
     <meta charset="UTF-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, shrink-to-fit=no"
-    />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
     <title>My Blog</title>
-    <link
-      href="//fonts.googleapis.com/css?family=Roboto:400,500,300"
-      rel="stylesheet"
-      type="text/css"
-    />
+    <link href="//fonts.googleapis.com/css?family=Roboto:400,500,300" rel="stylesheet" type="text/css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+
     <link rel="stylesheet" href="css/style.css" />
     <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
-  </head>
-  <body>
-    <!-- Add your HTML markup here -->
-    <!-- Remember: Use semantic HTML tags like <header>, <main>, <nav>, <footer>, <section> etc -->
-  </body>
+
+</head>
+
+<body>
+
+    <!-- header -->
+
+
+    <header class="header">
+
+        <img class="header-image" src="images-chess board.jpg" alt="chess-board">
+
+        <h1>Glasgow Southside <br> Chess Club</h1>
+
+
+        <nav id="main-nav">
+
+            <div> <a class="navigation__link" href="#">Home</a></div>
+            <div> <a class="navigation__link" href="#">About Us</a></div>
+            <div> <a class="navigation__link" href="#">Calendar</a></div>
+            <div> <a class="navigation__link" href="#">Join Us</a></div>
+            <div> <a class="navigation__link" href="#">Location & Contact</a></div>
+
+        </nav>
+
+    </header>
+
+    <!-- header -->
+
+    <!-- main -->
+
+
+
+    <main class="main">
+
+        <!-- articles -->
+
+        <section id="article-section">
+
+            <article class="article">
+                <h2>About this blog</h2>
+                <details>
+                    <summary class="summary">Why this blog?</summary>
+                    1. ............ 2. ......... ...... 3. ............ ........ .........
+                </details>
+
+                <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam a est ut libero tincidunt porta ac ut ipsum. Quisque eget cursus nulla. Fusce ac hendrerit metus, nec efficitur purus. Sed finibus ex sed orci bibendum volutpat. Donec quis
+                    blandit mi. Sed lacinia varius turpis, ac vulputate elit aliquam vel. Maecenas gravida nunc lectus, quis posuere augue cursus eu. Vestibulum feugiat risus vitae massa porttitor, venenatis ornare tortor consequat. Nunc vehicula felis
+                    erat, et tincidunt orci molestie sit amet. Sed eu dui ornare tellus ullamcorper aliquet ut eu mauris. Praesent at vestibulum enim, porta mollis urna. Sed quam enim, suscipit sed eros a, feugiat scelerisque dui. In ac nunc gravida,
+                    facilisis erat non, sagittis dolor. Curabitur a auctor mi. Donec ac gravida risus. Duis quis rutrum velit.
+                    <a class="links" href="#" target="_blank">Read more</a>
+                </p>
+
+            </article>
+
+            <article class="article">
+                <h2>The History of Chess</h2>
+                <details>
+                    <summary>Turning Points</summary>
+                    1. Before 1900 2. After 1900
+                </details>
+
+                <p> Vestibulum blandit lacus a velit feugiat, sed fringilla quam tristique. Etiam vitae dolor non massa faucibus hendrerit sed non magna. Nulla facilisi. Vivamus ac lacus porttitor, sagittis metus quis, hendrerit enim. Sed nisl justo, consequat
+                    tristique purus vel, auctor pulvinar nisl. Curabitur velit lectus, pellentesque sed erat nec, hendrerit elementum orci. Pellentesque efficitur nisl in velit posuere pellentesque. Vivamus ac vulputate felis. Vestibulum id nulla dolor.
+                    Curabitur euismod enim quis ipsum pretium scelerisque. Maecenas laoreet tristique elit. Nunc dolor felis, tincidunt ut enim at, accumsan ullamcorper est. Integer pretium ex rutrum, semper tellus maximus, dictum orci. Curabitur eget
+                    ullamcorper mi. Donec id volutpat nulla, ut ultricies justo. Quisque quis eros id ante rhoncus convallis.
+
+                    <a class="links" href="#" target="_blank">Read more</a>
+                </p>
+            </article>
+
+            <article class="article">
+                <h2>Our Club Background </h2>
+                <p>Etiam vel mi sed nunc dignissim aliquet vel ut odio. Integer finibus lectus sed lorem ullamcorper, non varius ligula pellentesque. Ut sed libero dapibus, aliquam diam sit amet, pulvinar est. Integer mattis orci vel lacus facilisis, sit
+                    amet auctor neque suscipit. Suspendisse vitae pretium justo. Donec vitae imperdiet nibh. Nullam convallis ipsum non ligula placerat, at ultrices sem laoreet. Sed eu tellus ante. Fusce venenatis ligula lacus, et pellentesque magna molestie
+                    in. Quisque pretium tincidunt congue. Nullam a ultricies metus, tincidunt pharetra magna. Phasellus eget nisi non dui fermentum venenatis. Maecenas interdum libero nisl, nec vulputate massa feugiat vitae. Sed nibh nisl, vulputate a
+                    libero eu, faucibus porta augue. Etiam sem ante, finibus at efficitur a, hendrerit nec magna.
+                    <a class="links" href="#" target="_blank">Read more</a>
+                </p>
+            </article>
+
+        </section>
+
+
+
+    </main>
+
+    <!-- main -->
+
+    <!-- footer -->
+
+
+    <footer>
+
+        <div class="footer-box">
+
+            <div class="subscribe-bar">
+                <form class="subscribe-form">
+                    <h2 class="subscribe">Subscribe to our blog</h2>
+                    <label class="email" for="input-email">Email address</label>
+                    <input type="email" name="email" id="input-email" placeholder="email@example.com">
+                    <button class="subscribe-button">Subscribe</button>
+                </form>
+            </div>
+
+            <div class="info-bar">
+                <ul class="info-section">
+                    <li class="info-section"><a href="#" target="_blank" class="info-section">Community</a></li>
+                    <li class="info-section"><a href="#" target="_blank" class="info-section">Guidelines</a></li>
+                    <li class="info-section"><a href="#" target="_blank" class="info-section">Location & Contact</a></li>
+                    <li class="info-section"><a href="#" target="_blank" class="info-section">FAQs</a></li>
+                </ul>
+            </div>
+
+            <div class="terms-bar">
+                <ul class="terms-bar">
+                    <li class="term"><a href="#" target="_blank" class="term">Terms</a></li>
+                    <li class="term"><a href="#" target="_blank" class="term">Privacy Policy</a></li>
+                    <li class="term"><a href="#" target="_blank" class="term">License</a></li>
+                </ul>
+            </div>
+
+
+        </div>
+        <div>
+            <p class="copyright-text">© Copyright Glasgow Chess Club 2023</p>
+        </div>
+
+    </footer>
+
+    <!-- footer -->
+
+
+
+</body>
+
 </html>
