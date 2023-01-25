@@ -22,7 +22,8 @@
  .navigation {
     display: flex;
     justify-content: space-evenly;
-    height: 9rem;
+    margin-top: 3rem;
+    margin-bottom: 4rem;
     align-items: center;
  }
 
@@ -56,13 +57,57 @@
    background-color: #000; 
    position: fixed;
    right: 0px;
-   top: 35%;
+   top: 0%;
    display: flex;
    flex-direction: column;
    width: 3rem;
+   height: 45rem;
  }
 
  a:hover {
     cursor: pointer;
     color: rgb(251, 52, 52);
+ }
+
+ article {
+   display: flex;
+   column-gap: 5rem;
+ }
+ .article__scifi {
+   max-width: 526px;
+   margin: 4rem 0 0 4rem;
+ }
+
+ h2 {
+   text-align: center;
+   margin-top: 3rem;
+   margin-bottom: 1rem;
+ }
+
+ .article__blade {
+   margin-top: 4rem;
+ }
+
+ .img__blade {
+   max-width: 547px;
+   height: 1000px;
+
+ }
+
+ .article__avatar {
+   margin-left: 4rem;
+   max-width: 526px;
+ }
+
+ .article__arrival {
+   margin-top: 4rem;
+ }
+
+ .footer {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin: 3rem 10rem 0 10rem;
+   height: 150px;
+   border-top: #fff solid 1px;
  }
