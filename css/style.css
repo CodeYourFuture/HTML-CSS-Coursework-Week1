@@ -1,8 +1,130 @@
-/**
- * Add your custom styles below
- * 
- * Remember: 
- * - Be organised, use comments and separate your styles into meaningful chunks
- *    for example: General styles, Navigation styles, Hero styles, Footer etc.
- * 
- */
+:root {
+  --primary-color: #333;
+  --secondary-color: #93cb52;
+  --light-color: #fff;
+  --gray-color: #f4f4f4;
+  --hover-color: #7ab436;
+  --max-width: 1100px;
+}
+
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* body */
+body {
+  font-family: "Roboto", sans-serif;
+  line-height: 1.8;
+  font-size: 18px;
+}
+
+/* utilities */
+.container {
+  max-width: var(--max-width);
+  margin: auto;
+  padding: 0 2rem;
+  overflow: hidden;
+}
+.text-center {
+  text-align: center;
+}
+.text-secondary {
+  color: var(--secondary-color);
+}
+.bg-light {
+  background: var(--light-color);
+  color: var(--primary-color);
+}
+.bg-dark {
+  background: var(--primary-color);
+  color: var(--light-color);
+}
+.btn {
+  display: inline-block;
+  color: var(--light-color);
+  background-color: var(--secondary-color);
+  padding: 0.5rem 2rem;
+  border: none;
+  border-radius: 5px;
+  /* margin-top: 1rem; */
+}
+.btn:hover {
+  background: var(--hover-color);
+}
+a {
+  text-decoration: none;
+}
+.py-0 {
+  padding: 1rem 0;
+}
+.py-1 {
+  padding: 1.5rem 0;
+}
+
+/* Header */
+header #navbar {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header #navbar ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+}
+header #navbar ul li {
+  margin: 0.5rem 0.5rem;
+}
+header #navbar ul li a {
+  padding: 0.5rem 1rem;
+  color: var(--light-color);
+}
+header #navbar ul li a:hover {
+  background-color: var(--secondary-color);
+  border-radius: 5px;
+}
+
+/* Main */
+/* Main - Introduction Section */
+main .introduction {
+  text-align: center;
+}
+
+/* Main - Definition Section */
+main .definition {
+  padding: 0rem 2rem;
+}
+main .definition ol {
+  padding-left: 2rem;
+  margin-bottom: 2rem;
+}
+main .definition a {
+  color: var(--gray-color);
+  background-color: var(--secondary-color);
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+}
+main .definition a:hover {
+  background-color: var(--hover-color);
+}
+main .definition img {
+  width: 63px;
+  height: 63px;
+}
+main .definition img:nth-child(3) {
+  width: 150px;
+  height: 150px;
+}
+
+/* Footer */
+footer {
+  margin-top: 1.5rem;
+  text-align: center;
+}

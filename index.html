@@ -6,17 +6,164 @@
       name="viewport"
       content="width=device-width, initial-scale=1, shrink-to-fit=no"
     />
-    <title>My Blog</title>
+
     <link
       href="//fonts.googleapis.com/css?family=Roboto:400,500,300"
       rel="stylesheet"
       type="text/css"
     />
     <link rel="stylesheet" href="css/style.css" />
+    <title>My Blog</title>
     <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
   </head>
   <body>
-    <!-- Add your HTML markup here -->
-    <!-- Remember: Use semantic HTML tags like <header>, <main>, <nav>, <footer>, <section> etc -->
+    <!-- Header section -->
+    <header class="py-1 bg-dark">
+      <div class="container">
+        <nav id="navbar">
+          <h1><span class="text-secondary">web browsers</span></h1>
+          <ul>
+            <li><a href="#chrome">Chrome</a></li>
+            <li><a href="#safari">Safari</a></li>
+            <li><a href="#edge">Edge</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Main section -->
+    <main>
+      <div class="container">
+        <!-- Introduction Section -->
+        <section class="introduction bg-light py-1">
+          <h2>Different types of web browsers</h2>
+          <p class="py-0">
+            When it comes to the list of web browsers then in the market there
+            are several but which one is the best, Inside this post you will get
+            the different types of
+            <strong><span class="text-secondary">web browsers</span></strong>
+            that have all the specific requirements that you are looking for.
+          </p>
+          <img
+            src="./img/intro.jpg"
+            height="500"
+            alt="Different types of web browsers and their purpose"
+          />
+        </section>
+      </div>
+
+      <!--Definition Section  -->
+      <section class="definition bg-light">
+        <div class="container">
+          <h2>
+            There is an ample list of web browsers available for your use, but
+            the most common ones are here with an elaborated explanation.
+          </h2>
+
+          <article class="article py-1" id="chrome">
+            <h3 class="py-1">
+              1. <span class="text-secondary">Google Chrome</span>
+            </h3>
+            <img src="./img/chrome-logo-m100.svg" alt="Chrome_img" />
+            <p>
+              Google Chrome is a web browser that has brought a tremendous
+              revolution in the history of web browsers. At present, it is the
+              most widely used browser. It is known for its strong browser
+              performance. Google Chrome is the most popular browser that people
+              use today. The main reason for this is its speed. It’s a fast
+              browser. It opens quickly and loads multiple tabs and pages in
+              just one click. It’s probably the fastest browser available today.
+              <br /><br /><strong
+                >Here is a list of a few features that the chrome homepage
+                inhibits:</strong
+              >
+            </p>
+            <ol>
+              <li>Smart search suggestion</li>
+              <li>Enhanced performance</li>
+              <li>language support</li>
+              <li>Reader mood to view a webpage</li>
+            </ol>
+            <a href="https://www.google.com/chrome/">Download</a>
+          </article>
+          <hr />
+
+          <article class="article py-1" id="safari">
+            <h3 class="py-1">2. <span class="text-secondary">Safari</span></h3>
+            <img src="./img/safari-svgrepo-com.svg" alt="safari_img" />
+            <p>
+              Apple Inc. invented this web browser. By default, this web browser
+              is present on all Apple devices. Safari supports the latest
+              technologies like XHTML, CSS2, etc. Safari is a graphical web
+              browser developed by Apple. It is primarily based on open-source
+              software, and mainly WebKit. It succeeded Netscape Navigator,
+              Cyberdog and Internet Explorer for Mac as the default web browser
+              for Macintosh computers.<br /><br /><strong>
+                Take a look at some of the impressive features of the Safari
+                interface:</strong
+              >
+            </p>
+            <ol>
+              <li>Smart address bar</li>
+              <li>Full-screen video and geolocation</li>
+              <li>Extended support for HTML5</li>
+              <li>Tabbed browsing</li>
+              <li>Private browsing</li>
+            </ol>
+            <a href="https://www.apple.com/safari/">Download</a>
+          </article>
+          <hr />
+
+          <article class="article" id="edge">
+            <h3 class="py-1">
+              3. <span class="text-secondary">Microsoft Edge</span>
+            </h3>
+            <img
+              src="./img/Microsoft_Edge_logo_(2019).svg.png"
+              alt="Edge_img"
+            />
+            <p>
+              Microsoft Edge was invented by the tech giant Microsoft in 2015.
+              It replaced internet explorer as the default web browser on all
+              its devices. If you are looking for a fast, secure browser for
+              your business that offers the best of Microsoft, look no further
+              than Microsoft Edge. Microsoft Edge helps you browse without
+              skipping a beat. Built-in features like Collections, vertical
+              tabs, and tab groups help you stay organized and achieve more.
+              <br /><br /><strong
+                >Here are some of the features of the Edge interface:</strong
+              >
+            </p>
+            <ol>
+              <li>Implementation of Cortana</li>
+              <li>Reading view</li>
+              <li>Doodle on a web page</li>
+              <li>Integrated share panel</li>
+              <li>Newsfeed on the startup page</li>
+            </ol>
+            <a href="https://www.microsoft.com/en-us/edge?form=MA13FJ"
+              >Download</a
+            >
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="py-1 bg-dark">
+      <p>
+        <span class="text-secondary">©Navid Hejazi </span> <br /><br />
+        Email: navidhejazi68@yahoo.com
+      </p>
+    </footer>
+
+    <!-- JQuery CDN -->
+    <script
+      src="https://code.jquery.com/jquery-3.6.1.min.js"
+      integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ="
+      crossorigin="anonymous"
+    ></script>
+    <!-- Local JS File -->
+    <script src="./js/main.js"></script>
   </body>
 </html>
