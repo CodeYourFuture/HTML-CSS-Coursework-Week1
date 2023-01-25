@@ -6,3 +6,50 @@
  *    for example: General styles, Navigation styles, Hero styles, Footer etc.
  * 
  */
+
+ /** General Styles */
+
+body {
+    font-family: helvetica, arial;
+    margin: 5rem;
+    background-color: #ffffff;
+    color: #343232;
+
+ }
+
+ /** Section */
+
+ section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ }
+ .flex-container {
+    width: 45rem;
+ }
+ header {
+text-align: center;
+margin-bottom: 3rem;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+
+ article:first-child {
+    border: 2px solid #ffd8be;
+    margin: 2rem 0;
+    padding: 3rem;
+    background-color: #fffcf2;
+    border-radius: 15%;
+    
+}
+
+/** Footer */
+
+footer {
+    margin-top: 3rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    color: darkgray;
+    font-style: italic;
+}
