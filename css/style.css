@@ -43,14 +43,6 @@
 }
 
 
-
-/* /* Change the color of links on hover */
-.topnav a:hover {
-    background-color: #e99adc;
-    color: black;
-}
-
-
 /*social media icon styling*/
 .icon-parent{
         display: flex;
@@ -123,22 +115,6 @@ footer{
   font-size: 10px;
 }
 /*media query*/
-
-/* If the screen size is 600px wide or less, hide the element */
-/* @media only screen and (max-width: 600px) {
-    .summary {
-        background-color: green;
-    }
-}
-
-@media screen and (min-width: 690px){
-   .iconcontain {
-
-   align-items: center;
-   margin-left: 150px;
-    }
-    
-} */
 
 @media only screen and (min-width: 600px) {
     .image1{
