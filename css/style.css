@@ -6,3 +6,23 @@
  *    for example: General styles, Navigation styles, Hero styles, Footer etc.
  * 
  */
+
+
+.header_logo {
+    max-height: 90px;
+    width: auto;
+}
+
+.socialmedia_icon {
+    max-height: 20px;
+    width: auto;
+    opacity: 30%;
+}
+
+.socialmedia_link {
+    text-decoration: none;
+}
+
+
+
+/* :first-child pseudo-class ---> VIMP */
