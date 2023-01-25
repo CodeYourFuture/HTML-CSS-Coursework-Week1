@@ -31,6 +31,7 @@ h2{
     color:  rgb(236, 252, 252);
 }
 section {
+    padding: 1rem;
     width: 40rem;
     align-items: center;
 }
@@ -38,5 +39,7 @@ footer {
     padding: 10px 20px;   
 }
 article:first-child{
+    padding: 1rem;
     border: 1rem solid bisque;
+    
 }
