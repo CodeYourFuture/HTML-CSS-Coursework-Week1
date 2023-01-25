@@ -6,3 +6,32 @@
  *    for example: General styles, Navigation styles, Hero styles, Footer etc.
  * 
  */
+body {
+    font-family: 'Courier New', Courier, monospace;
+    margin: 5rem 20rem;
+    background-color: whitesmoke;
+    color: #070D0D;
+ }
+header {
+text-align: center;
+margin-bottom: 3rem;
+}
+
+
+
+
+
+article:first-child {
+    border: 2px solid #ffd8be;
+    margin: 2rem 0;
+    padding: 3rem;
+    background-color: #fffcf2;
+    border-radius: 15%;
+    
+}
+
+footer {
+    margin-top: 3rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
