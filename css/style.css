@@ -6,3 +6,95 @@
  *    for example: General styles, Navigation styles, Hero styles, Footer etc.
  * 
  */
+/* Blog.CSS 4.15 December 2020 by Jan Egil and Borge Refsnes */
+
+
+
+.Blog-image {
+    max-width: 100%;
+    height: auto
+}
+
+.img {
+    vertical-align: middle
+}
+
+.Blog-button {
+    border: none;
+    display: inline-block;
+    padding: 8px 16px;
+    vertical-align: middle;
+    text-align: center;
+    cursor: pointer;
+}
+
+.Blog-bar .Blog-bar-item {
+    padding: 8px 16px;
+    float: left;
+    width: auto;
+    border: none;
+    display: block;
+    outline: 0
+}
+
+.Blog-bar {
+    position: static;
+    float: left
+}
+
+.Blog-bar .Blog-button {
+    white-space: normal
+}
+
+.Blog-bar-block .Blog-bar-item {
+    width: 100%;
+    display: block;
+    padding: 8px 16px;
+    text-align: left;
+    border: none;
+    white-space: normal;
+    float: none;
+    outline: 0
+}
+
+.Blog-bar-block.Blog-center .Blog-bar-item {
+    text-align: center
+}
+
+.Blog-block {
+    display: block;
+    width: 100%
+}
+
+.Blog-left {
+    text-align: left !important
+}
+
+.Blog-right-align {
+    text-align: right !important
+}
+
+.Blog-justify {
+    text-align: justify !important
+}
+
+.Blog-center {
+    text-align: center !important
+}
+
+.Blog-button:hover {
+    color: #000 !important;
+    background-color: #ccc !important
+}
+
+/* Colors */
+
+.Blog-pink {
+    color: #fff !important;
+    background-color: #e91e63 !important
+}
+
+.Blog-light-grey {
+    color: #000 !important;
+    background-color: #f1f1f1 !important
+}
