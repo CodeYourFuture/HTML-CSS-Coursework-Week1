@@ -16,21 +16,22 @@ Please complete the details below this message
 
 # Your Details
 
-- Your Name:
-- Your City:
-- Your Slack Name:
+- Your Name: Cal Tanner
+- Your City: London
+- Your Slack Name: Cal
 
 # Homework Details
 
-- Module:
-- Week:
+- Module: html/css
+- Week: 1
 
 # Notes
 
 - What did you find easy?
-
+The semantic HTML
 - What did you find hard?
 
 - What do you still not understand?
 
 - Any other notes?
+I need to work out how to stop the links in the articles inheriting the first-child class of the articles 
