@@ -6,3 +6,52 @@
  *    for example: General styles, Navigation styles, Hero styles, Footer etc.
  * 
  */
+
+body {
+    background-color: rgb(10, 97, 97);
+}
+
+header h1 {
+    display:flex;
+    justify-content: center;
+    color:rgb(241, 224, 207)
+}
+
+header, h1 {
+    color: white;
+}
+
+nav{
+    display: flex;
+    justify-content: right;
+}
+
+ ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+ }
+
+ la {
+    display: block;
+    width: 60px;
+ }
+
+ article :first-child  {
+    color: whitesmoke;
+    background-color: black;
+    padding: 5px;
+ }
+
+ article p {
+    color: rgb(5, 5, 5);
+    background-color: rgb(250, 248, 247);
+ }
+
+ 
+    
+ footer{
+    display: flex;
+    justify-content: center;
+    color: white;
+ }
