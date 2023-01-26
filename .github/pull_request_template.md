@@ -16,21 +16,21 @@ Please complete the details below this message
 
 # Your Details
 
-- Your Name:
-- Your City:
-- Your Slack Name:
+- Your Name: Anna Hrychaniuk
+- Your City: London
+- Your Slack Name: Anna Hrychaniuk
 
 # Homework Details
 
-- Module:
-- Week:
+- Module: HTML/CSS
+- Week: 1
 
 # Notes
 
 - What did you find easy?
-
+   HTML code
 - What did you find hard?
-
+   CSS code
 - What do you still not understand?
-
+   I don't fully understand flexbox 
 - Any other notes?
