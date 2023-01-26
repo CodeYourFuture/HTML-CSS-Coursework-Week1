@@ -6,3 +6,37 @@
  *    for example: General styles, Navigation styles, Hero styles, Footer etc.
  * 
  */
+
+ /* header style */
+ .center{
+    left: 0;
+    line-height: 20px;
+    margin-top: -100px;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    width: 100%;
+
+ }
+ .fa-solid{
+    font-size: 50px;
+    color:#333258;
+    padding-bottom: 30px;
+ }
+ h1{
+    font-family: 'Comfortaa-300' ;
+    font-size: 27px;
+    -webkit-text-fill-color: #333258;
+    text-decoration-color:#8C94CC;
+ }
+ p{
+    font-family: 'Monserat-500';
+    font-size: 16px;
+    -webkit-text-fill-color: #333258;
+    text-decoration-color:#8C94CC;
+
+
+ }
+body{
+    background-color: #F3F3F3;
+}
