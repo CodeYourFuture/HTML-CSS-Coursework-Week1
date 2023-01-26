@@ -6,5 +6,48 @@
  *    for example: General styles, Navigation styles, Hero styles, Footer etc.
  * 
  */
-header{display: flex
+header{display: flex;
+    justify-content:flex-start;}
+    h1{display:flex;
     justify-content:center;}
+    
+    body{ background-image: url("https://i.assetzen.net/i/vQsWXXFrzGbd/w:auto/h:400/q:70.jpg");
+    font-size:20px;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position:center;
+    font-style:normal;
+    color:black;
+font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;}
+
+h2{color:brown;
+font-size: 50px;}
+
+.nature
+{width: 400px;
+border: 3px solid green;
+padding:5px;
+margin:5px;}
+
+.culture
+{width:fit-content;
+border:3px solid red;
+padding:10px;
+margin:10px;
+}
+
+.history{
+    width:400px;
+    padding:5px;
+    margin:5px;
+    border:3px solid yellow;
+    }
+    div{display:flex;
+    justify-content: space-around;}
+
+    footer{font-size: 30px;
+    color:darkred;
+    font-style: italic;
+    display:flex;
+    justify-content: center;
+}
