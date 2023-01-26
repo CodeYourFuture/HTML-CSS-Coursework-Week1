@@ -6,3 +6,55 @@
  *    for example: General styles, Navigation styles, Hero styles, Footer etc.
  * 
  */
+ footer {
+    align-items: flex-end;
+    text-align: center;
+    border-top: 5px solid blue;
+    margin: 2em;
+    padding: 2em;
+    font: italic;
+    }
+
+ .images {
+    width: 35%;
+    height: 35%;
+    margin: 0.5rem;
+ }
+
+ html {
+    background-color: #D7FAFD;
+ }
+
+ h1 {
+    color: #E2F513;
+    font: bold;
+ }
+
+ #head-description {
+    font: italic;
+    color: #E2F513;    
+ }
+
+ header {
+    text-align: center;
+    margin-bottom: 2rem;
+    font-size: 2rem;
+    text-shadow: black 1px 0 10px;
+    line-height: 0;
+ }
+
+ #div-one {
+    display: flex;
+    flex: 1 1 0px;
+     }
+
+article {
+    margin: 2rem;
+    width: 40rem;
+}
+
+ article:first-child {
+    border: 1px dotted green;
+    padding: 1rem;
+    text-align: justify;
+ }
