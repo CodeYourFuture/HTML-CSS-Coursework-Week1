@@ -6,3 +6,21 @@
  *    for example: General styles, Navigation styles, Hero styles, Footer etc.
  * 
  */
+
+ /*General styles*/
+
+ :root {
+    --white: #FEFEFE;
+    --paleblue: #A8CDDA;
+    --charcoal: #292929;
+    --skyblue: #2D89B4;
+    --darkblue: #15303D;
+
+
+ }
+
+ body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Ubuntu', sans-serif;
+ }
