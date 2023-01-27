@@ -1,8 +1,56 @@
-/**
- * Add your custom styles below
- * 
- * Remember: 
- * - Be organised, use comments and separate your styles into meaningful chunks
- *    for example: General styles, Navigation styles, Hero styles, Footer etc.
- * 
- */
+body {
+  background-color: #f8d7d7;
+  font-family: "Palatino, URW Palladio L", serif;
+}
+
+header {
+  text-align: center;
+}
+h1 {
+  color: #191308;
+}
+
+h2 {
+  color: #4a3f39;
+}
+
+section:first-child {
+  background-color: #fcb5a5;
+  margin: 10px;
+  border-radius: 20px;
+  padding: 20px;
+  text-align: center;
+}
+
+#second_article {
+  background-color: #fcb5b5;
+  margin: 10px;
+  border-radius: 20px;
+  padding: 20px;
+  text-align: center;
+}
+
+#third_article {
+  background-color: #fcb5d5;
+  margin: 10px;
+  border-radius: 20px;
+  padding: 20px;
+  text-align: center;
+}
+
+footer {
+  font-family: "Palatino, URW Palladio L", serif;
+  color: #191308;
+  text-align: center;
+}
+
+#discover_mindful {
+  margin: 20px;
+}
+
+ul {
+  list-style-type: circle;
+  margin: 0;
+  padding: 0;
+  padding: 20px;
+}
