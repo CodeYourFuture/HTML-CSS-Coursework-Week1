@@ -8,95 +8,54 @@
  */
 /* Blog.CSS 4.15 December 2020 by Jan Egil and Borge Refsnes */
 
-.Blog-main-section {
-  flex: center;
+* {
+  box-sizing: border-box;
+}
+body {
+  padding: 15ex;
+  background: #e796b1;
+}
+/* The navbar container */
+.topnav {
+  overflow: hidden;
+  background-color: #4f3850;
 }
 
-.Blog-image {
-  max-width: 100%;
-  height: auto;
+/* Navbar links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
 }
 
+/* Links - change color on hover */
+.footer a:hover,
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* image */
 .img {
-  vertical-align: middle;
-}
-
-.Blog-button {
-  border: none;
-  display: inline-block;
-  padding: 8px 16px;
-  vertical-align: middle;
-  text-align: center;
-  cursor: pointer;
-}
-
-.Blog-bar .Blog-bar-item {
-  padding: 8px 16px;
-  float: left;
-  width: auto;
-  border: none;
-  display: block;
-  outline: 0;
-}
-
-.Blog-bar {
-  position: static;
-  float: left;
-}
-
-.Blog-bar .Blog-button {
-  white-space: normal;
-}
-
-.Blog-bar-block .Blog-bar-item {
+  background-color: #aaa;
   width: 100%;
-  display: block;
-  padding: 8px 16px;
-  text-align: left;
-  border: none;
-  white-space: normal;
-  float: none;
-  outline: 0;
+  padding: 20px;
 }
 
-.Blog-bar-block.Blog-center .Blog-bar-item {
+/*      article card  */
+.card {
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
   text-align: center;
-}
-
-.Blog-block {
-  display: block;
-  width: 100%;
-}
-
-.Blog-left {
-  text-align: left !important;
-}
-
-.Blog-right-align {
-  text-align: right !important;
-}
-
-.Blog-justify {
-  text-align: justify !important;
-}
-
-.Blog-center {
-  text-align: center !important;
-}
-
-.Blog-button:hover {
-  color: #000 !important;
-  background-color: #ccc !important;
-}
-
-/* Colors */
-
-.Blog-pink {
-  color: #fff !important;
-  background-color: #e91e63 !important;
-}
-
-.Blog-light-grey {
-  color: #000 !important;
-  background-color: #f1f1f1 !important;
+  background: #4f3850;
+  margin-top: 20px;
 }
