@@ -1,26 +1,44 @@
 /* root */
 
+
 /* general */
-body {
+html, body {
     margin: 0;
+    padding: 0;
+    line-height: 1.4;
     font-family: sans-serif;
 }
 
+body {
+    margin: 0 10px;
+}
+
 img {
-    max-width: 100%;
+    width: 100%;
 }
 
 .container {
-    width: 80%;
-    max-width: 800px;
-    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 80px 1fr 80px;
 }
 
-
-/* header */
-.intro {
-    background-color: lightcoral;
-    padding: 3em 0;
+.container > * {
+    grid-column: 2;
+    min-width: 0;
 }
 
-/* main */
+article {
+    margin: 50px 0;
+}
+
+.section-break {
+    grid-column: 2;
+    height: 1px;
+    background-color: black;
+    margin: 10px 0;
+}
+
+footer p {
+    text-align: center;
+}
+
