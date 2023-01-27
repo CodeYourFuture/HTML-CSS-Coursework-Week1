@@ -6,3 +6,24 @@
  *    for example: General styles, Navigation styles, Hero styles, Footer etc.
  * 
  */
+ @import url('https://fonts.googleapis.com/css2?family=Explora&display=swap');
+
+ body {
+    font-family: 'Explora', cursive;
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    margin: 2rem;
+ }
+
+ h1 {
+    font-size: 10rem;
+ }
+
+ h2 {
+    font-size: 5rem;
+ }
+
+ article:first-child {
+    color: goldenrod;
+ }
