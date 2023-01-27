@@ -6,3 +6,74 @@
  *    for example: General styles, Navigation styles, Hero styles, Footer etc.
  * 
  */
+
+body {
+  background-color: #f3d3bd;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  color: #5e5e5e;
+}
+
+#title {
+  background-color: black;
+  color: white;
+  position: relative;
+  text-align: center;
+  font-style: italic;
+  width: 100vw;
+}
+
+header > p {
+  text-indent: 25px;
+}
+
+footer {
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#madeby {
+  margin: auto;
+  padding: 10px;
+  bottom: 15px;
+}
+
+section:first-child {
+  background-color: rgb(188, 172, 202);
+  border-radius: 5px;
+  margin-bottom: 100px;
+  padding: 5px;
+  width: 99vw;
+}
+
+.articles > h2 {
+  text-align: center;
+  background-color: black;
+  border-radius: 4px;
+  width: 100vw;
+}
+
+h2 > a {
+  color: black;
+  background-color: #fcfaf9;
+  border-radius: 10px;
+  padding: 1px 10px 1px 10px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 1000;
+  font-style: italic;
+  text-decoration: none;
+}
+
+.articles > p {
+  text-indent: 25px;
+  text-align: justify;
+  color: #5e5e5e;
+}
+.logos {
+  display: block;
+  border-radius: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 75px;
+}
