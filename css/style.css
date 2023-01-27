@@ -23,21 +23,30 @@ body {
   width: 100vw;
 }
 
-footer {
-  position: relative;
+header > p {
+  text-indent: 25px;
 }
-footer > div {
-  position: absolute;
-  top: 100vh;
-  left: 45vmax;
-}
-/* #madeby:first-child {
-  text-align: center;
-} */
 
-/* .articles {
-  border-style: dashed;
-} */
+footer {
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#madeby {
+  margin: auto;
+  padding: 10px;
+  bottom: 15px;
+}
+
+section:first-child {
+  background-color: rgb(188, 172, 202);
+  border-radius: 5px;
+  margin-bottom: 100px;
+  padding: 5px;
+  width: 99vw;
+}
+
 .articles > h2 {
   text-align: center;
   background-color: black;
@@ -61,15 +70,10 @@ h2 > a {
   text-align: justify;
   color: #5e5e5e;
 }
-
-#artc1 {
-}
-
 .logos {
   display: block;
-  height: 100px;
-  width: 100px;
   border-radius: 15px;
   margin-left: auto;
   margin-right: auto;
+  height: 75px;
 }
