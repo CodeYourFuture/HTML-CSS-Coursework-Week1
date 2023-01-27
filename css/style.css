@@ -6,3 +6,38 @@
  *    for example: General styles, Navigation styles, Hero styles, Footer etc.
  * 
  */
+ h1, h2{
+  text-align: center;
+  border-left: 50px;
+  }
+  p{
+      font-size: larger;
+  }
+   img {
+        margin: 40px 0px 0px 0px;
+        border: 7px solid white;
+        border-radius: 20px;
+      }
+  
+  nav{
+      text-align: center;
+     word-spacing: 8px;
+  
+  }
+  body{
+      background-image: url('https://pixabay.com/get/g0367f7584f93a92922ab5a9f7798d9991cd7a5bd593b2df6f05b84f10b2b8934b88d65f1c818d715c27bb193139718fb8a57b5cb38785df8357b5901ef59102921d2051ce62538ac76ba0ff90314e5fd_1920.jpg');
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: cover;
+  }
+  iframe{
+      margin-left:auto;
+      margin-right:auto;
+      width:100%;
+  
+  }
+  .part2{
+      padding-top: 35px;
+  }
+  
+  Footer
