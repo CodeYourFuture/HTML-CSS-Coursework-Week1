@@ -1,7 +1,7 @@
 /* Root */
 :root {
     --blue-color: #1f25ec;
-    --red-color: #ff7546;
+    --red-color: #f73c3d;
     --green-color: #04f5a4;
     --lightpink-color: #ffd9d2;
 }
@@ -11,7 +11,7 @@ html, body {
     margin: 0;
     padding: 0;
     line-height: 1.4;
-    font-family: sans-serif;
+    font-family: 'Inter', sans-serif;
 }
 
 body {
@@ -30,12 +30,30 @@ a {
 /* Overall Grid Layout */
 .container {
     display: grid;
-    grid-template-columns: 80px 1fr 80px;
+    grid-template-columns: 100px auto 100px;
 }
 
 .container > * {
     grid-column: 2;
     min-width: 0;
+}
+
+/* Header */
+
+.container > header {
+    grid-column: 1 / -1;
+    background-color: var(--red-color);
+}
+
+header > .header__content {
+    padding: 3rem;
+    max-width: 80%;
+    margin: auto;
+}
+
+header h1 {
+    color: var(--lightpink-color);
+    font-size: 3rem;
 }
 
 /* Articles */
@@ -50,6 +68,17 @@ article > h2 {
 
 article > a h2:hover {
     text-decoration: underline;
+}
+
+.article-break {
+    height: 2px;
+    width: 5rem;
+    background-color: pink;
+}
+
+main article:first-child {
+    border: 3px solid var(--blue-color);
+    padding: 2rem;
 }
 
 /* Footer */
