@@ -1,8 +1,44 @@
+
+
+
+   
+
+
+
 /**
  * Add your custom styles below
+
  * 
  * Remember: 
  * - Be organised, use comments and separate your styles into meaningful chunks
  *    for example: General styles, Navigation styles, Hero styles, Footer etc.
  * 
  */
+body
+{
+    Color: blue;
+    background-image: url("https://img.freepik.com/premium-photo/set-various-social-media-blocks-blue-painted-wall_23-2147841215.jpg?w=2000");
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: medium;
+}
+.facebook{
+    margin: 1px;
+    padding: 5px ;
+border: 2px;
+}
+.instagram{
+    Margin: 5px;
+padding: 3px;
+border: 3px; 
+}
+.youtube{ 
+    margin: 5px;
+    padding: 4px;
+    border: 4px;
+    
+}
+
+footer{
+    color: ;
+    font-style: ;
+}
