@@ -7,20 +7,59 @@
  * 
  */
 
- /*General styles*/
+/*General styles*/
 
- :root {
+:root {
     --white: #FEFEFE;
     --paleblue: #A8CDDA;
     --charcoal: #292929;
     --skyblue: #2D89B4;
     --darkblue: #15303D;
+}
 
-
- }
-
- body {
+body {
     margin: 0;
     padding: 0;
     font-family: 'Ubuntu', sans-serif;
- }
+    color: var(--charcoal);
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+/*Header, Navigation*/
+
+.head-section {
+    background-color: var(--white);
+    border-bottom: 1px solid #2D89B4;
+    padding-bottom: 0;
+    display: flex;
+    align-items: center;
+
+}
+
+.navigation {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    max-width: 200px;
+
+}
+
+.link-container {
+    display: flex;
+    padding-right: 2rem;
+}
+
+li {
+    padding-left: 3rem;
+
+}
