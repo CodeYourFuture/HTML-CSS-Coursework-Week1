@@ -6,13 +6,13 @@
  *    for example: General styles, Navigation styles, Hero styles, Footer etc.
  * 
  */
- * {
+ /* {
 
 margin: 0;
 padding: 0;
 box-sizing: border-box;
 
-}
+}*/
 
 body {
 font-family: cursive;
@@ -42,12 +42,15 @@ list-style: none;
     width: 100%;
  }
 
- img {
-   height: 600px;
-   width: 500px;
+ .background-image {
+   height: 900px;
+   width: 700px;
    max-width: 100%;
    object-fit: scale-down;
-   float: right;
+   padding-right: 60px;
+   display :block;
+   padding-bottom: 50px;
+   
 
  }   
 
@@ -225,6 +228,7 @@ background-color: #474668;
 }
 
 .about {
+   height: 400px;
    display :grid;
    grid-template-rows: 100px 100px;
    text-align: center;
@@ -238,7 +242,7 @@ background-color: #474668;
 
 .services1 {
    display:grid;
-   grid-template-rows: 100px 100px;
+   grid-template-rows: 200px;
    justify-content: space-evenly;
    color: black;
    background-color: #F3F3F3;
@@ -247,15 +251,26 @@ background-color: #474668;
 
 .services1 h1{
    text-align: center;
-   padding-top: 30px;
+   padding-top: 50px;
+   margin-top: 10px;;
 }
-.services article{
-   
+.services1 article {
+   line-height: 20px;
+   padding: 20px;
+   display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+
 }
+.services1 article h2{
+   padding-bottom: 10px;
+}
+
+
 .contact {
    height: 700px;   
    display: inline-block;
    width:100%;
 }
-*/
-/*    <img src="workingmum.png" class="background-image"  alt="a mum with a child and a laptop"> */
+
+
