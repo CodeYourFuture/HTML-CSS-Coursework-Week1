@@ -6,3 +6,71 @@
  *    for example: General styles, Navigation styles, Hero styles, Footer etc.
  * 
  */
+ html {
+    background-color:rgb(240, 240, 229);
+ }
+.nav {
+    overflow: hidden;
+    background-color: aquamarine;
+
+}
+
+.nav a {
+    float: left;
+    color:black;
+    padding: 10px 15px;
+    text-align: center;
+    font-size: 20px;
+    text-decoration: none;
+
+}
+
+.nav a:hover {
+    background-color: brown;
+    color:white;
+
+}
+
+h1 {
+    color: rgb(5, 24, 18);
+    font-size: 35px;
+}
+
+.image {
+    padding-bottom: 2rem;
+}
+
+.articles {
+    color: rgb(63, 6, 6);
+    padding: 1rem 0 10rem 0;
+}
+
+.articles h2 {
+    color:brown;
+    
+}
+
+.articles a {
+    text-decoration: none;
+}
+
+.articles a:hover {
+    background-color: blueviolet;
+    color: white;
+}
+
+article:first-child {
+    color: rgb(8, 9, 9);
+    font-style: italic;
+}
+
+footer {
+    font-style: inherit;
+}
+
+footer span {
+   color: rgb(2, 93, 2);
+   font-size: 1.5rem;
+   font-weight: bold;
+}
+
