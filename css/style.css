@@ -30,34 +30,52 @@ list-style: none;
 }
 
  /* header style */
- .center{
+ .home{
+   height: 800px;
+   width: auto;
     left: 0;
     line-height: 20px;
-    margin-top: -100px;
-    position: absolute;
+    margin-top: 150px;
+    position: relative;
     text-align: center;
     top: 50%;
     width: 100%;
-
  }
+
+ img {
+   height: 600px;
+   width: 500px;
+   max-width: 100%;
+   object-fit: scale-down;
+   float: right;
+
+ }   
+
+ 
  .fa-solid{
     font-size: 50px;
     color:#333258;
     padding-bottom: 30px;
  }
- h1{
+ .home h1{
     font-family: 'Comfortaa-300' ;
     font-size: 27px;
     -webkit-text-fill-color: #333258;
     text-decoration-color:#8C94CC;
     padding-bottom: 10px;
  }
- p{
+ .home p{
     font-family: 'Monserat-500';
     font-size: 16px;
     -webkit-text-fill-color: #333258;
     text-decoration-color:#8C94CC;
 
+
+ }
+ main{
+   height: 700px;
+   width: auto;
+   display: block;
 
  }
 body{
@@ -205,3 +223,39 @@ background-color: #474668;
 
 }
 }
+
+.about {
+   display :grid;
+   grid-template-rows: 100px 100px;
+   text-align: center;
+   line-height: 30px;
+   padding-top: 100px;
+   padding-bottom: 50px;
+   background-color: #474668;
+}
+
+
+
+.services1 {
+   display:grid;
+   grid-template-rows: 100px 100px;
+   justify-content: space-evenly;
+   color: black;
+   background-color: #F3F3F3;
+
+}
+
+.services1 h1{
+   text-align: center;
+   padding-top: 30px;
+}
+.services article{
+   
+}
+.contact {
+   height: 700px;   
+   display: inline-block;
+   width:100%;
+}
+*/
+/*    <img src="workingmum.png" class="background-image"  alt="a mum with a child and a laptop"> */
