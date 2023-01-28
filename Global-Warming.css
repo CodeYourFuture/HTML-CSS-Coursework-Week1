@@ -1,0 +1,89 @@
+html{
+    align-content: left; 
+    background-color: antiquewhite; 
+}
+
+body {
+text-align: left;
+max-width: 60%;
+align-content: left;
+margin:auto;
+}
+
+
+
+
+.block-text{
+    font-family: SF Pro;
+    font-weight: 400;
+    font-size: 0.8rem;
+
+}
+ .iBlock {
+    width: 19.3em;
+ }
+
+ 
+
+ h1{
+    font-family: SF Pro;
+    font-weight: 700;
+    font-size: 4rem;
+    text-align: left;
+    color: rgb(41, 24, 24);
+ }
+
+ h2{
+    font-family: SF Pro;
+    font-weight: 400;
+    font-size: 1.8rem;
+    text-align: left;
+ }
+
+ h3{ 
+    margin: auto; 
+    font-family: SF Pro;
+    font-weight: 600;
+    font-size: 1.5rem;
+    text-align: left;
+    margin-top: 2rem;
+   
+ }
+
+ .pHead{
+    font-family: SF Pro;
+    font-weight: 400;
+    font-size: 0.8rem;
+    margin:auto;
+    margin-bottom: 4rem;
+ }
+
+ #line{
+    border-bottom: solid gray 0.1rem;
+    width: 100%;
+ }
+
+ footer{
+    background-color: rgb(149, 114, 70);
+    padding: 2rem;
+    font-family: SF Pro;
+    font-weight: 400;
+    font-size: 0.8rem;
+    color: rgb(223, 219, 215);
+ }
+
+ .block1:first-child {
+   background-color: rgb(100, 92, 92);
+   color: white;
+  padding: 0 1rem 0 1rem;
+ }
+
+ .block1:first-child .iBlock {
+    width: 15.6rem;
+    padding-top: 1rem;
+  }
+
+  .block1:first-child a {
+    color:rgb(118, 186, 186);
+  }
+ 
