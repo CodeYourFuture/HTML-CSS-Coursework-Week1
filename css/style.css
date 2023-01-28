@@ -16,7 +16,8 @@ body {
   background: #e796b1;
 }
 /* The navbar container */
-.topnav {
+.topnav,
+.footer {
   overflow: hidden;
   background-color: #4f3850;
 }
@@ -55,6 +56,9 @@ body {
 /* Footer */
 .footer {
   padding: 20px;
+  display: block;
+  text-decoration: none;
+  color: #f2f2f2;
   text-align: center;
   background: #4f3850;
   margin-top: 20px;
