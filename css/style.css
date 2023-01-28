@@ -32,6 +32,11 @@ body {
   text-decoration: none;
 }
 
+/*  Header  */
+.Header {
+  text-align: center;
+}
+
 /* Links - change color on hover */
 .footer a:hover,
 .topnav a:hover {
