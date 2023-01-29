@@ -1,8 +1,8 @@
-/** Header */
+
 html {
     font-family: 'Inconsolata', monospace;
  }
-
+ /** General styles */
  body{
     display: flex;
     justify-content: center;
@@ -12,6 +12,7 @@ html {
     background-color: #f5ebe0;
     margin: 0;
  }
+/** Header */
 header{
     display: flex;
     flex-direction: column;
@@ -20,6 +21,7 @@ header{
     background-image: url("https://www.freewebheaders.com/wp-content/gallery/swimming/pool-swimming-sport-header.jpg");
     width: 80%;
 }
+/** Text styles */
 h1{
     font-size: 50px;
     align-items: center;
@@ -29,17 +31,18 @@ h2{
     font-size: 15px;
     width: 50rem;
     color:  rgb(236, 252, 252);
-}
+}/** Articles */
 section {
     padding: 1rem;
     width: 40rem;
     align-items: center;
 }
-footer {
-    padding: 10px 20px;   
-}
+
 article:first-child{
     padding: 1rem;
-    border: 1rem solid bisque;
-    
+    border: 1rem solid bisque; 
+}
+/** Footer */
+footer {
+    padding: 10px 20px;   
 }
