@@ -1,8 +1,48 @@
-/**
- * Add your custom styles below
- * 
- * Remember: 
- * - Be organised, use comments and separate your styles into meaningful chunks
- *    for example: General styles, Navigation styles, Hero styles, Footer etc.
- * 
- */
+
+html {
+    font-family: 'Inconsolata', monospace;
+ }
+ /** General styles */
+ body{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 40px;
+    background-color: #f5ebe0;
+    margin: 0;
+ }
+/** Header */
+header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url("https://www.freewebheaders.com/wp-content/gallery/swimming/pool-swimming-sport-header.jpg");
+    width: 80%;
+}
+/** Text styles */
+h1{
+    font-size: 50px;
+    align-items: center;
+    color: rgb(236, 252, 252);
+}
+h2{
+    font-size: 15px;
+    width: 50rem;
+    color:  rgb(236, 252, 252);
+}/** Articles */
+section {
+    padding: 1rem;
+    width: 40rem;
+    align-items: center;
+}
+
+article:first-child{
+    padding: 1rem;
+    border: 1rem solid bisque; 
+}
+/** Footer */
+footer {
+    padding: 10px 20px;   
+}
