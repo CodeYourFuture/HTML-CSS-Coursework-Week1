@@ -6,3 +6,106 @@
  *    for example: General styles, Navigation styles, Hero styles, Footer etc.
  * 
  */
+/* =================
+  WRITE YOUR CSS HERE.
+  Check the ⌄ for help with formatting and validating your code.
+  You must write some CSS to complete this challenge.
+   ===================
+*/
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Unbounded:wght@200&display=swap');
+
+
+.aside {
+        width: 40%;
+        padding-left: 30px;
+        margin-left: 30px;
+        margin-bottom: 1rem;
+        float:right;
+        box-shadow: inset 5px 0 5px -5px #29627e;
+        font-style: italic;
+        color: #0c2938;
+        background-color: #92AFD7;
+        border: 2px solid white;
+    
+    
+    }
+
+.title {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Unbounded', cursive;;
+}
+
+.image {
+    display: block;
+    border: 2px solid white;
+    margin: 0 auto;
+    margin-bottom: 1rem;
+}
+.navbar {
+    background-color: #92AFD7;
+    text-align:center;
+    padding: 1rem;
+          
+}
+
+nav a {
+    color: black;
+    margin-left: 20px;
+    font-size: 1.4em;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.iframe {
+    display:block;
+    margin: 0 auto;
+    border: 2px solid white;
+
+}
+body {
+    background-color: #C5D1EB;
+}
+.footer {
+    background-color: #5A7684;
+    color: white;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    text-align: center;
+}
+
+p {
+font-family: 'Raleway', sans-serif;
+margin-left: 60px;
+margin-right: 60px;
+color: black;
+font-size: large;
+line-height: 2em;
+
+}
+
+h1 {
+    font-size: 3em;
+}
+
+h2 {
+    text-align: center;
+    font-size: 2em;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Unbounded', cursive;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Unbounded', cursive;
+}
+
+.pfooter {
+    color: white;
+}
