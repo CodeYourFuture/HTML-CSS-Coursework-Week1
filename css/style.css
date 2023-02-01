@@ -6,3 +6,29 @@
  *    for example: General styles, Navigation styles, Hero styles, Footer etc.
  * 
  */
+
+body 
+{
+  font-family: Arial, serif;
+  font-size: 1rem;
+  font-weight: normal;
+  line-height: 1.5;
+  background-color: white;
+  color: black;
+  
+
+}
+
+
+main
+{
+    margin:5% 20%;
+}
+
+ /**styling header section */
+
+ #header_id
+ {
+    margin:5% 10%;
+    background-color: rgb(142, 144, 145);
+ }
