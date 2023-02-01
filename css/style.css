@@ -6,3 +6,65 @@
  *    for example: General styles, Navigation styles, Hero styles, Footer etc.
  * 
  */
+body{
+    background-color: rgb(155, 82, 223);
+}
+
+.header{
+    display: flex;
+    border-radius: 0;
+    border: 0;
+    justify-content: center;
+    color: #fff;
+}
+.main{
+    padding: 50px;
+    color: bisque;
+    
+}
+h2{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    color: bisque;
+
+}
+.main p{
+    display: flex;
+    font-size: 1.2rem;
+    font-style: oblique;
+    text-align: center;
+    justify-content: center;
+}
+section p{
+    display: flex;
+    font-size: 1.2rem;
+    font-style: oblique;
+    text-align: center;
+    justify-content: center;
+    color: bisque;
+}
+section h3{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    color: bisque;
+}
+.sec {
+    padding: 40px;
+}
+.nav1 {
+    padding: 30px;
+    color: gold;
+}
+.foot{
+    padding: 30px;
+    color: gold;
+}
+.foot a{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding-top: 40px;
+    color: #fff;
+}
