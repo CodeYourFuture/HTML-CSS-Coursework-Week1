@@ -6,3 +6,40 @@
  *    for example: General styles, Navigation styles, Hero styles, Footer etc.
  * 
  */
+
+body 
+{
+  font-family: Arial, serif;
+  font-size: 1rem;
+  font-weight: normal;
+  line-height: 1.5;
+  background-color: rgb(235, 236, 236);
+  color: black;
+}
+
+
+main
+{
+    margin:5% 20%;
+}
+
+ /**styling header section */
+
+ #header_id
+ {
+    margin:5% 10%;
+    
+ }
+
+ img
+ {
+    width: 100%;
+
+ }
+ 
+ article:first-child
+ {
+    border: 2px solid  rgb(149, 150, 150);
+ }
+
+ 
