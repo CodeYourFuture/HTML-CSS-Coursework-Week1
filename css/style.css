@@ -6,3 +6,59 @@
  *    for example: General styles, Navigation styles, Hero styles, Footer etc.
  * 
  */
+:root {
+  --black: #000;
+  --blue-light: #96b1cd;
+  --pink-dark: #bdb7bf;
+  --pink-light: #ebebee;
+  --white: #fff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header,
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1rem;
+  padding-top: 1rem;
+  padding: 1rem 1.5rem;
+  height: 150px;
+  background-color: var(--pink-dark);
+}
+
+h1 {
+  margin-bottom: 10px;
+}
+article {
+  margin-bottom: 1rem;
+  border: 1px solid var(--green-dark);
+  border-radius: 5px;
+  padding: 10px;
+}
+
+article:first-child {
+  background-color: var(--pink-light);
+}
+
+article:last-child {
+  background-color: var(--pink-light);
+}
+
+summary {
+  padding: 10px;
+  text-align: justify;
+}
+main {
+  display: flex;
+  justify-content: space-around;
+}
+img {
+  width: 100%;
+}
