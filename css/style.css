@@ -139,3 +139,25 @@ li {
     transition: all ease 0.3s;
 }
 
+.footer {
+    display: flex;
+    color: gray;
+    text-align:center;
+    justify-content: center;
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+.footer-link {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-size: 2.5rem;
+
+}
+
+.footer-link:hover{
+    cursor: pointer;
+    color: blue;
+    transition: all ease 0.3s;
+}
