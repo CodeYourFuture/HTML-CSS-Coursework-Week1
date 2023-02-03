@@ -6,3 +6,60 @@
  *    for example: General styles, Navigation styles, Hero styles, Footer etc.
  * 
  */
+ * {
+    margin: 0px;
+    padding:0px;
+}
+header {
+  
+    justify-content: left;
+
+    top: 15px;
+    left: 15px;
+    width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.9) 0px 2px 0px;
+    z-index: 10;
+    background-color:white;
+   
+}
+
+
+body {
+    margin:0;
+    height: 100%;
+    font-family: popins,sansarif;
+    font-weight: 350;
+    font-size: 1.9rem;
+    line-height: 1.1;
+    color: blue;
+    background-color: rgb(217, 192, 196);
+}
+
+a{
+  color:blue;
+}
+
+.nav-list{
+    display: flex;
+    margin-right: 2rem;
+}
+
+nav, li {
+    list-style: none;
+}
+.c-site-header a {
+    text-decoration: none;
+    color: blue;
+
+}
+
+.nav-list a {
+    display: block;
+    font-size: 2.5rem;
+    padding: 1.3rem;
+}
+
+.c-site-footer{
+  background-color:white;
+  text-align:center;
+}
