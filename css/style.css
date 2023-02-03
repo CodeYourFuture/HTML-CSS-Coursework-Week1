@@ -6,3 +6,158 @@
  *    for example: General styles, Navigation styles, Hero styles, Footer etc.
  * 
  */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,500&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #202325;
+}
+
+li, a, button {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: aliceblue;
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+} 
+ 
+.logo {
+    cursor: pointer;
+ }
+
+.navigation_links {
+    list-style: none;
+} 
+
+.navigation_links li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.navigation_links li a {
+    transition:all 0.3s ease 0s;
+}
+
+.navigation_links li a:hover {
+    color: #202325;
+}
+
+button {
+    padding: 9px 25px;
+    background-color: rgb(48, 44, 44);
+    border: none;
+    border-radius: 40px;
+    cursor: pointer;
+    transition:all 0.3s ease 0s;
+}
+
+button:hover {
+    background-color: black;
+}
+
+li {
+    cursor: pointer;
+}
+
+.blog-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0px;
+    flex-wrap: wrap;
+}
+
+.blog-box {
+    width: 350px;
+    background-color: aliceblue;
+    border: 1px solid white;
+    margin: 20px;
+}
+
+.blog-img {
+    width: 100%;
+    height: auto;
+}
+
+.blog-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.blog-text {
+    padding: 19px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.blog-text span {
+    color: rgb(3, 3, 3);
+    font-size: 1.75rem;
+}
+
+.blog-text .blog-title {
+    font-size: 1.36rem;
+    font-weight: 500;
+    color: #efeff0;
+}
+
+.blog-text .blog-title:hover {
+    cursor: pointer;
+    color: blue;
+    transition: all ease 0.3s;
+}
+
+.blog-text p {
+    color: azure;
+    font-size: 1.1rem;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin: 20px 0px;
+}
+
+.blog-text a {
+    color: black;
+}
+
+.blog-text a:hover {
+    color:rgb(48, 44, 44);
+    transition: all ease 0.3s;
+}
+
+.footer {
+    display: flex;
+    color: gray;
+    text-align:center;
+    justify-content: center;
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+.footer-link {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-size: 2.5rem;
+
+}
+
+.footer-link:hover{
+    cursor: pointer;
+    color: blue;
+    transition: all ease 0.3s;
+}
