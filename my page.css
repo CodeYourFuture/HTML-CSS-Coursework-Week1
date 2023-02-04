@@ -1,0 +1,53 @@
+body{
+    margin: 0;
+}
+
+
+.header{
+    background:#1abc9c;
+    color: aliceblue;
+    text-align: center;
+        font-size: 30px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.navbar{
+   
+    background: rgb(188, 186, 186);
+    display: flex;
+    justify-content: end;
+    border: 3px rgb(155, 153, 153) solid;
+            font-size: 20px;
+            line-sty
+
+    
+}
+.home:hover{
+
+    transform: translateY(-10px);
+}
+.home{
+        margin-right: 20;
+    background: #f5f7f7;
+        padding: 10px;
+        border-radius: 50px;
+                text-decoration: none;
+        
+}
+.stories{
+        margin-right: 20;
+    background: #f8fbfa;
+        padding: 10px;
+        border-radius: 50px;
+        flex-wrap: wrap;
+        text-decoration: none;
+}
+.contact{
+            background: #fafdfc;
+                padding: 10px;
+                border-radius: 50px;
+                        text-decoration: none;
+
+}
+
