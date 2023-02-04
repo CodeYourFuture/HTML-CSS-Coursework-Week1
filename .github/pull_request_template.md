@@ -2,8 +2,8 @@
 
 The title for your pull request should be made in this format
 
-CITY CLASS_NO - FIRST_NAME LAST_NAME - MODULE - WEEK_NO
-
+C MODULE - WEEK_NO
+ITY CLASS_NO - FIRST_NAME LAST_NAME -
 For example,
 
 London Class 7 - Chris Owen - HTML/CSS - Week 1
