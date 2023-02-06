@@ -1,8 +1,6 @@
-/**
- * Add your custom styles below
- * 
- * Remember: 
- * - Be organised, use comments and separate your styles into meaningful chunks
- *    for example: General styles, Navigation styles, Hero styles, Footer etc.
- * 
- */
+header {
+    text-align: center;
+    text-align: center;
+    background-color:rgb(229, 212, 171);
+    padding:20px;
+    }
