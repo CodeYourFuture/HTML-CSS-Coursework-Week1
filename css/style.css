@@ -18,6 +18,8 @@
     --light-gray:var(#d3d3d3);
     --gray:var(#808080);
 }
+
+
  
 body{
 background-color: #fff;
@@ -32,6 +34,7 @@ justify-content: space-between;
 align-items: center;
 margin: 1rem;
 padding: 1rem;
+background-color: white;
 
 } 
 
