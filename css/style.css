@@ -7,7 +7,13 @@
  * 
  */
 
+
 /*general styling */
+
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
 .title {
     margin-top: 0px;
     text-align: center;
@@ -22,11 +28,14 @@
 /* nav styling */ 
 .topnav {
     background-color: rgb(178, 113, 193);
-    overflow: hidden;
+   display: flex;
+   justify-content: right;
+
 }
 
 /* Style the links inside the navigation bar */
 .topnav a {
+    width: 10%;
     float:left;
     display: block;
     color: #f2f2f2;
@@ -34,6 +43,8 @@
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
+    display: flex;
+    justify-content: space-between;
 }
 
 /* Change the color of links on hover */
@@ -129,4 +140,14 @@ footer{
     height: 320px;
     width: 460px;
     }
+}
+.text-container{
+    background-image: linear-gradient(to right, rgb(221, 101, 237), rgb(243, 202, 233));
+    padding: 4rem;
+}
+.cyf-info{
+    display: flex;
+    justify-content: center;
+    font-weight: 500;
+   
 }
