@@ -6,3 +6,16 @@
  *    for example: General styles, Navigation styles, Hero styles, Footer etc.
  * 
  */
+h1,h2{
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+}
+ p{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.article-img{
+margin-left: 20%;
+width: 40rem;
+height: 25rem;
+}
