@@ -1,8 +1,35 @@
-/**
- * Add your custom styles below
- * 
- * Remember: 
- * - Be organised, use comments and separate your styles into meaningful chunks
- *    for example: General styles, Navigation styles, Hero styles, Footer etc.
- * 
- */
+
+  body {
+    font-family: Arial;
+    padding: 20px;
+    background: #f1f1f1;
+    width: 95%;
+  }
+  
+  /* Header/Blog Title */
+  .header {
+    padding: 30px;
+    font-size: 15px;
+    text-align: center;
+    background: white;
+    border-bottom: black;
+  }
+  footer{
+    padding: 30px;
+    font-size: 15px;
+    text-align: center;
+    background: white;
+    width: 95%;
+  
+  }
+
+  /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 800px) {
+    .leftcolumn, .rightcolumn {
+      width: 100%;
+      padding: 0.1;
+    }
+  }
+
+
+  
