@@ -1,23 +1,21 @@
-body {
-    background-color: powderblue;
-  }
+body 
  
-  .all-browsers {
+  .all-article {
     margin: 0;
     padding: 5px;
     background-color: lightgray;
   }
   
-  .all-browsers > h1, .browser {
+  .all-article > h1, .browser {
     margin: 10px;
     padding: 5px;
   }
   
-  .browser {
+  .article {
     background: white;
   }
   
-  .browser > h2, p {
+  .article > h2, p {
     margin: 4px;
     font-size: 90%;
   }
