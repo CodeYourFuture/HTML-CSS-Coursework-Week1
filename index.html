@@ -14,9 +14,135 @@
     />
     <link rel="stylesheet" href="css/style.css" />
     <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+    <script
+      src="https://kit.fontawesome.com/a5a8afe552.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
     <!-- Add your HTML markup here -->
     <!-- Remember: Use semantic HTML tags like <header>, <main>, <nav>, <footer>, <section> etc -->
+    <nav class="navbar">
+      <!-- NAVIGATION MENU -->
+      <div class="logo">
+        <img src="logo.jpg" class="img-fluid" />
+      </div>
+      <ul class="nav-links">
+        <!-- USING CHECKBOX  -->
+        <input type="checkbox" id="checkbox_toggle" />
+        <label for="checkbox_toggle" class="hamburger">&#9776;</label>
+
+        <!-- NAVIGATION MENUS -->
+        <div class="menu">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li class="services">
+            <a href="#services">Services</a>
+            <ul class="dropdown">
+              <li><a href="/">Career coaching </a></li>
+              <li><a href="/">Networking </a></li>
+              <li><a href="/"></a>Training Opportunities</li>
+            </ul>
+          </li>
+          <li><a href="#contact">Contact</a></li>
+        </div>
+      </ul>
+    </nav>
+
+    <main class="home" id="home">
+      <i class="fa-solid fa-terminal"></i>
+      <h1>in the midst of it all</h1>
+      <p>we are here for you</p>
+      <img
+        src="workingmum.png"
+        class="background-image"
+        alt="a mum with a child and a laptop"
+      />
+      */
+    </main>
+
+    <!--About-->
+    <header class="about" id="about">
+      <section>
+        <h2>A little about Us..</h2>
+        <p>
+          We are a volunteer led organisation helping mums in tech <br />
+          achieve their full potential by career coaching,trainings,<br />
+          social activities and seminars.
+        </p>
+      </section>
+    </header>
+
+    <div class="services1" id="services">
+      <h1 class="services2">Services</h1>
+      <div class="article-container">
+        <article>
+          <h2>Career Coaching</h2>
+          <p>
+            We offer coaching and support to mums who already are in the tech
+            industry or want to get into it.<br />
+            How to achieve their dream jobs or getting a promotion.
+          </p>
+        </article>
+
+        <article>
+          <h2>Networking</h2>
+          <p>
+            Weekly meetings with moms who are going through motherhood and the
+            career , <br />
+            sharing thoughts and ideas and supporting one another.
+          </p>
+        </article>
+
+        <article>
+          <h2>Training Opportunities</h2>
+          <p>
+            We offer free training with our partner organisation in software
+            Development,<br />
+            Graphic Design ,IT Consultancy to help progress in your career.
+          </p>
+        </article>
+      </div>
+    </div>
   </body>
+  <footer>
+    <section class="footer">
+      <div class="contact" id="contact">
+        <div class="colum-1">
+          <h2>Contact</h2>
+          <p>in the midst of it all</p>
+          <p>London,United Kingdom</p>
+        </div>
+        <div class="colum-2">
+          <p>012-345-6790</p>
+          <p>email@gmail.com</p>
+        </div>
+      </div>
+      <div class="column-3">
+        <h4>Stay connected</h4>
+        <a href="#" class="anchor"
+          ><i class="fa-brands fa-facebook"></i>Facebook</a
+        >
+        <a href="#" class="anchor"
+          ><i class="fa-brands fa-instagram"></i>Instagram</a
+        >
+        <a href="#" class="anchor"
+          ><i class="fa-brands fa-twitter"></i>Twitter</a
+        >
+      </div>
+      <div class="form-container">
+        <h4>Or leave a message here</h4>
+        <div class="form-inline">
+          <input
+            class="space-between"
+            type="text"
+            name="fullname"
+            placeholder="Full name"
+          />
+          <br /><br />
+          <input type="text" name="email" placeholder="Email" /><br /><br />
+        </div>
+      </div>
+    </section>
+  </footer>
 </html>
