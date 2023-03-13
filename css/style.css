@@ -11,3 +11,8 @@ footer{
  margin-top: 80px;
 
 }
+
+section-1-header{
+    display: flex;
+    justify-content: space-around;
+}
