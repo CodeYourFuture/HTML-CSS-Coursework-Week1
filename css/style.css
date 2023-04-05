@@ -1,8 +1,185 @@
-/**
- * Add your custom styles below
- * 
- * Remember: 
- * - Be organised, use comments and separate your styles into meaningful chunks
- *    for example: General styles, Navigation styles, Hero styles, Footer etc.
- * 
- */
+:root{
+    --bg: #faf7f5;
+    --bg_dark: #ddcbc0;
+    --text: #73736f;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+    font-size: inherit;
+    color: inherit;
+}
+
+li{
+  list-style-type: none;
+}
+
+img{
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: var(--text);
+    background: white;
+    line-height: 1.2;
+    display: flex;
+    flex-direction: column;
+}
+
+main{
+    flex-grow: 1;
+}
+
+.container-centered {
+    margin: 0 auto;
+    padding: 0 24px;
+    max-width: 1024px;
+}
+
+section{
+    margin-bottom: 40px;
+}
+
+.section_title{
+    font-weight: 600;
+    font-size: 36px;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+/* HEADER */
+.header{
+    text-align: center;
+    padding-top: 30px;
+}
+
+.header_title{
+    margin-bottom: 20px;
+    font-size: 48px;
+}
+
+.header_subtitle{
+    margin-bottom: 40px;
+    font-weight: 300;
+}
+
+.header nav {
+    background: var(--bg);
+    text-align: center;
+}
+
+.header nav ul{
+    display: inline-flex;
+    flex-wrap: wrap;
+    column-gap: 10px;
+}
+
+.header nav li {
+    padding: 10px;
+}
+
+.header nav li:hover {
+    text-decoration: underline;
+}
+
+/* WELCOME */
+
+.welcome {
+    padding: 30px 0;
+    display: flex;
+    align-items: flex-start;
+    column-gap: 30px;
+    margin: 0 auto;
+}
+
+.welcome_title {
+    font-weight: 500;
+    margin-bottom: 24px;
+}
+
+.welcome_about p {
+    margin-bottom: 24px;
+}
+
+.welcome img {
+    width: 150px;
+}
+
+/*ARTICLE*/
+.article {
+    margin-bottom: 40px;
+    padding-bottom: 30px;
+}
+
+.article:first-child{
+    padding-top: 30px;
+    border-top: 1px solid var(--bg_dark);
+}
+
+.article_header {
+    margin-bottom: 16px;
+}
+
+.article_title{
+    margin-bottom: 8px;
+}
+
+.article_meta{
+    font-weight: 300;
+    font-style: italic;
+}
+
+.article img{
+    width: 100%;
+    margin-bottom: 24px;
+}
+
+.article_content {
+    display: flex;
+    flex-direction: column;
+    column-gap: 24px;
+    row-gap: 24px;
+}
+
+.article_link {
+    display: inline-block;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    color: white;
+    background: var(--bg_dark);
+    border: 1px solid var(--bg_dark);
+    margin-top: 30px;
+}
+
+.article_link:hover {
+    background: white;
+    color: var(--bg_dark);
+}
+
+/* FOOTER */
+.footer {
+    background: var(--bg);
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+@media screen and (min-width: 700px){
+    .article_content {
+        flex-direction: row;
+    }
+
+    .article img{
+        max-width: 60%;
+    }
+}
