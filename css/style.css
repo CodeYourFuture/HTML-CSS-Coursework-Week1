@@ -1,8 +1,56 @@
-/**
- * Add your custom styles below
- * 
- * Remember: 
- * - Be organised, use comments and separate your styles into meaningful chunks
- *    for example: General styles, Navigation styles, Hero styles, Footer etc.
- * 
- */
+img {
+    height: 400px;
+    width: 700px;
+}
+
+header {
+    background-color: #F0F0F0;
+    padding: 20px;
+  }
+  
+  header h1 {
+    font-size: 36px;
+    margin: 0;
+  }
+  
+  header p {
+    font-size: 18px;
+    margin: 10px 0;
+  }
+  
+  /* Style for navigation bar */
+  nav {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+  }
+  
+  /* Style for article elements */
+  article {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  article h2 {
+    font-size: 24px;
+    margin-top: 0;
+  }
+  
+  article p {
+    font-size: 16px;
+    margin: 10px 0;
+  }
+  
+  article img {
+    max-width: 100%;
+  }
+  
+  /* Style for footer element */
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+  }
+ 
