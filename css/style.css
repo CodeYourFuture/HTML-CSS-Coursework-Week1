@@ -31,11 +31,17 @@ img {
     align-self: center;
 }
 p {
-    font-size: larger;
+    font-size: x-large;
     text-indent: 30px;
-    line-height: 1.5;
+    line-height: 1.5;  
+}
+h1 {
+    text-align: center;
+    font-size: 30px;
     
-    
+}
+h3 {
+    font-size: 25px;
 }
 a {
     text-decoration: underline;
@@ -45,4 +51,7 @@ footer {
     background-color: #93BFCF;
     padding-bottom: 5px;
     padding-top: 5px;
+}
+#headerP {
+font-style: italic;
 }
