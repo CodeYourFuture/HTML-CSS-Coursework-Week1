@@ -18,7 +18,7 @@
   }
   
   .navigation__list {
-    display: flex;
+    display: flex; 
     list-style: none;
     color: #3835f0;
   }
@@ -45,7 +45,7 @@ border-width: 0.1rem;
     color: #3835f0
     }
         
-.h1:first-child {
+.section:first-child {
     background: #d4d3eb;
 }
       
