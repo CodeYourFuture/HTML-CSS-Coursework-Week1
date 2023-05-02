@@ -6,6 +6,9 @@
  *    for example: General styles, Navigation styles, Hero styles, Footer etc.
  * 
  */
+
+
+
  .header {
     display: flex;
     align-items: center;
@@ -46,10 +49,28 @@ margin-bottom: 1rem;
 .article__read-more a {
         font-size: 0.85rem;
         font-weight: 700;
-        color: var(--orange-dark);
+        color:aquamarine;
         text-decoration: none;
       }
       
+.article__read-more a:hover,
+.article__read-more a:focus {
+text-decoration: underline;
+      }
 
-
+      .footer {
+        margin-top: 2rem;
+      }
+      
+      .footer__content {
+        border-top: 2px;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+      }
+      
+      .footer p {
+        padding-bottom: 1rem;
+        text-align: center;
+        font-size: 0.85rem;
+      }
       
