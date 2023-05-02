@@ -10,7 +10,6 @@
 
 
  .header {
-    display: flex;
     align-items: center;
     justify-content: space-between;
     height: 5rem;
@@ -21,6 +20,7 @@
   .navigation__list {
     display: flex;
     list-style: none;
+    color: #3835f0;
   }
   
   .navigation__item {
@@ -28,28 +28,40 @@
   }
   
   .navigation__link {
-    color: var(--grey-dark);
+
     font-weight: 600;
     text-transform: uppercase;
     text-decoration: none;}
 
-   
+.section{
+
+border-width: 0.1rem;
+  border-style: solid;
+  border-color: grey;
+  padding: 1rem;
+}
+
+.article_title {
+    color: #3835f0
+    }
+        
+.h1:first-child {
+    background: #d4d3eb;
+}
       
 .article__summary {
- margin-top: 0;
+margin-top: 0;
 margin-bottom: 1rem;
         
       }
       
      
-.article__read-more {
- margin-top: 0;
-      }
+
       
 .article__read-more a {
         font-size: 0.85rem;
         font-weight: 700;
-        color:aquamarine;
+        color: #3835f0;
         text-decoration: none;
       }
       
