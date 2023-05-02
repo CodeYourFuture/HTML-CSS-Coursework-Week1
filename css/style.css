@@ -6,3 +6,43 @@
  *    for example: General styles, Navigation styles, Hero styles, Footer etc.
  * 
  */
+body {
+  margin: 0;  
+  height: 100%;
+  background-color: #F1F6F9;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+header {
+    text-align: center;
+    background-color: #93BFCF;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+main {
+    text-align: justify;
+
+}
+img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: o auto;
+    align-self: center;
+}
+p {
+    font-size: larger;
+    text-indent: 30px;
+    line-height: 1.5;
+    
+    
+}
+a {
+    text-decoration: underline;
+}
+footer {
+    text-align: center;
+    background-color: #93BFCF;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
