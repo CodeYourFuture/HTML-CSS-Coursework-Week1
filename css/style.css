@@ -6,3 +6,83 @@
  *    for example: General styles, Navigation styles, Hero styles, Footer etc.
  * 
  */
+
+
+
+ .header {
+    align-items: center;
+    justify-content: space-between;
+    height: 5rem;
+    margin-bottom: 1rem;
+    padding-top: 1rem;
+  }
+  
+  .navigation__list {
+    display: flex; 
+    list-style: none;
+    color: #3835f0;
+  }
+  
+  .navigation__item {
+    padding: 2rem;
+  }
+  
+  .navigation__link {
+
+    font-weight: 600;
+    text-transform: uppercase;
+    text-decoration: none;}
+
+.section{
+
+border-width: 0.1rem;
+  border-style: solid;
+  border-color: grey;
+  padding: 1rem;
+}
+
+.article_title {
+    color: #3835f0
+    }
+        
+.section:first-child {
+    background: #d4d3eb;
+}
+      
+.article__summary {
+margin-top: 0;
+margin-bottom: 1rem;
+        
+      }
+      
+     
+
+      
+.article__read-more a {
+        font-size: 0.85rem;
+        font-weight: 700;
+        color: #3835f0;
+        text-decoration: none;
+      }
+      
+.article__read-more a:hover,
+.article__read-more a:focus {
+text-decoration: underline;
+      }
+
+      .footer {
+        margin-top: 2rem;
+      }
+      
+      .footer__content {
+        border-top: 2px;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+      }
+      
+      .footer p {
+        padding-bottom: 1rem;
+        text-align: center;
+        font-size: 0.85rem;
+      }
+      
