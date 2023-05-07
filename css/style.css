@@ -6,3 +6,60 @@
  *    for example: General styles, Navigation styles, Hero styles, Footer etc.
  * 
  */
+body {
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+a {
+  color: #0077cc;
+  text-decoration: none;
+}
+
+header,
+footer {
+  background-color: #f2f2f2;
+  padding: 10px;
+}
+
+header {
+  text-align: center;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  width: clamp(320px, 75%, 763px);
+  margin: 0 auto;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+article {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+img {
+  width: 100%;
+}
+
+.first {
+  background-color: #f2f2f2;
+}
+
+h1,
+h2 {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+p {
+  margin-bottom: 10px;
+}
+
+footer {
+  text-align: center;
+  margin-top: 20px;
+}
