@@ -6,50 +6,48 @@
  *    for example: General styles, Navigation styles, Hero styles, Footer etc.
  * 
  */
-html,
 body {
-    height: 100%;
-    background-color: rgb(190, 181, 181);
+  background-color: rgb(190, 181, 181);
+  max-width: 1000px;
+  margin: 0 auto;
 }
 
-main {
-    min-height: calc(100% - 100px);
-    /* subtract the height of the footer */
-    padding-bottom: 50px;
-    /* make room for the footer */
-}
 .header {
-    text-align: center;
-    background-color: rgb(136, 118, 118);
-    height: 150px;
-    justify-content: center;
-    display:flexbox;
-    align-items: center;
-    padding: 15px;
+  text-align: center;
+  background-color: rgb(136, 118, 118);
+  height: 150px;
+  justify-content: center;
+  display: flexbox;
+  align-items: center;
+  padding: 15px;
 }
 .divimg {
-    width: 100%;
-    height: 0px;
+  width: auto;
+  height: auto;
 }
 img {
-    width: 100%;
-    height: 500px;
+  width: 100%;
+  height: 500px;
 }
 footer {
-    bottom: 0;
-    width: 100%;
-    height: 100px;
-    background-color: rgb(120, 133, 138);
-    list-style: none;
-    position: absolute;
-    /* adjust to your desired height */
+  bottom: 0;
+  width: 100%;
+  height: 100px;
+  background-color: rgb(120, 133, 138);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  /* adjust to your desired height */
 }
 ul {
-    list-style: none;
-    display:flex;
-    justify-content: space-between;
-    align-items: center;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 li {
-    display:inline-flex;
+  display: inline;
+  justify-content: space-between;
+  margin-right: 20px;
 }
